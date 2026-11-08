@@ -1,0 +1,46 @@
+{
+ "n": 220,
+ "geloest_ohne": 109,
+ "lr": 4.030451838477603,
+ "p_lr": 0.13329028712395155,
+ "widerlegt": true,
+ "auc_cv_m0": 0.7227870071906769,
+ "auc_cv_m1": 0.7295644268121332,
+ "koef_sT": -0.5358844342318848,
+ "koef_sC": -0.29271748995558866,
+ "vergleich": {
+  "Set B · eigen": {
+   "n": 60,
+   "ohne": 32,
+   "mit": 23,
+   "nur_ohne": 14,
+   "nur_mit": 5,
+   "p": 0.063568115234375,
+   "weiche_n": 12,
+   "weiche_treffer": 25,
+   "weiche_tokens_rel": -0.1277913790823033
+  },
+  "MATH-500 1–160 · ERGORE": {
+   "n": 160,
+   "ohne": 77,
+   "mit": 79,
+   "nur_ohne": 19,
+   "nur_mit": 21,
+   "p": 0.8746293123804207,
+   "weiche_n": 32,
+   "weiche_treffer": 76,
+   "weiche_tokens_rel": -0.09296554898222031
+  },
+  "MATH-500 1–160 · MIT": {
+   "n": 160,
+   "ohne": 77,
+   "mit": 77,
+   "nur_ohne": 22,
+   "nur_mit": 22,
+   "p": 1.0,
+   "weiche_n": 32,
+   "weiche_treffer": 71,
+   "weiche_tokens_rel": -0.08131816976294082
+  }
+ }
+}

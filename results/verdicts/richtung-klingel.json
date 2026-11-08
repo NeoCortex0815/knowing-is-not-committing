@@ -1,0 +1,199 @@
+{
+ "statistik": {
+  "texte": 314,
+  "pos_rep": 471,
+  "pos_prod": 471
+ },
+ "schichten": {
+  "0": {
+   "d_prime": 1.822,
+   "abstand": 0.077,
+   "cos_mit_15": 0.084,
+   "cos_mit_19": 0.098,
+   "stabilitaet_cos_halbe": 0.9737
+  },
+  "1": {
+   "d_prime": 2.195,
+   "abstand": 0.139,
+   "cos_mit_15": 0.036,
+   "cos_mit_19": 0.014,
+   "stabilitaet_cos_halbe": 0.9629
+  },
+  "2": {
+   "d_prime": 2.82,
+   "abstand": 0.166,
+   "cos_mit_15": 0.073,
+   "cos_mit_19": 0.061,
+   "stabilitaet_cos_halbe": 0.9323
+  },
+  "3": {
+   "d_prime": 3.567,
+   "abstand": 0.225,
+   "cos_mit_15": 0.075,
+   "cos_mit_19": 0.063,
+   "stabilitaet_cos_halbe": 0.9466
+  },
+  "4": {
+   "d_prime": 4.384,
+   "abstand": 0.24,
+   "cos_mit_15": 0.005,
+   "cos_mit_19": 0.02,
+   "stabilitaet_cos_halbe": 0.9599
+  },
+  "5": {
+   "d_prime": 5.189,
+   "abstand": 0.278,
+   "cos_mit_15": 0.013,
+   "cos_mit_19": 0.003,
+   "stabilitaet_cos_halbe": 0.9665
+  },
+  "6": {
+   "d_prime": 5.445,
+   "abstand": 0.464,
+   "cos_mit_15": 0.032,
+   "cos_mit_19": 0.022,
+   "stabilitaet_cos_halbe": 0.9747
+  },
+  "7": {
+   "d_prime": 5.361,
+   "abstand": 0.394,
+   "cos_mit_15": 0.02,
+   "cos_mit_19": 0.011,
+   "stabilitaet_cos_halbe": 0.9732
+  },
+  "8": {
+   "d_prime": 4.097,
+   "abstand": 0.389,
+   "cos_mit_15": 0.056,
+   "cos_mit_19": 0.042,
+   "stabilitaet_cos_halbe": 0.9766
+  },
+  "9": {
+   "d_prime": 4.739,
+   "abstand": 0.411,
+   "cos_mit_15": 0.043,
+   "cos_mit_19": 0.007,
+   "stabilitaet_cos_halbe": 0.9751
+  },
+  "10": {
+   "d_prime": 4.028,
+   "abstand": 0.432,
+   "cos_mit_15": 0.049,
+   "cos_mit_19": 0.018,
+   "stabilitaet_cos_halbe": 0.9694
+  },
+  "11": {
+   "d_prime": 3.466,
+   "abstand": 0.441,
+   "cos_mit_15": 0.06,
+   "cos_mit_19": 0.03,
+   "stabilitaet_cos_halbe": 0.9707
+  },
+  "12": {
+   "d_prime": 3.498,
+   "abstand": 0.497,
+   "cos_mit_15": 0.018,
+   "cos_mit_19": 0.001,
+   "stabilitaet_cos_halbe": 0.9708
+  },
+  "13": {
+   "d_prime": 3.294,
+   "abstand": 0.572,
+   "cos_mit_15": 0.058,
+   "cos_mit_19": 0.035,
+   "stabilitaet_cos_halbe": 0.9694
+  },
+  "14": {
+   "d_prime": 3.257,
+   "abstand": 0.682,
+   "cos_mit_15": 0.061,
+   "cos_mit_19": 0.04,
+   "stabilitaet_cos_halbe": 0.9621
+  },
+  "15": {
+   "d_prime": 3.34,
+   "abstand": 0.765,
+   "cos_mit_15": 0.096,
+   "cos_mit_19": 0.051,
+   "stabilitaet_cos_halbe": 0.9599,
+   "tensor": "model.language_model.layers.15.mlp.down_proj.weight",
+   "top_k": 64,
+   "ueberschneidung_mit_spalten": 4,
+   "ueberschneidung_bei_mit_u": 11
+  },
+  "16": {
+   "d_prime": 3.049,
+   "abstand": 0.921,
+   "cos_mit_15": 0.077,
+   "cos_mit_19": 0.036,
+   "stabilitaet_cos_halbe": 0.9611
+  },
+  "17": {
+   "d_prime": 2.637,
+   "abstand": 1.029,
+   "cos_mit_15": 0.078,
+   "cos_mit_19": 0.057,
+   "stabilitaet_cos_halbe": 0.9625
+  },
+  "18": {
+   "d_prime": 2.556,
+   "abstand": 1.141,
+   "cos_mit_15": 0.081,
+   "cos_mit_19": 0.068,
+   "stabilitaet_cos_halbe": 0.9596
+  },
+  "19": {
+   "d_prime": 2.605,
+   "abstand": 1.246,
+   "cos_mit_15": 0.089,
+   "cos_mit_19": 0.097,
+   "stabilitaet_cos_halbe": 0.9592,
+   "tensor": "model.language_model.layers.19.mlp.down_proj.weight",
+   "top_k": 64,
+   "ueberschneidung_mit_spalten": 3,
+   "ueberschneidung_bei_mit_u": 14
+  },
+  "20": {
+   "d_prime": 2.91,
+   "abstand": 1.376,
+   "cos_mit_15": 0.066,
+   "cos_mit_19": 0.062,
+   "stabilitaet_cos_halbe": 0.9598
+  },
+  "21": {
+   "d_prime": 2.932,
+   "abstand": 1.66,
+   "cos_mit_15": 0.065,
+   "cos_mit_19": 0.056,
+   "stabilitaet_cos_halbe": 0.9603
+  },
+  "22": {
+   "d_prime": 3.168,
+   "abstand": 1.842,
+   "cos_mit_15": 0.047,
+   "cos_mit_19": 0.041,
+   "stabilitaet_cos_halbe": 0.9598
+  },
+  "23": {
+   "d_prime": 3.017,
+   "abstand": 2.066,
+   "cos_mit_15": 0.055,
+   "cos_mit_19": 0.066,
+   "stabilitaet_cos_halbe": 0.9552
+  }
+ },
+ "staerkste_schichten": [
+  6,
+  7,
+  5,
+  9,
+  4,
+  8
+ ],
+ "laufzeit_s": 393.3,
+ "modus": "schicht",
+ "geraet": "cuda",
+ "kontrast": true,
+ "tokens_gerechnet": 754752,
+ "tokens_ungekuerzt": 755066
+}

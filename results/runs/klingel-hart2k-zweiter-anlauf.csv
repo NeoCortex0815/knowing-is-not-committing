@@ -1,0 +1,13 @@
+id,gold,pred,correct,end,tokens,think_closed
+math_train_geometry_33,24,,0,limit,3097,1
+math_train_algebra_1472,\frac{41}{31},,0,limit,3097,1
+math_train_counting_and_probability_68,1,,0,limit,3097,1
+math_train_prealgebra_727,5,,0,limit,3097,1
+math_train_intermediate_algebra_1078,2,2,1,eos,2334,1
+math_train_prealgebra_967,\dfrac{1}{13},\frac{1}{52},0,eos,2640,1
+math_train_intermediate_algebra_960,0,0,1,eos,2878,1
+math_train_geometry_312,20,,0,limit,3097,1
+math_train_algebra_718,60,,0,limit,3097,1
+math_train_geometry_100,400,,0,limit,3097,1
+math_train_number_theory_160,5,,0,limit,3097,1
+math_train_counting_and_probability_207,6,,0,limit,3097,1

@@ -1,0 +1,16 @@
+id,gold,pred,correct,end,tokens,think_closed
+test/prealgebra/1353.json,4,9,0,eos,630,0
+test/intermediate_algebra/860.json,\text{ellipse},ellipse,1,eos,662,0
+test/algebra/1078.json,"(-\sqrt{3}, \sqrt{3})","(-\sqrt{3}, \sqrt{3})",1,eos,2531,0
+test/algebra/251.json,2,2,1,eos,377,0
+test/intermediate_algebra/690.json,"(1,-16,-4,43)","(1, 1, -16, 43)",0,eos,785,0
+test/precalculus/96.json,\frac{7}{4},\frac{7}{4},1,eos,5434,0
+test/number_theory/109.json,4,4,1,eos,4109,0
+test/algebra/1199.json,1,1,1,eos,1010,0
+test/counting_and_probability/14.json,\frac14,0,0,eos,11227,1
+test/geometry/106.json,31,31,1,eos,1699,0
+test/prealgebra/1187.json,21,63,0,eos,459,0
+test/intermediate_algebra/1407.json,6,6,1,eos,17856,0
+test/intermediate_algebra/1405.json,16 \sqrt{3},6\sqrt{2},0,eos,22123,1
+test/intermediate_algebra/1166.json,100,64,0,eos,23805,1
+test/number_theory/820.json,8,8,1,eos,22859,0

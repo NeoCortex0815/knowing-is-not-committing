@@ -1,0 +1,62 @@
+{
+ "eigen": [
+  {
+   "id": "math_train_algebra_360",
+   "zu_zeichen": -1,
+   "endantwort": null,
+   "richtig": false,
+   "text": "$.\n    *   Is it possible the question implies $2^8 - 1$ is divisible by a *product* of 3 primes?\n        *   If it means \"divisible by a product of three primes\", then $N = p_1 p_2 p_3$.\n        *   But the wording \"divisible by 3 prime numbers\" usually implies $N$ is divisible by 3 numbers.\n    *   Let's check if $255$ is divisible by 3 prime numbers.\n        *   It is divisible by 3.\n        * "
+  },
+  {
+   "id": "math_train_prealgebra_445",
+   "zu_zeichen": -1,
+   "endantwort": null,
+   "richtig": false,
+   "text": ".\n    *   Is it possible the question implies a different interpretation?\n        *   Maybe the logo is meant to be placed on the notebook.\n        *   If the notebook is 8 inches wide.\n        *   And the logo is 2x1.5.\n        *   If we scale it up, we get 8x6.\n        *   If we scale it down, we get 2x1.5 (original).\n        *   The question asks \"How tall\".\n        *   If it's enlarged, it mea"
+  },
+  {
+   "id": "math_train_counting_and_probability_207",
+   "zu_zeichen": -1,
+   "endantwort": null,
+   "richtig": false,
+   "text": "$.\n    *   If the letters are identical (T, O, T, O), the answer is 1? No, usually that's not the case.\n    *   Let's think about the word \"TOOT\".\n    *   If I arrange them, I get strings.\n    *   The strings are:\n        *   T O T O\n        *   T O O T\n        *   T T O O (Wait, is this a permutation?)\n    *   Wait, \"TOOT\" contains 2 'O's and 2 'T's.\n    *   If the letters are distinct, we have 4"
+  },
+  {
+   "id": "math_train_algebra_1615",
+   "zu_zeichen": -1,
+   "endantwort": null,
+   "richtig": false,
+   "text": ".\n\n    Let's check if there's any tricky wording like \"sum of two numbers\" vs \"sum of digits of two numbers\". No.\n    \"Their difference\" -> difference between them.\n    Is it possible that the numbers are $x$ and $x+5$?\n    Then $2x+5=19 \\implies 2x=14 \\implies x=7$.\n    Then $x$ is the first number.\n    Is it possible the numbers are $x$ and $x-5$?\n    Then $2x-5=19 \\implies 2x=24 \\implies x=12$."
+  }
+ ],
+ "V2.1": [
+  {
+   "id": "math_train_algebra_360",
+   "zu_zeichen": -1,
+   "endantwort": null,
+   "richtig": false,
+   "text": "$.\n    *   Is it possible the question implies $2^8 - 1$ is divisible by a *product* of 3 primes?\n        *   If it means \"divisible by a product of three primes\", then $N = p_1 p_2 p_3$.\n        *   But the wording \"divisible by 3 prime numbers\" usually implies $N$ is divisible by 3 numbers.\n    *   Let's check if $255$ is divisible by 3 prime numbers.\n        *   It is divisible by 3.\n        * "
+  },
+  {
+   "id": "math_train_prealgebra_445",
+   "zu_zeichen": 0,
+   "endantwort": null,
+   "richtig": false,
+   "text": "</think>\n\nThe problem asks for the new height of a logo after it is enlarged proportionally.\n\n1.  **Identify the original dimensions:**\n    *   Width ($w$) = 2 inches\n    *   Height ($h$) = 1.5 inches\n\n2.  **Identify the goal dimensions:**\n    *   The notebook has a width of 8 inches.\n    *   The logo is to be \"used\" on the notebook.\n    *   The problem states the logo is \"enlarged proportionally\""
+  },
+  {
+   "id": "math_train_counting_and_probability_207",
+   "zu_zeichen": -1,
+   "endantwort": null,
+   "richtig": false,
+   "text": "$.\n    *   If the letters are identical (T, O, T, O), the answer is 1? No, usually that's not the case.\n    *   Let's think about the word \"TOOT\".\n    *   If I arrange them, I get strings.\n    *   The strings are:\n        *   T O T O\n        *   T O O T\n        *   T T O O (Wait, is this a permutation?)\n    *   Wait, \"TOOT\" contains 2 'O's and 2 'T's.\n    *   If the letters are distinct, we have 4"
+  },
+  {
+   "id": "math_train_algebra_1615",
+   "zu_zeichen": 0,
+   "endantwort": null,
+   "richtig": false,
+   "text": "</think>\n\nThe problem asks for the product of two numbers given that their sum is 19 and their difference is 5.\n\nLet the two numbers be $x$ and $y$.\nWe can set up the following system of equations based on the given information:\n1.  Sum: $x + y = 19$\n2.  Difference: $|x - y| = 5$\n\nThere are two cases to consider for the difference, as \"difference\" can refer to the magnitude of the difference or si"
+  }
+ ]
+}

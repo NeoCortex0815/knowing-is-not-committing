@@ -1,0 +1,81 @@
+id,gold,pred,correct,end,tokens,think_closed
+test/geometry/353.json,\sqrt{5},\sqrt{5},1,eos,442,0
+test/algebra/1035.json,3,\frac{10}{3},0,eos,805,0
+test/prealgebra/307.json,240,240,1,eos,387,0
+test/intermediate_algebra/1849.json,501,1,0,eos,1064,0
+test/algebra/2700.json,\frac{3}{2},\frac{3}{4},0,eos,1089,0
+test/prealgebra/1761.json,\frac{3}{2},15,0,eos,224,0
+test/algebra/567.json,1,1,1,eos,652,0
+test/algebra/893.json,-1,-1,1,eos,1673,0
+test/algebra/2023.json,1,1,1,eos,534,0
+test/algebra/873.json,33,23,0,eos,601,0
+test/number_theory/357.json,21,63,0,eos,1751,0
+test/precalculus/34.json,-4,-4,1,eos,1313,0
+test/counting_and_probability/377.json,\frac{448}{15625},\frac{448}{15625},1,eos,2147,0
+test/prealgebra/1924.json,2k+2,4k - 6,0,eos,240,0
+test/prealgebra/105.json,\text{east},east,1,eos,785,0
+test/prealgebra/1646.json,80,90,0,eos,13679,0
+test/intermediate_algebra/2046.json,2,2,1,eos,15812,0
+test/intermediate_algebra/431.json,(a+5)(b+2),(a+5)(b+2),1,eos,422,0
+test/algebra/892.json,2,0,0,eos,16393,1
+test/intermediate_algebra/662.json,1 \pm \sqrt{19},"-5, -3, 3, 5",0,eos,15799,1
+test/prealgebra/1804.json,29,20,0,eos,1652,0
+test/intermediate_algebra/515.json,\frac43,\frac{4}{3},1,eos,827,0
+test/number_theory/914.json,9,1,0,eos,1059,0
+test/intermediate_algebra/894.json,2,\frac{1+\sqrt{5}}{2},0,eos,1393,0
+test/precalculus/1300.json,\begin{pmatrix} -1/3 \\ 2/3 \\ 5/3 \end{pmatrix},"(3, 0, -3)",0,eos,20479,1
+test/geometry/183.json,145^\circ,90,0,eos,20667,0
+test/counting_and_probability/23957.json,210,210,1,eos,686,0
+test/intermediate_algebra/582.json,850,3380,0,eos,19253,1
+test/algebra/2593.json,8000,8000,1,eos,449,0
+test/intermediate_algebra/1898.json,-5,-5,1,eos,1209,0
+test/counting_and_probability/1060.json,1260,315,0,eos,569,0
+test/intermediate_algebra/362.json,40,2\sqrt{50 + 24\sqrt{2}},0,eos,19839,0
+test/algebra/2251.json,3,3,1,eos,419,0
+test/algebra/2157.json,2,2,1,eos,549,0
+test/algebra/2058.json,13,9,0,eos,15280,0
+test/intermediate_algebra/232.json,81,42,0,eos,5544,0
+test/prealgebra/505.json,6,6,1,eos,414,0
+test/algebra/1332.json,9,9,1,eos,1192,0
+test/precalculus/44.json,120^\circ,30^\circ,0,eos,21774,0
+test/algebra/972.json,\frac{11}{2},\frac{1}{4},0,eos,2708,0
+test/algebra/2232.json,-3,-3,1,eos,502,0
+test/intermediate_algebra/345.json,504,1,0,eos,24456,0
+test/intermediate_algebra/558.json,"(3,4]",\text{None},0,eos,32582,1
+test/number_theory/847.json,4210_{5},22_5,0,eos,402,0
+test/algebra/661.json,36,124,0,eos,657,0
+test/geometry/283.json,8,8,1,eos,6477,0
+test/algebra/246.json,8,8,1,eos,723,0
+test/prealgebra/1686.json,4,4,1,eos,419,0
+test/prealgebra/1733.json,-9,-13,0,eos,23272,1
+test/intermediate_algebra/128.json,\text{even},odd,0,eos,20346,0
+test/number_theory/753.json,13,14,0,eos,12278,0
+test/intermediate_algebra/1063.json,1+274i,z_0,0,eos,13588,1
+test/prealgebra/1807.json,120,135,0,eos,10140,0
+test/prealgebra/1297.json,9,9,1,eos,1349,0
+test/geometry/1140.json,\frac{3840}{289},\frac{3840}{289},1,eos,15212,1
+test/number_theory/156.json,13,1,0,eos,3346,0
+test/intermediate_algebra/1151.json,1,1,1,eos,8153,0
+test/intermediate_algebra/2022.json,64,1,0,eos,12648,1
+test/intermediate_algebra/1126.json,16,15,0,eos,16795,1
+test/precalculus/43.json,"(15,-29)","(15, -29)",1,eos,347,0
+test/number_theory/1257.json,204_5,220_5,0,eos,16970,1
+test/algebra/1519.json,\frac{\sqrt{3}}{3},\frac{\sqrt{3}}{3},1,eos,420,0
+test/counting_and_probability/430.json,\frac{1}{3},\frac{1}{5},0,eos,19034,1
+test/number_theory/612.json,2,0,0,loop_abbruch,13824,0
+test/algebra/988.json,11,11,1,eos,363,0
+test/counting_and_probability/159.json,28800,42,0,eos,12488,1
+test/number_theory/931.json,49,49,1,eos,11981,1
+test/intermediate_algebra/964.json,1,3,0,eos,13596,0
+test/precalculus/477.json,3 \sqrt{5},3\sqrt{5},1,eos,21644,1
+test/precalculus/986.json,144,0,0,eos,14942,0
+test/counting_and_probability/803.json,\frac{1}{4},\frac{1}{2},0,eos,849,0
+test/intermediate_algebra/966.json,16,4\sqrt{2} + 8\sqrt[3]{2},0,eos,21319,1
+test/counting_and_probability/230.json,\frac{2}{21},\frac{1}{12},0,eos,7476,1
+test/intermediate_algebra/1408.json,-2,\phi,0,eos,27444,1
+test/geometry/172.json,8,48,0,eos,11895,1
+test/algebra/2570.json,2107,2107,1,eos,3083,0
+test/algebra/621.json,3.21,3.21,1,eos,1678,0
+test/intermediate_algebra/1410.json,\frac65,\frac{6}{5},1,eos,7112,1
+test/precalculus/117.json,30^\circ,90,0,eos,12081,0
+test/geometry/880.json,2\sqrt{113},32,0,eos,15808,1

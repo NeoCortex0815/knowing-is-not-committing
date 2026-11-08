@@ -1,0 +1,65 @@
+{
+ "modelle": {
+  "WT-A": {
+   "s0": {
+    "n": 100,
+    "richtig": 44,
+    "tokens_mittel": 19203
+   },
+   "s1": {
+    "n": 100,
+    "richtig": 47,
+    "tokens_mittel": 18880
+   },
+   "paar": {
+    "n": 100,
+    "beide": 36,
+    "nur_s0": 8,
+    "nur_s1": 11,
+    "keiner": 45,
+    "p": 0.6476058959960938,
+    "uebereinstimmung": 0.81
+   }
+  },
+  "MIT": {
+   "s0": {
+    "n": 100,
+    "richtig": 58,
+    "tokens_mittel": 21211
+   }
+  },
+  "ERGORE": {
+   "s0": {
+    "n": 100,
+    "richtig": 51,
+    "tokens_mittel": 18179
+   }
+  }
+ },
+ "vergleiche": {
+  "WT-A-MIT-s0": {
+   "n": 100,
+   "WT-A": 44,
+   "MIT": 58,
+   "nur1": 2,
+   "nur2": 16,
+   "p": 0.001312255859375
+  },
+  "WT-A-ERGORE-s0": {
+   "n": 100,
+   "WT-A": 44,
+   "ERGORE": 51,
+   "nur1": 6,
+   "nur2": 13,
+   "p": 0.1670684814453125
+  },
+  "ERGORE-MIT-s0": {
+   "n": 100,
+   "ERGORE": 51,
+   "MIT": 58,
+   "nur1": 4,
+   "nur2": 11,
+   "p": 0.11846923828125
+  }
+ }
+}

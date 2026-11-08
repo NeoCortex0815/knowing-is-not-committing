@@ -1,0 +1,11 @@
+id,gold,pred,correct,end,tokens,think_closed
+math_train_algebra_1153,2,2,1,eos,10790,1
+math_train_counting_and_probability_489,45,45,1,loop_abbruch,11008,0
+math_train_number_theory_401,1050,1050,1,eos,13109,1
+math_train_intermediate_algebra_656,23,,0,loop_abbruch,13568,0
+math_train_precalculus_288,-45,,0,loop_abbruch,16640,0
+math_train_prealgebra_347,3,3,1,eos,15138,1
+math_train_intermediate_algebra_517,"(-\infty,1]",,0,limit,32768,1
+math_train_precalculus_20,\frac{6}{25},,0,limit,32768,0
+math_train_geometry_251,0,,0,loop_abbruch,21248,0
+math_train_precalculus_279,"(0,0,3)",,0,limit,32768,1

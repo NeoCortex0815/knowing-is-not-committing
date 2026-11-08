@@ -1,0 +1,154 @@
+[
+ {
+  "modell": "ERGORE",
+  "laeufe": 80,
+  "endantworten": 52,
+  "ohne_endantwort": 28,
+  "richtig_end": 43,
+  "falsch_end": 9,
+  "richtige_markiert": 1,
+  "quote_richtige_markiert": 0.0233,
+  "wilson_richtige": [
+   0.004,
+   0.121
+  ],
+  "falsche_markiert": 4,
+  "quote_falsche_markiert": 0.4444,
+  "wilson_falsche": [
+   0.189,
+   0.733
+  ],
+  "hauptkriterium_erfuellt": true,
+  "nebenkriterium": "brauchbar",
+  "auc_test_endantworten": 0.809,
+  "cpu_notausgang": 0,
+  "tor_an": {
+   "richtig_abgegeben": 42,
+   "richtige_verloren": 1,
+   "falsch_abgegeben": 5,
+   "falsche_abgefangen": 4,
+   "ohne_endantwort_unveraendert": 28
+  },
+  "falsche_werte": [
+   -7.419,
+   -6.929,
+   -4.222,
+   -2.33,
+   0.995,
+   1.356,
+   1.373,
+   3.326,
+   3.406
+  ],
+  "richtige_tiefste5": [
+   -4.35,
+   0.259,
+   0.554,
+   0.72,
+   1.371
+  ]
+ },
+ {
+  "modell": "MIT",
+  "laeufe": 80,
+  "endantworten": 50,
+  "ohne_endantwort": 30,
+  "richtig_end": 43,
+  "falsch_end": 7,
+  "richtige_markiert": 0,
+  "quote_richtige_markiert": 0.0,
+  "wilson_richtige": [
+   0.0,
+   0.082
+  ],
+  "falsche_markiert": 4,
+  "quote_falsche_markiert": 0.5714,
+  "wilson_falsche": [
+   0.25,
+   0.842
+  ],
+  "hauptkriterium_erfuellt": true,
+  "nebenkriterium": "brauchbar",
+  "auc_test_endantworten": 0.987,
+  "cpu_notausgang": 0,
+  "tor_an": {
+   "richtig_abgegeben": 43,
+   "richtige_verloren": 0,
+   "falsch_abgegeben": 3,
+   "falsche_abgefangen": 4,
+   "ohne_endantwort_unveraendert": 30
+  },
+  "falsche_werte": [
+   -5.135,
+   -2.604,
+   -2.58,
+   -2.095,
+   0.476,
+   1.621,
+   1.666
+  ],
+  "richtige_tiefste5": [
+   1.585,
+   1.606,
+   2.318,
+   2.427,
+   2.504
+  ]
+ },
+ {
+  "modell": "ERGORE+MIT",
+  "laeufe": 160,
+  "endantworten": 102,
+  "ohne_endantwort": 58,
+  "richtig_end": 86,
+  "falsch_end": 16,
+  "richtige_markiert": 1,
+  "quote_richtige_markiert": 0.0116,
+  "wilson_richtige": [
+   0.002,
+   0.063
+  ],
+  "falsche_markiert": 8,
+  "quote_falsche_markiert": 0.5,
+  "wilson_falsche": [
+   0.28,
+   0.72
+  ],
+  "hauptkriterium_erfuellt": true,
+  "nebenkriterium": "brauchbar",
+  "auc_test_endantworten": 0.892,
+  "cpu_notausgang": 0,
+  "tor_an": {
+   "richtig_abgegeben": 85,
+   "richtige_verloren": 1,
+   "falsch_abgegeben": 8,
+   "falsche_abgefangen": 8,
+   "ohne_endantwort_unveraendert": 58
+  },
+  "falsche_werte": [
+   -7.419,
+   -6.929,
+   -5.135,
+   -4.222,
+   -2.604,
+   -2.58,
+   -2.33,
+   -2.095,
+   0.476,
+   0.995,
+   1.356,
+   1.373,
+   1.621,
+   1.666,
+   3.326,
+   3.406
+  ],
+  "richtige_tiefste5": [
+   -4.35,
+   0.259,
+   0.554,
+   0.72,
+   1.371
+  ]
+ }
+]

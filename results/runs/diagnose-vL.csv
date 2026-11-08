@@ -1,0 +1,49 @@
+id,gold,pred,correct,end,tokens,think_closed
+math_train_geometry_784,\frac {40}7,,0,loop_abbruch,4864,0
+math_train_intermediate_algebra_360,69,,0,loop_abbruch,6656,0
+math_train_number_theory_612,865,,0,loop_abbruch,7936,0
+math_train_algebra_1036,\frac{9}{4},,0,limit,8192,0
+math_train_geometry_817,3\pi,,0,limit,8192,0
+math_train_algebra_1490,"(-6, 6)",,0,limit,8192,0
+math_train_intermediate_algebra_882,\frac{3}{4},,0,limit,8192,0
+math_train_algebra_1233,20,,0,limit,8192,0
+math_train_algebra_1325,8.75,,0,limit,8192,0
+math_train_counting_and_probability_672,\frac{1}{210},,0,limit,8192,0
+math_train_algebra_1347,36,,0,limit,8192,0
+math_train_prealgebra_718,24,,0,limit,8192,0
+math_train_number_theory_59,5,,0,loop_abbruch,4096,0
+math_train_number_theory_588,149,,0,loop_abbruch,4352,0
+math_train_geometry_446,731,,0,loop_abbruch,4352,0
+math_train_geometry_691,8,,0,loop_abbruch,4352,0
+math_train_algebra_291,-1,,0,limit,8192,0
+math_train_algebra_778,60,,0,limit,8192,0
+math_train_prealgebra_1114,\dfrac14,,0,loop_abbruch,6914,0
+math_train_prealgebra_52,101x+30,,0,loop_abbruch,8192,0
+math_train_precalculus_261,12,,0,limit,8192,0
+math_train_number_theory_436,47,,0,limit,8192,0
+math_train_intermediate_algebra_588,\frac{4}{3},,0,limit,8192,0
+math_train_number_theory_158,4,,0,limit,8192,0
+math_train_precalculus_744,-\frac{\sqrt{7}}{4},-\frac{\sqrt{7}}{4},1,eos,2034,1
+math_train_geometry_539,31,,0,loop_abbruch,6912,0
+math_train_prealgebra_706,37,,0,limit,8192,0
+math_train_number_theory_378,422_8,,0,loop_abbruch,4096,0
+math_train_prealgebra_1098,133,,0,limit,8192,0
+math_train_prealgebra_980,32 \%,,0,limit,8192,0
+math_train_counting_and_probability_770,\frac{88}{169},,0,loop_abbruch,4097,0
+math_train_intermediate_algebra_1098,11,,0,limit,8192,0
+math_train_counting_and_probability_183,4320,,0,loop_abbruch,5888,0
+math_train_intermediate_algebra_1055,9,,0,limit,8192,0
+math_train_number_theory_225,4,,0,limit,8192,0
+math_train_algebra_1621,39,,0,limit,8192,0
+math_train_number_theory_398,375,,0,loop_abbruch,8192,0
+math_train_algebra_828,\$347,,0,loop_abbruch,4096,0
+math_train_number_theory_39,8,,0,loop_abbruch,7424,0
+math_train_number_theory_145,63,,0,loop_abbruch,6656,0
+math_train_prealgebra_403,\frac{34}{9},,0,loop_abbruch,4352,0
+math_train_precalculus_631,\begin{pmatrix} -5/2 \\ 5/2 \end{pmatrix},,0,limit,8192,0
+math_train_precalculus_582,2,,0,limit,8192,0
+math_train_algebra_1180,600,,0,limit,8192,0
+math_train_precalculus_743,3,,0,limit,8192,0
+math_train_geometry_675,\$3.60,,0,limit,8192,0
+math_train_intermediate_algebra_723,"[3,15]",,0,limit,8192,0
+math_train_algebra_1699,5,,0,limit,8192,0

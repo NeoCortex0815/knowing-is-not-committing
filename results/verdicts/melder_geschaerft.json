@@ -1,0 +1,33 @@
+{
+ "bericht": {
+  "roh": {
+   "haelfte_B": {
+    "schleife": 0.2057,
+    "denken_sonst": 0.0711,
+    "vor_tau": 0.0421,
+    "antwort": 0.0521
+   },
+   "trennung_B": 3.944
+  },
+  "argon": {
+   "haelfte_B": {
+    "schleife": 0.1593,
+    "denken_sonst": 0.0272,
+    "vor_tau": 0.0039,
+    "antwort": 0.0103
+   },
+   "trennung_B": 15.508
+  },
+  "lda": {
+   "haelfte_B": {
+    "schleife": 0.1436,
+    "denken_sonst": 0.0316,
+    "vor_tau": 0.0059,
+    "antwort": 0.0045
+   },
+   "trennung_B": 24.172
+  }
+ },
+ "wahl": "lda",
+ "lam": 0.05
+}

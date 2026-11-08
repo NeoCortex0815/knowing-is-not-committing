@@ -1,0 +1,81 @@
+id,gold,pred,correct,end,tokens,think_closed
+test/prealgebra/1622.json,42,126,0,eos,489,0
+test/number_theory/572.json,9,9,1,eos,501,0
+test/precalculus/807.json,"\left( 3, \frac{\pi}{2} \right)","(3, 0)",0,eos,695,0
+test/algebra/2036.json,3\sqrt{13},3\sqrt{13},1,eos,457,0
+test/algebra/1349.json,\text{Evelyn},Evelyn,1,eos,2405,0
+test/number_theory/515.json,27,27,1,eos,1917,0
+test/algebra/2584.json,\frac{14}{3},\frac{14}{3},1,eos,6379,0
+test/precalculus/927.json,90^\circ,90,1,eos,10707,0
+test/geometry/248.json,5,5,1,eos,409,0
+test/intermediate_algebra/1994.json,p - q,\frac{\pi^2}{12},0,eos,14685,1
+test/precalculus/1303.json,\sqrt{51},10,0,eos,3477,0
+test/number_theory/1032.json,2220,2220,1,eos,14920,1
+test/intermediate_algebra/1197.json,\frac{3}{56},\frac{8}{63},0,eos,17093,1
+test/intermediate_algebra/134.json,-50,-48,0,eos,9252,0
+test/number_theory/737.json,284,4,0,loop_abbruch,18944,1
+test/algebra/1098.json,6+9i,6+9i,1,eos,365,0
+test/prealgebra/1139.json,4,7,0,eos,25762,1
+test/intermediate_algebra/607.json,13535,8922,0,eos,1993,0
+test/algebra/2193.json,x=5,5,1,eos,690,0
+test/precalculus/990.json,6 - 5i,6 - 5i,1,eos,14991,1
+test/precalculus/1199.json,\pi,\frac{\pi}{2},0,eos,16806,1
+test/geometry/434.json,28,62,0,eos,19008,1
+test/prealgebra/1840.json,78,114,0,eos,420,0
+test/precalculus/779.json,-2 + 7i,-2 + 7i,1,eos,433,0
+test/counting_and_probability/666.json,225,2,0,eos,832,0
+test/algebra/1837.json,5,4,0,eos,15166,0
+test/prealgebra/1302.json,11\sqrt2,11\sqrt{2},1,eos,482,0
+test/intermediate_algebra/1388.json,"1,-2","0, 1",0,eos,18019,1
+test/intermediate_algebra/1000.json,3,-\frac{3}{\sqrt[3]{4}},0,eos,24420,1
+test/algebra/2427.json,10,259,0,eos,21084,1
+test/counting_and_probability/119.json,-125,-125,1,eos,941,0
+test/number_theory/627.json,3,6,0,eos,643,0
+test/number_theory/864.json,52_8,5200,0,eos,11477,1
+test/algebra/24.json,2000,2000,1,eos,407,0
+test/number_theory/45.json,23,15,0,eos,945,0
+test/algebra/1072.json,\frac{243}{625},\frac{243}{625},1,eos,5372,1
+test/geometry/967.json,72,72,1,eos,3027,0
+test/algebra/2214.json,4,4,1,eos,295,0
+test/counting_and_probability/525.json,144,0,0,eos,23467,1
+test/prealgebra/1558.json,1.25,,0,eos,751,0
+test/geometry/178.json,2,2,1,eos,842,0
+test/counting_and_probability/134.json,720,240,0,eos,18933,1
+test/algebra/305.json,5,5,1,eos,618,0
+test/algebra/1265.json,\frac{3}{2},3,0,eos,291,0
+test/prealgebra/1388.json,83,83,1,eos,548,0
+test/intermediate_algebra/428.json,"3, 5, 7",x = \frac{39 \pm i\sqrt{3935}}{12},0,eos,16463,1
+test/precalculus/285.json,6,12,0,loop_abbruch,7424,0
+test/prealgebra/930.json,12,12,1,eos,14069,1
+test/prealgebra/951.json,12,12,1,eos,838,0
+test/precalculus/1105.json,-\frac{\pi}{6},-\frac{\pi}{6},1,eos,513,0
+test/prealgebra/572.json,0.15,0.15,1,eos,519,0
+test/algebra/769.json,11,11,1,eos,590,0
+test/intermediate_algebra/1168.json,16,16,1,eos,1990,0
+test/algebra/187.json,3,3,1,eos,3114,0
+test/algebra/722.json,9901,9901,1,eos,419,0
+test/prealgebra/1247.json,5,5,1,eos,391,0
+test/geometry/627.json,17,17,1,eos,22580,1
+test/number_theory/1055.json,203,205,0,eos,13939,0
+test/intermediate_algebra/279.json,10,0,0,eos,646,0
+test/intermediate_algebra/1217.json,x^5 - x^4 + x^3 - x^2 + x - 1,x^5 - x^4 + x^3 - x^2 + x - 1,1,eos,12060,1
+test/prealgebra/1747.json,1,1,1,eos,356,0
+test/algebra/2046.json,x^3+3x-6,x^3 + 3x - 6,1,eos,5390,0
+test/prealgebra/1233.json,10,125,0,eos,1001,0
+test/intermediate_algebra/1454.json,70 \sqrt{2},70,0,limit,32768,1
+test/intermediate_algebra/1247.json,-256,2,0,eos,21544,1
+test/number_theory/46.json,40_9,40_9,1,eos,2124,0
+test/precalculus/1146.json,\frac{35}{64},-35,0,eos,19121,1
+test/intermediate_algebra/956.json,"(6,31,-1)","(-6, 3, -1)",0,eos,26002,1
+test/algebra/2253.json,\frac{3\sqrt{3}}{4},\frac{3\sqrt{3}}{4},1,eos,365,0
+test/precalculus/675.json,4,4,1,eos,21726,1
+test/geometry/456.json,3,3,1,eos,2945,0
+test/precalculus/1313.json,46,46^\circ,1,eos,18938,0
+test/algebra/1004.json,4,4,1,eos,261,0
+test/intermediate_algebra/47.json,"(-2,1)","(-2, 1)",1,eos,1400,0
+test/prealgebra/192.json,2,2,1,eos,426,0
+test/intermediate_algebra/207.json,-1,\sqrt{5}-3,0,eos,20957,1
+test/intermediate_algebra/623.json,0,4,0,eos,15434,1
+test/precalculus/24313.json,\cot x,\cot x,1,eos,21335,1
+test/counting_and_probability/1114.json,\frac{11}{36},\frac{11}{36},1,eos,21540,1
+test/number_theory/516.json,2516_8,66,0,eos,26626,1

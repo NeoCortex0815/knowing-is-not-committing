@@ -1,0 +1,29 @@
+{
+ "N20 161–260 (Hauptauswertung)": {
+  "gleich": 38,
+  "p_gleich": 97.36842105263158,
+  "p_versch": 32.25806451612903,
+  "delta": 65.11035653650254,
+  "urteil": "trägt",
+  "weiche": {
+   "richtig": 54,
+   "int": 57,
+   "wta": 44,
+   "urteil": "lohnt nicht"
+  }
+ },
+ "261–300 (schon gesehen, nur beschreibend)": {
+  "gleich": 12,
+  "p_gleich": 83.33333333333333,
+  "p_versch": 14.285714285714286,
+  "delta": 69.04761904761904,
+  "urteil": "trägt"
+ },
+ "N22 neue Trainingsaufgaben": {
+  "gleich": 17,
+  "p_gleich": 76.47058823529412,
+  "p_versch": 13.043478260869565,
+  "delta": 63.42710997442455,
+  "urteil": "trägt"
+ }
+}

@@ -1,0 +1,25 @@
+id,gold,pred,correct,end,tokens,think_closed
+test/prealgebra/1961.json,\frac{16}{27},2/27,0,eos,2523,0
+test/prealgebra/378.json,10,16,0,eos,3605,0
+test/geometry/547.json,54,18,0,eos,5398,0
+test/number_theory/1201.json,1,1,1,eos,8470,0
+test/counting_and_probability/71.json,3,6,0,eos,942,0
+test/counting_and_probability/765.json,110,30,0,eos,16330,0
+test/number_theory/183.json,14,2,0,eos,16699,0
+test/number_theory/417.json,"11,\! 111,\! 111,\! 100",450,0,eos,20499,1
+test/precalculus/190.json,\frac{9}{256},1/16,0,eos,14685,0
+test/precalculus/1056.json,288 \pi,\frac{864\sqrt{10}\pi}{5},0,eos,13602,0
+test/prealgebra/153.json,\frac 59,\frac{5}{9},1,eos,754,0
+test/intermediate_algebra/102.json,2,22/15,0,eos,24340,0
+test/precalculus/441.json,30^\circ,30,1,eos,1769,0
+test/algebra/1578.json,10,10,1,eos,10078,1
+test/precalculus/989.json,12,12,1,eos,8026,0
+test/intermediate_algebra/1210.json,-13x+3,-10,0,eos,2535,0
+test/intermediate_algebra/986.json,\frac{16}{5},1,0,eos,16602,0
+test/prealgebra/874.json,116,90,0,eos,10849,1
+test/intermediate_algebra/1354.json,\frac{1997}{2},\frac{1997}{2},1,eos,16085,0
+test/number_theory/1065.json,17,17,1,eos,4310,0
+test/precalculus/920.json,\begin{pmatrix} -1 & 0 \\ 0 & -1 \end{pmatrix},-1,0,eos,11034,1
+test/geometry/229.json,16,4,0,eos,20479,0
+test/counting_and_probability/894.json,540,108,0,eos,15545,1
+test/counting_and_probability/1009.json,28,18564,0,eos,13909,1

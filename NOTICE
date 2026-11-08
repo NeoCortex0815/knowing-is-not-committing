@@ -1,0 +1,12 @@
+Knowing Is Not Committing – code and data for the interim report
+Copyright 2026 Dave Uhlemann (NeoCortex)
+
+Licensed under the Apache License, Version 2.0 (see LICENSE).
+
+This project builds on, but does not redistribute:
+- Qwen3.5-0.8B (Qwen team, Alibaba Cloud), Apache License 2.0. No model weights are included here.
+- The official IFEval instruction checks (google-research, instruction_following_eval), Apache License 2.0.
+  They are not included; obtain them from google-research and place them next to paket/ifeval_pruefung.py.
+- The published logs of "Sparks of Weight-Space Programming" (Takehi, Teoh, Zhang, Khattab; MIT CSAIL),
+  CC BY 4.0 for logs and data, MIT License for their scripts. They are cited and linked, not copied.
+- The MATH, MATH-500 and IFEval problem sets, which stay under their own licenses. Only problem ids are listed here.

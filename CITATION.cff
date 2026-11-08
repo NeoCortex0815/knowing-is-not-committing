@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+message: "If you use this work, please cite it as below."
+title: "Knowing Is Not Committing: Replicating MIT's weight-space edit and programming a truth-gated reflex into a 0.8B reasoning model (interim report)"
+version: "0.2"
+date-released: "2026-11-08"
+license: Apache-2.0
+repository-code: "https://github.com/NeoCortex0815/knowing-is-not-committing"
+authors:
+  - family-names: Uhlemann
+    given-names: Dave
+    alias: NeoCortex
+keywords:
+  - weight-space programming
+  - interpretability
+  - reasoning models
+  - pre-registration

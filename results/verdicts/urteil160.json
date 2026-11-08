@@ -1,0 +1,20 @@
+{
+ "81–160": {
+  "n": 80,
+  "ergore": 36,
+  "mit": 34,
+  "nur_ergore": 10,
+  "nur_mit": 8,
+  "p": 0.8145294189453125,
+  "urteil": "MIT-NIVEAU ERREICHT"
+ },
+ "1–160": {
+  "n": 160,
+  "ergore": 79,
+  "mit": 77,
+  "nur_ergore": 14,
+  "nur_mit": 12,
+  "p": 0.8450189828872681,
+  "urteil": "MIT-NIVEAU ERREICHT"
+ }
+}

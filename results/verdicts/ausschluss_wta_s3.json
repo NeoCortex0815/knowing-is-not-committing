@@ -1,0 +1,198 @@
+{
+ "n": 140,
+ "unbekannte_paare": {
+  "WT-A": 0,
+  "MIT": 0
+ },
+ "paare": {
+  "beide": 54,
+  "nur_WT-A": 7,
+  "nur_MIT": 26,
+  "keiner": 53
+ },
+ "kontext_kurve": {
+  "WT-A": {
+   "2000": 55,
+   "4000": 65,
+   "8000": 76,
+   "16000": 82,
+   "24000": 84,
+   "32768": 85
+  },
+  "MIT": {
+   "2000": 66,
+   "4000": 79,
+   "8000": 86,
+   "16000": 96,
+   "24000": 99,
+   "32768": 102
+  }
+ },
+ "trichter_WT-A": {
+  "richtiger Wert im Denken": 85,
+  "am richtigen Wert geschlossen (G1)": 55,
+  "davon richtig abgegeben": 48,
+  "Wert da, dort nicht geschlossen (G2)": 30,
+  "davon trotzdem richtig": 6,
+  "ohne richtigen Wert": 55
+ },
+ "abgabe_verluste_WT-A": {
+  "geschlossen, keine Antwort (limit)": 1,
+  "geschlossen, falsche Antwort": 3,
+  "geschlossen, keine Antwort (loop_abbruch)": 1,
+  "geschlossen, keine Antwort (eos)": 2
+ },
+ "trichter_MIT": {
+  "richtiger Wert im Denken": 102,
+  "am richtigen Wert geschlossen (G1)": 37,
+  "davon richtig abgegeben": 33,
+  "Wert da, dort nicht geschlossen (G2)": 65,
+  "davon trotzdem richtig": 3,
+  "ohne richtigen Wert": 38
+ },
+ "abgabe_verluste_MIT": {
+  "geschlossen, keine Antwort (limit)": 1,
+  "geschlossen, keine Antwort (loop_abbruch)": 2,
+  "geschlossen, falsche Antwort": 1
+ },
+ "ausschluss": {
+  "t1 (Median Tokens)": [
+   719.0,
+   1963.0
+  ],
+  "Erwähnungen richtig (Median)": [
+   5.0,
+   10.5
+  ],
+  "Konkurrenz-Werte vor t1 (Median)": [
+   12.0,
+   16.0
+  ],
+  "Zweifel-Wörter nach t1 (Median)": [
+   1.0,
+   1.5
+  ],
+  "Stufe (Median)": [
+   3.0,
+   4.0
+  ],
+  "level": {
+   "1": [
+    7,
+    4
+   ],
+   "2": [
+    11,
+    5
+   ],
+   "3": [
+    20,
+    4
+   ],
+   "4": [
+    11,
+    11
+   ],
+   "5": [
+    6,
+    6
+   ]
+  },
+  "fach": {
+   "Algebra": [
+    21,
+    5
+   ],
+   "Counting & Probability": [
+    2,
+    3
+   ],
+   "Geometry": [
+    5,
+    2
+   ],
+   "Intermediate Algebra": [
+    7,
+    6
+   ],
+   "Number Theory": [
+    7,
+    6
+   ],
+   "Prealgebra": [
+    10,
+    4
+   ],
+   "Precalculus": [
+    3,
+    4
+   ]
+  },
+  "antwort_art": {
+   "ausdruck/sonst": [
+    5,
+    3
+   ],
+   "bruch/dezimal": [
+    6,
+    4
+   ],
+   "ganzzahl": [
+    43,
+    23
+   ],
+   "wurzel/pi": [
+    1,
+    0
+   ]
+  }
+ },
+ "horizont_nur_mit": {
+  "Wert da, WT-A schloss woanders": 6,
+  "Wert da, WT-A schloss nie": 4,
+  "WT-A schloss am richtigen Wert, Abgabe misslang": 5,
+  "Wert bei WT-A nie da (ohne früheren Abschluss)": 11
+ },
+ "nachsicht": {
+  "WT-A 1×": {
+   "n": 12,
+   "richtig": 11,
+   "zweites_zu": 12,
+   "antwort_tokens_median": 2127.0
+  },
+  "WT-A 2×": {
+   "n": 4,
+   "richtig": 3,
+   "zweites_zu": 4,
+   "antwort_tokens_median": 2011.0
+  },
+  "WT-A 3–5×": {
+   "n": 15,
+   "richtig": 13,
+   "zweites_zu": 15,
+   "antwort_tokens_median": 1759.0
+  },
+  "WT-A 6×+": {
+   "n": 24,
+   "richtig": 21,
+   "zweites_zu": 20,
+   "antwort_tokens_median": 2659.0
+  },
+  "MIT 3–5×": {
+   "n": 1,
+   "richtig": 0,
+   "zweites_zu": 0,
+   "antwort_tokens_median": 563.0
+  },
+  "MIT 6×+": {
+   "n": 36,
+   "richtig": 33,
+   "zweites_zu": 4,
+   "antwort_tokens_median": 674.5
+  }
+ },
+ "bestaetigungs_strecke_median": {
+  "MIT": 12289.0,
+  "WT-A": 1018.0
+ }
+}

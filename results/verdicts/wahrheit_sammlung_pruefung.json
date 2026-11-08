@@ -1,0 +1,98 @@
+{
+ "8": {
+  "auc_sonde": 0.947,
+  "auc_mitteldiff": 0.905,
+  "gepaart": 0.909,
+  "paare": 3788,
+  "auc_denken": 0.952,
+  "auc_antwort": 0.962,
+  "fehlalarm_richtig": 0.283,
+  "falsch_erkannt": 0.952,
+  "endantwort_fehlalarm": 0.04,
+  "endantwort_falsch_erkannt": 0.429
+ },
+ "11": {
+  "auc_sonde": 0.95,
+  "auc_mitteldiff": 0.911,
+  "gepaart": 0.922,
+  "paare": 3788,
+  "auc_denken": 0.952,
+  "auc_antwort": 0.968,
+  "fehlalarm_richtig": 0.297,
+  "falsch_erkannt": 0.956,
+  "endantwort_fehlalarm": 0.05,
+  "endantwort_falsch_erkannt": 0.286
+ },
+ "13": {
+  "auc_sonde": 0.959,
+  "auc_mitteldiff": 0.909,
+  "gepaart": 0.937,
+  "paare": 3788,
+  "auc_denken": 0.956,
+  "auc_antwort": 0.977,
+  "fehlalarm_richtig": 0.269,
+  "falsch_erkannt": 0.973,
+  "endantwort_fehlalarm": 0.06,
+  "endantwort_falsch_erkannt": 0.286
+ },
+ "15": {
+  "auc_sonde": 0.942,
+  "auc_mitteldiff": 0.897,
+  "gepaart": 0.874,
+  "paare": 3788,
+  "auc_denken": 0.931,
+  "auc_antwort": 0.981,
+  "fehlalarm_richtig": 0.258,
+  "falsch_erkannt": 0.958,
+  "endantwort_fehlalarm": 0.03,
+  "endantwort_falsch_erkannt": 0.286
+ },
+ "17": {
+  "auc_sonde": 0.933,
+  "auc_mitteldiff": 0.872,
+  "gepaart": 0.852,
+  "paare": 3788,
+  "auc_denken": 0.927,
+  "auc_antwort": 0.97,
+  "fehlalarm_richtig": 0.276,
+  "falsch_erkannt": 0.952,
+  "endantwort_fehlalarm": 0.02,
+  "endantwort_falsch_erkannt": 0.286
+ },
+ "19": {
+  "auc_sonde": 0.917,
+  "auc_mitteldiff": 0.877,
+  "gepaart": 0.833,
+  "paare": 3788,
+  "auc_denken": 0.904,
+  "auc_antwort": 0.97,
+  "fehlalarm_richtig": 0.316,
+  "falsch_erkannt": 0.945,
+  "endantwort_fehlalarm": 0.02,
+  "endantwort_falsch_erkannt": 0.286
+ },
+ "21": {
+  "auc_sonde": 0.917,
+  "auc_mitteldiff": 0.858,
+  "gepaart": 0.832,
+  "paare": 3788,
+  "auc_denken": 0.899,
+  "auc_antwort": 0.974,
+  "fehlalarm_richtig": 0.32,
+  "falsch_erkannt": 0.931,
+  "endantwort_fehlalarm": 0.01,
+  "endantwort_falsch_erkannt": 0.286
+ },
+ "23": {
+  "auc_sonde": 0.906,
+  "auc_mitteldiff": 0.865,
+  "gepaart": 0.83,
+  "paare": 3788,
+  "auc_denken": 0.888,
+  "auc_antwort": 0.976,
+  "fehlalarm_richtig": 0.306,
+  "falsch_erkannt": 0.928,
+  "endantwort_fehlalarm": 0.01,
+  "endantwort_falsch_erkannt": 0.286
+ }
+}

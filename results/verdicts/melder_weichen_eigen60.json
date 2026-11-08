@@ -1,0 +1,57 @@
+{
+ "eigen0": {
+  "laeufe": 44,
+  "roh": {
+   "n": {
+    "Ende": 18,
+    "Warte": 2419,
+    "Weiter": 18922
+   },
+   "mittel": {
+    "Ende": 0.0667,
+    "Warte": 0.1187,
+    "Weiter": 0.0821
+   },
+   "AUC_Ende_gegen_rest": 0.4239518089853126,
+   "AUC_Warte_gegen_Weiter": 0.6266756689053852,
+   "verlauf_mittel": [
+    0.0489,
+    0.0567,
+    0.0734,
+    0.0992,
+    0.1664
+   ],
+   "je_lauf": {
+    "laeufe_mit_abgabe": 18,
+    "ende_ueber_median": 11,
+    "p_einseitig": 0.2403411865234375
+   }
+  },
+  "lda": {
+   "n": {
+    "Ende": 18,
+    "Warte": 2419,
+    "Weiter": 18922
+   },
+   "mittel": {
+    "Ende": 0.0337,
+    "Warte": 0.078,
+    "Weiter": 0.0462
+   },
+   "AUC_Ende_gegen_rest": 0.44094830503621096,
+   "AUC_Warte_gegen_Weiter": 0.631329660866203,
+   "verlauf_mittel": [
+    0.0194,
+    0.026,
+    0.0384,
+    0.0589,
+    0.1247
+   ],
+   "je_lauf": {
+    "laeufe_mit_abgabe": 18,
+    "ende_ueber_median": 10,
+    "p_einseitig": 0.40726470947265625
+   }
+  }
+ }
+}

@@ -1,0 +1,154 @@
+{
+ "T_hoch": 0.37532032423003736,
+ "T_sh": Infinity,
+ "modelle": {
+  "ERGORE": {
+   "ohne Tor": {
+    "richtig": 36,
+    "laeufe": 80,
+    "gewonnen": 0,
+    "verloren": 0,
+    "gefeuert": 0,
+    "tokens_mittel": 18489
+   },
+   "Zünder": {
+    "richtig": 39,
+    "laeufe": 80,
+    "gewonnen": 3,
+    "verloren": 0,
+    "gefeuert": 50,
+    "tokens_mittel": 15377
+   },
+   "B1 erster Kandidat": {
+    "richtig": 22,
+    "laeufe": 80,
+    "gewonnen": 2,
+    "verloren": 16,
+    "gefeuert": 71,
+    "tokens_mittel": 11238
+   },
+   "B2 erster wiederholter": {
+    "richtig": 35,
+    "laeufe": 80,
+    "gewonnen": 2,
+    "verloren": 3,
+    "gefeuert": 52,
+    "tokens_mittel": 14684
+   },
+   "Zünder gemischte Etiketten": {
+    "richtig": 36,
+    "laeufe": 80,
+    "gewonnen": 0,
+    "verloren": 0,
+    "gefeuert": 0,
+    "tokens_mittel": 18489
+   }
+  },
+  "MIT": {
+   "ohne Tor": {
+    "richtig": 34,
+    "laeufe": 80,
+    "gewonnen": 0,
+    "verloren": 0,
+    "gefeuert": 0,
+    "tokens_mittel": 21248
+   },
+   "Zünder": {
+    "richtig": 37,
+    "laeufe": 80,
+    "gewonnen": 3,
+    "verloren": 0,
+    "gefeuert": 45,
+    "tokens_mittel": 19341
+   },
+   "B1 erster Kandidat": {
+    "richtig": 21,
+    "laeufe": 80,
+    "gewonnen": 2,
+    "verloren": 15,
+    "gefeuert": 52,
+    "tokens_mittel": 16734
+   },
+   "B2 erster wiederholter": {
+    "richtig": 31,
+    "laeufe": 80,
+    "gewonnen": 2,
+    "verloren": 5,
+    "gefeuert": 37,
+    "tokens_mittel": 18983
+   },
+   "Zünder gemischte Etiketten": {
+    "richtig": 34,
+    "laeufe": 80,
+    "gewonnen": 0,
+    "verloren": 0,
+    "gefeuert": 0,
+    "tokens_mittel": 21248
+   }
+  }
+ },
+ "vergleiche": {
+  "ERGORE+Zünder gegen MIT+ohne Tor": {
+   "n": 80,
+   "a": 39,
+   "b": 34,
+   "nur_a": 11,
+   "nur_b": 6,
+   "p": 0.332305908203125
+  },
+  "MIT+Zünder gegen MIT+ohne Tor": {
+   "n": 80,
+   "a": 37,
+   "b": 34,
+   "nur_a": 3,
+   "nur_b": 0,
+   "p": 0.25
+  },
+  "ERGORE+Zünder gegen MIT+Zünder": {
+   "n": 80,
+   "a": 39,
+   "b": 37,
+   "nur_a": 10,
+   "nur_b": 8,
+   "p": 0.8145294189453125
+  },
+  "ERGORE+Zünder gegen ERGORE+ohne Tor": {
+   "n": 80,
+   "a": 39,
+   "b": 36,
+   "nur_a": 3,
+   "nur_b": 0,
+   "p": 0.25
+  },
+  "ERGORE+Zünder gegen ERGORE+B2 erster wiederholter": {
+   "n": 80,
+   "a": 39,
+   "b": 35,
+   "nur_a": 4,
+   "nur_b": 0,
+   "p": 0.125
+  },
+  "ERGORE+Zünder gegen ERGORE+B1 erster Kandidat": {
+   "n": 80,
+   "a": 39,
+   "b": 22,
+   "nur_a": 18,
+   "nur_b": 1,
+   "p": 7.62939453125e-05
+  },
+  "ERGORE+Zünder gegen ERGORE+Zünder gemischte Etiketten": {
+   "n": 80,
+   "a": 39,
+   "b": 36,
+   "nur_a": 3,
+   "nur_b": 0,
+   "p": 0.25
+  }
+ },
+ "sicherheit": {
+  "ERGORE": true,
+  "MIT": true
+ },
+ "hauptvergleich": "Tendenz über MIT (nicht signifikant) – mit Laufzeit-Tor",
+ "mehrwert": true
+}

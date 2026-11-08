@@ -1,0 +1,21 @@
+id,gold,pred,correct,end,tokens,think_closed
+math_train_algebra_1153,2,2,1,eos,465,0
+math_train_counting_and_probability_489,45,45,1,eos,798,0
+math_train_intermediate_algebra_517,"(-\infty,1]","[0, 1]",0,eos,1069,0
+math_train_number_theory_401,1050,210,0,eos,1194,0
+math_train_geometry_251,0,0,1,eos,326,0
+math_train_precalculus_279,"(0,0,3)","\left( \frac{3(\sqrt{6} + \sqrt{2})}{4}, 0, \frac{3\sqrt{2}}{2} \right)",0,eos,1048,0
+math_train_prealgebra_347,3,3,1,eos,751,0
+math_train_number_theory_394,21,21,1,eos,1367,0
+math_train_intermediate_algebra_348,"\left( -\infty, -\frac{1}{4} \right) \cup (2,\infty)",-\frac{1}{4} < x < 2,0,eos,732,0
+math_train_precalculus_288,-45,-45,1,eos,7218,0
+math_train_counting_and_probability_711,5,5,1,eos,405,0
+math_train_precalculus_708,"\left( 3, \frac{9 \pi}{7}, \frac{2 \pi}{5} \right)","(3, \frac{2\pi}{7}, \frac{8\pi}{5})",0,eos,503,0
+math_train_counting_and_probability_598,29,29,1,eos,1641,0
+math_train_precalculus_43,\frac{7}{2},1,0,eos,7612,0
+math_train_counting_and_probability_383,83,382,0,eos,1142,0
+math_train_intermediate_algebra_1179,\text{odd},neither,0,eos,1898,0
+math_train_precalculus_20,\frac{6}{25},\frac{5}{12},0,eos,13408,1
+math_train_intermediate_algebra_656,23,-1,0,eos,17392,0
+math_train_algebra_1562,-15,-15,1,eos,15681,1
+math_train_intermediate_algebra_242,"\left( \frac{3}{4}, \infty \right)","\left[\frac{4+\sqrt{10}}{3}, \infty\right)",0,eos,21055,0

@@ -1,0 +1,19 @@
+id,gold,pred,correct,end,tokens,think_closed
+test/algebra/2257.json,\frac9{19},\frac{9}{19},1,eos,21155,1
+test/intermediate_algebra/446.json,9,9,1,eos,28155,1
+test/prealgebra/465.json,5,,0,limit,32768,1
+test/counting_and_probability/339.json,12,,0,limit,32768,0
+test/prealgebra/1044.json,5.4 \text{ cents},,0,limit,32768,1
+test/geometry/965.json,28,,0,limit,32768,0
+test/precalculus/695.json,"(-\infty, 0]","(-\infty, 0]",1,eos,18034,1
+test/intermediate_algebra/1544.json,6,1,0,eos,26183,1
+test/intermediate_algebra/1714.json,"(5,\infty)","(5, \infty)",1,eos,2886,1
+test/algebra/1842.json,49,\frac{1}{9},0,eos,18822,1
+test/number_theory/911.json,3,3,1,eos,20556,1
+test/number_theory/203.json,14,,0,loop_abbruch,22784,1
+test/prealgebra/1423.json,12\pi,12\pi,1,eos,11890,1
+test/algebra/2735.json,\frac{11+9a}{20},\frac{11+9a}{20},1,eos,4948,1
+test/geometry/711.json,1+2\sqrt{3},,0,limit,32768,0
+test/algebra/276.json,12,12,1,eos,15575,1
+test/geometry/1108.json,"(2,4)","(2, 4)",1,eos,22786,1
+test/algebra/1936.json,-1,-1,1,eos,1547,1

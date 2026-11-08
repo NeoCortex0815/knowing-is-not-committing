@@ -1,0 +1,29 @@
+{
+ "fertig, richtig": {
+  "id": "math_train_algebra_920",
+  "tau": 473,
+  "waits": 8,
+  "ende": 4607,
+  "mittel_vor": -0.0276,
+  "mittel_nach": -0.03,
+  "letzte_256": -0.0222
+ },
+ "verhaspelt (L\u00f6sung fr\u00fch, kein Abschluss)": {
+  "id": "math_train_algebra_1472",
+  "tau": 751,
+  "waits": 51,
+  "ende": null,
+  "mittel_vor": -0.0295,
+  "mittel_nach": -0.0535,
+  "letzte_256": -0.0662
+ },
+ "wei\u00df es nicht (L\u00f6sung taucht nie auf)": {
+  "id": "math_train_prealgebra_967",
+  "tau": null,
+  "waits": 76,
+  "ende": null,
+  "mittel_vor": -0.0617,
+  "mittel_nach": NaN,
+  "letzte_256": -0.0496
+ }
+}

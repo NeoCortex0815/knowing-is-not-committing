@@ -1,0 +1,98 @@
+{
+ "bloecke": {
+  "Block 1 (Laptop, 1–30)": {
+   "eigen": {
+    "richtig": 13,
+    "sofort": 0,
+    "frueh_ohne_kandidat": 0,
+    "nie_zu": 11,
+    "gelegenheiten": 13,
+    "zuendungen": 2,
+    "schnell": 3,
+    "schnell_richtig": 2,
+    "zweites_zu": 1,
+    "ohne_boxed_nach_zu": 5,
+    "tokens_mittel": 24806,
+    "denk_tokens_median": 16512
+   },
+   "WT-A": {
+    "richtig": 16,
+    "sofort": 0,
+    "frueh_ohne_kandidat": 0,
+    "nie_zu": 8,
+    "gelegenheiten": 1,
+    "zuendungen": 0,
+    "schnell": 0,
+    "schnell_richtig": 0,
+    "zweites_zu": 17,
+    "ohne_boxed_nach_zu": 3,
+    "tokens_mittel": 17195,
+    "denk_tokens_median": 2578
+   }
+  },
+  "Block 2 (MiniPC, 31–60)": {
+   "eigen": {
+    "richtig": 10,
+    "sofort": 0,
+    "frueh_ohne_kandidat": 0,
+    "nie_zu": 13,
+    "gelegenheiten": 9,
+    "zuendungen": 1,
+    "schnell": 1,
+    "schnell_richtig": 1,
+    "zweites_zu": 0,
+    "ohne_boxed_nach_zu": 4,
+    "tokens_mittel": 24590,
+    "denk_tokens_median": 15842
+   },
+   "WT-A": {
+    "richtig": 15,
+    "sofort": 0,
+    "frueh_ohne_kandidat": 0,
+    "nie_zu": 6,
+    "gelegenheiten": 1,
+    "zuendungen": 1,
+    "schnell": 2,
+    "schnell_richtig": 1,
+    "zweites_zu": 19,
+    "ohne_boxed_nach_zu": 6,
+    "tokens_mittel": 15850,
+    "denk_tokens_median": 2025
+   }
+  }
+ },
+ "K0": true,
+ "K1": true,
+ "K2": false,
+ "K2_text": "NICHT BEURTEILBAR (< 10 Gelegenheiten)",
+ "K3": true,
+ "zuend_quote": 0.5,
+ "gelegenheiten": 2,
+ "zuendungen": 1,
+ "praezision": 0.5,
+ "schnell": 2,
+ "schnell_richtig": 1,
+ "basis_zuend_quote": 0.13636363636363635,
+ "basis_gelegenheiten": 22,
+ "richtig_wta": 31,
+ "richtig_eigen": 23,
+ "nur_wta": 9,
+ "nur_eigen": 1,
+ "p_mcnemar": 0.021484375,
+ "tokens_weniger": 21,
+ "tokens_mehr": 1,
+ "p_K3": 5.4836273193359375e-06,
+ "tokens_gemeinsam_wta": 5247.909090909091,
+ "tokens_gemeinsam_eigen": 14776.40909090909,
+ "tokens_gemeinsam_median_rel": -0.6982815604322399,
+ "auc_wta_Block 1 (Laptop, 1–30)": 0.8214871514488792,
+ "auc_eigen_Block 1 (Laptop, 1–30)": 0.9917842848114599,
+ "auc_wta_Block 2 (MiniPC, 31–60)": 0.9424342105263158,
+ "auc_eigen_Block 2 (MiniPC, 31–60)": 0.9957716701902748,
+ "K4": false,
+ "K4_bloecke": [
+  "Block 1 (Laptop, 1–30)",
+  "Block 2 (MiniPC, 31–60)"
+ ],
+ "tor_wta": false
+}

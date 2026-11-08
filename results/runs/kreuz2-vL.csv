@@ -1,0 +1,41 @@
+id,gold,pred,correct,end,tokens,think_closed
+test/precalculus/807.json,"\left( 3, \frac{\pi}{2} \right)","(3, \frac{\pi}{2})",1,eos,3612,1
+test/algebra/2036.json,3\sqrt{13},3\sqrt{13},1,eos,6431,1
+test/algebra/2584.json,\frac{14}{3},\frac{14}{3},1,eos,7003,1
+test/geometry/248.json,5,5,1,eos,11323,1
+test/number_theory/515.json,27,,0,loop_abbruch,21760,1
+test/precalculus/927.json,90^\circ,90,1,eos,23944,1
+test/number_theory/1032.json,2220,,0,loop_abbruch,24320,1
+test/number_theory/572.json,9,9,1,eos,26539,1
+test/precalculus/1303.json,\sqrt{51},\sqrt{51},1,eos,21765,1
+test/algebra/1098.json,6+9i,6+9i,1,eos,3141,1
+test/intermediate_algebra/1197.json,\frac{3}{56},,0,limit,32768,1
+test/algebra/1349.json,\text{Evelyn},,0,limit,32768,1
+test/intermediate_algebra/1994.json,p - q,,0,limit,32768,0
+test/prealgebra/1139.json,4,,0,limit,32768,0
+test/prealgebra/1622.json,42,,0,limit,32768,0
+test/number_theory/737.json,284,273,0,eos,31253,1
+test/precalculus/990.json,6 - 5i,6 - 5i,1,eos,23277,1
+test/prealgebra/1840.json,78,114,0,eos,7734,1
+test/algebra/1837.json,5,,0,loop_abbruch,16128,1
+test/algebra/2193.json,x=5,5,1,eos,16758,1
+test/intermediate_algebra/1000.json,3,3,1,eos,24859,1
+test/geometry/434.json,28,124,0,eos,28509,1
+test/prealgebra/1302.json,11\sqrt2,11\sqrt{2},1,eos,3827,1
+test/counting_and_probability/666.json,225,1,0,eos,11728,1
+test/intermediate_algebra/134.json,-50,,0,limit,32768,1
+test/precalculus/1199.json,\pi,,0,limit,32768,1
+test/counting_and_probability/525.json,144,,0,loop_abbruch,28672,1
+test/intermediate_algebra/1388.json,"1,-2",,0,loop_abbruch,29440,1
+test/precalculus/779.json,-2 + 7i,,0,loop_abbruch,22528,1
+test/number_theory/864.json,52_8,52_8,1,eos,15705,1
+test/intermediate_algebra/607.json,13535,,0,limit,32768,0
+test/algebra/2427.json,10,,0,limit,32768,0
+test/number_theory/627.json,3,3,1,eos,11346,1
+test/algebra/24.json,2000,2000,1,eos,4624,1
+test/counting_and_probability/119.json,-125,-125,1,eos,18472,1
+test/algebra/1072.json,\frac{243}{625},\frac{243}{625},1,eos,20916,1
+test/geometry/967.json,72,72,1,eos,20546,1
+test/number_theory/45.json,23,23,1,eos,21458,1
+test/counting_and_probability/134.json,720,,0,limit,32768,1
+test/intermediate_algebra/428.json,"3, 5, 7",,0,limit,32768,0

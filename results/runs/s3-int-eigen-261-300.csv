@@ -1,0 +1,41 @@
+id,gold,pred,correct,end,tokens,think_closed
+test/algebra/524.json,4005,2002,0,eos,420,0
+test/prealgebra/1317.json,4,4,1,eos,424,0
+test/prealgebra/1742.json,\dfrac{33}{100},\frac{8}{25},0,eos,725,0
+test/precalculus/580.json,120^\circ,120,0,eos,981,0
+test/prealgebra/993.json,1250,1250,1,eos,651,0
+test/algebra/2551.json,10,10,1,eos,1311,0
+test/algebra/346.json,7,7,1,eos,345,0
+test/counting_and_probability/913.json,6,6,1,eos,1494,0
+test/geometry/483.json,15,15,1,eos,1550,0
+test/number_theory/466.json,1,0,0,eos,1562,0
+test/prealgebra/1834.json,\sqrt{53},\sqrt{53},1,eos,456,0
+test/number_theory/691.json,255,255,1,eos,577,0
+test/prealgebra/1512.json,7\pi,33\pi,0,eos,469,0
+test/prealgebra/1787.json,1,1,1,eos,476,0
+test/number_theory/1287.json,8,16,0,eos,910,0
+test/precalculus/768.json,3 \pm 2 \sqrt{2},"3 + 2\sqrt{2}, 3 - 2\sqrt{2}",0,eos,1451,0
+test/number_theory/634.json,333,333,1,eos,5245,0
+test/geometry/347.json,76^\circ,76,0,eos,6313,0
+test/number_theory/631.json,36,\frac{36}{7},0,eos,3270,0
+test/algebra/634.json,4,4,1,eos,1043,0
+test/algebra/1282.json,11,11,1,eos,7584,1
+test/geometry/226.json,180^\circ,90,0,eos,10327,0
+test/algebra/2486.json,"\left(\frac{3}{5},\frac{8}{3}\right]","\left(-\frac{3}{5}, \frac{8}{3}\right)",0,eos,651,0
+test/number_theory/488.json,58,38,0,eos,1069,0
+test/geometry/686.json,18+2\pi,18 + 18\pi,0,eos,14395,1
+test/geometry/826.json,1\frac{4}{5},3,0,eos,16097,1
+test/precalculus/1172.json,7,7\sqrt{89},0,eos,11559,1
+test/intermediate_algebra/90.json,898,46047,0,loop_abbruch,8704,0
+test/prealgebra/260.json,36^\circ,36,0,eos,18686,0
+test/counting_and_probability/25149.json,63,59,0,eos,13071,0
+test/number_theory/1172.json,103,103,1,eos,5006,0
+test/algebra/1184.json,129,392,0,eos,20486,0
+test/intermediate_algebra/1300.json,16,16,1,eos,17340,1
+test/intermediate_algebra/754.json,\text{(B)},B,0,eos,9552,0
+test/intermediate_algebra/1411.json,440,10,0,eos,25073,0
+test/intermediate_algebra/960.json,\frac{17}{21},1/90,0,eos,28139,1
+test/geometry/1097.json,63,59,0,eos,13558,1
+test/number_theory/533.json,1030,13333,0,limit,32768,1
+test/precalculus/1201.json,11,4,0,eos,24036,0
+test/precalculus/881.json,\begin{pmatrix} -18 \\ -49 \\ 96 \end{pmatrix},2(\mathbf{b} \times \mathbf{c}) - 2(\mathbf{a} \times \mathbf{b}) - 3(\mathbf{a} \times \mathbf{c}),0,eos,25401,1

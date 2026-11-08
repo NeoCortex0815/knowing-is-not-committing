@@ -1,0 +1,691 @@
+{
+ "14 mit frühem richtigen Wert A": {
+  "boxed": 1,
+  "richtig": 1,
+  "sauber": 1
+ },
+ "14 mit frühem richtigen Wert K": {
+  "boxed": 0,
+  "richtig": 0,
+  "sauber": 0
+ },
+ "14 mit frühem richtigen Wert gepaart": [
+  1,
+  0
+ ],
+ "18 ohne frühen richtigen Wert A": {
+  "boxed": 0,
+  "richtig": 0,
+  "sauber": 0
+ },
+ "18 ohne frühen richtigen Wert K": {
+  "boxed": 0,
+  "richtig": 0,
+  "sauber": 0
+ },
+ "18 ohne frühen richtigen Wert gepaart": [
+  0,
+  0
+ ],
+ "alle 32 A": {
+  "boxed": 1,
+  "richtig": 1,
+  "sauber": 1
+ },
+ "alle 32 K": {
+  "boxed": 0,
+  "richtig": 0,
+  "sauber": 0
+ },
+ "alle 32 gepaart": [
+  1,
+  0
+ ],
+ "urteil_argon": "widerlegt",
+ "urteil_sperre": "kein Sperr-Effekt",
+ "a14": 1,
+ "A_minus_K": 1,
+ "wta_hochgerechnet": 62,
+ "zeilen": [
+  {
+   "id": "test/number_theory/521.json",
+   "frueh": true,
+   "orig_ok": false,
+   "weitere_zu": 1,
+   "A": {
+    "boxed": false,
+    "ok": false,
+    "eos": false,
+    "zu": 0,
+    "tokens": 1024
+   },
+   "K": {
+    "boxed": false,
+    "ok": false,
+    "eos": false,
+    "zu": 1,
+    "tokens": 1024
+   }
+  },
+  {
+   "id": "test/counting_and_probability/181.json",
+   "frueh": false,
+   "orig_ok": false,
+   "weitere_zu": 0,
+   "A": {
+    "boxed": false,
+    "ok": false,
+    "eos": false,
+    "zu": 0,
+    "tokens": 1024
+   },
+   "K": {
+    "boxed": false,
+    "ok": false,
+    "eos": false,
+    "zu": 0,
+    "tokens": 1024
+   }
+  },
+  {
+   "id": "test/intermediate_algebra/991.json",
+   "frueh": true,
+   "orig_ok": false,
+   "weitere_zu": 3,
+   "A": {
+    "boxed": false,
+    "ok": false,
+    "eos": false,
+    "zu": 0,
+    "tokens": 1024
+   },
+   "K": {
+    "boxed": false,
+    "ok": false,
+    "eos": false,
+    "zu": 0,
+    "tokens": 1024
+   }
+  },
+  {
+   "id": "test/geometry/65.json",
+   "frueh": true,
+   "orig_ok": false,
+   "weitere_zu": 0,
+   "A": {
+    "boxed": false,
+    "ok": false,
+    "eos": false,
+    "zu": 0,
+    "tokens": 1024
+   },
+   "K": {
+    "boxed": false,
+    "ok": false,
+    "eos": false,
+    "zu": 0,
+    "tokens": 1024
+   }
+  },
+  {
+   "id": "test/precalculus/659.json",
+   "frueh": false,
+   "orig_ok": false,
+   "weitere_zu": 1,
+   "A": {
+    "boxed": false,
+    "ok": false,
+    "eos": false,
+    "zu": 0,
+    "tokens": 1024
+   },
+   "K": {
+    "boxed": false,
+    "ok": false,
+    "eos": false,
+    "zu": 0,
+    "tokens": 1024
+   }
+  },
+  {
+   "id": "test/algebra/1275.json",
+   "frueh": false,
+   "orig_ok": false,
+   "weitere_zu": 0,
+   "A": {
+    "boxed": false,
+    "ok": false,
+    "eos": false,
+    "zu": 0,
+    "tokens": 1024
+   },
+   "K": {
+    "boxed": false,
+    "ok": false,
+    "eos": false,
+    "zu": 0,
+    "tokens": 1024
+   }
+  },
+  {
+   "id": "test/intermediate_algebra/183.json",
+   "frueh": false,
+   "orig_ok": false,
+   "weitere_zu": 0,
+   "A": {
+    "boxed": false,
+    "ok": false,
+    "eos": false,
+    "zu": 0,
+    "tokens": 1024
+   },
+   "K": {
+    "boxed": false,
+    "ok": false,
+    "eos": false,
+    "zu": 0,
+    "tokens": 1024
+   }
+  },
+  {
+   "id": "test/geometry/702.json",
+   "frueh": false,
+   "orig_ok": false,
+   "weitere_zu": 0,
+   "A": {
+    "boxed": false,
+    "ok": false,
+    "eos": false,
+    "zu": 0,
+    "tokens": 1024
+   },
+   "K": {
+    "boxed": false,
+    "ok": false,
+    "eos": false,
+    "zu": 0,
+    "tokens": 1024
+   }
+  },
+  {
+   "id": "test/intermediate_algebra/1555.json",
+   "frueh": true,
+   "orig_ok": false,
+   "weitere_zu": 6,
+   "A": {
+    "boxed": false,
+    "ok": false,
+    "eos": false,
+    "zu": 0,
+    "tokens": 1024
+   },
+   "K": {
+    "boxed": false,
+    "ok": false,
+    "eos": false,
+    "zu": 1,
+    "tokens": 1024
+   }
+  },
+  {
+   "id": "test/counting_and_probability/508.json",
+   "frueh": false,
+   "orig_ok": false,
+   "weitere_zu": 0,
+   "A": {
+    "boxed": false,
+    "ok": false,
+    "eos": false,
+    "zu": 0,
+    "tokens": 1024
+   },
+   "K": {
+    "boxed": false,
+    "ok": false,
+    "eos": false,
+    "zu": 0,
+    "tokens": 1024
+   }
+  },
+  {
+   "id": "test/number_theory/1201.json",
+   "frueh": true,
+   "orig_ok": false,
+   "weitere_zu": 2,
+   "A": {
+    "boxed": false,
+    "ok": false,
+    "eos": false,
+    "zu": 0,
+    "tokens": 1024
+   },
+   "K": {
+    "boxed": false,
+    "ok": false,
+    "eos": false,
+    "zu": 1,
+    "tokens": 1024
+   }
+  },
+  {
+   "id": "test/prealgebra/378.json",
+   "frueh": false,
+   "orig_ok": false,
+   "weitere_zu": 4,
+   "A": {
+    "boxed": false,
+    "ok": false,
+    "eos": false,
+    "zu": 0,
+    "tokens": 1024
+   },
+   "K": {
+    "boxed": false,
+    "ok": false,
+    "eos": false,
+    "zu": 0,
+    "tokens": 1024
+   }
+  },
+  {
+   "id": "test/number_theory/183.json",
+   "frueh": false,
+   "orig_ok": false,
+   "weitere_zu": 1,
+   "A": {
+    "boxed": false,
+    "ok": false,
+    "eos": false,
+    "zu": 0,
+    "tokens": 1024
+   },
+   "K": {
+    "boxed": false,
+    "ok": false,
+    "eos": false,
+    "zu": 0,
+    "tokens": 1024
+   }
+  },
+  {
+   "id": "test/precalculus/190.json",
+   "frueh": false,
+   "orig_ok": false,
+   "weitere_zu": 1,
+   "A": {
+    "boxed": false,
+    "ok": false,
+    "eos": false,
+    "zu": 0,
+    "tokens": 1024
+   },
+   "K": {
+    "boxed": false,
+    "ok": false,
+    "eos": false,
+    "zu": 0,
+    "tokens": 1024
+   }
+  },
+  {
+   "id": "test/counting_and_probability/71.json",
+   "frueh": true,
+   "orig_ok": false,
+   "weitere_zu": 6,
+   "A": {
+    "boxed": false,
+    "ok": false,
+    "eos": false,
+    "zu": 0,
+    "tokens": 1024
+   },
+   "K": {
+    "boxed": false,
+    "ok": false,
+    "eos": false,
+    "zu": 0,
+    "tokens": 1024
+   }
+  },
+  {
+   "id": "test/algebra/1578.json",
+   "frueh": true,
+   "orig_ok": false,
+   "weitere_zu": 0,
+   "A": {
+    "boxed": false,
+    "ok": false,
+    "eos": false,
+    "zu": 0,
+    "tokens": 1024
+   },
+   "K": {
+    "boxed": false,
+    "ok": false,
+    "eos": false,
+    "zu": 0,
+    "tokens": 1024
+   }
+  },
+  {
+   "id": "test/intermediate_algebra/986.json",
+   "frueh": false,
+   "orig_ok": false,
+   "weitere_zu": 0,
+   "A": {
+    "boxed": false,
+    "ok": false,
+    "eos": false,
+    "zu": 0,
+    "tokens": 1024
+   },
+   "K": {
+    "boxed": false,
+    "ok": false,
+    "eos": false,
+    "zu": 0,
+    "tokens": 1024
+   }
+  },
+  {
+   "id": "test/prealgebra/153.json",
+   "frueh": true,
+   "orig_ok": false,
+   "weitere_zu": 2,
+   "A": {
+    "boxed": false,
+    "ok": false,
+    "eos": false,
+    "zu": 0,
+    "tokens": 1024
+   },
+   "K": {
+    "boxed": false,
+    "ok": false,
+    "eos": false,
+    "zu": 0,
+    "tokens": 1024
+   }
+  },
+  {
+   "id": "test/prealgebra/874.json",
+   "frueh": false,
+   "orig_ok": false,
+   "weitere_zu": 0,
+   "A": {
+    "boxed": false,
+    "ok": false,
+    "eos": false,
+    "zu": 0,
+    "tokens": 1024
+   },
+   "K": {
+    "boxed": false,
+    "ok": false,
+    "eos": false,
+    "zu": 0,
+    "tokens": 1024
+   }
+  },
+  {
+   "id": "test/counting_and_probability/894.json",
+   "frueh": false,
+   "orig_ok": false,
+   "weitere_zu": 0,
+   "A": {
+    "boxed": false,
+    "ok": false,
+    "eos": false,
+    "zu": 0,
+    "tokens": 1024
+   },
+   "K": {
+    "boxed": false,
+    "ok": false,
+    "eos": false,
+    "zu": 0,
+    "tokens": 1024
+   }
+  },
+  {
+   "id": "test/counting_and_probability/1009.json",
+   "frueh": false,
+   "orig_ok": false,
+   "weitere_zu": 0,
+   "A": {
+    "boxed": false,
+    "ok": false,
+    "eos": false,
+    "zu": 0,
+    "tokens": 1024
+   },
+   "K": {
+    "boxed": false,
+    "ok": false,
+    "eos": false,
+    "zu": 0,
+    "tokens": 1024
+   }
+  },
+  {
+   "id": "test/number_theory/691.json",
+   "frueh": true,
+   "orig_ok": false,
+   "weitere_zu": 7,
+   "A": {
+    "boxed": true,
+    "ok": true,
+    "eos": true,
+    "zu": 0,
+    "tokens": 670
+   },
+   "K": {
+    "boxed": false,
+    "ok": false,
+    "eos": false,
+    "zu": 0,
+    "tokens": 1024
+   }
+  },
+  {
+   "id": "test/number_theory/634.json",
+   "frueh": true,
+   "orig_ok": false,
+   "weitere_zu": 0,
+   "A": {
+    "boxed": false,
+    "ok": false,
+    "eos": false,
+    "zu": 0,
+    "tokens": 1024
+   },
+   "K": {
+    "boxed": false,
+    "ok": false,
+    "eos": false,
+    "zu": 0,
+    "tokens": 1024
+   }
+  },
+  {
+   "id": "test/prealgebra/993.json",
+   "frueh": true,
+   "orig_ok": false,
+   "weitere_zu": 3,
+   "A": {
+    "boxed": false,
+    "ok": false,
+    "eos": false,
+    "zu": 0,
+    "tokens": 1024
+   },
+   "K": {
+    "boxed": false,
+    "ok": false,
+    "eos": false,
+    "zu": 0,
+    "tokens": 1024
+   }
+  },
+  {
+   "id": "test/algebra/1282.json",
+   "frueh": true,
+   "orig_ok": false,
+   "weitere_zu": 0,
+   "A": {
+    "boxed": false,
+    "ok": false,
+    "eos": false,
+    "zu": 0,
+    "tokens": 1024
+   },
+   "K": {
+    "boxed": false,
+    "ok": false,
+    "eos": false,
+    "zu": 0,
+    "tokens": 1024
+   }
+  },
+  {
+   "id": "test/algebra/1184.json",
+   "frueh": true,
+   "orig_ok": false,
+   "weitere_zu": 0,
+   "A": {
+    "boxed": false,
+    "ok": false,
+    "eos": false,
+    "zu": 0,
+    "tokens": 1024
+   },
+   "K": {
+    "boxed": false,
+    "ok": false,
+    "eos": false,
+    "zu": 0,
+    "tokens": 1024
+   }
+  },
+  {
+   "id": "test/intermediate_algebra/1411.json",
+   "frueh": false,
+   "orig_ok": false,
+   "weitere_zu": 0,
+   "A": {
+    "boxed": false,
+    "ok": false,
+    "eos": false,
+    "zu": 0,
+    "tokens": 1024
+   },
+   "K": {
+    "boxed": false,
+    "ok": false,
+    "eos": false,
+    "zu": 0,
+    "tokens": 1024
+   }
+  },
+  {
+   "id": "test/intermediate_algebra/960.json",
+   "frueh": false,
+   "orig_ok": false,
+   "weitere_zu": 0,
+   "A": {
+    "boxed": false,
+    "ok": false,
+    "eos": false,
+    "zu": 0,
+    "tokens": 1024
+   },
+   "K": {
+    "boxed": false,
+    "ok": false,
+    "eos": false,
+    "zu": 0,
+    "tokens": 1024
+   }
+  },
+  {
+   "id": "test/intermediate_algebra/1300.json",
+   "frueh": true,
+   "orig_ok": false,
+   "weitere_zu": 0,
+   "A": {
+    "boxed": false,
+    "ok": false,
+    "eos": false,
+    "zu": 0,
+    "tokens": 1024
+   },
+   "K": {
+    "boxed": false,
+    "ok": false,
+    "eos": false,
+    "zu": 0,
+    "tokens": 1024
+   }
+  },
+  {
+   "id": "test/number_theory/631.json",
+   "frueh": false,
+   "orig_ok": false,
+   "weitere_zu": 0,
+   "A": {
+    "boxed": false,
+    "ok": false,
+    "eos": false,
+    "zu": 0,
+    "tokens": 1024
+   },
+   "K": {
+    "boxed": false,
+    "ok": false,
+    "eos": false,
+    "zu": 0,
+    "tokens": 1024
+   }
+  },
+  {
+   "id": "test/precalculus/1172.json",
+   "frueh": false,
+   "orig_ok": false,
+   "weitere_zu": 0,
+   "A": {
+    "boxed": false,
+    "ok": false,
+    "eos": false,
+    "zu": 0,
+    "tokens": 1024
+   },
+   "K": {
+    "boxed": false,
+    "ok": false,
+    "eos": false,
+    "zu": 0,
+    "tokens": 1024
+   }
+  },
+  {
+   "id": "test/intermediate_algebra/90.json",
+   "frueh": false,
+   "orig_ok": false,
+   "weitere_zu": 0,
+   "A": {
+    "boxed": false,
+    "ok": false,
+    "eos": false,
+    "zu": 0,
+    "tokens": 1024
+   },
+   "K": {
+    "boxed": false,
+    "ok": false,
+    "eos": false,
+    "zu": 0,
+    "tokens": 1024
+   }
+  }
+ ]
+}

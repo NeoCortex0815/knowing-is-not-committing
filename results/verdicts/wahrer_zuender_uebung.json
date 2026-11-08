@@ -1,0 +1,10457 @@
+{
+ "T_hoch": {
+  "T": 0.37532032423003736,
+  "gewonnen": 38,
+  "verloren": 1,
+  "netto": 37,
+  "gefeuert": 148
+ },
+ "grenze_verloren": 2,
+ "uebung_richtig": 102,
+ "laeufe": 240,
+ "baselines": {
+  "B1 erster Kandidat": {
+   "gewonnen": 22,
+   "verloren": 56,
+   "netto": -34
+  },
+  "B2 erster wiederholter": {
+   "gewonnen": 26,
+   "verloren": 8,
+   "netto": 18
+  }
+ },
+ "kontrolle_gemischt": {
+  "T": Infinity,
+  "gewonnen": 0,
+  "verloren": 0,
+  "netto": 0,
+  "gefeuert": 0
+ },
+ "auc_oof": 0.9588602441306019,
+ "kurve": [
+  {
+   "T": -10.242579128533972,
+   "gewonnen": 22,
+   "verloren": 56,
+   "netto": -34,
+   "gefeuert": 183
+  },
+  {
+   "T": -10.223080865694328,
+   "gewonnen": 22,
+   "verloren": 56,
+   "netto": -34,
+   "gefeuert": 183
+  },
+  {
+   "T": -9.67664554333906,
+   "gewonnen": 22,
+   "verloren": 56,
+   "netto": -34,
+   "gefeuert": 183
+  },
+  {
+   "T": -9.60629141482885,
+   "gewonnen": 22,
+   "verloren": 56,
+   "netto": -34,
+   "gefeuert": 183
+  },
+  {
+   "T": -9.44668274418778,
+   "gewonnen": 22,
+   "verloren": 56,
+   "netto": -34,
+   "gefeuert": 182
+  },
+  {
+   "T": -9.386825372220603,
+   "gewonnen": 22,
+   "verloren": 56,
+   "netto": -34,
+   "gefeuert": 182
+  },
+  {
+   "T": -9.201914977265634,
+   "gewonnen": 22,
+   "verloren": 56,
+   "netto": -34,
+   "gefeuert": 182
+  },
+  {
+   "T": -9.175473788842547,
+   "gewonnen": 22,
+   "verloren": 56,
+   "netto": -34,
+   "gefeuert": 182
+  },
+  {
+   "T": -9.142190843995778,
+   "gewonnen": 22,
+   "verloren": 56,
+   "netto": -34,
+   "gefeuert": 182
+  },
+  {
+   "T": -9.121213683277052,
+   "gewonnen": 22,
+   "verloren": 56,
+   "netto": -34,
+   "gefeuert": 182
+  },
+  {
+   "T": -8.682166808927722,
+   "gewonnen": 22,
+   "verloren": 56,
+   "netto": -34,
+   "gefeuert": 182
+  },
+  {
+   "T": -8.632484893546293,
+   "gewonnen": 22,
+   "verloren": 56,
+   "netto": -34,
+   "gefeuert": 182
+  },
+  {
+   "T": -8.520821190028336,
+   "gewonnen": 22,
+   "verloren": 56,
+   "netto": -34,
+   "gefeuert": 182
+  },
+  {
+   "T": -8.484134185558124,
+   "gewonnen": 22,
+   "verloren": 56,
+   "netto": -34,
+   "gefeuert": 182
+  },
+  {
+   "T": -8.455221451972179,
+   "gewonnen": 22,
+   "verloren": 56,
+   "netto": -34,
+   "gefeuert": 182
+  },
+  {
+   "T": -8.450615473331654,
+   "gewonnen": 22,
+   "verloren": 56,
+   "netto": -34,
+   "gefeuert": 182
+  },
+  {
+   "T": -8.400530799359053,
+   "gewonnen": 22,
+   "verloren": 56,
+   "netto": -34,
+   "gefeuert": 182
+  },
+  {
+   "T": -8.324630960122454,
+   "gewonnen": 22,
+   "verloren": 56,
+   "netto": -34,
+   "gefeuert": 182
+  },
+  {
+   "T": -8.220615479739145,
+   "gewonnen": 22,
+   "verloren": 56,
+   "netto": -34,
+   "gefeuert": 182
+  },
+  {
+   "T": -8.18874743200401,
+   "gewonnen": 22,
+   "verloren": 56,
+   "netto": -34,
+   "gefeuert": 182
+  },
+  {
+   "T": -8.177663178843357,
+   "gewonnen": 22,
+   "verloren": 56,
+   "netto": -34,
+   "gefeuert": 182
+  },
+  {
+   "T": -8.167667639778546,
+   "gewonnen": 22,
+   "verloren": 56,
+   "netto": -34,
+   "gefeuert": 182
+  },
+  {
+   "T": -8.043312565323413,
+   "gewonnen": 22,
+   "verloren": 56,
+   "netto": -34,
+   "gefeuert": 182
+  },
+  {
+   "T": -8.037707064421685,
+   "gewonnen": 22,
+   "verloren": 56,
+   "netto": -34,
+   "gefeuert": 182
+  },
+  {
+   "T": -7.961580936984099,
+   "gewonnen": 22,
+   "verloren": 56,
+   "netto": -34,
+   "gefeuert": 182
+  },
+  {
+   "T": -7.917840621147526,
+   "gewonnen": 22,
+   "verloren": 56,
+   "netto": -34,
+   "gefeuert": 182
+  },
+  {
+   "T": -7.909198075780582,
+   "gewonnen": 22,
+   "verloren": 56,
+   "netto": -34,
+   "gefeuert": 182
+  },
+  {
+   "T": -7.886864494377624,
+   "gewonnen": 22,
+   "verloren": 56,
+   "netto": -34,
+   "gefeuert": 182
+  },
+  {
+   "T": -7.879029747691792,
+   "gewonnen": 22,
+   "verloren": 56,
+   "netto": -34,
+   "gefeuert": 182
+  },
+  {
+   "T": -7.813199614232209,
+   "gewonnen": 22,
+   "verloren": 56,
+   "netto": -34,
+   "gefeuert": 182
+  },
+  {
+   "T": -7.802083670612632,
+   "gewonnen": 22,
+   "verloren": 56,
+   "netto": -34,
+   "gefeuert": 182
+  },
+  {
+   "T": -7.798687530815213,
+   "gewonnen": 22,
+   "verloren": 56,
+   "netto": -34,
+   "gefeuert": 182
+  },
+  {
+   "T": -7.73994527618511,
+   "gewonnen": 22,
+   "verloren": 56,
+   "netto": -34,
+   "gefeuert": 182
+  },
+  {
+   "T": -7.7064481370790325,
+   "gewonnen": 22,
+   "verloren": 56,
+   "netto": -34,
+   "gefeuert": 182
+  },
+  {
+   "T": -7.639379975498532,
+   "gewonnen": 22,
+   "verloren": 56,
+   "netto": -34,
+   "gefeuert": 182
+  },
+  {
+   "T": -7.628803060579165,
+   "gewonnen": 22,
+   "verloren": 56,
+   "netto": -34,
+   "gefeuert": 182
+  },
+  {
+   "T": -7.6247634416282,
+   "gewonnen": 22,
+   "verloren": 56,
+   "netto": -34,
+   "gefeuert": 182
+  },
+  {
+   "T": -7.575022813892762,
+   "gewonnen": 22,
+   "verloren": 56,
+   "netto": -34,
+   "gefeuert": 182
+  },
+  {
+   "T": -7.521518136150761,
+   "gewonnen": 22,
+   "verloren": 56,
+   "netto": -34,
+   "gefeuert": 182
+  },
+  {
+   "T": -7.488996280676385,
+   "gewonnen": 22,
+   "verloren": 56,
+   "netto": -34,
+   "gefeuert": 182
+  },
+  {
+   "T": -7.4487583946470615,
+   "gewonnen": 22,
+   "verloren": 56,
+   "netto": -34,
+   "gefeuert": 182
+  },
+  {
+   "T": -7.430993589622479,
+   "gewonnen": 22,
+   "verloren": 56,
+   "netto": -34,
+   "gefeuert": 182
+  },
+  {
+   "T": -7.4142055134341325,
+   "gewonnen": 22,
+   "verloren": 56,
+   "netto": -34,
+   "gefeuert": 182
+  },
+  {
+   "T": -7.392780173927795,
+   "gewonnen": 22,
+   "verloren": 56,
+   "netto": -34,
+   "gefeuert": 182
+  },
+  {
+   "T": -7.382029641412199,
+   "gewonnen": 22,
+   "verloren": 56,
+   "netto": -34,
+   "gefeuert": 182
+  },
+  {
+   "T": -7.3750065592925775,
+   "gewonnen": 22,
+   "verloren": 56,
+   "netto": -34,
+   "gefeuert": 182
+  },
+  {
+   "T": -7.374593261757788,
+   "gewonnen": 22,
+   "verloren": 56,
+   "netto": -34,
+   "gefeuert": 182
+  },
+  {
+   "T": -7.3736100701330916,
+   "gewonnen": 22,
+   "verloren": 56,
+   "netto": -34,
+   "gefeuert": 182
+  },
+  {
+   "T": -7.372046747961828,
+   "gewonnen": 22,
+   "verloren": 56,
+   "netto": -34,
+   "gefeuert": 182
+  },
+  {
+   "T": -7.371469453527121,
+   "gewonnen": 22,
+   "verloren": 56,
+   "netto": -34,
+   "gefeuert": 182
+  },
+  {
+   "T": -7.365224476724022,
+   "gewonnen": 22,
+   "verloren": 56,
+   "netto": -34,
+   "gefeuert": 182
+  },
+  {
+   "T": -7.3492866336176155,
+   "gewonnen": 22,
+   "verloren": 56,
+   "netto": -34,
+   "gefeuert": 182
+  },
+  {
+   "T": -7.347059257013112,
+   "gewonnen": 22,
+   "verloren": 56,
+   "netto": -34,
+   "gefeuert": 182
+  },
+  {
+   "T": -7.248581173788756,
+   "gewonnen": 22,
+   "verloren": 56,
+   "netto": -34,
+   "gefeuert": 182
+  },
+  {
+   "T": -7.243739018461732,
+   "gewonnen": 22,
+   "verloren": 56,
+   "netto": -34,
+   "gefeuert": 182
+  },
+  {
+   "T": -7.217001517384357,
+   "gewonnen": 22,
+   "verloren": 56,
+   "netto": -34,
+   "gefeuert": 182
+  },
+  {
+   "T": -7.210684023612594,
+   "gewonnen": 22,
+   "verloren": 56,
+   "netto": -34,
+   "gefeuert": 182
+  },
+  {
+   "T": -7.196150775822707,
+   "gewonnen": 22,
+   "verloren": 56,
+   "netto": -34,
+   "gefeuert": 182
+  },
+  {
+   "T": -7.193667318464108,
+   "gewonnen": 22,
+   "verloren": 56,
+   "netto": -34,
+   "gefeuert": 182
+  },
+  {
+   "T": -7.173416494427997,
+   "gewonnen": 22,
+   "verloren": 56,
+   "netto": -34,
+   "gefeuert": 182
+  },
+  {
+   "T": -7.141092758709812,
+   "gewonnen": 22,
+   "verloren": 56,
+   "netto": -34,
+   "gefeuert": 182
+  },
+  {
+   "T": -7.139769808244296,
+   "gewonnen": 22,
+   "verloren": 56,
+   "netto": -34,
+   "gefeuert": 182
+  },
+  {
+   "T": -7.115915109825859,
+   "gewonnen": 22,
+   "verloren": 56,
+   "netto": -34,
+   "gefeuert": 182
+  },
+  {
+   "T": -7.106495001573158,
+   "gewonnen": 22,
+   "verloren": 56,
+   "netto": -34,
+   "gefeuert": 182
+  },
+  {
+   "T": -7.021189460614095,
+   "gewonnen": 22,
+   "verloren": 56,
+   "netto": -34,
+   "gefeuert": 182
+  },
+  {
+   "T": -6.968367774476292,
+   "gewonnen": 22,
+   "verloren": 56,
+   "netto": -34,
+   "gefeuert": 182
+  },
+  {
+   "T": -6.958993469469216,
+   "gewonnen": 22,
+   "verloren": 56,
+   "netto": -34,
+   "gefeuert": 182
+  },
+  {
+   "T": -6.954656322229108,
+   "gewonnen": 22,
+   "verloren": 56,
+   "netto": -34,
+   "gefeuert": 182
+  },
+  {
+   "T": -6.939072431418138,
+   "gewonnen": 22,
+   "verloren": 56,
+   "netto": -34,
+   "gefeuert": 182
+  },
+  {
+   "T": -6.921343565574996,
+   "gewonnen": 22,
+   "verloren": 56,
+   "netto": -34,
+   "gefeuert": 182
+  },
+  {
+   "T": -6.898898491184934,
+   "gewonnen": 22,
+   "verloren": 56,
+   "netto": -34,
+   "gefeuert": 182
+  },
+  {
+   "T": -6.891585494716141,
+   "gewonnen": 22,
+   "verloren": 56,
+   "netto": -34,
+   "gefeuert": 182
+  },
+  {
+   "T": -6.865413772230788,
+   "gewonnen": 22,
+   "verloren": 56,
+   "netto": -34,
+   "gefeuert": 182
+  },
+  {
+   "T": -6.864139798544574,
+   "gewonnen": 22,
+   "verloren": 56,
+   "netto": -34,
+   "gefeuert": 182
+  },
+  {
+   "T": -6.842973175918268,
+   "gewonnen": 22,
+   "verloren": 55,
+   "netto": -33,
+   "gefeuert": 182
+  },
+  {
+   "T": -6.839425012698519,
+   "gewonnen": 22,
+   "verloren": 55,
+   "netto": -33,
+   "gefeuert": 182
+  },
+  {
+   "T": -6.836425383515023,
+   "gewonnen": 22,
+   "verloren": 55,
+   "netto": -33,
+   "gefeuert": 182
+  },
+  {
+   "T": -6.815878696949707,
+   "gewonnen": 22,
+   "verloren": 55,
+   "netto": -33,
+   "gefeuert": 182
+  },
+  {
+   "T": -6.806650782820608,
+   "gewonnen": 22,
+   "verloren": 55,
+   "netto": -33,
+   "gefeuert": 182
+  },
+  {
+   "T": -6.795294443831346,
+   "gewonnen": 22,
+   "verloren": 55,
+   "netto": -33,
+   "gefeuert": 182
+  },
+  {
+   "T": -6.7816307467468775,
+   "gewonnen": 22,
+   "verloren": 55,
+   "netto": -33,
+   "gefeuert": 182
+  },
+  {
+   "T": -6.781371215080463,
+   "gewonnen": 22,
+   "verloren": 55,
+   "netto": -33,
+   "gefeuert": 182
+  },
+  {
+   "T": -6.768987635965572,
+   "gewonnen": 22,
+   "verloren": 55,
+   "netto": -33,
+   "gefeuert": 182
+  },
+  {
+   "T": -6.754938488690042,
+   "gewonnen": 22,
+   "verloren": 55,
+   "netto": -33,
+   "gefeuert": 182
+  },
+  {
+   "T": -6.714011210616283,
+   "gewonnen": 22,
+   "verloren": 55,
+   "netto": -33,
+   "gefeuert": 182
+  },
+  {
+   "T": -6.656820834348301,
+   "gewonnen": 22,
+   "verloren": 55,
+   "netto": -33,
+   "gefeuert": 182
+  },
+  {
+   "T": -6.636836036695979,
+   "gewonnen": 22,
+   "verloren": 55,
+   "netto": -33,
+   "gefeuert": 182
+  },
+  {
+   "T": -6.632429782452557,
+   "gewonnen": 22,
+   "verloren": 55,
+   "netto": -33,
+   "gefeuert": 182
+  },
+  {
+   "T": -6.623811815339772,
+   "gewonnen": 22,
+   "verloren": 55,
+   "netto": -33,
+   "gefeuert": 182
+  },
+  {
+   "T": -6.600414221545502,
+   "gewonnen": 22,
+   "verloren": 55,
+   "netto": -33,
+   "gefeuert": 182
+  },
+  {
+   "T": -6.598793034429425,
+   "gewonnen": 22,
+   "verloren": 55,
+   "netto": -33,
+   "gefeuert": 182
+  },
+  {
+   "T": -6.56916989654909,
+   "gewonnen": 22,
+   "verloren": 55,
+   "netto": -33,
+   "gefeuert": 182
+  },
+  {
+   "T": -6.534687133113241,
+   "gewonnen": 22,
+   "verloren": 55,
+   "netto": -33,
+   "gefeuert": 182
+  },
+  {
+   "T": -6.51462171747236,
+   "gewonnen": 22,
+   "verloren": 55,
+   "netto": -33,
+   "gefeuert": 182
+  },
+  {
+   "T": -6.511396748997655,
+   "gewonnen": 22,
+   "verloren": 55,
+   "netto": -33,
+   "gefeuert": 182
+  },
+  {
+   "T": -6.5100450612855205,
+   "gewonnen": 22,
+   "verloren": 55,
+   "netto": -33,
+   "gefeuert": 182
+  },
+  {
+   "T": -6.501654716635672,
+   "gewonnen": 22,
+   "verloren": 55,
+   "netto": -33,
+   "gefeuert": 182
+  },
+  {
+   "T": -6.49870304663467,
+   "gewonnen": 22,
+   "verloren": 55,
+   "netto": -33,
+   "gefeuert": 182
+  },
+  {
+   "T": -6.48602659094797,
+   "gewonnen": 22,
+   "verloren": 55,
+   "netto": -33,
+   "gefeuert": 182
+  },
+  {
+   "T": -6.4839061223429555,
+   "gewonnen": 22,
+   "verloren": 55,
+   "netto": -33,
+   "gefeuert": 182
+  },
+  {
+   "T": -6.478448539470678,
+   "gewonnen": 22,
+   "verloren": 55,
+   "netto": -33,
+   "gefeuert": 182
+  },
+  {
+   "T": -6.477412767322269,
+   "gewonnen": 22,
+   "verloren": 55,
+   "netto": -33,
+   "gefeuert": 182
+  },
+  {
+   "T": -6.454655254211131,
+   "gewonnen": 22,
+   "verloren": 55,
+   "netto": -33,
+   "gefeuert": 182
+  },
+  {
+   "T": -6.433481554481743,
+   "gewonnen": 22,
+   "verloren": 55,
+   "netto": -33,
+   "gefeuert": 182
+  },
+  {
+   "T": -6.412070086528774,
+   "gewonnen": 22,
+   "verloren": 55,
+   "netto": -33,
+   "gefeuert": 182
+  },
+  {
+   "T": -6.380364972321149,
+   "gewonnen": 22,
+   "verloren": 55,
+   "netto": -33,
+   "gefeuert": 182
+  },
+  {
+   "T": -6.377934744451594,
+   "gewonnen": 22,
+   "verloren": 55,
+   "netto": -33,
+   "gefeuert": 182
+  },
+  {
+   "T": -6.3762985212021075,
+   "gewonnen": 22,
+   "verloren": 55,
+   "netto": -33,
+   "gefeuert": 182
+  },
+  {
+   "T": -6.361960327612547,
+   "gewonnen": 22,
+   "verloren": 55,
+   "netto": -33,
+   "gefeuert": 182
+  },
+  {
+   "T": -6.354422858563375,
+   "gewonnen": 22,
+   "verloren": 55,
+   "netto": -33,
+   "gefeuert": 182
+  },
+  {
+   "T": -6.349832220835654,
+   "gewonnen": 22,
+   "verloren": 55,
+   "netto": -33,
+   "gefeuert": 182
+  },
+  {
+   "T": -6.333414952607469,
+   "gewonnen": 22,
+   "verloren": 55,
+   "netto": -33,
+   "gefeuert": 182
+  },
+  {
+   "T": -6.325650013852449,
+   "gewonnen": 22,
+   "verloren": 55,
+   "netto": -33,
+   "gefeuert": 182
+  },
+  {
+   "T": -6.310197665409961,
+   "gewonnen": 22,
+   "verloren": 55,
+   "netto": -33,
+   "gefeuert": 182
+  },
+  {
+   "T": -6.287738337795281,
+   "gewonnen": 22,
+   "verloren": 55,
+   "netto": -33,
+   "gefeuert": 182
+  },
+  {
+   "T": -6.283080017637551,
+   "gewonnen": 22,
+   "verloren": 55,
+   "netto": -33,
+   "gefeuert": 182
+  },
+  {
+   "T": -6.266299783019072,
+   "gewonnen": 22,
+   "verloren": 55,
+   "netto": -33,
+   "gefeuert": 182
+  },
+  {
+   "T": -6.226705507221709,
+   "gewonnen": 23,
+   "verloren": 55,
+   "netto": -32,
+   "gefeuert": 182
+  },
+  {
+   "T": -6.221455582045782,
+   "gewonnen": 23,
+   "verloren": 55,
+   "netto": -32,
+   "gefeuert": 182
+  },
+  {
+   "T": -6.215483191922633,
+   "gewonnen": 23,
+   "verloren": 55,
+   "netto": -32,
+   "gefeuert": 182
+  },
+  {
+   "T": -6.211581649446721,
+   "gewonnen": 23,
+   "verloren": 55,
+   "netto": -32,
+   "gefeuert": 182
+  },
+  {
+   "T": -6.198250010564411,
+   "gewonnen": 23,
+   "verloren": 55,
+   "netto": -32,
+   "gefeuert": 182
+  },
+  {
+   "T": -6.197738914386822,
+   "gewonnen": 23,
+   "verloren": 55,
+   "netto": -32,
+   "gefeuert": 182
+  },
+  {
+   "T": -6.18908601525575,
+   "gewonnen": 23,
+   "verloren": 55,
+   "netto": -32,
+   "gefeuert": 182
+  },
+  {
+   "T": -6.181019663136354,
+   "gewonnen": 23,
+   "verloren": 55,
+   "netto": -32,
+   "gefeuert": 182
+  },
+  {
+   "T": -6.174135540732251,
+   "gewonnen": 23,
+   "verloren": 55,
+   "netto": -32,
+   "gefeuert": 182
+  },
+  {
+   "T": -6.163874625714209,
+   "gewonnen": 23,
+   "verloren": 55,
+   "netto": -32,
+   "gefeuert": 182
+  },
+  {
+   "T": -6.162251270557499,
+   "gewonnen": 23,
+   "verloren": 55,
+   "netto": -32,
+   "gefeuert": 182
+  },
+  {
+   "T": -6.150720161491409,
+   "gewonnen": 23,
+   "verloren": 55,
+   "netto": -32,
+   "gefeuert": 182
+  },
+  {
+   "T": -6.129432234434264,
+   "gewonnen": 23,
+   "verloren": 55,
+   "netto": -32,
+   "gefeuert": 182
+  },
+  {
+   "T": -6.114439838652017,
+   "gewonnen": 23,
+   "verloren": 55,
+   "netto": -32,
+   "gefeuert": 182
+  },
+  {
+   "T": -6.1105452465523244,
+   "gewonnen": 23,
+   "verloren": 55,
+   "netto": -32,
+   "gefeuert": 182
+  },
+  {
+   "T": -6.106699719505099,
+   "gewonnen": 23,
+   "verloren": 55,
+   "netto": -32,
+   "gefeuert": 182
+  },
+  {
+   "T": -6.103801390293462,
+   "gewonnen": 23,
+   "verloren": 55,
+   "netto": -32,
+   "gefeuert": 182
+  },
+  {
+   "T": -6.069687878186895,
+   "gewonnen": 23,
+   "verloren": 55,
+   "netto": -32,
+   "gefeuert": 182
+  },
+  {
+   "T": -6.053412935260181,
+   "gewonnen": 23,
+   "verloren": 55,
+   "netto": -32,
+   "gefeuert": 182
+  },
+  {
+   "T": -6.05175598196994,
+   "gewonnen": 23,
+   "verloren": 55,
+   "netto": -32,
+   "gefeuert": 182
+  },
+  {
+   "T": -6.048705294423726,
+   "gewonnen": 23,
+   "verloren": 55,
+   "netto": -32,
+   "gefeuert": 181
+  },
+  {
+   "T": -6.047630516735559,
+   "gewonnen": 23,
+   "verloren": 55,
+   "netto": -32,
+   "gefeuert": 181
+  },
+  {
+   "T": -6.046466338365931,
+   "gewonnen": 23,
+   "verloren": 55,
+   "netto": -32,
+   "gefeuert": 181
+  },
+  {
+   "T": -6.046369421552355,
+   "gewonnen": 23,
+   "verloren": 55,
+   "netto": -32,
+   "gefeuert": 181
+  },
+  {
+   "T": -6.043295069846004,
+   "gewonnen": 23,
+   "verloren": 55,
+   "netto": -32,
+   "gefeuert": 181
+  },
+  {
+   "T": -6.031068475355061,
+   "gewonnen": 23,
+   "verloren": 55,
+   "netto": -32,
+   "gefeuert": 181
+  },
+  {
+   "T": -6.01630796002978,
+   "gewonnen": 23,
+   "verloren": 54,
+   "netto": -31,
+   "gefeuert": 181
+  },
+  {
+   "T": -6.0107054533301,
+   "gewonnen": 24,
+   "verloren": 54,
+   "netto": -30,
+   "gefeuert": 181
+  },
+  {
+   "T": -6.006443639143105,
+   "gewonnen": 24,
+   "verloren": 54,
+   "netto": -30,
+   "gefeuert": 181
+  },
+  {
+   "T": -6.0032270241543895,
+   "gewonnen": 24,
+   "verloren": 54,
+   "netto": -30,
+   "gefeuert": 181
+  },
+  {
+   "T": -5.953101029552855,
+   "gewonnen": 24,
+   "verloren": 54,
+   "netto": -30,
+   "gefeuert": 181
+  },
+  {
+   "T": -5.950942733234018,
+   "gewonnen": 24,
+   "verloren": 54,
+   "netto": -30,
+   "gefeuert": 181
+  },
+  {
+   "T": -5.9402443259592115,
+   "gewonnen": 24,
+   "verloren": 54,
+   "netto": -30,
+   "gefeuert": 181
+  },
+  {
+   "T": -5.932770247859394,
+   "gewonnen": 24,
+   "verloren": 54,
+   "netto": -30,
+   "gefeuert": 181
+  },
+  {
+   "T": -5.9316704354737295,
+   "gewonnen": 24,
+   "verloren": 54,
+   "netto": -30,
+   "gefeuert": 181
+  },
+  {
+   "T": -5.926177431484213,
+   "gewonnen": 24,
+   "verloren": 54,
+   "netto": -30,
+   "gefeuert": 181
+  },
+  {
+   "T": -5.922314135204561,
+   "gewonnen": 24,
+   "verloren": 54,
+   "netto": -30,
+   "gefeuert": 181
+  },
+  {
+   "T": -5.915740780621883,
+   "gewonnen": 24,
+   "verloren": 54,
+   "netto": -30,
+   "gefeuert": 181
+  },
+  {
+   "T": -5.908774432647225,
+   "gewonnen": 24,
+   "verloren": 54,
+   "netto": -30,
+   "gefeuert": 181
+  },
+  {
+   "T": -5.905922388884582,
+   "gewonnen": 24,
+   "verloren": 54,
+   "netto": -30,
+   "gefeuert": 181
+  },
+  {
+   "T": -5.904922393357052,
+   "gewonnen": 24,
+   "verloren": 54,
+   "netto": -30,
+   "gefeuert": 181
+  },
+  {
+   "T": -5.887596729414956,
+   "gewonnen": 24,
+   "verloren": 54,
+   "netto": -30,
+   "gefeuert": 181
+  },
+  {
+   "T": -5.880519407892275,
+   "gewonnen": 24,
+   "verloren": 54,
+   "netto": -30,
+   "gefeuert": 181
+  },
+  {
+   "T": -5.873641091460352,
+   "gewonnen": 24,
+   "verloren": 54,
+   "netto": -30,
+   "gefeuert": 181
+  },
+  {
+   "T": -5.847340792967701,
+   "gewonnen": 24,
+   "verloren": 54,
+   "netto": -30,
+   "gefeuert": 181
+  },
+  {
+   "T": -5.820571166008015,
+   "gewonnen": 24,
+   "verloren": 54,
+   "netto": -30,
+   "gefeuert": 181
+  },
+  {
+   "T": -5.7954498397504395,
+   "gewonnen": 24,
+   "verloren": 54,
+   "netto": -30,
+   "gefeuert": 181
+  },
+  {
+   "T": -5.791689049565168,
+   "gewonnen": 24,
+   "verloren": 54,
+   "netto": -30,
+   "gefeuert": 181
+  },
+  {
+   "T": -5.7794277591001535,
+   "gewonnen": 24,
+   "verloren": 54,
+   "netto": -30,
+   "gefeuert": 181
+  },
+  {
+   "T": -5.769962483461972,
+   "gewonnen": 24,
+   "verloren": 54,
+   "netto": -30,
+   "gefeuert": 181
+  },
+  {
+   "T": -5.751697980397127,
+   "gewonnen": 24,
+   "verloren": 54,
+   "netto": -30,
+   "gefeuert": 181
+  },
+  {
+   "T": -5.749489670867729,
+   "gewonnen": 24,
+   "verloren": 54,
+   "netto": -30,
+   "gefeuert": 181
+  },
+  {
+   "T": -5.746347456671678,
+   "gewonnen": 24,
+   "verloren": 54,
+   "netto": -30,
+   "gefeuert": 181
+  },
+  {
+   "T": -5.7408526442881795,
+   "gewonnen": 24,
+   "verloren": 54,
+   "netto": -30,
+   "gefeuert": 181
+  },
+  {
+   "T": -5.732403101432624,
+   "gewonnen": 24,
+   "verloren": 54,
+   "netto": -30,
+   "gefeuert": 181
+  },
+  {
+   "T": -5.732001935171575,
+   "gewonnen": 24,
+   "verloren": 54,
+   "netto": -30,
+   "gefeuert": 181
+  },
+  {
+   "T": -5.728028802222804,
+   "gewonnen": 24,
+   "verloren": 54,
+   "netto": -30,
+   "gefeuert": 181
+  },
+  {
+   "T": -5.727839015060356,
+   "gewonnen": 24,
+   "verloren": 53,
+   "netto": -29,
+   "gefeuert": 181
+  },
+  {
+   "T": -5.721300214300329,
+   "gewonnen": 24,
+   "verloren": 53,
+   "netto": -29,
+   "gefeuert": 181
+  },
+  {
+   "T": -5.718378120780416,
+   "gewonnen": 24,
+   "verloren": 53,
+   "netto": -29,
+   "gefeuert": 181
+  },
+  {
+   "T": -5.703354485055031,
+   "gewonnen": 24,
+   "verloren": 53,
+   "netto": -29,
+   "gefeuert": 181
+  },
+  {
+   "T": -5.702530420403959,
+   "gewonnen": 24,
+   "verloren": 53,
+   "netto": -29,
+   "gefeuert": 181
+  },
+  {
+   "T": -5.700279887385884,
+   "gewonnen": 24,
+   "verloren": 53,
+   "netto": -29,
+   "gefeuert": 181
+  },
+  {
+   "T": -5.670176576656466,
+   "gewonnen": 24,
+   "verloren": 53,
+   "netto": -29,
+   "gefeuert": 181
+  },
+  {
+   "T": -5.66064351325555,
+   "gewonnen": 25,
+   "verloren": 53,
+   "netto": -28,
+   "gefeuert": 181
+  },
+  {
+   "T": -5.6599179317571675,
+   "gewonnen": 25,
+   "verloren": 53,
+   "netto": -28,
+   "gefeuert": 181
+  },
+  {
+   "T": -5.657883718136798,
+   "gewonnen": 25,
+   "verloren": 53,
+   "netto": -28,
+   "gefeuert": 181
+  },
+  {
+   "T": -5.651224196505301,
+   "gewonnen": 25,
+   "verloren": 53,
+   "netto": -28,
+   "gefeuert": 181
+  },
+  {
+   "T": -5.619730689139432,
+   "gewonnen": 25,
+   "verloren": 53,
+   "netto": -28,
+   "gefeuert": 181
+  },
+  {
+   "T": -5.600357654662958,
+   "gewonnen": 25,
+   "verloren": 53,
+   "netto": -28,
+   "gefeuert": 181
+  },
+  {
+   "T": -5.578230639199889,
+   "gewonnen": 25,
+   "verloren": 53,
+   "netto": -28,
+   "gefeuert": 181
+  },
+  {
+   "T": -5.568651311234499,
+   "gewonnen": 25,
+   "verloren": 53,
+   "netto": -28,
+   "gefeuert": 181
+  },
+  {
+   "T": -5.5618107160207275,
+   "gewonnen": 25,
+   "verloren": 53,
+   "netto": -28,
+   "gefeuert": 181
+  },
+  {
+   "T": -5.560776931234926,
+   "gewonnen": 25,
+   "verloren": 53,
+   "netto": -28,
+   "gefeuert": 181
+  },
+  {
+   "T": -5.54923953240446,
+   "gewonnen": 25,
+   "verloren": 53,
+   "netto": -28,
+   "gefeuert": 181
+  },
+  {
+   "T": -5.548888681702024,
+   "gewonnen": 25,
+   "verloren": 53,
+   "netto": -28,
+   "gefeuert": 181
+  },
+  {
+   "T": -5.540088182495256,
+   "gewonnen": 25,
+   "verloren": 53,
+   "netto": -28,
+   "gefeuert": 181
+  },
+  {
+   "T": -5.51187285921371,
+   "gewonnen": 25,
+   "verloren": 53,
+   "netto": -28,
+   "gefeuert": 180
+  },
+  {
+   "T": -5.507050629334543,
+   "gewonnen": 25,
+   "verloren": 53,
+   "netto": -28,
+   "gefeuert": 180
+  },
+  {
+   "T": -5.504931896203412,
+   "gewonnen": 25,
+   "verloren": 53,
+   "netto": -28,
+   "gefeuert": 180
+  },
+  {
+   "T": -5.503058198457554,
+   "gewonnen": 25,
+   "verloren": 53,
+   "netto": -28,
+   "gefeuert": 180
+  },
+  {
+   "T": -5.498669135113713,
+   "gewonnen": 25,
+   "verloren": 53,
+   "netto": -28,
+   "gefeuert": 180
+  },
+  {
+   "T": -5.4799119944793135,
+   "gewonnen": 25,
+   "verloren": 53,
+   "netto": -28,
+   "gefeuert": 180
+  },
+  {
+   "T": -5.441791016893328,
+   "gewonnen": 25,
+   "verloren": 53,
+   "netto": -28,
+   "gefeuert": 180
+  },
+  {
+   "T": -5.439158661563018,
+   "gewonnen": 25,
+   "verloren": 53,
+   "netto": -28,
+   "gefeuert": 180
+  },
+  {
+   "T": -5.4383222636222746,
+   "gewonnen": 25,
+   "verloren": 53,
+   "netto": -28,
+   "gefeuert": 180
+  },
+  {
+   "T": -5.435281718533435,
+   "gewonnen": 25,
+   "verloren": 53,
+   "netto": -28,
+   "gefeuert": 180
+  },
+  {
+   "T": -5.434430986818307,
+   "gewonnen": 25,
+   "verloren": 53,
+   "netto": -28,
+   "gefeuert": 180
+  },
+  {
+   "T": -5.429492803264327,
+   "gewonnen": 25,
+   "verloren": 53,
+   "netto": -28,
+   "gefeuert": 180
+  },
+  {
+   "T": -5.427752636143388,
+   "gewonnen": 25,
+   "verloren": 53,
+   "netto": -28,
+   "gefeuert": 180
+  },
+  {
+   "T": -5.424980473964847,
+   "gewonnen": 25,
+   "verloren": 53,
+   "netto": -28,
+   "gefeuert": 180
+  },
+  {
+   "T": -5.422942628413177,
+   "gewonnen": 25,
+   "verloren": 53,
+   "netto": -28,
+   "gefeuert": 180
+  },
+  {
+   "T": -5.420959922111389,
+   "gewonnen": 25,
+   "verloren": 53,
+   "netto": -28,
+   "gefeuert": 180
+  },
+  {
+   "T": -5.418155997715842,
+   "gewonnen": 25,
+   "verloren": 53,
+   "netto": -28,
+   "gefeuert": 180
+  },
+  {
+   "T": -5.397983045822563,
+   "gewonnen": 25,
+   "verloren": 53,
+   "netto": -28,
+   "gefeuert": 180
+  },
+  {
+   "T": -5.392314300036911,
+   "gewonnen": 25,
+   "verloren": 53,
+   "netto": -28,
+   "gefeuert": 180
+  },
+  {
+   "T": -5.389821836582656,
+   "gewonnen": 25,
+   "verloren": 53,
+   "netto": -28,
+   "gefeuert": 180
+  },
+  {
+   "T": -5.385236354333783,
+   "gewonnen": 25,
+   "verloren": 53,
+   "netto": -28,
+   "gefeuert": 179
+  },
+  {
+   "T": -5.365595378402341,
+   "gewonnen": 25,
+   "verloren": 53,
+   "netto": -28,
+   "gefeuert": 179
+  },
+  {
+   "T": -5.3654884855302045,
+   "gewonnen": 25,
+   "verloren": 53,
+   "netto": -28,
+   "gefeuert": 179
+  },
+  {
+   "T": -5.360774542058097,
+   "gewonnen": 25,
+   "verloren": 52,
+   "netto": -27,
+   "gefeuert": 179
+  },
+  {
+   "T": -5.357532971743812,
+   "gewonnen": 25,
+   "verloren": 52,
+   "netto": -27,
+   "gefeuert": 179
+  },
+  {
+   "T": -5.349635422847921,
+   "gewonnen": 25,
+   "verloren": 52,
+   "netto": -27,
+   "gefeuert": 179
+  },
+  {
+   "T": -5.347688611923029,
+   "gewonnen": 25,
+   "verloren": 52,
+   "netto": -27,
+   "gefeuert": 179
+  },
+  {
+   "T": -5.347627462808317,
+   "gewonnen": 25,
+   "verloren": 52,
+   "netto": -27,
+   "gefeuert": 179
+  },
+  {
+   "T": -5.3474823698149105,
+   "gewonnen": 25,
+   "verloren": 52,
+   "netto": -27,
+   "gefeuert": 179
+  },
+  {
+   "T": -5.336564437323963,
+   "gewonnen": 25,
+   "verloren": 52,
+   "netto": -27,
+   "gefeuert": 179
+  },
+  {
+   "T": -5.3293827033983225,
+   "gewonnen": 25,
+   "verloren": 52,
+   "netto": -27,
+   "gefeuert": 179
+  },
+  {
+   "T": -5.297027333826945,
+   "gewonnen": 25,
+   "verloren": 51,
+   "netto": -26,
+   "gefeuert": 179
+  },
+  {
+   "T": -5.293459398687739,
+   "gewonnen": 25,
+   "verloren": 51,
+   "netto": -26,
+   "gefeuert": 179
+  },
+  {
+   "T": -5.290313735542334,
+   "gewonnen": 25,
+   "verloren": 51,
+   "netto": -26,
+   "gefeuert": 179
+  },
+  {
+   "T": -5.274779732477899,
+   "gewonnen": 25,
+   "verloren": 51,
+   "netto": -26,
+   "gefeuert": 179
+  },
+  {
+   "T": -5.272710327127967,
+   "gewonnen": 25,
+   "verloren": 51,
+   "netto": -26,
+   "gefeuert": 179
+  },
+  {
+   "T": -5.267296567978764,
+   "gewonnen": 25,
+   "verloren": 51,
+   "netto": -26,
+   "gefeuert": 179
+  },
+  {
+   "T": -5.2618180014146345,
+   "gewonnen": 25,
+   "verloren": 50,
+   "netto": -25,
+   "gefeuert": 179
+  },
+  {
+   "T": -5.255484628236629,
+   "gewonnen": 25,
+   "verloren": 50,
+   "netto": -25,
+   "gefeuert": 179
+  },
+  {
+   "T": -5.25269454119651,
+   "gewonnen": 25,
+   "verloren": 50,
+   "netto": -25,
+   "gefeuert": 179
+  },
+  {
+   "T": -5.241600726700002,
+   "gewonnen": 25,
+   "verloren": 50,
+   "netto": -25,
+   "gefeuert": 178
+  },
+  {
+   "T": -5.229452718178778,
+   "gewonnen": 25,
+   "verloren": 50,
+   "netto": -25,
+   "gefeuert": 178
+  },
+  {
+   "T": -5.219952168649121,
+   "gewonnen": 25,
+   "verloren": 50,
+   "netto": -25,
+   "gefeuert": 178
+  },
+  {
+   "T": -5.2145506118874465,
+   "gewonnen": 25,
+   "verloren": 50,
+   "netto": -25,
+   "gefeuert": 177
+  },
+  {
+   "T": -5.2061085989733265,
+   "gewonnen": 25,
+   "verloren": 50,
+   "netto": -25,
+   "gefeuert": 177
+  },
+  {
+   "T": -5.192599395544308,
+   "gewonnen": 25,
+   "verloren": 49,
+   "netto": -24,
+   "gefeuert": 177
+  },
+  {
+   "T": -5.1880142418809765,
+   "gewonnen": 25,
+   "verloren": 49,
+   "netto": -24,
+   "gefeuert": 177
+  },
+  {
+   "T": -5.177909726681659,
+   "gewonnen": 25,
+   "verloren": 49,
+   "netto": -24,
+   "gefeuert": 177
+  },
+  {
+   "T": -5.17138391422211,
+   "gewonnen": 25,
+   "verloren": 49,
+   "netto": -24,
+   "gefeuert": 177
+  },
+  {
+   "T": -5.166368151426106,
+   "gewonnen": 25,
+   "verloren": 49,
+   "netto": -24,
+   "gefeuert": 177
+  },
+  {
+   "T": -5.1655973479656945,
+   "gewonnen": 25,
+   "verloren": 49,
+   "netto": -24,
+   "gefeuert": 177
+  },
+  {
+   "T": -5.159455129290542,
+   "gewonnen": 25,
+   "verloren": 49,
+   "netto": -24,
+   "gefeuert": 177
+  },
+  {
+   "T": -5.154820502214524,
+   "gewonnen": 25,
+   "verloren": 49,
+   "netto": -24,
+   "gefeuert": 176
+  },
+  {
+   "T": -5.154168469342777,
+   "gewonnen": 25,
+   "verloren": 49,
+   "netto": -24,
+   "gefeuert": 176
+  },
+  {
+   "T": -5.152321945075587,
+   "gewonnen": 25,
+   "verloren": 49,
+   "netto": -24,
+   "gefeuert": 176
+  },
+  {
+   "T": -5.145135290931759,
+   "gewonnen": 25,
+   "verloren": 49,
+   "netto": -24,
+   "gefeuert": 176
+  },
+  {
+   "T": -5.144968877275967,
+   "gewonnen": 25,
+   "verloren": 48,
+   "netto": -23,
+   "gefeuert": 176
+  },
+  {
+   "T": -5.1415801564123385,
+   "gewonnen": 26,
+   "verloren": 48,
+   "netto": -22,
+   "gefeuert": 176
+  },
+  {
+   "T": -5.134408903803755,
+   "gewonnen": 26,
+   "verloren": 48,
+   "netto": -22,
+   "gefeuert": 176
+  },
+  {
+   "T": -5.13304352510028,
+   "gewonnen": 26,
+   "verloren": 48,
+   "netto": -22,
+   "gefeuert": 176
+  },
+  {
+   "T": -5.12847029372952,
+   "gewonnen": 26,
+   "verloren": 48,
+   "netto": -22,
+   "gefeuert": 176
+  },
+  {
+   "T": -5.123034634758512,
+   "gewonnen": 26,
+   "verloren": 48,
+   "netto": -22,
+   "gefeuert": 176
+  },
+  {
+   "T": -5.112345220819943,
+   "gewonnen": 26,
+   "verloren": 48,
+   "netto": -22,
+   "gefeuert": 176
+  },
+  {
+   "T": -5.112307682549716,
+   "gewonnen": 26,
+   "verloren": 48,
+   "netto": -22,
+   "gefeuert": 176
+  },
+  {
+   "T": -5.109346625589218,
+   "gewonnen": 26,
+   "verloren": 48,
+   "netto": -22,
+   "gefeuert": 176
+  },
+  {
+   "T": -5.0821349015077635,
+   "gewonnen": 26,
+   "verloren": 48,
+   "netto": -22,
+   "gefeuert": 176
+  },
+  {
+   "T": -5.08098885724575,
+   "gewonnen": 26,
+   "verloren": 48,
+   "netto": -22,
+   "gefeuert": 176
+  },
+  {
+   "T": -5.08087141679367,
+   "gewonnen": 26,
+   "verloren": 48,
+   "netto": -22,
+   "gefeuert": 175
+  },
+  {
+   "T": -5.075420841425747,
+   "gewonnen": 26,
+   "verloren": 48,
+   "netto": -22,
+   "gefeuert": 175
+  },
+  {
+   "T": -5.0737412836738685,
+   "gewonnen": 26,
+   "verloren": 48,
+   "netto": -22,
+   "gefeuert": 175
+  },
+  {
+   "T": -5.07012242985611,
+   "gewonnen": 26,
+   "verloren": 48,
+   "netto": -22,
+   "gefeuert": 175
+  },
+  {
+   "T": -5.069428730456938,
+   "gewonnen": 26,
+   "verloren": 48,
+   "netto": -22,
+   "gefeuert": 175
+  },
+  {
+   "T": -5.0674673376989015,
+   "gewonnen": 26,
+   "verloren": 48,
+   "netto": -22,
+   "gefeuert": 175
+  },
+  {
+   "T": -5.061552270449822,
+   "gewonnen": 26,
+   "verloren": 48,
+   "netto": -22,
+   "gefeuert": 175
+  },
+  {
+   "T": -5.056800425687182,
+   "gewonnen": 26,
+   "verloren": 48,
+   "netto": -22,
+   "gefeuert": 175
+  },
+  {
+   "T": -5.056381634613656,
+   "gewonnen": 26,
+   "verloren": 48,
+   "netto": -22,
+   "gefeuert": 175
+  },
+  {
+   "T": -5.053975409601321,
+   "gewonnen": 26,
+   "verloren": 48,
+   "netto": -22,
+   "gefeuert": 175
+  },
+  {
+   "T": -5.048677347862819,
+   "gewonnen": 26,
+   "verloren": 48,
+   "netto": -22,
+   "gefeuert": 175
+  },
+  {
+   "T": -5.046641971617655,
+   "gewonnen": 26,
+   "verloren": 48,
+   "netto": -22,
+   "gefeuert": 175
+  },
+  {
+   "T": -5.040808721421762,
+   "gewonnen": 26,
+   "verloren": 48,
+   "netto": -22,
+   "gefeuert": 175
+  },
+  {
+   "T": -5.0382322218246225,
+   "gewonnen": 26,
+   "verloren": 48,
+   "netto": -22,
+   "gefeuert": 175
+  },
+  {
+   "T": -5.0106595637996865,
+   "gewonnen": 26,
+   "verloren": 48,
+   "netto": -22,
+   "gefeuert": 175
+  },
+  {
+   "T": -4.997702494169524,
+   "gewonnen": 26,
+   "verloren": 48,
+   "netto": -22,
+   "gefeuert": 175
+  },
+  {
+   "T": -4.992265368174027,
+   "gewonnen": 26,
+   "verloren": 48,
+   "netto": -22,
+   "gefeuert": 175
+  },
+  {
+   "T": -4.991248033769688,
+   "gewonnen": 26,
+   "verloren": 48,
+   "netto": -22,
+   "gefeuert": 175
+  },
+  {
+   "T": -4.988908071758008,
+   "gewonnen": 27,
+   "verloren": 48,
+   "netto": -21,
+   "gefeuert": 175
+  },
+  {
+   "T": -4.9831063410729834,
+   "gewonnen": 27,
+   "verloren": 48,
+   "netto": -21,
+   "gefeuert": 175
+  },
+  {
+   "T": -4.967706904140642,
+   "gewonnen": 27,
+   "verloren": 48,
+   "netto": -21,
+   "gefeuert": 175
+  },
+  {
+   "T": -4.96676891868269,
+   "gewonnen": 27,
+   "verloren": 48,
+   "netto": -21,
+   "gefeuert": 175
+  },
+  {
+   "T": -4.965901733960706,
+   "gewonnen": 27,
+   "verloren": 47,
+   "netto": -20,
+   "gefeuert": 175
+  },
+  {
+   "T": -4.961911336557632,
+   "gewonnen": 27,
+   "verloren": 47,
+   "netto": -20,
+   "gefeuert": 175
+  },
+  {
+   "T": -4.956497311210497,
+   "gewonnen": 27,
+   "verloren": 46,
+   "netto": -19,
+   "gefeuert": 175
+  },
+  {
+   "T": -4.945452775239806,
+   "gewonnen": 27,
+   "verloren": 46,
+   "netto": -19,
+   "gefeuert": 175
+  },
+  {
+   "T": -4.943455146568579,
+   "gewonnen": 27,
+   "verloren": 46,
+   "netto": -19,
+   "gefeuert": 175
+  },
+  {
+   "T": -4.94045776638834,
+   "gewonnen": 27,
+   "verloren": 46,
+   "netto": -19,
+   "gefeuert": 175
+  },
+  {
+   "T": -4.932418602580423,
+   "gewonnen": 27,
+   "verloren": 46,
+   "netto": -19,
+   "gefeuert": 175
+  },
+  {
+   "T": -4.922017122007061,
+   "gewonnen": 27,
+   "verloren": 45,
+   "netto": -18,
+   "gefeuert": 175
+  },
+  {
+   "T": -4.916731385222002,
+   "gewonnen": 27,
+   "verloren": 45,
+   "netto": -18,
+   "gefeuert": 175
+  },
+  {
+   "T": -4.916061075490331,
+   "gewonnen": 27,
+   "verloren": 45,
+   "netto": -18,
+   "gefeuert": 175
+  },
+  {
+   "T": -4.897471885366067,
+   "gewonnen": 27,
+   "verloren": 45,
+   "netto": -18,
+   "gefeuert": 175
+  },
+  {
+   "T": -4.8879443272534004,
+   "gewonnen": 27,
+   "verloren": 45,
+   "netto": -18,
+   "gefeuert": 175
+  },
+  {
+   "T": -4.883492930675921,
+   "gewonnen": 27,
+   "verloren": 45,
+   "netto": -18,
+   "gefeuert": 175
+  },
+  {
+   "T": -4.874524070379849,
+   "gewonnen": 27,
+   "verloren": 45,
+   "netto": -18,
+   "gefeuert": 175
+  },
+  {
+   "T": -4.864149427870133,
+   "gewonnen": 27,
+   "verloren": 45,
+   "netto": -18,
+   "gefeuert": 175
+  },
+  {
+   "T": -4.843619489239256,
+   "gewonnen": 27,
+   "verloren": 45,
+   "netto": -18,
+   "gefeuert": 175
+  },
+  {
+   "T": -4.833606123722272,
+   "gewonnen": 27,
+   "verloren": 45,
+   "netto": -18,
+   "gefeuert": 175
+  },
+  {
+   "T": -4.826427951762771,
+   "gewonnen": 27,
+   "verloren": 45,
+   "netto": -18,
+   "gefeuert": 175
+  },
+  {
+   "T": -4.82161638433358,
+   "gewonnen": 27,
+   "verloren": 45,
+   "netto": -18,
+   "gefeuert": 175
+  },
+  {
+   "T": -4.816159856198191,
+   "gewonnen": 27,
+   "verloren": 45,
+   "netto": -18,
+   "gefeuert": 175
+  },
+  {
+   "T": -4.8151256118811006,
+   "gewonnen": 27,
+   "verloren": 45,
+   "netto": -18,
+   "gefeuert": 175
+  },
+  {
+   "T": -4.807807482371221,
+   "gewonnen": 27,
+   "verloren": 44,
+   "netto": -17,
+   "gefeuert": 175
+  },
+  {
+   "T": -4.80103205856064,
+   "gewonnen": 27,
+   "verloren": 44,
+   "netto": -17,
+   "gefeuert": 175
+  },
+  {
+   "T": -4.7867373791201695,
+   "gewonnen": 27,
+   "verloren": 44,
+   "netto": -17,
+   "gefeuert": 175
+  },
+  {
+   "T": -4.77995487783762,
+   "gewonnen": 27,
+   "verloren": 44,
+   "netto": -17,
+   "gefeuert": 175
+  },
+  {
+   "T": -4.777170322955504,
+   "gewonnen": 27,
+   "verloren": 44,
+   "netto": -17,
+   "gefeuert": 175
+  },
+  {
+   "T": -4.771314815287596,
+   "gewonnen": 28,
+   "verloren": 44,
+   "netto": -16,
+   "gefeuert": 175
+  },
+  {
+   "T": -4.768413230581096,
+   "gewonnen": 28,
+   "verloren": 43,
+   "netto": -15,
+   "gefeuert": 175
+  },
+  {
+   "T": -4.758183985590775,
+   "gewonnen": 28,
+   "verloren": 43,
+   "netto": -15,
+   "gefeuert": 175
+  },
+  {
+   "T": -4.757010059173233,
+   "gewonnen": 28,
+   "verloren": 43,
+   "netto": -15,
+   "gefeuert": 175
+  },
+  {
+   "T": -4.749305477709713,
+   "gewonnen": 28,
+   "verloren": 43,
+   "netto": -15,
+   "gefeuert": 175
+  },
+  {
+   "T": -4.739082928213312,
+   "gewonnen": 28,
+   "verloren": 43,
+   "netto": -15,
+   "gefeuert": 175
+  },
+  {
+   "T": -4.714072937260367,
+   "gewonnen": 28,
+   "verloren": 43,
+   "netto": -15,
+   "gefeuert": 175
+  },
+  {
+   "T": -4.711936458513793,
+   "gewonnen": 28,
+   "verloren": 43,
+   "netto": -15,
+   "gefeuert": 174
+  },
+  {
+   "T": -4.707351143953241,
+   "gewonnen": 28,
+   "verloren": 43,
+   "netto": -15,
+   "gefeuert": 174
+  },
+  {
+   "T": -4.706253207374375,
+   "gewonnen": 28,
+   "verloren": 43,
+   "netto": -15,
+   "gefeuert": 174
+  },
+  {
+   "T": -4.689021449782133,
+   "gewonnen": 28,
+   "verloren": 42,
+   "netto": -14,
+   "gefeuert": 174
+  },
+  {
+   "T": -4.6879917201811985,
+   "gewonnen": 28,
+   "verloren": 42,
+   "netto": -14,
+   "gefeuert": 174
+  },
+  {
+   "T": -4.685803604433368,
+   "gewonnen": 28,
+   "verloren": 42,
+   "netto": -14,
+   "gefeuert": 174
+  },
+  {
+   "T": -4.681172261131158,
+   "gewonnen": 28,
+   "verloren": 42,
+   "netto": -14,
+   "gefeuert": 174
+  },
+  {
+   "T": -4.678147015530509,
+   "gewonnen": 28,
+   "verloren": 41,
+   "netto": -13,
+   "gefeuert": 174
+  },
+  {
+   "T": -4.675552970280651,
+   "gewonnen": 28,
+   "verloren": 40,
+   "netto": -12,
+   "gefeuert": 174
+  },
+  {
+   "T": -4.671577667087024,
+   "gewonnen": 28,
+   "verloren": 40,
+   "netto": -12,
+   "gefeuert": 174
+  },
+  {
+   "T": -4.66623054857982,
+   "gewonnen": 28,
+   "verloren": 40,
+   "netto": -12,
+   "gefeuert": 174
+  },
+  {
+   "T": -4.651615116867893,
+   "gewonnen": 28,
+   "verloren": 40,
+   "netto": -12,
+   "gefeuert": 173
+  },
+  {
+   "T": -4.651303909896619,
+   "gewonnen": 28,
+   "verloren": 40,
+   "netto": -12,
+   "gefeuert": 173
+  },
+  {
+   "T": -4.620753159246814,
+   "gewonnen": 28,
+   "verloren": 39,
+   "netto": -11,
+   "gefeuert": 173
+  },
+  {
+   "T": -4.617161246180737,
+   "gewonnen": 28,
+   "verloren": 39,
+   "netto": -11,
+   "gefeuert": 172
+  },
+  {
+   "T": -4.612760885311298,
+   "gewonnen": 28,
+   "verloren": 39,
+   "netto": -11,
+   "gefeuert": 172
+  },
+  {
+   "T": -4.607178910865844,
+   "gewonnen": 28,
+   "verloren": 39,
+   "netto": -11,
+   "gefeuert": 172
+  },
+  {
+   "T": -4.604508599791094,
+   "gewonnen": 28,
+   "verloren": 39,
+   "netto": -11,
+   "gefeuert": 172
+  },
+  {
+   "T": -4.600796451374604,
+   "gewonnen": 28,
+   "verloren": 38,
+   "netto": -10,
+   "gefeuert": 172
+  },
+  {
+   "T": -4.600452033738395,
+   "gewonnen": 28,
+   "verloren": 38,
+   "netto": -10,
+   "gefeuert": 172
+  },
+  {
+   "T": -4.599014947391084,
+   "gewonnen": 28,
+   "verloren": 38,
+   "netto": -10,
+   "gefeuert": 172
+  },
+  {
+   "T": -4.5987294962027985,
+   "gewonnen": 28,
+   "verloren": 38,
+   "netto": -10,
+   "gefeuert": 172
+  },
+  {
+   "T": -4.59811285180944,
+   "gewonnen": 28,
+   "verloren": 38,
+   "netto": -10,
+   "gefeuert": 172
+  },
+  {
+   "T": -4.5854655581496075,
+   "gewonnen": 28,
+   "verloren": 38,
+   "netto": -10,
+   "gefeuert": 172
+  },
+  {
+   "T": -4.582782970343992,
+   "gewonnen": 28,
+   "verloren": 37,
+   "netto": -9,
+   "gefeuert": 172
+  },
+  {
+   "T": -4.57519735271036,
+   "gewonnen": 28,
+   "verloren": 37,
+   "netto": -9,
+   "gefeuert": 172
+  },
+  {
+   "T": -4.572692407556151,
+   "gewonnen": 28,
+   "verloren": 37,
+   "netto": -9,
+   "gefeuert": 172
+  },
+  {
+   "T": -4.567931204051678,
+   "gewonnen": 28,
+   "verloren": 37,
+   "netto": -9,
+   "gefeuert": 172
+  },
+  {
+   "T": -4.561491368271795,
+   "gewonnen": 28,
+   "verloren": 36,
+   "netto": -8,
+   "gefeuert": 172
+  },
+  {
+   "T": -4.559394874927127,
+   "gewonnen": 28,
+   "verloren": 36,
+   "netto": -8,
+   "gefeuert": 172
+  },
+  {
+   "T": -4.550617478037809,
+   "gewonnen": 28,
+   "verloren": 36,
+   "netto": -8,
+   "gefeuert": 172
+  },
+  {
+   "T": -4.5492791549536085,
+   "gewonnen": 28,
+   "verloren": 36,
+   "netto": -8,
+   "gefeuert": 172
+  },
+  {
+   "T": -4.545004516892467,
+   "gewonnen": 28,
+   "verloren": 36,
+   "netto": -8,
+   "gefeuert": 172
+  },
+  {
+   "T": -4.542630676493177,
+   "gewonnen": 28,
+   "verloren": 36,
+   "netto": -8,
+   "gefeuert": 171
+  },
+  {
+   "T": -4.541607254595877,
+   "gewonnen": 28,
+   "verloren": 36,
+   "netto": -8,
+   "gefeuert": 171
+  },
+  {
+   "T": -4.531852602389158,
+   "gewonnen": 28,
+   "verloren": 36,
+   "netto": -8,
+   "gefeuert": 171
+  },
+  {
+   "T": -4.5303363848137534,
+   "gewonnen": 28,
+   "verloren": 36,
+   "netto": -8,
+   "gefeuert": 171
+  },
+  {
+   "T": -4.530242604037035,
+   "gewonnen": 28,
+   "verloren": 36,
+   "netto": -8,
+   "gefeuert": 171
+  },
+  {
+   "T": -4.528711067415339,
+   "gewonnen": 28,
+   "verloren": 36,
+   "netto": -8,
+   "gefeuert": 171
+  },
+  {
+   "T": -4.520924188890301,
+   "gewonnen": 28,
+   "verloren": 35,
+   "netto": -7,
+   "gefeuert": 171
+  },
+  {
+   "T": -4.5125471017107435,
+   "gewonnen": 28,
+   "verloren": 35,
+   "netto": -7,
+   "gefeuert": 171
+  },
+  {
+   "T": -4.497522888040539,
+   "gewonnen": 29,
+   "verloren": 35,
+   "netto": -6,
+   "gefeuert": 171
+  },
+  {
+   "T": -4.491003558415407,
+   "gewonnen": 29,
+   "verloren": 35,
+   "netto": -6,
+   "gefeuert": 171
+  },
+  {
+   "T": -4.488974176176746,
+   "gewonnen": 29,
+   "verloren": 35,
+   "netto": -6,
+   "gefeuert": 171
+  },
+  {
+   "T": -4.473753672309125,
+   "gewonnen": 29,
+   "verloren": 34,
+   "netto": -5,
+   "gefeuert": 171
+  },
+  {
+   "T": -4.472045413606352,
+   "gewonnen": 29,
+   "verloren": 34,
+   "netto": -5,
+   "gefeuert": 171
+  },
+  {
+   "T": -4.441641473232687,
+   "gewonnen": 29,
+   "verloren": 34,
+   "netto": -5,
+   "gefeuert": 171
+  },
+  {
+   "T": -4.433524044245231,
+   "gewonnen": 29,
+   "verloren": 34,
+   "netto": -5,
+   "gefeuert": 171
+  },
+  {
+   "T": -4.432288786727868,
+   "gewonnen": 29,
+   "verloren": 33,
+   "netto": -4,
+   "gefeuert": 171
+  },
+  {
+   "T": -4.431235418050574,
+   "gewonnen": 29,
+   "verloren": 33,
+   "netto": -4,
+   "gefeuert": 171
+  },
+  {
+   "T": -4.430125324028213,
+   "gewonnen": 29,
+   "verloren": 33,
+   "netto": -4,
+   "gefeuert": 171
+  },
+  {
+   "T": -4.41560484017889,
+   "gewonnen": 29,
+   "verloren": 33,
+   "netto": -4,
+   "gefeuert": 170
+  },
+  {
+   "T": -4.4149523466747835,
+   "gewonnen": 29,
+   "verloren": 33,
+   "netto": -4,
+   "gefeuert": 170
+  },
+  {
+   "T": -4.408008088876357,
+   "gewonnen": 29,
+   "verloren": 33,
+   "netto": -4,
+   "gefeuert": 170
+  },
+  {
+   "T": -4.407224002782421,
+   "gewonnen": 29,
+   "verloren": 32,
+   "netto": -3,
+   "gefeuert": 170
+  },
+  {
+   "T": -4.404889667544768,
+   "gewonnen": 29,
+   "verloren": 32,
+   "netto": -3,
+   "gefeuert": 170
+  },
+  {
+   "T": -4.398458532261611,
+   "gewonnen": 29,
+   "verloren": 32,
+   "netto": -3,
+   "gefeuert": 170
+  },
+  {
+   "T": -4.39816396864181,
+   "gewonnen": 29,
+   "verloren": 32,
+   "netto": -3,
+   "gefeuert": 170
+  },
+  {
+   "T": -4.396447132220736,
+   "gewonnen": 29,
+   "verloren": 32,
+   "netto": -3,
+   "gefeuert": 170
+  },
+  {
+   "T": -4.392046624561061,
+   "gewonnen": 29,
+   "verloren": 32,
+   "netto": -3,
+   "gefeuert": 170
+  },
+  {
+   "T": -4.3791053962911874,
+   "gewonnen": 29,
+   "verloren": 31,
+   "netto": -2,
+   "gefeuert": 170
+  },
+  {
+   "T": -4.378711128034917,
+   "gewonnen": 29,
+   "verloren": 31,
+   "netto": -2,
+   "gefeuert": 170
+  },
+  {
+   "T": -4.358021309781237,
+   "gewonnen": 29,
+   "verloren": 31,
+   "netto": -2,
+   "gefeuert": 170
+  },
+  {
+   "T": -4.356267847861754,
+   "gewonnen": 29,
+   "verloren": 30,
+   "netto": -1,
+   "gefeuert": 170
+  },
+  {
+   "T": -4.355171038023999,
+   "gewonnen": 29,
+   "verloren": 29,
+   "netto": 0,
+   "gefeuert": 170
+  },
+  {
+   "T": -4.353339963466198,
+   "gewonnen": 29,
+   "verloren": 29,
+   "netto": 0,
+   "gefeuert": 170
+  },
+  {
+   "T": -4.346178548959252,
+   "gewonnen": 29,
+   "verloren": 28,
+   "netto": 1,
+   "gefeuert": 170
+  },
+  {
+   "T": -4.338093843216422,
+   "gewonnen": 29,
+   "verloren": 28,
+   "netto": 1,
+   "gefeuert": 170
+  },
+  {
+   "T": -4.318188978790397,
+   "gewonnen": 29,
+   "verloren": 28,
+   "netto": 1,
+   "gefeuert": 170
+  },
+  {
+   "T": -4.314944377422381,
+   "gewonnen": 29,
+   "verloren": 28,
+   "netto": 1,
+   "gefeuert": 170
+  },
+  {
+   "T": -4.314165013795923,
+   "gewonnen": 29,
+   "verloren": 28,
+   "netto": 1,
+   "gefeuert": 170
+  },
+  {
+   "T": -4.307707836253283,
+   "gewonnen": 29,
+   "verloren": 28,
+   "netto": 1,
+   "gefeuert": 170
+  },
+  {
+   "T": -4.298753380507252,
+   "gewonnen": 29,
+   "verloren": 28,
+   "netto": 1,
+   "gefeuert": 170
+  },
+  {
+   "T": -4.291691589781385,
+   "gewonnen": 29,
+   "verloren": 28,
+   "netto": 1,
+   "gefeuert": 170
+  },
+  {
+   "T": -4.289626813193697,
+   "gewonnen": 29,
+   "verloren": 28,
+   "netto": 1,
+   "gefeuert": 170
+  },
+  {
+   "T": -4.288727139403174,
+   "gewonnen": 29,
+   "verloren": 28,
+   "netto": 1,
+   "gefeuert": 170
+  },
+  {
+   "T": -4.275976929312414,
+   "gewonnen": 29,
+   "verloren": 27,
+   "netto": 2,
+   "gefeuert": 170
+  },
+  {
+   "T": -4.274123483288189,
+   "gewonnen": 29,
+   "verloren": 27,
+   "netto": 2,
+   "gefeuert": 170
+  },
+  {
+   "T": -4.2718949519641605,
+   "gewonnen": 29,
+   "verloren": 27,
+   "netto": 2,
+   "gefeuert": 170
+  },
+  {
+   "T": -4.266521331897215,
+   "gewonnen": 29,
+   "verloren": 26,
+   "netto": 3,
+   "gefeuert": 170
+  },
+  {
+   "T": -4.263018093907078,
+   "gewonnen": 29,
+   "verloren": 26,
+   "netto": 3,
+   "gefeuert": 170
+  },
+  {
+   "T": -4.261073725590224,
+   "gewonnen": 29,
+   "verloren": 25,
+   "netto": 4,
+   "gefeuert": 170
+  },
+  {
+   "T": -4.221212503806513,
+   "gewonnen": 29,
+   "verloren": 24,
+   "netto": 5,
+   "gefeuert": 170
+  },
+  {
+   "T": -4.215484495771568,
+   "gewonnen": 30,
+   "verloren": 24,
+   "netto": 6,
+   "gefeuert": 170
+  },
+  {
+   "T": -4.208722229234012,
+   "gewonnen": 31,
+   "verloren": 24,
+   "netto": 7,
+   "gefeuert": 170
+  },
+  {
+   "T": -4.197144455113524,
+   "gewonnen": 31,
+   "verloren": 24,
+   "netto": 7,
+   "gefeuert": 170
+  },
+  {
+   "T": -4.182975091134349,
+   "gewonnen": 31,
+   "verloren": 24,
+   "netto": 7,
+   "gefeuert": 170
+  },
+  {
+   "T": -4.182900808492647,
+   "gewonnen": 31,
+   "verloren": 24,
+   "netto": 7,
+   "gefeuert": 170
+  },
+  {
+   "T": -4.178320689470793,
+   "gewonnen": 31,
+   "verloren": 24,
+   "netto": 7,
+   "gefeuert": 170
+  },
+  {
+   "T": -4.170483674078995,
+   "gewonnen": 31,
+   "verloren": 24,
+   "netto": 7,
+   "gefeuert": 170
+  },
+  {
+   "T": -4.1704447899953685,
+   "gewonnen": 31,
+   "verloren": 23,
+   "netto": 8,
+   "gefeuert": 170
+  },
+  {
+   "T": -4.168723964689201,
+   "gewonnen": 31,
+   "verloren": 23,
+   "netto": 8,
+   "gefeuert": 170
+  },
+  {
+   "T": -4.1660981769950745,
+   "gewonnen": 31,
+   "verloren": 22,
+   "netto": 9,
+   "gefeuert": 170
+  },
+  {
+   "T": -4.163057245739081,
+   "gewonnen": 31,
+   "verloren": 22,
+   "netto": 9,
+   "gefeuert": 170
+  },
+  {
+   "T": -4.152291923783155,
+   "gewonnen": 31,
+   "verloren": 21,
+   "netto": 10,
+   "gefeuert": 170
+  },
+  {
+   "T": -4.147145270067276,
+   "gewonnen": 31,
+   "verloren": 21,
+   "netto": 10,
+   "gefeuert": 170
+  },
+  {
+   "T": -4.14483348069326,
+   "gewonnen": 31,
+   "verloren": 20,
+   "netto": 11,
+   "gefeuert": 170
+  },
+  {
+   "T": -4.1430797990376105,
+   "gewonnen": 30,
+   "verloren": 20,
+   "netto": 10,
+   "gefeuert": 170
+  },
+  {
+   "T": -4.125252337949236,
+   "gewonnen": 30,
+   "verloren": 20,
+   "netto": 10,
+   "gefeuert": 170
+  },
+  {
+   "T": -4.121525114113537,
+   "gewonnen": 30,
+   "verloren": 20,
+   "netto": 10,
+   "gefeuert": 170
+  },
+  {
+   "T": -4.121083050857108,
+   "gewonnen": 30,
+   "verloren": 20,
+   "netto": 10,
+   "gefeuert": 169
+  },
+  {
+   "T": -4.100781214171883,
+   "gewonnen": 30,
+   "verloren": 20,
+   "netto": 10,
+   "gefeuert": 169
+  },
+  {
+   "T": -4.091650691648909,
+   "gewonnen": 30,
+   "verloren": 20,
+   "netto": 10,
+   "gefeuert": 169
+  },
+  {
+   "T": -4.0848968478468635,
+   "gewonnen": 30,
+   "verloren": 20,
+   "netto": 10,
+   "gefeuert": 169
+  },
+  {
+   "T": -4.078379063478308,
+   "gewonnen": 30,
+   "verloren": 19,
+   "netto": 11,
+   "gefeuert": 169
+  },
+  {
+   "T": -4.074717600185957,
+   "gewonnen": 31,
+   "verloren": 19,
+   "netto": 12,
+   "gefeuert": 169
+  },
+  {
+   "T": -4.065320811191866,
+   "gewonnen": 32,
+   "verloren": 19,
+   "netto": 13,
+   "gefeuert": 169
+  },
+  {
+   "T": -4.0439828961596165,
+   "gewonnen": 32,
+   "verloren": 19,
+   "netto": 13,
+   "gefeuert": 169
+  },
+  {
+   "T": -4.04387156624347,
+   "gewonnen": 32,
+   "verloren": 19,
+   "netto": 13,
+   "gefeuert": 169
+  },
+  {
+   "T": -4.034421928083487,
+   "gewonnen": 32,
+   "verloren": 19,
+   "netto": 13,
+   "gefeuert": 169
+  },
+  {
+   "T": -4.0189595872950115,
+   "gewonnen": 32,
+   "verloren": 19,
+   "netto": 13,
+   "gefeuert": 169
+  },
+  {
+   "T": -4.005991788168316,
+   "gewonnen": 32,
+   "verloren": 19,
+   "netto": 13,
+   "gefeuert": 169
+  },
+  {
+   "T": -4.00201865020909,
+   "gewonnen": 32,
+   "verloren": 19,
+   "netto": 13,
+   "gefeuert": 169
+  },
+  {
+   "T": -4.000920200609974,
+   "gewonnen": 32,
+   "verloren": 19,
+   "netto": 13,
+   "gefeuert": 169
+  },
+  {
+   "T": -3.9878462940820176,
+   "gewonnen": 32,
+   "verloren": 19,
+   "netto": 13,
+   "gefeuert": 169
+  },
+  {
+   "T": -3.9863706601144573,
+   "gewonnen": 32,
+   "verloren": 19,
+   "netto": 13,
+   "gefeuert": 169
+  },
+  {
+   "T": -3.983207128597538,
+   "gewonnen": 32,
+   "verloren": 19,
+   "netto": 13,
+   "gefeuert": 169
+  },
+  {
+   "T": -3.9825914669461855,
+   "gewonnen": 32,
+   "verloren": 19,
+   "netto": 13,
+   "gefeuert": 169
+  },
+  {
+   "T": -3.97515453709418,
+   "gewonnen": 32,
+   "verloren": 19,
+   "netto": 13,
+   "gefeuert": 169
+  },
+  {
+   "T": -3.959240177031731,
+   "gewonnen": 32,
+   "verloren": 19,
+   "netto": 13,
+   "gefeuert": 169
+  },
+  {
+   "T": -3.9577548000894485,
+   "gewonnen": 32,
+   "verloren": 19,
+   "netto": 13,
+   "gefeuert": 169
+  },
+  {
+   "T": -3.9576902851282183,
+   "gewonnen": 32,
+   "verloren": 19,
+   "netto": 13,
+   "gefeuert": 169
+  },
+  {
+   "T": -3.94661932999911,
+   "gewonnen": 32,
+   "verloren": 19,
+   "netto": 13,
+   "gefeuert": 169
+  },
+  {
+   "T": -3.9459033334496123,
+   "gewonnen": 32,
+   "verloren": 19,
+   "netto": 13,
+   "gefeuert": 169
+  },
+  {
+   "T": -3.944785423478489,
+   "gewonnen": 32,
+   "verloren": 19,
+   "netto": 13,
+   "gefeuert": 169
+  },
+  {
+   "T": -3.9399876805068823,
+   "gewonnen": 32,
+   "verloren": 19,
+   "netto": 13,
+   "gefeuert": 169
+  },
+  {
+   "T": -3.937189051001379,
+   "gewonnen": 32,
+   "verloren": 19,
+   "netto": 13,
+   "gefeuert": 169
+  },
+  {
+   "T": -3.920519906670377,
+   "gewonnen": 32,
+   "verloren": 19,
+   "netto": 13,
+   "gefeuert": 169
+  },
+  {
+   "T": -3.9046021701833125,
+   "gewonnen": 32,
+   "verloren": 18,
+   "netto": 14,
+   "gefeuert": 169
+  },
+  {
+   "T": -3.9035191043034567,
+   "gewonnen": 32,
+   "verloren": 18,
+   "netto": 14,
+   "gefeuert": 169
+  },
+  {
+   "T": -3.8934350214323294,
+   "gewonnen": 32,
+   "verloren": 18,
+   "netto": 14,
+   "gefeuert": 169
+  },
+  {
+   "T": -3.892809675154861,
+   "gewonnen": 32,
+   "verloren": 18,
+   "netto": 14,
+   "gefeuert": 169
+  },
+  {
+   "T": -3.879901903106856,
+   "gewonnen": 32,
+   "verloren": 18,
+   "netto": 14,
+   "gefeuert": 169
+  },
+  {
+   "T": -3.8658935644716896,
+   "gewonnen": 32,
+   "verloren": 18,
+   "netto": 14,
+   "gefeuert": 169
+  },
+  {
+   "T": -3.840334709307234,
+   "gewonnen": 32,
+   "verloren": 18,
+   "netto": 14,
+   "gefeuert": 169
+  },
+  {
+   "T": -3.8331344554004785,
+   "gewonnen": 32,
+   "verloren": 18,
+   "netto": 14,
+   "gefeuert": 168
+  },
+  {
+   "T": -3.8141397729155315,
+   "gewonnen": 32,
+   "verloren": 18,
+   "netto": 14,
+   "gefeuert": 168
+  },
+  {
+   "T": -3.7971465249361955,
+   "gewonnen": 32,
+   "verloren": 18,
+   "netto": 14,
+   "gefeuert": 168
+  },
+  {
+   "T": -3.79697849524483,
+   "gewonnen": 32,
+   "verloren": 18,
+   "netto": 14,
+   "gefeuert": 168
+  },
+  {
+   "T": -3.795034383747856,
+   "gewonnen": 32,
+   "verloren": 18,
+   "netto": 14,
+   "gefeuert": 168
+  },
+  {
+   "T": -3.7935427563801865,
+   "gewonnen": 32,
+   "verloren": 18,
+   "netto": 14,
+   "gefeuert": 168
+  },
+  {
+   "T": -3.7931405482400824,
+   "gewonnen": 32,
+   "verloren": 18,
+   "netto": 14,
+   "gefeuert": 168
+  },
+  {
+   "T": -3.789060707769147,
+   "gewonnen": 32,
+   "verloren": 18,
+   "netto": 14,
+   "gefeuert": 168
+  },
+  {
+   "T": -3.780678449897561,
+   "gewonnen": 32,
+   "verloren": 18,
+   "netto": 14,
+   "gefeuert": 168
+  },
+  {
+   "T": -3.768599843033143,
+   "gewonnen": 32,
+   "verloren": 18,
+   "netto": 14,
+   "gefeuert": 168
+  },
+  {
+   "T": -3.767195980909287,
+   "gewonnen": 32,
+   "verloren": 18,
+   "netto": 14,
+   "gefeuert": 168
+  },
+  {
+   "T": -3.7665507960124516,
+   "gewonnen": 32,
+   "verloren": 18,
+   "netto": 14,
+   "gefeuert": 168
+  },
+  {
+   "T": -3.732029781163346,
+   "gewonnen": 32,
+   "verloren": 18,
+   "netto": 14,
+   "gefeuert": 168
+  },
+  {
+   "T": -3.7185857416546435,
+   "gewonnen": 32,
+   "verloren": 18,
+   "netto": 14,
+   "gefeuert": 168
+  },
+  {
+   "T": -3.7085280403696306,
+   "gewonnen": 32,
+   "verloren": 18,
+   "netto": 14,
+   "gefeuert": 168
+  },
+  {
+   "T": -3.7035851481406006,
+   "gewonnen": 32,
+   "verloren": 18,
+   "netto": 14,
+   "gefeuert": 168
+  },
+  {
+   "T": -3.696266387905638,
+   "gewonnen": 32,
+   "verloren": 18,
+   "netto": 14,
+   "gefeuert": 168
+  },
+  {
+   "T": -3.6898692668840702,
+   "gewonnen": 32,
+   "verloren": 17,
+   "netto": 15,
+   "gefeuert": 168
+  },
+  {
+   "T": -3.6897515203886075,
+   "gewonnen": 32,
+   "verloren": 17,
+   "netto": 15,
+   "gefeuert": 168
+  },
+  {
+   "T": -3.686884318486984,
+   "gewonnen": 32,
+   "verloren": 17,
+   "netto": 15,
+   "gefeuert": 168
+  },
+  {
+   "T": -3.683892738786412,
+   "gewonnen": 32,
+   "verloren": 17,
+   "netto": 15,
+   "gefeuert": 168
+  },
+  {
+   "T": -3.681191669272031,
+   "gewonnen": 32,
+   "verloren": 17,
+   "netto": 15,
+   "gefeuert": 168
+  },
+  {
+   "T": -3.6757173621792543,
+   "gewonnen": 32,
+   "verloren": 17,
+   "netto": 15,
+   "gefeuert": 168
+  },
+  {
+   "T": -3.6624237414825,
+   "gewonnen": 32,
+   "verloren": 17,
+   "netto": 15,
+   "gefeuert": 168
+  },
+  {
+   "T": -3.648891321750732,
+   "gewonnen": 32,
+   "verloren": 17,
+   "netto": 15,
+   "gefeuert": 168
+  },
+  {
+   "T": -3.6458117569066,
+   "gewonnen": 32,
+   "verloren": 17,
+   "netto": 15,
+   "gefeuert": 168
+  },
+  {
+   "T": -3.6454337268283488,
+   "gewonnen": 32,
+   "verloren": 16,
+   "netto": 16,
+   "gefeuert": 168
+  },
+  {
+   "T": -3.636547092470342,
+   "gewonnen": 32,
+   "verloren": 16,
+   "netto": 16,
+   "gefeuert": 168
+  },
+  {
+   "T": -3.6216459029325483,
+   "gewonnen": 32,
+   "verloren": 16,
+   "netto": 16,
+   "gefeuert": 168
+  },
+  {
+   "T": -3.621219802743887,
+   "gewonnen": 32,
+   "verloren": 16,
+   "netto": 16,
+   "gefeuert": 168
+  },
+  {
+   "T": -3.6128056100555366,
+   "gewonnen": 32,
+   "verloren": 16,
+   "netto": 16,
+   "gefeuert": 168
+  },
+  {
+   "T": -3.609964781451592,
+   "gewonnen": 32,
+   "verloren": 16,
+   "netto": 16,
+   "gefeuert": 168
+  },
+  {
+   "T": -3.602016453294307,
+   "gewonnen": 32,
+   "verloren": 16,
+   "netto": 16,
+   "gefeuert": 167
+  },
+  {
+   "T": -3.59881559965071,
+   "gewonnen": 32,
+   "verloren": 16,
+   "netto": 16,
+   "gefeuert": 167
+  },
+  {
+   "T": -3.598771791329045,
+   "gewonnen": 32,
+   "verloren": 16,
+   "netto": 16,
+   "gefeuert": 167
+  },
+  {
+   "T": -3.5958841522187504,
+   "gewonnen": 32,
+   "verloren": 16,
+   "netto": 16,
+   "gefeuert": 167
+  },
+  {
+   "T": -3.5944043825360907,
+   "gewonnen": 32,
+   "verloren": 16,
+   "netto": 16,
+   "gefeuert": 167
+  },
+  {
+   "T": -3.5815878597414845,
+   "gewonnen": 32,
+   "verloren": 16,
+   "netto": 16,
+   "gefeuert": 167
+  },
+  {
+   "T": -3.5727292171806466,
+   "gewonnen": 32,
+   "verloren": 16,
+   "netto": 16,
+   "gefeuert": 167
+  },
+  {
+   "T": -3.564377511627704,
+   "gewonnen": 32,
+   "verloren": 16,
+   "netto": 16,
+   "gefeuert": 167
+  },
+  {
+   "T": -3.549292257457294,
+   "gewonnen": 32,
+   "verloren": 16,
+   "netto": 16,
+   "gefeuert": 167
+  },
+  {
+   "T": -3.533465030759843,
+   "gewonnen": 32,
+   "verloren": 16,
+   "netto": 16,
+   "gefeuert": 167
+  },
+  {
+   "T": -3.5145325643231375,
+   "gewonnen": 32,
+   "verloren": 16,
+   "netto": 16,
+   "gefeuert": 167
+  },
+  {
+   "T": -3.497793524893221,
+   "gewonnen": 32,
+   "verloren": 16,
+   "netto": 16,
+   "gefeuert": 167
+  },
+  {
+   "T": -3.4718607689920957,
+   "gewonnen": 32,
+   "verloren": 16,
+   "netto": 16,
+   "gefeuert": 167
+  },
+  {
+   "T": -3.4558026229739403,
+   "gewonnen": 32,
+   "verloren": 16,
+   "netto": 16,
+   "gefeuert": 166
+  },
+  {
+   "T": -3.448482504495576,
+   "gewonnen": 33,
+   "verloren": 16,
+   "netto": 17,
+   "gefeuert": 166
+  },
+  {
+   "T": -3.4414165809366866,
+   "gewonnen": 33,
+   "verloren": 16,
+   "netto": 17,
+   "gefeuert": 166
+  },
+  {
+   "T": -3.4375980145701988,
+   "gewonnen": 33,
+   "verloren": 16,
+   "netto": 17,
+   "gefeuert": 166
+  },
+  {
+   "T": -3.4316024190324175,
+   "gewonnen": 33,
+   "verloren": 16,
+   "netto": 17,
+   "gefeuert": 166
+  },
+  {
+   "T": -3.4309154065960072,
+   "gewonnen": 33,
+   "verloren": 16,
+   "netto": 17,
+   "gefeuert": 166
+  },
+  {
+   "T": -3.430480916551649,
+   "gewonnen": 33,
+   "verloren": 16,
+   "netto": 17,
+   "gefeuert": 166
+  },
+  {
+   "T": -3.4125884676291696,
+   "gewonnen": 33,
+   "verloren": 16,
+   "netto": 17,
+   "gefeuert": 165
+  },
+  {
+   "T": -3.408959351824712,
+   "gewonnen": 33,
+   "verloren": 16,
+   "netto": 17,
+   "gefeuert": 165
+  },
+  {
+   "T": -3.3895367806123886,
+   "gewonnen": 33,
+   "verloren": 16,
+   "netto": 17,
+   "gefeuert": 165
+  },
+  {
+   "T": -3.385965851957225,
+   "gewonnen": 33,
+   "verloren": 16,
+   "netto": 17,
+   "gefeuert": 165
+  },
+  {
+   "T": -3.3824396169712836,
+   "gewonnen": 33,
+   "verloren": 16,
+   "netto": 17,
+   "gefeuert": 165
+  },
+  {
+   "T": -3.375416203431607,
+   "gewonnen": 33,
+   "verloren": 16,
+   "netto": 17,
+   "gefeuert": 165
+  },
+  {
+   "T": -3.3587362476922227,
+   "gewonnen": 33,
+   "verloren": 16,
+   "netto": 17,
+   "gefeuert": 165
+  },
+  {
+   "T": -3.3513135204180777,
+   "gewonnen": 33,
+   "verloren": 16,
+   "netto": 17,
+   "gefeuert": 165
+  },
+  {
+   "T": -3.3446533711159825,
+   "gewonnen": 33,
+   "verloren": 16,
+   "netto": 17,
+   "gefeuert": 165
+  },
+  {
+   "T": -3.343725499251327,
+   "gewonnen": 33,
+   "verloren": 16,
+   "netto": 17,
+   "gefeuert": 165
+  },
+  {
+   "T": -3.3395987503188276,
+   "gewonnen": 33,
+   "verloren": 16,
+   "netto": 17,
+   "gefeuert": 165
+  },
+  {
+   "T": -3.3310885809757473,
+   "gewonnen": 33,
+   "verloren": 16,
+   "netto": 17,
+   "gefeuert": 165
+  },
+  {
+   "T": -3.3267284646923936,
+   "gewonnen": 33,
+   "verloren": 15,
+   "netto": 18,
+   "gefeuert": 165
+  },
+  {
+   "T": -3.3145961852419665,
+   "gewonnen": 33,
+   "verloren": 15,
+   "netto": 18,
+   "gefeuert": 165
+  },
+  {
+   "T": -3.308109279578824,
+   "gewonnen": 33,
+   "verloren": 15,
+   "netto": 18,
+   "gefeuert": 165
+  },
+  {
+   "T": -3.304919616271051,
+   "gewonnen": 33,
+   "verloren": 15,
+   "netto": 18,
+   "gefeuert": 165
+  },
+  {
+   "T": -3.300893000620959,
+   "gewonnen": 33,
+   "verloren": 15,
+   "netto": 18,
+   "gefeuert": 165
+  },
+  {
+   "T": -3.2942214170439157,
+   "gewonnen": 33,
+   "verloren": 15,
+   "netto": 18,
+   "gefeuert": 165
+  },
+  {
+   "T": -3.285232691843744,
+   "gewonnen": 33,
+   "verloren": 14,
+   "netto": 19,
+   "gefeuert": 165
+  },
+  {
+   "T": -3.2751393251000955,
+   "gewonnen": 33,
+   "verloren": 14,
+   "netto": 19,
+   "gefeuert": 165
+  },
+  {
+   "T": -3.2672324738191794,
+   "gewonnen": 33,
+   "verloren": 14,
+   "netto": 19,
+   "gefeuert": 165
+  },
+  {
+   "T": -3.2385267348751663,
+   "gewonnen": 33,
+   "verloren": 14,
+   "netto": 19,
+   "gefeuert": 164
+  },
+  {
+   "T": -3.2368507062032927,
+   "gewonnen": 33,
+   "verloren": 14,
+   "netto": 19,
+   "gefeuert": 164
+  },
+  {
+   "T": -3.2180656586502527,
+   "gewonnen": 33,
+   "verloren": 14,
+   "netto": 19,
+   "gefeuert": 164
+  },
+  {
+   "T": -3.213831477745259,
+   "gewonnen": 33,
+   "verloren": 14,
+   "netto": 19,
+   "gefeuert": 164
+  },
+  {
+   "T": -3.2041297572052176,
+   "gewonnen": 33,
+   "verloren": 14,
+   "netto": 19,
+   "gefeuert": 163
+  },
+  {
+   "T": -3.201638484840964,
+   "gewonnen": 33,
+   "verloren": 14,
+   "netto": 19,
+   "gefeuert": 163
+  },
+  {
+   "T": -3.1979069257964383,
+   "gewonnen": 33,
+   "verloren": 14,
+   "netto": 19,
+   "gefeuert": 163
+  },
+  {
+   "T": -3.1724537533961668,
+   "gewonnen": 33,
+   "verloren": 14,
+   "netto": 19,
+   "gefeuert": 163
+  },
+  {
+   "T": -3.1695350117307957,
+   "gewonnen": 33,
+   "verloren": 14,
+   "netto": 19,
+   "gefeuert": 163
+  },
+  {
+   "T": -3.134808748197599,
+   "gewonnen": 33,
+   "verloren": 14,
+   "netto": 19,
+   "gefeuert": 163
+  },
+  {
+   "T": -3.117303562598501,
+   "gewonnen": 33,
+   "verloren": 14,
+   "netto": 19,
+   "gefeuert": 163
+  },
+  {
+   "T": -3.108546596007584,
+   "gewonnen": 33,
+   "verloren": 14,
+   "netto": 19,
+   "gefeuert": 163
+  },
+  {
+   "T": -3.105994210782251,
+   "gewonnen": 33,
+   "verloren": 14,
+   "netto": 19,
+   "gefeuert": 163
+  },
+  {
+   "T": -3.104963067562381,
+   "gewonnen": 33,
+   "verloren": 14,
+   "netto": 19,
+   "gefeuert": 163
+  },
+  {
+   "T": -3.1036088452079538,
+   "gewonnen": 33,
+   "verloren": 14,
+   "netto": 19,
+   "gefeuert": 163
+  },
+  {
+   "T": -3.0950970612632895,
+   "gewonnen": 33,
+   "verloren": 14,
+   "netto": 19,
+   "gefeuert": 163
+  },
+  {
+   "T": -3.075858705052073,
+   "gewonnen": 33,
+   "verloren": 14,
+   "netto": 19,
+   "gefeuert": 163
+  },
+  {
+   "T": -3.065362820718174,
+   "gewonnen": 33,
+   "verloren": 14,
+   "netto": 19,
+   "gefeuert": 163
+  },
+  {
+   "T": -3.0618080536449006,
+   "gewonnen": 33,
+   "verloren": 13,
+   "netto": 20,
+   "gefeuert": 163
+  },
+  {
+   "T": -3.058792054628867,
+   "gewonnen": 33,
+   "verloren": 13,
+   "netto": 20,
+   "gefeuert": 163
+  },
+  {
+   "T": -3.0503701046881786,
+   "gewonnen": 33,
+   "verloren": 13,
+   "netto": 20,
+   "gefeuert": 163
+  },
+  {
+   "T": -3.036199208034137,
+   "gewonnen": 33,
+   "verloren": 13,
+   "netto": 20,
+   "gefeuert": 163
+  },
+  {
+   "T": -3.0357509345965674,
+   "gewonnen": 33,
+   "verloren": 13,
+   "netto": 20,
+   "gefeuert": 163
+  },
+  {
+   "T": -3.028446746657801,
+   "gewonnen": 33,
+   "verloren": 13,
+   "netto": 20,
+   "gefeuert": 163
+  },
+  {
+   "T": -3.0157244577785294,
+   "gewonnen": 33,
+   "verloren": 13,
+   "netto": 20,
+   "gefeuert": 163
+  },
+  {
+   "T": -2.999371961112205,
+   "gewonnen": 33,
+   "verloren": 13,
+   "netto": 20,
+   "gefeuert": 163
+  },
+  {
+   "T": -2.9919429504938373,
+   "gewonnen": 33,
+   "verloren": 13,
+   "netto": 20,
+   "gefeuert": 163
+  },
+  {
+   "T": -2.991661741182228,
+   "gewonnen": 33,
+   "verloren": 13,
+   "netto": 20,
+   "gefeuert": 163
+  },
+  {
+   "T": -2.988856330379091,
+   "gewonnen": 33,
+   "verloren": 12,
+   "netto": 21,
+   "gefeuert": 163
+  },
+  {
+   "T": -2.9870833041917413,
+   "gewonnen": 33,
+   "verloren": 12,
+   "netto": 21,
+   "gefeuert": 163
+  },
+  {
+   "T": -2.983366517279612,
+   "gewonnen": 33,
+   "verloren": 12,
+   "netto": 21,
+   "gefeuert": 163
+  },
+  {
+   "T": -2.9642985217420947,
+   "gewonnen": 33,
+   "verloren": 12,
+   "netto": 21,
+   "gefeuert": 163
+  },
+  {
+   "T": -2.958886446476826,
+   "gewonnen": 33,
+   "verloren": 12,
+   "netto": 21,
+   "gefeuert": 163
+  },
+  {
+   "T": -2.957719367390775,
+   "gewonnen": 33,
+   "verloren": 12,
+   "netto": 21,
+   "gefeuert": 163
+  },
+  {
+   "T": -2.9558746220462604,
+   "gewonnen": 33,
+   "verloren": 12,
+   "netto": 21,
+   "gefeuert": 163
+  },
+  {
+   "T": -2.955320648286805,
+   "gewonnen": 33,
+   "verloren": 12,
+   "netto": 21,
+   "gefeuert": 163
+  },
+  {
+   "T": -2.9543097325090066,
+   "gewonnen": 33,
+   "verloren": 12,
+   "netto": 21,
+   "gefeuert": 163
+  },
+  {
+   "T": -2.9520124977668063,
+   "gewonnen": 33,
+   "verloren": 12,
+   "netto": 21,
+   "gefeuert": 163
+  },
+  {
+   "T": -2.9511991610537924,
+   "gewonnen": 33,
+   "verloren": 12,
+   "netto": 21,
+   "gefeuert": 163
+  },
+  {
+   "T": -2.939464022745283,
+   "gewonnen": 33,
+   "verloren": 12,
+   "netto": 21,
+   "gefeuert": 163
+  },
+  {
+   "T": -2.9293765092442365,
+   "gewonnen": 33,
+   "verloren": 12,
+   "netto": 21,
+   "gefeuert": 163
+  },
+  {
+   "T": -2.922504429340136,
+   "gewonnen": 33,
+   "verloren": 12,
+   "netto": 21,
+   "gefeuert": 163
+  },
+  {
+   "T": -2.9031609205689803,
+   "gewonnen": 33,
+   "verloren": 12,
+   "netto": 21,
+   "gefeuert": 162
+  },
+  {
+   "T": -2.9016133216265843,
+   "gewonnen": 33,
+   "verloren": 12,
+   "netto": 21,
+   "gefeuert": 162
+  },
+  {
+   "T": -2.8891815895268773,
+   "gewonnen": 33,
+   "verloren": 12,
+   "netto": 21,
+   "gefeuert": 162
+  },
+  {
+   "T": -2.882871798688081,
+   "gewonnen": 33,
+   "verloren": 12,
+   "netto": 21,
+   "gefeuert": 162
+  },
+  {
+   "T": -2.882450085089515,
+   "gewonnen": 33,
+   "verloren": 12,
+   "netto": 21,
+   "gefeuert": 162
+  },
+  {
+   "T": -2.86809729268266,
+   "gewonnen": 33,
+   "verloren": 12,
+   "netto": 21,
+   "gefeuert": 162
+  },
+  {
+   "T": -2.8602304266571714,
+   "gewonnen": 33,
+   "verloren": 12,
+   "netto": 21,
+   "gefeuert": 162
+  },
+  {
+   "T": -2.8557723509037904,
+   "gewonnen": 33,
+   "verloren": 12,
+   "netto": 21,
+   "gefeuert": 162
+  },
+  {
+   "T": -2.8376717599627037,
+   "gewonnen": 33,
+   "verloren": 12,
+   "netto": 21,
+   "gefeuert": 162
+  },
+  {
+   "T": -2.8289822126694206,
+   "gewonnen": 33,
+   "verloren": 12,
+   "netto": 21,
+   "gefeuert": 162
+  },
+  {
+   "T": -2.828852134386716,
+   "gewonnen": 33,
+   "verloren": 12,
+   "netto": 21,
+   "gefeuert": 162
+  },
+  {
+   "T": -2.825617916441307,
+   "gewonnen": 33,
+   "verloren": 12,
+   "netto": 21,
+   "gefeuert": 162
+  },
+  {
+   "T": -2.8176561845855437,
+   "gewonnen": 33,
+   "verloren": 12,
+   "netto": 21,
+   "gefeuert": 162
+  },
+  {
+   "T": -2.816392035706105,
+   "gewonnen": 33,
+   "verloren": 12,
+   "netto": 21,
+   "gefeuert": 162
+  },
+  {
+   "T": -2.7887538719717133,
+   "gewonnen": 33,
+   "verloren": 12,
+   "netto": 21,
+   "gefeuert": 162
+  },
+  {
+   "T": -2.7669152407880677,
+   "gewonnen": 33,
+   "verloren": 12,
+   "netto": 21,
+   "gefeuert": 162
+  },
+  {
+   "T": -2.7294131810642517,
+   "gewonnen": 33,
+   "verloren": 12,
+   "netto": 21,
+   "gefeuert": 162
+  },
+  {
+   "T": -2.7227772573587092,
+   "gewonnen": 33,
+   "verloren": 12,
+   "netto": 21,
+   "gefeuert": 162
+  },
+  {
+   "T": -2.7226649615573537,
+   "gewonnen": 33,
+   "verloren": 12,
+   "netto": 21,
+   "gefeuert": 162
+  },
+  {
+   "T": -2.721903801855127,
+   "gewonnen": 33,
+   "verloren": 12,
+   "netto": 21,
+   "gefeuert": 162
+  },
+  {
+   "T": -2.7138839962557126,
+   "gewonnen": 33,
+   "verloren": 12,
+   "netto": 21,
+   "gefeuert": 162
+  },
+  {
+   "T": -2.7045736437389998,
+   "gewonnen": 33,
+   "verloren": 12,
+   "netto": 21,
+   "gefeuert": 162
+  },
+  {
+   "T": -2.7004139168567143,
+   "gewonnen": 33,
+   "verloren": 12,
+   "netto": 21,
+   "gefeuert": 162
+  },
+  {
+   "T": -2.696826206353944,
+   "gewonnen": 33,
+   "verloren": 12,
+   "netto": 21,
+   "gefeuert": 162
+  },
+  {
+   "T": -2.667467614919259,
+   "gewonnen": 33,
+   "verloren": 12,
+   "netto": 21,
+   "gefeuert": 162
+  },
+  {
+   "T": -2.6648341199682237,
+   "gewonnen": 33,
+   "verloren": 12,
+   "netto": 21,
+   "gefeuert": 162
+  },
+  {
+   "T": -2.663393143130968,
+   "gewonnen": 33,
+   "verloren": 12,
+   "netto": 21,
+   "gefeuert": 162
+  },
+  {
+   "T": -2.662914824246849,
+   "gewonnen": 33,
+   "verloren": 12,
+   "netto": 21,
+   "gefeuert": 162
+  },
+  {
+   "T": -2.6505203986947974,
+   "gewonnen": 33,
+   "verloren": 12,
+   "netto": 21,
+   "gefeuert": 162
+  },
+  {
+   "T": -2.6408593534758458,
+   "gewonnen": 33,
+   "verloren": 12,
+   "netto": 21,
+   "gefeuert": 162
+  },
+  {
+   "T": -2.6384994330658866,
+   "gewonnen": 33,
+   "verloren": 12,
+   "netto": 21,
+   "gefeuert": 162
+  },
+  {
+   "T": -2.636622239517789,
+   "gewonnen": 33,
+   "verloren": 12,
+   "netto": 21,
+   "gefeuert": 162
+  },
+  {
+   "T": -2.6337010942213257,
+   "gewonnen": 33,
+   "verloren": 12,
+   "netto": 21,
+   "gefeuert": 162
+  },
+  {
+   "T": -2.6262289587611436,
+   "gewonnen": 33,
+   "verloren": 12,
+   "netto": 21,
+   "gefeuert": 162
+  },
+  {
+   "T": -2.625063271563426,
+   "gewonnen": 33,
+   "verloren": 12,
+   "netto": 21,
+   "gefeuert": 162
+  },
+  {
+   "T": -2.6150918385849033,
+   "gewonnen": 33,
+   "verloren": 12,
+   "netto": 21,
+   "gefeuert": 162
+  },
+  {
+   "T": -2.60817592114659,
+   "gewonnen": 33,
+   "verloren": 12,
+   "netto": 21,
+   "gefeuert": 162
+  },
+  {
+   "T": -2.606356678444111,
+   "gewonnen": 33,
+   "verloren": 12,
+   "netto": 21,
+   "gefeuert": 162
+  },
+  {
+   "T": -2.592120491159166,
+   "gewonnen": 33,
+   "verloren": 12,
+   "netto": 21,
+   "gefeuert": 162
+  },
+  {
+   "T": -2.5684092525903877,
+   "gewonnen": 33,
+   "verloren": 12,
+   "netto": 21,
+   "gefeuert": 162
+  },
+  {
+   "T": -2.5676593196281887,
+   "gewonnen": 33,
+   "verloren": 12,
+   "netto": 21,
+   "gefeuert": 162
+  },
+  {
+   "T": -2.567044654166582,
+   "gewonnen": 33,
+   "verloren": 12,
+   "netto": 21,
+   "gefeuert": 162
+  },
+  {
+   "T": -2.559880977347337,
+   "gewonnen": 33,
+   "verloren": 12,
+   "netto": 21,
+   "gefeuert": 162
+  },
+  {
+   "T": -2.5489100519768884,
+   "gewonnen": 33,
+   "verloren": 11,
+   "netto": 22,
+   "gefeuert": 162
+  },
+  {
+   "T": -2.5364477768137332,
+   "gewonnen": 33,
+   "verloren": 11,
+   "netto": 22,
+   "gefeuert": 162
+  },
+  {
+   "T": -2.5311495148597847,
+   "gewonnen": 33,
+   "verloren": 11,
+   "netto": 22,
+   "gefeuert": 162
+  },
+  {
+   "T": -2.5137994529056042,
+   "gewonnen": 33,
+   "verloren": 11,
+   "netto": 22,
+   "gefeuert": 162
+  },
+  {
+   "T": -2.5104226825675333,
+   "gewonnen": 33,
+   "verloren": 11,
+   "netto": 22,
+   "gefeuert": 162
+  },
+  {
+   "T": -2.5068187096744365,
+   "gewonnen": 33,
+   "verloren": 11,
+   "netto": 22,
+   "gefeuert": 162
+  },
+  {
+   "T": -2.498279572792941,
+   "gewonnen": 33,
+   "verloren": 11,
+   "netto": 22,
+   "gefeuert": 162
+  },
+  {
+   "T": -2.4971258323787815,
+   "gewonnen": 33,
+   "verloren": 11,
+   "netto": 22,
+   "gefeuert": 162
+  },
+  {
+   "T": -2.4932870872075465,
+   "gewonnen": 33,
+   "verloren": 11,
+   "netto": 22,
+   "gefeuert": 162
+  },
+  {
+   "T": -2.486988741831578,
+   "gewonnen": 33,
+   "verloren": 11,
+   "netto": 22,
+   "gefeuert": 162
+  },
+  {
+   "T": -2.479352623236889,
+   "gewonnen": 33,
+   "verloren": 11,
+   "netto": 22,
+   "gefeuert": 162
+  },
+  {
+   "T": -2.476720347336168,
+   "gewonnen": 33,
+   "verloren": 11,
+   "netto": 22,
+   "gefeuert": 162
+  },
+  {
+   "T": -2.476545170372717,
+   "gewonnen": 33,
+   "verloren": 11,
+   "netto": 22,
+   "gefeuert": 162
+  },
+  {
+   "T": -2.4707276035496895,
+   "gewonnen": 33,
+   "verloren": 11,
+   "netto": 22,
+   "gefeuert": 162
+  },
+  {
+   "T": -2.465384566691296,
+   "gewonnen": 33,
+   "verloren": 11,
+   "netto": 22,
+   "gefeuert": 162
+  },
+  {
+   "T": -2.4643962769462684,
+   "gewonnen": 33,
+   "verloren": 11,
+   "netto": 22,
+   "gefeuert": 162
+  },
+  {
+   "T": -2.4587695919379913,
+   "gewonnen": 33,
+   "verloren": 11,
+   "netto": 22,
+   "gefeuert": 162
+  },
+  {
+   "T": -2.4582589234163112,
+   "gewonnen": 33,
+   "verloren": 11,
+   "netto": 22,
+   "gefeuert": 162
+  },
+  {
+   "T": -2.457315717592009,
+   "gewonnen": 33,
+   "verloren": 11,
+   "netto": 22,
+   "gefeuert": 162
+  },
+  {
+   "T": -2.419852430746169,
+   "gewonnen": 33,
+   "verloren": 11,
+   "netto": 22,
+   "gefeuert": 162
+  },
+  {
+   "T": -2.4175272564635586,
+   "gewonnen": 33,
+   "verloren": 11,
+   "netto": 22,
+   "gefeuert": 162
+  },
+  {
+   "T": -2.4146712604487286,
+   "gewonnen": 33,
+   "verloren": 11,
+   "netto": 22,
+   "gefeuert": 162
+  },
+  {
+   "T": -2.410684731090984,
+   "gewonnen": 33,
+   "verloren": 11,
+   "netto": 22,
+   "gefeuert": 162
+  },
+  {
+   "T": -2.4089173774448853,
+   "gewonnen": 33,
+   "verloren": 11,
+   "netto": 22,
+   "gefeuert": 162
+  },
+  {
+   "T": -2.405088372277673,
+   "gewonnen": 33,
+   "verloren": 11,
+   "netto": 22,
+   "gefeuert": 162
+  },
+  {
+   "T": -2.391337102129034,
+   "gewonnen": 33,
+   "verloren": 11,
+   "netto": 22,
+   "gefeuert": 162
+  },
+  {
+   "T": -2.375879437672894,
+   "gewonnen": 33,
+   "verloren": 11,
+   "netto": 22,
+   "gefeuert": 162
+  },
+  {
+   "T": -2.3691713233974143,
+   "gewonnen": 33,
+   "verloren": 11,
+   "netto": 22,
+   "gefeuert": 162
+  },
+  {
+   "T": -2.354474940378819,
+   "gewonnen": 33,
+   "verloren": 11,
+   "netto": 22,
+   "gefeuert": 162
+  },
+  {
+   "T": -2.3539035728255384,
+   "gewonnen": 33,
+   "verloren": 11,
+   "netto": 22,
+   "gefeuert": 162
+  },
+  {
+   "T": -2.3470106341783685,
+   "gewonnen": 33,
+   "verloren": 11,
+   "netto": 22,
+   "gefeuert": 162
+  },
+  {
+   "T": -2.346616930184354,
+   "gewonnen": 33,
+   "verloren": 11,
+   "netto": 22,
+   "gefeuert": 162
+  },
+  {
+   "T": -2.3253419886655573,
+   "gewonnen": 33,
+   "verloren": 11,
+   "netto": 22,
+   "gefeuert": 162
+  },
+  {
+   "T": -2.317612810370263,
+   "gewonnen": 33,
+   "verloren": 11,
+   "netto": 22,
+   "gefeuert": 162
+  },
+  {
+   "T": -2.3077433823094555,
+   "gewonnen": 33,
+   "verloren": 11,
+   "netto": 22,
+   "gefeuert": 162
+  },
+  {
+   "T": -2.304091559062039,
+   "gewonnen": 33,
+   "verloren": 11,
+   "netto": 22,
+   "gefeuert": 162
+  },
+  {
+   "T": -2.299749650475132,
+   "gewonnen": 33,
+   "verloren": 11,
+   "netto": 22,
+   "gefeuert": 162
+  },
+  {
+   "T": -2.296146365905743,
+   "gewonnen": 33,
+   "verloren": 11,
+   "netto": 22,
+   "gefeuert": 162
+  },
+  {
+   "T": -2.294469825351266,
+   "gewonnen": 34,
+   "verloren": 11,
+   "netto": 23,
+   "gefeuert": 162
+  },
+  {
+   "T": -2.2894532898015805,
+   "gewonnen": 34,
+   "verloren": 11,
+   "netto": 23,
+   "gefeuert": 162
+  },
+  {
+   "T": -2.286225212992627,
+   "gewonnen": 34,
+   "verloren": 11,
+   "netto": 23,
+   "gefeuert": 162
+  },
+  {
+   "T": -2.268849972846097,
+   "gewonnen": 34,
+   "verloren": 11,
+   "netto": 23,
+   "gefeuert": 162
+  },
+  {
+   "T": -2.2626021921057653,
+   "gewonnen": 34,
+   "verloren": 11,
+   "netto": 23,
+   "gefeuert": 162
+  },
+  {
+   "T": -2.2552202839979847,
+   "gewonnen": 34,
+   "verloren": 11,
+   "netto": 23,
+   "gefeuert": 162
+  },
+  {
+   "T": -2.25503460813431,
+   "gewonnen": 34,
+   "verloren": 11,
+   "netto": 23,
+   "gefeuert": 162
+  },
+  {
+   "T": -2.2332181095813635,
+   "gewonnen": 34,
+   "verloren": 11,
+   "netto": 23,
+   "gefeuert": 162
+  },
+  {
+   "T": -2.21429081261993,
+   "gewonnen": 34,
+   "verloren": 11,
+   "netto": 23,
+   "gefeuert": 162
+  },
+  {
+   "T": -2.2067789018097814,
+   "gewonnen": 34,
+   "verloren": 11,
+   "netto": 23,
+   "gefeuert": 162
+  },
+  {
+   "T": -2.186628522817832,
+   "gewonnen": 34,
+   "verloren": 11,
+   "netto": 23,
+   "gefeuert": 162
+  },
+  {
+   "T": -2.1715329466679414,
+   "gewonnen": 34,
+   "verloren": 11,
+   "netto": 23,
+   "gefeuert": 162
+  },
+  {
+   "T": -2.1709767027910702,
+   "gewonnen": 34,
+   "verloren": 11,
+   "netto": 23,
+   "gefeuert": 162
+  },
+  {
+   "T": -2.1648012146489055,
+   "gewonnen": 34,
+   "verloren": 11,
+   "netto": 23,
+   "gefeuert": 162
+  },
+  {
+   "T": -2.160225083356353,
+   "gewonnen": 34,
+   "verloren": 11,
+   "netto": 23,
+   "gefeuert": 162
+  },
+  {
+   "T": -2.154242284845358,
+   "gewonnen": 34,
+   "verloren": 11,
+   "netto": 23,
+   "gefeuert": 162
+  },
+  {
+   "T": -2.1020796757682514,
+   "gewonnen": 34,
+   "verloren": 11,
+   "netto": 23,
+   "gefeuert": 162
+  },
+  {
+   "T": -2.089593609332906,
+   "gewonnen": 34,
+   "verloren": 11,
+   "netto": 23,
+   "gefeuert": 162
+  },
+  {
+   "T": -2.0843095249972254,
+   "gewonnen": 34,
+   "verloren": 11,
+   "netto": 23,
+   "gefeuert": 162
+  },
+  {
+   "T": -2.081885093470989,
+   "gewonnen": 34,
+   "verloren": 11,
+   "netto": 23,
+   "gefeuert": 162
+  },
+  {
+   "T": -2.0617289308330013,
+   "gewonnen": 34,
+   "verloren": 11,
+   "netto": 23,
+   "gefeuert": 162
+  },
+  {
+   "T": -2.0597873870826646,
+   "gewonnen": 34,
+   "verloren": 11,
+   "netto": 23,
+   "gefeuert": 162
+  },
+  {
+   "T": -2.058878053872182,
+   "gewonnen": 34,
+   "verloren": 11,
+   "netto": 23,
+   "gefeuert": 162
+  },
+  {
+   "T": -2.054341583607373,
+   "gewonnen": 34,
+   "verloren": 11,
+   "netto": 23,
+   "gefeuert": 162
+  },
+  {
+   "T": -2.0460292839321297,
+   "gewonnen": 34,
+   "verloren": 11,
+   "netto": 23,
+   "gefeuert": 162
+  },
+  {
+   "T": -2.0334871561555072,
+   "gewonnen": 34,
+   "verloren": 11,
+   "netto": 23,
+   "gefeuert": 161
+  },
+  {
+   "T": -2.025898495795568,
+   "gewonnen": 34,
+   "verloren": 11,
+   "netto": 23,
+   "gefeuert": 161
+  },
+  {
+   "T": -2.002126661124732,
+   "gewonnen": 34,
+   "verloren": 11,
+   "netto": 23,
+   "gefeuert": 161
+  },
+  {
+   "T": -1.9928777063058838,
+   "gewonnen": 34,
+   "verloren": 11,
+   "netto": 23,
+   "gefeuert": 161
+  },
+  {
+   "T": -1.9901583852856013,
+   "gewonnen": 34,
+   "verloren": 11,
+   "netto": 23,
+   "gefeuert": 161
+  },
+  {
+   "T": -1.9804563455527457,
+   "gewonnen": 34,
+   "verloren": 11,
+   "netto": 23,
+   "gefeuert": 161
+  },
+  {
+   "T": -1.9790875862775903,
+   "gewonnen": 34,
+   "verloren": 11,
+   "netto": 23,
+   "gefeuert": 161
+  },
+  {
+   "T": -1.9768885856283946,
+   "gewonnen": 34,
+   "verloren": 11,
+   "netto": 23,
+   "gefeuert": 161
+  },
+  {
+   "T": -1.9709275846147438,
+   "gewonnen": 34,
+   "verloren": 11,
+   "netto": 23,
+   "gefeuert": 161
+  },
+  {
+   "T": -1.9638945083612787,
+   "gewonnen": 34,
+   "verloren": 11,
+   "netto": 23,
+   "gefeuert": 161
+  },
+  {
+   "T": -1.959455478823019,
+   "gewonnen": 34,
+   "verloren": 11,
+   "netto": 23,
+   "gefeuert": 161
+  },
+  {
+   "T": -1.9555510716085684,
+   "gewonnen": 34,
+   "verloren": 11,
+   "netto": 23,
+   "gefeuert": 161
+  },
+  {
+   "T": -1.9508308563380279,
+   "gewonnen": 35,
+   "verloren": 11,
+   "netto": 24,
+   "gefeuert": 161
+  },
+  {
+   "T": -1.9507220013006017,
+   "gewonnen": 35,
+   "verloren": 11,
+   "netto": 24,
+   "gefeuert": 161
+  },
+  {
+   "T": -1.9424428402101135,
+   "gewonnen": 35,
+   "verloren": 11,
+   "netto": 24,
+   "gefeuert": 161
+  },
+  {
+   "T": -1.9383756983164229,
+   "gewonnen": 35,
+   "verloren": 10,
+   "netto": 25,
+   "gefeuert": 161
+  },
+  {
+   "T": -1.9361961094485838,
+   "gewonnen": 35,
+   "verloren": 10,
+   "netto": 25,
+   "gefeuert": 161
+  },
+  {
+   "T": -1.9183772829660581,
+   "gewonnen": 35,
+   "verloren": 10,
+   "netto": 25,
+   "gefeuert": 161
+  },
+  {
+   "T": -1.917960939919646,
+   "gewonnen": 36,
+   "verloren": 10,
+   "netto": 26,
+   "gefeuert": 161
+  },
+  {
+   "T": -1.9129816037068494,
+   "gewonnen": 36,
+   "verloren": 10,
+   "netto": 26,
+   "gefeuert": 161
+  },
+  {
+   "T": -1.908900095764695,
+   "gewonnen": 36,
+   "verloren": 10,
+   "netto": 26,
+   "gefeuert": 161
+  },
+  {
+   "T": -1.9059534194033927,
+   "gewonnen": 36,
+   "verloren": 10,
+   "netto": 26,
+   "gefeuert": 161
+  },
+  {
+   "T": -1.9037639737805212,
+   "gewonnen": 36,
+   "verloren": 10,
+   "netto": 26,
+   "gefeuert": 161
+  },
+  {
+   "T": -1.8910429598573257,
+   "gewonnen": 36,
+   "verloren": 10,
+   "netto": 26,
+   "gefeuert": 161
+  },
+  {
+   "T": -1.8881169982554729,
+   "gewonnen": 36,
+   "verloren": 10,
+   "netto": 26,
+   "gefeuert": 161
+  },
+  {
+   "T": -1.884788976209968,
+   "gewonnen": 36,
+   "verloren": 10,
+   "netto": 26,
+   "gefeuert": 161
+  },
+  {
+   "T": -1.8828658433712953,
+   "gewonnen": 36,
+   "verloren": 10,
+   "netto": 26,
+   "gefeuert": 161
+  },
+  {
+   "T": -1.8778663888835065,
+   "gewonnen": 36,
+   "verloren": 10,
+   "netto": 26,
+   "gefeuert": 161
+  },
+  {
+   "T": -1.8766357034862748,
+   "gewonnen": 36,
+   "verloren": 10,
+   "netto": 26,
+   "gefeuert": 161
+  },
+  {
+   "T": -1.8717994560767757,
+   "gewonnen": 36,
+   "verloren": 10,
+   "netto": 26,
+   "gefeuert": 161
+  },
+  {
+   "T": -1.8712911089671866,
+   "gewonnen": 36,
+   "verloren": 10,
+   "netto": 26,
+   "gefeuert": 161
+  },
+  {
+   "T": -1.8690317936196807,
+   "gewonnen": 36,
+   "verloren": 10,
+   "netto": 26,
+   "gefeuert": 161
+  },
+  {
+   "T": -1.8620352144951773,
+   "gewonnen": 36,
+   "verloren": 10,
+   "netto": 26,
+   "gefeuert": 161
+  },
+  {
+   "T": -1.832650456650776,
+   "gewonnen": 37,
+   "verloren": 10,
+   "netto": 27,
+   "gefeuert": 161
+  },
+  {
+   "T": -1.8250199029880088,
+   "gewonnen": 37,
+   "verloren": 10,
+   "netto": 27,
+   "gefeuert": 161
+  },
+  {
+   "T": -1.8013275117194891,
+   "gewonnen": 37,
+   "verloren": 10,
+   "netto": 27,
+   "gefeuert": 161
+  },
+  {
+   "T": -1.7975197396979015,
+   "gewonnen": 37,
+   "verloren": 10,
+   "netto": 27,
+   "gefeuert": 160
+  },
+  {
+   "T": -1.7973469391546355,
+   "gewonnen": 37,
+   "verloren": 10,
+   "netto": 27,
+   "gefeuert": 160
+  },
+  {
+   "T": -1.7961214554867513,
+   "gewonnen": 37,
+   "verloren": 10,
+   "netto": 27,
+   "gefeuert": 160
+  },
+  {
+   "T": -1.7876591517975933,
+   "gewonnen": 37,
+   "verloren": 10,
+   "netto": 27,
+   "gefeuert": 160
+  },
+  {
+   "T": -1.785907716852611,
+   "gewonnen": 36,
+   "verloren": 10,
+   "netto": 26,
+   "gefeuert": 159
+  },
+  {
+   "T": -1.7785859162394113,
+   "gewonnen": 36,
+   "verloren": 10,
+   "netto": 26,
+   "gefeuert": 159
+  },
+  {
+   "T": -1.7781693537698968,
+   "gewonnen": 36,
+   "verloren": 10,
+   "netto": 26,
+   "gefeuert": 159
+  },
+  {
+   "T": -1.7735159045573679,
+   "gewonnen": 36,
+   "verloren": 10,
+   "netto": 26,
+   "gefeuert": 159
+  },
+  {
+   "T": -1.7726165684572786,
+   "gewonnen": 36,
+   "verloren": 10,
+   "netto": 26,
+   "gefeuert": 159
+  },
+  {
+   "T": -1.7641220730450928,
+   "gewonnen": 36,
+   "verloren": 10,
+   "netto": 26,
+   "gefeuert": 159
+  },
+  {
+   "T": -1.761734795851429,
+   "gewonnen": 36,
+   "verloren": 10,
+   "netto": 26,
+   "gefeuert": 159
+  },
+  {
+   "T": -1.7425876368275732,
+   "gewonnen": 36,
+   "verloren": 10,
+   "netto": 26,
+   "gefeuert": 159
+  },
+  {
+   "T": -1.730599585160076,
+   "gewonnen": 36,
+   "verloren": 9,
+   "netto": 27,
+   "gefeuert": 159
+  },
+  {
+   "T": -1.686599301384315,
+   "gewonnen": 36,
+   "verloren": 9,
+   "netto": 27,
+   "gefeuert": 159
+  },
+  {
+   "T": -1.6515892467087563,
+   "gewonnen": 36,
+   "verloren": 9,
+   "netto": 27,
+   "gefeuert": 159
+  },
+  {
+   "T": -1.6492613611775995,
+   "gewonnen": 36,
+   "verloren": 9,
+   "netto": 27,
+   "gefeuert": 159
+  },
+  {
+   "T": -1.6366078534496125,
+   "gewonnen": 36,
+   "verloren": 9,
+   "netto": 27,
+   "gefeuert": 159
+  },
+  {
+   "T": -1.6204997369426315,
+   "gewonnen": 36,
+   "verloren": 9,
+   "netto": 27,
+   "gefeuert": 159
+  },
+  {
+   "T": -1.6130030813474785,
+   "gewonnen": 36,
+   "verloren": 9,
+   "netto": 27,
+   "gefeuert": 159
+  },
+  {
+   "T": -1.6063681995559513,
+   "gewonnen": 36,
+   "verloren": 9,
+   "netto": 27,
+   "gefeuert": 159
+  },
+  {
+   "T": -1.6015033833537826,
+   "gewonnen": 36,
+   "verloren": 9,
+   "netto": 27,
+   "gefeuert": 159
+  },
+  {
+   "T": -1.595871336752227,
+   "gewonnen": 36,
+   "verloren": 9,
+   "netto": 27,
+   "gefeuert": 159
+  },
+  {
+   "T": -1.5878352480781934,
+   "gewonnen": 36,
+   "verloren": 9,
+   "netto": 27,
+   "gefeuert": 159
+  },
+  {
+   "T": -1.5726894201513533,
+   "gewonnen": 36,
+   "verloren": 9,
+   "netto": 27,
+   "gefeuert": 159
+  },
+  {
+   "T": -1.5725440985372923,
+   "gewonnen": 36,
+   "verloren": 9,
+   "netto": 27,
+   "gefeuert": 159
+  },
+  {
+   "T": -1.565075982702591,
+   "gewonnen": 36,
+   "verloren": 9,
+   "netto": 27,
+   "gefeuert": 159
+  },
+  {
+   "T": -1.5479401943315674,
+   "gewonnen": 36,
+   "verloren": 9,
+   "netto": 27,
+   "gefeuert": 159
+  },
+  {
+   "T": -1.5473458076586104,
+   "gewonnen": 36,
+   "verloren": 9,
+   "netto": 27,
+   "gefeuert": 159
+  },
+  {
+   "T": -1.5431858323020267,
+   "gewonnen": 36,
+   "verloren": 9,
+   "netto": 27,
+   "gefeuert": 159
+  },
+  {
+   "T": -1.5330993702399447,
+   "gewonnen": 36,
+   "verloren": 9,
+   "netto": 27,
+   "gefeuert": 159
+  },
+  {
+   "T": -1.5328557654383654,
+   "gewonnen": 36,
+   "verloren": 9,
+   "netto": 27,
+   "gefeuert": 159
+  },
+  {
+   "T": -1.532814519699435,
+   "gewonnen": 36,
+   "verloren": 9,
+   "netto": 27,
+   "gefeuert": 159
+  },
+  {
+   "T": -1.5326305693367905,
+   "gewonnen": 36,
+   "verloren": 9,
+   "netto": 27,
+   "gefeuert": 159
+  },
+  {
+   "T": -1.5122552410135754,
+   "gewonnen": 36,
+   "verloren": 9,
+   "netto": 27,
+   "gefeuert": 159
+  },
+  {
+   "T": -1.507497194033343,
+   "gewonnen": 36,
+   "verloren": 9,
+   "netto": 27,
+   "gefeuert": 159
+  },
+  {
+   "T": -1.4977625827118857,
+   "gewonnen": 36,
+   "verloren": 9,
+   "netto": 27,
+   "gefeuert": 159
+  },
+  {
+   "T": -1.4845272726196057,
+   "gewonnen": 36,
+   "verloren": 9,
+   "netto": 27,
+   "gefeuert": 159
+  },
+  {
+   "T": -1.4826905732020768,
+   "gewonnen": 36,
+   "verloren": 9,
+   "netto": 27,
+   "gefeuert": 159
+  },
+  {
+   "T": -1.4801547756698745,
+   "gewonnen": 36,
+   "verloren": 9,
+   "netto": 27,
+   "gefeuert": 159
+  },
+  {
+   "T": -1.4716593388365369,
+   "gewonnen": 36,
+   "verloren": 9,
+   "netto": 27,
+   "gefeuert": 159
+  },
+  {
+   "T": -1.4699005047863634,
+   "gewonnen": 36,
+   "verloren": 9,
+   "netto": 27,
+   "gefeuert": 159
+  },
+  {
+   "T": -1.4571845657097322,
+   "gewonnen": 36,
+   "verloren": 9,
+   "netto": 27,
+   "gefeuert": 159
+  },
+  {
+   "T": -1.4522510650116356,
+   "gewonnen": 36,
+   "verloren": 9,
+   "netto": 27,
+   "gefeuert": 159
+  },
+  {
+   "T": -1.4373761919749566,
+   "gewonnen": 36,
+   "verloren": 9,
+   "netto": 27,
+   "gefeuert": 159
+  },
+  {
+   "T": -1.4286154989096223,
+   "gewonnen": 36,
+   "verloren": 9,
+   "netto": 27,
+   "gefeuert": 159
+  },
+  {
+   "T": -1.4166912906001263,
+   "gewonnen": 36,
+   "verloren": 9,
+   "netto": 27,
+   "gefeuert": 159
+  },
+  {
+   "T": -1.408353063839645,
+   "gewonnen": 36,
+   "verloren": 9,
+   "netto": 27,
+   "gefeuert": 159
+  },
+  {
+   "T": -1.4078952118727517,
+   "gewonnen": 36,
+   "verloren": 9,
+   "netto": 27,
+   "gefeuert": 159
+  },
+  {
+   "T": -1.4037865214264964,
+   "gewonnen": 36,
+   "verloren": 9,
+   "netto": 27,
+   "gefeuert": 159
+  },
+  {
+   "T": -1.3951498168906886,
+   "gewonnen": 36,
+   "verloren": 9,
+   "netto": 27,
+   "gefeuert": 159
+  },
+  {
+   "T": -1.3939220666513203,
+   "gewonnen": 36,
+   "verloren": 9,
+   "netto": 27,
+   "gefeuert": 159
+  },
+  {
+   "T": -1.3862429400288665,
+   "gewonnen": 36,
+   "verloren": 9,
+   "netto": 27,
+   "gefeuert": 159
+  },
+  {
+   "T": -1.3576731729400418,
+   "gewonnen": 36,
+   "verloren": 9,
+   "netto": 27,
+   "gefeuert": 159
+  },
+  {
+   "T": -1.3503592210703022,
+   "gewonnen": 36,
+   "verloren": 9,
+   "netto": 27,
+   "gefeuert": 159
+  },
+  {
+   "T": -1.3446751879085381,
+   "gewonnen": 36,
+   "verloren": 9,
+   "netto": 27,
+   "gefeuert": 158
+  },
+  {
+   "T": -1.3431796128040292,
+   "gewonnen": 36,
+   "verloren": 9,
+   "netto": 27,
+   "gefeuert": 158
+  },
+  {
+   "T": -1.3379410650487151,
+   "gewonnen": 36,
+   "verloren": 9,
+   "netto": 27,
+   "gefeuert": 158
+  },
+  {
+   "T": -1.337177445756684,
+   "gewonnen": 36,
+   "verloren": 9,
+   "netto": 27,
+   "gefeuert": 158
+  },
+  {
+   "T": -1.31843335667264,
+   "gewonnen": 36,
+   "verloren": 9,
+   "netto": 27,
+   "gefeuert": 158
+  },
+  {
+   "T": -1.3077456191510273,
+   "gewonnen": 36,
+   "verloren": 9,
+   "netto": 27,
+   "gefeuert": 158
+  },
+  {
+   "T": -1.3054351551913128,
+   "gewonnen": 36,
+   "verloren": 8,
+   "netto": 28,
+   "gefeuert": 158
+  },
+  {
+   "T": -1.2929784413413117,
+   "gewonnen": 36,
+   "verloren": 8,
+   "netto": 28,
+   "gefeuert": 158
+  },
+  {
+   "T": -1.2923152200979726,
+   "gewonnen": 36,
+   "verloren": 8,
+   "netto": 28,
+   "gefeuert": 158
+  },
+  {
+   "T": -1.290452727552923,
+   "gewonnen": 36,
+   "verloren": 8,
+   "netto": 28,
+   "gefeuert": 158
+  },
+  {
+   "T": -1.2696790957009412,
+   "gewonnen": 36,
+   "verloren": 8,
+   "netto": 28,
+   "gefeuert": 158
+  },
+  {
+   "T": -1.2638673206994995,
+   "gewonnen": 36,
+   "verloren": 8,
+   "netto": 28,
+   "gefeuert": 158
+  },
+  {
+   "T": -1.2630041729306223,
+   "gewonnen": 36,
+   "verloren": 7,
+   "netto": 29,
+   "gefeuert": 158
+  },
+  {
+   "T": -1.219406045841133,
+   "gewonnen": 36,
+   "verloren": 7,
+   "netto": 29,
+   "gefeuert": 158
+  },
+  {
+   "T": -1.2182423919851288,
+   "gewonnen": 36,
+   "verloren": 7,
+   "netto": 29,
+   "gefeuert": 158
+  },
+  {
+   "T": -1.2038380424231407,
+   "gewonnen": 36,
+   "verloren": 7,
+   "netto": 29,
+   "gefeuert": 158
+  },
+  {
+   "T": -1.1947993114775919,
+   "gewonnen": 36,
+   "verloren": 7,
+   "netto": 29,
+   "gefeuert": 158
+  },
+  {
+   "T": -1.1941747944877616,
+   "gewonnen": 36,
+   "verloren": 6,
+   "netto": 30,
+   "gefeuert": 158
+  },
+  {
+   "T": -1.184607576734991,
+   "gewonnen": 36,
+   "verloren": 6,
+   "netto": 30,
+   "gefeuert": 158
+  },
+  {
+   "T": -1.1789199215924213,
+   "gewonnen": 36,
+   "verloren": 6,
+   "netto": 30,
+   "gefeuert": 158
+  },
+  {
+   "T": -1.1734678066187139,
+   "gewonnen": 36,
+   "verloren": 6,
+   "netto": 30,
+   "gefeuert": 158
+  },
+  {
+   "T": -1.1668028593457525,
+   "gewonnen": 36,
+   "verloren": 6,
+   "netto": 30,
+   "gefeuert": 158
+  },
+  {
+   "T": -1.158006678781408,
+   "gewonnen": 36,
+   "verloren": 6,
+   "netto": 30,
+   "gefeuert": 158
+  },
+  {
+   "T": -1.1511739803824161,
+   "gewonnen": 36,
+   "verloren": 6,
+   "netto": 30,
+   "gefeuert": 158
+  },
+  {
+   "T": -1.1502949559088995,
+   "gewonnen": 36,
+   "verloren": 6,
+   "netto": 30,
+   "gefeuert": 158
+  },
+  {
+   "T": -1.1455746553109476,
+   "gewonnen": 36,
+   "verloren": 6,
+   "netto": 30,
+   "gefeuert": 158
+  },
+  {
+   "T": -1.1443523936034568,
+   "gewonnen": 36,
+   "verloren": 6,
+   "netto": 30,
+   "gefeuert": 158
+  },
+  {
+   "T": -1.1428568988981653,
+   "gewonnen": 36,
+   "verloren": 6,
+   "netto": 30,
+   "gefeuert": 157
+  },
+  {
+   "T": -1.14193424108612,
+   "gewonnen": 36,
+   "verloren": 6,
+   "netto": 30,
+   "gefeuert": 157
+  },
+  {
+   "T": -1.1411314224476112,
+   "gewonnen": 36,
+   "verloren": 6,
+   "netto": 30,
+   "gefeuert": 157
+  },
+  {
+   "T": -1.1303513174554602,
+   "gewonnen": 36,
+   "verloren": 6,
+   "netto": 30,
+   "gefeuert": 157
+  },
+  {
+   "T": -1.12493710691196,
+   "gewonnen": 36,
+   "verloren": 6,
+   "netto": 30,
+   "gefeuert": 157
+  },
+  {
+   "T": -1.1241740594906993,
+   "gewonnen": 36,
+   "verloren": 6,
+   "netto": 30,
+   "gefeuert": 157
+  },
+  {
+   "T": -1.1190241879530398,
+   "gewonnen": 36,
+   "verloren": 6,
+   "netto": 30,
+   "gefeuert": 157
+  },
+  {
+   "T": -1.1170151131217612,
+   "gewonnen": 36,
+   "verloren": 6,
+   "netto": 30,
+   "gefeuert": 157
+  },
+  {
+   "T": -1.1160088651792908,
+   "gewonnen": 36,
+   "verloren": 5,
+   "netto": 31,
+   "gefeuert": 157
+  },
+  {
+   "T": -1.1143474956395756,
+   "gewonnen": 36,
+   "verloren": 5,
+   "netto": 31,
+   "gefeuert": 157
+  },
+  {
+   "T": -1.1134395686370575,
+   "gewonnen": 36,
+   "verloren": 5,
+   "netto": 31,
+   "gefeuert": 157
+  },
+  {
+   "T": -1.1080375611879676,
+   "gewonnen": 36,
+   "verloren": 5,
+   "netto": 31,
+   "gefeuert": 157
+  },
+  {
+   "T": -1.1070457465887795,
+   "gewonnen": 36,
+   "verloren": 5,
+   "netto": 31,
+   "gefeuert": 157
+  },
+  {
+   "T": -1.089486868084632,
+   "gewonnen": 36,
+   "verloren": 5,
+   "netto": 31,
+   "gefeuert": 157
+  },
+  {
+   "T": -1.084349104495741,
+   "gewonnen": 36,
+   "verloren": 5,
+   "netto": 31,
+   "gefeuert": 157
+  },
+  {
+   "T": -1.0840502355965858,
+   "gewonnen": 36,
+   "verloren": 5,
+   "netto": 31,
+   "gefeuert": 157
+  },
+  {
+   "T": -1.0796614731854295,
+   "gewonnen": 36,
+   "verloren": 5,
+   "netto": 31,
+   "gefeuert": 157
+  },
+  {
+   "T": -1.0722635817433679,
+   "gewonnen": 36,
+   "verloren": 5,
+   "netto": 31,
+   "gefeuert": 157
+  },
+  {
+   "T": -1.0706161936887808,
+   "gewonnen": 36,
+   "verloren": 5,
+   "netto": 31,
+   "gefeuert": 157
+  },
+  {
+   "T": -1.0508676515347732,
+   "gewonnen": 36,
+   "verloren": 5,
+   "netto": 31,
+   "gefeuert": 157
+  },
+  {
+   "T": -1.0451657544946218,
+   "gewonnen": 36,
+   "verloren": 5,
+   "netto": 31,
+   "gefeuert": 157
+  },
+  {
+   "T": -1.0416776977834004,
+   "gewonnen": 36,
+   "verloren": 5,
+   "netto": 31,
+   "gefeuert": 157
+  },
+  {
+   "T": -1.0240231960491522,
+   "gewonnen": 36,
+   "verloren": 5,
+   "netto": 31,
+   "gefeuert": 157
+  },
+  {
+   "T": -1.0228860398343902,
+   "gewonnen": 36,
+   "verloren": 5,
+   "netto": 31,
+   "gefeuert": 157
+  },
+  {
+   "T": -0.9983875994597043,
+   "gewonnen": 36,
+   "verloren": 5,
+   "netto": 31,
+   "gefeuert": 157
+  },
+  {
+   "T": -0.99809784058878,
+   "gewonnen": 36,
+   "verloren": 5,
+   "netto": 31,
+   "gefeuert": 156
+  },
+  {
+   "T": -0.9935889101331964,
+   "gewonnen": 36,
+   "verloren": 5,
+   "netto": 31,
+   "gefeuert": 156
+  },
+  {
+   "T": -0.9902489286611957,
+   "gewonnen": 36,
+   "verloren": 5,
+   "netto": 31,
+   "gefeuert": 156
+  },
+  {
+   "T": -0.9836829005891579,
+   "gewonnen": 36,
+   "verloren": 5,
+   "netto": 31,
+   "gefeuert": 156
+  },
+  {
+   "T": -0.9696490842758578,
+   "gewonnen": 36,
+   "verloren": 5,
+   "netto": 31,
+   "gefeuert": 156
+  },
+  {
+   "T": -0.9649983623197311,
+   "gewonnen": 36,
+   "verloren": 5,
+   "netto": 31,
+   "gefeuert": 156
+  },
+  {
+   "T": -0.9570404333818412,
+   "gewonnen": 36,
+   "verloren": 5,
+   "netto": 31,
+   "gefeuert": 156
+  },
+  {
+   "T": -0.9564259589802455,
+   "gewonnen": 36,
+   "verloren": 5,
+   "netto": 31,
+   "gefeuert": 156
+  },
+  {
+   "T": -0.9470622363117687,
+   "gewonnen": 36,
+   "verloren": 5,
+   "netto": 31,
+   "gefeuert": 156
+  },
+  {
+   "T": -0.9424774527476933,
+   "gewonnen": 36,
+   "verloren": 5,
+   "netto": 31,
+   "gefeuert": 156
+  },
+  {
+   "T": -0.9329630710901409,
+   "gewonnen": 36,
+   "verloren": 5,
+   "netto": 31,
+   "gefeuert": 156
+  },
+  {
+   "T": -0.9253642804921066,
+   "gewonnen": 36,
+   "verloren": 5,
+   "netto": 31,
+   "gefeuert": 156
+  },
+  {
+   "T": -0.9228889969202468,
+   "gewonnen": 36,
+   "verloren": 5,
+   "netto": 31,
+   "gefeuert": 156
+  },
+  {
+   "T": -0.9142679794876571,
+   "gewonnen": 36,
+   "verloren": 5,
+   "netto": 31,
+   "gefeuert": 156
+  },
+  {
+   "T": -0.9038575419834167,
+   "gewonnen": 36,
+   "verloren": 5,
+   "netto": 31,
+   "gefeuert": 156
+  },
+  {
+   "T": -0.8980566241942778,
+   "gewonnen": 36,
+   "verloren": 5,
+   "netto": 31,
+   "gefeuert": 156
+  },
+  {
+   "T": -0.8950677698233189,
+   "gewonnen": 36,
+   "verloren": 5,
+   "netto": 31,
+   "gefeuert": 156
+  },
+  {
+   "T": -0.8861042167474514,
+   "gewonnen": 36,
+   "verloren": 5,
+   "netto": 31,
+   "gefeuert": 156
+  },
+  {
+   "T": -0.8729467692117476,
+   "gewonnen": 36,
+   "verloren": 5,
+   "netto": 31,
+   "gefeuert": 156
+  },
+  {
+   "T": -0.8715554301224109,
+   "gewonnen": 36,
+   "verloren": 5,
+   "netto": 31,
+   "gefeuert": 156
+  },
+  {
+   "T": -0.8708046159665975,
+   "gewonnen": 36,
+   "verloren": 5,
+   "netto": 31,
+   "gefeuert": 156
+  },
+  {
+   "T": -0.8634225226691941,
+   "gewonnen": 36,
+   "verloren": 5,
+   "netto": 31,
+   "gefeuert": 156
+  },
+  {
+   "T": -0.8593346241172515,
+   "gewonnen": 36,
+   "verloren": 5,
+   "netto": 31,
+   "gefeuert": 156
+  },
+  {
+   "T": -0.8585238643855575,
+   "gewonnen": 36,
+   "verloren": 5,
+   "netto": 31,
+   "gefeuert": 155
+  },
+  {
+   "T": -0.8443941934314356,
+   "gewonnen": 36,
+   "verloren": 5,
+   "netto": 31,
+   "gefeuert": 155
+  },
+  {
+   "T": -0.8418814206221596,
+   "gewonnen": 36,
+   "verloren": 5,
+   "netto": 31,
+   "gefeuert": 155
+  },
+  {
+   "T": -0.8373083296670242,
+   "gewonnen": 36,
+   "verloren": 5,
+   "netto": 31,
+   "gefeuert": 155
+  },
+  {
+   "T": -0.8308985124217152,
+   "gewonnen": 36,
+   "verloren": 5,
+   "netto": 31,
+   "gefeuert": 155
+  },
+  {
+   "T": -0.8158143163994855,
+   "gewonnen": 36,
+   "verloren": 5,
+   "netto": 31,
+   "gefeuert": 155
+  },
+  {
+   "T": -0.8106014482126371,
+   "gewonnen": 36,
+   "verloren": 5,
+   "netto": 31,
+   "gefeuert": 155
+  },
+  {
+   "T": -0.793508947038871,
+   "gewonnen": 36,
+   "verloren": 5,
+   "netto": 31,
+   "gefeuert": 155
+  },
+  {
+   "T": -0.7932189736565036,
+   "gewonnen": 36,
+   "verloren": 4,
+   "netto": 32,
+   "gefeuert": 155
+  },
+  {
+   "T": -0.7919253480254671,
+   "gewonnen": 36,
+   "verloren": 4,
+   "netto": 32,
+   "gefeuert": 155
+  },
+  {
+   "T": -0.7878353058732399,
+   "gewonnen": 36,
+   "verloren": 4,
+   "netto": 32,
+   "gefeuert": 155
+  },
+  {
+   "T": -0.7799365306194375,
+   "gewonnen": 36,
+   "verloren": 4,
+   "netto": 32,
+   "gefeuert": 155
+  },
+  {
+   "T": -0.771660191030334,
+   "gewonnen": 36,
+   "verloren": 4,
+   "netto": 32,
+   "gefeuert": 155
+  },
+  {
+   "T": -0.7651702927959595,
+   "gewonnen": 36,
+   "verloren": 4,
+   "netto": 32,
+   "gefeuert": 155
+  },
+  {
+   "T": -0.7579000718009555,
+   "gewonnen": 37,
+   "verloren": 4,
+   "netto": 33,
+   "gefeuert": 155
+  },
+  {
+   "T": -0.7551831789931911,
+   "gewonnen": 37,
+   "verloren": 4,
+   "netto": 33,
+   "gefeuert": 154
+  },
+  {
+   "T": -0.7526462735324515,
+   "gewonnen": 37,
+   "verloren": 4,
+   "netto": 33,
+   "gefeuert": 154
+  },
+  {
+   "T": -0.7377385472174023,
+   "gewonnen": 37,
+   "verloren": 4,
+   "netto": 33,
+   "gefeuert": 154
+  },
+  {
+   "T": -0.7374332576430229,
+   "gewonnen": 37,
+   "verloren": 4,
+   "netto": 33,
+   "gefeuert": 154
+  },
+  {
+   "T": -0.7273362560455326,
+   "gewonnen": 37,
+   "verloren": 4,
+   "netto": 33,
+   "gefeuert": 154
+  },
+  {
+   "T": -0.7252025695240336,
+   "gewonnen": 37,
+   "verloren": 4,
+   "netto": 33,
+   "gefeuert": 154
+  },
+  {
+   "T": -0.7105559232218495,
+   "gewonnen": 37,
+   "verloren": 4,
+   "netto": 33,
+   "gefeuert": 154
+  },
+  {
+   "T": -0.6945826044801708,
+   "gewonnen": 37,
+   "verloren": 4,
+   "netto": 33,
+   "gefeuert": 154
+  },
+  {
+   "T": -0.6781965017485446,
+   "gewonnen": 37,
+   "verloren": 4,
+   "netto": 33,
+   "gefeuert": 154
+  },
+  {
+   "T": -0.6774607160210765,
+   "gewonnen": 37,
+   "verloren": 4,
+   "netto": 33,
+   "gefeuert": 154
+  },
+  {
+   "T": -0.6666407249147555,
+   "gewonnen": 37,
+   "verloren": 4,
+   "netto": 33,
+   "gefeuert": 153
+  },
+  {
+   "T": -0.6638047538461385,
+   "gewonnen": 37,
+   "verloren": 4,
+   "netto": 33,
+   "gefeuert": 153
+  },
+  {
+   "T": -0.6487573706214163,
+   "gewonnen": 37,
+   "verloren": 4,
+   "netto": 33,
+   "gefeuert": 153
+  },
+  {
+   "T": -0.628427282272956,
+   "gewonnen": 37,
+   "verloren": 4,
+   "netto": 33,
+   "gefeuert": 153
+  },
+  {
+   "T": -0.6259007598841695,
+   "gewonnen": 37,
+   "verloren": 4,
+   "netto": 33,
+   "gefeuert": 153
+  },
+  {
+   "T": -0.6167491881979172,
+   "gewonnen": 37,
+   "verloren": 4,
+   "netto": 33,
+   "gefeuert": 153
+  },
+  {
+   "T": -0.6039281480607273,
+   "gewonnen": 37,
+   "verloren": 4,
+   "netto": 33,
+   "gefeuert": 153
+  },
+  {
+   "T": -0.5849710552212802,
+   "gewonnen": 37,
+   "verloren": 3,
+   "netto": 34,
+   "gefeuert": 153
+  },
+  {
+   "T": -0.5705020846297311,
+   "gewonnen": 37,
+   "verloren": 3,
+   "netto": 34,
+   "gefeuert": 153
+  },
+  {
+   "T": -0.5685554852778829,
+   "gewonnen": 37,
+   "verloren": 3,
+   "netto": 34,
+   "gefeuert": 152
+  },
+  {
+   "T": -0.5655870541935457,
+   "gewonnen": 37,
+   "verloren": 2,
+   "netto": 35,
+   "gefeuert": 152
+  },
+  {
+   "T": -0.5595450385050621,
+   "gewonnen": 37,
+   "verloren": 2,
+   "netto": 35,
+   "gefeuert": 152
+  },
+  {
+   "T": -0.558821176300214,
+   "gewonnen": 37,
+   "verloren": 2,
+   "netto": 35,
+   "gefeuert": 152
+  },
+  {
+   "T": -0.5514390132232583,
+   "gewonnen": 37,
+   "verloren": 2,
+   "netto": 35,
+   "gefeuert": 152
+  },
+  {
+   "T": -0.5512708628070153,
+   "gewonnen": 37,
+   "verloren": 2,
+   "netto": 35,
+   "gefeuert": 152
+  },
+  {
+   "T": -0.5471229682514593,
+   "gewonnen": 37,
+   "verloren": 2,
+   "netto": 35,
+   "gefeuert": 152
+  },
+  {
+   "T": -0.537512507469375,
+   "gewonnen": 37,
+   "verloren": 2,
+   "netto": 35,
+   "gefeuert": 152
+  },
+  {
+   "T": -0.5291277984524672,
+   "gewonnen": 37,
+   "verloren": 2,
+   "netto": 35,
+   "gefeuert": 152
+  },
+  {
+   "T": -0.5262903176791862,
+   "gewonnen": 37,
+   "verloren": 2,
+   "netto": 35,
+   "gefeuert": 152
+  },
+  {
+   "T": -0.5064727840670977,
+   "gewonnen": 37,
+   "verloren": 2,
+   "netto": 35,
+   "gefeuert": 152
+  },
+  {
+   "T": -0.49893105510767044,
+   "gewonnen": 37,
+   "verloren": 2,
+   "netto": 35,
+   "gefeuert": 152
+  },
+  {
+   "T": -0.49406929524525656,
+   "gewonnen": 37,
+   "verloren": 2,
+   "netto": 35,
+   "gefeuert": 152
+  },
+  {
+   "T": -0.4928648933710331,
+   "gewonnen": 37,
+   "verloren": 2,
+   "netto": 35,
+   "gefeuert": 152
+  },
+  {
+   "T": -0.4794350536071217,
+   "gewonnen": 38,
+   "verloren": 2,
+   "netto": 36,
+   "gefeuert": 152
+  },
+  {
+   "T": -0.47885104967094694,
+   "gewonnen": 38,
+   "verloren": 2,
+   "netto": 36,
+   "gefeuert": 152
+  },
+  {
+   "T": -0.45272844539292756,
+   "gewonnen": 38,
+   "verloren": 2,
+   "netto": 36,
+   "gefeuert": 152
+  },
+  {
+   "T": -0.4507422641621174,
+   "gewonnen": 38,
+   "verloren": 2,
+   "netto": 36,
+   "gefeuert": 152
+  },
+  {
+   "T": -0.4492474284084129,
+   "gewonnen": 38,
+   "verloren": 2,
+   "netto": 36,
+   "gefeuert": 152
+  },
+  {
+   "T": -0.4463796074678903,
+   "gewonnen": 38,
+   "verloren": 2,
+   "netto": 36,
+   "gefeuert": 152
+  },
+  {
+   "T": -0.44550232618760655,
+   "gewonnen": 38,
+   "verloren": 2,
+   "netto": 36,
+   "gefeuert": 152
+  },
+  {
+   "T": -0.44140370297404075,
+   "gewonnen": 38,
+   "verloren": 2,
+   "netto": 36,
+   "gefeuert": 152
+  },
+  {
+   "T": -0.42686137637952526,
+   "gewonnen": 38,
+   "verloren": 2,
+   "netto": 36,
+   "gefeuert": 152
+  },
+  {
+   "T": -0.4168555455262153,
+   "gewonnen": 38,
+   "verloren": 2,
+   "netto": 36,
+   "gefeuert": 152
+  },
+  {
+   "T": -0.41356312440716336,
+   "gewonnen": 38,
+   "verloren": 2,
+   "netto": 36,
+   "gefeuert": 152
+  },
+  {
+   "T": -0.41206074068165544,
+   "gewonnen": 38,
+   "verloren": 2,
+   "netto": 36,
+   "gefeuert": 152
+  },
+  {
+   "T": -0.40960595556508017,
+   "gewonnen": 38,
+   "verloren": 2,
+   "netto": 36,
+   "gefeuert": 152
+  },
+  {
+   "T": -0.38143107619511696,
+   "gewonnen": 38,
+   "verloren": 2,
+   "netto": 36,
+   "gefeuert": 152
+  },
+  {
+   "T": -0.3746387875673056,
+   "gewonnen": 38,
+   "verloren": 2,
+   "netto": 36,
+   "gefeuert": 152
+  },
+  {
+   "T": -0.3682946258151385,
+   "gewonnen": 38,
+   "verloren": 2,
+   "netto": 36,
+   "gefeuert": 152
+  },
+  {
+   "T": -0.3549892303331077,
+   "gewonnen": 38,
+   "verloren": 2,
+   "netto": 36,
+   "gefeuert": 152
+  },
+  {
+   "T": -0.3474853349662266,
+   "gewonnen": 38,
+   "verloren": 2,
+   "netto": 36,
+   "gefeuert": 152
+  },
+  {
+   "T": -0.3381943365378217,
+   "gewonnen": 37,
+   "verloren": 2,
+   "netto": 35,
+   "gefeuert": 151
+  },
+  {
+   "T": -0.33431688694606154,
+   "gewonnen": 37,
+   "verloren": 2,
+   "netto": 35,
+   "gefeuert": 151
+  },
+  {
+   "T": -0.32816146840131943,
+   "gewonnen": 37,
+   "verloren": 2,
+   "netto": 35,
+   "gefeuert": 151
+  },
+  {
+   "T": -0.30445365375628497,
+   "gewonnen": 37,
+   "verloren": 2,
+   "netto": 35,
+   "gefeuert": 151
+  },
+  {
+   "T": -0.3012390891679142,
+   "gewonnen": 37,
+   "verloren": 2,
+   "netto": 35,
+   "gefeuert": 151
+  },
+  {
+   "T": -0.2772002048871791,
+   "gewonnen": 37,
+   "verloren": 2,
+   "netto": 35,
+   "gefeuert": 151
+  },
+  {
+   "T": -0.2748622577201483,
+   "gewonnen": 37,
+   "verloren": 2,
+   "netto": 35,
+   "gefeuert": 151
+  },
+  {
+   "T": -0.2613955621267787,
+   "gewonnen": 37,
+   "verloren": 2,
+   "netto": 35,
+   "gefeuert": 151
+  },
+  {
+   "T": -0.25566373108019613,
+   "gewonnen": 37,
+   "verloren": 2,
+   "netto": 35,
+   "gefeuert": 151
+  },
+  {
+   "T": -0.2538587822139542,
+   "gewonnen": 37,
+   "verloren": 2,
+   "netto": 35,
+   "gefeuert": 151
+  },
+  {
+   "T": -0.22952883677182978,
+   "gewonnen": 37,
+   "verloren": 2,
+   "netto": 35,
+   "gefeuert": 151
+  },
+  {
+   "T": -0.22340405099605576,
+   "gewonnen": 37,
+   "verloren": 2,
+   "netto": 35,
+   "gefeuert": 151
+  },
+  {
+   "T": -0.21580910339861958,
+   "gewonnen": 37,
+   "verloren": 2,
+   "netto": 35,
+   "gefeuert": 151
+  },
+  {
+   "T": -0.2037531553008911,
+   "gewonnen": 37,
+   "verloren": 2,
+   "netto": 35,
+   "gefeuert": 151
+  },
+  {
+   "T": -0.19520618196666661,
+   "gewonnen": 37,
+   "verloren": 2,
+   "netto": 35,
+   "gefeuert": 151
+  },
+  {
+   "T": -0.18229705707905786,
+   "gewonnen": 37,
+   "verloren": 2,
+   "netto": 35,
+   "gefeuert": 151
+  },
+  {
+   "T": -0.17738571329734487,
+   "gewonnen": 37,
+   "verloren": 2,
+   "netto": 35,
+   "gefeuert": 151
+  },
+  {
+   "T": -0.1646296186461651,
+   "gewonnen": 37,
+   "verloren": 2,
+   "netto": 35,
+   "gefeuert": 151
+  },
+  {
+   "T": -0.16057166429745173,
+   "gewonnen": 37,
+   "verloren": 2,
+   "netto": 35,
+   "gefeuert": 151
+  },
+  {
+   "T": -0.15933512455904286,
+   "gewonnen": 37,
+   "verloren": 2,
+   "netto": 35,
+   "gefeuert": 151
+  },
+  {
+   "T": -0.1448283695101118,
+   "gewonnen": 37,
+   "verloren": 2,
+   "netto": 35,
+   "gefeuert": 151
+  },
+  {
+   "T": -0.13297397151221046,
+   "gewonnen": 38,
+   "verloren": 2,
+   "netto": 36,
+   "gefeuert": 151
+  },
+  {
+   "T": -0.13233747514867922,
+   "gewonnen": 38,
+   "verloren": 2,
+   "netto": 36,
+   "gefeuert": 151
+  },
+  {
+   "T": -0.1309901552599757,
+   "gewonnen": 38,
+   "verloren": 2,
+   "netto": 36,
+   "gefeuert": 151
+  },
+  {
+   "T": -0.12171699147772563,
+   "gewonnen": 38,
+   "verloren": 2,
+   "netto": 36,
+   "gefeuert": 151
+  },
+  {
+   "T": -0.12054142161604342,
+   "gewonnen": 38,
+   "verloren": 2,
+   "netto": 36,
+   "gefeuert": 151
+  },
+  {
+   "T": -0.11130055481551082,
+   "gewonnen": 38,
+   "verloren": 2,
+   "netto": 36,
+   "gefeuert": 151
+  },
+  {
+   "T": -0.10345886002677052,
+   "gewonnen": 38,
+   "verloren": 2,
+   "netto": 36,
+   "gefeuert": 151
+  },
+  {
+   "T": -0.07740438841851427,
+   "gewonnen": 38,
+   "verloren": 2,
+   "netto": 36,
+   "gefeuert": 151
+  },
+  {
+   "T": -0.05780303181859958,
+   "gewonnen": 37,
+   "verloren": 2,
+   "netto": 35,
+   "gefeuert": 150
+  },
+  {
+   "T": -0.0559034299948471,
+   "gewonnen": 37,
+   "verloren": 2,
+   "netto": 35,
+   "gefeuert": 150
+  },
+  {
+   "T": -0.029306340765845373,
+   "gewonnen": 37,
+   "verloren": 2,
+   "netto": 35,
+   "gefeuert": 150
+  },
+  {
+   "T": -0.011602547671701435,
+   "gewonnen": 37,
+   "verloren": 2,
+   "netto": 35,
+   "gefeuert": 150
+  },
+  {
+   "T": -0.0045324384677774,
+   "gewonnen": 37,
+   "verloren": 2,
+   "netto": 35,
+   "gefeuert": 150
+  },
+  {
+   "T": 0.0015114430978107052,
+   "gewonnen": 37,
+   "verloren": 2,
+   "netto": 35,
+   "gefeuert": 150
+  },
+  {
+   "T": 0.010168046774132522,
+   "gewonnen": 37,
+   "verloren": 2,
+   "netto": 35,
+   "gefeuert": 150
+  },
+  {
+   "T": 0.013593961108030461,
+   "gewonnen": 37,
+   "verloren": 2,
+   "netto": 35,
+   "gefeuert": 150
+  },
+  {
+   "T": 0.08127264710508886,
+   "gewonnen": 37,
+   "verloren": 1,
+   "netto": 36,
+   "gefeuert": 150
+  },
+  {
+   "T": 0.11896699422200907,
+   "gewonnen": 37,
+   "verloren": 1,
+   "netto": 36,
+   "gefeuert": 150
+  },
+  {
+   "T": 0.13822956979207923,
+   "gewonnen": 37,
+   "verloren": 1,
+   "netto": 36,
+   "gefeuert": 150
+  },
+  {
+   "T": 0.14548389053466027,
+   "gewonnen": 36,
+   "verloren": 1,
+   "netto": 35,
+   "gefeuert": 149
+  },
+  {
+   "T": 0.15848997326240988,
+   "gewonnen": 36,
+   "verloren": 1,
+   "netto": 35,
+   "gefeuert": 149
+  },
+  {
+   "T": 0.16778056895684967,
+   "gewonnen": 36,
+   "verloren": 1,
+   "netto": 35,
+   "gefeuert": 149
+  },
+  {
+   "T": 0.17831428038375496,
+   "gewonnen": 36,
+   "verloren": 1,
+   "netto": 35,
+   "gefeuert": 149
+  },
+  {
+   "T": 0.18534395843834672,
+   "gewonnen": 36,
+   "verloren": 1,
+   "netto": 35,
+   "gefeuert": 149
+  },
+  {
+   "T": 0.20552886023834605,
+   "gewonnen": 36,
+   "verloren": 1,
+   "netto": 35,
+   "gefeuert": 149
+  },
+  {
+   "T": 0.206303313241313,
+   "gewonnen": 36,
+   "verloren": 1,
+   "netto": 35,
+   "gefeuert": 149
+  },
+  {
+   "T": 0.2075573759599625,
+   "gewonnen": 36,
+   "verloren": 1,
+   "netto": 35,
+   "gefeuert": 149
+  },
+  {
+   "T": 0.22160345529519487,
+   "gewonnen": 36,
+   "verloren": 1,
+   "netto": 35,
+   "gefeuert": 149
+  },
+  {
+   "T": 0.23961228983365723,
+   "gewonnen": 36,
+   "verloren": 1,
+   "netto": 35,
+   "gefeuert": 149
+  },
+  {
+   "T": 0.251483164492599,
+   "gewonnen": 36,
+   "verloren": 1,
+   "netto": 35,
+   "gefeuert": 149
+  },
+  {
+   "T": 0.2537655135561354,
+   "gewonnen": 36,
+   "verloren": 1,
+   "netto": 35,
+   "gefeuert": 149
+  },
+  {
+   "T": 0.2560080540250147,
+   "gewonnen": 36,
+   "verloren": 1,
+   "netto": 35,
+   "gefeuert": 149
+  },
+  {
+   "T": 0.2584134742201307,
+   "gewonnen": 37,
+   "verloren": 1,
+   "netto": 36,
+   "gefeuert": 149
+  },
+  {
+   "T": 0.2667542246398362,
+   "gewonnen": 37,
+   "verloren": 1,
+   "netto": 36,
+   "gefeuert": 149
+  },
+  {
+   "T": 0.27091006039097865,
+   "gewonnen": 38,
+   "verloren": 1,
+   "netto": 37,
+   "gefeuert": 149
+  },
+  {
+   "T": 0.2731246324986547,
+   "gewonnen": 38,
+   "verloren": 1,
+   "netto": 37,
+   "gefeuert": 149
+  },
+  {
+   "T": 0.2742056073115413,
+   "gewonnen": 38,
+   "verloren": 1,
+   "netto": 37,
+   "gefeuert": 149
+  },
+  {
+   "T": 0.2831496612065081,
+   "gewonnen": 38,
+   "verloren": 1,
+   "netto": 37,
+   "gefeuert": 149
+  },
+  {
+   "T": 0.29457990930738753,
+   "gewonnen": 38,
+   "verloren": 1,
+   "netto": 37,
+   "gefeuert": 149
+  },
+  {
+   "T": 0.29803041811001707,
+   "gewonnen": 38,
+   "verloren": 1,
+   "netto": 37,
+   "gefeuert": 148
+  },
+  {
+   "T": 0.29917903292633463,
+   "gewonnen": 38,
+   "verloren": 1,
+   "netto": 37,
+   "gefeuert": 148
+  },
+  {
+   "T": 0.3294313811020455,
+   "gewonnen": 38,
+   "verloren": 1,
+   "netto": 37,
+   "gefeuert": 148
+  },
+  {
+   "T": 0.36593780446465773,
+   "gewonnen": 38,
+   "verloren": 1,
+   "netto": 37,
+   "gefeuert": 148
+  },
+  {
+   "T": 0.3714796778878251,
+   "gewonnen": 38,
+   "verloren": 1,
+   "netto": 37,
+   "gefeuert": 148
+  },
+  {
+   "T": 0.3746704835602661,
+   "gewonnen": 38,
+   "verloren": 1,
+   "netto": 37,
+   "gefeuert": 148
+  },
+  {
+   "T": 0.3750674737361748,
+   "gewonnen": 38,
+   "verloren": 1,
+   "netto": 37,
+   "gefeuert": 148
+  },
+  {
+   "T": 0.37532032423003736,
+   "gewonnen": 38,
+   "verloren": 1,
+   "netto": 37,
+   "gefeuert": 148
+  },
+  {
+   "T": 0.3831250977432725,
+   "gewonnen": 37,
+   "verloren": 1,
+   "netto": 36,
+   "gefeuert": 147
+  },
+  {
+   "T": 0.3936919290549752,
+   "gewonnen": 37,
+   "verloren": 1,
+   "netto": 36,
+   "gefeuert": 147
+  },
+  {
+   "T": 0.41030210471836037,
+   "gewonnen": 37,
+   "verloren": 1,
+   "netto": 36,
+   "gefeuert": 147
+  },
+  {
+   "T": 0.4105181038913983,
+   "gewonnen": 37,
+   "verloren": 1,
+   "netto": 36,
+   "gefeuert": 147
+  },
+  {
+   "T": 0.41358397494802457,
+   "gewonnen": 37,
+   "verloren": 1,
+   "netto": 36,
+   "gefeuert": 147
+  },
+  {
+   "T": 0.4161023331440581,
+   "gewonnen": 37,
+   "verloren": 1,
+   "netto": 36,
+   "gefeuert": 147
+  },
+  {
+   "T": 0.43222487220954875,
+   "gewonnen": 37,
+   "verloren": 1,
+   "netto": 36,
+   "gefeuert": 147
+  },
+  {
+   "T": 0.4353922847939926,
+   "gewonnen": 37,
+   "verloren": 1,
+   "netto": 36,
+   "gefeuert": 147
+  },
+  {
+   "T": 0.4434795353100789,
+   "gewonnen": 37,
+   "verloren": 1,
+   "netto": 36,
+   "gefeuert": 147
+  },
+  {
+   "T": 0.45009961896449324,
+   "gewonnen": 37,
+   "verloren": 1,
+   "netto": 36,
+   "gefeuert": 147
+  },
+  {
+   "T": 0.4741917164285616,
+   "gewonnen": 37,
+   "verloren": 1,
+   "netto": 36,
+   "gefeuert": 147
+  },
+  {
+   "T": 0.4786612098208818,
+   "gewonnen": 37,
+   "verloren": 1,
+   "netto": 36,
+   "gefeuert": 146
+  },
+  {
+   "T": 0.480209284894227,
+   "gewonnen": 36,
+   "verloren": 1,
+   "netto": 35,
+   "gefeuert": 145
+  },
+  {
+   "T": 0.5087257975587365,
+   "gewonnen": 36,
+   "verloren": 1,
+   "netto": 35,
+   "gefeuert": 145
+  },
+  {
+   "T": 0.5114054167612481,
+   "gewonnen": 36,
+   "verloren": 1,
+   "netto": 35,
+   "gefeuert": 145
+  },
+  {
+   "T": 0.533123031962377,
+   "gewonnen": 36,
+   "verloren": 1,
+   "netto": 35,
+   "gefeuert": 145
+  },
+  {
+   "T": 0.5424856483162863,
+   "gewonnen": 36,
+   "verloren": 1,
+   "netto": 35,
+   "gefeuert": 145
+  },
+  {
+   "T": 0.5590260675787078,
+   "gewonnen": 36,
+   "verloren": 1,
+   "netto": 35,
+   "gefeuert": 145
+  },
+  {
+   "T": 0.5681023414099671,
+   "gewonnen": 36,
+   "verloren": 1,
+   "netto": 35,
+   "gefeuert": 145
+  },
+  {
+   "T": 0.5705946620799298,
+   "gewonnen": 36,
+   "verloren": 1,
+   "netto": 35,
+   "gefeuert": 145
+  },
+  {
+   "T": 0.5743053597905592,
+   "gewonnen": 36,
+   "verloren": 1,
+   "netto": 35,
+   "gefeuert": 145
+  },
+  {
+   "T": 0.5745963907132503,
+   "gewonnen": 35,
+   "verloren": 1,
+   "netto": 34,
+   "gefeuert": 144
+  },
+  {
+   "T": 0.5827102269120643,
+   "gewonnen": 35,
+   "verloren": 1,
+   "netto": 34,
+   "gefeuert": 144
+  },
+  {
+   "T": 0.5970170054301127,
+   "gewonnen": 35,
+   "verloren": 1,
+   "netto": 34,
+   "gefeuert": 143
+  },
+  {
+   "T": 0.6445894750630148,
+   "gewonnen": 35,
+   "verloren": 1,
+   "netto": 34,
+   "gefeuert": 142
+  },
+  {
+   "T": 0.6651953566551065,
+   "gewonnen": 35,
+   "verloren": 1,
+   "netto": 34,
+   "gefeuert": 142
+  },
+  {
+   "T": 0.6790956393538854,
+   "gewonnen": 35,
+   "verloren": 1,
+   "netto": 34,
+   "gefeuert": 142
+  },
+  {
+   "T": 0.6858534930874551,
+   "gewonnen": 35,
+   "verloren": 1,
+   "netto": 34,
+   "gefeuert": 142
+  },
+  {
+   "T": 0.6889734140182087,
+   "gewonnen": 35,
+   "verloren": 1,
+   "netto": 34,
+   "gefeuert": 142
+  },
+  {
+   "T": 0.6957809621077997,
+   "gewonnen": 35,
+   "verloren": 1,
+   "netto": 34,
+   "gefeuert": 142
+  },
+  {
+   "T": 0.7114973546283965,
+   "gewonnen": 35,
+   "verloren": 1,
+   "netto": 34,
+   "gefeuert": 142
+  },
+  {
+   "T": 0.7243409922042339,
+   "gewonnen": 35,
+   "verloren": 1,
+   "netto": 34,
+   "gefeuert": 142
+  },
+  {
+   "T": 0.7279176953410562,
+   "gewonnen": 35,
+   "verloren": 1,
+   "netto": 34,
+   "gefeuert": 142
+  },
+  {
+   "T": 0.7465908658774545,
+   "gewonnen": 35,
+   "verloren": 1,
+   "netto": 34,
+   "gefeuert": 142
+  },
+  {
+   "T": 0.7526112893156864,
+   "gewonnen": 35,
+   "verloren": 1,
+   "netto": 34,
+   "gefeuert": 141
+  },
+  {
+   "T": 0.761375880769974,
+   "gewonnen": 35,
+   "verloren": 1,
+   "netto": 34,
+   "gefeuert": 141
+  },
+  {
+   "T": 0.7627902551964589,
+   "gewonnen": 35,
+   "verloren": 1,
+   "netto": 34,
+   "gefeuert": 141
+  },
+  {
+   "T": 0.763678454851668,
+   "gewonnen": 35,
+   "verloren": 1,
+   "netto": 34,
+   "gefeuert": 141
+  },
+  {
+   "T": 0.7805484046840441,
+   "gewonnen": 35,
+   "verloren": 1,
+   "netto": 34,
+   "gefeuert": 141
+  },
+  {
+   "T": 0.7824074041592397,
+   "gewonnen": 35,
+   "verloren": 1,
+   "netto": 34,
+   "gefeuert": 141
+  },
+  {
+   "T": 0.8093265345275964,
+   "gewonnen": 35,
+   "verloren": 1,
+   "netto": 34,
+   "gefeuert": 141
+  },
+  {
+   "T": 0.8250868036543049,
+   "gewonnen": 35,
+   "verloren": 1,
+   "netto": 34,
+   "gefeuert": 141
+  },
+  {
+   "T": 0.8378521870460844,
+   "gewonnen": 35,
+   "verloren": 1,
+   "netto": 34,
+   "gefeuert": 141
+  },
+  {
+   "T": 0.8491297412664738,
+   "gewonnen": 35,
+   "verloren": 1,
+   "netto": 34,
+   "gefeuert": 141
+  },
+  {
+   "T": 0.85798657195571,
+   "gewonnen": 35,
+   "verloren": 1,
+   "netto": 34,
+   "gefeuert": 141
+  },
+  {
+   "T": 0.8801741265264065,
+   "gewonnen": 35,
+   "verloren": 1,
+   "netto": 34,
+   "gefeuert": 141
+  },
+  {
+   "T": 0.881544626280508,
+   "gewonnen": 35,
+   "verloren": 1,
+   "netto": 34,
+   "gefeuert": 141
+  },
+  {
+   "T": 0.9244848336527305,
+   "gewonnen": 35,
+   "verloren": 1,
+   "netto": 34,
+   "gefeuert": 141
+  },
+  {
+   "T": 0.9331597586764324,
+   "gewonnen": 35,
+   "verloren": 1,
+   "netto": 34,
+   "gefeuert": 141
+  },
+  {
+   "T": 0.974295597540215,
+   "gewonnen": 35,
+   "verloren": 1,
+   "netto": 34,
+   "gefeuert": 141
+  },
+  {
+   "T": 0.9834233385278708,
+   "gewonnen": 35,
+   "verloren": 1,
+   "netto": 34,
+   "gefeuert": 141
+  },
+  {
+   "T": 0.9978653622532445,
+   "gewonnen": 35,
+   "verloren": 1,
+   "netto": 34,
+   "gefeuert": 141
+  },
+  {
+   "T": 0.9994857585957231,
+   "gewonnen": 35,
+   "verloren": 1,
+   "netto": 34,
+   "gefeuert": 141
+  },
+  {
+   "T": 1.0184851177258016,
+   "gewonnen": 35,
+   "verloren": 1,
+   "netto": 34,
+   "gefeuert": 141
+  },
+  {
+   "T": 1.0202612517809164,
+   "gewonnen": 35,
+   "verloren": 1,
+   "netto": 34,
+   "gefeuert": 141
+  },
+  {
+   "T": 1.0235506853645067,
+   "gewonnen": 35,
+   "verloren": 1,
+   "netto": 34,
+   "gefeuert": 141
+  },
+  {
+   "T": 1.0517348244331195,
+   "gewonnen": 35,
+   "verloren": 1,
+   "netto": 34,
+   "gefeuert": 140
+  },
+  {
+   "T": 1.0578131214350381,
+   "gewonnen": 35,
+   "verloren": 1,
+   "netto": 34,
+   "gefeuert": 140
+  },
+  {
+   "T": 1.0702608868062349,
+   "gewonnen": 35,
+   "verloren": 1,
+   "netto": 34,
+   "gefeuert": 140
+  },
+  {
+   "T": 1.0729268792482771,
+   "gewonnen": 35,
+   "verloren": 1,
+   "netto": 34,
+   "gefeuert": 140
+  },
+  {
+   "T": 1.076881484485915,
+   "gewonnen": 35,
+   "verloren": 1,
+   "netto": 34,
+   "gefeuert": 140
+  },
+  {
+   "T": 1.0773602063307806,
+   "gewonnen": 35,
+   "verloren": 1,
+   "netto": 34,
+   "gefeuert": 140
+  },
+  {
+   "T": 1.0831181923338535,
+   "gewonnen": 35,
+   "verloren": 1,
+   "netto": 34,
+   "gefeuert": 140
+  },
+  {
+   "T": 1.0871924415823144,
+   "gewonnen": 35,
+   "verloren": 1,
+   "netto": 34,
+   "gefeuert": 140
+  },
+  {
+   "T": 1.0917730407659314,
+   "gewonnen": 35,
+   "verloren": 1,
+   "netto": 34,
+   "gefeuert": 140
+  },
+  {
+   "T": 1.099862423987529,
+   "gewonnen": 35,
+   "verloren": 1,
+   "netto": 34,
+   "gefeuert": 140
+  },
+  {
+   "T": 1.1039004276864357,
+   "gewonnen": 35,
+   "verloren": 1,
+   "netto": 34,
+   "gefeuert": 140
+  },
+  {
+   "T": 1.1041309637326837,
+   "gewonnen": 35,
+   "verloren": 1,
+   "netto": 34,
+   "gefeuert": 140
+  },
+  {
+   "T": 1.1118907191242,
+   "gewonnen": 35,
+   "verloren": 1,
+   "netto": 34,
+   "gefeuert": 140
+  },
+  {
+   "T": 1.1159611879531812,
+   "gewonnen": 35,
+   "verloren": 1,
+   "netto": 34,
+   "gefeuert": 140
+  },
+  {
+   "T": 1.1251351912686847,
+   "gewonnen": 35,
+   "verloren": 1,
+   "netto": 34,
+   "gefeuert": 140
+  },
+  {
+   "T": 1.126993269654046,
+   "gewonnen": 35,
+   "verloren": 1,
+   "netto": 34,
+   "gefeuert": 140
+  },
+  {
+   "T": 1.1438997806391016,
+   "gewonnen": 35,
+   "verloren": 1,
+   "netto": 34,
+   "gefeuert": 139
+  },
+  {
+   "T": 1.1546239021874802,
+   "gewonnen": 35,
+   "verloren": 1,
+   "netto": 34,
+   "gefeuert": 139
+  },
+  {
+   "T": 1.1690588124508259,
+   "gewonnen": 35,
+   "verloren": 1,
+   "netto": 34,
+   "gefeuert": 139
+  },
+  {
+   "T": 1.1785287732979441,
+   "gewonnen": 35,
+   "verloren": 1,
+   "netto": 34,
+   "gefeuert": 139
+  },
+  {
+   "T": 1.1842899452224633,
+   "gewonnen": 35,
+   "verloren": 1,
+   "netto": 34,
+   "gefeuert": 139
+  },
+  {
+   "T": 1.188405325086778,
+   "gewonnen": 35,
+   "verloren": 1,
+   "netto": 34,
+   "gefeuert": 139
+  },
+  {
+   "T": 1.2013327448623259,
+   "gewonnen": 35,
+   "verloren": 1,
+   "netto": 34,
+   "gefeuert": 139
+  },
+  {
+   "T": 1.206927713240817,
+   "gewonnen": 35,
+   "verloren": 1,
+   "netto": 34,
+   "gefeuert": 139
+  },
+  {
+   "T": 1.209979614258502,
+   "gewonnen": 35,
+   "verloren": 1,
+   "netto": 34,
+   "gefeuert": 138
+  },
+  {
+   "T": 1.2196991266191441,
+   "gewonnen": 35,
+   "verloren": 1,
+   "netto": 34,
+   "gefeuert": 138
+  },
+  {
+   "T": 1.2421137504100614,
+   "gewonnen": 35,
+   "verloren": 1,
+   "netto": 34,
+   "gefeuert": 138
+  },
+  {
+   "T": 1.2652833566296795,
+   "gewonnen": 35,
+   "verloren": 1,
+   "netto": 34,
+   "gefeuert": 138
+  },
+  {
+   "T": 1.2680746153029994,
+   "gewonnen": 35,
+   "verloren": 1,
+   "netto": 34,
+   "gefeuert": 138
+  },
+  {
+   "T": 1.2900803355980572,
+   "gewonnen": 35,
+   "verloren": 1,
+   "netto": 34,
+   "gefeuert": 138
+  },
+  {
+   "T": 1.296833685135255,
+   "gewonnen": 35,
+   "verloren": 1,
+   "netto": 34,
+   "gefeuert": 138
+  },
+  {
+   "T": 1.2976348037149528,
+   "gewonnen": 35,
+   "verloren": 1,
+   "netto": 34,
+   "gefeuert": 138
+  },
+  {
+   "T": 1.3112775945655584,
+   "gewonnen": 35,
+   "verloren": 1,
+   "netto": 34,
+   "gefeuert": 138
+  },
+  {
+   "T": 1.3136231090458386,
+   "gewonnen": 35,
+   "verloren": 1,
+   "netto": 34,
+   "gefeuert": 138
+  },
+  {
+   "T": 1.3150989050890458,
+   "gewonnen": 35,
+   "verloren": 1,
+   "netto": 34,
+   "gefeuert": 138
+  },
+  {
+   "T": 1.3186899503656782,
+   "gewonnen": 35,
+   "verloren": 1,
+   "netto": 34,
+   "gefeuert": 138
+  },
+  {
+   "T": 1.3214725621368335,
+   "gewonnen": 35,
+   "verloren": 1,
+   "netto": 34,
+   "gefeuert": 138
+  },
+  {
+   "T": 1.3301479301949617,
+   "gewonnen": 35,
+   "verloren": 1,
+   "netto": 34,
+   "gefeuert": 138
+  },
+  {
+   "T": 1.3470769536234628,
+   "gewonnen": 35,
+   "verloren": 1,
+   "netto": 34,
+   "gefeuert": 138
+  },
+  {
+   "T": 1.3517051607514592,
+   "gewonnen": 35,
+   "verloren": 1,
+   "netto": 34,
+   "gefeuert": 137
+  },
+  {
+   "T": 1.3601211356306555,
+   "gewonnen": 35,
+   "verloren": 1,
+   "netto": 34,
+   "gefeuert": 137
+  },
+  {
+   "T": 1.363775825080556,
+   "gewonnen": 35,
+   "verloren": 1,
+   "netto": 34,
+   "gefeuert": 137
+  },
+  {
+   "T": 1.3666369848204727,
+   "gewonnen": 35,
+   "verloren": 1,
+   "netto": 34,
+   "gefeuert": 137
+  },
+  {
+   "T": 1.3765259623428443,
+   "gewonnen": 35,
+   "verloren": 1,
+   "netto": 34,
+   "gefeuert": 137
+  },
+  {
+   "T": 1.3853707109560283,
+   "gewonnen": 35,
+   "verloren": 1,
+   "netto": 34,
+   "gefeuert": 137
+  },
+  {
+   "T": 1.3863202146536524,
+   "gewonnen": 35,
+   "verloren": 1,
+   "netto": 34,
+   "gefeuert": 137
+  },
+  {
+   "T": 1.4008772094603725,
+   "gewonnen": 35,
+   "verloren": 1,
+   "netto": 34,
+   "gefeuert": 137
+  },
+  {
+   "T": 1.4185339364889396,
+   "gewonnen": 35,
+   "verloren": 1,
+   "netto": 34,
+   "gefeuert": 136
+  },
+  {
+   "T": 1.4201422086946458,
+   "gewonnen": 35,
+   "verloren": 1,
+   "netto": 34,
+   "gefeuert": 136
+  },
+  {
+   "T": 1.421218059561605,
+   "gewonnen": 35,
+   "verloren": 1,
+   "netto": 34,
+   "gefeuert": 136
+  },
+  {
+   "T": 1.423444564512884,
+   "gewonnen": 35,
+   "verloren": 1,
+   "netto": 34,
+   "gefeuert": 136
+  },
+  {
+   "T": 1.4386567785200133,
+   "gewonnen": 35,
+   "verloren": 1,
+   "netto": 34,
+   "gefeuert": 136
+  },
+  {
+   "T": 1.469410868273887,
+   "gewonnen": 35,
+   "verloren": 1,
+   "netto": 34,
+   "gefeuert": 136
+  },
+  {
+   "T": 1.471628144940473,
+   "gewonnen": 35,
+   "verloren": 1,
+   "netto": 34,
+   "gefeuert": 136
+  },
+  {
+   "T": 1.4863248675943643,
+   "gewonnen": 35,
+   "verloren": 1,
+   "netto": 34,
+   "gefeuert": 136
+  },
+  {
+   "T": 1.4934393555238261,
+   "gewonnen": 34,
+   "verloren": 1,
+   "netto": 33,
+   "gefeuert": 135
+  },
+  {
+   "T": 1.520414508620332,
+   "gewonnen": 34,
+   "verloren": 1,
+   "netto": 33,
+   "gefeuert": 135
+  },
+  {
+   "T": 1.5233332799377801,
+   "gewonnen": 34,
+   "verloren": 1,
+   "netto": 33,
+   "gefeuert": 135
+  },
+  {
+   "T": 1.5243901689657764,
+   "gewonnen": 34,
+   "verloren": 1,
+   "netto": 33,
+   "gefeuert": 135
+  },
+  {
+   "T": 1.541005890093118,
+   "gewonnen": 34,
+   "verloren": 1,
+   "netto": 33,
+   "gefeuert": 134
+  },
+  {
+   "T": 1.54442986509374,
+   "gewonnen": 34,
+   "verloren": 1,
+   "netto": 33,
+   "gefeuert": 134
+  },
+  {
+   "T": 1.5450202733015659,
+   "gewonnen": 34,
+   "verloren": 1,
+   "netto": 33,
+   "gefeuert": 134
+  },
+  {
+   "T": 1.56457619499403,
+   "gewonnen": 34,
+   "verloren": 1,
+   "netto": 33,
+   "gefeuert": 134
+  },
+  {
+   "T": 1.5680133683608357,
+   "gewonnen": 34,
+   "verloren": 1,
+   "netto": 33,
+   "gefeuert": 134
+  },
+  {
+   "T": 1.5852520159236483,
+   "gewonnen": 34,
+   "verloren": 1,
+   "netto": 33,
+   "gefeuert": 134
+  },
+  {
+   "T": 1.5989408098020712,
+   "gewonnen": 34,
+   "verloren": 1,
+   "netto": 33,
+   "gefeuert": 134
+  },
+  {
+   "T": 1.60811830841918,
+   "gewonnen": 34,
+   "verloren": 1,
+   "netto": 33,
+   "gefeuert": 134
+  },
+  {
+   "T": 1.6106158332655545,
+   "gewonnen": 34,
+   "verloren": 1,
+   "netto": 33,
+   "gefeuert": 134
+  },
+  {
+   "T": 1.6155068734743323,
+   "gewonnen": 34,
+   "verloren": 1,
+   "netto": 33,
+   "gefeuert": 134
+  },
+  {
+   "T": 1.6232561081775825,
+   "gewonnen": 34,
+   "verloren": 1,
+   "netto": 33,
+   "gefeuert": 134
+  },
+  {
+   "T": 1.6518368476468486,
+   "gewonnen": 34,
+   "verloren": 1,
+   "netto": 33,
+   "gefeuert": 134
+  },
+  {
+   "T": 1.6565311543960997,
+   "gewonnen": 34,
+   "verloren": 1,
+   "netto": 33,
+   "gefeuert": 134
+  },
+  {
+   "T": 1.6650722996019158,
+   "gewonnen": 34,
+   "verloren": 1,
+   "netto": 33,
+   "gefeuert": 134
+  },
+  {
+   "T": 1.693896388860656,
+   "gewonnen": 34,
+   "verloren": 1,
+   "netto": 33,
+   "gefeuert": 134
+  },
+  {
+   "T": 1.7118899554823122,
+   "gewonnen": 34,
+   "verloren": 1,
+   "netto": 33,
+   "gefeuert": 134
+  },
+  {
+   "T": 1.716785362487073,
+   "gewonnen": 34,
+   "verloren": 1,
+   "netto": 33,
+   "gefeuert": 134
+  },
+  {
+   "T": 1.7251943007807884,
+   "gewonnen": 34,
+   "verloren": 1,
+   "netto": 33,
+   "gefeuert": 134
+  },
+  {
+   "T": 1.730124164464557,
+   "gewonnen": 34,
+   "verloren": 2,
+   "netto": 32,
+   "gefeuert": 134
+  },
+  {
+   "T": 1.7338009691679237,
+   "gewonnen": 34,
+   "verloren": 2,
+   "netto": 32,
+   "gefeuert": 134
+  },
+  {
+   "T": 1.739015744464019,
+   "gewonnen": 34,
+   "verloren": 2,
+   "netto": 32,
+   "gefeuert": 134
+  },
+  {
+   "T": 1.7403905364096857,
+   "gewonnen": 34,
+   "verloren": 2,
+   "netto": 32,
+   "gefeuert": 134
+  },
+  {
+   "T": 1.749282498168367,
+   "gewonnen": 34,
+   "verloren": 2,
+   "netto": 32,
+   "gefeuert": 134
+  },
+  {
+   "T": 1.7569957789053245,
+   "gewonnen": 34,
+   "verloren": 2,
+   "netto": 32,
+   "gefeuert": 134
+  },
+  {
+   "T": 1.762079028784803,
+   "gewonnen": 34,
+   "verloren": 2,
+   "netto": 32,
+   "gefeuert": 134
+  },
+  {
+   "T": 1.7719473895644615,
+   "gewonnen": 34,
+   "verloren": 2,
+   "netto": 32,
+   "gefeuert": 134
+  },
+  {
+   "T": 1.7720714133421436,
+   "gewonnen": 34,
+   "verloren": 2,
+   "netto": 32,
+   "gefeuert": 134
+  },
+  {
+   "T": 1.7768446618082367,
+   "gewonnen": 34,
+   "verloren": 2,
+   "netto": 32,
+   "gefeuert": 133
+  },
+  {
+   "T": 1.788129577324855,
+   "gewonnen": 34,
+   "verloren": 2,
+   "netto": 32,
+   "gefeuert": 133
+  },
+  {
+   "T": 1.8150701930206854,
+   "gewonnen": 34,
+   "verloren": 2,
+   "netto": 32,
+   "gefeuert": 133
+  },
+  {
+   "T": 1.8159897833169767,
+   "gewonnen": 33,
+   "verloren": 2,
+   "netto": 31,
+   "gefeuert": 132
+  },
+  {
+   "T": 1.8197352541666514,
+   "gewonnen": 33,
+   "verloren": 2,
+   "netto": 31,
+   "gefeuert": 132
+  },
+  {
+   "T": 1.8237864574149318,
+   "gewonnen": 33,
+   "verloren": 2,
+   "netto": 31,
+   "gefeuert": 132
+  },
+  {
+   "T": 1.8291499048620048,
+   "gewonnen": 33,
+   "verloren": 2,
+   "netto": 31,
+   "gefeuert": 132
+  },
+  {
+   "T": 1.8498332911269637,
+   "gewonnen": 33,
+   "verloren": 2,
+   "netto": 31,
+   "gefeuert": 132
+  },
+  {
+   "T": 1.8608176045890796,
+   "gewonnen": 33,
+   "verloren": 2,
+   "netto": 31,
+   "gefeuert": 132
+  },
+  {
+   "T": 1.8613036997153571,
+   "gewonnen": 33,
+   "verloren": 2,
+   "netto": 31,
+   "gefeuert": 132
+  },
+  {
+   "T": 1.8655324703572465,
+   "gewonnen": 33,
+   "verloren": 2,
+   "netto": 31,
+   "gefeuert": 132
+  },
+  {
+   "T": 1.8658968057346672,
+   "gewonnen": 33,
+   "verloren": 2,
+   "netto": 31,
+   "gefeuert": 132
+  },
+  {
+   "T": 1.876937134613771,
+   "gewonnen": 33,
+   "verloren": 2,
+   "netto": 31,
+   "gefeuert": 132
+  },
+  {
+   "T": 1.8799785940695153,
+   "gewonnen": 33,
+   "verloren": 2,
+   "netto": 31,
+   "gefeuert": 132
+  },
+  {
+   "T": 1.908619494047279,
+   "gewonnen": 33,
+   "verloren": 2,
+   "netto": 31,
+   "gefeuert": 132
+  },
+  {
+   "T": 1.9249480994850492,
+   "gewonnen": 33,
+   "verloren": 1,
+   "netto": 32,
+   "gefeuert": 132
+  },
+  {
+   "T": 1.9284143972678334,
+   "gewonnen": 33,
+   "verloren": 1,
+   "netto": 32,
+   "gefeuert": 132
+  },
+  {
+   "T": 1.9284837113282423,
+   "gewonnen": 33,
+   "verloren": 1,
+   "netto": 32,
+   "gefeuert": 132
+  },
+  {
+   "T": 1.9295116913159682,
+   "gewonnen": 33,
+   "verloren": 1,
+   "netto": 32,
+   "gefeuert": 132
+  },
+  {
+   "T": 1.9350456753055458,
+   "gewonnen": 33,
+   "verloren": 1,
+   "netto": 32,
+   "gefeuert": 132
+  },
+  {
+   "T": 1.9446975757495275,
+   "gewonnen": 33,
+   "verloren": 1,
+   "netto": 32,
+   "gefeuert": 132
+  },
+  {
+   "T": 1.9469761070247786,
+   "gewonnen": 33,
+   "verloren": 1,
+   "netto": 32,
+   "gefeuert": 132
+  },
+  {
+   "T": 1.9483764758818614,
+   "gewonnen": 33,
+   "verloren": 1,
+   "netto": 32,
+   "gefeuert": 132
+  },
+  {
+   "T": 1.9516637659838283,
+   "gewonnen": 33,
+   "verloren": 1,
+   "netto": 32,
+   "gefeuert": 132
+  },
+  {
+   "T": 1.9555871311484947,
+   "gewonnen": 33,
+   "verloren": 1,
+   "netto": 32,
+   "gefeuert": 132
+  },
+  {
+   "T": 1.9592980415354475,
+   "gewonnen": 33,
+   "verloren": 1,
+   "netto": 32,
+   "gefeuert": 131
+  },
+  {
+   "T": 1.9668062807417437,
+   "gewonnen": 33,
+   "verloren": 1,
+   "netto": 32,
+   "gefeuert": 130
+  },
+  {
+   "T": 1.9680315897548097,
+   "gewonnen": 32,
+   "verloren": 1,
+   "netto": 31,
+   "gefeuert": 129
+  },
+  {
+   "T": 1.9744085095601647,
+   "gewonnen": 32,
+   "verloren": 1,
+   "netto": 31,
+   "gefeuert": 129
+  },
+  {
+   "T": 1.976109687935562,
+   "gewonnen": 32,
+   "verloren": 1,
+   "netto": 31,
+   "gefeuert": 129
+  },
+  {
+   "T": 1.9841981691622406,
+   "gewonnen": 32,
+   "verloren": 1,
+   "netto": 31,
+   "gefeuert": 129
+  },
+  {
+   "T": 1.9872171204470916,
+   "gewonnen": 32,
+   "verloren": 1,
+   "netto": 31,
+   "gefeuert": 129
+  },
+  {
+   "T": 1.992508314990011,
+   "gewonnen": 32,
+   "verloren": 1,
+   "netto": 31,
+   "gefeuert": 129
+  },
+  {
+   "T": 2.0037811422757867,
+   "gewonnen": 32,
+   "verloren": 1,
+   "netto": 31,
+   "gefeuert": 129
+  },
+  {
+   "T": 2.0176392818539184,
+   "gewonnen": 32,
+   "verloren": 1,
+   "netto": 31,
+   "gefeuert": 129
+  },
+  {
+   "T": 2.0270320944679923,
+   "gewonnen": 32,
+   "verloren": 1,
+   "netto": 31,
+   "gefeuert": 129
+  },
+  {
+   "T": 2.0305189144559725,
+   "gewonnen": 32,
+   "verloren": 1,
+   "netto": 31,
+   "gefeuert": 129
+  },
+  {
+   "T": 2.0308024741168578,
+   "gewonnen": 32,
+   "verloren": 1,
+   "netto": 31,
+   "gefeuert": 129
+  },
+  {
+   "T": 2.0323029508867205,
+   "gewonnen": 32,
+   "verloren": 1,
+   "netto": 31,
+   "gefeuert": 129
+  },
+  {
+   "T": 2.0438168422515597,
+   "gewonnen": 32,
+   "verloren": 1,
+   "netto": 31,
+   "gefeuert": 129
+  },
+  {
+   "T": 2.044341917248303,
+   "gewonnen": 32,
+   "verloren": 1,
+   "netto": 31,
+   "gefeuert": 129
+  },
+  {
+   "T": 2.056241608002358,
+   "gewonnen": 32,
+   "verloren": 1,
+   "netto": 31,
+   "gefeuert": 129
+  },
+  {
+   "T": 2.0585987168806636,
+   "gewonnen": 32,
+   "verloren": 1,
+   "netto": 31,
+   "gefeuert": 129
+  },
+  {
+   "T": 2.059762292526039,
+   "gewonnen": 32,
+   "verloren": 1,
+   "netto": 31,
+   "gefeuert": 129
+  },
+  {
+   "T": 2.060782243912155,
+   "gewonnen": 31,
+   "verloren": 1,
+   "netto": 30,
+   "gefeuert": 128
+  },
+  {
+   "T": 2.07065493631603,
+   "gewonnen": 31,
+   "verloren": 1,
+   "netto": 30,
+   "gefeuert": 128
+  },
+  {
+   "T": 2.0778077474216956,
+   "gewonnen": 31,
+   "verloren": 1,
+   "netto": 30,
+   "gefeuert": 128
+  },
+  {
+   "T": 2.110937502963916,
+   "gewonnen": 31,
+   "verloren": 1,
+   "netto": 30,
+   "gefeuert": 128
+  },
+  {
+   "T": 2.1184120693090382,
+   "gewonnen": 31,
+   "verloren": 1,
+   "netto": 30,
+   "gefeuert": 128
+  },
+  {
+   "T": 2.124881765802577,
+   "gewonnen": 31,
+   "verloren": 1,
+   "netto": 30,
+   "gefeuert": 128
+  },
+  {
+   "T": 2.1275917695748814,
+   "gewonnen": 31,
+   "verloren": 1,
+   "netto": 30,
+   "gefeuert": 127
+  },
+  {
+   "T": 2.137532980359051,
+   "gewonnen": 31,
+   "verloren": 1,
+   "netto": 30,
+   "gefeuert": 127
+  },
+  {
+   "T": 2.142652440136406,
+   "gewonnen": 30,
+   "verloren": 1,
+   "netto": 29,
+   "gefeuert": 126
+  },
+  {
+   "T": 2.1447387219261977,
+   "gewonnen": 30,
+   "verloren": 1,
+   "netto": 29,
+   "gefeuert": 126
+  },
+  {
+   "T": 2.1547543987866584,
+   "gewonnen": 30,
+   "verloren": 1,
+   "netto": 29,
+   "gefeuert": 126
+  },
+  {
+   "T": 2.1740795544212204,
+   "gewonnen": 30,
+   "verloren": 1,
+   "netto": 29,
+   "gefeuert": 126
+  },
+  {
+   "T": 2.2003997013582146,
+   "gewonnen": 30,
+   "verloren": 1,
+   "netto": 29,
+   "gefeuert": 126
+  },
+  {
+   "T": 2.204774135495777,
+   "gewonnen": 30,
+   "verloren": 1,
+   "netto": 29,
+   "gefeuert": 126
+  },
+  {
+   "T": 2.2176503372995153,
+   "gewonnen": 30,
+   "verloren": 1,
+   "netto": 29,
+   "gefeuert": 126
+  },
+  {
+   "T": 2.232643592525292,
+   "gewonnen": 30,
+   "verloren": 1,
+   "netto": 29,
+   "gefeuert": 125
+  },
+  {
+   "T": 2.2339076119026156,
+   "gewonnen": 30,
+   "verloren": 1,
+   "netto": 29,
+   "gefeuert": 125
+  },
+  {
+   "T": 2.253729989535173,
+   "gewonnen": 30,
+   "verloren": 1,
+   "netto": 29,
+   "gefeuert": 125
+  },
+  {
+   "T": 2.258400298428793,
+   "gewonnen": 30,
+   "verloren": 1,
+   "netto": 29,
+   "gefeuert": 125
+  },
+  {
+   "T": 2.262160848060277,
+   "gewonnen": 30,
+   "verloren": 1,
+   "netto": 29,
+   "gefeuert": 125
+  },
+  {
+   "T": 2.2719529890012633,
+   "gewonnen": 30,
+   "verloren": 1,
+   "netto": 29,
+   "gefeuert": 125
+  },
+  {
+   "T": 2.275431696308407,
+   "gewonnen": 30,
+   "verloren": 1,
+   "netto": 29,
+   "gefeuert": 125
+  },
+  {
+   "T": 2.277140052816876,
+   "gewonnen": 30,
+   "verloren": 1,
+   "netto": 29,
+   "gefeuert": 125
+  },
+  {
+   "T": 2.2845964874960027,
+   "gewonnen": 30,
+   "verloren": 1,
+   "netto": 29,
+   "gefeuert": 125
+  },
+  {
+   "T": 2.2946666916733167,
+   "gewonnen": 30,
+   "verloren": 1,
+   "netto": 29,
+   "gefeuert": 125
+  },
+  {
+   "T": 2.3005349000394366,
+   "gewonnen": 30,
+   "verloren": 1,
+   "netto": 29,
+   "gefeuert": 125
+  },
+  {
+   "T": 2.3115393752268267,
+   "gewonnen": 30,
+   "verloren": 1,
+   "netto": 29,
+   "gefeuert": 124
+  },
+  {
+   "T": 2.3160498229575706,
+   "gewonnen": 30,
+   "verloren": 1,
+   "netto": 29,
+   "gefeuert": 124
+  },
+  {
+   "T": 2.317737100022879,
+   "gewonnen": 30,
+   "verloren": 1,
+   "netto": 29,
+   "gefeuert": 124
+  },
+  {
+   "T": 2.3282999473627326,
+   "gewonnen": 30,
+   "verloren": 1,
+   "netto": 29,
+   "gefeuert": 124
+  },
+  {
+   "T": 2.3450554587592674,
+   "gewonnen": 29,
+   "verloren": 1,
+   "netto": 28,
+   "gefeuert": 123
+  },
+  {
+   "T": 2.3465322781011624,
+   "gewonnen": 29,
+   "verloren": 1,
+   "netto": 28,
+   "gefeuert": 122
+  },
+  {
+   "T": 2.348682001493391,
+   "gewonnen": 29,
+   "verloren": 1,
+   "netto": 28,
+   "gefeuert": 122
+  },
+  {
+   "T": 2.3559073789381717,
+   "gewonnen": 29,
+   "verloren": 1,
+   "netto": 28,
+   "gefeuert": 121
+  },
+  {
+   "T": 2.359964326594112,
+   "gewonnen": 29,
+   "verloren": 1,
+   "netto": 28,
+   "gefeuert": 121
+  },
+  {
+   "T": 2.365068558902413,
+   "gewonnen": 28,
+   "verloren": 1,
+   "netto": 27,
+   "gefeuert": 120
+  },
+  {
+   "T": 2.3686581618185847,
+   "gewonnen": 27,
+   "verloren": 1,
+   "netto": 26,
+   "gefeuert": 119
+  },
+  {
+   "T": 2.382865648473334,
+   "gewonnen": 27,
+   "verloren": 1,
+   "netto": 26,
+   "gefeuert": 119
+  },
+  {
+   "T": 2.386650802973431,
+   "gewonnen": 27,
+   "verloren": 1,
+   "netto": 26,
+   "gefeuert": 119
+  },
+  {
+   "T": 2.3931740634469914,
+   "gewonnen": 27,
+   "verloren": 1,
+   "netto": 26,
+   "gefeuert": 119
+  },
+  {
+   "T": 2.394383565705294,
+   "gewonnen": 27,
+   "verloren": 1,
+   "netto": 26,
+   "gefeuert": 119
+  },
+  {
+   "T": 2.399928936643898,
+   "gewonnen": 27,
+   "verloren": 1,
+   "netto": 26,
+   "gefeuert": 119
+  },
+  {
+   "T": 2.4049562430530034,
+   "gewonnen": 27,
+   "verloren": 1,
+   "netto": 26,
+   "gefeuert": 119
+  },
+  {
+   "T": 2.4166900514497076,
+   "gewonnen": 27,
+   "verloren": 1,
+   "netto": 26,
+   "gefeuert": 119
+  },
+  {
+   "T": 2.4203202992162183,
+   "gewonnen": 27,
+   "verloren": 1,
+   "netto": 26,
+   "gefeuert": 119
+  },
+  {
+   "T": 2.4206810458441717,
+   "gewonnen": 27,
+   "verloren": 1,
+   "netto": 26,
+   "gefeuert": 119
+  },
+  {
+   "T": 2.4207469696303834,
+   "gewonnen": 27,
+   "verloren": 1,
+   "netto": 26,
+   "gefeuert": 119
+  },
+  {
+   "T": 2.4259226772114117,
+   "gewonnen": 27,
+   "verloren": 1,
+   "netto": 26,
+   "gefeuert": 119
+  },
+  {
+   "T": 2.4302290056937617,
+   "gewonnen": 27,
+   "verloren": 1,
+   "netto": 26,
+   "gefeuert": 119
+  },
+  {
+   "T": 2.4350124982345482,
+   "gewonnen": 27,
+   "verloren": 1,
+   "netto": 26,
+   "gefeuert": 119
+  },
+  {
+   "T": 2.4414726600726335,
+   "gewonnen": 26,
+   "verloren": 1,
+   "netto": 25,
+   "gefeuert": 118
+  },
+  {
+   "T": 2.4431031857641914,
+   "gewonnen": 26,
+   "verloren": 1,
+   "netto": 25,
+   "gefeuert": 118
+  },
+  {
+   "T": 2.4640578482583506,
+   "gewonnen": 26,
+   "verloren": 1,
+   "netto": 25,
+   "gefeuert": 118
+  },
+  {
+   "T": 2.466639876208599,
+   "gewonnen": 26,
+   "verloren": 1,
+   "netto": 25,
+   "gefeuert": 118
+  },
+  {
+   "T": 2.473566582774269,
+   "gewonnen": 26,
+   "verloren": 1,
+   "netto": 25,
+   "gefeuert": 118
+  },
+  {
+   "T": 2.480830307293593,
+   "gewonnen": 26,
+   "verloren": 1,
+   "netto": 25,
+   "gefeuert": 118
+  },
+  {
+   "T": 2.490485000842347,
+   "gewonnen": 26,
+   "verloren": 1,
+   "netto": 25,
+   "gefeuert": 117
+  },
+  {
+   "T": 2.5001189871922027,
+   "gewonnen": 26,
+   "verloren": 1,
+   "netto": 25,
+   "gefeuert": 117
+  },
+  {
+   "T": 2.50231859776367,
+   "gewonnen": 26,
+   "verloren": 1,
+   "netto": 25,
+   "gefeuert": 117
+  },
+  {
+   "T": 2.5050719870612843,
+   "gewonnen": 26,
+   "verloren": 1,
+   "netto": 25,
+   "gefeuert": 117
+  },
+  {
+   "T": 2.5075968343316823,
+   "gewonnen": 26,
+   "verloren": 1,
+   "netto": 25,
+   "gefeuert": 116
+  },
+  {
+   "T": 2.5219756394109125,
+   "gewonnen": 26,
+   "verloren": 1,
+   "netto": 25,
+   "gefeuert": 116
+  },
+  {
+   "T": 2.5235859668506584,
+   "gewonnen": 26,
+   "verloren": 1,
+   "netto": 25,
+   "gefeuert": 116
+  },
+  {
+   "T": 2.529225908575388,
+   "gewonnen": 26,
+   "verloren": 1,
+   "netto": 25,
+   "gefeuert": 116
+  },
+  {
+   "T": 2.5344397790555875,
+   "gewonnen": 26,
+   "verloren": 1,
+   "netto": 25,
+   "gefeuert": 116
+  },
+  {
+   "T": 2.5384202482775815,
+   "gewonnen": 26,
+   "verloren": 1,
+   "netto": 25,
+   "gefeuert": 116
+  },
+  {
+   "T": 2.5461632976805064,
+   "gewonnen": 26,
+   "verloren": 1,
+   "netto": 25,
+   "gefeuert": 116
+  },
+  {
+   "T": 2.552164228398625,
+   "gewonnen": 25,
+   "verloren": 1,
+   "netto": 24,
+   "gefeuert": 115
+  },
+  {
+   "T": 2.55851860868123,
+   "gewonnen": 25,
+   "verloren": 1,
+   "netto": 24,
+   "gefeuert": 115
+  },
+  {
+   "T": 2.559448227450736,
+   "gewonnen": 24,
+   "verloren": 1,
+   "netto": 23,
+   "gefeuert": 114
+  },
+  {
+   "T": 2.561351879597152,
+   "gewonnen": 24,
+   "verloren": 1,
+   "netto": 23,
+   "gefeuert": 114
+  },
+  {
+   "T": 2.562941683025769,
+   "gewonnen": 24,
+   "verloren": 1,
+   "netto": 23,
+   "gefeuert": 114
+  },
+  {
+   "T": 2.5689252934254534,
+   "gewonnen": 24,
+   "verloren": 1,
+   "netto": 23,
+   "gefeuert": 114
+  },
+  {
+   "T": 2.569598016261146,
+   "gewonnen": 24,
+   "verloren": 1,
+   "netto": 23,
+   "gefeuert": 114
+  },
+  {
+   "T": 2.5729975974969235,
+   "gewonnen": 24,
+   "verloren": 1,
+   "netto": 23,
+   "gefeuert": 114
+  },
+  {
+   "T": 2.5798326027364644,
+   "gewonnen": 24,
+   "verloren": 1,
+   "netto": 23,
+   "gefeuert": 114
+  },
+  {
+   "T": 2.580682783620973,
+   "gewonnen": 24,
+   "verloren": 1,
+   "netto": 23,
+   "gefeuert": 114
+  },
+  {
+   "T": 2.582480778579963,
+   "gewonnen": 24,
+   "verloren": 1,
+   "netto": 23,
+   "gefeuert": 114
+  },
+  {
+   "T": 2.583455207818742,
+   "gewonnen": 24,
+   "verloren": 1,
+   "netto": 23,
+   "gefeuert": 114
+  },
+  {
+   "T": 2.583563564042049,
+   "gewonnen": 24,
+   "verloren": 1,
+   "netto": 23,
+   "gefeuert": 114
+  },
+  {
+   "T": 2.586560930767557,
+   "gewonnen": 24,
+   "verloren": 1,
+   "netto": 23,
+   "gefeuert": 114
+  },
+  {
+   "T": 2.588341499702801,
+   "gewonnen": 24,
+   "verloren": 1,
+   "netto": 23,
+   "gefeuert": 114
+  },
+  {
+   "T": 2.6004790206128328,
+   "gewonnen": 24,
+   "verloren": 1,
+   "netto": 23,
+   "gefeuert": 114
+  },
+  {
+   "T": 2.616332455823582,
+   "gewonnen": 24,
+   "verloren": 1,
+   "netto": 23,
+   "gefeuert": 114
+  },
+  {
+   "T": 2.618900322013196,
+   "gewonnen": 23,
+   "verloren": 1,
+   "netto": 22,
+   "gefeuert": 113
+  },
+  {
+   "T": 2.621382985592174,
+   "gewonnen": 23,
+   "verloren": 1,
+   "netto": 22,
+   "gefeuert": 113
+  },
+  {
+   "T": 2.627703015731426,
+   "gewonnen": 23,
+   "verloren": 1,
+   "netto": 22,
+   "gefeuert": 113
+  },
+  {
+   "T": 2.6333479436142357,
+   "gewonnen": 23,
+   "verloren": 1,
+   "netto": 22,
+   "gefeuert": 112
+  },
+  {
+   "T": 2.645894319379907,
+   "gewonnen": 23,
+   "verloren": 1,
+   "netto": 22,
+   "gefeuert": 112
+  },
+  {
+   "T": 2.6565626459065235,
+   "gewonnen": 23,
+   "verloren": 1,
+   "netto": 22,
+   "gefeuert": 112
+  },
+  {
+   "T": 2.66623973743008,
+   "gewonnen": 23,
+   "verloren": 1,
+   "netto": 22,
+   "gefeuert": 112
+  },
+  {
+   "T": 2.6723584869733608,
+   "gewonnen": 23,
+   "verloren": 1,
+   "netto": 22,
+   "gefeuert": 112
+  },
+  {
+   "T": 2.6762577181405134,
+   "gewonnen": 23,
+   "verloren": 1,
+   "netto": 22,
+   "gefeuert": 111
+  },
+  {
+   "T": 2.676999208556282,
+   "gewonnen": 23,
+   "verloren": 1,
+   "netto": 22,
+   "gefeuert": 111
+  },
+  {
+   "T": 2.6823358896040363,
+   "gewonnen": 23,
+   "verloren": 1,
+   "netto": 22,
+   "gefeuert": 110
+  },
+  {
+   "T": 2.6957344453534002,
+   "gewonnen": 23,
+   "verloren": 1,
+   "netto": 22,
+   "gefeuert": 110
+  },
+  {
+   "T": 2.7116912746606037,
+   "gewonnen": 23,
+   "verloren": 1,
+   "netto": 22,
+   "gefeuert": 110
+  },
+  {
+   "T": 2.7195380431975136,
+   "gewonnen": 23,
+   "verloren": 1,
+   "netto": 22,
+   "gefeuert": 109
+  },
+  {
+   "T": 2.7328159664853784,
+   "gewonnen": 23,
+   "verloren": 1,
+   "netto": 22,
+   "gefeuert": 108
+  },
+  {
+   "T": 2.741151762143939,
+   "gewonnen": 23,
+   "verloren": 1,
+   "netto": 22,
+   "gefeuert": 107
+  },
+  {
+   "T": 2.7456071313395554,
+   "gewonnen": 23,
+   "verloren": 1,
+   "netto": 22,
+   "gefeuert": 107
+  },
+  {
+   "T": 2.7532752765002884,
+   "gewonnen": 23,
+   "verloren": 1,
+   "netto": 22,
+   "gefeuert": 107
+  },
+  {
+   "T": 2.7618101199293656,
+   "gewonnen": 23,
+   "verloren": 1,
+   "netto": 22,
+   "gefeuert": 107
+  },
+  {
+   "T": 2.76834815915346,
+   "gewonnen": 23,
+   "verloren": 1,
+   "netto": 22,
+   "gefeuert": 106
+  },
+  {
+   "T": 2.7896444738173503,
+   "gewonnen": 23,
+   "verloren": 1,
+   "netto": 22,
+   "gefeuert": 106
+  },
+  {
+   "T": 2.7898695568714067,
+   "gewonnen": 23,
+   "verloren": 1,
+   "netto": 22,
+   "gefeuert": 106
+  },
+  {
+   "T": 2.80161684023008,
+   "gewonnen": 23,
+   "verloren": 1,
+   "netto": 22,
+   "gefeuert": 106
+  },
+  {
+   "T": 2.806450521395082,
+   "gewonnen": 23,
+   "verloren": 1,
+   "netto": 22,
+   "gefeuert": 106
+  },
+  {
+   "T": 2.8226295459803787,
+   "gewonnen": 23,
+   "verloren": 1,
+   "netto": 22,
+   "gefeuert": 106
+  },
+  {
+   "T": 2.82282064216718,
+   "gewonnen": 22,
+   "verloren": 1,
+   "netto": 21,
+   "gefeuert": 105
+  },
+  {
+   "T": 2.82982350709343,
+   "gewonnen": 22,
+   "verloren": 1,
+   "netto": 21,
+   "gefeuert": 104
+  },
+  {
+   "T": 2.8461914330071596,
+   "gewonnen": 21,
+   "verloren": 1,
+   "netto": 20,
+   "gefeuert": 103
+  },
+  {
+   "T": 2.850167878142383,
+   "gewonnen": 21,
+   "verloren": 1,
+   "netto": 20,
+   "gefeuert": 103
+  },
+  {
+   "T": 2.8795912790133906,
+   "gewonnen": 21,
+   "verloren": 1,
+   "netto": 20,
+   "gefeuert": 103
+  },
+  {
+   "T": 2.8822550174009853,
+   "gewonnen": 21,
+   "verloren": 1,
+   "netto": 20,
+   "gefeuert": 103
+  },
+  {
+   "T": 2.8927602316379692,
+   "gewonnen": 21,
+   "verloren": 1,
+   "netto": 20,
+   "gefeuert": 103
+  },
+  {
+   "T": 2.8937622027354575,
+   "gewonnen": 21,
+   "verloren": 1,
+   "netto": 20,
+   "gefeuert": 103
+  },
+  {
+   "T": 2.902125216218272,
+   "gewonnen": 21,
+   "verloren": 1,
+   "netto": 20,
+   "gefeuert": 103
+  },
+  {
+   "T": 2.931484259605287,
+   "gewonnen": 21,
+   "verloren": 1,
+   "netto": 20,
+   "gefeuert": 103
+  },
+  {
+   "T": 2.937687552193232,
+   "gewonnen": 21,
+   "verloren": 1,
+   "netto": 20,
+   "gefeuert": 103
+  },
+  {
+   "T": 2.9483766255966755,
+   "gewonnen": 21,
+   "verloren": 1,
+   "netto": 20,
+   "gefeuert": 102
+  },
+  {
+   "T": 2.957829297118342,
+   "gewonnen": 21,
+   "verloren": 1,
+   "netto": 20,
+   "gefeuert": 102
+  },
+  {
+   "T": 2.9597502554905346,
+   "gewonnen": 21,
+   "verloren": 1,
+   "netto": 20,
+   "gefeuert": 102
+  },
+  {
+   "T": 2.964220805953043,
+   "gewonnen": 21,
+   "verloren": 1,
+   "netto": 20,
+   "gefeuert": 102
+  },
+  {
+   "T": 2.973976036939403,
+   "gewonnen": 21,
+   "verloren": 1,
+   "netto": 20,
+   "gefeuert": 101
+  },
+  {
+   "T": 2.980917316024333,
+   "gewonnen": 21,
+   "verloren": 1,
+   "netto": 20,
+   "gefeuert": 101
+  },
+  {
+   "T": 2.9854384131257956,
+   "gewonnen": 21,
+   "verloren": 1,
+   "netto": 20,
+   "gefeuert": 101
+  },
+  {
+   "T": 2.991074676435646,
+   "gewonnen": 21,
+   "verloren": 1,
+   "netto": 20,
+   "gefeuert": 100
+  },
+  {
+   "T": 2.998874048106761,
+   "gewonnen": 21,
+   "verloren": 1,
+   "netto": 20,
+   "gefeuert": 100
+  },
+  {
+   "T": 3.0006545347695885,
+   "gewonnen": 21,
+   "verloren": 1,
+   "netto": 20,
+   "gefeuert": 99
+  },
+  {
+   "T": 3.0048356646732803,
+   "gewonnen": 21,
+   "verloren": 1,
+   "netto": 20,
+   "gefeuert": 98
+  },
+  {
+   "T": 3.0106029190773955,
+   "gewonnen": 21,
+   "verloren": 1,
+   "netto": 20,
+   "gefeuert": 98
+  },
+  {
+   "T": 3.012337644552938,
+   "gewonnen": 21,
+   "verloren": 1,
+   "netto": 20,
+   "gefeuert": 98
+  },
+  {
+   "T": 3.01482603984377,
+   "gewonnen": 21,
+   "verloren": 1,
+   "netto": 20,
+   "gefeuert": 98
+  },
+  {
+   "T": 3.0183416356958266,
+   "gewonnen": 21,
+   "verloren": 1,
+   "netto": 20,
+   "gefeuert": 98
+  },
+  {
+   "T": 3.019649328463031,
+   "gewonnen": 21,
+   "verloren": 1,
+   "netto": 20,
+   "gefeuert": 98
+  },
+  {
+   "T": 3.0421120167105213,
+   "gewonnen": 21,
+   "verloren": 1,
+   "netto": 20,
+   "gefeuert": 97
+  },
+  {
+   "T": 3.0428927571393483,
+   "gewonnen": 21,
+   "verloren": 1,
+   "netto": 20,
+   "gefeuert": 97
+  },
+  {
+   "T": 3.0440870397478696,
+   "gewonnen": 21,
+   "verloren": 1,
+   "netto": 20,
+   "gefeuert": 97
+  },
+  {
+   "T": 3.0530265048921548,
+   "gewonnen": 21,
+   "verloren": 1,
+   "netto": 20,
+   "gefeuert": 97
+  },
+  {
+   "T": 3.066416028866512,
+   "gewonnen": 21,
+   "verloren": 1,
+   "netto": 20,
+   "gefeuert": 96
+  },
+  {
+   "T": 3.0667362052464138,
+   "gewonnen": 21,
+   "verloren": 1,
+   "netto": 20,
+   "gefeuert": 96
+  },
+  {
+   "T": 3.068096353173242,
+   "gewonnen": 21,
+   "verloren": 1,
+   "netto": 20,
+   "gefeuert": 95
+  },
+  {
+   "T": 3.070113819361831,
+   "gewonnen": 21,
+   "verloren": 1,
+   "netto": 20,
+   "gefeuert": 95
+  },
+  {
+   "T": 3.080297114554165,
+   "gewonnen": 21,
+   "verloren": 1,
+   "netto": 20,
+   "gefeuert": 94
+  },
+  {
+   "T": 3.0832053172745963,
+   "gewonnen": 21,
+   "verloren": 1,
+   "netto": 20,
+   "gefeuert": 93
+  },
+  {
+   "T": 3.0862787525988167,
+   "gewonnen": 21,
+   "verloren": 1,
+   "netto": 20,
+   "gefeuert": 92
+  },
+  {
+   "T": 3.0903505726038283,
+   "gewonnen": 21,
+   "verloren": 1,
+   "netto": 20,
+   "gefeuert": 91
+  },
+  {
+   "T": 3.0906164986821545,
+   "gewonnen": 21,
+   "verloren": 1,
+   "netto": 20,
+   "gefeuert": 90
+  },
+  {
+   "T": 3.0967501770035186,
+   "gewonnen": 21,
+   "verloren": 1,
+   "netto": 20,
+   "gefeuert": 89
+  },
+  {
+   "T": 3.100455891552935,
+   "gewonnen": 21,
+   "verloren": 1,
+   "netto": 20,
+   "gefeuert": 88
+  },
+  {
+   "T": 3.1012423304342214,
+   "gewonnen": 21,
+   "verloren": 1,
+   "netto": 20,
+   "gefeuert": 88
+  },
+  {
+   "T": 3.120915088351269,
+   "gewonnen": 21,
+   "verloren": 1,
+   "netto": 20,
+   "gefeuert": 87
+  },
+  {
+   "T": 3.129964004678266,
+   "gewonnen": 21,
+   "verloren": 1,
+   "netto": 20,
+   "gefeuert": 86
+  },
+  {
+   "T": 3.132765847795187,
+   "gewonnen": 21,
+   "verloren": 1,
+   "netto": 20,
+   "gefeuert": 86
+  },
+  {
+   "T": 3.1390506897191175,
+   "gewonnen": 21,
+   "verloren": 1,
+   "netto": 20,
+   "gefeuert": 86
+  },
+  {
+   "T": 3.1411321655218645,
+   "gewonnen": 21,
+   "verloren": 1,
+   "netto": 20,
+   "gefeuert": 85
+  },
+  {
+   "T": 3.142815056875048,
+   "gewonnen": 21,
+   "verloren": 1,
+   "netto": 20,
+   "gefeuert": 85
+  },
+  {
+   "T": 3.1599088984885078,
+   "gewonnen": 20,
+   "verloren": 1,
+   "netto": 19,
+   "gefeuert": 84
+  },
+  {
+   "T": 3.170933687692147,
+   "gewonnen": 20,
+   "verloren": 1,
+   "netto": 19,
+   "gefeuert": 84
+  },
+  {
+   "T": 3.1867824932960955,
+   "gewonnen": 19,
+   "verloren": 1,
+   "netto": 18,
+   "gefeuert": 83
+  },
+  {
+   "T": 3.1922522767062027,
+   "gewonnen": 19,
+   "verloren": 1,
+   "netto": 18,
+   "gefeuert": 83
+  },
+  {
+   "T": 3.1953048684159584,
+   "gewonnen": 19,
+   "verloren": 1,
+   "netto": 18,
+   "gefeuert": 82
+  },
+  {
+   "T": 3.1964633665439206,
+   "gewonnen": 19,
+   "verloren": 1,
+   "netto": 18,
+   "gefeuert": 81
+  },
+  {
+   "T": 3.1997902615876472,
+   "gewonnen": 19,
+   "verloren": 1,
+   "netto": 18,
+   "gefeuert": 81
+  },
+  {
+   "T": 3.204348340881805,
+   "gewonnen": 18,
+   "verloren": 1,
+   "netto": 17,
+   "gefeuert": 80
+  },
+  {
+   "T": 3.2080194747154436,
+   "gewonnen": 18,
+   "verloren": 1,
+   "netto": 17,
+   "gefeuert": 79
+  },
+  {
+   "T": 3.2103300182468213,
+   "gewonnen": 18,
+   "verloren": 1,
+   "netto": 17,
+   "gefeuert": 79
+  },
+  {
+   "T": 3.2172257616651008,
+   "gewonnen": 18,
+   "verloren": 1,
+   "netto": 17,
+   "gefeuert": 78
+  },
+  {
+   "T": 3.2189807796906695,
+   "gewonnen": 18,
+   "verloren": 1,
+   "netto": 17,
+   "gefeuert": 78
+  },
+  {
+   "T": 3.22208458991876,
+   "gewonnen": 18,
+   "verloren": 1,
+   "netto": 17,
+   "gefeuert": 77
+  },
+  {
+   "T": 3.22899357895421,
+   "gewonnen": 18,
+   "verloren": 1,
+   "netto": 17,
+   "gefeuert": 77
+  },
+  {
+   "T": 3.230007758457776,
+   "gewonnen": 18,
+   "verloren": 1,
+   "netto": 17,
+   "gefeuert": 77
+  },
+  {
+   "T": 3.23305461637288,
+   "gewonnen": 18,
+   "verloren": 1,
+   "netto": 17,
+   "gefeuert": 76
+  },
+  {
+   "T": 3.2427886295885817,
+   "gewonnen": 18,
+   "verloren": 1,
+   "netto": 17,
+   "gefeuert": 75
+  },
+  {
+   "T": 3.2428601674026405,
+   "gewonnen": 18,
+   "verloren": 1,
+   "netto": 17,
+   "gefeuert": 75
+  },
+  {
+   "T": 3.247565266449883,
+   "gewonnen": 18,
+   "verloren": 1,
+   "netto": 17,
+   "gefeuert": 74
+  },
+  {
+   "T": 3.2534290936340957,
+   "gewonnen": 18,
+   "verloren": 1,
+   "netto": 17,
+   "gefeuert": 74
+  },
+  {
+   "T": 3.2625492038101225,
+   "gewonnen": 18,
+   "verloren": 1,
+   "netto": 17,
+   "gefeuert": 74
+  },
+  {
+   "T": 3.265095543173836,
+   "gewonnen": 18,
+   "verloren": 1,
+   "netto": 17,
+   "gefeuert": 74
+  },
+  {
+   "T": 3.2672021312913913,
+   "gewonnen": 18,
+   "verloren": 1,
+   "netto": 17,
+   "gefeuert": 74
+  },
+  {
+   "T": 3.2682259340453634,
+   "gewonnen": 18,
+   "verloren": 1,
+   "netto": 17,
+   "gefeuert": 73
+  },
+  {
+   "T": 3.272093301291731,
+   "gewonnen": 18,
+   "verloren": 1,
+   "netto": 17,
+   "gefeuert": 72
+  },
+  {
+   "T": 3.280603710901504,
+   "gewonnen": 18,
+   "verloren": 1,
+   "netto": 17,
+   "gefeuert": 72
+  },
+  {
+   "T": 3.283542770281972,
+   "gewonnen": 18,
+   "verloren": 1,
+   "netto": 17,
+   "gefeuert": 71
+  },
+  {
+   "T": 3.2896705429744872,
+   "gewonnen": 18,
+   "verloren": 1,
+   "netto": 17,
+   "gefeuert": 71
+  },
+  {
+   "T": 3.2926206453958606,
+   "gewonnen": 17,
+   "verloren": 1,
+   "netto": 16,
+   "gefeuert": 70
+  },
+  {
+   "T": 3.3016112924096555,
+   "gewonnen": 17,
+   "verloren": 1,
+   "netto": 16,
+   "gefeuert": 69
+  },
+  {
+   "T": 3.3104434502428046,
+   "gewonnen": 17,
+   "verloren": 1,
+   "netto": 16,
+   "gefeuert": 69
+  },
+  {
+   "T": 3.3124254296539433,
+   "gewonnen": 17,
+   "verloren": 1,
+   "netto": 16,
+   "gefeuert": 69
+  },
+  {
+   "T": 3.318454848381122,
+   "gewonnen": 17,
+   "verloren": 1,
+   "netto": 16,
+   "gefeuert": 69
+  },
+  {
+   "T": 3.335197163110738,
+   "gewonnen": 17,
+   "verloren": 1,
+   "netto": 16,
+   "gefeuert": 69
+  },
+  {
+   "T": 3.350966207862703,
+   "gewonnen": 17,
+   "verloren": 1,
+   "netto": 16,
+   "gefeuert": 68
+  },
+  {
+   "T": 3.3570120283578264,
+   "gewonnen": 17,
+   "verloren": 1,
+   "netto": 16,
+   "gefeuert": 68
+  },
+  {
+   "T": 3.3571021612377683,
+   "gewonnen": 17,
+   "verloren": 1,
+   "netto": 16,
+   "gefeuert": 67
+  },
+  {
+   "T": 3.37774928330066,
+   "gewonnen": 17,
+   "verloren": 1,
+   "netto": 16,
+   "gefeuert": 67
+  },
+  {
+   "T": 3.387386537762626,
+   "gewonnen": 17,
+   "verloren": 1,
+   "netto": 16,
+   "gefeuert": 67
+  },
+  {
+   "T": 3.4081043659016688,
+   "gewonnen": 16,
+   "verloren": 1,
+   "netto": 15,
+   "gefeuert": 66
+  },
+  {
+   "T": 3.4090921583534484,
+   "gewonnen": 16,
+   "verloren": 1,
+   "netto": 15,
+   "gefeuert": 66
+  },
+  {
+   "T": 3.414630046415371,
+   "gewonnen": 16,
+   "verloren": 1,
+   "netto": 15,
+   "gefeuert": 66
+  },
+  {
+   "T": 3.4424691745325675,
+   "gewonnen": 16,
+   "verloren": 1,
+   "netto": 15,
+   "gefeuert": 66
+  },
+  {
+   "T": 3.4577778004694766,
+   "gewonnen": 16,
+   "verloren": 1,
+   "netto": 15,
+   "gefeuert": 66
+  },
+  {
+   "T": 3.4624160109793896,
+   "gewonnen": 15,
+   "verloren": 1,
+   "netto": 14,
+   "gefeuert": 65
+  },
+  {
+   "T": 3.4628411260331236,
+   "gewonnen": 15,
+   "verloren": 1,
+   "netto": 14,
+   "gefeuert": 65
+  },
+  {
+   "T": 3.4806281757033974,
+   "gewonnen": 15,
+   "verloren": 1,
+   "netto": 14,
+   "gefeuert": 64
+  },
+  {
+   "T": 3.4873241182760917,
+   "gewonnen": 15,
+   "verloren": 1,
+   "netto": 14,
+   "gefeuert": 64
+  },
+  {
+   "T": 3.4953130654536224,
+   "gewonnen": 15,
+   "verloren": 0,
+   "netto": 15,
+   "gefeuert": 64
+  },
+  {
+   "T": 3.501620548921039,
+   "gewonnen": 15,
+   "verloren": 0,
+   "netto": 15,
+   "gefeuert": 63
+  },
+  {
+   "T": 3.5041519574017803,
+   "gewonnen": 15,
+   "verloren": 0,
+   "netto": 15,
+   "gefeuert": 63
+  },
+  {
+   "T": 3.512236975668777,
+   "gewonnen": 15,
+   "verloren": 0,
+   "netto": 15,
+   "gefeuert": 63
+  },
+  {
+   "T": 3.522969504262225,
+   "gewonnen": 15,
+   "verloren": 0,
+   "netto": 15,
+   "gefeuert": 63
+  },
+  {
+   "T": 3.5243291545582935,
+   "gewonnen": 15,
+   "verloren": 0,
+   "netto": 15,
+   "gefeuert": 63
+  },
+  {
+   "T": 3.5280367080196577,
+   "gewonnen": 15,
+   "verloren": 0,
+   "netto": 15,
+   "gefeuert": 63
+  },
+  {
+   "T": 3.5291784536738877,
+   "gewonnen": 15,
+   "verloren": 0,
+   "netto": 15,
+   "gefeuert": 63
+  },
+  {
+   "T": 3.5524654622466922,
+   "gewonnen": 15,
+   "verloren": 0,
+   "netto": 15,
+   "gefeuert": 63
+  },
+  {
+   "T": 3.5553130291218227,
+   "gewonnen": 15,
+   "verloren": 0,
+   "netto": 15,
+   "gefeuert": 62
+  },
+  {
+   "T": 3.5644392845441355,
+   "gewonnen": 15,
+   "verloren": 0,
+   "netto": 15,
+   "gefeuert": 62
+  },
+  {
+   "T": 3.5691604686660288,
+   "gewonnen": 15,
+   "verloren": 0,
+   "netto": 15,
+   "gefeuert": 61
+  },
+  {
+   "T": 3.5701617134366477,
+   "gewonnen": 15,
+   "verloren": 0,
+   "netto": 15,
+   "gefeuert": 60
+  },
+  {
+   "T": 3.5707491772187563,
+   "gewonnen": 14,
+   "verloren": 0,
+   "netto": 14,
+   "gefeuert": 59
+  },
+  {
+   "T": 3.5862633853191372,
+   "gewonnen": 14,
+   "verloren": 0,
+   "netto": 14,
+   "gefeuert": 59
+  },
+  {
+   "T": 3.58637087723709,
+   "gewonnen": 14,
+   "verloren": 0,
+   "netto": 14,
+   "gefeuert": 58
+  },
+  {
+   "T": 3.593941042324615,
+   "gewonnen": 14,
+   "verloren": 0,
+   "netto": 14,
+   "gefeuert": 58
+  },
+  {
+   "T": 3.621327078623915,
+   "gewonnen": 14,
+   "verloren": 0,
+   "netto": 14,
+   "gefeuert": 58
+  },
+  {
+   "T": 3.6232180789936796,
+   "gewonnen": 14,
+   "verloren": 0,
+   "netto": 14,
+   "gefeuert": 58
+  },
+  {
+   "T": 3.6295616047099264,
+   "gewonnen": 14,
+   "verloren": 0,
+   "netto": 14,
+   "gefeuert": 58
+  },
+  {
+   "T": 3.6358697365609967,
+   "gewonnen": 14,
+   "verloren": 0,
+   "netto": 14,
+   "gefeuert": 58
+  },
+  {
+   "T": 3.6419044855051568,
+   "gewonnen": 14,
+   "verloren": 0,
+   "netto": 14,
+   "gefeuert": 57
+  },
+  {
+   "T": 3.6453671226911384,
+   "gewonnen": 14,
+   "verloren": 0,
+   "netto": 14,
+   "gefeuert": 57
+  },
+  {
+   "T": 3.6524005858054944,
+   "gewonnen": 14,
+   "verloren": 0,
+   "netto": 14,
+   "gefeuert": 56
+  },
+  {
+   "T": 3.6592722628152954,
+   "gewonnen": 14,
+   "verloren": 0,
+   "netto": 14,
+   "gefeuert": 55
+  },
+  {
+   "T": 3.661733165647409,
+   "gewonnen": 14,
+   "verloren": 0,
+   "netto": 14,
+   "gefeuert": 55
+  },
+  {
+   "T": 3.6672230142293207,
+   "gewonnen": 13,
+   "verloren": 0,
+   "netto": 13,
+   "gefeuert": 54
+  },
+  {
+   "T": 3.6729984954419628,
+   "gewonnen": 13,
+   "verloren": 0,
+   "netto": 13,
+   "gefeuert": 54
+  },
+  {
+   "T": 3.6772926751724353,
+   "gewonnen": 13,
+   "verloren": 0,
+   "netto": 13,
+   "gefeuert": 54
+  },
+  {
+   "T": 3.6822123272106606,
+   "gewonnen": 13,
+   "verloren": 0,
+   "netto": 13,
+   "gefeuert": 53
+  },
+  {
+   "T": 3.684763724390702,
+   "gewonnen": 12,
+   "verloren": 0,
+   "netto": 12,
+   "gefeuert": 52
+  },
+  {
+   "T": 3.6896823385566506,
+   "gewonnen": 12,
+   "verloren": 0,
+   "netto": 12,
+   "gefeuert": 52
+  },
+  {
+   "T": 3.699780580808801,
+   "gewonnen": 12,
+   "verloren": 0,
+   "netto": 12,
+   "gefeuert": 52
+  },
+  {
+   "T": 3.7150482266869456,
+   "gewonnen": 12,
+   "verloren": 0,
+   "netto": 12,
+   "gefeuert": 51
+  },
+  {
+   "T": 3.715069698883521,
+   "gewonnen": 12,
+   "verloren": 0,
+   "netto": 12,
+   "gefeuert": 51
+  },
+  {
+   "T": 3.715245917989322,
+   "gewonnen": 12,
+   "verloren": 0,
+   "netto": 12,
+   "gefeuert": 51
+  },
+  {
+   "T": 3.733728649870224,
+   "gewonnen": 12,
+   "verloren": 0,
+   "netto": 12,
+   "gefeuert": 51
+  },
+  {
+   "T": 3.7355839117651177,
+   "gewonnen": 12,
+   "verloren": 0,
+   "netto": 12,
+   "gefeuert": 50
+  },
+  {
+   "T": 3.7426471982558285,
+   "gewonnen": 12,
+   "verloren": 0,
+   "netto": 12,
+   "gefeuert": 50
+  },
+  {
+   "T": 3.7479931043041868,
+   "gewonnen": 12,
+   "verloren": 0,
+   "netto": 12,
+   "gefeuert": 49
+  },
+  {
+   "T": 3.753762375005298,
+   "gewonnen": 12,
+   "verloren": 0,
+   "netto": 12,
+   "gefeuert": 48
+  },
+  {
+   "T": 3.7676219195461025,
+   "gewonnen": 12,
+   "verloren": 0,
+   "netto": 12,
+   "gefeuert": 47
+  },
+  {
+   "T": 3.767809384360866,
+   "gewonnen": 12,
+   "verloren": 0,
+   "netto": 12,
+   "gefeuert": 47
+  },
+  {
+   "T": 3.7695293950130457,
+   "gewonnen": 12,
+   "verloren": 0,
+   "netto": 12,
+   "gefeuert": 46
+  },
+  {
+   "T": 3.7774299275615846,
+   "gewonnen": 12,
+   "verloren": 0,
+   "netto": 12,
+   "gefeuert": 45
+  },
+  {
+   "T": 3.796399761020477,
+   "gewonnen": 12,
+   "verloren": 0,
+   "netto": 12,
+   "gefeuert": 44
+  },
+  {
+   "T": 3.814516027033604,
+   "gewonnen": 12,
+   "verloren": 0,
+   "netto": 12,
+   "gefeuert": 44
+  },
+  {
+   "T": 3.8177189423306492,
+   "gewonnen": 12,
+   "verloren": 0,
+   "netto": 12,
+   "gefeuert": 43
+  },
+  {
+   "T": 3.8511379374672146,
+   "gewonnen": 12,
+   "verloren": 0,
+   "netto": 12,
+   "gefeuert": 43
+  },
+  {
+   "T": 3.853175983985065,
+   "gewonnen": 12,
+   "verloren": 0,
+   "netto": 12,
+   "gefeuert": 42
+  },
+  {
+   "T": 3.855578331727071,
+   "gewonnen": 12,
+   "verloren": 0,
+   "netto": 12,
+   "gefeuert": 42
+  },
+  {
+   "T": 3.8845033612244007,
+   "gewonnen": 12,
+   "verloren": 0,
+   "netto": 12,
+   "gefeuert": 41
+  },
+  {
+   "T": 3.8947410815174717,
+   "gewonnen": 12,
+   "verloren": 0,
+   "netto": 12,
+   "gefeuert": 41
+  },
+  {
+   "T": 3.9004359398009787,
+   "gewonnen": 12,
+   "verloren": 0,
+   "netto": 12,
+   "gefeuert": 41
+  },
+  {
+   "T": 3.9018789797151747,
+   "gewonnen": 12,
+   "verloren": 0,
+   "netto": 12,
+   "gefeuert": 41
+  },
+  {
+   "T": 3.916388300624525,
+   "gewonnen": 12,
+   "verloren": 0,
+   "netto": 12,
+   "gefeuert": 40
+  },
+  {
+   "T": 3.9187031891668243,
+   "gewonnen": 11,
+   "verloren": 0,
+   "netto": 11,
+   "gefeuert": 39
+  },
+  {
+   "T": 3.9245228593599064,
+   "gewonnen": 11,
+   "verloren": 0,
+   "netto": 11,
+   "gefeuert": 38
+  },
+  {
+   "T": 3.930204812970862,
+   "gewonnen": 11,
+   "verloren": 0,
+   "netto": 11,
+   "gefeuert": 38
+  },
+  {
+   "T": 3.9355505127811123,
+   "gewonnen": 11,
+   "verloren": 0,
+   "netto": 11,
+   "gefeuert": 37
+  },
+  {
+   "T": 3.9699901489696647,
+   "gewonnen": 11,
+   "verloren": 0,
+   "netto": 11,
+   "gefeuert": 37
+  },
+  {
+   "T": 3.9800562310023357,
+   "gewonnen": 11,
+   "verloren": 0,
+   "netto": 11,
+   "gefeuert": 37
+  },
+  {
+   "T": 3.998523259070589,
+   "gewonnen": 11,
+   "verloren": 0,
+   "netto": 11,
+   "gefeuert": 36
+  },
+  {
+   "T": 4.003364053562793,
+   "gewonnen": 11,
+   "verloren": 0,
+   "netto": 11,
+   "gefeuert": 36
+  },
+  {
+   "T": 4.01993945459684,
+   "gewonnen": 11,
+   "verloren": 0,
+   "netto": 11,
+   "gefeuert": 36
+  },
+  {
+   "T": 4.029595981986636,
+   "gewonnen": 11,
+   "verloren": 0,
+   "netto": 11,
+   "gefeuert": 36
+  },
+  {
+   "T": 4.054832698248148,
+   "gewonnen": 11,
+   "verloren": 0,
+   "netto": 11,
+   "gefeuert": 35
+  },
+  {
+   "T": 4.064402538538513,
+   "gewonnen": 11,
+   "verloren": 0,
+   "netto": 11,
+   "gefeuert": 34
+  },
+  {
+   "T": 4.066570857658956,
+   "gewonnen": 11,
+   "verloren": 0,
+   "netto": 11,
+   "gefeuert": 34
+  },
+  {
+   "T": 4.086765944822508,
+   "gewonnen": 11,
+   "verloren": 0,
+   "netto": 11,
+   "gefeuert": 33
+  },
+  {
+   "T": 4.08790849446915,
+   "gewonnen": 11,
+   "verloren": 0,
+   "netto": 11,
+   "gefeuert": 33
+  },
+  {
+   "T": 4.097872885887401,
+   "gewonnen": 11,
+   "verloren": 0,
+   "netto": 11,
+   "gefeuert": 33
+  },
+  {
+   "T": 4.121947258863376,
+   "gewonnen": 11,
+   "verloren": 0,
+   "netto": 11,
+   "gefeuert": 32
+  },
+  {
+   "T": 4.125727852397624,
+   "gewonnen": 11,
+   "verloren": 0,
+   "netto": 11,
+   "gefeuert": 31
+  },
+  {
+   "T": 4.149533800362347,
+   "gewonnen": 11,
+   "verloren": 0,
+   "netto": 11,
+   "gefeuert": 30
+  },
+  {
+   "T": 4.165982113323796,
+   "gewonnen": 11,
+   "verloren": 0,
+   "netto": 11,
+   "gefeuert": 29
+  },
+  {
+   "T": 4.1824245328161815,
+   "gewonnen": 11,
+   "verloren": 0,
+   "netto": 11,
+   "gefeuert": 28
+  },
+  {
+   "T": 4.191189962526324,
+   "gewonnen": 11,
+   "verloren": 0,
+   "netto": 11,
+   "gefeuert": 28
+  },
+  {
+   "T": 4.243285805379703,
+   "gewonnen": 10,
+   "verloren": 0,
+   "netto": 10,
+   "gefeuert": 27
+  },
+  {
+   "T": 4.2810157692518525,
+   "gewonnen": 10,
+   "verloren": 0,
+   "netto": 10,
+   "gefeuert": 27
+  },
+  {
+   "T": 4.301597183071739,
+   "gewonnen": 10,
+   "verloren": 0,
+   "netto": 10,
+   "gefeuert": 26
+  },
+  {
+   "T": 4.318641709871814,
+   "gewonnen": 9,
+   "verloren": 0,
+   "netto": 9,
+   "gefeuert": 25
+  },
+  {
+   "T": 4.320206986870952,
+   "gewonnen": 9,
+   "verloren": 0,
+   "netto": 9,
+   "gefeuert": 24
+  },
+  {
+   "T": 4.350301325008605,
+   "gewonnen": 9,
+   "verloren": 0,
+   "netto": 9,
+   "gefeuert": 24
+  },
+  {
+   "T": 4.3592690617907675,
+   "gewonnen": 8,
+   "verloren": 0,
+   "netto": 8,
+   "gefeuert": 23
+  },
+  {
+   "T": 4.377136757278093,
+   "gewonnen": 7,
+   "verloren": 0,
+   "netto": 7,
+   "gefeuert": 22
+  },
+  {
+   "T": 4.404561933003327,
+   "gewonnen": 7,
+   "verloren": 0,
+   "netto": 7,
+   "gefeuert": 21
+  },
+  {
+   "T": 4.405915566436855,
+   "gewonnen": 7,
+   "verloren": 0,
+   "netto": 7,
+   "gefeuert": 21
+  },
+  {
+   "T": 4.410695304587486,
+   "gewonnen": 7,
+   "verloren": 0,
+   "netto": 7,
+   "gefeuert": 21
+  },
+  {
+   "T": 4.418715313912723,
+   "gewonnen": 7,
+   "verloren": 0,
+   "netto": 7,
+   "gefeuert": 21
+  },
+  {
+   "T": 4.434447333529631,
+   "gewonnen": 6,
+   "verloren": 0,
+   "netto": 6,
+   "gefeuert": 20
+  },
+  {
+   "T": 4.455539626493433,
+   "gewonnen": 6,
+   "verloren": 0,
+   "netto": 6,
+   "gefeuert": 20
+  },
+  {
+   "T": 4.474653493139066,
+   "gewonnen": 6,
+   "verloren": 0,
+   "netto": 6,
+   "gefeuert": 20
+  },
+  {
+   "T": 4.518568345808127,
+   "gewonnen": 6,
+   "verloren": 0,
+   "netto": 6,
+   "gefeuert": 20
+  },
+  {
+   "T": 4.526170324787421,
+   "gewonnen": 6,
+   "verloren": 0,
+   "netto": 6,
+   "gefeuert": 20
+  },
+  {
+   "T": 4.526635438038436,
+   "gewonnen": 6,
+   "verloren": 0,
+   "netto": 6,
+   "gefeuert": 20
+  },
+  {
+   "T": 4.611201052556009,
+   "gewonnen": 6,
+   "verloren": 0,
+   "netto": 6,
+   "gefeuert": 19
+  },
+  {
+   "T": 4.625906704754297,
+   "gewonnen": 6,
+   "verloren": 0,
+   "netto": 6,
+   "gefeuert": 19
+  },
+  {
+   "T": 4.691156083540864,
+   "gewonnen": 6,
+   "verloren": 0,
+   "netto": 6,
+   "gefeuert": 18
+  },
+  {
+   "T": 4.731182409796987,
+   "gewonnen": 5,
+   "verloren": 0,
+   "netto": 5,
+   "gefeuert": 17
+  },
+  {
+   "T": 4.732825245746347,
+   "gewonnen": 5,
+   "verloren": 0,
+   "netto": 5,
+   "gefeuert": 16
+  },
+  {
+   "T": 4.841137434632952,
+   "gewonnen": 4,
+   "verloren": 0,
+   "netto": 4,
+   "gefeuert": 15
+  },
+  {
+   "T": 4.879837042436398,
+   "gewonnen": 3,
+   "verloren": 0,
+   "netto": 3,
+   "gefeuert": 14
+  },
+  {
+   "T": 4.9136453544483345,
+   "gewonnen": 3,
+   "verloren": 0,
+   "netto": 3,
+   "gefeuert": 14
+  },
+  {
+   "T": 4.913826499210739,
+   "gewonnen": 3,
+   "verloren": 0,
+   "netto": 3,
+   "gefeuert": 14
+  },
+  {
+   "T": 4.944712531994314,
+   "gewonnen": 3,
+   "verloren": 0,
+   "netto": 3,
+   "gefeuert": 13
+  },
+  {
+   "T": 4.994290757410001,
+   "gewonnen": 3,
+   "verloren": 0,
+   "netto": 3,
+   "gefeuert": 13
+  },
+  {
+   "T": 5.043097635469926,
+   "gewonnen": 3,
+   "verloren": 0,
+   "netto": 3,
+   "gefeuert": 12
+  },
+  {
+   "T": 5.051628935458691,
+   "gewonnen": 2,
+   "verloren": 0,
+   "netto": 2,
+   "gefeuert": 11
+  },
+  {
+   "T": 5.0775030130778,
+   "gewonnen": 2,
+   "verloren": 0,
+   "netto": 2,
+   "gefeuert": 11
+  },
+  {
+   "T": 5.140518332844065,
+   "gewonnen": 2,
+   "verloren": 0,
+   "netto": 2,
+   "gefeuert": 10
+  },
+  {
+   "T": 5.143660927585751,
+   "gewonnen": 2,
+   "verloren": 0,
+   "netto": 2,
+   "gefeuert": 9
+  },
+  {
+   "T": 5.330013543499201,
+   "gewonnen": 2,
+   "verloren": 0,
+   "netto": 2,
+   "gefeuert": 9
+  },
+  {
+   "T": 5.331610195275745,
+   "gewonnen": 2,
+   "verloren": 0,
+   "netto": 2,
+   "gefeuert": 8
+  },
+  {
+   "T": 5.410003077780113,
+   "gewonnen": 2,
+   "verloren": 0,
+   "netto": 2,
+   "gefeuert": 8
+  },
+  {
+   "T": 5.4494524430846845,
+   "gewonnen": 2,
+   "verloren": 0,
+   "netto": 2,
+   "gefeuert": 7
+  },
+  {
+   "T": 5.4735024005809745,
+   "gewonnen": 2,
+   "verloren": 0,
+   "netto": 2,
+   "gefeuert": 6
+  },
+  {
+   "T": 5.629682138747096,
+   "gewonnen": 2,
+   "verloren": 0,
+   "netto": 2,
+   "gefeuert": 6
+  },
+  {
+   "T": 5.718185643274364,
+   "gewonnen": 2,
+   "verloren": 0,
+   "netto": 2,
+   "gefeuert": 5
+  },
+  {
+   "T": 5.740632475379446,
+   "gewonnen": 2,
+   "verloren": 0,
+   "netto": 2,
+   "gefeuert": 4
+  },
+  {
+   "T": 5.750822171782433,
+   "gewonnen": 2,
+   "verloren": 0,
+   "netto": 2,
+   "gefeuert": 4
+  },
+  {
+   "T": 5.97658352168769,
+   "gewonnen": 2,
+   "verloren": 0,
+   "netto": 2,
+   "gefeuert": 3
+  },
+  {
+   "T": 5.986238262849033,
+   "gewonnen": 2,
+   "verloren": 0,
+   "netto": 2,
+   "gefeuert": 3
+  },
+  {
+   "T": 5.987774725979465,
+   "gewonnen": 2,
+   "verloren": 0,
+   "netto": 2,
+   "gefeuert": 2
+  },
+  {
+   "T": 6.262544186932384,
+   "gewonnen": 1,
+   "verloren": 0,
+   "netto": 1,
+   "gefeuert": 1
+  },
+  {
+   "T": Infinity,
+   "gewonnen": 0,
+   "verloren": 0,
+   "netto": 0,
+   "gefeuert": 0
+  }
+ ]
+}

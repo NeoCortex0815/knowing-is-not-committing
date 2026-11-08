@@ -1,0 +1,67 @@
+{
+ "kennzahlen": {
+  "e12": {
+   "richtig": 15,
+   "flur": 15,
+   "nie_zu": 31,
+   "abgegeben": 15,
+   "tokens": 11145,
+   "zu_zeichen_median": 15947
+  },
+  "m12": {
+   "richtig": 20,
+   "flur": 1,
+   "nie_zu": 38,
+   "abgegeben": 21,
+   "tokens": 10498,
+   "zu_zeichen_median": 18037
+  },
+  "e32": {
+   "richtig": 32,
+   "flur": 12,
+   "nie_zu": 6,
+   "abgegeben": 42,
+   "tokens": 21064,
+   "zu_zeichen_median": 26755
+  },
+  "m32": {
+   "richtig": 31,
+   "flur": 5,
+   "nie_zu": 23,
+   "abgegeben": 32,
+   "tokens": 21374,
+   "zu_zeichen_median": 26951
+  }
+ },
+ "vergleiche": {
+  "ERGORE 32k gegen MIT 32k": {
+   "a": 32,
+   "b": 31,
+   "nur_a": 5,
+   "nur_b": 4,
+   "p": 1.0
+  },
+  "ERGORE 12k gegen MIT 12k": {
+   "a": 15,
+   "b": 20,
+   "nur_a": 2,
+   "nur_b": 7,
+   "p": 0.1796875
+  },
+  "ERGORE 32k gegen ERGORE 12k": {
+   "a": 32,
+   "b": 15,
+   "nur_a": 17,
+   "nur_b": 0,
+   "p": 1.52587890625e-05
+  },
+  "MIT 32k gegen MIT 12k": {
+   "a": 31,
+   "b": 20,
+   "nur_a": 13,
+   "nur_b": 2,
+   "p": 0.00738525390625
+  }
+ },
+ "budget_artefakt": false
+}

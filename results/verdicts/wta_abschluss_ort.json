@@ -1,0 +1,18 @@
+{
+ "WT-A": {
+  "geschlossen": 46,
+  "nach_richtigem_wert": 25,
+  "nach_falschem_wert": 21,
+  "ohne_wert": 0,
+  "lauf_richtig_nach_richtigem_wert": 23,
+  "lauf_richtig_nach_falschem_wert": 8
+ },
+ "eigen": {
+  "geschlossen": 36,
+  "nach_richtigem_wert": 15,
+  "nach_falschem_wert": 20,
+  "ohne_wert": 1,
+  "lauf_richtig_nach_richtigem_wert": 14,
+  "lauf_richtig_nach_falschem_wert": 9
+ }
+}

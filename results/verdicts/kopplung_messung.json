@@ -1,0 +1,82 @@
+{
+ "texte": [
+  {
+   "id": "math_train_prealgebra_632",
+   "art": "schleife",
+   "tokens": 3000,
+   "anteil_wdh": 0.408,
+   "s15_wdh": 0.3372,
+   "s15_rest": 0.1617,
+   "s19_wdh": 0.0661,
+   "s19_rest": 0.0423
+  },
+  {
+   "id": "math_train_algebra_1284",
+   "art": "schleife",
+   "tokens": 3000,
+   "anteil_wdh": 0.345,
+   "s15_wdh": 0.1296,
+   "s15_rest": 0.0706,
+   "s19_wdh": 0.0755,
+   "s19_rest": 0.0506
+  },
+  {
+   "id": "math_train_algebra_920",
+   "art": "fertig",
+   "tokens": 3000,
+   "anteil_wdh": 0.135,
+   "s15_wdh": 0.0926,
+   "s15_rest": 0.054,
+   "s15_vor_ende": 0.1416,
+   "s19_wdh": 0.0887,
+   "s19_rest": 0.0469,
+   "s19_vor_ende": 0.0968
+  },
+  {
+   "id": "math_train_prealgebra_958",
+   "art": "fertig",
+   "tokens": 3000,
+   "anteil_wdh": 0.082,
+   "s15_wdh": 0.1119,
+   "s15_rest": 0.0487,
+   "s15_vor_ende": 0.0405,
+   "s19_wdh": 0.0664,
+   "s19_rest": 0.0699,
+   "s19_vor_ende": 0.1009
+  }
+ ],
+ "schicht_15": {
+  "wdh": [
+   0.2103,
+   0.1556,
+   2810
+  ],
+  "rest": [
+   0.0771,
+   0.1052,
+   8790
+  ],
+  "vor_ende": [
+   0.091,
+   0.079,
+   64
+  ]
+ },
+ "schicht_19": {
+  "wdh": [
+   0.0726,
+   0.1273,
+   2810
+  ],
+  "rest": [
+   0.0538,
+   0.134,
+   8790
+  ],
+  "vor_ende": [
+   0.0988,
+   0.099,
+   64
+  ]
+ }
+}

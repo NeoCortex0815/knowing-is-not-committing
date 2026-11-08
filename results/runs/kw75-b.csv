@@ -1,0 +1,41 @@
+id,gold,pred,correct,end,tokens,think_closed
+test/prealgebra/1558.json,1.25,1.25,1,eos,11397,1
+test/prealgebra/930.json,12,12,1,eos,11995,1
+test/algebra/2214.json,4,4,1,eos,14599,1
+test/geometry/627.json,17,,0,eos,18902,1
+test/intermediate_algebra/1454.json,70 \sqrt{2},,0,loop_abbruch,20224,1
+test/prealgebra/1388.json,83,83,1,eos,2076,1
+test/algebra/1265.json,\frac{3}{2},\frac{3}{2},1,eos,7663,1
+test/algebra/305.json,5,5,1,eos,11647,1
+test/geometry/178.json,2,,0,limit,32768,1
+test/prealgebra/951.json,12,12,1,eos,15399,1
+test/number_theory/1055.json,203,,0,eos,18705,1
+test/precalculus/285.json,6,,0,limit,32768,0
+test/precalculus/1105.json,-\frac{\pi}{6},0,0,loop_abbruch,20736,1
+test/algebra/769.json,11,11,1,eos,9055,1
+test/prealgebra/572.json,0.15,0.15,1,eos,15962,1
+test/intermediate_algebra/1217.json,x^5 - x^4 + x^3 - x^2 + x - 1,,0,loop_abbruch,28160,1
+test/algebra/722.json,9901,9901,1,eos,10492,1
+test/intermediate_algebra/1168.json,16,16,1,eos,13272,1
+test/prealgebra/1247.json,5,5,1,eos,15567,1
+test/algebra/187.json,3,3,1,eos,26285,1
+test/prealgebra/1747.json,1,1,1,eos,1004,1
+test/algebra/2046.json,x^3+3x-6,x^3 + 3x - 6,1,eos,2606,1
+test/intermediate_algebra/956.json,"(6,31,-1)",,0,eos,24810,1
+test/intermediate_algebra/1247.json,-256,,0,eos,31727,1
+test/intermediate_algebra/279.json,10,,0,loop_abbruch,24832,1
+test/precalculus/675.json,4,,0,limit,32768,0
+test/precalculus/1146.json,\frac{35}{64},,0,limit,32768,1
+test/number_theory/46.json,40_9,,0,loop_abbruch,14080,1
+test/number_theory/516.json,2516_8,,0,loop_abbruch,11264,1
+test/prealgebra/1233.json,10,,0,limit,32768,1
+test/precalculus/1313.json,46,,0,loop_abbruch,27904,1
+test/algebra/2253.json,\frac{3\sqrt{3}}{4},\frac{3\sqrt{3}}{4},1,eos,5309,1
+test/algebra/1004.json,4,4,1,eos,3284,1
+test/geometry/456.json,3,3,1,eos,8682,1
+test/prealgebra/192.json,2,2,1,eos,7289,1
+test/intermediate_algebra/207.json,-1,,0,limit,32768,1
+test/intermediate_algebra/623.json,0,0,1,eos,16586,1
+test/precalculus/24313.json,\cot x,\cot x,1,eos,22212,1
+test/counting_and_probability/1114.json,\frac{11}{36},,0,limit,32768,1
+test/intermediate_algebra/47.json,"(-2,1)",,0,limit,32768,1

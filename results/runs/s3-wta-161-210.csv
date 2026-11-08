@@ -1,0 +1,51 @@
+id,gold,pred,correct,end,tokens,think_closed
+test/algebra/1255.json,6,6,1,eos,782,1
+test/prealgebra/1356.json,\frac{4}{9},\frac{5}{9},0,eos,2906,1
+test/algebra/478.json,65,65,1,eos,1843,1
+test/algebra/2517.json,-\frac{35}{9},-\frac{35}{9},1,eos,18260,1
+test/geometry/802.json,12,12,1,eos,2252,1
+test/prealgebra/1655.json,\dfrac{17}{50},,0,limit,32768,0
+test/precalculus/697.json,-\sqrt{3},,0,limit,32768,0
+test/number_theory/521.json,18,,0,limit,32768,1
+test/prealgebra/1003.json,\frac{270}7\text{ degrees},,0,limit,32768,0
+test/prealgebra/1272.json,\frac{13}{15},\frac{13}{15},1,eos,2255,1
+test/algebra/841.json,350,350,1,eos,3251,1
+test/counting_and_probability/181.json,19,,0,limit,32768,1
+test/algebra/351.json,2,2,1,eos,10599,1
+test/intermediate_algebra/991.json,3,,0,eos,9469,1
+test/prealgebra/1113.json,60,60,1,eos,3173,1
+test/number_theory/598.json,.0000672,0.0000672,1,eos,12146,1
+test/algebra/686.json,4,,0,loop_abbruch,18688,0
+test/algebra/297.json,1736,,0,limit,32768,0
+test/prealgebra/1922.json,1251,1251,1,eos,2865,1
+test/algebra/1082.json,23,23,1,eos,13337,1
+test/geometry/65.json,30^\circ,,0,loop_abbruch,29440,1
+test/algebra/1214.json,1,1,1,eos,1374,1
+test/algebra/2199.json,7,7,1,eos,2012,1
+test/precalculus/659.json,5x - 7y + 11z + 4 = 0,,0,limit,32768,1
+test/prealgebra/1908.json,3,,0,limit,32768,0
+test/algebra/1275.json,\frac{\sqrt{3}}{3},,0,limit,32768,1
+test/algebra/109.json,0,0,1,eos,1705,1
+test/intermediate_algebra/183.json,"(2,\infty)",,0,limit,32768,1
+test/intermediate_algebra/1422.json,4,4,1,eos,9576,1
+test/number_theory/978.json,7,,0,limit,32768,0
+test/algebra/733.json,6,,0,limit,32768,0
+test/counting_and_probability/51.json,\frac{13}{18},2/3,0,eos,23137,1
+test/intermediate_algebra/591.json,24,24,1,eos,9271,1
+test/geometry/702.json,160,,0,limit,32768,1
+test/prealgebra/1907.json,17,17,1,eos,4254,1
+test/geometry/221.json,30,,0,limit,32768,0
+test/prealgebra/2086.json,40,14.4,0,eos,6290,1
+test/algebra/1937.json,1600,1600,1,eos,23388,1
+test/intermediate_algebra/2196.json,\frac{1}{4},,0,limit,32768,0
+test/intermediate_algebra/1555.json,12,,0,eos,4123,1
+test/number_theory/838.json,6,,0,limit,32768,0
+test/precalculus/541.json,"\left( \frac{3}{2}, -13 \right)","(\frac{3}{2}, -13)",1,eos,3640,1
+test/counting_and_probability/508.json,"10,\!080",,0,limit,32768,1
+test/counting_and_probability/389.json,28,28,1,eos,2629,1
+test/number_theory/234.json,16,16,1,eos,4262,1
+test/number_theory/149.json,66,,0,limit,32768,0
+test/algebra/291.json,\frac{2}{3},,0,limit,32768,0
+test/intermediate_algebra/1510.json,0,,0,limit,32768,0
+test/precalculus/263.json,\begin{pmatrix} -2 \\ -14 \\ -7 \end{pmatrix},,0,loop_abbruch,32768,0
+test/number_theory/1201.json,1,,0,limit,32768,1

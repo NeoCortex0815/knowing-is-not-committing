@@ -1,0 +1,31 @@
+id,gold,pred,correct,end,tokens,think_closed
+test/prealgebra/153.json,\frac 59,\frac{5}{99},0,eos,460,0
+test/algebra/975.json,-4,\{-4\},0,eos,536,0
+test/algebra/2626.json,"\$32,\!348",32256,0,eos,655,0
+test/precalculus/441.json,30^\circ,4.09,0,eos,1402,0
+test/intermediate_algebra/1210.json,-13x+3,-21,0,eos,1213,0
+test/intermediate_algebra/1837.json,34,34,1,eos,3806,0
+test/prealgebra/1251.json,8,8,1,eos,2765,0
+test/algebra/1787.json,8,36,0,eos,1927,0
+test/prealgebra/874.json,116,52,0,eos,7013,1
+test/geometry/254.json,3,3,1,eos,6591,0
+test/intermediate_algebra/1123.json,\frac{10}{11},10/11,0,eos,4924,0
+test/intermediate_algebra/337.json,22,22,1,eos,9036,0
+test/algebra/2064.json,81,-19,0,eos,799,0
+test/prealgebra/1458.json,\frac{1}{8},\frac{1}{8},1,eos,608,0
+test/algebra/1578.json,10,\frac{98}{13},0,eos,11361,1
+test/prealgebra/1995.json,\frac{8}{21},\frac{32}{7},0,eos,588,0
+test/algebra/1934.json,13,13,1,eos,5039,0
+test/intermediate_algebra/1354.json,\frac{1997}{2},-1,0,eos,12359,1
+test/intermediate_algebra/149.json,22,3+5\sqrt{3},0,eos,383,0
+test/algebra/694.json,16,16,1,eos,841,0
+test/algebra/1143.json,17,17,1,eos,13948,1
+test/number_theory/1065.json,17,4,0,eos,9821,1
+test/counting_and_probability/894.json,540,120,0,eos,7296,1
+test/precalculus/989.json,12,44.15,0,eos,16267,1
+test/geometry/229.json,16,10,0,eos,17573,0
+test/precalculus/452.json,\text{(E)},E,0,eos,8780,1
+test/intermediate_algebra/986.json,\frac{16}{5},4,0,eos,19395,0
+test/geometry/473.json,864 \mbox{ inches}^2,164.84,0,eos,10058,1
+test/counting_and_probability/1009.json,28,925,0,eos,17597,1
+test/precalculus/920.json,\begin{pmatrix} -1 & 0 \\ 0 & -1 \end{pmatrix},1 - i\sqrt{3},0,eos,27075,1

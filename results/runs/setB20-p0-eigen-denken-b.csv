@@ -1,0 +1,11 @@
+id,gold,pred,correct,end,tokens,think_closed
+math_train_counting_and_probability_711,5,,0,loop_abbruch,11264,0
+math_train_algebra_1562,-15,-15,1,eos,15462,1
+math_train_number_theory_394,21,21,1,eos,30553,1
+math_train_counting_and_probability_598,29,29,1,eos,15091,1
+math_train_intermediate_algebra_348,"\left( -\infty, -\frac{1}{4} \right) \cup (2,\infty)","\left(-\frac{1}{4}, 2\right)",0,eos,31239,1
+math_train_precalculus_43,\frac{7}{2},,0,limit,32768,1
+math_train_intermediate_algebra_242,"\left( \frac{3}{4}, \infty \right)",,0,limit,32768,0
+math_train_precalculus_708,"\left( 3, \frac{9 \pi}{7}, \frac{2 \pi}{5} \right)",,0,limit,32768,0
+math_train_intermediate_algebra_1179,\text{odd},neither,0,eos,31193,1
+math_train_counting_and_probability_383,83,,0,limit,32768,0

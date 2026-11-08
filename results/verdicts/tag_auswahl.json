@@ -1,0 +1,29 @@
+{
+ "gewaehlt": "kw75",
+ "tabelle": {
+  "eigen": {
+   "richtig": 18,
+   "abgegeben": 19,
+   "falsch_abgegeben": 1,
+   "flur": 4,
+   "denken_zu": 23,
+   "loesung_im_denken": 44
+  },
+  "b5": {
+   "richtig": 29,
+   "abgegeben": 29,
+   "falsch_abgegeben": 1,
+   "flur": 21,
+   "denken_zu": 50,
+   "loesung_im_denken": 34
+  },
+  "kw75": {
+   "richtig": 35,
+   "abgegeben": 39,
+   "falsch_abgegeben": 4,
+   "flur": 10,
+   "denken_zu": 49,
+   "loesung_im_denken": 40
+  }
+ }
+}

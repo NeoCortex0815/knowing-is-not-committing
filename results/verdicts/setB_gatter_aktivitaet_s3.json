@@ -1,0 +1,4016 @@
+[
+{
+"lauf": "setB-gatter3-t06/math_train_counting_and_probability_489",
+"korrekt": false,
+"ende": "loop_abbruch",
+"zu_token": 13561,
+"tokens": 24320,
+"kandidaten": [
+{
+"t": 9246,
+"richtig": true
+},
+{
+"t": 20176,
+"richtig": true
+},
+{
+"t": 20184,
+"richtig": true
+},
+{
+"t": 20338,
+"richtig": true
+},
+{
+"t": 20440,
+"richtig": true
+},
+{
+"t": 20945,
+"richtig": false
+},
+{
+"t": 20953,
+"richtig": false
+},
+{
+"t": 21014,
+"richtig": false
+},
+{
+"t": 21042,
+"richtig": false
+},
+{
+"t": 21064,
+"richtig": false
+},
+{
+"t": 21094,
+"richtig": false
+},
+{
+"t": 21116,
+"richtig": false
+},
+{
+"t": 21143,
+"richtig": false
+},
+{
+"t": 21156,
+"richtig": false
+},
+{
+"t": 21171,
+"richtig": false
+},
+{
+"t": 21201,
+"richtig": false
+},
+{
+"t": 21247,
+"richtig": false
+},
+{
+"t": 24319,
+"richtig": true
+},
+{
+"t": 21549,
+"richtig": true
+},
+{
+"t": 23184,
+"richtig": true
+},
+{
+"t": 23205,
+"richtig": true
+},
+{
+"t": 23273,
+"richtig": false
+},
+{
+"t": 23291,
+"richtig": false
+},
+{
+"t": 23376,
+"richtig": true
+},
+{
+"t": 23397,
+"richtig": true
+},
+{
+"t": 23409,
+"richtig": false
+},
+{
+"t": 23430,
+"richtig": true
+},
+{
+"t": 23444,
+"richtig": true
+},
+{
+"t": 23465,
+"richtig": true
+},
+{
+"t": 23479,
+"richtig": true
+},
+{
+"t": 23500,
+"richtig": true
+},
+{
+"t": 23514,
+"richtig": true
+},
+{
+"t": 23535,
+"richtig": true
+},
+{
+"t": 23549,
+"richtig": true
+},
+{
+"t": 23570,
+"richtig": true
+},
+{
+"t": 23584,
+"richtig": true
+},
+{
+"t": 23605,
+"richtig": true
+},
+{
+"t": 23619,
+"richtig": true
+},
+{
+"t": 23640,
+"richtig": true
+},
+{
+"t": 23654,
+"richtig": true
+},
+{
+"t": 23675,
+"richtig": true
+},
+{
+"t": 23689,
+"richtig": true
+},
+{
+"t": 23710,
+"richtig": true
+},
+{
+"t": 23724,
+"richtig": true
+},
+{
+"t": 23745,
+"richtig": true
+},
+{
+"t": 23759,
+"richtig": true
+},
+{
+"t": 23780,
+"richtig": true
+},
+{
+"t": 23794,
+"richtig": true
+},
+{
+"t": 23815,
+"richtig": true
+},
+{
+"t": 23829,
+"richtig": true
+},
+{
+"t": 23850,
+"richtig": true
+},
+{
+"t": 23864,
+"richtig": true
+},
+{
+"t": 23885,
+"richtig": true
+},
+{
+"t": 23899,
+"richtig": true
+},
+{
+"t": 23920,
+"richtig": true
+},
+{
+"t": 23934,
+"richtig": true
+},
+{
+"t": 23955,
+"richtig": true
+},
+{
+"t": 23969,
+"richtig": true
+},
+{
+"t": 23990,
+"richtig": true
+},
+{
+"t": 24004,
+"richtig": true
+},
+{
+"t": 24025,
+"richtig": true
+},
+{
+"t": 24039,
+"richtig": true
+},
+{
+"t": 24060,
+"richtig": true
+},
+{
+"t": 24074,
+"richtig": true
+},
+{
+"t": 24095,
+"richtig": true
+},
+{
+"t": 24109,
+"richtig": true
+},
+{
+"t": 24130,
+"richtig": true
+},
+{
+"t": 24144,
+"richtig": true
+},
+{
+"t": 24165,
+"richtig": true
+},
+{
+"t": 24179,
+"richtig": true
+},
+{
+"t": 24200,
+"richtig": true
+},
+{
+"t": 24214,
+"richtig": true
+},
+{
+"t": 24235,
+"richtig": true
+},
+{
+"t": 24249,
+"richtig": true
+},
+{
+"t": 24270,
+"richtig": true
+},
+{
+"t": 24284,
+"richtig": true
+},
+{
+"t": 24305,
+"richtig": true
+},
+{
+"t": 24319,
+"richtig": true
+}
+]
+},
+{
+"lauf": "setB-gatter3-t06/math_train_algebra_1153",
+"korrekt": true,
+"ende": "eos",
+"zu_token": 25413,
+"tokens": 26082,
+"kandidaten": [
+{
+"t": 3066,
+"richtig": false
+},
+{
+"t": 3079,
+"richtig": false
+},
+{
+"t": 5731,
+"richtig": false
+},
+{
+"t": 6144,
+"richtig": true
+},
+{
+"t": 7632,
+"richtig": true
+},
+{
+"t": 11115,
+"richtig": true
+},
+{
+"t": 11226,
+"richtig": false
+},
+{
+"t": 11942,
+"richtig": false
+},
+{
+"t": 11999,
+"richtig": true
+},
+{
+"t": 12727,
+"richtig": false
+},
+{
+"t": 14800,
+"richtig": true
+},
+{
+"t": 14942,
+"richtig": true
+},
+{
+"t": 17456,
+"richtig": true
+},
+{
+"t": 18239,
+"richtig": true
+},
+{
+"t": 18308,
+"richtig": true
+},
+{
+"t": 18609,
+"richtig": true
+},
+{
+"t": 18699,
+"richtig": true
+},
+{
+"t": 18714,
+"richtig": true
+},
+{
+"t": 19332,
+"richtig": true
+},
+{
+"t": 19500,
+"richtig": true
+},
+{
+"t": 19714,
+"richtig": true
+},
+{
+"t": 20111,
+"richtig": true
+},
+{
+"t": 21008,
+"richtig": true
+},
+{
+"t": 21102,
+"richtig": true
+},
+{
+"t": 21323,
+"richtig": true
+},
+{
+"t": 21471,
+"richtig": true
+},
+{
+"t": 21744,
+"richtig": true
+},
+{
+"t": 25657,
+"richtig": true
+}
+]
+},
+{
+"lauf": "setB-gatter3-t06/math_train_intermediate_algebra_517",
+"korrekt": false,
+"ende": "eos",
+"zu_token": 26354,
+"tokens": 32532,
+"kandidaten": [
+{
+"t": 13367,
+"richtig": false
+},
+{
+"t": 20737,
+"richtig": false
+},
+{
+"t": 21510,
+"richtig": false
+},
+{
+"t": 21897,
+"richtig": false
+},
+{
+"t": 22066,
+"richtig": false
+},
+{
+"t": 22369,
+"richtig": false
+},
+{
+"t": 22538,
+"richtig": false
+},
+{
+"t": 22707,
+"richtig": false
+},
+{
+"t": 22876,
+"richtig": false
+},
+{
+"t": 23045,
+"richtig": false
+},
+{
+"t": 23214,
+"richtig": false
+},
+{
+"t": 23498,
+"richtig": false
+},
+{
+"t": 23667,
+"richtig": false
+},
+{
+"t": 23835,
+"richtig": false
+},
+{
+"t": 24251,
+"richtig": false
+},
+{
+"t": 24419,
+"richtig": false
+},
+{
+"t": 24755,
+"richtig": false
+},
+{
+"t": 25171,
+"richtig": false
+},
+{
+"t": 25584,
+"richtig": false
+},
+{
+"t": 25996,
+"richtig": false
+},
+{
+"t": 27811,
+"richtig": false
+},
+{
+"t": 27904,
+"richtig": false
+},
+{
+"t": 28144,
+"richtig": false
+},
+{
+"t": 28494,
+"richtig": false
+},
+{
+"t": 28649,
+"richtig": false
+},
+{
+"t": 28787,
+"richtig": false
+},
+{
+"t": 28939,
+"richtig": false
+},
+{
+"t": 29077,
+"richtig": false
+},
+{
+"t": 29247,
+"richtig": false
+},
+{
+"t": 29383,
+"richtig": false
+},
+{
+"t": 29568,
+"richtig": false
+},
+{
+"t": 29734,
+"richtig": false
+},
+{
+"t": 29872,
+"richtig": false
+},
+{
+"t": 30134,
+"richtig": false
+},
+{
+"t": 30340,
+"richtig": false
+},
+{
+"t": 30373,
+"richtig": false
+},
+{
+"t": 30618,
+"richtig": false
+},
+{
+"t": 30775,
+"richtig": false
+},
+{
+"t": 31036,
+"richtig": false
+},
+{
+"t": 31088,
+"richtig": false
+},
+{
+"t": 31106,
+"richtig": false
+},
+{
+"t": 31309,
+"richtig": false
+},
+{
+"t": 31361,
+"richtig": false
+},
+{
+"t": 32239,
+"richtig": false
+},
+{
+"t": 32483,
+"richtig": false
+},
+{
+"t": 32530,
+"richtig": false
+}
+]
+},
+{
+"lauf": "setB-gatter3-t06/math_train_intermediate_algebra_656",
+"korrekt": false,
+"ende": "limit",
+"zu_token": -1,
+"tokens": 32768,
+"kandidaten": [
+{
+"t": 1865,
+"richtig": false
+}
+]
+},
+{
+"lauf": "setB-gatter3-t06/math_train_precalculus_20",
+"korrekt": false,
+"ende": "limit",
+"zu_token": 30646,
+"tokens": 32768,
+"kandidaten": [
+{
+"t": 28498,
+"richtig": false
+},
+{
+"t": 28558,
+"richtig": false
+},
+{
+"t": 30030,
+"richtig": false
+},
+{
+"t": 30090,
+"richtig": false
+},
+{
+"t": 30150,
+"richtig": false
+},
+{
+"t": 30210,
+"richtig": false
+},
+{
+"t": 30270,
+"richtig": false
+},
+{
+"t": 30330,
+"richtig": false
+},
+{
+"t": 30390,
+"richtig": false
+},
+{
+"t": 30450,
+"richtig": false
+},
+{
+"t": 30510,
+"richtig": false
+},
+{
+"t": 30570,
+"richtig": false
+},
+{
+"t": 30630,
+"richtig": false
+}
+]
+},
+{
+"lauf": "setB-gatter3-t06/math_train_number_theory_401",
+"korrekt": true,
+"ende": "limit",
+"zu_token": 29259,
+"tokens": 32768,
+"kandidaten": [
+{
+"t": 19801,
+"richtig": true
+},
+{
+"t": 20169,
+"richtig": true
+},
+{
+"t": 23268,
+"richtig": true
+},
+{
+"t": 24468,
+"richtig": true
+},
+{
+"t": 24674,
+"richtig": true
+},
+{
+"t": 25050,
+"richtig": true
+},
+{
+"t": 25763,
+"richtig": true
+},
+{
+"t": 26167,
+"richtig": true
+},
+{
+"t": 26559,
+"richtig": true
+},
+{
+"t": 28640,
+"richtig": true
+},
+{
+"t": 29765,
+"richtig": true
+},
+{
+"t": 31031,
+"richtig": true
+},
+{
+"t": 31538,
+"richtig": true
+}
+]
+},
+{
+"lauf": "setB-gatter3-t06/math_train_geometry_251",
+"korrekt": true,
+"ende": "eos",
+"zu_token": 4237,
+"tokens": 4964,
+"kandidaten": [
+{
+"t": 82,
+"richtig": false
+},
+{
+"t": 2577,
+"richtig": true
+},
+{
+"t": 3716,
+"richtig": false
+},
+{
+"t": 4911,
+"richtig": true
+},
+{
+"t": 4962,
+"richtig": true
+}
+]
+},
+{
+"lauf": "setB-gatter3-t06/math_train_prealgebra_347",
+"korrekt": true,
+"ende": "eos",
+"zu_token": 15699,
+"tokens": 16165,
+"kandidaten": [
+{
+"t": 3807,
+"richtig": true
+},
+{
+"t": 5802,
+"richtig": true
+},
+{
+"t": 7644,
+"richtig": true
+},
+{
+"t": 7820,
+"richtig": true
+},
+{
+"t": 7961,
+"richtig": true
+},
+{
+"t": 8375,
+"richtig": true
+},
+{
+"t": 8554,
+"richtig": true
+},
+{
+"t": 8961,
+"richtig": true
+},
+{
+"t": 9055,
+"richtig": true
+},
+{
+"t": 9240,
+"richtig": true
+},
+{
+"t": 9298,
+"richtig": true
+},
+{
+"t": 9568,
+"richtig": true
+},
+{
+"t": 13620,
+"richtig": true
+},
+{
+"t": 13729,
+"richtig": true
+},
+{
+"t": 13791,
+"richtig": true
+},
+{
+"t": 13860,
+"richtig": true
+},
+{
+"t": 13940,
+"richtig": true
+},
+{
+"t": 14009,
+"richtig": true
+},
+{
+"t": 14079,
+"richtig": true
+},
+{
+"t": 14123,
+"richtig": true
+},
+{
+"t": 14219,
+"richtig": true
+},
+{
+"t": 14263,
+"richtig": true
+},
+{
+"t": 14342,
+"richtig": true
+},
+{
+"t": 14705,
+"richtig": true
+},
+{
+"t": 14757,
+"richtig": true
+},
+{
+"t": 14766,
+"richtig": true
+},
+{
+"t": 14816,
+"richtig": true
+},
+{
+"t": 14825,
+"richtig": true
+},
+{
+"t": 15210,
+"richtig": true
+},
+{
+"t": 15509,
+"richtig": true
+},
+{
+"t": 15654,
+"richtig": true
+},
+{
+"t": 16163,
+"richtig": true
+}
+]
+},
+{
+"lauf": "setB-gatter3-t06/math_train_precalculus_279",
+"korrekt": false,
+"ende": "limit",
+"zu_token": -1,
+"tokens": 32768,
+"kandidaten": []
+},
+{
+"lauf": "setB-gatter3-t06/math_train_precalculus_288",
+"korrekt": false,
+"ende": "eos",
+"zu_token": 26448,
+"tokens": 31740,
+"kandidaten": [
+{
+"t": 27678,
+"richtig": false
+},
+{
+"t": 31738,
+"richtig": false
+}
+]
+},
+{
+"lauf": "setB-gatter3-t06/math_train_number_theory_394",
+"korrekt": true,
+"ende": "eos",
+"zu_token": 24542,
+"tokens": 25146,
+"kandidaten": [
+{
+"t": 13081,
+"richtig": true
+},
+{
+"t": 16064,
+"richtig": true
+},
+{
+"t": 16632,
+"richtig": true
+},
+{
+"t": 17061,
+"richtig": true
+},
+{
+"t": 25137,
+"richtig": true
+},
+{
+"t": 25144,
+"richtig": true
+}
+]
+},
+{
+"lauf": "setB-gatter3-t06/math_train_algebra_1562",
+"korrekt": true,
+"ende": "eos",
+"zu_token": 19016,
+"tokens": 23085,
+"kandidaten": [
+{
+"t": 8550,
+"richtig": false
+},
+{
+"t": 9558,
+"richtig": false
+},
+{
+"t": 11872,
+"richtig": true
+},
+{
+"t": 12926,
+"richtig": true
+},
+{
+"t": 15497,
+"richtig": true
+},
+{
+"t": 18020,
+"richtig": true
+},
+{
+"t": 18680,
+"richtig": true
+},
+{
+"t": 18929,
+"richtig": true
+},
+{
+"t": 18960,
+"richtig": true
+},
+{
+"t": 19710,
+"richtig": true
+},
+{
+"t": 19837,
+"richtig": true
+},
+{
+"t": 20152,
+"richtig": true
+},
+{
+"t": 20201,
+"richtig": true
+},
+{
+"t": 20563,
+"richtig": true
+},
+{
+"t": 21664,
+"richtig": true
+},
+{
+"t": 21924,
+"richtig": true
+},
+{
+"t": 21970,
+"richtig": true
+},
+{
+"t": 22050,
+"richtig": false
+},
+{
+"t": 22209,
+"richtig": false
+},
+{
+"t": 22335,
+"richtig": false
+},
+{
+"t": 23083,
+"richtig": true
+}
+]
+},
+{
+"lauf": "setB-gatter3-t06/math_train_counting_and_probability_711",
+"korrekt": true,
+"ende": "eos",
+"zu_token": 6916,
+"tokens": 7439,
+"kandidaten": [
+{
+"t": 90,
+"richtig": false
+},
+{
+"t": 819,
+"richtig": false
+},
+{
+"t": 892,
+"richtig": false
+},
+{
+"t": 1995,
+"richtig": false
+},
+{
+"t": 3296,
+"richtig": true
+},
+{
+"t": 5442,
+"richtig": false
+},
+{
+"t": 5696,
+"richtig": false
+},
+{
+"t": 5710,
+"richtig": false
+},
+{
+"t": 5731,
+"richtig": false
+},
+{
+"t": 5764,
+"richtig": false
+},
+{
+"t": 7437,
+"richtig": true
+}
+]
+},
+{
+"lauf": "setB-gatter3-t06/math_train_intermediate_algebra_242",
+"korrekt": false,
+"ende": "limit",
+"zu_token": -1,
+"tokens": 32768,
+"kandidaten": []
+},
+{
+"lauf": "setB-gatter3-t06/math_train_counting_and_probability_598",
+"korrekt": true,
+"ende": "eos",
+"zu_token": 18984,
+"tokens": 19642,
+"kandidaten": [
+{
+"t": 7178,
+"richtig": true
+},
+{
+"t": 11890,
+"richtig": true
+},
+{
+"t": 13730,
+"richtig": false
+},
+{
+"t": 14926,
+"richtig": true
+},
+{
+"t": 16061,
+"richtig": true
+},
+{
+"t": 16404,
+"richtig": true
+},
+{
+"t": 17516,
+"richtig": true
+},
+{
+"t": 18301,
+"richtig": true
+},
+{
+"t": 18746,
+"richtig": false
+},
+{
+"t": 19576,
+"richtig": true
+},
+{
+"t": 19640,
+"richtig": true
+}
+]
+},
+{
+"lauf": "setB-gatter3-t06/math_train_intermediate_algebra_348",
+"korrekt": false,
+"ende": "limit",
+"zu_token": 24296,
+"tokens": 32768,
+"kandidaten": []
+},
+{
+"lauf": "setB-gatter3-t06/math_train_prealgebra_614",
+"korrekt": true,
+"ende": "eos",
+"zu_token": 1619,
+"tokens": 2093,
+"kandidaten": [
+{
+"t": 2091,
+"richtig": true
+}
+]
+},
+{
+"lauf": "setB-gatter3-t06/math_train_counting_and_probability_383",
+"korrekt": false,
+"ende": "loop_abbruch",
+"zu_token": 16131,
+"tokens": 24064,
+"kandidaten": [
+{
+"t": 22262,
+"richtig": false
+},
+{
+"t": 22476,
+"richtig": false
+},
+{
+"t": 22529,
+"richtig": false
+},
+{
+"t": 22559,
+"richtig": false
+},
+{
+"t": 22818,
+"richtig": false
+},
+{
+"t": 22989,
+"richtig": false
+},
+{
+"t": 23049,
+"richtig": false
+},
+{
+"t": 23075,
+"richtig": false
+},
+{
+"t": 23130,
+"richtig": false
+},
+{
+"t": 23161,
+"richtig": false
+},
+{
+"t": 23192,
+"richtig": false
+},
+{
+"t": 23223,
+"richtig": false
+},
+{
+"t": 23254,
+"richtig": false
+},
+{
+"t": 23285,
+"richtig": false
+},
+{
+"t": 23292,
+"richtig": false
+},
+{
+"t": 23323,
+"richtig": false
+},
+{
+"t": 23330,
+"richtig": false
+},
+{
+"t": 23337,
+"richtig": false
+},
+{
+"t": 23344,
+"richtig": false
+},
+{
+"t": 23351,
+"richtig": false
+},
+{
+"t": 23358,
+"richtig": false
+},
+{
+"t": 23365,
+"richtig": false
+},
+{
+"t": 23372,
+"richtig": false
+},
+{
+"t": 23379,
+"richtig": false
+},
+{
+"t": 23386,
+"richtig": false
+},
+{
+"t": 23393,
+"richtig": false
+},
+{
+"t": 23400,
+"richtig": false
+},
+{
+"t": 23407,
+"richtig": false
+},
+{
+"t": 23414,
+"richtig": false
+},
+{
+"t": 23421,
+"richtig": false
+},
+{
+"t": 23428,
+"richtig": false
+},
+{
+"t": 23435,
+"richtig": false
+},
+{
+"t": 23442,
+"richtig": false
+},
+{
+"t": 23449,
+"richtig": false
+},
+{
+"t": 23456,
+"richtig": false
+},
+{
+"t": 23463,
+"richtig": false
+},
+{
+"t": 23470,
+"richtig": false
+},
+{
+"t": 23477,
+"richtig": false
+},
+{
+"t": 23484,
+"richtig": false
+},
+{
+"t": 23491,
+"richtig": false
+},
+{
+"t": 23498,
+"richtig": false
+},
+{
+"t": 23505,
+"richtig": false
+},
+{
+"t": 23512,
+"richtig": false
+},
+{
+"t": 23519,
+"richtig": false
+},
+{
+"t": 23526,
+"richtig": false
+},
+{
+"t": 23533,
+"richtig": false
+},
+{
+"t": 23540,
+"richtig": false
+},
+{
+"t": 23547,
+"richtig": false
+},
+{
+"t": 23554,
+"richtig": false
+},
+{
+"t": 23561,
+"richtig": false
+},
+{
+"t": 23568,
+"richtig": false
+},
+{
+"t": 23575,
+"richtig": false
+},
+{
+"t": 23582,
+"richtig": false
+},
+{
+"t": 23589,
+"richtig": false
+},
+{
+"t": 23596,
+"richtig": false
+},
+{
+"t": 23603,
+"richtig": false
+},
+{
+"t": 23610,
+"richtig": false
+},
+{
+"t": 23617,
+"richtig": false
+},
+{
+"t": 23624,
+"richtig": false
+},
+{
+"t": 23631,
+"richtig": false
+},
+{
+"t": 23638,
+"richtig": false
+},
+{
+"t": 23645,
+"richtig": false
+},
+{
+"t": 23652,
+"richtig": false
+},
+{
+"t": 23659,
+"richtig": false
+},
+{
+"t": 23666,
+"richtig": false
+},
+{
+"t": 23673,
+"richtig": false
+},
+{
+"t": 23680,
+"richtig": false
+},
+{
+"t": 23687,
+"richtig": false
+},
+{
+"t": 23694,
+"richtig": false
+},
+{
+"t": 23701,
+"richtig": false
+},
+{
+"t": 23708,
+"richtig": false
+},
+{
+"t": 23715,
+"richtig": false
+},
+{
+"t": 23722,
+"richtig": false
+},
+{
+"t": 23729,
+"richtig": false
+},
+{
+"t": 23736,
+"richtig": false
+},
+{
+"t": 23743,
+"richtig": false
+},
+{
+"t": 23750,
+"richtig": false
+},
+{
+"t": 23757,
+"richtig": false
+},
+{
+"t": 23764,
+"richtig": false
+},
+{
+"t": 23771,
+"richtig": false
+},
+{
+"t": 23778,
+"richtig": false
+},
+{
+"t": 23785,
+"richtig": false
+},
+{
+"t": 23792,
+"richtig": false
+},
+{
+"t": 23799,
+"richtig": false
+},
+{
+"t": 23806,
+"richtig": false
+},
+{
+"t": 23813,
+"richtig": false
+},
+{
+"t": 23820,
+"richtig": false
+},
+{
+"t": 23827,
+"richtig": false
+},
+{
+"t": 23834,
+"richtig": false
+},
+{
+"t": 23841,
+"richtig": false
+},
+{
+"t": 23848,
+"richtig": false
+},
+{
+"t": 23855,
+"richtig": false
+},
+{
+"t": 23862,
+"richtig": false
+},
+{
+"t": 23869,
+"richtig": false
+},
+{
+"t": 23876,
+"richtig": false
+},
+{
+"t": 23883,
+"richtig": false
+},
+{
+"t": 23890,
+"richtig": false
+},
+{
+"t": 23897,
+"richtig": false
+},
+{
+"t": 23904,
+"richtig": false
+},
+{
+"t": 23911,
+"richtig": false
+},
+{
+"t": 23918,
+"richtig": false
+},
+{
+"t": 23925,
+"richtig": false
+},
+{
+"t": 23932,
+"richtig": false
+},
+{
+"t": 23939,
+"richtig": false
+},
+{
+"t": 23946,
+"richtig": false
+},
+{
+"t": 23953,
+"richtig": false
+},
+{
+"t": 23960,
+"richtig": false
+},
+{
+"t": 23967,
+"richtig": false
+},
+{
+"t": 23974,
+"richtig": false
+},
+{
+"t": 23981,
+"richtig": false
+},
+{
+"t": 23988,
+"richtig": false
+},
+{
+"t": 23995,
+"richtig": false
+},
+{
+"t": 24002,
+"richtig": false
+},
+{
+"t": 24009,
+"richtig": false
+},
+{
+"t": 24016,
+"richtig": false
+},
+{
+"t": 24023,
+"richtig": false
+},
+{
+"t": 24030,
+"richtig": false
+},
+{
+"t": 24037,
+"richtig": false
+},
+{
+"t": 24044,
+"richtig": false
+},
+{
+"t": 24051,
+"richtig": false
+},
+{
+"t": 24058,
+"richtig": false
+}
+]
+},
+{
+"lauf": "setB-gatter3-t06/math_train_precalculus_43",
+"korrekt": false,
+"ende": "limit",
+"zu_token": -1,
+"tokens": 32768,
+"kandidaten": []
+},
+{
+"lauf": "setB-gatter3-t06/math_train_precalculus_708",
+"korrekt": false,
+"ende": "limit",
+"zu_token": -1,
+"tokens": 32768,
+"kandidaten": [
+{
+"t": 11823,
+"richtig": false
+}
+]
+},
+{
+"lauf": "setB-gatter3-t06/math_train_intermediate_algebra_1179",
+"korrekt": false,
+"ende": "limit",
+"zu_token": -1,
+"tokens": 32768,
+"kandidaten": []
+},
+{
+"lauf": "setB-gatter3-t06/math_train_algebra_1619",
+"korrekt": true,
+"ende": "eos",
+"zu_token": 15948,
+"tokens": 16212,
+"kandidaten": [
+{
+"t": 130,
+"richtig": false
+},
+{
+"t": 3122,
+"richtig": false
+},
+{
+"t": 5810,
+"richtig": true
+},
+{
+"t": 6628,
+"richtig": true
+},
+{
+"t": 8602,
+"richtig": false
+},
+{
+"t": 8627,
+"richtig": true
+},
+{
+"t": 16210,
+"richtig": true
+}
+]
+},
+{
+"lauf": "setB-gatter3-t06/math_train_counting_and_probability_297",
+"korrekt": true,
+"ende": "eos",
+"zu_token": 16631,
+"tokens": 17145,
+"kandidaten": [
+{
+"t": 2937,
+"richtig": true
+},
+{
+"t": 4118,
+"richtig": true
+},
+{
+"t": 5476,
+"richtig": true
+},
+{
+"t": 7645,
+"richtig": true
+},
+{
+"t": 8382,
+"richtig": true
+},
+{
+"t": 9648,
+"richtig": true
+},
+{
+"t": 10251,
+"richtig": true
+},
+{
+"t": 10865,
+"richtig": true
+},
+{
+"t": 10978,
+"richtig": true
+},
+{
+"t": 11318,
+"richtig": true
+},
+{
+"t": 11656,
+"richtig": true
+},
+{
+"t": 11712,
+"richtig": true
+},
+{
+"t": 11810,
+"richtig": true
+},
+{
+"t": 12006,
+"richtig": true
+},
+{
+"t": 12119,
+"richtig": true
+},
+{
+"t": 12375,
+"richtig": true
+},
+{
+"t": 12488,
+"richtig": true
+},
+{
+"t": 12589,
+"richtig": true
+},
+{
+"t": 12645,
+"richtig": true
+},
+{
+"t": 12757,
+"richtig": true
+},
+{
+"t": 12902,
+"richtig": true
+},
+{
+"t": 12983,
+"richtig": true
+},
+{
+"t": 13063,
+"richtig": true
+},
+{
+"t": 13144,
+"richtig": true
+},
+{
+"t": 13201,
+"richtig": true
+},
+{
+"t": 13281,
+"richtig": true
+},
+{
+"t": 13338,
+"richtig": true
+},
+{
+"t": 13395,
+"richtig": true
+},
+{
+"t": 13475,
+"richtig": true
+},
+{
+"t": 13588,
+"richtig": true
+},
+{
+"t": 13700,
+"richtig": true
+},
+{
+"t": 13811,
+"richtig": true
+},
+{
+"t": 13923,
+"richtig": true
+},
+{
+"t": 14035,
+"richtig": true
+},
+{
+"t": 14147,
+"richtig": true
+},
+{
+"t": 14259,
+"richtig": true
+},
+{
+"t": 14371,
+"richtig": true
+},
+{
+"t": 14446,
+"richtig": true
+},
+{
+"t": 14523,
+"richtig": true
+},
+{
+"t": 14600,
+"richtig": true
+},
+{
+"t": 14677,
+"richtig": true
+},
+{
+"t": 14754,
+"richtig": true
+},
+{
+"t": 14831,
+"richtig": true
+},
+{
+"t": 14939,
+"richtig": true
+},
+{
+"t": 15015,
+"richtig": true
+},
+{
+"t": 15092,
+"richtig": true
+},
+{
+"t": 15169,
+"richtig": true
+},
+{
+"t": 15246,
+"richtig": true
+},
+{
+"t": 15323,
+"richtig": true
+},
+{
+"t": 15431,
+"richtig": true
+},
+{
+"t": 15508,
+"richtig": true
+},
+{
+"t": 15584,
+"richtig": true
+},
+{
+"t": 15661,
+"richtig": true
+},
+{
+"t": 15769,
+"richtig": true
+},
+{
+"t": 15845,
+"richtig": true
+},
+{
+"t": 15922,
+"richtig": true
+},
+{
+"t": 16030,
+"richtig": true
+},
+{
+"t": 16106,
+"richtig": true
+},
+{
+"t": 16183,
+"richtig": true
+},
+{
+"t": 16291,
+"richtig": true
+},
+{
+"t": 16367,
+"richtig": true
+},
+{
+"t": 16444,
+"richtig": true
+},
+{
+"t": 16552,
+"richtig": true
+},
+{
+"t": 16628,
+"richtig": true
+},
+{
+"t": 17143,
+"richtig": true
+}
+]
+},
+{
+"lauf": "setB-gatter3-t06/math_train_algebra_479",
+"korrekt": true,
+"ende": "eos",
+"zu_token": 24469,
+"tokens": 25039,
+"kandidaten": [
+{
+"t": 161,
+"richtig": false
+},
+{
+"t": 3112,
+"richtig": false
+},
+{
+"t": 15996,
+"richtig": false
+},
+{
+"t": 17141,
+"richtig": false
+},
+{
+"t": 18349,
+"richtig": false
+},
+{
+"t": 18438,
+"richtig": false
+},
+{
+"t": 18711,
+"richtig": false
+},
+{
+"t": 19583,
+"richtig": false
+},
+{
+"t": 19621,
+"richtig": false
+},
+{
+"t": 19760,
+"richtig": false
+},
+{
+"t": 19806,
+"richtig": false
+},
+{
+"t": 21438,
+"richtig": false
+},
+{
+"t": 21479,
+"richtig": false
+},
+{
+"t": 21610,
+"richtig": false
+},
+{
+"t": 21702,
+"richtig": false
+},
+{
+"t": 21743,
+"richtig": false
+},
+{
+"t": 21884,
+"richtig": false
+},
+{
+"t": 22115,
+"richtig": false
+},
+{
+"t": 22432,
+"richtig": false
+},
+{
+"t": 22613,
+"richtig": false
+},
+{
+"t": 22901,
+"richtig": false
+},
+{
+"t": 23120,
+"richtig": false
+},
+{
+"t": 23212,
+"richtig": false
+},
+{
+"t": 23771,
+"richtig": false
+},
+{
+"t": 24464,
+"richtig": false
+},
+{
+"t": 25037,
+"richtig": true
+}
+]
+},
+{
+"lauf": "setB-gatter3-t06/math_train_algebra_444",
+"korrekt": false,
+"ende": "limit",
+"zu_token": -1,
+"tokens": 32768,
+"kandidaten": []
+},
+{
+"lauf": "setB-gatter3-t06/math_train_algebra_372",
+"korrekt": true,
+"ende": "eos",
+"zu_token": 11977,
+"tokens": 12453,
+"kandidaten": [
+{
+"t": 1949,
+"richtig": true
+},
+{
+"t": 10321,
+"richtig": true
+},
+{
+"t": 11112,
+"richtig": true
+},
+{
+"t": 11268,
+"richtig": true
+},
+{
+"t": 11707,
+"richtig": true
+},
+{
+"t": 11878,
+"richtig": true
+},
+{
+"t": 12311,
+"richtig": true
+},
+{
+"t": 12451,
+"richtig": true
+}
+]
+},
+{
+"lauf": "setB-gatter3-t06/math_train_number_theory_392",
+"korrekt": false,
+"ende": "limit",
+"zu_token": -1,
+"tokens": 32768,
+"kandidaten": [
+{
+"t": 17050,
+"richtig": true
+}
+]
+},
+{
+"lauf": "setB-gatter3-t06/math_train_algebra_749",
+"korrekt": false,
+"ende": "loop_abbruch",
+"zu_token": -1,
+"tokens": 21504,
+"kandidaten": []
+},
+{
+"lauf": "setB-gatter3-t06/math_train_number_theory_37",
+"korrekt": false,
+"ende": "limit",
+"zu_token": -1,
+"tokens": 32768,
+"kandidaten": []
+},
+{
+"lauf": "setB-gatter3-t06/math_train_number_theory_501",
+"korrekt": false,
+"ende": "limit",
+"zu_token": 24926,
+"tokens": 32768,
+"kandidaten": [
+{
+"t": 7455,
+"richtig": false
+},
+{
+"t": 12984,
+"richtig": false
+},
+{
+"t": 15070,
+"richtig": false
+},
+{
+"t": 16679,
+"richtig": false
+},
+{
+"t": 17224,
+"richtig": false
+},
+{
+"t": 17676,
+"richtig": false
+},
+{
+"t": 18053,
+"richtig": false
+},
+{
+"t": 18452,
+"richtig": false
+},
+{
+"t": 19497,
+"richtig": false
+},
+{
+"t": 21390,
+"richtig": false
+},
+{
+"t": 23041,
+"richtig": false
+},
+{
+"t": 24492,
+"richtig": false
+},
+{
+"t": 26535,
+"richtig": false
+},
+{
+"t": 26622,
+"richtig": false
+},
+{
+"t": 26983,
+"richtig": false
+},
+{
+"t": 27072,
+"richtig": false
+},
+{
+"t": 27706,
+"richtig": false
+},
+{
+"t": 27890,
+"richtig": false
+},
+{
+"t": 28073,
+"richtig": false
+},
+{
+"t": 28273,
+"richtig": false
+},
+{
+"t": 28583,
+"richtig": false
+},
+{
+"t": 28765,
+"richtig": false
+},
+{
+"t": 28958,
+"richtig": false
+},
+{
+"t": 29158,
+"richtig": false
+},
+{
+"t": 29343,
+"richtig": false
+},
+{
+"t": 29603,
+"richtig": false
+},
+{
+"t": 29776,
+"richtig": false
+},
+{
+"t": 30036,
+"richtig": false
+},
+{
+"t": 30162,
+"richtig": false
+},
+{
+"t": 30337,
+"richtig": false
+},
+{
+"t": 30597,
+"richtig": false
+},
+{
+"t": 30625,
+"richtig": false
+},
+{
+"t": 30847,
+"richtig": false
+},
+{
+"t": 31107,
+"richtig": false
+},
+{
+"t": 31135,
+"richtig": false
+},
+{
+"t": 31337,
+"richtig": false
+},
+{
+"t": 31537,
+"richtig": false
+},
+{
+"t": 31765,
+"richtig": false
+},
+{
+"t": 31793,
+"richtig": false
+},
+{
+"t": 31995,
+"richtig": false
+},
+{
+"t": 32195,
+"richtig": false
+},
+{
+"t": 32232,
+"richtig": false
+},
+{
+"t": 32431,
+"richtig": false
+},
+{
+"t": 32468,
+"richtig": false
+},
+{
+"t": 32670,
+"richtig": false
+}
+]
+},
+{
+"lauf": "setB-gatter3-t06/math_train_prealgebra_894",
+"korrekt": true,
+"ende": "loop_abbruch",
+"zu_token": 1825,
+"tokens": 10752,
+"kandidaten": [
+{
+"t": 850,
+"richtig": true
+},
+{
+"t": 2178,
+"richtig": true
+},
+{
+"t": 2426,
+"richtig": false
+},
+{
+"t": 3111,
+"richtig": true
+},
+{
+"t": 4025,
+"richtig": true
+},
+{
+"t": 4828,
+"richtig": false
+},
+{
+"t": 4839,
+"richtig": false
+},
+{
+"t": 4858,
+"richtig": false
+},
+{
+"t": 4878,
+"richtig": false
+},
+{
+"t": 4897,
+"richtig": false
+},
+{
+"t": 4916,
+"richtig": false
+},
+{
+"t": 4947,
+"richtig": false
+},
+{
+"t": 4971,
+"richtig": false
+},
+{
+"t": 4994,
+"richtig": false
+},
+{
+"t": 5025,
+"richtig": false
+},
+{
+"t": 5091,
+"richtig": false
+},
+{
+"t": 5112,
+"richtig": false
+},
+{
+"t": 5194,
+"richtig": false
+},
+{
+"t": 5201,
+"richtig": false
+},
+{
+"t": 5286,
+"richtig": false
+},
+{
+"t": 5323,
+"richtig": false
+},
+{
+"t": 5343,
+"richtig": false
+},
+{
+"t": 5377,
+"richtig": false
+},
+{
+"t": 5423,
+"richtig": false
+},
+{
+"t": 5446,
+"richtig": true
+},
+{
+"t": 5462,
+"richtig": true
+},
+{
+"t": 5496,
+"richtig": false
+},
+{
+"t": 5569,
+"richtig": false
+},
+{
+"t": 5644,
+"richtig": true
+},
+{
+"t": 5663,
+"richtig": false
+},
+{
+"t": 5815,
+"richtig": false
+},
+{
+"t": 5842,
+"richtig": false
+},
+{
+"t": 5917,
+"richtig": false
+},
+{
+"t": 5940,
+"richtig": false
+},
+{
+"t": 5991,
+"richtig": true
+},
+{
+"t": 6018,
+"richtig": false
+},
+{
+"t": 6074,
+"richtig": false
+},
+{
+"t": 6096,
+"richtig": false
+},
+{
+"t": 6144,
+"richtig": false
+},
+{
+"t": 6283,
+"richtig": false
+},
+{
+"t": 6306,
+"richtig": false
+},
+{
+"t": 6326,
+"richtig": false
+},
+{
+"t": 6391,
+"richtig": false
+},
+{
+"t": 6425,
+"richtig": false
+},
+{
+"t": 6455,
+"richtig": false
+},
+{
+"t": 6489,
+"richtig": false
+},
+{
+"t": 6547,
+"richtig": true
+},
+{
+"t": 6685,
+"richtig": false
+},
+{
+"t": 6817,
+"richtig": false
+},
+{
+"t": 6876,
+"richtig": false
+},
+{
+"t": 6893,
+"richtig": false
+},
+{
+"t": 6924,
+"richtig": false
+},
+{
+"t": 7002,
+"richtig": true
+},
+{
+"t": 7043,
+"richtig": false
+},
+{
+"t": 7106,
+"richtig": false
+},
+{
+"t": 7134,
+"richtig": false
+},
+{
+"t": 7213,
+"richtig": true
+},
+{
+"t": 7898,
+"richtig": false
+},
+{
+"t": 7912,
+"richtig": true
+},
+{
+"t": 7942,
+"richtig": false
+},
+{
+"t": 8102,
+"richtig": true
+},
+{
+"t": 8625,
+"richtig": false
+},
+{
+"t": 8645,
+"richtig": false
+},
+{
+"t": 8665,
+"richtig": false
+},
+{
+"t": 8717,
+"richtig": true
+},
+{
+"t": 8803,
+"richtig": true
+},
+{
+"t": 8836,
+"richtig": false
+},
+{
+"t": 8845,
+"richtig": false
+},
+{
+"t": 8862,
+"richtig": true
+},
+{
+"t": 8885,
+"richtig": false
+},
+{
+"t": 8900,
+"richtig": false
+},
+{
+"t": 8915,
+"richtig": false
+},
+{
+"t": 8930,
+"richtig": false
+},
+{
+"t": 8945,
+"richtig": false
+},
+{
+"t": 8960,
+"richtig": false
+},
+{
+"t": 8975,
+"richtig": false
+},
+{
+"t": 9234,
+"richtig": false
+},
+{
+"t": 9413,
+"richtig": true
+},
+{
+"t": 9435,
+"richtig": true
+},
+{
+"t": 9535,
+"richtig": false
+},
+{
+"t": 9543,
+"richtig": true
+},
+{
+"t": 9564,
+"richtig": true
+},
+{
+"t": 9585,
+"richtig": true
+},
+{
+"t": 9606,
+"richtig": true
+},
+{
+"t": 9627,
+"richtig": true
+},
+{
+"t": 9648,
+"richtig": true
+},
+{
+"t": 9669,
+"richtig": true
+},
+{
+"t": 9690,
+"richtig": true
+},
+{
+"t": 9711,
+"richtig": true
+},
+{
+"t": 9732,
+"richtig": true
+},
+{
+"t": 9753,
+"richtig": true
+},
+{
+"t": 9774,
+"richtig": true
+},
+{
+"t": 9795,
+"richtig": true
+},
+{
+"t": 9816,
+"richtig": true
+},
+{
+"t": 9837,
+"richtig": true
+},
+{
+"t": 9858,
+"richtig": true
+},
+{
+"t": 9896,
+"richtig": true
+},
+{
+"t": 9913,
+"richtig": true
+},
+{
+"t": 9952,
+"richtig": true
+},
+{
+"t": 9991,
+"richtig": true
+},
+{
+"t": 10030,
+"richtig": true
+},
+{
+"t": 10069,
+"richtig": true
+},
+{
+"t": 10108,
+"richtig": true
+},
+{
+"t": 10147,
+"richtig": true
+},
+{
+"t": 10186,
+"richtig": true
+},
+{
+"t": 10225,
+"richtig": true
+},
+{
+"t": 10264,
+"richtig": true
+},
+{
+"t": 10303,
+"richtig": true
+},
+{
+"t": 10342,
+"richtig": true
+},
+{
+"t": 10381,
+"richtig": true
+},
+{
+"t": 10422,
+"richtig": true
+},
+{
+"t": 10463,
+"richtig": true
+},
+{
+"t": 10504,
+"richtig": true
+},
+{
+"t": 10545,
+"richtig": true
+},
+{
+"t": 10586,
+"richtig": true
+},
+{
+"t": 10627,
+"richtig": true
+},
+{
+"t": 10668,
+"richtig": true
+},
+{
+"t": 10709,
+"richtig": true
+},
+{
+"t": 10750,
+"richtig": true
+}
+]
+},
+{
+"lauf": "setB-gatter3-t06/math_train_prealgebra_551",
+"korrekt": true,
+"ende": "eos",
+"zu_token": 24713,
+"tokens": 25189,
+"kandidaten": [
+{
+"t": 13272,
+"richtig": true
+},
+{
+"t": 14293,
+"richtig": true
+},
+{
+"t": 15977,
+"richtig": true
+},
+{
+"t": 16458,
+"richtig": true
+},
+{
+"t": 17032,
+"richtig": true
+},
+{
+"t": 21883,
+"richtig": true
+},
+{
+"t": 23220,
+"richtig": true
+},
+{
+"t": 24537,
+"richtig": true
+},
+{
+"t": 24710,
+"richtig": true
+},
+{
+"t": 25187,
+"richtig": true
+}
+]
+},
+{
+"lauf": "setB-gatter3-t06/math_train_precalculus_640",
+"korrekt": false,
+"ende": "limit",
+"zu_token": 15930,
+"tokens": 32768,
+"kandidaten": []
+},
+{
+"lauf": "setB-gatter3-t06/math_train_geometry_158",
+"korrekt": true,
+"ende": "limit",
+"zu_token": 27436,
+"tokens": 32768,
+"kandidaten": [
+{
+"t": 22515,
+"richtig": false
+},
+{
+"t": 22683,
+"richtig": false
+},
+{
+"t": 22929,
+"richtig": true
+},
+{
+"t": 23581,
+"richtig": true
+},
+{
+"t": 23655,
+"richtig": false
+},
+{
+"t": 23933,
+"richtig": true
+},
+{
+"t": 25133,
+"richtig": false
+},
+{
+"t": 25343,
+"richtig": true
+},
+{
+"t": 25892,
+"richtig": true
+},
+{
+"t": 25951,
+"richtig": true
+},
+{
+"t": 26641,
+"richtig": true
+},
+{
+"t": 26845,
+"richtig": true
+},
+{
+"t": 26974,
+"richtig": true
+},
+{
+"t": 27225,
+"richtig": true
+},
+{
+"t": 29839,
+"richtig": true
+},
+{
+"t": 30330,
+"richtig": true
+},
+{
+"t": 30594,
+"richtig": true
+},
+{
+"t": 30841,
+"richtig": true
+},
+{
+"t": 31093,
+"richtig": true
+},
+{
+"t": 31365,
+"richtig": true
+},
+{
+"t": 31667,
+"richtig": true
+},
+{
+"t": 31901,
+"richtig": true
+},
+{
+"t": 32063,
+"richtig": true
+},
+{
+"t": 32121,
+"richtig": true
+},
+{
+"t": 32602,
+"richtig": true
+}
+]
+},
+{
+"lauf": "setB-gatter3-t06/math_train_algebra_310",
+"korrekt": true,
+"ende": "eos",
+"zu_token": 28547,
+"tokens": 28978,
+"kandidaten": [
+{
+"t": 6431,
+"richtig": false
+},
+{
+"t": 28976,
+"richtig": true
+}
+]
+},
+{
+"lauf": "setB-gatter3-t06/math_train_algebra_44",
+"korrekt": true,
+"ende": "eos",
+"zu_token": 1418,
+"tokens": 1790,
+"kandidaten": [
+{
+"t": 1147,
+"richtig": false
+},
+{
+"t": 1788,
+"richtig": true
+}
+]
+},
+{
+"lauf": "setB-gatter3-t06/math_train_algebra_482",
+"korrekt": true,
+"ende": "eos",
+"zu_token": 2894,
+"tokens": 3402,
+"kandidaten": [
+{
+"t": 2336,
+"richtig": false
+},
+{
+"t": 2373,
+"richtig": false
+},
+{
+"t": 2585,
+"richtig": true
+},
+{
+"t": 3400,
+"richtig": true
+}
+]
+},
+{
+"lauf": "setB-gatter3-t06/math_train_algebra_670",
+"korrekt": true,
+"ende": "eos",
+"zu_token": 27331,
+"tokens": 28211,
+"kandidaten": [
+{
+"t": 27328,
+"richtig": true
+},
+{
+"t": 28209,
+"richtig": true
+}
+]
+},
+{
+"lauf": "setB-gatter3-t06/math_train_number_theory_228",
+"korrekt": false,
+"ende": "limit",
+"zu_token": -1,
+"tokens": 32768,
+"kandidaten": [
+{
+"t": 11828,
+"richtig": false
+},
+{
+"t": 26218,
+"richtig": false
+},
+{
+"t": 27186,
+"richtig": false
+},
+{
+"t": 27698,
+"richtig": false
+},
+{
+"t": 29514,
+"richtig": false
+},
+{
+"t": 30031,
+"richtig": false
+},
+{
+"t": 30157,
+"richtig": false
+},
+{
+"t": 30464,
+"richtig": false
+},
+{
+"t": 30959,
+"richtig": false
+},
+{
+"t": 31790,
+"richtig": false
+},
+{
+"t": 31976,
+"richtig": false
+},
+{
+"t": 32207,
+"richtig": false
+},
+{
+"t": 32681,
+"richtig": false
+}
+]
+},
+{
+"lauf": "setB-gatter3-t06/math_train_number_theory_101",
+"korrekt": false,
+"ende": "limit",
+"zu_token": 32138,
+"tokens": 32768,
+"kandidaten": [
+{
+"t": 11722,
+"richtig": true
+},
+{
+"t": 14250,
+"richtig": false
+},
+{
+"t": 15844,
+"richtig": true
+},
+{
+"t": 26495,
+"richtig": true
+},
+{
+"t": 32135,
+"richtig": true
+}
+]
+},
+{
+"lauf": "setB-gatter3-t06/math_train_counting_and_probability_58",
+"korrekt": false,
+"ende": "limit",
+"zu_token": -1,
+"tokens": 32768,
+"kandidaten": [
+{
+"t": 24395,
+"richtig": true
+}
+]
+},
+{
+"lauf": "setB-gatter3-t06/math_train_precalculus_502",
+"korrekt": false,
+"ende": "limit",
+"zu_token": -1,
+"tokens": 32768,
+"kandidaten": []
+},
+{
+"lauf": "setB-gatter3-t06/math_train_algebra_672",
+"korrekt": true,
+"ende": "eos",
+"zu_token": 20634,
+"tokens": 21186,
+"kandidaten": [
+{
+"t": 6593,
+"richtig": false
+},
+{
+"t": 12270,
+"richtig": false
+},
+{
+"t": 13498,
+"richtig": false
+},
+{
+"t": 21184,
+"richtig": true
+}
+]
+},
+{
+"lauf": "setB-gatter3-t06/math_train_number_theory_692",
+"korrekt": false,
+"ende": "limit",
+"zu_token": -1,
+"tokens": 32768,
+"kandidaten": []
+},
+{
+"lauf": "setB-gatter3-t06/math_train_precalculus_271",
+"korrekt": false,
+"ende": "limit",
+"zu_token": -1,
+"tokens": 32768,
+"kandidaten": []
+},
+{
+"lauf": "setB-gatter3-t06/math_train_number_theory_693",
+"korrekt": true,
+"ende": "eos",
+"zu_token": 15985,
+"tokens": 16576,
+"kandidaten": [
+{
+"t": 4455,
+"richtig": true
+},
+{
+"t": 5937,
+"richtig": true
+},
+{
+"t": 6151,
+"richtig": true
+},
+{
+"t": 6391,
+"richtig": true
+},
+{
+"t": 8359,
+"richtig": true
+},
+{
+"t": 11348,
+"richtig": true
+},
+{
+"t": 13094,
+"richtig": true
+},
+{
+"t": 14274,
+"richtig": true
+},
+{
+"t": 14517,
+"richtig": true
+},
+{
+"t": 14841,
+"richtig": false
+},
+{
+"t": 15982,
+"richtig": true
+},
+{
+"t": 16530,
+"richtig": true
+},
+{
+"t": 16574,
+"richtig": true
+}
+]
+},
+{
+"lauf": "setB-gatter3-t06/math_train_intermediate_algebra_986",
+"korrekt": false,
+"ende": "limit",
+"zu_token": -1,
+"tokens": 32768,
+"kandidaten": [
+{
+"t": 32479,
+"richtig": false
+},
+{
+"t": 32491,
+"richtig": false
+}
+]
+},
+{
+"lauf": "setB-gatter3-t06/math_train_algebra_1495",
+"korrekt": false,
+"ende": "limit",
+"zu_token": -1,
+"tokens": 32768,
+"kandidaten": [
+{
+"t": 14698,
+"richtig": true
+},
+{
+"t": 15098,
+"richtig": true
+},
+{
+"t": 21716,
+"richtig": true
+},
+{
+"t": 24208,
+"richtig": true
+}
+]
+},
+{
+"lauf": "setB-gatter3-t06/math_train_number_theory_763",
+"korrekt": false,
+"ende": "loop_abbruch",
+"zu_token": -1,
+"tokens": 17920,
+"kandidaten": []
+},
+{
+"lauf": "setB-gatter3-t06/math_train_algebra_982",
+"korrekt": true,
+"ende": "eos",
+"zu_token": 21064,
+"tokens": 22169,
+"kandidaten": [
+{
+"t": 13352,
+"richtig": true
+},
+{
+"t": 15673,
+"richtig": false
+},
+{
+"t": 20522,
+"richtig": true
+},
+{
+"t": 22034,
+"richtig": true
+},
+{
+"t": 22167,
+"richtig": true
+}
+]
+},
+{
+"lauf": "setB-gatter3-t06/math_train_algebra_622",
+"korrekt": true,
+"ende": "eos",
+"zu_token": 11589,
+"tokens": 12137,
+"kandidaten": [
+{
+"t": 12135,
+"richtig": true
+}
+]
+},
+{
+"lauf": "setB-gatter3-t06/math_train_geometry_84",
+"korrekt": true,
+"ende": "eos",
+"zu_token": 10849,
+"tokens": 11245,
+"kandidaten": [
+{
+"t": 1188,
+"richtig": false
+},
+{
+"t": 6081,
+"richtig": true
+},
+{
+"t": 9777,
+"richtig": true
+},
+{
+"t": 10847,
+"richtig": true
+},
+{
+"t": 11239,
+"richtig": true
+}
+]
+},
+{
+"lauf": "setB-gatter3-t06/math_train_prealgebra_579",
+"korrekt": false,
+"ende": "limit",
+"zu_token": 6846,
+"tokens": 32768,
+"kandidaten": []
+},
+{
+"lauf": "setB-gatter3-t06/math_train_geometry_478",
+"korrekt": false,
+"ende": "limit",
+"zu_token": 18197,
+"tokens": 32768,
+"kandidaten": []
+},
+{
+"lauf": "setB-gatter3-t06/math_train_number_theory_582",
+"korrekt": false,
+"ende": "limit",
+"zu_token": 26948,
+"tokens": 32768,
+"kandidaten": []
+},
+{
+"lauf": "setB-gatter3-t06/math_train_precalculus_650",
+"korrekt": false,
+"ende": "limit",
+"zu_token": -1,
+"tokens": 32768,
+"kandidaten": []
+},
+{
+"lauf": "setB-gatter3-t06/math_train_counting_and_probability_223",
+"korrekt": true,
+"ende": "limit",
+"zu_token": 24809,
+"tokens": 32768,
+"kandidaten": [
+{
+"t": 25814,
+"richtig": true
+},
+{
+"t": 25821,
+"richtig": true
+},
+{
+"t": 26951,
+"richtig": true
+},
+{
+"t": 27898,
+"richtig": true
+},
+{
+"t": 28187,
+"richtig": true
+},
+{
+"t": 30823,
+"richtig": true
+},
+{
+"t": 31094,
+"richtig": true
+},
+{
+"t": 31386,
+"richtig": true
+},
+{
+"t": 31456,
+"richtig": true
+},
+{
+"t": 31607,
+"richtig": true
+},
+{
+"t": 31677,
+"richtig": true
+},
+{
+"t": 31828,
+"richtig": true
+},
+{
+"t": 31898,
+"richtig": true
+},
+{
+"t": 32055,
+"richtig": true
+},
+{
+"t": 32206,
+"richtig": true
+},
+{
+"t": 32218,
+"richtig": true
+},
+{
+"t": 32368,
+"richtig": true
+},
+{
+"t": 32519,
+"richtig": true
+},
+{
+"t": 32670,
+"richtig": true
+},
+{
+"t": 32682,
+"richtig": true
+}
+]
+},
+{
+"lauf": "setB-gatter3-t06/math_train_algebra_332",
+"korrekt": true,
+"ende": "eos",
+"zu_token": 16365,
+"tokens": 19113,
+"kandidaten": [
+{
+"t": 136,
+"richtig": false
+},
+{
+"t": 5706,
+"richtig": true
+},
+{
+"t": 9097,
+"richtig": true
+},
+{
+"t": 9297,
+"richtig": true
+},
+{
+"t": 9399,
+"richtig": true
+},
+{
+"t": 9501,
+"richtig": true
+},
+{
+"t": 9603,
+"richtig": true
+},
+{
+"t": 9705,
+"richtig": true
+},
+{
+"t": 9807,
+"richtig": false
+},
+{
+"t": 9825,
+"richtig": true
+},
+{
+"t": 9927,
+"richtig": true
+},
+{
+"t": 10029,
+"richtig": false
+},
+{
+"t": 10047,
+"richtig": true
+},
+{
+"t": 10149,
+"richtig": true
+},
+{
+"t": 10301,
+"richtig": true
+},
+{
+"t": 10443,
+"richtig": true
+},
+{
+"t": 10594,
+"richtig": true
+},
+{
+"t": 10747,
+"richtig": true
+},
+{
+"t": 10889,
+"richtig": true
+},
+{
+"t": 11031,
+"richtig": true
+},
+{
+"t": 11173,
+"richtig": true
+},
+{
+"t": 11315,
+"richtig": true
+},
+{
+"t": 11457,
+"richtig": true
+},
+{
+"t": 11599,
+"richtig": true
+},
+{
+"t": 11741,
+"richtig": true
+},
+{
+"t": 11901,
+"richtig": true
+},
+{
+"t": 12043,
+"richtig": true
+},
+{
+"t": 12185,
+"richtig": true
+},
+{
+"t": 12327,
+"richtig": true
+},
+{
+"t": 12469,
+"richtig": true
+},
+{
+"t": 12611,
+"richtig": true
+},
+{
+"t": 12753,
+"richtig": true
+},
+{
+"t": 12895,
+"richtig": true
+},
+{
+"t": 13037,
+"richtig": true
+},
+{
+"t": 13179,
+"richtig": true
+},
+{
+"t": 13321,
+"richtig": true
+},
+{
+"t": 13463,
+"richtig": true
+},
+{
+"t": 13605,
+"richtig": true
+},
+{
+"t": 13747,
+"richtig": true
+},
+{
+"t": 13889,
+"richtig": true
+},
+{
+"t": 14031,
+"richtig": true
+},
+{
+"t": 14150,
+"richtig": true
+},
+{
+"t": 14252,
+"richtig": true
+},
+{
+"t": 14354,
+"richtig": true
+},
+{
+"t": 14473,
+"richtig": true
+},
+{
+"t": 14575,
+"richtig": true
+},
+{
+"t": 14677,
+"richtig": true
+},
+{
+"t": 14764,
+"richtig": true
+},
+{
+"t": 14866,
+"richtig": true
+},
+{
+"t": 14968,
+"richtig": true
+},
+{
+"t": 15087,
+"richtig": true
+},
+{
+"t": 15189,
+"richtig": true
+},
+{
+"t": 15291,
+"richtig": true
+},
+{
+"t": 15410,
+"richtig": true
+},
+{
+"t": 15512,
+"richtig": true
+},
+{
+"t": 15618,
+"richtig": true
+},
+{
+"t": 15720,
+"richtig": true
+},
+{
+"t": 15822,
+"richtig": true
+},
+{
+"t": 15928,
+"richtig": true
+},
+{
+"t": 16030,
+"richtig": true
+},
+{
+"t": 16132,
+"richtig": true
+},
+{
+"t": 16238,
+"richtig": true
+},
+{
+"t": 16340,
+"richtig": true
+},
+{
+"t": 16653,
+"richtig": true
+},
+{
+"t": 16993,
+"richtig": true
+},
+{
+"t": 17331,
+"richtig": false
+},
+{
+"t": 17463,
+"richtig": true
+},
+{
+"t": 17556,
+"richtig": true
+},
+{
+"t": 17644,
+"richtig": true
+},
+{
+"t": 17774,
+"richtig": true
+},
+{
+"t": 17867,
+"richtig": true
+},
+{
+"t": 17960,
+"richtig": true
+},
+{
+"t": 18048,
+"richtig": true
+},
+{
+"t": 18141,
+"richtig": true
+},
+{
+"t": 18234,
+"richtig": true
+},
+{
+"t": 18322,
+"richtig": true
+},
+{
+"t": 18337,
+"richtig": true
+},
+{
+"t": 18430,
+"richtig": true
+},
+{
+"t": 18523,
+"richtig": true
+},
+{
+"t": 18611,
+"richtig": true
+},
+{
+"t": 18626,
+"richtig": true
+},
+{
+"t": 19111,
+"richtig": true
+}
+]
+},
+{
+"lauf": "setB-gatter3-t06/math_train_geometry_490",
+"korrekt": false,
+"ende": "limit",
+"zu_token": -1,
+"tokens": 32768,
+"kandidaten": []
+},
+{
+"lauf": "setB-gatter3-t06/math_train_number_theory_295",
+"korrekt": true,
+"ende": "eos",
+"zu_token": 32121,
+"tokens": 32722,
+"kandidaten": [
+{
+"t": 29293,
+"richtig": true
+},
+{
+"t": 30031,
+"richtig": true
+},
+{
+"t": 30398,
+"richtig": true
+},
+{
+"t": 30715,
+"richtig": true
+},
+{
+"t": 30908,
+"richtig": true
+},
+{
+"t": 31365,
+"richtig": true
+},
+{
+"t": 31662,
+"richtig": true
+},
+{
+"t": 31740,
+"richtig": true
+},
+{
+"t": 31818,
+"richtig": true
+},
+{
+"t": 31896,
+"richtig": true
+},
+{
+"t": 31974,
+"richtig": true
+},
+{
+"t": 32720,
+"richtig": true
+}
+]
+}
+]

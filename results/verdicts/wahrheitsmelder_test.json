@@ -1,0 +1,1370 @@
+[
+ {
+  "modell": "ERGORE",
+  "id": "test/algebra/2036.json",
+  "korrekt": true,
+  "endantwort": true,
+  "wert": 3.426,
+  "unsicher": false,
+  "laenge": 5298,
+  "geraet": "cuda"
+ },
+ {
+  "modell": "ERGORE",
+  "id": "test/algebra/1349.json",
+  "korrekt": false,
+  "endantwort": true,
+  "wert": 1.356,
+  "unsicher": false,
+  "laenge": 7680,
+  "geraet": "cuda"
+ },
+ {
+  "modell": "ERGORE",
+  "id": "test/algebra/2584.json",
+  "korrekt": true,
+  "endantwort": true,
+  "wert": 3.192,
+  "unsicher": false,
+  "laenge": 8499,
+  "geraet": "cuda"
+ },
+ {
+  "modell": "ERGORE",
+  "id": "test/prealgebra/1139.json",
+  "korrekt": false,
+  "endantwort": true,
+  "wert": 1.373,
+  "unsicher": false,
+  "laenge": 10258,
+  "geraet": "cuda"
+ },
+ {
+  "modell": "ERGORE",
+  "id": "test/geometry/248.json",
+  "korrekt": true,
+  "endantwort": true,
+  "wert": 3.938,
+  "unsicher": false,
+  "laenge": 4740,
+  "geraet": "cuda"
+ },
+ {
+  "modell": "ERGORE",
+  "id": "test/precalculus/807.json",
+  "korrekt": true,
+  "endantwort": true,
+  "wert": 2.204,
+  "unsicher": false,
+  "laenge": 13481,
+  "geraet": "cuda"
+ },
+ {
+  "modell": "ERGORE",
+  "id": "test/number_theory/572.json",
+  "korrekt": true,
+  "endantwort": true,
+  "wert": 3.651,
+  "unsicher": false,
+  "laenge": 13539,
+  "geraet": "cuda"
+ },
+ {
+  "modell": "ERGORE",
+  "id": "test/prealgebra/1622.json",
+  "korrekt": false,
+  "endantwort": true,
+  "wert": 3.406,
+  "unsicher": false,
+  "laenge": 17432,
+  "geraet": "cuda"
+ },
+ {
+  "modell": "ERGORE",
+  "id": "test/precalculus/927.json",
+  "korrekt": false,
+  "endantwort": false
+ },
+ {
+  "modell": "ERGORE",
+  "id": "test/number_theory/1032.json",
+  "korrekt": false,
+  "endantwort": false
+ },
+ {
+  "modell": "ERGORE",
+  "id": "test/intermediate_algebra/1197.json",
+  "korrekt": false,
+  "endantwort": false
+ },
+ {
+  "modell": "ERGORE",
+  "id": "test/number_theory/515.json",
+  "korrekt": true,
+  "endantwort": true,
+  "wert": 2.593,
+  "unsicher": false,
+  "laenge": 25086,
+  "geraet": "cuda"
+ },
+ {
+  "modell": "ERGORE",
+  "id": "test/precalculus/990.json",
+  "korrekt": true,
+  "endantwort": true,
+  "wert": 2.147,
+  "unsicher": false,
+  "laenge": 16825,
+  "geraet": "cuda"
+ },
+ {
+  "modell": "ERGORE",
+  "id": "test/precalculus/1199.json",
+  "korrekt": false,
+  "endantwort": false
+ },
+ {
+  "modell": "ERGORE",
+  "id": "test/number_theory/737.json",
+  "korrekt": false,
+  "endantwort": false
+ },
+ {
+  "modell": "ERGORE",
+  "id": "test/algebra/1098.json",
+  "korrekt": true,
+  "endantwort": true,
+  "wert": 3.095,
+  "unsicher": false,
+  "laenge": 6682,
+  "geraet": "cuda"
+ },
+ {
+  "modell": "ERGORE",
+  "id": "test/prealgebra/1840.json",
+  "korrekt": false,
+  "endantwort": true,
+  "wert": 3.326,
+  "unsicher": false,
+  "laenge": 3988,
+  "geraet": "cuda"
+ },
+ {
+  "modell": "ERGORE",
+  "id": "test/intermediate_algebra/134.json",
+  "korrekt": true,
+  "endantwort": true,
+  "wert": 0.554,
+  "unsicher": false,
+  "laenge": 20464,
+  "geraet": "cuda"
+ },
+ {
+  "modell": "ERGORE",
+  "id": "test/intermediate_algebra/1994.json",
+  "korrekt": true,
+  "endantwort": true,
+  "wert": -4.35,
+  "unsicher": true,
+  "laenge": 32808,
+  "geraet": "cuda"
+ },
+ {
+  "modell": "ERGORE",
+  "id": "test/algebra/2193.json",
+  "korrekt": true,
+  "endantwort": true,
+  "wert": 3.028,
+  "unsicher": false,
+  "laenge": 8404,
+  "geraet": "cuda"
+ },
+ {
+  "modell": "ERGORE",
+  "id": "test/algebra/1837.json",
+  "korrekt": false,
+  "endantwort": false
+ },
+ {
+  "modell": "ERGORE",
+  "id": "test/precalculus/1303.json",
+  "korrekt": true,
+  "endantwort": true,
+  "wert": 0.259,
+  "unsicher": false,
+  "laenge": 28789,
+  "geraet": "cuda"
+ },
+ {
+  "modell": "ERGORE",
+  "id": "test/number_theory/864.json",
+  "korrekt": true,
+  "endantwort": true,
+  "wert": 1.371,
+  "unsicher": false,
+  "laenge": 8361,
+  "geraet": "cuda"
+ },
+ {
+  "modell": "ERGORE",
+  "id": "test/prealgebra/1302.json",
+  "korrekt": true,
+  "endantwort": true,
+  "wert": 2.806,
+  "unsicher": false,
+  "laenge": 7965,
+  "geraet": "cuda"
+ },
+ {
+  "modell": "ERGORE",
+  "id": "test/geometry/434.json",
+  "korrekt": false,
+  "endantwort": false
+ },
+ {
+  "modell": "ERGORE",
+  "id": "test/algebra/2427.json",
+  "korrekt": true,
+  "endantwort": true,
+  "wert": 0.72,
+  "unsicher": false,
+  "laenge": 20286,
+  "geraet": "cuda"
+ },
+ {
+  "modell": "ERGORE",
+  "id": "test/counting_and_probability/666.json",
+  "korrekt": false,
+  "endantwort": true,
+  "wert": 0.995,
+  "unsicher": false,
+  "laenge": 16129,
+  "geraet": "cuda"
+ },
+ {
+  "modell": "ERGORE",
+  "id": "test/intermediate_algebra/1000.json",
+  "korrekt": false,
+  "endantwort": true,
+  "wert": -4.222,
+  "unsicher": true,
+  "laenge": 32801,
+  "geraet": "cuda"
+ },
+ {
+  "modell": "ERGORE",
+  "id": "test/counting_and_probability/525.json",
+  "korrekt": false,
+  "endantwort": false
+ },
+ {
+  "modell": "ERGORE",
+  "id": "test/number_theory/627.json",
+  "korrekt": true,
+  "endantwort": true,
+  "wert": 3.369,
+  "unsicher": false,
+  "laenge": 13166,
+  "geraet": "cuda"
+ },
+ {
+  "modell": "ERGORE",
+  "id": "test/intermediate_algebra/607.json",
+  "korrekt": false,
+  "endantwort": false
+ },
+ {
+  "modell": "ERGORE",
+  "id": "test/precalculus/779.json",
+  "korrekt": true,
+  "endantwort": true,
+  "wert": 2.604,
+  "unsicher": false,
+  "laenge": 25580,
+  "geraet": "cuda"
+ },
+ {
+  "modell": "ERGORE",
+  "id": "test/intermediate_algebra/1388.json",
+  "korrekt": false,
+  "endantwort": false
+ },
+ {
+  "modell": "ERGORE",
+  "id": "test/geometry/967.json",
+  "korrekt": true,
+  "endantwort": true,
+  "wert": 2.868,
+  "unsicher": false,
+  "laenge": 13037,
+  "geraet": "cuda"
+ },
+ {
+  "modell": "ERGORE",
+  "id": "test/counting_and_probability/134.json",
+  "korrekt": false,
+  "endantwort": false
+ },
+ {
+  "modell": "ERGORE",
+  "id": "test/counting_and_probability/119.json",
+  "korrekt": true,
+  "endantwort": true,
+  "wert": 3.02,
+  "unsicher": false,
+  "laenge": 20294,
+  "geraet": "cuda"
+ },
+ {
+  "modell": "ERGORE",
+  "id": "test/algebra/24.json",
+  "korrekt": true,
+  "endantwort": true,
+  "wert": 3.372,
+  "unsicher": false,
+  "laenge": 9538,
+  "geraet": "cuda"
+ },
+ {
+  "modell": "ERGORE",
+  "id": "test/algebra/1072.json",
+  "korrekt": true,
+  "endantwort": true,
+  "wert": 2.923,
+  "unsicher": false,
+  "laenge": 27094,
+  "geraet": "cuda"
+ },
+ {
+  "modell": "ERGORE",
+  "id": "test/intermediate_algebra/428.json",
+  "korrekt": true,
+  "endantwort": true,
+  "wert": 3.773,
+  "unsicher": false,
+  "laenge": 32104,
+  "geraet": "cuda"
+ },
+ {
+  "modell": "ERGORE",
+  "id": "test/number_theory/45.json",
+  "korrekt": false,
+  "endantwort": true,
+  "wert": -2.33,
+  "unsicher": true,
+  "laenge": 30643,
+  "geraet": "cuda"
+ },
+ {
+  "modell": "ERGORE",
+  "id": "test/prealgebra/1558.json",
+  "korrekt": true,
+  "endantwort": true,
+  "wert": 2.967,
+  "unsicher": false,
+  "laenge": 11486,
+  "geraet": "cuda"
+ },
+ {
+  "modell": "ERGORE",
+  "id": "test/prealgebra/930.json",
+  "korrekt": true,
+  "endantwort": true,
+  "wert": 3.597,
+  "unsicher": false,
+  "laenge": 12131,
+  "geraet": "cuda"
+ },
+ {
+  "modell": "ERGORE",
+  "id": "test/algebra/2214.json",
+  "korrekt": true,
+  "endantwort": true,
+  "wert": 3.346,
+  "unsicher": false,
+  "laenge": 14663,
+  "geraet": "cuda"
+ },
+ {
+  "modell": "ERGORE",
+  "id": "test/geometry/627.json",
+  "korrekt": false,
+  "endantwort": false
+ },
+ {
+  "modell": "ERGORE",
+  "id": "test/intermediate_algebra/1454.json",
+  "korrekt": false,
+  "endantwort": false
+ },
+ {
+  "modell": "ERGORE",
+  "id": "test/prealgebra/1388.json",
+  "korrekt": true,
+  "endantwort": true,
+  "wert": 3.955,
+  "unsicher": false,
+  "laenge": 2127,
+  "geraet": "cuda"
+ },
+ {
+  "modell": "ERGORE",
+  "id": "test/algebra/1265.json",
+  "korrekt": true,
+  "endantwort": true,
+  "wert": 2.759,
+  "unsicher": false,
+  "laenge": 7707,
+  "geraet": "cuda"
+ },
+ {
+  "modell": "ERGORE",
+  "id": "test/algebra/305.json",
+  "korrekt": true,
+  "endantwort": true,
+  "wert": 3.54,
+  "unsicher": false,
+  "laenge": 11723,
+  "geraet": "cuda"
+ },
+ {
+  "modell": "ERGORE",
+  "id": "test/geometry/178.json",
+  "korrekt": false,
+  "endantwort": false
+ },
+ {
+  "modell": "ERGORE",
+  "id": "test/prealgebra/951.json",
+  "korrekt": true,
+  "endantwort": true,
+  "wert": 3.094,
+  "unsicher": false,
+  "laenge": 15454,
+  "geraet": "cuda"
+ },
+ {
+  "modell": "ERGORE",
+  "id": "test/number_theory/1055.json",
+  "korrekt": false,
+  "endantwort": false
+ },
+ {
+  "modell": "ERGORE",
+  "id": "test/precalculus/285.json",
+  "korrekt": false,
+  "endantwort": false
+ },
+ {
+  "modell": "ERGORE",
+  "id": "test/precalculus/1105.json",
+  "korrekt": false,
+  "endantwort": true,
+  "wert": -6.929,
+  "unsicher": true,
+  "laenge": 20789,
+  "geraet": "cuda"
+ },
+ {
+  "modell": "ERGORE",
+  "id": "test/algebra/769.json",
+  "korrekt": true,
+  "endantwort": true,
+  "wert": 3.573,
+  "unsicher": false,
+  "laenge": 9106,
+  "geraet": "cuda"
+ },
+ {
+  "modell": "ERGORE",
+  "id": "test/prealgebra/572.json",
+  "korrekt": true,
+  "endantwort": true,
+  "wert": 2.789,
+  "unsicher": false,
+  "laenge": 16000,
+  "geraet": "cuda"
+ },
+ {
+  "modell": "ERGORE",
+  "id": "test/intermediate_algebra/1217.json",
+  "korrekt": false,
+  "endantwort": false
+ },
+ {
+  "modell": "ERGORE",
+  "id": "test/algebra/722.json",
+  "korrekt": true,
+  "endantwort": true,
+  "wert": 2.811,
+  "unsicher": false,
+  "laenge": 10533,
+  "geraet": "cuda"
+ },
+ {
+  "modell": "ERGORE",
+  "id": "test/intermediate_algebra/1168.json",
+  "korrekt": true,
+  "endantwort": true,
+  "wert": 2.337,
+  "unsicher": false,
+  "laenge": 13351,
+  "geraet": "cuda"
+ },
+ {
+  "modell": "ERGORE",
+  "id": "test/prealgebra/1247.json",
+  "korrekt": true,
+  "endantwort": true,
+  "wert": 1.457,
+  "unsicher": false,
+  "laenge": 15641,
+  "geraet": "cuda"
+ },
+ {
+  "modell": "ERGORE",
+  "id": "test/algebra/187.json",
+  "korrekt": true,
+  "endantwort": true,
+  "wert": 3.221,
+  "unsicher": false,
+  "laenge": 26363,
+  "geraet": "cuda"
+ },
+ {
+  "modell": "ERGORE",
+  "id": "test/prealgebra/1747.json",
+  "korrekt": true,
+  "endantwort": true,
+  "wert": 1.926,
+  "unsicher": false,
+  "laenge": 1049,
+  "geraet": "cuda"
+ },
+ {
+  "modell": "ERGORE",
+  "id": "test/algebra/2046.json",
+  "korrekt": true,
+  "endantwort": true,
+  "wert": 3.803,
+  "unsicher": false,
+  "laenge": 2671,
+  "geraet": "cuda"
+ },
+ {
+  "modell": "ERGORE",
+  "id": "test/intermediate_algebra/956.json",
+  "korrekt": false,
+  "endantwort": false
+ },
+ {
+  "modell": "ERGORE",
+  "id": "test/intermediate_algebra/1247.json",
+  "korrekt": false,
+  "endantwort": false
+ },
+ {
+  "modell": "ERGORE",
+  "id": "test/intermediate_algebra/279.json",
+  "korrekt": false,
+  "endantwort": false
+ },
+ {
+  "modell": "ERGORE",
+  "id": "test/precalculus/675.json",
+  "korrekt": false,
+  "endantwort": false
+ },
+ {
+  "modell": "ERGORE",
+  "id": "test/precalculus/1146.json",
+  "korrekt": false,
+  "endantwort": false
+ },
+ {
+  "modell": "ERGORE",
+  "id": "test/number_theory/46.json",
+  "korrekt": false,
+  "endantwort": false
+ },
+ {
+  "modell": "ERGORE",
+  "id": "test/number_theory/516.json",
+  "korrekt": false,
+  "endantwort": true,
+  "wert": -7.419,
+  "unsicher": true,
+  "laenge": 3038,
+  "geraet": "cuda"
+ },
+ {
+  "modell": "ERGORE",
+  "id": "test/prealgebra/1233.json",
+  "korrekt": false,
+  "endantwort": false
+ },
+ {
+  "modell": "ERGORE",
+  "id": "test/precalculus/1313.json",
+  "korrekt": false,
+  "endantwort": false
+ },
+ {
+  "modell": "ERGORE",
+  "id": "test/algebra/2253.json",
+  "korrekt": true,
+  "endantwort": true,
+  "wert": 1.96,
+  "unsicher": false,
+  "laenge": 5405,
+  "geraet": "cuda"
+ },
+ {
+  "modell": "ERGORE",
+  "id": "test/algebra/1004.json",
+  "korrekt": true,
+  "endantwort": true,
+  "wert": 3.59,
+  "unsicher": false,
+  "laenge": 3328,
+  "geraet": "cuda"
+ },
+ {
+  "modell": "ERGORE",
+  "id": "test/geometry/456.json",
+  "korrekt": true,
+  "endantwort": true,
+  "wert": 3.422,
+  "unsicher": false,
+  "laenge": 8741,
+  "geraet": "cuda"
+ },
+ {
+  "modell": "ERGORE",
+  "id": "test/prealgebra/192.json",
+  "korrekt": true,
+  "endantwort": true,
+  "wert": 4.323,
+  "unsicher": false,
+  "laenge": 7336,
+  "geraet": "cuda"
+ },
+ {
+  "modell": "ERGORE",
+  "id": "test/intermediate_algebra/207.json",
+  "korrekt": false,
+  "endantwort": false
+ },
+ {
+  "modell": "ERGORE",
+  "id": "test/intermediate_algebra/623.json",
+  "korrekt": true,
+  "endantwort": true,
+  "wert": 2.183,
+  "unsicher": false,
+  "laenge": 16650,
+  "geraet": "cuda"
+ },
+ {
+  "modell": "ERGORE",
+  "id": "test/precalculus/24313.json",
+  "korrekt": true,
+  "endantwort": true,
+  "wert": 2.609,
+  "unsicher": false,
+  "laenge": 22264,
+  "geraet": "cuda"
+ },
+ {
+  "modell": "ERGORE",
+  "id": "test/counting_and_probability/1114.json",
+  "korrekt": false,
+  "endantwort": false
+ },
+ {
+  "modell": "ERGORE",
+  "id": "test/intermediate_algebra/47.json",
+  "korrekt": false,
+  "endantwort": false
+ },
+ {
+  "modell": "MIT",
+  "id": "test/number_theory/572.json",
+  "korrekt": true,
+  "endantwort": true,
+  "wert": 4.324,
+  "unsicher": false,
+  "laenge": 4188,
+  "geraet": "cuda"
+ },
+ {
+  "modell": "MIT",
+  "id": "test/precalculus/807.json",
+  "korrekt": true,
+  "endantwort": true,
+  "wert": 3.185,
+  "unsicher": false,
+  "laenge": 4891,
+  "geraet": "cuda"
+ },
+ {
+  "modell": "MIT",
+  "id": "test/algebra/2036.json",
+  "korrekt": true,
+  "endantwort": true,
+  "wert": 3.288,
+  "unsicher": false,
+  "laenge": 5870,
+  "geraet": "cuda"
+ },
+ {
+  "modell": "MIT",
+  "id": "test/algebra/2584.json",
+  "korrekt": true,
+  "endantwort": true,
+  "wert": 3.035,
+  "unsicher": false,
+  "laenge": 16721,
+  "geraet": "cuda"
+ },
+ {
+  "modell": "MIT",
+  "id": "test/prealgebra/1139.json",
+  "korrekt": false,
+  "endantwort": true,
+  "wert": -2.095,
+  "unsicher": true,
+  "laenge": 17127,
+  "geraet": "cuda"
+ },
+ {
+  "modell": "MIT",
+  "id": "test/intermediate_algebra/1197.json",
+  "korrekt": false,
+  "endantwort": true,
+  "wert": -2.604,
+  "unsicher": true,
+  "laenge": 19608,
+  "geraet": "cuda"
+ },
+ {
+  "modell": "MIT",
+  "id": "test/geometry/248.json",
+  "korrekt": true,
+  "endantwort": true,
+  "wert": 3.46,
+  "unsicher": false,
+  "laenge": 16824,
+  "geraet": "cuda"
+ },
+ {
+  "modell": "MIT",
+  "id": "test/number_theory/515.json",
+  "korrekt": true,
+  "endantwort": true,
+  "wert": 2.526,
+  "unsicher": false,
+  "laenge": 25385,
+  "geraet": "cuda"
+ },
+ {
+  "modell": "MIT",
+  "id": "test/algebra/1349.json",
+  "korrekt": false,
+  "endantwort": true,
+  "wert": -5.135,
+  "unsicher": true,
+  "laenge": 28995,
+  "geraet": "cuda"
+ },
+ {
+  "modell": "MIT",
+  "id": "test/intermediate_algebra/1994.json",
+  "korrekt": true,
+  "endantwort": true,
+  "wert": 2.504,
+  "unsicher": false,
+  "laenge": 29830,
+  "geraet": "cuda"
+ },
+ {
+  "modell": "MIT",
+  "id": "test/intermediate_algebra/134.json",
+  "korrekt": true,
+  "endantwort": true,
+  "wert": 2.318,
+  "unsicher": false,
+  "laenge": 15060,
+  "geraet": "cuda"
+ },
+ {
+  "modell": "MIT",
+  "id": "test/precalculus/927.json",
+  "korrekt": false,
+  "endantwort": false
+ },
+ {
+  "modell": "MIT",
+  "id": "test/number_theory/1032.json",
+  "korrekt": false,
+  "endantwort": false
+ },
+ {
+  "modell": "MIT",
+  "id": "test/prealgebra/1622.json",
+  "korrekt": false,
+  "endantwort": false
+ },
+ {
+  "modell": "MIT",
+  "id": "test/number_theory/737.json",
+  "korrekt": false,
+  "endantwort": false
+ },
+ {
+  "modell": "MIT",
+  "id": "test/algebra/1098.json",
+  "korrekt": true,
+  "endantwort": true,
+  "wert": 3.406,
+  "unsicher": false,
+  "laenge": 8637,
+  "geraet": "cuda"
+ },
+ {
+  "modell": "MIT",
+  "id": "test/precalculus/1303.json",
+  "korrekt": false,
+  "endantwort": false
+ },
+ {
+  "modell": "MIT",
+  "id": "test/geometry/434.json",
+  "korrekt": false,
+  "endantwort": true,
+  "wert": 0.476,
+  "unsicher": false,
+  "laenge": 25790,
+  "geraet": "cuda"
+ },
+ {
+  "modell": "MIT",
+  "id": "test/precalculus/990.json",
+  "korrekt": false,
+  "endantwort": false
+ },
+ {
+  "modell": "MIT",
+  "id": "test/precalculus/1199.json",
+  "korrekt": false,
+  "endantwort": false
+ },
+ {
+  "modell": "MIT",
+  "id": "test/algebra/2193.json",
+  "korrekt": true,
+  "endantwort": true,
+  "wert": 3.422,
+  "unsicher": false,
+  "laenge": 23783,
+  "geraet": "cuda"
+ },
+ {
+  "modell": "MIT",
+  "id": "test/counting_and_probability/666.json",
+  "korrekt": true,
+  "endantwort": true,
+  "wert": 2.63,
+  "unsicher": false,
+  "laenge": 10368,
+  "geraet": "cuda"
+ },
+ {
+  "modell": "MIT",
+  "id": "test/intermediate_algebra/1000.json",
+  "korrekt": false,
+  "endantwort": false
+ },
+ {
+  "modell": "MIT",
+  "id": "test/prealgebra/1302.json",
+  "korrekt": true,
+  "endantwort": true,
+  "wert": 3.128,
+  "unsicher": false,
+  "laenge": 6713,
+  "geraet": "cuda"
+ },
+ {
+  "modell": "MIT",
+  "id": "test/algebra/2427.json",
+  "korrekt": true,
+  "endantwort": true,
+  "wert": 2.659,
+  "unsicher": false,
+  "laenge": 26377,
+  "geraet": "cuda"
+ },
+ {
+  "modell": "MIT",
+  "id": "test/prealgebra/1840.json",
+  "korrekt": false,
+  "endantwort": true,
+  "wert": 1.666,
+  "unsicher": false,
+  "laenge": 22454,
+  "geraet": "cuda"
+ },
+ {
+  "modell": "MIT",
+  "id": "test/intermediate_algebra/607.json",
+  "korrekt": false,
+  "endantwort": false
+ },
+ {
+  "modell": "MIT",
+  "id": "test/precalculus/779.json",
+  "korrekt": true,
+  "endantwort": true,
+  "wert": 3.381,
+  "unsicher": false,
+  "laenge": 22632,
+  "geraet": "cuda"
+ },
+ {
+  "modell": "MIT",
+  "id": "test/algebra/1837.json",
+  "korrekt": false,
+  "endantwort": false
+ },
+ {
+  "modell": "MIT",
+  "id": "test/intermediate_algebra/1388.json",
+  "korrekt": false,
+  "endantwort": false
+ },
+ {
+  "modell": "MIT",
+  "id": "test/algebra/24.json",
+  "korrekt": true,
+  "endantwort": true,
+  "wert": 3.202,
+  "unsicher": false,
+  "laenge": 5865,
+  "geraet": "cuda"
+ },
+ {
+  "modell": "MIT",
+  "id": "test/counting_and_probability/525.json",
+  "korrekt": false,
+  "endantwort": false
+ },
+ {
+  "modell": "MIT",
+  "id": "test/number_theory/627.json",
+  "korrekt": true,
+  "endantwort": true,
+  "wert": 3.607,
+  "unsicher": false,
+  "laenge": 13817,
+  "geraet": "cuda"
+ },
+ {
+  "modell": "MIT",
+  "id": "test/geometry/967.json",
+  "korrekt": true,
+  "endantwort": true,
+  "wert": 3.028,
+  "unsicher": false,
+  "laenge": 14704,
+  "geraet": "cuda"
+ },
+ {
+  "modell": "MIT",
+  "id": "test/number_theory/864.json",
+  "korrekt": true,
+  "endantwort": true,
+  "wert": 1.606,
+  "unsicher": false,
+  "laenge": 25911,
+  "geraet": "cuda"
+ },
+ {
+  "modell": "MIT",
+  "id": "test/counting_and_probability/119.json",
+  "korrekt": true,
+  "endantwort": true,
+  "wert": 2.865,
+  "unsicher": false,
+  "laenge": 18452,
+  "geraet": "cuda"
+ },
+ {
+  "modell": "MIT",
+  "id": "test/algebra/1072.json",
+  "korrekt": true,
+  "endantwort": true,
+  "wert": 2.984,
+  "unsicher": false,
+  "laenge": 19822,
+  "geraet": "cuda"
+ },
+ {
+  "modell": "MIT",
+  "id": "test/number_theory/45.json",
+  "korrekt": true,
+  "endantwort": true,
+  "wert": 3.412,
+  "unsicher": false,
+  "laenge": 18299,
+  "geraet": "cuda"
+ },
+ {
+  "modell": "MIT",
+  "id": "test/intermediate_algebra/428.json",
+  "korrekt": true,
+  "endantwort": true,
+  "wert": 3.728,
+  "unsicher": false,
+  "laenge": 23634,
+  "geraet": "cuda"
+ },
+ {
+  "modell": "MIT",
+  "id": "test/counting_and_probability/134.json",
+  "korrekt": false,
+  "endantwort": false
+ },
+ {
+  "modell": "MIT",
+  "id": "test/algebra/2214.json",
+  "korrekt": true,
+  "endantwort": true,
+  "wert": 3.364,
+  "unsicher": false,
+  "laenge": 7588,
+  "geraet": "cuda"
+ },
+ {
+  "modell": "MIT",
+  "id": "test/prealgebra/1558.json",
+  "korrekt": true,
+  "endantwort": true,
+  "wert": 3.031,
+  "unsicher": false,
+  "laenge": 8618,
+  "geraet": "cuda"
+ },
+ {
+  "modell": "MIT",
+  "id": "test/prealgebra/930.json",
+  "korrekt": true,
+  "endantwort": true,
+  "wert": 3.313,
+  "unsicher": false,
+  "laenge": 13543,
+  "geraet": "cuda"
+ },
+ {
+  "modell": "MIT",
+  "id": "test/algebra/305.json",
+  "korrekt": true,
+  "endantwort": true,
+  "wert": 2.843,
+  "unsicher": false,
+  "laenge": 11327,
+  "geraet": "cuda"
+ },
+ {
+  "modell": "MIT",
+  "id": "test/algebra/1265.json",
+  "korrekt": true,
+  "endantwort": true,
+  "wert": 3.511,
+  "unsicher": false,
+  "laenge": 8240,
+  "geraet": "cuda"
+ },
+ {
+  "modell": "MIT",
+  "id": "test/geometry/178.json",
+  "korrekt": false,
+  "endantwort": false
+ },
+ {
+  "modell": "MIT",
+  "id": "test/intermediate_algebra/1454.json",
+  "korrekt": false,
+  "endantwort": false
+ },
+ {
+  "modell": "MIT",
+  "id": "test/geometry/627.json",
+  "korrekt": false,
+  "endantwort": false
+ },
+ {
+  "modell": "MIT",
+  "id": "test/prealgebra/951.json",
+  "korrekt": true,
+  "endantwort": true,
+  "wert": 4.103,
+  "unsicher": false,
+  "laenge": 6749,
+  "geraet": "cuda"
+ },
+ {
+  "modell": "MIT",
+  "id": "test/prealgebra/1388.json",
+  "korrekt": true,
+  "endantwort": true,
+  "wert": 3.774,
+  "unsicher": false,
+  "laenge": 20523,
+  "geraet": "cuda"
+ },
+ {
+  "modell": "MIT",
+  "id": "test/precalculus/285.json",
+  "korrekt": false,
+  "endantwort": false
+ },
+ {
+  "modell": "MIT",
+  "id": "test/number_theory/1055.json",
+  "korrekt": false,
+  "endantwort": true,
+  "wert": 1.621,
+  "unsicher": false,
+  "laenge": 21893,
+  "geraet": "cuda"
+ },
+ {
+  "modell": "MIT",
+  "id": "test/algebra/769.json",
+  "korrekt": true,
+  "endantwort": true,
+  "wert": 3.924,
+  "unsicher": false,
+  "laenge": 5286,
+  "geraet": "cuda"
+ },
+ {
+  "modell": "MIT",
+  "id": "test/prealgebra/572.json",
+  "korrekt": true,
+  "endantwort": true,
+  "wert": 3.133,
+  "unsicher": false,
+  "laenge": 11315,
+  "geraet": "cuda"
+ },
+ {
+  "modell": "MIT",
+  "id": "test/intermediate_algebra/1168.json",
+  "korrekt": true,
+  "endantwort": true,
+  "wert": 3.306,
+  "unsicher": false,
+  "laenge": 7667,
+  "geraet": "cuda"
+ },
+ {
+  "modell": "MIT",
+  "id": "test/prealgebra/1247.json",
+  "korrekt": true,
+  "endantwort": true,
+  "wert": 3.428,
+  "unsicher": false,
+  "laenge": 7023,
+  "geraet": "cuda"
+ },
+ {
+  "modell": "MIT",
+  "id": "test/intermediate_algebra/1217.json",
+  "korrekt": false,
+  "endantwort": false
+ },
+ {
+  "modell": "MIT",
+  "id": "test/algebra/187.json",
+  "korrekt": true,
+  "endantwort": true,
+  "wert": 3.779,
+  "unsicher": false,
+  "laenge": 19514,
+  "geraet": "cuda"
+ },
+ {
+  "modell": "MIT",
+  "id": "test/algebra/722.json",
+  "korrekt": true,
+  "endantwort": true,
+  "wert": 3.121,
+  "unsicher": false,
+  "laenge": 18152,
+  "geraet": "cuda"
+ },
+ {
+  "modell": "MIT",
+  "id": "test/precalculus/1105.json",
+  "korrekt": false,
+  "endantwort": false
+ },
+ {
+  "modell": "MIT",
+  "id": "test/prealgebra/1747.json",
+  "korrekt": true,
+  "endantwort": true,
+  "wert": 3.192,
+  "unsicher": false,
+  "laenge": 6408,
+  "geraet": "cuda"
+ },
+ {
+  "modell": "MIT",
+  "id": "test/intermediate_algebra/956.json",
+  "korrekt": false,
+  "endantwort": false
+ },
+ {
+  "modell": "MIT",
+  "id": "test/intermediate_algebra/279.json",
+  "korrekt": false,
+  "endantwort": true,
+  "wert": -2.58,
+  "unsicher": true,
+  "laenge": 25187,
+  "geraet": "cuda"
+ },
+ {
+  "modell": "MIT",
+  "id": "test/intermediate_algebra/1247.json",
+  "korrekt": false,
+  "endantwort": false
+ },
+ {
+  "modell": "MIT",
+  "id": "test/precalculus/675.json",
+  "korrekt": false,
+  "endantwort": false
+ },
+ {
+  "modell": "MIT",
+  "id": "test/precalculus/1146.json",
+  "korrekt": false,
+  "endantwort": false
+ },
+ {
+  "modell": "MIT",
+  "id": "test/algebra/2046.json",
+  "korrekt": false,
+  "endantwort": false
+ },
+ {
+  "modell": "MIT",
+  "id": "test/number_theory/46.json",
+  "korrekt": true,
+  "endantwort": true,
+  "wert": 1.585,
+  "unsicher": false,
+  "laenge": 16824,
+  "geraet": "cuda"
+ },
+ {
+  "modell": "MIT",
+  "id": "test/geometry/456.json",
+  "korrekt": true,
+  "endantwort": true,
+  "wert": 2.673,
+  "unsicher": false,
+  "laenge": 7511,
+  "geraet": "cuda"
+ },
+ {
+  "modell": "MIT",
+  "id": "test/prealgebra/1233.json",
+  "korrekt": false,
+  "endantwort": false
+ },
+ {
+  "modell": "MIT",
+  "id": "test/algebra/2253.json",
+  "korrekt": true,
+  "endantwort": true,
+  "wert": 2.427,
+  "unsicher": false,
+  "laenge": 8066,
+  "geraet": "cuda"
+ },
+ {
+  "modell": "MIT",
+  "id": "test/number_theory/516.json",
+  "korrekt": false,
+  "endantwort": false
+ },
+ {
+  "modell": "MIT",
+  "id": "test/precalculus/1313.json",
+  "korrekt": false,
+  "endantwort": false
+ },
+ {
+  "modell": "MIT",
+  "id": "test/intermediate_algebra/207.json",
+  "korrekt": false,
+  "endantwort": false
+ },
+ {
+  "modell": "MIT",
+  "id": "test/algebra/1004.json",
+  "korrekt": true,
+  "endantwort": true,
+  "wert": 2.876,
+  "unsicher": false,
+  "laenge": 6365,
+  "geraet": "cuda"
+ },
+ {
+  "modell": "MIT",
+  "id": "test/prealgebra/192.json",
+  "korrekt": true,
+  "endantwort": true,
+  "wert": 4.256,
+  "unsicher": false,
+  "laenge": 2552,
+  "geraet": "cuda"
+ },
+ {
+  "modell": "MIT",
+  "id": "test/intermediate_algebra/623.json",
+  "korrekt": true,
+  "endantwort": true,
+  "wert": 3.395,
+  "unsicher": false,
+  "laenge": 23260,
+  "geraet": "cuda"
+ },
+ {
+  "modell": "MIT",
+  "id": "test/intermediate_algebra/47.json",
+  "korrekt": true,
+  "endantwort": true,
+  "wert": 3.47,
+  "unsicher": false,
+  "laenge": 27165,
+  "geraet": "cuda"
+ },
+ {
+  "modell": "MIT",
+  "id": "test/precalculus/24313.json",
+  "korrekt": false,
+  "endantwort": false
+ },
+ {
+  "modell": "MIT",
+  "id": "test/counting_and_probability/1114.json",
+  "korrekt": false,
+  "endantwort": false
+ }
+]

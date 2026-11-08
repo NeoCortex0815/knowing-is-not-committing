@@ -1,0 +1,28 @@
+id,gold,pred,correct,end,tokens,think_closed
+test/prealgebra/1973.json,4,4,1,eos,322,0
+test/algebra/509.json,\frac{13}{6},\dfrac{13}{6},1,eos,1247,0
+test/counting_and_probability/216.json,1940,1940,1,eos,2288,0
+test/algebra/2592.json,26000,26000,1,eos,331,0
+test/algebra/1457.json,-120,-120,1,eos,3854,0
+test/number_theory/368.json,4343_6,343,0,eos,257,0
+test/prealgebra/1730.json,6,6,1,eos,4208,0
+test/intermediate_algebra/776.json,3,1,0,loop_abbruch,9984,0
+test/algebra/2176.json,3,3,1,eos,15925,1
+test/intermediate_algebra/1566.json,2k,2a + 2b + c + \frac{b^2}{4a} + k,0,eos,12871,1
+test/counting_and_probability/737.json,"58,500",14850,0,eos,652,0
+test/intermediate_algebra/1572.json,5,5,1,eos,701,0
+test/algebra/1529.json,1,1,1,eos,310,0
+test/algebra/1338.json,66,66,1,eos,983,0
+test/prealgebra/1238.json,2,2,1,eos,4181,0
+test/counting_and_probability/116.json,4495,4495,1,eos,1176,0
+test/algebra/1547.json,6r^2-4r-24,0r^2 + 6r - 24,0,eos,1502,0
+test/number_theory/686.json,4,6,0,eos,600,0
+test/precalculus/801.json,55^\circ,55^\circ,1,eos,18854,1
+test/number_theory/483.json,3,1,0,loop_abbruch,24576,1
+test/intermediate_algebra/190.json,2,0,0,eos,27194,1
+test/algebra/858.json,-2,1+\sqrt{3},0,eos,19313,1
+test/algebra/529.json,81,81,1,eos,11303,1
+test/counting_and_probability/238.json,10080,10080,1,eos,18241,1
+test/precalculus/1281.json,11 \sqrt{5} + 11,30,0,eos,18495,0
+test/precalculus/826.json,\frac{1}{16},\frac{\sqrt{10-2\sqrt{5}}(\sqrt{5}-1)}{32},0,eos,28028,1
+test/counting_and_probability/1014.json,480,0,0,eos,27841,1

@@ -1,0 +1,41 @@
+id,gold,pred,correct,end,tokens,think_closed
+test/algebra/524.json,4005,4005,1,eos,1885,1
+test/algebra/2551.json,10,10,1,eos,1951,1
+test/prealgebra/1317.json,4,4,1,eos,3343,1
+test/prealgebra/1742.json,\dfrac{33}{100},\frac{33}{100},1,eos,6641,1
+test/number_theory/466.json,1,1,1,eos,8340,1
+test/algebra/346.json,7,7,1,eos,3040,1
+test/prealgebra/1834.json,\sqrt{53},\sqrt{53},1,eos,5541,1
+test/geometry/826.json,1\frac{4}{5},,0,loop_abbruch,15360,1
+test/counting_and_probability/913.json,6,1,0,eos,15829,1
+test/geometry/226.json,180^\circ,,0,eos,17121,1
+test/number_theory/533.json,1030,133,0,eos,17294,1
+test/precalculus/580.json,120^\circ,120,0,eos,29235,1
+test/number_theory/691.json,255,255,1,eos,14139,1
+test/prealgebra/993.json,1250,,0,loop_abbruch,27648,1
+test/prealgebra/260.json,36^\circ,72,0,eos,15047,1
+test/number_theory/634.json,333,,0,limit,32768,1
+test/geometry/347.json,76^\circ,,0,limit,32768,1
+test/geometry/483.json,15,,0,limit,32768,1
+test/algebra/1184.json,129,,0,loop_abbruch,14336,0
+test/prealgebra/1512.json,7\pi,,0,eos,18865,1
+test/geometry/686.json,18+2\pi,,0,limit,32768,1
+test/prealgebra/1787.json,1,1,1,eos,7995,1
+test/algebra/1282.json,11,11,1,eos,31026,1
+test/number_theory/1287.json,8,8,1,eos,29965,1
+test/algebra/634.json,4,4,1,eos,15417,1
+test/number_theory/631.json,36,,0,eos,18084,1
+test/algebra/2486.json,"\left(\frac{3}{5},\frac{8}{3}\right]","\left(\frac{3}{5}, \frac{8}{3}\right]",1,eos,14975,1
+test/precalculus/1172.json,7,\sqrt{138},0,eos,19892,1
+test/counting_and_probability/25149.json,63,,0,eos,20571,1
+test/intermediate_algebra/960.json,\frac{17}{21},"\sum_{(a,b,c)}",0,loop_abbruch,23296,1
+test/precalculus/768.json,3 \pm 2 \sqrt{2},,0,loop_abbruch,28672,1
+test/number_theory/488.json,58,48,0,eos,20343,1
+test/geometry/1097.json,63,63,1,eos,8230,1
+test/intermediate_algebra/1411.json,440,,0,loop_abbruch,31744,1
+test/intermediate_algebra/1300.json,16,,0,limit,32768,1
+test/intermediate_algebra/90.json,898,,0,limit,32768,1
+test/intermediate_algebra/754.json,\text{(B)},,0,loop_abbruch,22016,1
+test/precalculus/1201.json,11,,0,loop_abbruch,25600,1
+test/number_theory/1172.json,103,,0,eos,28051,1
+test/precalculus/881.json,\begin{pmatrix} -18 \\ -49 \\ 96 \end{pmatrix},\begin{pmatrix} -18 \\ -69 \\ 96 \end{pmatrix},0,eos,32111,1

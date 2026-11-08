@@ -1,0 +1,5 @@
+id,gold,pred,correct,end,tokens,think_closed
+ifeval_1012,,,0,eos,2364,1
+ifeval_1019,,,1,eos,2863,1
+ifeval_1005,,,1,eos,2896,1
+ifeval_1001,,,0,eos,4371,1

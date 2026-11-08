@@ -1,0 +1,36 @@
+id,gold,pred,correct,end,tokens,think_closed
+test/algebra/1255.json,6,6,1,eos,358,0
+test/prealgebra/1356.json,\frac{4}{9},\frac{4}{9},1,eos,656,0
+test/prealgebra/1655.json,\dfrac{17}{50},\frac{17}{50},1,eos,878,0
+test/algebra/478.json,65,65,1,eos,366,0
+test/geometry/802.json,12,12,1,eos,394,0
+test/number_theory/521.json,18,18,1,eos,10969,1
+test/prealgebra/1272.json,\frac{13}{15},\frac{13}{15},1,eos,343,0
+test/algebra/841.json,350,350,1,eos,698,0
+test/counting_and_probability/181.json,19,17,0,eos,11225,0
+test/algebra/351.json,2,2,1,eos,931,0
+test/algebra/2517.json,-\frac{35}{9},-35/9,1,eos,19586,1
+test/algebra/297.json,1736,\text{No solutions},0,eos,19308,1
+test/number_theory/598.json,.0000672,0.0000096,0,eos,3095,0
+test/prealgebra/1003.json,\frac{270}7\text{ degrees},\frac{990}{7},0,eos,22570,1
+test/algebra/686.json,4,4,1,eos,12239,0
+test/intermediate_algebra/991.json,3,3,1,loop_abbruch,12288,0
+test/prealgebra/1908.json,3,0,0,eos,1191,0
+test/prealgebra/1922.json,1251,1251,1,eos,450,0
+test/algebra/1275.json,\frac{\sqrt{3}}{3},\frac{\sqrt{3}}{3},1,eos,1185,0
+test/precalculus/697.json,-\sqrt{3},4 \cos 10^\circ - \frac{\cos 10^\circ}{\sin 10^\circ},0,eos,28445,1
+test/algebra/1214.json,1,1,1,eos,298,0
+test/prealgebra/1113.json,60,60,1,eos,6113,0
+test/algebra/2199.json,7,7,1,eos,521,0
+test/geometry/65.json,30^\circ,30,1,eos,13155,1
+test/precalculus/659.json,5x - 7y + 11z + 4 = 0,5x - 7y + 11z + 4 = 0,1,eos,12124,1
+test/number_theory/978.json,7,1,0,eos,8627,0
+test/algebra/109.json,0,0,1,eos,280,0
+test/algebra/1082.json,23,23,1,loop_abbruch,17408,0
+test/counting_and_probability/51.json,\frac{13}{18},\frac{2}{3},0,eos,9400,1
+test/intermediate_algebra/183.json,"(2,\infty)",2,0,eos,19270,1
+test/algebra/733.json,6,\text{no solution},0,eos,18624,1
+test/geometry/221.json,30,30,1,eos,18858,0
+test/geometry/702.json,160,150,0,eos,22979,1
+test/intermediate_algebra/1422.json,4,4,1,eos,19350,1
+test/intermediate_algebra/2196.json,\frac{1}{4},0,0,eos,23174,1

@@ -1,0 +1,61 @@
+id,gold,pred,correct,end,tokens,think_closed
+math_train_algebra_1153,2,2,1,eos,9546,1
+math_train_number_theory_401,1050,1050,1,eos,10795,1
+math_train_precalculus_20,\frac{6}{25},,0,eos,22528,1
+math_train_precalculus_279,"(0,0,3)","(0, 0, 3)",1,eos,18011,1
+math_train_geometry_251,0,0,1,eos,5791,1
+math_train_intermediate_algebra_656,23,,0,limit,32768,1
+math_train_counting_and_probability_489,45,45,1,limit,32768,1
+math_train_intermediate_algebra_517,"(-\infty,1]","[0, 1]",0,limit,32768,1
+math_train_precalculus_288,-45,-45,1,eos,23671,1
+math_train_prealgebra_347,3,3,1,eos,20099,1
+math_train_counting_and_probability_711,5,5,1,eos,2452,1
+math_train_intermediate_algebra_348,"\left( -\infty, -\frac{1}{4} \right) \cup (2,\infty)",-0.25 < x < 2,0,eos,17903,1
+math_train_algebra_1562,-15,-15,1,eos,19344,1
+math_train_number_theory_394,21,21,1,eos,21226,1
+math_train_precalculus_43,\frac{7}{2},,0,loop_abbruch,20992,1
+math_train_counting_and_probability_598,29,29,1,eos,8671,1
+math_train_intermediate_algebra_242,"\left( \frac{3}{4}, \infty \right)",,0,limit,32768,1
+math_train_prealgebra_614,8,8,1,eos,12019,1
+math_train_counting_and_probability_383,83,252,0,eos,20580,1
+math_train_precalculus_708,"\left( 3, \frac{9 \pi}{7}, \frac{2 \pi}{5} \right)",,0,loop_abbruch,24832,1
+math_train_algebra_479,2.5,2.5,1,eos,14233,1
+math_train_number_theory_392,140,140,1,eos,6601,1
+math_train_algebra_1619,-1+12i,-1 + 12i,1,eos,8902,1
+math_train_algebra_444,15,,0,loop_abbruch,27904,1
+math_train_intermediate_algebra_1179,\text{odd},,0,limit,32768,1
+math_train_algebra_372,3x^2-12,3x^2 - 12,1,eos,11078,1
+math_train_number_theory_37,0,0,1,eos,18379,1
+math_train_counting_and_probability_297,\frac1{216},,0,loop_abbruch,19968,1
+math_train_algebra_310,\frac{2}{x} + 4x^2,\frac{2}{x} + 4x^2,1,eos,5712,1
+math_train_geometry_158,23,23,1,eos,12349,1
+math_train_number_theory_501,496,,0,eos,26232,1
+math_train_prealgebra_894,18 \text{ degrees},18,1,eos,7199,1
+math_train_number_theory_101,\frac{1}{5},\frac{1}{5},1,eos,2355,1
+math_train_prealgebra_551,72,,0,loop_abbruch,23808,1
+math_train_algebra_749,32,"2, 5, 8, \dots\",0,limit,32768,1
+math_train_algebra_44,"(4,4)","(4, 4)",1,eos,748,1
+math_train_precalculus_640,\frac{25}{49},,0,limit,32768,1
+math_train_number_theory_228,925,,0,eos,17274,1
+math_train_algebra_482,150,150,1,eos,7381,1
+math_train_counting_and_probability_58,-110,,0,loop_abbruch,17408,1
+math_train_algebra_670,\frac{24}{125},\frac{24}{125},1,eos,21898,1
+math_train_algebra_672,6,6,1,eos,11747,1
+math_train_number_theory_692,20,,0,loop_abbruch,17664,1
+math_train_number_theory_693,2,2,1,eos,4093,1
+math_train_precalculus_502,\frac{1}{(a + b)^3},,0,limit,32768,1
+math_train_precalculus_271,4,4,1,eos,24264,1
+math_train_prealgebra_579,9,9,1,eos,7085,1
+math_train_algebra_1495,2,2,1,eos,30166,1
+math_train_intermediate_algebra_986,-2 \text{ or } -12,,0,limit,32768,1
+math_train_algebra_982,10x,10x,1,eos,21103,1
+math_train_number_theory_763,38,,0,loop_abbruch,24832,1
+math_train_geometry_84,\frac{\sqrt{3}}{3},\frac{\sqrt{3}}{3},1,eos,3829,1
+math_train_algebra_622,4,4,1,eos,12803,1
+math_train_number_theory_582,417,,0,eos,14196,1
+math_train_precalculus_650,"\left( 6, \frac{3 \pi}{2}, \frac{\pi}{3} \right)","(6, \frac{\pi}{2}, \frac{\pi}{3})",0,eos,12883,1
+math_train_algebra_332,\frac{3}{2},\frac{3}{2},1,eos,6632,1
+math_train_geometry_478,17,,0,limit,32768,1
+math_train_number_theory_295,1011_2,1011,1,eos,17195,1
+math_train_counting_and_probability_223,14,,0,eos,29114,1
+math_train_geometry_490,47,,0,limit,32768,1

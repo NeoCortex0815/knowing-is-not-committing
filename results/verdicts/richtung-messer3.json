@@ -1,0 +1,199 @@
+{
+ "statistik": {
+  "texte": 82,
+  "pos_rep": 10496,
+  "pos_prod": 10496
+ },
+ "schichten": {
+  "0": {
+   "d_prime": 0.293,
+   "abstand": 0.04,
+   "cos_mit_15": 0.256,
+   "cos_mit_19": 0.26,
+   "stabilitaet_cos_halbe": -0.4121
+  },
+  "1": {
+   "d_prime": 0.48,
+   "abstand": 0.079,
+   "cos_mit_15": 0.447,
+   "cos_mit_19": 0.426,
+   "stabilitaet_cos_halbe": -0.0771
+  },
+  "2": {
+   "d_prime": 0.811,
+   "abstand": 0.113,
+   "cos_mit_15": 0.385,
+   "cos_mit_19": 0.349,
+   "stabilitaet_cos_halbe": 0.1254
+  },
+  "3": {
+   "d_prime": 0.749,
+   "abstand": 0.136,
+   "cos_mit_15": 0.489,
+   "cos_mit_19": 0.471,
+   "stabilitaet_cos_halbe": 0.2571
+  },
+  "4": {
+   "d_prime": 0.86,
+   "abstand": 0.143,
+   "cos_mit_15": 0.513,
+   "cos_mit_19": 0.476,
+   "stabilitaet_cos_halbe": 0.2798
+  },
+  "5": {
+   "d_prime": 0.905,
+   "abstand": 0.155,
+   "cos_mit_15": 0.51,
+   "cos_mit_19": 0.494,
+   "stabilitaet_cos_halbe": 0.2943
+  },
+  "6": {
+   "d_prime": 1.053,
+   "abstand": 0.186,
+   "cos_mit_15": 0.388,
+   "cos_mit_19": 0.343,
+   "stabilitaet_cos_halbe": 0.3138
+  },
+  "7": {
+   "d_prime": 0.946,
+   "abstand": 0.179,
+   "cos_mit_15": 0.527,
+   "cos_mit_19": 0.481,
+   "stabilitaet_cos_halbe": 0.3728
+  },
+  "8": {
+   "d_prime": 1.031,
+   "abstand": 0.191,
+   "cos_mit_15": 0.521,
+   "cos_mit_19": 0.465,
+   "stabilitaet_cos_halbe": 0.481
+  },
+  "9": {
+   "d_prime": 1.006,
+   "abstand": 0.206,
+   "cos_mit_15": 0.542,
+   "cos_mit_19": 0.476,
+   "stabilitaet_cos_halbe": 0.5015
+  },
+  "10": {
+   "d_prime": 1.153,
+   "abstand": 0.262,
+   "cos_mit_15": 0.496,
+   "cos_mit_19": 0.417,
+   "stabilitaet_cos_halbe": 0.5528
+  },
+  "11": {
+   "d_prime": 1.066,
+   "abstand": 0.288,
+   "cos_mit_15": 0.616,
+   "cos_mit_19": 0.529,
+   "stabilitaet_cos_halbe": 0.5568
+  },
+  "12": {
+   "d_prime": 1.08,
+   "abstand": 0.314,
+   "cos_mit_15": 0.631,
+   "cos_mit_19": 0.548,
+   "stabilitaet_cos_halbe": 0.523
+  },
+  "13": {
+   "d_prime": 1.089,
+   "abstand": 0.397,
+   "cos_mit_15": 0.627,
+   "cos_mit_19": 0.552,
+   "stabilitaet_cos_halbe": 0.538
+  },
+  "14": {
+   "d_prime": 1.12,
+   "abstand": 0.465,
+   "cos_mit_15": 0.647,
+   "cos_mit_19": 0.558,
+   "stabilitaet_cos_halbe": 0.4893
+  },
+  "15": {
+   "d_prime": 1.065,
+   "abstand": 0.566,
+   "cos_mit_15": 0.772,
+   "cos_mit_19": 0.665,
+   "stabilitaet_cos_halbe": 0.4368,
+   "tensor": "model.language_model.layers.15.mlp.down_proj.weight",
+   "top_k": 64,
+   "ueberschneidung_mit_spalten": 40,
+   "ueberschneidung_bei_mit_u": 46
+  },
+  "16": {
+   "d_prime": 1.031,
+   "abstand": 0.635,
+   "cos_mit_15": 0.756,
+   "cos_mit_19": 0.716,
+   "stabilitaet_cos_halbe": 0.3935
+  },
+  "17": {
+   "d_prime": 0.991,
+   "abstand": 0.708,
+   "cos_mit_15": 0.728,
+   "cos_mit_19": 0.73,
+   "stabilitaet_cos_halbe": 0.3781
+  },
+  "18": {
+   "d_prime": 1.0,
+   "abstand": 0.7,
+   "cos_mit_15": 0.715,
+   "cos_mit_19": 0.732,
+   "stabilitaet_cos_halbe": 0.3175
+  },
+  "19": {
+   "d_prime": 0.903,
+   "abstand": 0.874,
+   "cos_mit_15": 0.69,
+   "cos_mit_19": 0.773,
+   "stabilitaet_cos_halbe": 0.348,
+   "tensor": "model.language_model.layers.19.mlp.down_proj.weight",
+   "top_k": 64,
+   "ueberschneidung_mit_spalten": 27,
+   "ueberschneidung_bei_mit_u": 34
+  },
+  "20": {
+   "d_prime": 0.892,
+   "abstand": 0.887,
+   "cos_mit_15": 0.686,
+   "cos_mit_19": 0.759,
+   "stabilitaet_cos_halbe": 0.2568
+  },
+  "21": {
+   "d_prime": 0.905,
+   "abstand": 0.943,
+   "cos_mit_15": 0.667,
+   "cos_mit_19": 0.741,
+   "stabilitaet_cos_halbe": 0.2184
+  },
+  "22": {
+   "d_prime": 0.947,
+   "abstand": 0.931,
+   "cos_mit_15": 0.613,
+   "cos_mit_19": 0.682,
+   "stabilitaet_cos_halbe": 0.1317
+  },
+  "23": {
+   "d_prime": 0.815,
+   "abstand": 0.74,
+   "cos_mit_15": 0.266,
+   "cos_mit_19": 0.295,
+   "stabilitaet_cos_halbe": -0.1965
+  }
+ },
+ "staerkste_schichten": [
+  10,
+  14,
+  13,
+  12,
+  11,
+  15
+ ],
+ "laufzeit_s": 77.6,
+ "modus": "schicht",
+ "geraet": "cuda",
+ "kontrast": true,
+ "tokens_gerechnet": 276034,
+ "tokens_ungekuerzt": 276116
+}

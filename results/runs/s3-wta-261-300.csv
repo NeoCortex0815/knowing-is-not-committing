@@ -1,0 +1,41 @@
+id,gold,pred,correct,end,tokens,think_closed
+test/prealgebra/1317.json,4,4,1,eos,1501,1
+test/prealgebra/1742.json,\dfrac{33}{100},\frac{33}{100},1,eos,2543,1
+test/number_theory/466.json,1,1,1,eos,2836,1
+test/precalculus/580.json,120^\circ,120,0,eos,3026,1
+test/geometry/347.json,76^\circ,76,0,eos,3214,1
+test/algebra/524.json,4005,4005,1,eos,3313,1
+test/geometry/483.json,15,15,1,eos,3393,1
+test/prealgebra/1834.json,\sqrt{53},\sqrt{53},1,eos,1254,1
+test/algebra/346.json,7,7,1,eos,1681,1
+test/algebra/2551.json,10,10,1,eos,5131,1
+test/number_theory/1287.json,8,8,1,eos,4890,1
+test/number_theory/691.json,255,,0,eos,9938,1
+test/prealgebra/260.json,36^\circ,,0,loop_abbruch,11520,0
+test/prealgebra/1787.json,1,1,1,eos,6286,1
+test/number_theory/533.json,1030,1030,1,eos,24331,1
+test/geometry/826.json,1\frac{4}{5},,0,loop_abbruch,30208,0
+test/number_theory/634.json,333,,0,limit,32768,1
+test/counting_and_probability/913.json,6,1,0,limit,32768,1
+test/geometry/226.json,180^\circ,,0,limit,32768,0
+test/prealgebra/993.json,1250,,0,limit,32768,1
+test/geometry/686.json,18+2\pi,,0,limit,32768,0
+test/algebra/1282.json,11,,0,limit,32768,1
+test/prealgebra/1512.json,7\pi,,0,limit,32768,0
+test/counting_and_probability/25149.json,63,63,1,eos,3525,1
+test/algebra/2486.json,"\left(\frac{3}{5},\frac{8}{3}\right]","\left(\frac{3}{5}, \frac{8}{3}\right]",1,eos,4572,1
+test/algebra/634.json,4,4,1,eos,8030,1
+test/algebra/1184.json,129,,0,limit,32768,1
+test/number_theory/488.json,58,,0,loop_abbruch,9472,0
+test/precalculus/768.json,3 \pm 2 \sqrt{2},3 \pm 2\sqrt{2},1,limit,32768,1
+test/intermediate_algebra/1411.json,440,,0,limit,32768,1
+test/number_theory/1172.json,103,103,1,eos,17105,1
+test/intermediate_algebra/960.json,\frac{17}{21},,0,limit,32768,1
+test/precalculus/881.json,\begin{pmatrix} -18 \\ -49 \\ 96 \end{pmatrix},\begin{pmatrix} -18 \\ -49 \\ 96 \end{pmatrix},1,eos,16946,1
+test/intermediate_algebra/1300.json,16,,0,loop_abbruch,28928,1
+test/number_theory/631.json,36,,0,limit,32768,1
+test/precalculus/1172.json,7,,0,limit,32768,1
+test/geometry/1097.json,63,,0,loop_abbruch,20736,0
+test/intermediate_algebra/90.json,898,,0,limit,32768,1
+test/precalculus/1201.json,11,,0,limit,32768,0
+test/intermediate_algebra/754.json,\text{(B)},,0,limit,32768,0

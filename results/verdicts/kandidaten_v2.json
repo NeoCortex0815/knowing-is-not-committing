@@ -1,0 +1,44 @@
+{
+ "WT-A": {
+  "laeufe": 60,
+  "richtig": 31,
+  "abdeckung_alt": 3,
+  "abdeckung_v2": 29,
+  "gelegenheiten_v2": 37,
+  "zuendungen_v2": 26,
+  "schnell_v2": 42,
+  "schnell_richtig_v2": 26,
+  "vorsprung_median": 562.0,
+  "vorsprung_n": 3,
+  "zuend_quote_v2": 0.7027,
+  "praezision_v2": 0.619
+ },
+ "eigen": {
+  "laeufe": 60,
+  "richtig": 23,
+  "abdeckung_alt": 20,
+  "abdeckung_v2": 22,
+  "gelegenheiten_v2": 40,
+  "zuendungen_v2": 15,
+  "schnell_v2": 24,
+  "schnell_richtig_v2": 15,
+  "vorsprung_median": 4259.5,
+  "vorsprung_n": 20,
+  "zuend_quote_v2": 0.375,
+  "praezision_v2": 0.625
+ },
+ "ERGORE": {
+  "laeufe": 60,
+  "richtig": 34,
+  "abdeckung_alt": 15,
+  "abdeckung_v2": 29,
+  "gelegenheiten_v2": 33,
+  "zuendungen_v2": 9,
+  "schnell_v2": 39,
+  "schnell_richtig_v2": 9,
+  "vorsprung_median": 4897.0,
+  "vorsprung_n": 15,
+  "zuend_quote_v2": 0.2727272727272727,
+  "praezision_v2": 0.23076923076923078
+ }
+}

@@ -1,0 +1,57 @@
+{
+ "kw75": {
+  "laeufe": 40,
+  "roh": {
+   "n": {
+    "Ende": 35,
+    "Warte": 1596,
+    "Weiter": 13536
+   },
+   "mittel": {
+    "Ende": 0.186,
+    "Warte": 0.1046,
+    "Weiter": 0.0725
+   },
+   "AUC_Ende_gegen_rest": 0.7407480835315887,
+   "AUC_Warte_gegen_Weiter": 0.6170664314080118,
+   "verlauf_mittel": [
+    0.0499,
+    0.057,
+    0.0675,
+    0.0918,
+    0.1051
+   ],
+   "je_lauf": {
+    "laeufe_mit_abgabe": 33,
+    "ende_ueber_median": 28,
+    "p_einseitig": 3.309384919703007e-05
+   }
+  },
+  "lda": {
+   "n": {
+    "Ende": 35,
+    "Warte": 1596,
+    "Weiter": 13536
+   },
+   "mittel": {
+    "Ende": 0.1349,
+    "Warte": 0.0592,
+    "Weiter": 0.0364
+   },
+   "AUC_Ende_gegen_rest": 0.733714738869378,
+   "AUC_Warte_gegen_Weiter": 0.6134562451489243,
+   "verlauf_mittel": [
+    0.0226,
+    0.0285,
+    0.0352,
+    0.048,
+    0.0518
+   ],
+   "je_lauf": {
+    "laeufe_mit_abgabe": 33,
+    "ende_ueber_median": 24,
+    "p_einseitig": 0.0067654934246093035
+   }
+  }
+ }
+}

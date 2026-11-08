@@ -1,0 +1,26 @@
+id,gold,pred,correct,end,tokens,think_closed
+test/algebra/1255.json,6,6,1,eos,429,0
+test/prealgebra/1356.json,\frac{4}{9},\frac{3}{10},0,eos,566,0
+test/number_theory/521.json,18,18,1,eos,622,0
+test/algebra/478.json,65,65,1,eos,237,0
+test/algebra/2517.json,-\frac{35}{9},\frac{99}{25},0,eos,907,0
+test/geometry/802.json,12,12,1,eos,399,0
+test/prealgebra/1655.json,\dfrac{17}{50},\frac{17}{100},0,eos,1617,0
+test/prealgebra/1272.json,\frac{13}{15},\frac{13}{15},1,eos,485,0
+test/algebra/841.json,350,350,1,eos,1732,0
+test/algebra/351.json,2,2,1,eos,604,0
+test/intermediate_algebra/991.json,3,3,1,eos,10062,0
+test/number_theory/598.json,.0000672,0.255555\dots,0,eos,531,0
+test/counting_and_probability/181.json,19,23,0,eos,15559,1
+test/prealgebra/1113.json,60,6\sqrt{6},0,eos,999,0
+test/precalculus/697.json,-\sqrt{3},\frac{1 - 2\sin 20^\circ}{\sin 10^\circ},0,eos,17931,1
+test/prealgebra/1908.json,3,1,0,eos,730,0
+test/algebra/1275.json,\frac{\sqrt{3}}{3},\frac{\sqrt[3]{3}}{3},0,eos,726,0
+test/prealgebra/1922.json,1251,1251,1,eos,294,0
+test/algebra/297.json,1736,1652,0,eos,18958,1
+test/algebra/686.json,4,4,1,eos,18983,1
+test/precalculus/659.json,5x - 7y + 11z + 4 = 0,5x - 7y + 11z + 4 = 0,1,eos,3553,0
+test/algebra/1082.json,23,17,0,eos,1431,0
+test/prealgebra/1003.json,\frac{270}7\text{ degrees},\frac{1}{2},0,eos,24138,1
+test/geometry/65.json,30^\circ,60,0,eos,14729,0
+test/intermediate_algebra/183.json,"(2,\infty)","[2, \infty)",0,eos,14753,1

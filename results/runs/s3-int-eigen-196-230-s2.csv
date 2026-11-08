@@ -1,0 +1,36 @@
+id,gold,pred,correct,end,tokens,think_closed
+test/prealgebra/1907.json,17,17,1,eos,350,0
+test/algebra/1937.json,1600,1600,1,eos,374,0
+test/prealgebra/2086.json,40,40,1,eos,669,0
+test/intermediate_algebra/1555.json,12,12,1,eos,1465,0
+test/number_theory/838.json,6,4,0,eos,7773,0
+test/algebra/291.json,\frac{2}{3},1,0,eos,10263,0
+test/precalculus/541.json,"\left( \frac{3}{2}, -13 \right)","(\frac{3}{2}, -13)",1,eos,648,0
+test/number_theory/149.json,66,50,0,eos,11562,1
+test/counting_and_probability/389.json,28,28,1,eos,1452,0
+test/number_theory/1201.json,1,1,1,eos,2863,0
+test/number_theory/234.json,16,16,1,eos,2924,0
+test/prealgebra/1555.json,5,5,1,eos,441,0
+test/intermediate_algebra/591.json,24,\frac{290}{3},0,eos,16597,1
+test/algebra/2102.json,56,56,1,eos,586,0
+test/prealgebra/378.json,10,10,1,eos,5058,0
+test/counting_and_probability/508.json,"10,\!080",24,0,eos,20208,1
+test/algebra/907.json,2,2,1,eos,374,0
+test/prealgebra/1436.json,6,6,1,eos,1076,0
+test/algebra/864.json,"(-1,6)","(-1,6)",1,eos,386,0
+test/precalculus/263.json,\begin{pmatrix} -2 \\ -14 \\ -7 \end{pmatrix},-13,0,eos,17036,0
+test/intermediate_algebra/1510.json,0,4,0,loop_abbruch,24064,1
+test/prealgebra/1961.json,\frac{16}{27},4,0,eos,9194,1
+test/geometry/547.json,54,\frac{6}{25},0,eos,607,0
+test/counting_and_probability/765.json,110,15,0,eos,18231,1
+test/counting_and_probability/282.json,\frac{1}{2},\frac{8}{15},0,eos,15360,1
+test/number_theory/417.json,"11,\! 111,\! 111,\! 100",450,0,eos,16904,1
+test/number_theory/89.json,900,900,1,eos,13277,0
+test/intermediate_algebra/102.json,2,\frac{\sqrt{5}-1}{2},0,eos,23321,1
+test/precalculus/819.json,\text{(C)},C,1,eos,463,0
+test/prealgebra/2057.json,90,90,1,eos,1087,0
+test/counting_and_probability/71.json,3,6,0,eos,4304,0
+test/number_theory/183.json,14,14,1,eos,12630,1
+test/algebra/2159.json,11,11,1,eos,14882,1
+test/precalculus/190.json,\frac{9}{256},(\sin 20^\circ \sin 40^\circ \sin 60^\circ \sin 80^\circ)^2,0,eos,22896,1
+test/precalculus/1056.json,288 \pi,36\pi,0,eos,18840,1

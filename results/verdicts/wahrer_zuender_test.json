@@ -1,0 +1,205 @@
+{
+ "T_hoch": 0.37532032423003736,
+ "T_sh": Infinity,
+ "modelle": {
+  "ERGORE": {
+   "ohne Tor": {
+    "richtig": 43,
+    "laeufe": 80,
+    "gewonnen": 0,
+    "verloren": 0,
+    "gefeuert": 0,
+    "tokens_mittel": 18557
+   },
+   "Zünder": {
+    "richtig": 43,
+    "laeufe": 80,
+    "gewonnen": 4,
+    "verloren": 4,
+    "gefeuert": 55,
+    "tokens_mittel": 15411
+   },
+   "B1 erster Kandidat": {
+    "richtig": 18,
+    "laeufe": 80,
+    "gewonnen": 5,
+    "verloren": 30,
+    "gefeuert": 74,
+    "tokens_mittel": 9734
+   },
+   "B2 erster wiederholter": {
+    "richtig": 44,
+    "laeufe": 80,
+    "gewonnen": 4,
+    "verloren": 3,
+    "gefeuert": 50,
+    "tokens_mittel": 14566
+   },
+   "Zünder gemischte Etiketten": {
+    "richtig": 43,
+    "laeufe": 80,
+    "gewonnen": 0,
+    "verloren": 0,
+    "gefeuert": 0,
+    "tokens_mittel": 18557
+   }
+  },
+  "MIT": {
+   "ohne Tor": {
+    "richtig": 43,
+    "laeufe": 80,
+    "gewonnen": 0,
+    "verloren": 0,
+    "gefeuert": 0,
+    "tokens_mittel": 21501
+   },
+   "Zünder": {
+    "richtig": 45,
+    "laeufe": 80,
+    "gewonnen": 2,
+    "verloren": 0,
+    "gefeuert": 50,
+    "tokens_mittel": 18079
+   },
+   "B1 erster Kandidat": {
+    "richtig": 20,
+    "laeufe": 80,
+    "gewonnen": 2,
+    "verloren": 25,
+    "gefeuert": 59,
+    "tokens_mittel": 14140
+   },
+   "B2 erster wiederholter": {
+    "richtig": 42,
+    "laeufe": 80,
+    "gewonnen": 2,
+    "verloren": 3,
+    "gefeuert": 42,
+    "tokens_mittel": 18632
+   },
+   "Zünder gemischte Etiketten": {
+    "richtig": 43,
+    "laeufe": 80,
+    "gewonnen": 0,
+    "verloren": 0,
+    "gefeuert": 0,
+    "tokens_mittel": 21501
+   }
+  },
+  "eigen": {
+   "ohne Tor": {
+    "richtig": 33,
+    "laeufe": 80,
+    "gewonnen": 0,
+    "verloren": 0,
+    "gefeuert": 0,
+    "tokens_mittel": 22534
+   },
+   "Zünder": {
+    "richtig": 35,
+    "laeufe": 80,
+    "gewonnen": 3,
+    "verloren": 1,
+    "gefeuert": 40,
+    "tokens_mittel": 19562
+   },
+   "B1 erster Kandidat": {
+    "richtig": 24,
+    "laeufe": 80,
+    "gewonnen": 4,
+    "verloren": 13,
+    "gefeuert": 49,
+    "tokens_mittel": 16617
+   },
+   "B2 erster wiederholter": {
+    "richtig": 36,
+    "laeufe": 80,
+    "gewonnen": 4,
+    "verloren": 1,
+    "gefeuert": 32,
+    "tokens_mittel": 20002
+   },
+   "Zünder gemischte Etiketten": {
+    "richtig": 33,
+    "laeufe": 80,
+    "gewonnen": 0,
+    "verloren": 0,
+    "gefeuert": 0,
+    "tokens_mittel": 22534
+   }
+  }
+ },
+ "vergleiche": {
+  "ERGORE+Zünder gegen MIT+ohne Tor": {
+   "n": 80,
+   "a": 43,
+   "b": 43,
+   "nur_a": 7,
+   "nur_b": 7,
+   "p": 1.0
+  },
+  "MIT+Zünder gegen MIT+ohne Tor": {
+   "n": 80,
+   "a": 45,
+   "b": 43,
+   "nur_a": 2,
+   "nur_b": 0,
+   "p": 0.5
+  },
+  "ERGORE+Zünder gegen MIT+Zünder": {
+   "n": 80,
+   "a": 43,
+   "b": 45,
+   "nur_a": 6,
+   "nur_b": 8,
+   "p": 0.79052734375
+  },
+  "ERGORE+Zünder gegen ERGORE+ohne Tor": {
+   "n": 80,
+   "a": 43,
+   "b": 43,
+   "nur_a": 4,
+   "nur_b": 4,
+   "p": 1.0
+  },
+  "ERGORE+Zünder gegen ERGORE+B2 erster wiederholter": {
+   "n": 80,
+   "a": 43,
+   "b": 44,
+   "nur_a": 4,
+   "nur_b": 5,
+   "p": 1.0
+  },
+  "ERGORE+Zünder gegen ERGORE+B1 erster Kandidat": {
+   "n": 80,
+   "a": 43,
+   "b": 18,
+   "nur_a": 26,
+   "nur_b": 1,
+   "p": 4.172325134277344e-07
+  },
+  "ERGORE+Zünder gegen ERGORE+Zünder gemischte Etiketten": {
+   "n": 80,
+   "a": 43,
+   "b": 43,
+   "nur_a": 4,
+   "nur_b": 4,
+   "p": 1.0
+  },
+  "eigen+Zünder gegen eigen+ohne Tor": {
+   "n": 80,
+   "a": 35,
+   "b": 33,
+   "nur_a": 3,
+   "nur_b": 1,
+   "p": 0.625
+  }
+ },
+ "sicherheit": {
+  "ERGORE": false,
+  "MIT": true,
+  "eigen": true
+ },
+ "hauptvergleich": "NICHT über MIT",
+ "mehrwert": false
+}

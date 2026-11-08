@@ -1,0 +1,700 @@
+{
+ "schwelle_F": -1.197608512215461,
+ "schwelle_K_int": 3.8,
+ "schwelle_K_denken": 2.15,
+ "Set B": {
+  "auc_int": 0.7399553571428571,
+  "int_richtig": 32,
+  "int_richtig_streng": 32,
+  "varianten": {
+   "INT + Harnisch [F]": {
+    "n": 60,
+    "richtig": 32,
+    "falsch": 25,
+    "enthalten": 3,
+    "S2": -0.3,
+    "tokens_mittel": 7704
+   },
+   "INT + Harnisch [K]": {
+    "n": 60,
+    "richtig": 8,
+    "falsch": 2,
+    "enthalten": 50,
+    "S2": 0.06666666666666667,
+    "tokens_mittel": 7704
+   },
+   "INT allein (offiziell)": {
+    "n": 60,
+    "richtig": 32,
+    "falsch": 28,
+    "enthalten": 0,
+    "S2": -0.4,
+    "tokens_mittel": 7704
+   },
+   "eigen allein (offiziell)": {
+    "n": 60,
+    "richtig": 23,
+    "falsch": 6,
+    "enthalten": 31,
+    "S2": 0.18333333333333332,
+    "tokens_mittel": 24698
+   },
+   "eigen + Zwang + Harnisch [F]": {
+    "n": 60,
+    "richtig": 30,
+    "falsch": 11,
+    "enthalten": 19,
+    "S2": 0.13333333333333333,
+    "tokens_mittel": 24698
+   },
+   "Kaskade INT → eigen → weiß nicht [F]": {
+    "n": 60,
+    "richtig": 32,
+    "falsch": 25,
+    "enthalten": 3,
+    "S2": -0.3,
+    "tokens_mittel": 9218
+   },
+   "Kaskade INT → eigen → weiß nicht [F, streng]": {
+    "n": 60,
+    "richtig": 32,
+    "falsch": 25,
+    "enthalten": 3,
+    "S2": -0.3,
+    "tokens_mittel": 9218
+   },
+   "Kaskade INT → eigen → weiß nicht [K]": {
+    "n": 60,
+    "richtig": 24,
+    "falsch": 4,
+    "enthalten": 32,
+    "S2": 0.26666666666666666,
+    "tokens_mittel": 29217
+   },
+   "Kaskade INT → eigen → weiß nicht [K, streng]": {
+    "n": 60,
+    "richtig": 24,
+    "falsch": 4,
+    "enthalten": 32,
+    "S2": 0.26666666666666666,
+    "tokens_mittel": 29217
+   },
+   "WT-A allein (offiziell)": {
+    "n": 60,
+    "richtig": 31,
+    "falsch": 6,
+    "enthalten": 23,
+    "S2": 0.31666666666666665,
+    "tokens_mittel": 16523
+   },
+   "WT-A + Zwang + Harnisch [F]": {
+    "n": 60,
+    "richtig": 32,
+    "falsch": 11,
+    "enthalten": 17,
+    "S2": 0.16666666666666666,
+    "tokens_mittel": 16523
+   },
+   "Kaskade INT → WT-A → weiß nicht [F]": {
+    "n": 60,
+    "richtig": 32,
+    "falsch": 27,
+    "enthalten": 1,
+    "S2": -0.36666666666666664,
+    "tokens_mittel": 9277
+   },
+   "Kaskade INT → WT-A → weiß nicht [F, streng]": {
+    "n": 60,
+    "richtig": 32,
+    "falsch": 27,
+    "enthalten": 1,
+    "S2": -0.36666666666666664,
+    "tokens_mittel": 9277
+   },
+   "Kaskade INT → WT-A → weiß nicht [K]": {
+    "n": 60,
+    "richtig": 9,
+    "falsch": 2,
+    "enthalten": 49,
+    "S2": 0.08333333333333333,
+    "tokens_mittel": 23019
+   },
+   "Kaskade INT → WT-A → weiß nicht [K, streng]": {
+    "n": 60,
+    "richtig": 9,
+    "falsch": 2,
+    "enthalten": 49,
+    "S2": 0.08333333333333333,
+    "tokens_mittel": 23019
+   },
+   "ERGORE allein (offiziell)": {
+    "n": 60,
+    "richtig": 34,
+    "falsch": 6,
+    "enthalten": 20,
+    "S2": 0.36666666666666664,
+    "tokens_mittel": 18432
+   },
+   "ERGORE + Zwang + Harnisch [F]": {
+    "n": 60,
+    "richtig": 35,
+    "falsch": 6,
+    "enthalten": 19,
+    "S2": 0.38333333333333336,
+    "tokens_mittel": 18432
+   },
+   "Kaskade INT → ERGORE → weiß nicht [F]": {
+    "n": 60,
+    "richtig": 32,
+    "falsch": 26,
+    "enthalten": 2,
+    "S2": -0.3333333333333333,
+    "tokens_mittel": 8840
+   },
+   "Kaskade INT → ERGORE → weiß nicht [F, streng]": {
+    "n": 60,
+    "richtig": 32,
+    "falsch": 26,
+    "enthalten": 2,
+    "S2": -0.3333333333333333,
+    "tokens_mittel": 8840
+   },
+   "Kaskade INT → ERGORE → weiß nicht [K]": {
+    "n": 60,
+    "richtig": 28,
+    "falsch": 3,
+    "enthalten": 29,
+    "S2": 0.36666666666666664,
+    "tokens_mittel": 23826
+   },
+   "Kaskade INT → ERGORE → weiß nicht [K, streng]": {
+    "n": 60,
+    "richtig": 28,
+    "falsch": 3,
+    "enthalten": 29,
+    "S2": 0.36666666666666664,
+    "tokens_mittel": 23826
+   }
+  },
+  "zweige": {
+   "Kaskade INT → eigen → weiß nicht [F]": {
+    "INT/richtig": 32,
+    "INT/falsch": 25,
+    "weiß nicht/enthalten": 3
+   },
+   "Kaskade INT → eigen → weiß nicht [F, streng]": {
+    "INT/richtig": 32,
+    "INT/falsch": 25,
+    "weiß nicht/enthalten": 3
+   },
+   "Kaskade INT → eigen → weiß nicht [K]": {
+    "Denken/richtig": 16,
+    "INT/richtig": 8,
+    "weiß nicht/enthalten": 32,
+    "INT/falsch": 2,
+    "Denken/falsch": 2
+   },
+   "Kaskade INT → eigen → weiß nicht [K, streng]": {
+    "Denken/richtig": 16,
+    "INT/richtig": 8,
+    "weiß nicht/enthalten": 32,
+    "INT/falsch": 2,
+    "Denken/falsch": 2
+   },
+   "Kaskade INT → WT-A → weiß nicht [F]": {
+    "INT/richtig": 32,
+    "INT/falsch": 25,
+    "weiß nicht/enthalten": 1,
+    "Denken/falsch": 2
+   },
+   "Kaskade INT → WT-A → weiß nicht [F, streng]": {
+    "INT/richtig": 32,
+    "INT/falsch": 25,
+    "weiß nicht/enthalten": 1,
+    "Denken/falsch": 2
+   },
+   "Kaskade INT → WT-A → weiß nicht [K]": {
+    "weiß nicht/enthalten": 49,
+    "INT/richtig": 8,
+    "INT/falsch": 2,
+    "Denken/richtig": 1
+   },
+   "Kaskade INT → WT-A → weiß nicht [K, streng]": {
+    "weiß nicht/enthalten": 49,
+    "INT/richtig": 8,
+    "INT/falsch": 2,
+    "Denken/richtig": 1
+   },
+   "Kaskade INT → ERGORE → weiß nicht [F]": {
+    "INT/richtig": 32,
+    "INT/falsch": 25,
+    "weiß nicht/enthalten": 2,
+    "Denken/falsch": 1
+   },
+   "Kaskade INT → ERGORE → weiß nicht [F, streng]": {
+    "INT/richtig": 32,
+    "INT/falsch": 25,
+    "weiß nicht/enthalten": 2,
+    "Denken/falsch": 1
+   },
+   "Kaskade INT → ERGORE → weiß nicht [K]": {
+    "Denken/richtig": 20,
+    "INT/richtig": 8,
+    "weiß nicht/enthalten": 29,
+    "INT/falsch": 2,
+    "Denken/falsch": 1
+   },
+   "Kaskade INT → ERGORE → weiß nicht [K, streng]": {
+    "Denken/richtig": 20,
+    "INT/richtig": 8,
+    "weiß nicht/enthalten": 29,
+    "INT/falsch": 2,
+    "Denken/falsch": 1
+   }
+  }
+ },
+ "1–160": {
+  "auc_int": 0.7586316122901489,
+  "int_richtig": 77,
+  "int_richtig_streng": 77,
+  "varianten": {
+   "INT + Harnisch [F]": {
+    "n": 160,
+    "richtig": 77,
+    "falsch": 77,
+    "enthalten": 6,
+    "S2": -0.48125,
+    "tokens_mittel": 8354
+   },
+   "INT + Harnisch [K]": {
+    "n": 160,
+    "richtig": 27,
+    "falsch": 8,
+    "enthalten": 125,
+    "S2": 0.06875,
+    "tokens_mittel": 8354
+   },
+   "INT allein (offiziell)": {
+    "n": 160,
+    "richtig": 77,
+    "falsch": 82,
+    "enthalten": 1,
+    "S2": -0.54375,
+    "tokens_mittel": 8354
+   },
+   "MIT allein (offiziell)": {
+    "n": 160,
+    "richtig": 77,
+    "falsch": 23,
+    "enthalten": 60,
+    "S2": 0.19375,
+    "tokens_mittel": 21374
+   },
+   "MIT + Zwang + Harnisch [F]": {
+    "n": 160,
+    "richtig": 92,
+    "falsch": 33,
+    "enthalten": 35,
+    "S2": 0.1625,
+    "tokens_mittel": 21374
+   },
+   "Kaskade INT → MIT → weiß nicht [F]": {
+    "n": 160,
+    "richtig": 79,
+    "falsch": 79,
+    "enthalten": 2,
+    "S2": -0.49375,
+    "tokens_mittel": 9374
+   },
+   "Kaskade INT → MIT → weiß nicht [F, streng]": {
+    "n": 160,
+    "richtig": 79,
+    "falsch": 78,
+    "enthalten": 3,
+    "S2": -0.48125,
+    "tokens_mittel": 9579
+   },
+   "Kaskade INT → MIT → weiß nicht [K]": {
+    "n": 160,
+    "richtig": 71,
+    "falsch": 8,
+    "enthalten": 81,
+    "S2": 0.34375,
+    "tokens_mittel": 26477
+   },
+   "Kaskade INT → MIT → weiß nicht [K, streng]": {
+    "n": 160,
+    "richtig": 71,
+    "falsch": 8,
+    "enthalten": 81,
+    "S2": 0.34375,
+    "tokens_mittel": 26477
+   },
+   "ERGORE allein (offiziell)": {
+    "n": 160,
+    "richtig": 79,
+    "falsch": 25,
+    "enthalten": 56,
+    "S2": 0.18125,
+    "tokens_mittel": 18523
+   },
+   "ERGORE + Zwang + Harnisch [F]": {
+    "n": 160,
+    "richtig": 81,
+    "falsch": 30,
+    "enthalten": 49,
+    "S2": 0.13125,
+    "tokens_mittel": 18523
+   },
+   "Kaskade INT → ERGORE → weiß nicht [F]": {
+    "n": 160,
+    "richtig": 80,
+    "falsch": 79,
+    "enthalten": 1,
+    "S2": -0.4875,
+    "tokens_mittel": 9268
+   },
+   "Kaskade INT → ERGORE → weiß nicht [F, streng]": {
+    "n": 160,
+    "richtig": 80,
+    "falsch": 78,
+    "enthalten": 2,
+    "S2": -0.475,
+    "tokens_mittel": 9394
+   },
+   "Kaskade INT → ERGORE → weiß nicht [K]": {
+    "n": 160,
+    "richtig": 62,
+    "falsch": 11,
+    "enthalten": 87,
+    "S2": 0.25,
+    "tokens_mittel": 23451
+   },
+   "Kaskade INT → ERGORE → weiß nicht [K, streng]": {
+    "n": 160,
+    "richtig": 62,
+    "falsch": 11,
+    "enthalten": 87,
+    "S2": 0.25,
+    "tokens_mittel": 23451
+   }
+  },
+  "zweige": {
+   "Kaskade INT → MIT → weiß nicht [F]": {
+    "INT/richtig": 77,
+    "INT/falsch": 77,
+    "Denken/richtig": 2,
+    "weiß nicht/enthalten": 2,
+    "Denken/falsch": 2
+   },
+   "Kaskade INT → MIT → weiß nicht [F, streng]": {
+    "INT/richtig": 77,
+    "INT/falsch": 76,
+    "weiß nicht/enthalten": 3,
+    "Denken/richtig": 2,
+    "Denken/falsch": 2
+   },
+   "Kaskade INT → MIT → weiß nicht [K]": {
+    "Denken/richtig": 44,
+    "weiß nicht/enthalten": 81,
+    "INT/richtig": 27,
+    "INT/falsch": 8
+   },
+   "Kaskade INT → MIT → weiß nicht [K, streng]": {
+    "Denken/richtig": 44,
+    "weiß nicht/enthalten": 81,
+    "INT/richtig": 27,
+    "INT/falsch": 8
+   },
+   "Kaskade INT → ERGORE → weiß nicht [F]": {
+    "INT/richtig": 77,
+    "INT/falsch": 77,
+    "Denken/richtig": 3,
+    "Denken/falsch": 2,
+    "weiß nicht/enthalten": 1
+   },
+   "Kaskade INT → ERGORE → weiß nicht [F, streng]": {
+    "INT/richtig": 77,
+    "INT/falsch": 76,
+    "weiß nicht/enthalten": 2,
+    "Denken/richtig": 3,
+    "Denken/falsch": 2
+   },
+   "Kaskade INT → ERGORE → weiß nicht [K]": {
+    "Denken/richtig": 35,
+    "Denken/falsch": 3,
+    "weiß nicht/enthalten": 87,
+    "INT/richtig": 27,
+    "INT/falsch": 8
+   },
+   "Kaskade INT → ERGORE → weiß nicht [K, streng]": {
+    "Denken/richtig": 35,
+    "Denken/falsch": 3,
+    "weiß nicht/enthalten": 87,
+    "INT/richtig": 27,
+    "INT/falsch": 8
+   }
+  }
+ },
+ "161–300": {
+  "auc_int": 0.6807511737089202,
+  "int_richtig": 71,
+  "int_richtig_streng": 71,
+  "varianten": {
+   "INT + Harnisch [F]": {
+    "n": 140,
+    "richtig": 71,
+    "falsch": 67,
+    "enthalten": 2,
+    "S2": -0.45,
+    "tokens_mittel": 8420
+   },
+   "INT + Harnisch [K]": {
+    "n": 140,
+    "richtig": 27,
+    "falsch": 7,
+    "enthalten": 106,
+    "S2": 0.09285714285714286,
+    "tokens_mittel": 8420
+   },
+   "INT allein (offiziell)": {
+    "n": 140,
+    "richtig": 71,
+    "falsch": 69,
+    "enthalten": 0,
+    "S2": -0.4785714285714286,
+    "tokens_mittel": 8420
+   },
+   "MIT allein (offiziell)": {
+    "n": 140,
+    "richtig": 80,
+    "falsch": 21,
+    "enthalten": 39,
+    "S2": 0.2714285714285714,
+    "tokens_mittel": 21525
+   },
+   "MIT + Zwang + Harnisch [F]": {
+    "n": 140,
+    "richtig": 83,
+    "falsch": 26,
+    "enthalten": 31,
+    "S2": 0.22142857142857142,
+    "tokens_mittel": 21525
+   },
+   "Kaskade INT → MIT → weiß nicht [F]": {
+    "n": 140,
+    "richtig": 71,
+    "falsch": 67,
+    "enthalten": 2,
+    "S2": -0.45,
+    "tokens_mittel": 8889
+   },
+   "Kaskade INT → MIT → weiß nicht [F, streng]": {
+    "n": 140,
+    "richtig": 72,
+    "falsch": 66,
+    "enthalten": 2,
+    "S2": -0.42857142857142855,
+    "tokens_mittel": 9123
+   },
+   "Kaskade INT → MIT → weiß nicht [K]": {
+    "n": 140,
+    "richtig": 67,
+    "falsch": 11,
+    "enthalten": 62,
+    "S2": 0.32142857142857145,
+    "tokens_mittel": 25981
+   },
+   "Kaskade INT → MIT → weiß nicht [K, streng]": {
+    "n": 140,
+    "richtig": 67,
+    "falsch": 11,
+    "enthalten": 62,
+    "S2": 0.32142857142857145,
+    "tokens_mittel": 25981
+   },
+   "ERGORE allein (offiziell)": {
+    "n": 140,
+    "richtig": 65,
+    "falsch": 33,
+    "enthalten": 42,
+    "S2": -0.007142857142857143,
+    "tokens_mittel": 18629
+   },
+   "ERGORE + Zwang + Harnisch [F]": {
+    "n": 140,
+    "richtig": 71,
+    "falsch": 30,
+    "enthalten": 39,
+    "S2": 0.07857142857142857,
+    "tokens_mittel": 18629
+   },
+   "Kaskade INT → ERGORE → weiß nicht [F]": {
+    "n": 140,
+    "richtig": 71,
+    "falsch": 69,
+    "enthalten": 0,
+    "S2": -0.4785714285714286,
+    "tokens_mittel": 8762
+   },
+   "Kaskade INT → ERGORE → weiß nicht [F, streng]": {
+    "n": 140,
+    "richtig": 71,
+    "falsch": 68,
+    "enthalten": 1,
+    "S2": -0.4642857142857143,
+    "tokens_mittel": 8886
+   },
+   "Kaskade INT → ERGORE → weiß nicht [K]": {
+    "n": 140,
+    "richtig": 55,
+    "falsch": 12,
+    "enthalten": 73,
+    "S2": 0.22142857142857142,
+    "tokens_mittel": 23368
+   },
+   "Kaskade INT → ERGORE → weiß nicht [K, streng]": {
+    "n": 140,
+    "richtig": 55,
+    "falsch": 12,
+    "enthalten": 73,
+    "S2": 0.22142857142857142,
+    "tokens_mittel": 23368
+   },
+   "WT-A allein (offiziell)": {
+    "n": 140,
+    "richtig": 61,
+    "falsch": 10,
+    "enthalten": 69,
+    "S2": 0.29285714285714287,
+    "tokens_mittel": 19064
+   },
+   "WT-A + Zwang + Harnisch [F]": {
+    "n": 140,
+    "richtig": 67,
+    "falsch": 28,
+    "enthalten": 45,
+    "S2": 0.07857142857142857,
+    "tokens_mittel": 19064
+   },
+   "Kaskade INT → WT-A → weiß nicht [F]": {
+    "n": 140,
+    "richtig": 71,
+    "falsch": 68,
+    "enthalten": 1,
+    "S2": -0.4642857142857143,
+    "tokens_mittel": 8889
+   },
+   "Kaskade INT → WT-A → weiß nicht [F, streng]": {
+    "n": 140,
+    "richtig": 72,
+    "falsch": 67,
+    "enthalten": 1,
+    "S2": -0.44285714285714284,
+    "tokens_mittel": 9062
+   },
+   "Kaskade INT → WT-A → weiß nicht [K]": {
+    "n": 140,
+    "richtig": 32,
+    "falsch": 8,
+    "enthalten": 100,
+    "S2": 0.11428571428571428,
+    "tokens_mittel": 24631
+   },
+   "Kaskade INT → WT-A → weiß nicht [K, streng]": {
+    "n": 140,
+    "richtig": 32,
+    "falsch": 8,
+    "enthalten": 100,
+    "S2": 0.11428571428571428,
+    "tokens_mittel": 24631
+   }
+  },
+  "zweige": {
+   "Kaskade INT → MIT → weiß nicht [F]": {
+    "INT/falsch": 67,
+    "INT/richtig": 71,
+    "weiß nicht/enthalten": 2
+   },
+   "Kaskade INT → MIT → weiß nicht [F, streng]": {
+    "INT/falsch": 66,
+    "INT/richtig": 71,
+    "weiß nicht/enthalten": 2,
+    "Denken/richtig": 1
+   },
+   "Kaskade INT → MIT → weiß nicht [K]": {
+    "INT/falsch": 7,
+    "Denken/richtig": 40,
+    "weiß nicht/enthalten": 62,
+    "INT/richtig": 27,
+    "Denken/falsch": 4
+   },
+   "Kaskade INT → MIT → weiß nicht [K, streng]": {
+    "INT/falsch": 7,
+    "Denken/richtig": 40,
+    "weiß nicht/enthalten": 62,
+    "INT/richtig": 27,
+    "Denken/falsch": 4
+   },
+   "Kaskade INT → ERGORE → weiß nicht [F]": {
+    "INT/falsch": 67,
+    "INT/richtig": 71,
+    "Denken/falsch": 2
+   },
+   "Kaskade INT → ERGORE → weiß nicht [F, streng]": {
+    "INT/falsch": 66,
+    "INT/richtig": 71,
+    "Denken/falsch": 2,
+    "weiß nicht/enthalten": 1
+   },
+   "Kaskade INT → ERGORE → weiß nicht [K]": {
+    "INT/falsch": 7,
+    "Denken/richtig": 28,
+    "weiß nicht/enthalten": 73,
+    "INT/richtig": 27,
+    "Denken/falsch": 5
+   },
+   "Kaskade INT → ERGORE → weiß nicht [K, streng]": {
+    "INT/falsch": 7,
+    "Denken/richtig": 28,
+    "weiß nicht/enthalten": 73,
+    "INT/richtig": 27,
+    "Denken/falsch": 5
+   },
+   "Kaskade INT → WT-A → weiß nicht [F]": {
+    "INT/falsch": 67,
+    "INT/richtig": 71,
+    "Denken/falsch": 1,
+    "weiß nicht/enthalten": 1
+   },
+   "Kaskade INT → WT-A → weiß nicht [F, streng]": {
+    "INT/falsch": 66,
+    "INT/richtig": 71,
+    "Denken/falsch": 1,
+    "weiß nicht/enthalten": 1,
+    "Denken/richtig": 1
+   },
+   "Kaskade INT → WT-A → weiß nicht [K]": {
+    "INT/falsch": 7,
+    "weiß nicht/enthalten": 100,
+    "INT/richtig": 27,
+    "Denken/richtig": 5,
+    "Denken/falsch": 1
+   },
+   "Kaskade INT → WT-A → weiß nicht [K, streng]": {
+    "INT/falsch": 7,
+    "weiß nicht/enthalten": 100,
+    "INT/richtig": 27,
+    "Denken/richtig": 5,
+    "Denken/falsch": 1
+   }
+  }
+ },
+ "urteil_N9": {
+  "variante": "Kaskade INT → MIT → weiß nicht [K, streng]",
+  "S2": 0.32142857142857145,
+  "richtig": 67,
+  "urteil": "widerlegt",
+  "vorbedingung": false
+ }
+}

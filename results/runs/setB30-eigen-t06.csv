@@ -1,0 +1,31 @@
+id,gold,pred,correct,end,tokens,think_closed
+math_train_algebra_1153,2,2,1,eos,9529,1
+math_train_counting_and_probability_489,45,45,1,eos,17537,1
+math_train_number_theory_401,1050,,0,limit,32768,0
+math_train_precalculus_20,\frac{6}{25},,0,limit,32768,1
+math_train_intermediate_algebra_656,23,,0,limit,32768,0
+math_train_intermediate_algebra_517,"(-\infty,1]",,0,limit,32768,1
+math_train_precalculus_279,"(0,0,3)","x = 3 \sin\left(\frac{5\pi}{12}\right), \quad y = 0, \quad z = 3 \cos\left(\frac{5\pi}{12}\right)",0,eos,27940,1
+math_train_prealgebra_347,3,3,1,eos,17269,1
+math_train_precalculus_288,-45,,0,limit,32768,0
+math_train_algebra_1562,-15,-15,1,eos,17327,1
+math_train_geometry_251,0,0,1,eos,23581,1
+math_train_intermediate_algebra_242,"\left( \frac{3}{4}, \infty \right)",,0,loop_abbruch,25344,0
+math_train_number_theory_394,21,21,1,eos,29253,1
+math_train_counting_and_probability_711,5,5,1,eos,10969,1
+math_train_intermediate_algebra_348,"\left( -\infty, -\frac{1}{4} \right) \cup (2,\infty)",,0,loop_abbruch,23808,0
+math_train_counting_and_probability_598,29,29,1,eos,20382,1
+math_train_precalculus_43,\frac{7}{2},,0,limit,32768,0
+math_train_prealgebra_614,8,8,1,eos,9162,1
+math_train_precalculus_708,"\left( 3, \frac{9 \pi}{7}, \frac{2 \pi}{5} \right)",,0,limit,32768,0
+math_train_algebra_1619,-1+12i,-1+12i,1,eos,5989,1
+math_train_counting_and_probability_383,83,,0,limit,32768,0
+math_train_intermediate_algebra_1179,\text{odd},,0,limit,32768,0
+math_train_algebra_372,3x^2-12,3x^2 - 12,1,eos,6420,1
+math_train_algebra_444,15,,0,limit,32768,1
+math_train_algebra_479,2.5,2.5,1,eos,25400,1
+math_train_counting_and_probability_297,\frac1{216},\frac{1}{216},1,eos,15526,1
+math_train_number_theory_392,140,,0,limit,32768,1
+math_train_number_theory_37,0,,0,limit,32768,0
+math_train_number_theory_501,496,,0,limit,32768,1
+math_train_algebra_749,32,,0,limit,32768,0

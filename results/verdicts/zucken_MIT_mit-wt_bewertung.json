@@ -1,0 +1,1390 @@
+{
+ "datei": "zucken_MIT_mit-wt.jsonl",
+ "laeufe": 140,
+ "gekappt": 0,
+ "aussagen_richtig": {
+  "n": 4262,
+  "tor_offen": 0.4997653683716565,
+  "kontext(up>0.5)": 0.42022524636320974,
+  "S>=0.1": 0.4096668230877522,
+  "S>=0.5": 0.24847489441576726,
+  "S>=1": 0.10816518066635382,
+  "S_median": 0.016332073535312852,
+  "ps>0.1": 0.2630220553730643,
+  "ps>0.5": 0.24589394650398874,
+  "gegenschub(S_min<-0.05)": 0.1353824495541999,
+  "ps_abl>0.1": 0.0014077897700610043
+ },
+ "aussagen_falsch": {
+  "n": 61451,
+  "tor_offen": 0.11768726302257083,
+  "kontext(up>0.5)": 0.12364322793770646,
+  "S>=0.1": 0.035849701388097836,
+  "S>=0.5": 0.008413207270833672,
+  "S>=1": 0.0027827049193666496,
+  "S_median": 0.0019222600666278311,
+  "ps>0.1": 0.008852581731786302,
+  "ps>0.5": 0.008152837219898781,
+  "gegenschub(S_min<-0.05)": 0.029552000781110154,
+  "ps_abl>0.1": 0.00022782379456802982
+ },
+ "auc_S": 0.66954183797965,
+ "auc_zT": 0.7264128853362781,
+ "trichter_alle": {
+  "richtiger Wert im Denken": 102,
+  "Tor offen an einem richtigen Wert (W)": 94,
+  "Zucken S≥0.5 an einem richtigen Wert": 76,
+  "danach ≤ 64 Tokens geschlossen (T)": 24,
+  "richtig abgegeben": 23
+ },
+ "trichter_nur MIT richtig": {
+  "richtiger Wert im Denken": 23,
+  "Tor offen an einem richtigen Wert (W)": 22,
+  "Zucken S≥0.5 an einem richtigen Wert": 20,
+  "danach ≤ 64 Tokens geschlossen (T)": 10,
+  "richtig abgegeben": 10
+ },
+ "trichter_nur WT-A richtig": {
+  "richtiger Wert im Denken": 6,
+  "Tor offen an einem richtigen Wert (W)": 5,
+  "Zucken S≥0.5 an einem richtigen Wert": 3,
+  "danach ≤ 64 Tokens geschlossen (T)": 1,
+  "richtig abgegeben": 0
+ },
+ "abschluesse": {
+  "Reflex": {
+   "n": 0,
+   "richtig": 0
+  },
+  "natürlich": {
+   "n": 117,
+   "am richtigen Wert": 36,
+   "am falschen Wert": 48,
+   "woanders": 33,
+   "richtig": 80
+  },
+  "unklar": {
+   "n": 1,
+   "am richtigen Wert": 1,
+   "richtig": 0
+  }
+ },
+ "horizont": {
+  "0-1000": {
+   "richtig_n": 157,
+   "richtig_zT_median": 0.5025815963745117,
+   "richtig_offen": 0.5159235668789809,
+   "falsch_n": 2324,
+   "falsch_zT_median": -2.8952842950820923,
+   "falsch_offen": 0.12177280550774526
+  },
+  "1000-2000": {
+   "richtig_n": 209,
+   "richtig_zT_median": 2.2902119159698486,
+   "richtig_offen": 0.6507177033492823,
+   "falsch_n": 2617,
+   "falsch_zT_median": -2.7383675575256348,
+   "falsch_offen": 0.15131830340084065
+  },
+  "2000-4000": {
+   "richtig_n": 342,
+   "richtig_zT_median": 2.2707574367523193,
+   "richtig_offen": 0.6842105263157895,
+   "falsch_n": 5396,
+   "falsch_zT_median": -2.8053637742996216,
+   "falsch_offen": 0.1428836174944403
+  },
+  "4000-8000": {
+   "richtig_n": 678,
+   "richtig_zT_median": 1.2372534275054932,
+   "richtig_offen": 0.6076696165191741,
+   "falsch_n": 10524,
+   "falsch_zT_median": -2.9379541873931885,
+   "falsch_offen": 0.1460471303686811
+  },
+  "8000-16000": {
+   "richtig_n": 1179,
+   "richtig_zT_median": 0.9326322078704834,
+   "richtig_offen": 0.5793044953350297,
+   "falsch_n": 18903,
+   "falsch_zT_median": -3.2396445274353027,
+   "falsch_offen": 0.1171771676453473
+  },
+  "16000-40000": {
+   "richtig_n": 1697,
+   "richtig_zT_median": -2.055194854736328,
+   "richtig_offen": 0.34413671184443134,
+   "falsch_n": 21687,
+   "falsch_zT_median": -3.658492088317871,
+   "falsch_offen": 0.09360446350348135
+  }
+ },
+ "gegenschub": {
+  "stellen_S<=-0.02": 26306,
+  "davon_natuerliche_Abschlussstelle(ps_abl>=0.05)": 39,
+  "ps_mit_median_dort": 0.4481,
+  "ps_ohne_median_dort": 0.3225,
+  "verlust_summe(ohne-mit)": 2.82252
+ },
+ "schaetzung_mit_wt": {
+  "n": 140,
+  "unten": 67.55235984276307,
+  "oben": 69.32013222754662,
+  "neutral": 67.8746357901374,
+  "mit_tatsaechlich": 80,
+  "pi_r": 0.8918918918918919,
+  "pi_f": 0.16216216216216217
+ },
+ "schaetzung_je_aufgabe": {
+  "test/algebra/1282.json": {
+   "erwartet_richtig": 0.8918918918918919,
+   "unklar": 0.0,
+   "p_frueh_zu": 1.0,
+   "mit": true,
+   "wta": false,
+   "gruppe": "nur MIT richtig"
+  },
+  "test/algebra/1578.json": {
+   "erwartet_richtig": 0.8918918918918919,
+   "unklar": 0.0,
+   "p_frueh_zu": 1.0,
+   "mit": true,
+   "wta": false,
+   "gruppe": "nur MIT richtig"
+  },
+  "test/algebra/686.json": {
+   "erwartet_richtig": 0.8918918918918919,
+   "unklar": 0.0,
+   "p_frueh_zu": 1.0,
+   "mit": true,
+   "wta": false,
+   "gruppe": "nur MIT richtig"
+  },
+  "test/counting_and_probability/913.json": {
+   "erwartet_richtig": 0.8918918918918919,
+   "unklar": 0.0,
+   "p_frueh_zu": 1.0,
+   "mit": true,
+   "wta": false,
+   "gruppe": "nur MIT richtig"
+  },
+  "test/geometry/221.json": {
+   "erwartet_richtig": 0.8918918918918919,
+   "unklar": 0.0,
+   "p_frueh_zu": 1.0,
+   "mit": true,
+   "wta": false,
+   "gruppe": "nur MIT richtig"
+  },
+  "test/geometry/347.json": {
+   "erwartet_richtig": 0.8918918918918919,
+   "unklar": 0.0,
+   "p_frueh_zu": 1.0,
+   "mit": true,
+   "wta": false,
+   "gruppe": "nur MIT richtig"
+  },
+  "test/intermediate_algebra/1300.json": {
+   "erwartet_richtig": 0.8918918918918919,
+   "unklar": 0.0,
+   "p_frueh_zu": 1.0,
+   "mit": true,
+   "wta": false,
+   "gruppe": "nur MIT richtig"
+  },
+  "test/intermediate_algebra/1555.json": {
+   "erwartet_richtig": 0.8918918918918919,
+   "unklar": 0.0,
+   "p_frueh_zu": 1.0,
+   "mit": true,
+   "wta": false,
+   "gruppe": "nur MIT richtig"
+  },
+  "test/number_theory/1065.json": {
+   "erwartet_richtig": 0.6777240526256607,
+   "unklar": 0.3222759473743393,
+   "p_frueh_zu": 0.0,
+   "mit": true,
+   "wta": false,
+   "gruppe": "nur MIT richtig"
+  },
+  "test/number_theory/1201.json": {
+   "erwartet_richtig": 0.2056520837837838,
+   "unklar": 0.0,
+   "p_frueh_zu": 1.0,
+   "mit": true,
+   "wta": false,
+   "gruppe": "nur MIT richtig"
+  },
+  "test/number_theory/149.json": {
+   "erwartet_richtig": 0.8918918918918919,
+   "unklar": 0.0,
+   "p_frueh_zu": 1.0,
+   "mit": true,
+   "wta": false,
+   "gruppe": "nur MIT richtig"
+  },
+  "test/number_theory/183.json": {
+   "erwartet_richtig": 1.0,
+   "unklar": 0.0,
+   "p_frueh_zu": 0.0,
+   "mit": true,
+   "wta": false,
+   "gruppe": "nur MIT richtig"
+  },
+  "test/number_theory/488.json": {
+   "erwartet_richtig": 0.16216216216216217,
+   "unklar": 0.0,
+   "p_frueh_zu": 1.0,
+   "mit": true,
+   "wta": false,
+   "gruppe": "nur MIT richtig"
+  },
+  "test/number_theory/521.json": {
+   "erwartet_richtig": 0.5775939706767731,
+   "unklar": 0.0,
+   "p_frueh_zu": 1.0,
+   "mit": true,
+   "wta": false,
+   "gruppe": "nur MIT richtig"
+  },
+  "test/number_theory/634.json": {
+   "erwartet_richtig": 0.8918918918918919,
+   "unklar": 0.0,
+   "p_frueh_zu": 1.0,
+   "mit": true,
+   "wta": false,
+   "gruppe": "nur MIT richtig"
+  },
+  "test/number_theory/691.json": {
+   "erwartet_richtig": 1.0,
+   "unklar": 0.0,
+   "p_frueh_zu": 0.0,
+   "mit": true,
+   "wta": false,
+   "gruppe": "nur MIT richtig"
+  },
+  "test/number_theory/978.json": {
+   "erwartet_richtig": 0.8918918918918919,
+   "unklar": 0.0,
+   "p_frueh_zu": 1.0,
+   "mit": true,
+   "wta": false,
+   "gruppe": "nur MIT richtig"
+  },
+  "test/prealgebra/1356.json": {
+   "erwartet_richtig": 0.8918918918918919,
+   "unklar": 0.0,
+   "p_frueh_zu": 1.0,
+   "mit": true,
+   "wta": false,
+   "gruppe": "nur MIT richtig"
+  },
+  "test/prealgebra/1512.json": {
+   "erwartet_richtig": 1.0,
+   "unklar": 0.0,
+   "p_frueh_zu": 0.0,
+   "mit": true,
+   "wta": false,
+   "gruppe": "nur MIT richtig"
+  },
+  "test/prealgebra/153.json": {
+   "erwartet_richtig": 0.8918918918918919,
+   "unklar": 0.0,
+   "p_frueh_zu": 1.0,
+   "mit": true,
+   "wta": false,
+   "gruppe": "nur MIT richtig"
+  },
+  "test/prealgebra/2057.json": {
+   "erwartet_richtig": 0.8918918918918919,
+   "unklar": 0.0,
+   "p_frueh_zu": 1.0,
+   "mit": true,
+   "wta": false,
+   "gruppe": "nur MIT richtig"
+  },
+  "test/prealgebra/260.json": {
+   "erwartet_richtig": 1.0,
+   "unklar": 0.0,
+   "p_frueh_zu": 0.0,
+   "mit": true,
+   "wta": false,
+   "gruppe": "nur MIT richtig"
+  },
+  "test/prealgebra/378.json": {
+   "erwartet_richtig": 0.8918918918918919,
+   "unklar": 0.0,
+   "p_frueh_zu": 1.0,
+   "mit": true,
+   "wta": false,
+   "gruppe": "nur MIT richtig"
+  },
+  "test/prealgebra/993.json": {
+   "erwartet_richtig": 0.8918918918918919,
+   "unklar": 0.0,
+   "p_frueh_zu": 1.0,
+   "mit": true,
+   "wta": false,
+   "gruppe": "nur MIT richtig"
+  },
+  "test/precalculus/263.json": {
+   "erwartet_richtig": 0.16216216216216217,
+   "unklar": 0.0,
+   "p_frueh_zu": 1.0,
+   "mit": true,
+   "wta": false,
+   "gruppe": "nur MIT richtig"
+  },
+  "test/precalculus/441.json": {
+   "erwartet_richtig": 0.8918918918918919,
+   "unklar": 0.0,
+   "p_frueh_zu": 1.0,
+   "mit": true,
+   "wta": false,
+   "gruppe": "nur MIT richtig"
+  },
+  "test/algebra/2159.json": {
+   "erwartet_richtig": 0.16216216216216217,
+   "unklar": 0.0,
+   "p_frueh_zu": 1.0,
+   "mit": false,
+   "wta": true,
+   "gruppe": "nur WT-A richtig"
+  },
+  "test/number_theory/1287.json": {
+   "erwartet_richtig": 0.8918918918918919,
+   "unklar": 0.0,
+   "p_frueh_zu": 1.0,
+   "mit": false,
+   "wta": true,
+   "gruppe": "nur WT-A richtig"
+  },
+  "test/number_theory/533.json": {
+   "erwartet_richtig": 0.8918918918918919,
+   "unklar": 0.0,
+   "p_frueh_zu": 1.0,
+   "mit": false,
+   "wta": true,
+   "gruppe": "nur WT-A richtig"
+  },
+  "test/number_theory/89.json": {
+   "erwartet_richtig": 0.0,
+   "unklar": 0.0,
+   "p_frueh_zu": 0.0,
+   "mit": false,
+   "wta": true,
+   "gruppe": "nur WT-A richtig"
+  },
+  "test/prealgebra/1742.json": {
+   "erwartet_richtig": 0.8918918918918919,
+   "unklar": 0.0,
+   "p_frueh_zu": 1.0,
+   "mit": false,
+   "wta": true,
+   "gruppe": "nur WT-A richtig"
+  },
+  "test/precalculus/768.json": {
+   "erwartet_richtig": 0.049118918918918925,
+   "unklar": 0.2807807364167041,
+   "p_frueh_zu": 0.30289999999999995,
+   "mit": false,
+   "wta": true,
+   "gruppe": "nur WT-A richtig"
+  },
+  "test/precalculus/881.json": {
+   "erwartet_richtig": 0.16216216216216217,
+   "unklar": 0.0,
+   "p_frueh_zu": 1.0,
+   "mit": false,
+   "wta": true,
+   "gruppe": "nur WT-A richtig"
+  },
+  "test/algebra/1082.json": {
+   "erwartet_richtig": 0.8918918918918919,
+   "unklar": 0.0,
+   "p_frueh_zu": 1.0,
+   "mit": true,
+   "wta": true,
+   "gruppe": "gleich"
+  },
+  "test/algebra/109.json": {
+   "erwartet_richtig": 0.8918918918918919,
+   "unklar": 0.0,
+   "p_frueh_zu": 1.0,
+   "mit": true,
+   "wta": true,
+   "gruppe": "gleich"
+  },
+  "test/algebra/1143.json": {
+   "erwartet_richtig": 0.8918918918918919,
+   "unklar": 0.0,
+   "p_frueh_zu": 1.0,
+   "mit": true,
+   "wta": true,
+   "gruppe": "gleich"
+  },
+  "test/algebra/1184.json": {
+   "erwartet_richtig": 0.0,
+   "unklar": 0.0,
+   "p_frueh_zu": 0.0,
+   "mit": false,
+   "wta": false,
+   "gruppe": "gleich"
+  },
+  "test/algebra/1214.json": {
+   "erwartet_richtig": 0.8918918918918919,
+   "unklar": 0.0,
+   "p_frueh_zu": 1.0,
+   "mit": true,
+   "wta": true,
+   "gruppe": "gleich"
+  },
+  "test/algebra/1255.json": {
+   "erwartet_richtig": 0.16216216216216217,
+   "unklar": 0.0,
+   "p_frueh_zu": 1.0,
+   "mit": true,
+   "wta": true,
+   "gruppe": "gleich"
+  },
+  "test/algebra/1275.json": {
+   "erwartet_richtig": 0.0,
+   "unklar": 0.0,
+   "p_frueh_zu": 0.0,
+   "mit": false,
+   "wta": false,
+   "gruppe": "gleich"
+  },
+  "test/algebra/1787.json": {
+   "erwartet_richtig": 0.16216216216216217,
+   "unklar": 0.0,
+   "p_frueh_zu": 1.0,
+   "mit": false,
+   "wta": false,
+   "gruppe": "gleich"
+  },
+  "test/algebra/1934.json": {
+   "erwartet_richtig": 0.8918918918918919,
+   "unklar": 0.0,
+   "p_frueh_zu": 1.0,
+   "mit": true,
+   "wta": true,
+   "gruppe": "gleich"
+  },
+  "test/algebra/1937.json": {
+   "erwartet_richtig": 0.16216216216216217,
+   "unklar": 0.0,
+   "p_frueh_zu": 1.0,
+   "mit": true,
+   "wta": true,
+   "gruppe": "gleich"
+  },
+  "test/algebra/2064.json": {
+   "erwartet_richtig": 0.16216216216216217,
+   "unklar": 0.0,
+   "p_frueh_zu": 1.0,
+   "mit": true,
+   "wta": true,
+   "gruppe": "gleich"
+  },
+  "test/algebra/2102.json": {
+   "erwartet_richtig": 0.8918918918918919,
+   "unklar": 0.0,
+   "p_frueh_zu": 1.0,
+   "mit": true,
+   "wta": true,
+   "gruppe": "gleich"
+  },
+  "test/algebra/2199.json": {
+   "erwartet_richtig": 0.8918918918918919,
+   "unklar": 0.0,
+   "p_frueh_zu": 1.0,
+   "mit": true,
+   "wta": true,
+   "gruppe": "gleich"
+  },
+  "test/algebra/2486.json": {
+   "erwartet_richtig": 0.16216216216216217,
+   "unklar": 0.0,
+   "p_frueh_zu": 1.0,
+   "mit": true,
+   "wta": true,
+   "gruppe": "gleich"
+  },
+  "test/algebra/2517.json": {
+   "erwartet_richtig": 0.8918918918918919,
+   "unklar": 0.0,
+   "p_frueh_zu": 1.0,
+   "mit": true,
+   "wta": true,
+   "gruppe": "gleich"
+  },
+  "test/algebra/2551.json": {
+   "erwartet_richtig": 0.8248881081081081,
+   "unklar": 0.0,
+   "p_frueh_zu": 1.0,
+   "mit": true,
+   "wta": true,
+   "gruppe": "gleich"
+  },
+  "test/algebra/2626.json": {
+   "erwartet_richtig": 0.16216216216216217,
+   "unklar": 0.0,
+   "p_frueh_zu": 1.0,
+   "mit": false,
+   "wta": false,
+   "gruppe": "gleich"
+  },
+  "test/algebra/291.json": {
+   "erwartet_richtig": 0.16216216216216217,
+   "unklar": 0.0,
+   "p_frueh_zu": 1.0,
+   "mit": false,
+   "wta": false,
+   "gruppe": "gleich"
+  },
+  "test/algebra/297.json": {
+   "erwartet_richtig": 0.017951351351351355,
+   "unklar": 0.0,
+   "p_frueh_zu": 0.11070000000000002,
+   "mit": false,
+   "wta": false,
+   "gruppe": "gleich"
+  },
+  "test/algebra/346.json": {
+   "erwartet_richtig": 0.8918918918918919,
+   "unklar": 0.0,
+   "p_frueh_zu": 1.0,
+   "mit": true,
+   "wta": true,
+   "gruppe": "gleich"
+  },
+  "test/algebra/351.json": {
+   "erwartet_richtig": 0.8918918918918919,
+   "unklar": 0.0,
+   "p_frueh_zu": 1.0,
+   "mit": true,
+   "wta": true,
+   "gruppe": "gleich"
+  },
+  "test/algebra/478.json": {
+   "erwartet_richtig": 0.8918918918918919,
+   "unklar": 0.0,
+   "p_frueh_zu": 1.0,
+   "mit": true,
+   "wta": true,
+   "gruppe": "gleich"
+  },
+  "test/algebra/524.json": {
+   "erwartet_richtig": 0.8918918918918919,
+   "unklar": 0.0,
+   "p_frueh_zu": 1.0,
+   "mit": true,
+   "wta": true,
+   "gruppe": "gleich"
+  },
+  "test/algebra/634.json": {
+   "erwartet_richtig": 0.8918918918918919,
+   "unklar": 0.0,
+   "p_frueh_zu": 1.0,
+   "mit": true,
+   "wta": true,
+   "gruppe": "gleich"
+  },
+  "test/algebra/694.json": {
+   "erwartet_richtig": 0.8918918918918919,
+   "unklar": 0.0,
+   "p_frueh_zu": 1.0,
+   "mit": true,
+   "wta": true,
+   "gruppe": "gleich"
+  },
+  "test/algebra/733.json": {
+   "erwartet_richtig": 0.16216216216216217,
+   "unklar": 0.0,
+   "p_frueh_zu": 1.0,
+   "mit": false,
+   "wta": false,
+   "gruppe": "gleich"
+  },
+  "test/algebra/841.json": {
+   "erwartet_richtig": 0.8918918918918919,
+   "unklar": 0.0,
+   "p_frueh_zu": 1.0,
+   "mit": true,
+   "wta": true,
+   "gruppe": "gleich"
+  },
+  "test/algebra/864.json": {
+   "erwartet_richtig": 0.16216216216216217,
+   "unklar": 0.0,
+   "p_frueh_zu": 1.0,
+   "mit": true,
+   "wta": true,
+   "gruppe": "gleich"
+  },
+  "test/algebra/907.json": {
+   "erwartet_richtig": 0.8918918918918919,
+   "unklar": 0.0,
+   "p_frueh_zu": 1.0,
+   "mit": true,
+   "wta": true,
+   "gruppe": "gleich"
+  },
+  "test/algebra/975.json": {
+   "erwartet_richtig": 1.0,
+   "unklar": 0.0,
+   "p_frueh_zu": 0.0,
+   "mit": true,
+   "wta": true,
+   "gruppe": "gleich"
+  },
+  "test/counting_and_probability/1009.json": {
+   "erwartet_richtig": 0.16216216216216217,
+   "unklar": 0.0,
+   "p_frueh_zu": 1.0,
+   "mit": false,
+   "wta": false,
+   "gruppe": "gleich"
+  },
+  "test/counting_and_probability/181.json": {
+   "erwartet_richtig": 0.0,
+   "unklar": 0.0,
+   "p_frueh_zu": 0.0,
+   "mit": false,
+   "wta": false,
+   "gruppe": "gleich"
+  },
+  "test/counting_and_probability/25149.json": {
+   "erwartet_richtig": 0.7832227005405406,
+   "unklar": 0.0,
+   "p_frueh_zu": 1.0,
+   "mit": true,
+   "wta": true,
+   "gruppe": "gleich"
+  },
+  "test/counting_and_probability/282.json": {
+   "erwartet_richtig": 0.0,
+   "unklar": 0.0,
+   "p_frueh_zu": 0.0,
+   "mit": false,
+   "wta": false,
+   "gruppe": "gleich"
+  },
+  "test/counting_and_probability/389.json": {
+   "erwartet_richtig": 0.8918918918918919,
+   "unklar": 0.0,
+   "p_frueh_zu": 1.0,
+   "mit": true,
+   "wta": true,
+   "gruppe": "gleich"
+  },
+  "test/counting_and_probability/508.json": {
+   "erwartet_richtig": 0.0,
+   "unklar": 0.0,
+   "p_frueh_zu": 0.0,
+   "mit": false,
+   "wta": false,
+   "gruppe": "gleich"
+  },
+  "test/counting_and_probability/51.json": {
+   "erwartet_richtig": 0.16216216216216217,
+   "unklar": 0.0,
+   "p_frueh_zu": 1.0,
+   "mit": false,
+   "wta": false,
+   "gruppe": "gleich"
+  },
+  "test/counting_and_probability/71.json": {
+   "erwartet_richtig": 0.0,
+   "unklar": 0.0,
+   "p_frueh_zu": 0.0,
+   "mit": false,
+   "wta": false,
+   "gruppe": "gleich"
+  },
+  "test/counting_and_probability/765.json": {
+   "erwartet_richtig": 0.0,
+   "unklar": 0.0,
+   "p_frueh_zu": 0.0,
+   "mit": false,
+   "wta": false,
+   "gruppe": "gleich"
+  },
+  "test/counting_and_probability/894.json": {
+   "erwartet_richtig": 0.0,
+   "unklar": 0.05695346320346306,
+   "p_frueh_zu": 0.0,
+   "mit": false,
+   "wta": false,
+   "gruppe": "gleich"
+  },
+  "test/geometry/1097.json": {
+   "erwartet_richtig": 0.0,
+   "unklar": 0.0,
+   "p_frueh_zu": 0.0,
+   "mit": false,
+   "wta": false,
+   "gruppe": "gleich"
+  },
+  "test/geometry/226.json": {
+   "erwartet_richtig": 0.29521621621621624,
+   "unklar": 0.24313944636678206,
+   "p_frueh_zu": 0.33099999999999996,
+   "mit": false,
+   "wta": false,
+   "gruppe": "gleich"
+  },
+  "test/geometry/229.json": {
+   "erwartet_richtig": 0.0,
+   "unklar": 0.3246418338108883,
+   "p_frueh_zu": 0.0,
+   "mit": false,
+   "wta": false,
+   "gruppe": "gleich"
+  },
+  "test/geometry/254.json": {
+   "erwartet_richtig": 0.8918918918918919,
+   "unklar": 0.0,
+   "p_frueh_zu": 1.0,
+   "mit": true,
+   "wta": true,
+   "gruppe": "gleich"
+  },
+  "test/geometry/473.json": {
+   "erwartet_richtig": 0.8918918918918919,
+   "unklar": 0.0,
+   "p_frueh_zu": 1.0,
+   "mit": true,
+   "wta": true,
+   "gruppe": "gleich"
+  },
+  "test/geometry/483.json": {
+   "erwartet_richtig": 0.8918918918918919,
+   "unklar": 0.0,
+   "p_frueh_zu": 1.0,
+   "mit": true,
+   "wta": true,
+   "gruppe": "gleich"
+  },
+  "test/geometry/547.json": {
+   "erwartet_richtig": 0.16216216216216217,
+   "unklar": 0.0,
+   "p_frueh_zu": 1.0,
+   "mit": false,
+   "wta": false,
+   "gruppe": "gleich"
+  },
+  "test/geometry/65.json": {
+   "erwartet_richtig": 0.0,
+   "unklar": 0.1038,
+   "p_frueh_zu": 0.0,
+   "mit": false,
+   "wta": false,
+   "gruppe": "gleich"
+  },
+  "test/geometry/686.json": {
+   "erwartet_richtig": 0.16216216216216217,
+   "unklar": 0.0,
+   "p_frueh_zu": 1.0,
+   "mit": false,
+   "wta": false,
+   "gruppe": "gleich"
+  },
+  "test/geometry/702.json": {
+   "erwartet_richtig": 0.0,
+   "unklar": 0.0,
+   "p_frueh_zu": 0.0,
+   "mit": false,
+   "wta": false,
+   "gruppe": "gleich"
+  },
+  "test/geometry/802.json": {
+   "erwartet_richtig": 0.8918918918918919,
+   "unklar": 0.0,
+   "p_frueh_zu": 1.0,
+   "mit": true,
+   "wta": true,
+   "gruppe": "gleich"
+  },
+  "test/geometry/826.json": {
+   "erwartet_richtig": 0.16216216216216217,
+   "unklar": 0.0,
+   "p_frueh_zu": 1.0,
+   "mit": false,
+   "wta": false,
+   "gruppe": "gleich"
+  },
+  "test/intermediate_algebra/102.json": {
+   "erwartet_richtig": 0.0,
+   "unklar": 0.0,
+   "p_frueh_zu": 0.0,
+   "mit": false,
+   "wta": false,
+   "gruppe": "gleich"
+  },
+  "test/intermediate_algebra/1123.json": {
+   "erwartet_richtig": 0.8918918918918919,
+   "unklar": 0.0,
+   "p_frueh_zu": 1.0,
+   "mit": true,
+   "wta": true,
+   "gruppe": "gleich"
+  },
+  "test/intermediate_algebra/1210.json": {
+   "erwartet_richtig": 0.0,
+   "unklar": 0.07476205096714761,
+   "p_frueh_zu": 0.0,
+   "mit": false,
+   "wta": false,
+   "gruppe": "gleich"
+  },
+  "test/intermediate_algebra/1354.json": {
+   "erwartet_richtig": 0.017951351351351355,
+   "unklar": 0.14910819548872184,
+   "p_frueh_zu": 0.11070000000000002,
+   "mit": false,
+   "wta": false,
+   "gruppe": "gleich"
+  },
+  "test/intermediate_algebra/1411.json": {
+   "erwartet_richtig": 0.049118918918918925,
+   "unklar": 0.0,
+   "p_frueh_zu": 0.30289999999999995,
+   "mit": false,
+   "wta": false,
+   "gruppe": "gleich"
+  },
+  "test/intermediate_algebra/1422.json": {
+   "erwartet_richtig": 1.0,
+   "unklar": 0.0,
+   "p_frueh_zu": 0.0,
+   "mit": true,
+   "wta": true,
+   "gruppe": "gleich"
+  },
+  "test/intermediate_algebra/149.json": {
+   "erwartet_richtig": 0.8918918918918919,
+   "unklar": 0.0,
+   "p_frueh_zu": 1.0,
+   "mit": true,
+   "wta": true,
+   "gruppe": "gleich"
+  },
+  "test/intermediate_algebra/1510.json": {
+   "erwartet_richtig": 0.0,
+   "unklar": 0.0,
+   "p_frueh_zu": 0.0,
+   "mit": false,
+   "wta": false,
+   "gruppe": "gleich"
+  },
+  "test/intermediate_algebra/183.json": {
+   "erwartet_richtig": 0.0,
+   "unklar": 0.0,
+   "p_frueh_zu": 0.0,
+   "mit": false,
+   "wta": false,
+   "gruppe": "gleich"
+  },
+  "test/intermediate_algebra/1837.json": {
+   "erwartet_richtig": 0.8918918918918919,
+   "unklar": 0.0,
+   "p_frueh_zu": 1.0,
+   "mit": true,
+   "wta": true,
+   "gruppe": "gleich"
+  },
+  "test/intermediate_algebra/2196.json": {
+   "erwartet_richtig": 0.0,
+   "unklar": 0.017205930094145727,
+   "p_frueh_zu": 0.0,
+   "mit": false,
+   "wta": false,
+   "gruppe": "gleich"
+  },
+  "test/intermediate_algebra/337.json": {
+   "erwartet_richtig": 0.8918918918918919,
+   "unklar": 0.0,
+   "p_frueh_zu": 1.0,
+   "mit": true,
+   "wta": true,
+   "gruppe": "gleich"
+  },
+  "test/intermediate_algebra/591.json": {
+   "erwartet_richtig": 0.8918918918918919,
+   "unklar": 0.0,
+   "p_frueh_zu": 1.0,
+   "mit": true,
+   "wta": true,
+   "gruppe": "gleich"
+  },
+  "test/intermediate_algebra/754.json": {
+   "erwartet_richtig": 0.0,
+   "unklar": 0.04901582400617521,
+   "p_frueh_zu": 0.0,
+   "mit": false,
+   "wta": false,
+   "gruppe": "gleich"
+  },
+  "test/intermediate_algebra/90.json": {
+   "erwartet_richtig": 0.0,
+   "unklar": 0.0,
+   "p_frueh_zu": 0.0,
+   "mit": false,
+   "wta": false,
+   "gruppe": "gleich"
+  },
+  "test/intermediate_algebra/960.json": {
+   "erwartet_richtig": 0.04694594594594594,
+   "unklar": 0.0,
+   "p_frueh_zu": 0.2895,
+   "mit": false,
+   "wta": false,
+   "gruppe": "gleich"
+  },
+  "test/intermediate_algebra/986.json": {
+   "erwartet_richtig": 0.0,
+   "unklar": 0.0,
+   "p_frueh_zu": 0.0,
+   "mit": false,
+   "wta": false,
+   "gruppe": "gleich"
+  },
+  "test/intermediate_algebra/991.json": {
+   "erwartet_richtig": 0.8918918918918919,
+   "unklar": 0.0,
+   "p_frueh_zu": 1.0,
+   "mit": false,
+   "wta": false,
+   "gruppe": "gleich"
+  },
+  "test/number_theory/1172.json": {
+   "erwartet_richtig": 0.8918918918918919,
+   "unklar": 0.0,
+   "p_frueh_zu": 1.0,
+   "mit": true,
+   "wta": true,
+   "gruppe": "gleich"
+  },
+  "test/number_theory/234.json": {
+   "erwartet_richtig": 0.8918918918918919,
+   "unklar": 0.0,
+   "p_frueh_zu": 1.0,
+   "mit": true,
+   "wta": true,
+   "gruppe": "gleich"
+  },
+  "test/number_theory/417.json": {
+   "erwartet_richtig": 0.0,
+   "unklar": 0.0,
+   "p_frueh_zu": 0.0,
+   "mit": false,
+   "wta": false,
+   "gruppe": "gleich"
+  },
+  "test/number_theory/466.json": {
+   "erwartet_richtig": 0.5649000000000001,
+   "unklar": 0.0,
+   "p_frueh_zu": 1.0,
+   "mit": true,
+   "wta": true,
+   "gruppe": "gleich"
+  },
+  "test/number_theory/598.json": {
+   "erwartet_richtig": 0.8918918918918919,
+   "unklar": 0.0,
+   "p_frueh_zu": 1.0,
+   "mit": true,
+   "wta": true,
+   "gruppe": "gleich"
+  },
+  "test/number_theory/631.json": {
+   "erwartet_richtig": 0.0,
+   "unklar": 0.0,
+   "p_frueh_zu": 0.0,
+   "mit": false,
+   "wta": false,
+   "gruppe": "gleich"
+  },
+  "test/number_theory/838.json": {
+   "erwartet_richtig": 0.0,
+   "unklar": 0.0,
+   "p_frueh_zu": 0.0,
+   "mit": false,
+   "wta": false,
+   "gruppe": "gleich"
+  },
+  "test/prealgebra/1003.json": {
+   "erwartet_richtig": 0.0,
+   "unklar": 0.14608895705521463,
+   "p_frueh_zu": 0.0,
+   "mit": false,
+   "wta": false,
+   "gruppe": "gleich"
+  },
+  "test/prealgebra/1113.json": {
+   "erwartet_richtig": 0.8918918918918919,
+   "unklar": 0.0,
+   "p_frueh_zu": 1.0,
+   "mit": true,
+   "wta": true,
+   "gruppe": "gleich"
+  },
+  "test/prealgebra/1251.json": {
+   "erwartet_richtig": 1.0,
+   "unklar": 0.0,
+   "p_frueh_zu": 0.0,
+   "mit": true,
+   "wta": true,
+   "gruppe": "gleich"
+  },
+  "test/prealgebra/1272.json": {
+   "erwartet_richtig": 0.16216216216216217,
+   "unklar": 0.0,
+   "p_frueh_zu": 1.0,
+   "mit": true,
+   "wta": true,
+   "gruppe": "gleich"
+  },
+  "test/prealgebra/1317.json": {
+   "erwartet_richtig": 0.8918918918918919,
+   "unklar": 0.0,
+   "p_frueh_zu": 1.0,
+   "mit": true,
+   "wta": true,
+   "gruppe": "gleich"
+  },
+  "test/prealgebra/1436.json": {
+   "erwartet_richtig": 0.16216216216216217,
+   "unklar": 0.0,
+   "p_frueh_zu": 1.0,
+   "mit": true,
+   "wta": true,
+   "gruppe": "gleich"
+  },
+  "test/prealgebra/1458.json": {
+   "erwartet_richtig": 0.16216216216216217,
+   "unklar": 0.0,
+   "p_frueh_zu": 1.0,
+   "mit": true,
+   "wta": true,
+   "gruppe": "gleich"
+  },
+  "test/prealgebra/1555.json": {
+   "erwartet_richtig": 0.8918918918918919,
+   "unklar": 0.0,
+   "p_frueh_zu": 1.0,
+   "mit": true,
+   "wta": true,
+   "gruppe": "gleich"
+  },
+  "test/prealgebra/1655.json": {
+   "erwartet_richtig": 0.0,
+   "unklar": 0.0,
+   "p_frueh_zu": 0.0,
+   "mit": false,
+   "wta": false,
+   "gruppe": "gleich"
+  },
+  "test/prealgebra/1787.json": {
+   "erwartet_richtig": 0.8918918918918919,
+   "unklar": 0.0,
+   "p_frueh_zu": 1.0,
+   "mit": true,
+   "wta": true,
+   "gruppe": "gleich"
+  },
+  "test/prealgebra/1834.json": {
+   "erwartet_richtig": 0.8918918918918919,
+   "unklar": 0.0,
+   "p_frueh_zu": 1.0,
+   "mit": true,
+   "wta": true,
+   "gruppe": "gleich"
+  },
+  "test/prealgebra/1907.json": {
+   "erwartet_richtig": 0.8918918918918919,
+   "unklar": 0.0,
+   "p_frueh_zu": 1.0,
+   "mit": true,
+   "wta": true,
+   "gruppe": "gleich"
+  },
+  "test/prealgebra/1908.json": {
+   "erwartet_richtig": 0.16216216216216217,
+   "unklar": 0.0,
+   "p_frueh_zu": 1.0,
+   "mit": false,
+   "wta": false,
+   "gruppe": "gleich"
+  },
+  "test/prealgebra/1922.json": {
+   "erwartet_richtig": 0.6844297297297297,
+   "unklar": 0.0,
+   "p_frueh_zu": 1.0,
+   "mit": true,
+   "wta": true,
+   "gruppe": "gleich"
+  },
+  "test/prealgebra/1961.json": {
+   "erwartet_richtig": 0.0,
+   "unklar": 0.0,
+   "p_frueh_zu": 0.0,
+   "mit": false,
+   "wta": false,
+   "gruppe": "gleich"
+  },
+  "test/prealgebra/1995.json": {
+   "erwartet_richtig": 0.16216216216216217,
+   "unklar": 0.0,
+   "p_frueh_zu": 1.0,
+   "mit": true,
+   "wta": true,
+   "gruppe": "gleich"
+  },
+  "test/prealgebra/2086.json": {
+   "erwartet_richtig": 0.16216216216216217,
+   "unklar": 0.0,
+   "p_frueh_zu": 1.0,
+   "mit": false,
+   "wta": false,
+   "gruppe": "gleich"
+  },
+  "test/prealgebra/874.json": {
+   "erwartet_richtig": 0.0,
+   "unklar": 0.0,
+   "p_frueh_zu": 0.0,
+   "mit": false,
+   "wta": false,
+   "gruppe": "gleich"
+  },
+  "test/precalculus/1056.json": {
+   "erwartet_richtig": 0.20527886351351354,
+   "unklar": 0.0,
+   "p_frueh_zu": 1.0,
+   "mit": false,
+   "wta": false,
+   "gruppe": "gleich"
+  },
+  "test/precalculus/1172.json": {
+   "erwartet_richtig": 0.0,
+   "unklar": 0.0,
+   "p_frueh_zu": 0.0,
+   "mit": false,
+   "wta": false,
+   "gruppe": "gleich"
+  },
+  "test/precalculus/1201.json": {
+   "erwartet_richtig": 0.0,
+   "unklar": 0.0,
+   "p_frueh_zu": 0.0,
+   "mit": false,
+   "wta": false,
+   "gruppe": "gleich"
+  },
+  "test/precalculus/190.json": {
+   "erwartet_richtig": 0.0,
+   "unklar": 0.0,
+   "p_frueh_zu": 0.0,
+   "mit": false,
+   "wta": false,
+   "gruppe": "gleich"
+  },
+  "test/precalculus/452.json": {
+   "erwartet_richtig": 0.16216216216216217,
+   "unklar": 0.0,
+   "p_frueh_zu": 1.0,
+   "mit": true,
+   "wta": true,
+   "gruppe": "gleich"
+  },
+  "test/precalculus/541.json": {
+   "erwartet_richtig": 0.17398925270383783,
+   "unklar": 0.0,
+   "p_frueh_zu": 1.0,
+   "mit": true,
+   "wta": true,
+   "gruppe": "gleich"
+  },
+  "test/precalculus/580.json": {
+   "erwartet_richtig": 0.16216216216216217,
+   "unklar": 0.0,
+   "p_frueh_zu": 1.0,
+   "mit": false,
+   "wta": false,
+   "gruppe": "gleich"
+  },
+  "test/precalculus/659.json": {
+   "erwartet_richtig": 0.16216216216216217,
+   "unklar": 0.0,
+   "p_frueh_zu": 1.0,
+   "mit": false,
+   "wta": false,
+   "gruppe": "gleich"
+  },
+  "test/precalculus/697.json": {
+   "erwartet_richtig": 0.8918918918918919,
+   "unklar": 0.0,
+   "p_frueh_zu": 1.0,
+   "mit": false,
+   "wta": false,
+   "gruppe": "gleich"
+  },
+  "test/precalculus/819.json": {
+   "erwartet_richtig": 0.16216216216216217,
+   "unklar": 0.0,
+   "p_frueh_zu": 1.0,
+   "mit": true,
+   "wta": true,
+   "gruppe": "gleich"
+  },
+  "test/precalculus/920.json": {
+   "erwartet_richtig": 0.0,
+   "unklar": 0.0,
+   "p_frueh_zu": 0.0,
+   "mit": false,
+   "wta": false,
+   "gruppe": "gleich"
+  },
+  "test/precalculus/989.json": {
+   "erwartet_richtig": 0.0,
+   "unklar": 0.0,
+   "p_frueh_zu": 0.0,
+   "mit": false,
+   "wta": false,
+   "gruppe": "gleich"
+  }
+ },
+ "stellschraube": {
+  "-3.0": {
+   "kein Zucker": 91,
+   "erster Zucker richtig": 35,
+   "erster Zucker falsch": 14,
+   "grobe_schaetzung_richtig": 69.38999999999997
+  },
+  "-2.0": {
+   "erster Zucker richtig": 43,
+   "kein Zucker": 75,
+   "erster Zucker falsch": 22,
+   "grobe_schaetzung_richtig": 65.78999999999998
+  },
+  "-1.0": {
+   "erster Zucker richtig": 55,
+   "erster Zucker falsch": 26,
+   "kein Zucker": 59,
+   "grobe_schaetzung_richtig": 67.10999999999997
+  },
+  "-0.5": {
+   "erster Zucker richtig": 61,
+   "erster Zucker falsch": 24,
+   "kein Zucker": 55,
+   "grobe_schaetzung_richtig": 70.12999999999997
+  },
+  "0.0": {
+   "erster Zucker richtig": 62,
+   "erster Zucker falsch": 30,
+   "kein Zucker": 48,
+   "grobe_schaetzung_richtig": 69.97999999999996
+  },
+  "0.5": {
+   "erster Zucker richtig": 62,
+   "erster Zucker falsch": 33,
+   "kein Zucker": 45,
+   "grobe_schaetzung_richtig": 70.45999999999995
+  },
+  "1.0": {
+   "erster Zucker richtig": 59,
+   "erster Zucker falsch": 45,
+   "kein Zucker": 36,
+   "grobe_schaetzung_richtig": 67.70999999999994
+  },
+  "2.0": {
+   "erster Zucker falsch": 60,
+   "erster Zucker richtig": 57,
+   "kein Zucker": 23,
+   "grobe_schaetzung_richtig": 64.32999999999991
+  },
+  "3.0": {
+   "erster Zucker falsch": 78,
+   "erster Zucker richtig": 49,
+   "kein Zucker": 13,
+   "grobe_schaetzung_richtig": 57.08999999999989
+  }
+ },
+ "nachsicht_sim": {
+  "d-1.0_k1": {
+   "Feuer richtig": 55,
+   "Feuer falsch": 26,
+   "kein Feuer": 59,
+   "grob": 67.10999999999997
+  },
+  "d-1.0_k2": {
+   "Feuer richtig": 57,
+   "kein Feuer": 65,
+   "Feuer falsch": 18,
+   "grob": 71.60999999999999
+  },
+  "d-1.0_k3": {
+   "Feuer richtig": 51,
+   "kein Feuer": 75,
+   "Feuer falsch": 14,
+   "grob": 72.63
+  },
+  "d-1.0_k5": {
+   "Feuer richtig": 41,
+   "kein Feuer": 90,
+   "Feuer falsch": 9,
+   "grob": 74.93
+  },
+  "d0.0_k1": {
+   "Feuer richtig": 62,
+   "Feuer falsch": 30,
+   "kein Feuer": 48,
+   "grob": 69.97999999999996
+  },
+  "d0.0_k2": {
+   "Feuer richtig": 64,
+   "kein Feuer": 58,
+   "Feuer falsch": 18,
+   "grob": 72.83999999999999
+  },
+  "d0.0_k3": {
+   "Feuer richtig": 61,
+   "kein Feuer": 65,
+   "Feuer falsch": 14,
+   "grob": 74.52999999999999
+  },
+  "d0.0_k5": {
+   "Feuer richtig": 54,
+   "kein Feuer": 75,
+   "Feuer falsch": 11,
+   "grob": 75.82
+  },
+  "d0.5_k1": {
+   "Feuer richtig": 62,
+   "Feuer falsch": 33,
+   "kein Feuer": 45,
+   "grob": 70.45999999999995
+  },
+  "d0.5_k2": {
+   "Feuer richtig": 65,
+   "kein Feuer": 54,
+   "Feuer falsch": 21,
+   "grob": 72.20999999999998
+  },
+  "d0.5_k3": {
+   "Feuer richtig": 64,
+   "kein Feuer": 60,
+   "Feuer falsch": 16,
+   "grob": 73.51999999999998
+  },
+  "d0.5_k5": {
+   "Feuer richtig": 54,
+   "kein Feuer": 73,
+   "Feuer falsch": 13,
+   "grob": 75.14
+  }
+ }
+}

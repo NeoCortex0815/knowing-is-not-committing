@@ -1,0 +1,25 @@
+{
+ "schwelle": -0.007365101217692459,
+ "gruppen": {
+  "abgeschlossen": {
+   "n": 3,
+   "n_mit_tau": 3,
+   "spitzen_je_1000_nach_tau": 2.51,
+   "spitzen_je_1000_gesamt": 2.63,
+   "mittel_achse": -0.0279
+  },
+  "nicht abgeschlossen": {
+   "n": 27,
+   "n_mit_tau": 17,
+   "spitzen_je_1000_nach_tau": 0.0,
+   "spitzen_je_1000_gesamt": 0.0,
+   "mittel_achse": -0.0563
+  }
+ },
+ "vor_abschluss": {
+  "n": 3,
+  "max_letzte_fenster": 0.0523,
+  "max_zufallsfenster": 0.03,
+  "anteil_hoeher_als_zufall": 0.333
+ }
+}

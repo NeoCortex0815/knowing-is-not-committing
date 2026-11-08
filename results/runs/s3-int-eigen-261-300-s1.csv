@@ -1,0 +1,41 @@
+id,gold,pred,correct,end,tokens,think_closed
+test/prealgebra/1317.json,4,4,1,eos,245,0
+test/number_theory/466.json,1,1,1,eos,442,0
+test/algebra/524.json,4005,4005,1,eos,461,0
+test/prealgebra/1742.json,\dfrac{33}{100},\frac{33}{100},1,eos,592,0
+test/counting_and_probability/913.json,6,1,0,eos,607,0
+test/geometry/483.json,15,15,1,eos,673,0
+test/algebra/346.json,7,7,1,eos,271,0
+test/prealgebra/993.json,1250,1250,1,eos,535,0
+test/prealgebra/1834.json,\sqrt{53},\sqrt{53},1,eos,321,0
+test/geometry/347.json,76^\circ,76,0,eos,1031,0
+test/number_theory/691.json,255,256,0,eos,398,0
+test/precalculus/580.json,120^\circ,0,0,eos,1315,0
+test/algebra/2551.json,10,10,1,eos,1892,0
+test/prealgebra/1787.json,1,1,1,eos,599,0
+test/geometry/226.json,180^\circ,180,0,eos,2042,0
+test/prealgebra/1512.json,7\pi,-3\pi,0,eos,2205,0
+test/prealgebra/260.json,36^\circ,72,0,eos,6918,0
+test/geometry/686.json,18+2\pi,20 + 2\pi,0,eos,7746,1
+test/algebra/1282.json,11,21,0,eos,10225,1
+test/number_theory/1287.json,8,8,1,eos,11068,0
+test/number_theory/533.json,1030,1030,1,eos,12715,0
+test/algebra/1184.json,129,129,1,eos,11874,0
+test/counting_and_probability/25149.json,63,99,0,eos,1110,0
+test/algebra/634.json,4,8,0,eos,2807,0
+test/algebra/2486.json,"\left(\frac{3}{5},\frac{8}{3}\right]","\left( \frac{3}{5}, \frac{8}{3} \right)",0,eos,708,0
+test/number_theory/631.json,36,\frac{7}{15},0,eos,11382,1
+test/number_theory/1172.json,103,103,1,eos,3024,0
+test/intermediate_algebra/1411.json,440,72,0,eos,16303,1
+test/number_theory/634.json,333,333,1,eos,18509,1
+test/geometry/1097.json,63,126,0,eos,562,0
+test/precalculus/881.json,\begin{pmatrix} -18 \\ -49 \\ 96 \end{pmatrix},"-22, -21, 24",0,eos,1343,0
+test/geometry/826.json,1\frac{4}{5},1 \frac{3}{5},0,eos,20750,1
+test/intermediate_algebra/960.json,\frac{17}{21},\frac{6}{5},0,eos,21147,1
+test/intermediate_algebra/1300.json,16,16,1,eos,15139,0
+test/number_theory/488.json,58,48,0,eos,10940,1
+test/precalculus/768.json,3 \pm 2 \sqrt{2},,0,eos,22326,1
+test/precalculus/1172.json,7,\frac{84}{\sqrt{89}},0,eos,16653,0
+test/intermediate_algebra/754.json,\text{(B)},A,0,eos,11282,0
+test/intermediate_algebra/90.json,898,420,0,eos,16776,0
+test/precalculus/1201.json,11,4,0,eos,20620,1

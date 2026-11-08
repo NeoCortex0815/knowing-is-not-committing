@@ -1,0 +1,87 @@
+{
+ "modelle": {
+  "MIT": {
+   "s0": {
+    "n": 40,
+    "richtig": 22,
+    "tokens_mittel": 22313
+   },
+   "s1": {
+    "n": 40,
+    "richtig": 16,
+    "tokens_mittel": 23033
+   },
+   "paar": {
+    "n": 40,
+    "beide": 14,
+    "nur_s0": 8,
+    "nur_s1": 2,
+    "keiner": 16,
+    "p": 0.109375,
+    "uebereinstimmung": 0.75
+   }
+  },
+  "ERGORE": {
+   "s0": {
+    "n": 40,
+    "richtig": 14,
+    "tokens_mittel": 19755
+   },
+   "s1": {
+    "n": 40,
+    "richtig": 16,
+    "tokens_mittel": 19793
+   },
+   "paar": {
+    "n": 40,
+    "beide": 11,
+    "nur_s0": 3,
+    "nur_s1": 5,
+    "keiner": 21,
+    "p": 0.7265625,
+    "uebereinstimmung": 0.8
+   }
+  },
+  "WT-A": {
+   "s0": {
+    "n": 40,
+    "richtig": 17,
+    "tokens_mittel": 18717
+   }
+  }
+ },
+ "vergleiche": {
+  "WT-A-MIT-s0": {
+   "n": 40,
+   "WT-A": 17,
+   "MIT": 22,
+   "nur1": 5,
+   "nur2": 10,
+   "p": 0.3017578125
+  },
+  "WT-A-ERGORE-s0": {
+   "n": 40,
+   "WT-A": 17,
+   "ERGORE": 14,
+   "nur1": 6,
+   "nur2": 3,
+   "p": 0.5078125
+  },
+  "ERGORE-MIT-s0": {
+   "n": 40,
+   "ERGORE": 14,
+   "MIT": 22,
+   "nur1": 3,
+   "nur2": 11,
+   "p": 0.057373046875
+  },
+  "ERGORE-MIT-s1": {
+   "n": 40,
+   "ERGORE": 16,
+   "MIT": 16,
+   "nur1": 6,
+   "nur2": 6,
+   "p": 1.0
+  }
+ }
+}

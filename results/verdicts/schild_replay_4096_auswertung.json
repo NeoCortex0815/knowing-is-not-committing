@@ -1,0 +1,25 @@
+{
+ "S": {
+  "n": 19,
+  "abgabe": 6,
+  "richtig": 4
+ },
+ "N": {
+  "n": 19,
+  "abgabe": 4,
+  "richtig": 4
+ },
+ "F": {
+  "n": 9,
+  "abgabe": 5,
+  "richtig": 5
+ },
+ "paare": 19,
+ "abgabe_S": 6,
+ "abgabe_N": 4,
+ "urteil": "offen",
+ "n18_echt": [
+  59,
+  9
+ ]
+}

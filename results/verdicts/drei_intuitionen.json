@@ -1,0 +1,22 @@
+{
+ "Einigkeit aus zwei (0/1)": [
+  38,
+  37,
+  1,
+  0.35
+ ],
+ "Mehrheit aus drei": [
+  62,
+  55,
+  7,
+  0.41
+ ],
+ "Einstimmig aus drei": [
+  29,
+  29,
+  0,
+  0.29
+ ],
+ "urteil": "offen",
+ "zweite": "erfüllt"
+}

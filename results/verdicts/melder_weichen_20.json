@@ -1,0 +1,92 @@
+{
+ "eigen": {
+  "laeufe": 13,
+  "roh": {
+   "n": {
+    "Ende": 5,
+    "Warte": 589,
+    "Weiter": 5052
+   },
+   "mittel": {
+    "Ende": 0.0452,
+    "Warte": 0.1191,
+    "Weiter": 0.0828
+   },
+   "AUC_Ende_gegen_rest": 0.33472788512675056,
+   "AUC_Warte_gegen_Weiter": 0.6069330574924016,
+   "verlauf_mittel": [
+    0.0522,
+    0.0672,
+    0.0788,
+    0.1,
+    0.2181
+   ]
+  },
+  "lda": {
+   "n": {
+    "Ende": 5,
+    "Warte": 589,
+    "Weiter": 5052
+   },
+   "mittel": {
+    "Ende": 0.0221,
+    "Warte": 0.092,
+    "Weiter": 0.0463
+   },
+   "AUC_Ende_gegen_rest": 0.3829108314128701,
+   "AUC_Warte_gegen_Weiter": 0.6169694262858125,
+   "verlauf_mittel": [
+    0.0248,
+    0.0299,
+    0.0436,
+    0.0634,
+    0.1854
+   ]
+  }
+ },
+ "b5": {
+  "laeufe": 9,
+  "roh": {
+   "n": {
+    "Ende": 8,
+    "Warte": 192,
+    "Weiter": 2491
+   },
+   "mittel": {
+    "Ende": 0.2124,
+    "Warte": 0.0782,
+    "Weiter": 0.0664
+   },
+   "AUC_Ende_gegen_rest": 0.7918374953410362,
+   "AUC_Warte_gegen_Weiter": 0.5068266593068379,
+   "verlauf_mittel": [
+    0.0575,
+    0.0616,
+    0.0657,
+    0.0819,
+    0.0527
+   ]
+  },
+  "lda": {
+   "n": {
+    "Ende": 8,
+    "Warte": 192,
+    "Weiter": 2491
+   },
+   "mittel": {
+    "Ende": 0.1257,
+    "Warte": 0.0431,
+    "Weiter": 0.0361
+   },
+   "AUC_Ende_gegen_rest": 0.7593179276928811,
+   "AUC_Warte_gegen_Weiter": 0.5153427338418306,
+   "verlauf_mittel": [
+    0.0245,
+    0.0357,
+    0.0311,
+    0.048,
+    0.0386
+   ]
+  }
+ }
+}

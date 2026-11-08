@@ -1,0 +1,80 @@
+{
+ "ERGORE gegen MIT · Laptop 161–260": {
+  "n": 100,
+  "ERGORE": 51,
+  "MIT": 58,
+  "nur_ERGORE": 4,
+  "nur_MIT": 11,
+  "p": 0.11846923828125,
+  "tokens_alle": [
+   18178.67,
+   21210.62
+  ],
+  "tokens_gemeinsam": [
+   13834.893617021276,
+   13146.91489361702
+  ],
+  "tokens_weniger": 23,
+  "tokens_mehr": 24,
+  "p_tokens_einseitig": 0.6145665027134868
+ },
+ "ERGORE gegen MIT · MiniPC 261–300": {
+  "n": 40,
+  "ERGORE": 14,
+  "MIT": 22,
+  "nur_ERGORE": 3,
+  "nur_MIT": 11,
+  "p": 0.057373046875,
+  "tokens_alle": [
+   19755.275,
+   22312.625
+  ],
+  "tokens_gemeinsam": [
+   9786.545454545454,
+   11838.09090909091
+  ],
+  "tokens_weniger": 5,
+  "tokens_mehr": 6,
+  "p_tokens_einseitig": 0.7255859375
+ },
+ "161–300": {
+  "n": 140,
+  "ERGORE": 65,
+  "MIT": 80,
+  "nur_ERGORE": 7,
+  "nur_MIT": 22,
+  "p": 0.008130058646202087,
+  "tokens_alle": [
+   18629.128571428573,
+   21525.47857142857
+  ],
+  "tokens_gemeinsam": [
+   13067.103448275862,
+   12898.689655172413
+  ],
+  "tokens_weniger": 28,
+  "tokens_mehr": 30,
+  "p_tokens_einseitig": 0.6529979529619342,
+  "urteil": "NICHT ERREICHT"
+ },
+ "1–300": {
+  "n": 300,
+  "ERGORE": 144,
+  "MIT": 157,
+  "nur_ERGORE": 21,
+  "nur_MIT": 34,
+  "p": 0.10478948242660335,
+  "tokens_alle": [
+   18572.45,
+   21444.766666666666
+  ],
+  "tokens_gemeinsam": [
+   12983.80487804878,
+   12599.113821138211
+  ],
+  "tokens_weniger": 56,
+  "tokens_mehr": 67,
+  "p_tokens_einseitig": 0.8604007225119602,
+  "urteil": "NICHT ERREICHT"
+ }
+}

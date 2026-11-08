@@ -1,0 +1,21 @@
+id,gold,pred,correct,end,tokens,think_closed
+test/prealgebra/993.json,1250,"800,000,000",0,eos,642,0
+test/algebra/1184.json,129,129,1,eos,838,0
+test/number_theory/691.json,255,255,1,eos,912,0
+test/algebra/1282.json,11,11,1,eos,2000,0
+test/number_theory/631.json,36,1851.43,0,eos,6884,1
+test/geometry/686.json,18+2\pi,4\pi,0,eos,8740,1
+test/precalculus/1172.json,7,\sqrt{\frac{4360}{89}},0,eos,9660,0
+test/prealgebra/1512.json,7\pi,\frac{33(\pi - 2)}{4},0,eos,10643,1
+test/prealgebra/260.json,36^\circ,72,0,eos,10991,0
+test/intermediate_algebra/1300.json,16,16,1,eos,10716,0
+test/geometry/226.json,180^\circ,180,0,eos,12689,0
+test/number_theory/488.json,58,71,0,eos,5218,0
+test/number_theory/634.json,333,333,1,eos,14164,0
+test/intermediate_algebra/960.json,\frac{17}{21},\frac{2}{15},0,eos,14259,1
+test/intermediate_algebra/90.json,898,898,1,eos,12427,0
+test/geometry/826.json,1\frac{4}{5},3,0,eos,15383,1
+test/intermediate_algebra/754.json,\text{(B)},C,0,eos,8958,0
+test/precalculus/1201.json,11,6,0,eos,16473,0
+test/intermediate_algebra/1411.json,440,64,0,eos,26824,1
+test/geometry/1097.json,63,56,0,eos,28532,1

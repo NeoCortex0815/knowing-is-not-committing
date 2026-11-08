@@ -1,0 +1,26 @@
+id,gold,pred,correct,end,tokens,think_closed
+test/number_theory/521.json,18,18,1,eos,631,0
+test/counting_and_probability/181.json,19,47,0,eos,1389,0
+test/prealgebra/1655.json,\dfrac{17}{50},\frac{21}{25},0,eos,2139,0
+test/geometry/65.json,30^\circ,60^\circ,0,eos,1760,0
+test/precalculus/659.json,5x - 7y + 11z + 4 = 0,5x - 7y + 11z + 4 = 0,1,eos,2714,0
+test/precalculus/697.json,-\sqrt{3},\frac{\cos 10^\circ (1 - 4 \sin 10^\circ)}{\sin 10^\circ},0,eos,7195,0
+test/intermediate_algebra/991.json,3,3,1,eos,6553,1
+test/prealgebra/1908.json,3,3,1,eos,2191,0
+test/algebra/1275.json,\frac{\sqrt{3}}{3},\frac{\sqrt{3}}{3},1,eos,6187,0
+test/prealgebra/1003.json,\frac{270}7\text{ degrees},\frac{45}{1},0,eos,16976,1
+test/number_theory/978.json,7,7,1,eos,8611,0
+test/geometry/702.json,160,70,0,eos,1428,0
+test/algebra/686.json,4,4,1,eos,21768,1
+test/algebra/297.json,1736,-336,0,eos,23036,1
+test/algebra/733.json,6,\frac{2\sqrt{19}-4}{5},0,eos,10858,1
+test/intermediate_algebra/183.json,"(2,\infty)",2.5,0,eos,18403,0
+test/number_theory/838.json,6,6,1,eos,4346,0
+test/intermediate_algebra/1555.json,12,12,1,eos,4262,0
+test/geometry/221.json,30,\sqrt{322},0,eos,14954,0
+test/counting_and_probability/508.json,"10,\!080",21600,0,eos,11335,1
+test/intermediate_algebra/2196.json,\frac{1}{4},0.15,0,eos,18657,1
+test/precalculus/263.json,\begin{pmatrix} -2 \\ -14 \\ -7 \end{pmatrix},\begin{pmatrix} -26 \\ -62 \\ 29 \end{pmatrix},0,eos,6570,0
+test/number_theory/149.json,66,21,0,loop_abbruch,15616,0
+test/intermediate_algebra/1510.json,0,1,0,eos,17046,0
+test/algebra/291.json,\frac{2}{3},\frac{3}{8},0,eos,24328,1

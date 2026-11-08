@@ -1,0 +1,41 @@
+id,gold,pred,correct,end,tokens,think_closed
+test/prealgebra/1742.json,\dfrac{33}{100},\frac{33}{100},1,eos,3789,1
+test/prealgebra/1317.json,4,4,1,eos,5000,1
+test/number_theory/466.json,1,1,1,eos,9697,1
+test/geometry/483.json,15,15,1,eos,10836,1
+test/geometry/347.json,76^\circ,76,0,eos,13905,1
+test/algebra/524.json,4005,4005,1,eos,15680,1
+test/number_theory/634.json,333,333,1,eos,19720,1
+test/counting_and_probability/913.json,6,1,0,eos,19798,1
+test/algebra/346.json,7,7,1,eos,10159,1
+test/algebra/2551.json,10,10,1,eos,22115,1
+test/prealgebra/1834.json,\sqrt{53},\sqrt{53},1,eos,7478,1
+test/geometry/826.json,1\frac{4}{5},5,0,eos,24684,1
+test/precalculus/580.json,120^\circ,120,0,eos,28912,1
+test/geometry/226.json,180^\circ,,0,limit,32768,0
+test/prealgebra/1787.json,1,1,1,eos,10550,1
+test/number_theory/533.json,1030,,0,limit,32768,1
+test/prealgebra/993.json,1250,,0,limit,32768,0
+test/algebra/1282.json,11,11,1,eos,25599,1
+test/prealgebra/1512.json,7\pi,4\pi/7,0,eos,21020,1
+test/geometry/686.json,18+2\pi,18,0,limit,32768,1
+test/number_theory/631.json,36,0,0,eos,10990,1
+test/number_theory/691.json,255,,0,loop_abbruch,28928,1
+test/prealgebra/260.json,36^\circ,90^\circ,0,eos,27768,1
+test/number_theory/1287.json,8,,0,limit,32768,1
+test/intermediate_algebra/1300.json,16,,0,loop_abbruch,16128,0
+test/algebra/1184.json,129,,0,limit,32768,0
+test/precalculus/768.json,3 \pm 2 \sqrt{2},,0,limit,32768,0
+test/algebra/2486.json,"\left(\frac{3}{5},\frac{8}{3}\right]","\left(\frac{3}{5}, \frac{8}{3}\right]",1,eos,13772,1
+test/intermediate_algebra/960.json,\frac{17}{21},\frac{1}{4},0,eos,29277,1
+test/intermediate_algebra/1411.json,440,,0,limit,32768,0
+test/counting_and_probability/25149.json,63,63,1,eos,23740,1
+test/algebra/634.json,4,4,1,eos,25787,1
+test/precalculus/1172.json,7,,0,limit,32768,1
+test/number_theory/1172.json,103,103,1,eos,22024,1
+test/intermediate_algebra/90.json,898,,0,limit,32768,0
+test/number_theory/488.json,58,,0,limit,32768,0
+test/intermediate_algebra/754.json,\text{(B)},E,0,eos,27218,1
+test/geometry/1097.json,63,63,1,eos,20771,1
+test/precalculus/1201.json,11,,0,limit,32768,0
+test/precalculus/881.json,\begin{pmatrix} -18 \\ -49 \\ 96 \end{pmatrix},,0,limit,32768,0

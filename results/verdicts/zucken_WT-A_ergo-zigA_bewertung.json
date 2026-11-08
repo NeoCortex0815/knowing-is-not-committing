@@ -1,0 +1,190 @@
+{
+ "datei": "zucken_WT-A_ergo-zigA.jsonl",
+ "laeufe": 140,
+ "gekappt": 0,
+ "aussagen_richtig": {
+  "n": 2468,
+  "tor_offen": 0.1673419773095624,
+  "kontext(up>0.5)": 0.40437601296596437,
+  "S>=0.1": 0.09319286871961102,
+  "S>=0.5": 0.013776337115072933,
+  "S>=1": 0.0028363047001620746,
+  "S_median": 0.0008918324676223768,
+  "ps>0.1": 0.020664505672609402,
+  "ps>0.5": 0.017017828200972446,
+  "gegenschub(S_min<-0.05)": 0.19165316045380876,
+  "ps_abl>0.1": 0.0008103727714748784
+ },
+ "aussagen_falsch": {
+  "n": 41380,
+  "tor_offen": 0.05894151764137264,
+  "kontext(up>0.5)": 0.14478008699855002,
+  "S>=0.1": 0.01041565973900435,
+  "S>=0.5": 0.0005074915418076365,
+  "S>=1": 2.416626389560174e-05,
+  "S_median": 0.0009498804034645887,
+  "ps>0.1": 0.0006766553890768487,
+  "ps>0.5": 0.00055582406959884,
+  "gegenschub(S_min<-0.05)": 0.01790720154664089,
+  "ps_abl>0.1": 0.0001208313194780087
+ },
+ "auc_S": 0.5268482589714807,
+ "auc_zT": 0.682529132685714,
+ "trichter_alle": {
+  "richtiger Wert im Denken": 85,
+  "Tor offen an einem richtigen Wert (W)": 77,
+  "Zucken S≥0.5 an einem richtigen Wert": 32,
+  "danach ≤ 64 Tokens geschlossen (T)": 31,
+  "richtig abgegeben": 27
+ },
+ "trichter_nur MIT richtig": {
+  "richtiger Wert im Denken": 15,
+  "Tor offen an einem richtigen Wert (W)": 13,
+  "Zucken S≥0.5 an einem richtigen Wert": 3,
+  "danach ≤ 64 Tokens geschlossen (T)": 3,
+  "richtig abgegeben": 0
+ },
+ "trichter_nur WT-A richtig": {
+  "richtiger Wert im Denken": 6,
+  "Tor offen an einem richtigen Wert (W)": 6,
+  "Zucken S≥0.5 an einem richtigen Wert": 4,
+  "danach ≤ 64 Tokens geschlossen (T)": 4,
+  "richtig abgegeben": 4
+ },
+ "abschluesse": {
+  "Reflex": {
+   "n": 69,
+   "am richtigen Wert": 46,
+   "am falschen Wert": 18,
+   "woanders": 5,
+   "richtig": 51
+  },
+  "natürlich": {
+   "n": 25,
+   "am falschen Wert": 15,
+   "woanders": 6,
+   "am richtigen Wert": 4,
+   "richtig": 5
+  },
+  "unklar": {
+   "n": 9,
+   "am richtigen Wert": 5,
+   "am falschen Wert": 2,
+   "woanders": 2,
+   "richtig": 5
+  }
+ },
+ "horizont": {
+  "0-1000": {
+   "richtig_n": 122,
+   "richtig_zT_median": -0.3399520218372345,
+   "richtig_offen": 0.47540983606557374,
+   "falsch_n": 2300,
+   "falsch_zT_median": -2.910376191139221,
+   "falsch_offen": 0.13652173913043478
+  },
+  "1000-2000": {
+   "richtig_n": 102,
+   "richtig_zT_median": 0.7865275740623474,
+   "richtig_offen": 0.5588235294117647,
+   "falsch_n": 2159,
+   "falsch_zT_median": -3.1676864624023438,
+   "falsch_offen": 0.12505789717461788
+  },
+  "2000-4000": {
+   "richtig_n": 166,
+   "richtig_zT_median": -1.8379888534545898,
+   "richtig_offen": 0.3373493975903614,
+   "falsch_n": 3906,
+   "falsch_zT_median": -3.40294086933136,
+   "falsch_offen": 0.09651817716333845
+  },
+  "4000-8000": {
+   "richtig_n": 290,
+   "richtig_zT_median": -2.332384943962097,
+   "richtig_offen": 0.23793103448275862,
+   "falsch_n": 6961,
+   "falsch_zT_median": -3.625730037689209,
+   "falsch_offen": 0.07441459560407987
+  },
+  "8000-16000": {
+   "richtig_n": 599,
+   "richtig_zT_median": -2.391937494277954,
+   "richtig_offen": 0.1652754590984975,
+   "falsch_n": 11272,
+   "falsch_zT_median": -4.033322095870972,
+   "falsch_offen": 0.053140525195173885
+  },
+  "16000-40000": {
+   "richtig_n": 1189,
+   "richtig_zT_median": -2.7560393810272217,
+   "richtig_offen": 0.06223717409587889,
+   "falsch_n": 14782,
+   "falsch_zT_median": -4.737366199493408,
+   "falsch_offen": 0.02442159383033419
+  }
+ },
+ "gegenschub": {
+  "stellen_S<=-0.02": 10647,
+  "davon_natuerliche_Abschlussstelle(ps_abl>=0.05)": 11,
+  "ps_mit_median_dort": 0.07122,
+  "ps_ohne_median_dort": 0.2439,
+  "verlust_summe(ohne-mit)": 1.69119
+ },
+ "stellschraube": {
+  "-3.0": {
+   "kein Zucker": 137,
+   "erster Zucker falsch": 1,
+   "erster Zucker richtig": 2,
+   "grobe_schaetzung_richtig": 59.94
+  },
+  "-2.0": {
+   "kein Zucker": 131,
+   "erster Zucker richtig": 6,
+   "erster Zucker falsch": 3,
+   "grobe_schaetzung_richtig": 57.82000000000001
+  },
+  "-1.0": {
+   "kein Zucker": 118,
+   "erster Zucker richtig": 17,
+   "erster Zucker falsch": 5,
+   "grobe_schaetzung_richtig": 57.93000000000001
+  },
+  "-0.5": {
+   "kein Zucker": 109,
+   "erster Zucker richtig": 20,
+   "erster Zucker falsch": 11,
+   "grobe_schaetzung_richtig": 54.559999999999995
+  },
+  "0.0": {
+   "kein Zucker": 95,
+   "erster Zucker richtig": 26,
+   "erster Zucker falsch": 19,
+   "grobe_schaetzung_richtig": 53.17999999999999
+  },
+  "0.5": {
+   "kein Zucker": 76,
+   "erster Zucker richtig": 36,
+   "erster Zucker falsch": 28,
+   "grobe_schaetzung_richtig": 50.51999999999998
+  },
+  "1.0": {
+   "kein Zucker": 65,
+   "erster Zucker richtig": 43,
+   "erster Zucker falsch": 32,
+   "grobe_schaetzung_richtig": 49.38999999999997
+  },
+  "2.0": {
+   "erster Zucker falsch": 52,
+   "kein Zucker": 45,
+   "erster Zucker richtig": 43,
+   "grobe_schaetzung_richtig": 49.58999999999996
+  },
+  "3.0": {
+   "erster Zucker falsch": 66,
+   "kein Zucker": 35,
+   "erster Zucker richtig": 39,
+   "grobe_schaetzung_richtig": 47.26999999999995
+  }
+ }
+}

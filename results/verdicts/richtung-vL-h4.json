@@ -1,0 +1,203 @@
+{
+ "statistik": {
+  "texte": 36,
+  "pos_rep": 13135,
+  "pos_prod": 14324
+ },
+ "schichten": {
+  "0": {
+   "d_prime": 0.8,
+   "abstand": 0.138,
+   "cos_mit_15": 0.356,
+   "cos_mit_19": 0.383,
+   "stabilitaet_cos_halbe": 0.8962
+  },
+  "1": {
+   "d_prime": 1.184,
+   "abstand": 0.25,
+   "cos_mit_15": 0.498,
+   "cos_mit_19": 0.491,
+   "stabilitaet_cos_halbe": 0.9371
+  },
+  "2": {
+   "d_prime": 1.674,
+   "abstand": 0.301,
+   "cos_mit_15": 0.41,
+   "cos_mit_19": 0.375,
+   "stabilitaet_cos_halbe": 0.9429
+  },
+  "3": {
+   "d_prime": 1.649,
+   "abstand": 0.36,
+   "cos_mit_15": 0.513,
+   "cos_mit_19": 0.497,
+   "stabilitaet_cos_halbe": 0.9521
+  },
+  "4": {
+   "d_prime": 1.693,
+   "abstand": 0.367,
+   "cos_mit_15": 0.522,
+   "cos_mit_19": 0.494,
+   "stabilitaet_cos_halbe": 0.9534
+  },
+  "5": {
+   "d_prime": 1.776,
+   "abstand": 0.387,
+   "cos_mit_15": 0.516,
+   "cos_mit_19": 0.506,
+   "stabilitaet_cos_halbe": 0.9579
+  },
+  "6": {
+   "d_prime": 2.151,
+   "abstand": 0.453,
+   "cos_mit_15": 0.413,
+   "cos_mit_19": 0.384,
+   "stabilitaet_cos_halbe": 0.9607
+  },
+  "7": {
+   "d_prime": 1.919,
+   "abstand": 0.441,
+   "cos_mit_15": 0.544,
+   "cos_mit_19": 0.51,
+   "stabilitaet_cos_halbe": 0.9645
+  },
+  "8": {
+   "d_prime": 2.035,
+   "abstand": 0.455,
+   "cos_mit_15": 0.55,
+   "cos_mit_19": 0.507,
+   "stabilitaet_cos_halbe": 0.9708
+  },
+  "9": {
+   "d_prime": 1.939,
+   "abstand": 0.497,
+   "cos_mit_15": 0.576,
+   "cos_mit_19": 0.536,
+   "stabilitaet_cos_halbe": 0.9744
+  },
+  "10": {
+   "d_prime": 2.212,
+   "abstand": 0.559,
+   "cos_mit_15": 0.53,
+   "cos_mit_19": 0.469,
+   "stabilitaet_cos_halbe": 0.9744,
+   "tensor": "model.language_model.layers.10.mlp.down_proj.weight",
+   "top_k": 64
+  },
+  "11": {
+   "d_prime": 2.019,
+   "abstand": 0.664,
+   "cos_mit_15": 0.635,
+   "cos_mit_19": 0.57,
+   "stabilitaet_cos_halbe": 0.9761
+  },
+  "12": {
+   "d_prime": 2.087,
+   "abstand": 0.721,
+   "cos_mit_15": 0.629,
+   "cos_mit_19": 0.572,
+   "stabilitaet_cos_halbe": 0.9761
+  },
+  "13": {
+   "d_prime": 2.135,
+   "abstand": 0.883,
+   "cos_mit_15": 0.628,
+   "cos_mit_19": 0.577,
+   "stabilitaet_cos_halbe": 0.9778
+  },
+  "14": {
+   "d_prime": 2.267,
+   "abstand": 1.013,
+   "cos_mit_15": 0.631,
+   "cos_mit_19": 0.569,
+   "stabilitaet_cos_halbe": 0.9744,
+   "tensor": "model.language_model.layers.14.mlp.down_proj.weight",
+   "top_k": 64
+  },
+  "15": {
+   "d_prime": 2.182,
+   "abstand": 1.317,
+   "cos_mit_15": 0.754,
+   "cos_mit_19": 0.673,
+   "stabilitaet_cos_halbe": 0.9729,
+   "tensor": "model.language_model.layers.15.mlp.down_proj.weight",
+   "top_k": 64,
+   "ueberschneidung_mit_spalten": 41,
+   "ueberschneidung_bei_mit_u": 47
+  },
+  "16": {
+   "d_prime": 2.129,
+   "abstand": 1.511,
+   "cos_mit_15": 0.718,
+   "cos_mit_19": 0.7,
+   "stabilitaet_cos_halbe": 0.9694
+  },
+  "17": {
+   "d_prime": 2.148,
+   "abstand": 1.68,
+   "cos_mit_15": 0.687,
+   "cos_mit_19": 0.716,
+   "stabilitaet_cos_halbe": 0.9696
+  },
+  "18": {
+   "d_prime": 2.093,
+   "abstand": 1.725,
+   "cos_mit_15": 0.663,
+   "cos_mit_19": 0.716,
+   "stabilitaet_cos_halbe": 0.9672
+  },
+  "19": {
+   "d_prime": 2.081,
+   "abstand": 2.213,
+   "cos_mit_15": 0.654,
+   "cos_mit_19": 0.771,
+   "stabilitaet_cos_halbe": 0.9713,
+   "tensor": "model.language_model.layers.19.mlp.down_proj.weight",
+   "top_k": 64,
+   "ueberschneidung_mit_spalten": 30,
+   "ueberschneidung_bei_mit_u": 37
+  },
+  "20": {
+   "d_prime": 2.039,
+   "abstand": 2.283,
+   "cos_mit_15": 0.646,
+   "cos_mit_19": 0.748,
+   "stabilitaet_cos_halbe": 0.9667
+  },
+  "21": {
+   "d_prime": 2.007,
+   "abstand": 2.521,
+   "cos_mit_15": 0.622,
+   "cos_mit_19": 0.727,
+   "stabilitaet_cos_halbe": 0.9665
+  },
+  "22": {
+   "d_prime": 2.04,
+   "abstand": 2.457,
+   "cos_mit_15": 0.566,
+   "cos_mit_19": 0.66,
+   "stabilitaet_cos_halbe": 0.9559
+  },
+  "23": {
+   "d_prime": 1.718,
+   "abstand": 1.896,
+   "cos_mit_15": 0.241,
+   "cos_mit_19": 0.294,
+   "stabilitaet_cos_halbe": 0.904
+  }
+ },
+ "staerkste_schichten": [
+  14,
+  10,
+  15,
+  6,
+  17,
+  13
+ ],
+ "laufzeit_s": 75.0,
+ "modus": "schicht",
+ "geraet": "cuda",
+ "kontrast": false,
+ "tokens_gerechnet": 258025,
+ "tokens_ungekuerzt": 267798
+}

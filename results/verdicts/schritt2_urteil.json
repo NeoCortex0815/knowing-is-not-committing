@@ -1,0 +1,52 @@
+{
+ "kennzahlen": {
+  "Gatter 1,0": {
+   "richtig": 11,
+   "laeufe": 60,
+   "zucken": 5,
+   "nie_zu": 44,
+   "tokens": 29832
+  },
+  "MIT 1,0": {
+   "richtig": 24,
+   "laeufe": 60,
+   "zucken": 1,
+   "nie_zu": 35,
+   "tokens": 25579
+  },
+  "ERGORE 1,0": {
+   "richtig": 21,
+   "laeufe": 60,
+   "zucken": 18,
+   "nie_zu": 19,
+   "tokens": 27138
+  },
+  "Gatter 0,6": {
+   "richtig": 27,
+   "laeufe": 60,
+   "zucken": 14,
+   "nie_zu": 18,
+   "tokens": 23805
+  },
+  "ERGORE 0,6": {
+   "richtig": 34,
+   "laeufe": 60,
+   "zucken": 22,
+   "nie_zu": 0,
+   "tokens": 18432
+  },
+  "Gatter3 0,6": {
+   "richtig": 28,
+   "laeufe": 60,
+   "zucken": 10,
+   "nie_zu": 20,
+   "tokens": 25521
+  }
+ },
+ "K1": false,
+ "K2": false,
+ "auc_Gatter": 0.892142528206309,
+ "auc_Gatter3 (Dosis-Arm)": 0.8601658958801816,
+ "auc_ERGORE": 0.9254639852832249,
+ "auc_MIT": 0.9661184862294432
+}
