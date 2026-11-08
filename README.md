@@ -1,5 +1,7 @@
 # Knowing Is Not Committing: code and data for the interim report
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24058693.svg)](https://doi.org/10.5281/zenodo.24058693)
+
 Independent replication and extension of MIT CSAIL's *Sparks of Weight-Space Programming* on **Qwen3.5-0.8B**:
 - rebuilding the loop-reversal edit;
 - adding conditioned closing pushes;
@@ -13,6 +15,8 @@ Independent replication and extension of MIT CSAIL's *Sparks of Weight-Space Pro
 - **Author:** Dave Uhlemann (NeoCortex), independent researcher. AI assistance is disclosed in Section 8 of the report.
 - **Questions and corrections:** please open an [issue](https://github.com/NeoCortex0815/knowing-is-not-committing/issues).
 - **License:** Apache License 2.0 (`LICENSE`, `NOTICE`).
+- **Archive and citation:** Zenodo, DOI [10.5281/zenodo.24058693](https://doi.org/10.5281/zenodo.24058693) for all versions,
+  [10.5281/zenodo.24058694](https://doi.org/10.5281/zenodo.24058694) for v0.2.
 
 ## What is in this folder
 
