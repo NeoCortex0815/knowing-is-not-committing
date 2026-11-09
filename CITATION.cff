@@ -30,6 +30,7 @@ authors:
   - family-names: Uhlemann
     given-names: Dave
     alias: NeoCortex
+    orcid: "https://orcid.org/0009-0000-6926-7000"
 keywords:
   - weight-space programming
   - interpretability
