@@ -68,7 +68,7 @@ paket/   eval/   daten/   ergebnisse/   modelle/   llama/
 ```
 
 - `daten/` holds the problem sets as JSONL with `problem` and `answer` (and `unique_id` / `id`, `level`).
-- `modelle/` holds the Hugging Face model folders (base model and the edited models you build).
+- `modelle/` holds the Hugging Face model folders (the starting model and the edited models you build).
 - `ergebnisse/` is where the evaluation runs write their results.
 - The analysis scripts read the full transcripts from `ergebnisse/`. To re-run them, re-create the runs with `eval/` first. A
   full 140-problem run takes a few hours on one consumer GPU.
@@ -77,7 +77,8 @@ paket/   eval/   daten/   ergebnisse/   modelle/   llama/
 - Python 3.12 with `numpy`, `torch`, `transformers`, `safetensors`, `requests` and `math-verify`. math-verify is required: without
   it, the code silently falls back to comparing normalised text and finds fewer agreements between answers.
 - A llama.cpp build with `llama-server`.
-- Base model `Qwen/Qwen3.5-0.8B` at revision `2fc06364715b967f1860aea9cf38778875588b17`.
+- Starting model `Qwen/Qwen3.5-0.8B` (Qwen's post-trained release, not `Qwen/Qwen3.5-0.8B-Base`) at revision
+  `2fc06364715b967f1860aea9cf38778875588b17`.
 
 **Steps**
 1. **Build an edit:**
