@@ -22,9 +22,9 @@ Independent replication and extension of MIT CSAIL's *Sparks of Weight-Space Pro
 - **Author:** Dave Uhlemann (NeoCortex), independent researcher. AI assistance is disclosed in Section 8 of the report.
 - **Questions and corrections:** please open an [issue](https://github.com/NeoCortex0815/knowing-is-not-committing/issues).
 - **License:** Apache License 2.0 (`LICENSE`, `NOTICE`).
-- **Archive and citation:** Zenodo, DOI [10.5281/zenodo.24058693](https://doi.org/10.5281/zenodo.24058693) for all versions,
-  [10.5281/zenodo.24058694](https://doi.org/10.5281/zenodo.24058694) for v0.2. Zenodo assigns the DOI of v0.3 when it is
-  released.
+- **Archive and citation:** Zenodo, DOI [10.5281/zenodo.24058693](https://doi.org/10.5281/zenodo.24058693) for all versions;
+  [10.5281/zenodo.24082318](https://doi.org/10.5281/zenodo.24082318) for v0.3 and
+  [10.5281/zenodo.24058694](https://doi.org/10.5281/zenodo.24058694) for v0.2.
 
 ## What is in this folder
 
