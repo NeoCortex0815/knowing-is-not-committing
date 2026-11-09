@@ -1,0 +1,27 @@
+{
+ "stand": "nachträglich, beschreibend, keine Lesart",
+ "n": 150,
+ "stufen": {
+  "einstimmig": {
+   "aufgaben": 47,
+   "B+H_richtig": 40,
+   "INT_s0_richtig": 40,
+   "MIT_richtig": 37,
+   "WT-A_richtig": 31
+  },
+  "zwei gegen eine": {
+   "aufgaben": 54,
+   "B+H_richtig": 27,
+   "INT_s0_richtig": 21,
+   "MIT_richtig": 22,
+   "WT-A_richtig": 21
+  },
+  "keine Mehrheit": {
+   "aufgaben": 49,
+   "B+H_richtig": 7,
+   "INT_s0_richtig": 5,
+   "MIT_richtig": 8,
+   "WT-A_richtig": 7
+  }
+ }
+}

@@ -1,4 +1,4 @@
-# Knowing Is Not Committing: code and data for the interim report
+# Knowing Is Not Committing: code and data for the report
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24058693.svg)](https://doi.org/10.5281/zenodo.24058693)
 
@@ -8,33 +8,42 @@ Independent replication and extension of MIT CSAIL's *Sparks of Weight-Space Pro
 - writing a truth-gated reflex into 16 MLP neurons;
 - a series of pre-registered tests on how the model *finds*, *recognises* and *commits to* answers.
 
-- **Report:** [`report/INTERIM_REPORT_v0.2.md`](report/INTERIM_REPORT_v0.2.md) or as
-  [PDF](report/Knowing_Is_Not_Committing_v0.2.pdf). It is an interim report, not peer-reviewed.
-- **German translation:** [`report/INTERIM_REPORT_v0.2_de.md`](report/INTERIM_REPORT_v0.2_de.md) or as
-  [PDF](report/Wissen_ist_nicht_Festlegen_v0.2.pdf). The English version is authoritative.
+- **Report, version 0.3:** [`report/Knowing_Is_Not_Committing_v0.3.md`](report/Knowing_Is_Not_Committing_v0.3.md) or as
+  [PDF](report/Knowing_Is_Not_Committing_v0.3.pdf). Not peer-reviewed. Version 0.3 concludes the report; further follow-up tests
+  on the question in its title remain reserved.
+- **German translation:** [`report/Wissen_ist_nicht_Festlegen_v0.3.md`](report/Wissen_ist_nicht_Festlegen_v0.3.md) or as
+  [PDF](report/Wissen_ist_nicht_Festlegen_v0.3.pdf). The English version is authoritative.
+- **New in version 0.3:**
+  - the result of N30, the test pre-registered publicly in v0.2 (Section 3.11);
+  - N31, a check of the title question on internal signals (Section 3.12);
+  - the consequences of both, listed at the top of the report.
+- **Earlier version:** the interim report v0.2 stays in `report/` (`INTERIM_REPORT_v0.2.md`, `INTERIM_REPORT_v0.2_de.md` and both
+  PDFs).
 - **Author:** Dave Uhlemann (NeoCortex), independent researcher. AI assistance is disclosed in Section 8 of the report.
 - **Questions and corrections:** please open an [issue](https://github.com/NeoCortex0815/knowing-is-not-committing/issues).
 - **License:** Apache License 2.0 (`LICENSE`, `NOTICE`).
 - **Archive and citation:** Zenodo, DOI [10.5281/zenodo.24058693](https://doi.org/10.5281/zenodo.24058693) for all versions,
-  [10.5281/zenodo.24058694](https://doi.org/10.5281/zenodo.24058694) for v0.2.
+  [10.5281/zenodo.24058694](https://doi.org/10.5281/zenodo.24058694) for v0.2. Zenodo assigns the DOI of v0.3 when it is
+  released.
 
 ## What is in this folder
 
 | folder | contents |
 |---|---|
-| `report/` | the interim report in English and a German translation, each as Markdown and PDF |
+| `report/` | the report (version 0.3, and the interim report v0.2) in English and a German translation, each as Markdown and PDF |
 | `eval/` | evaluation client for a local `llama-server` (MIT's "think35" protocol, vLLM-style sampling), answer-mode and presence-penalty variants |
 | `paket/` | every edit builder and every test or analysis script, numbered in the order they were written; each docstring names its question and its pre-registered reading |
-| `prereg/` | the dated pre-registration and analysis log (German). Machine names, paths and details of the author's private systems are redacted |
+| `prereg/` | the dated pre-registration and analysis log (German) up to 8 Nov 2026, 19:42, and an excerpt of the later entries on N30, N31 and version 0.3 (`ANNAHMEN_excerpt_v0.3_de.md`; passages on later work are cut and marked "[…]"). Machine names, paths and details of the author's private systems are redacted |
 | `results/runs/` | one CSV per evaluation run: problem id, gold answer, extracted answer, correct, end reason, tokens, thinking closed |
 | `results/verdicts/` | the JSON outputs of the verdict and analysis scripts |
-| `data/` | id lists of the MATH training problems we used (Set B, 40 new problems, practice set). The problems themselves are not redistributed |
+| `data/` | id lists of the MATH training problems we used (Set B, 40 new problems, practice set, the 150 problems of N30). The problems themselves are not redistributed |
 
 Not included:
 - model weights (rebuild them with the code);
 - the datasets (MATH, MATH-500, IFEval; please obtain them from their sources);
 - the IFEval instruction checks (google-research `instruction_following_eval`, see `NOTICE`);
-- the full transcripts of our runs (large; can be provided later).
+- the full transcripts of our runs (large; can be provided later);
+- the per-statement data of the trigger audit behind Section 3.12 (large; can be provided later).
 
 Code comments and docstrings are in German. They are the working notes of the project, including the questions that led to each
 test.
@@ -62,7 +71,8 @@ paket/   eval/   daten/   ergebnisse/   modelle/   llama/
   full 140-problem run takes a few hours on one consumer GPU.
 
 **Requirements**
-- Python 3.12 with `numpy`, `torch`, `transformers`, `safetensors`, `requests` and `math-verify`.
+- Python 3.12 with `numpy`, `torch`, `transformers`, `safetensors`, `requests` and `math-verify`. math-verify is required: without
+  it, the code silently falls back to comparing normalised text and finds fewer agreements between answers.
 - A llama.cpp build with `llama-server`.
 - Base model `Qwen/Qwen3.5-0.8B` at revision `2fc06364715b967f1860aea9cf38778875588b17`.
 
@@ -98,6 +108,8 @@ top-k → top-p → min-p.
 | 3.8 A recipe for programmed reflexes | `50_ergo_gatter.py`, `66_wt_fix_bauen.py`, `78_wt_bremse.py`, `84_mit_wt_bauen.py`, `56_`–`59_…` |
 | 3.9 Fresh problems 161–300 | `73_urteil300.py`, `81_format_check.py`, `82_zucken.py`, `83_ausschluss.py`, `85_seeds.py`, `88_flur.py`, `93_wirktiefe.py` |
 | 3.10 Answer mode ("front room") | `89_int_kaskade.py`, `91_`/`92_morgengrauen…`, `94_int_frisch.py`, `95_`/`97_…` (state doors), `96_durchstreichen.py`, `98_`/`99_schilder…`, `100_schild_reflex.py`, `101_replay.py`, `102_mit_int.py`, `103_vorderzimmer_sonde.py`, `104_zweifach_intuition.py`, `105_schild_replay.py`, `107_halbtest.py`, `108_drei_intuitionen.py` |
+| 3.11 N30: a council with our own back room (v0.3) | `109_nacht150.py` (verdicts), `114_n30_leiter.py` (breakdown by agreement) |
+| 3.12 N31: does committing track knowing? (v0.3) | `111_kopplung.py`, on the trigger-audit data of `82_zucken.py` |
 
 ## Problem sets
 
@@ -105,7 +117,7 @@ top-k → top-p → min-p.
 - MATH-500 problems 161–300: confirmation set.
 - MATH-500 problems 301–370: second, late confirmation.
 - MATH-500 problems 371–500: untouched.
-- MATH training problems: practice and development sets (ids in `data/`).
+- MATH training problems: practice and development sets, and the 150 never-used problems of N30 (ids in `data/`).
 - IFEval: 120 prompts, strict prompt-level scoring.
 
 ## License

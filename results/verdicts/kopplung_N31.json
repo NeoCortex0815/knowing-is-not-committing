@@ -1,0 +1,138 @@
+{
+ "lesart": "MEILENSTEIN2_N31_N32.md + MEILENSTEIN2_ZUSATZ_WREN.md (N31)",
+ "quellen": {
+  "eigen": {
+   "aussagen": 43848,
+   "richtig": 2468,
+   "laeufe": 140,
+   "AUC_F": 0.5133,
+   "AUC_F_KI95": [
+    0.4644,
+    0.5656
+   ],
+   "bootstrap_ohne_beide_klassen": 0,
+   "AUC_K": 0.6825,
+   "K_band": "schwach",
+   "AUC_Fs_gezogen": 0.5003,
+   "spearman_K_F_richtige": 0.1015,
+   "schild": {
+    "aussagen": 1004,
+    "richtig": 454,
+    "AUC_F": 0.689,
+    "AUC_F_KI95": [
+     0.4534,
+     0.7796
+    ],
+    "bootstrap_ohne_beide_klassen": 0,
+    "AUC_K": 0.8035,
+    "urteil": "offen"
+   },
+   "nach_tiefe": {
+    "0-1000": {
+     "n": 2422,
+     "richtig": 122,
+     "AUC_F": 0.4569,
+     "AUC_K": 0.7101
+    },
+    "1000-2000": {
+     "n": 2261,
+     "richtig": 102,
+     "AUC_F": 0.521,
+     "AUC_K": 0.7915
+    },
+    "2000-4000": {
+     "n": 4072,
+     "richtig": 166,
+     "AUC_F": 0.5292,
+     "AUC_K": 0.6828
+    },
+    "4000-8000": {
+     "n": 7251,
+     "richtig": 290,
+     "AUC_F": 0.5021,
+     "AUC_K": 0.6321
+    },
+    "8000-1000000000": {
+     "n": 27842,
+     "richtig": 1788,
+     "AUC_F": 0.5334,
+     "AUC_K": 0.7072
+    }
+   }
+  },
+  "MIT": {
+   "aussagen": 65713,
+   "richtig": 4262,
+   "laeufe": 140,
+   "AUC_F": 0.4283,
+   "AUC_F_KI95": [
+    0.3908,
+    0.4605
+   ],
+   "bootstrap_ohne_beide_klassen": 0,
+   "AUC_K": 0.7264,
+   "K_band": "schwach",
+   "AUC_Fs_gezogen": 0.5007,
+   "spearman_K_F_richtige": -0.1644,
+   "schild": {
+    "aussagen": 733,
+    "richtig": 332,
+    "AUC_F": 0.3808,
+    "AUC_F_KI95": [
+     0.267,
+     0.5191
+    ],
+    "bootstrap_ohne_beide_klassen": 0,
+    "AUC_K": 0.8549,
+    "urteil": "blind am Schild"
+   },
+   "nach_tiefe": {
+    "0-1000": {
+     "n": 2481,
+     "richtig": 157,
+     "AUC_F": 0.4668,
+     "AUC_K": 0.751
+    },
+    "1000-2000": {
+     "n": 2826,
+     "richtig": 209,
+     "AUC_F": 0.4972,
+     "AUC_K": 0.807
+    },
+    "2000-4000": {
+     "n": 5738,
+     "richtig": 342,
+     "AUC_F": 0.4148,
+     "AUC_K": 0.8335
+    },
+    "4000-8000": {
+     "n": 11202,
+     "richtig": 678,
+     "AUC_F": 0.4149,
+     "AUC_K": 0.7977
+    },
+    "8000-1000000000": {
+     "n": 43466,
+     "richtig": 2876,
+     "AUC_F": 0.4259,
+     "AUC_K": 0.6939
+    }
+   }
+  }
+ },
+ "urteil": {
+  "H6a_eigen": "Festlegen blind (bestätigt)",
+  "K_band_eigen": "schwach",
+  "H6b_MIT": "MIT ebenfalls blind",
+  "K_band_MIT": "schwach",
+  "H6c_unterschied": "offen (Fall vorab nicht benannt)",
+  "AUC_F_MIT_minus_eigen": -0.085,
+  "KI95": [
+   -0.1495,
+   -0.0263
+  ],
+  "deutung": "beide blind: MIT legt sich aus anderen Gründen fest (Schilder, Prüf-Floskeln); Fokus Schilder",
+  "schild_eigen": "offen",
+  "schild_MIT": "blind am Schild"
+ }
+}
