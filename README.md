@@ -24,7 +24,9 @@ Independent replication and extension of MIT CSAIL's *Sparks of Weight-Space Pro
 - **License:** Apache License 2.0 (`LICENSE`, `NOTICE`).
 - **Archive and citation:** Zenodo, DOI [10.5281/zenodo.24058693](https://doi.org/10.5281/zenodo.24058693) for all versions;
   [10.5281/zenodo.24082318](https://doi.org/10.5281/zenodo.24082318) for v0.3 and
-  [10.5281/zenodo.24058694](https://doi.org/10.5281/zenodo.24058694) for v0.2.
+  [10.5281/zenodo.24058694](https://doi.org/10.5281/zenodo.24058694) for v0.2. BibTeX under [How to cite](#how-to-cite).
+- **Keywords:** weight-space programming, mechanistic interpretability, model editing, reasoning models, chain-of-thought,
+  overthinking, reasoning loops, linear probe, truth probe, pre-registration, replication, Qwen3.5-0.8B.
 
 ## What is in this folder
 
@@ -119,6 +121,25 @@ top-k → top-p → min-p.
 - MATH-500 problems 371–500: untouched.
 - MATH training problems: practice and development sets, and the 150 never-used problems of N30 (ids in `data/`).
 - IFEval: 120 prompts, strict prompt-level scoring.
+
+## How to cite
+
+GitHub's "Cite this repository" button reads `CITATION.cff`. In BibTeX:
+
+```bibtex
+@misc{uhlemann2026knowing,
+  author    = {Uhlemann, Dave},
+  title     = {{Knowing Is Not Committing}: Replicating {MIT}'s weight-space edit and programming a truth-gated reflex into a 0.8{B} reasoning model},
+  year      = {2026},
+  publisher = {Zenodo},
+  doi       = {10.5281/zenodo.24058693},
+  url       = {https://doi.org/10.5281/zenodo.24058693},
+  note      = {Report, version 0.3. Not peer-reviewed}
+}
+```
+
+The DOI above covers all versions. To cite version 0.3 exactly, use
+[10.5281/zenodo.24082318](https://doi.org/10.5281/zenodo.24082318).
 
 ## License
 

@@ -4,8 +4,28 @@ title: "Knowing Is Not Committing: Replicating MIT's weight-space edit and progr
 version: "0.3"
 date-released: "2026-11-09"
 doi: "10.5281/zenodo.24058693"
+identifiers:
+  - type: doi
+    value: "10.5281/zenodo.24082318"
+    description: "Version 0.3"
+  - type: doi
+    value: "10.5281/zenodo.24058694"
+    description: "Version 0.2"
 license: Apache-2.0
 repository-code: "https://github.com/NeoCortex0815/knowing-is-not-committing"
+abstract: >-
+  Independent replication and extension of MIT CSAIL's Sparks of Weight-Space
+  Programming on Qwen3.5-0.8B. We rebuild the loop-reversal edit, add
+  conditioned closing pushes and write a truth-gated reflex into 16 MLP
+  neurons. A series of pre-registered tests asks how the model finds,
+  recognises and commits to answers. Version 0.3 reports N30, the test
+  pre-registered publicly in v0.2: a council of three answer-mode runs with
+  our own thinking run as fallback solves 74 of 150 never-used MATH training
+  problems, against 66 for answer mode alone and 67 for MIT's edit with
+  thinking. It also reports N31: at the values the model writes while
+  reasoning, its own tendency to stop does not track whether the value is
+  correct (AUC 0.51), while a frozen linear probe does (0.68). Not
+  peer-reviewed.
 authors:
   - family-names: Uhlemann
     given-names: Dave
@@ -13,5 +33,16 @@ authors:
 keywords:
   - weight-space programming
   - interpretability
+  - mechanistic interpretability
+  - model editing
   - reasoning models
+  - LLM reasoning
+  - chain-of-thought
+  - overthinking
+  - reasoning loops
+  - linear probe
+  - truth probe
+  - knowing vs. committing
   - pre-registration
+  - replication
+  - Qwen3.5
