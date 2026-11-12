@@ -38,6 +38,7 @@ Independent replication and extension of MIT CSAIL's *Sparks of Weight-Space Pro
 | `paket/` | every edit builder and every test or analysis script, numbered in the order they were written; each docstring names its question and its pre-registered reading |
 | `prereg/` | the dated pre-registration and analysis log (German) up to 8 Nov 2026, 19:42, and an excerpt of the later entries on N30, N31 and version 0.3 (`ANNAHMEN_excerpt_v0.3_de.md`; passages on later work are cut and marked "[…]"). Machine names, paths and details of the author's private systems are redacted |
 | `results/runs/` | one CSV per evaluation run: problem id, gold answer, extracted answer, correct, end reason, tokens, thinking closed |
+| `results/long-horizon-16k/` | per-item rows of the long-horizon 16K cross-check from the Hugging Face discussion #2 on the released edit: six cells on MATH-500 rows 0–49, loop shares counted over model tokens and over words |
 | `results/verdicts/` | the JSON outputs of the verdict and analysis scripts |
 | `data/` | id lists of the MATH training problems we used (Set B, 40 new problems, practice set, the 150 problems of N30). The problems themselves are not redistributed |
 
