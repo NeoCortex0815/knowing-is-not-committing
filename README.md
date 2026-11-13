@@ -30,6 +30,7 @@ Independent replication and extension of MIT CSAIL's *Sparks of Weight-Space Pro
 - **Questions and corrections:** please open an [issue](https://github.com/NeoCortex0815/knowing-is-not-committing/issues).
 - **License:** Apache License 2.0 (`LICENSE`, `NOTICE`).
 - **Archive and citation:** Zenodo, DOI [10.5281/zenodo.24058693](https://doi.org/10.5281/zenodo.24058693) for all versions;
+  [10.5281/zenodo.24185608](https://doi.org/10.5281/zenodo.24185608) for v0.4,
   [10.5281/zenodo.24082318](https://doi.org/10.5281/zenodo.24082318) for v0.3 and
   [10.5281/zenodo.24058694](https://doi.org/10.5281/zenodo.24058694) for v0.2. BibTeX under [How to cite](#how-to-cite).
 - **Keywords:** weight-space programming, mechanistic interpretability, model editing, reasoning models, chain-of-thought,
@@ -148,8 +149,9 @@ GitHub's "Cite this repository" button reads `CITATION.cff`. In BibTeX:
 }
 ```
 
-The DOI above covers all versions. To cite a version exactly, use its version DOI: version 0.3
-[10.5281/zenodo.24082318](https://doi.org/10.5281/zenodo.24082318); the DOI of version 0.4 is added after archiving.
+The DOI above covers all versions. To cite a version exactly, use its version DOI: version 0.4
+[10.5281/zenodo.24185608](https://doi.org/10.5281/zenodo.24185608), version 0.3
+[10.5281/zenodo.24082318](https://doi.org/10.5281/zenodo.24082318).
 
 ## License
 
