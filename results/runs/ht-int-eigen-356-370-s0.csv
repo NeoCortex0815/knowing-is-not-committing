@@ -1,7 +1,7 @@
 id,gold,pred,correct,end,tokens,think_closed
 test/intermediate_algebra/860.json,\text{ellipse},ellipse,1,eos,566,0
 test/prealgebra/1353.json,4,4,1,eos,1133,0
-test/counting_and_probability/14.json,\frac14,\frac{1}{4},0,eos,472,0
+test/counting_and_probability/14.json,\frac14,\frac{1}{4},1,eos,472,0
 test/algebra/251.json,2,2,1,eos,324,0
 test/algebra/1078.json,"(-\sqrt{3}, \sqrt{3})","[0, 2\sqrt{2}-2]",0,eos,12457,1
 test/intermediate_algebra/1407.json,6,4,0,eos,14907,0

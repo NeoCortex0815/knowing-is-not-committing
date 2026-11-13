@@ -1,8 +1,8 @@
 cff-version: 1.2.0
 message: "If you use this work, please cite it as below."
 title: "Knowing Is Not Committing: Replicating MIT's weight-space edit and programming a truth-gated reflex into a 0.8B reasoning model (report)"
-version: "0.3"
-date-released: "2026-11-09"
+version: "0.4"
+date-released: "2026-11-13"
 doi: "10.5281/zenodo.24058693"
 identifiers:
   - type: doi
@@ -18,11 +18,12 @@ abstract: >-
   Programming on Qwen3.5-0.8B. We rebuild the loop-reversal edit, add
   conditioned closing pushes and write a truth-gated reflex into 16 MLP
   neurons. A series of pre-registered tests asks how the model finds,
-  recognises and commits to answers. Version 0.3 reports N30, the test
-  pre-registered publicly in v0.2: a council of three answer-mode runs with
-  our own thinking run as fallback solves 74 of 150 never-used MATH training
-  problems, against 66 for answer mode alone and 67 for MIT's edit with
-  thinking. It also reports N31: at the values the model writes while
+  recognises and commits to answers. Version 0.4 corrects a grading error of
+  versions 0.2 and 0.3; five pre-registered verdicts change. Version 0.3
+  reported N30, the test pre-registered publicly in v0.2: with corrected
+  grading, a council of three answer-mode runs with our own thinking run as
+  fallback solves 77 of 150 never-used MATH training problems, against 69 for
+  answer mode alone and 67 for MIT's edit with thinking. It also reported N31: at the values the model writes while
   reasoning, its own tendency to stop does not track whether the value is
   correct (AUC 0.51), while a frozen linear probe does (0.68). Not
   peer-reviewed.

@@ -10,7 +10,7 @@ test/geometry/826.json,1\frac{4}{5},,0,loop_abbruch,15360,1
 test/counting_and_probability/913.json,6,1,0,eos,15829,1
 test/geometry/226.json,180^\circ,,0,eos,17121,1
 test/number_theory/533.json,1030,133,0,eos,17294,1
-test/precalculus/580.json,120^\circ,120,0,eos,29235,1
+test/precalculus/580.json,120^\circ,120,1,eos,29235,1
 test/number_theory/691.json,255,255,1,eos,14139,1
 test/prealgebra/993.json,1250,,0,loop_abbruch,27648,1
 test/prealgebra/260.json,36^\circ,72,0,eos,15047,1

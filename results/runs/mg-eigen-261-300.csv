@@ -9,7 +9,7 @@ test/precalculus/1172.json,7,\sqrt{\frac{4360}{89}},0,eos,9660,0
 test/prealgebra/1512.json,7\pi,\frac{33(\pi - 2)}{4},0,eos,10643,1
 test/prealgebra/260.json,36^\circ,72,0,eos,10991,0
 test/intermediate_algebra/1300.json,16,16,1,eos,10716,0
-test/geometry/226.json,180^\circ,180,0,eos,12689,0
+test/geometry/226.json,180^\circ,180,1,eos,12689,0
 test/number_theory/488.json,58,71,0,eos,5218,0
 test/number_theory/634.json,333,333,1,eos,14164,0
 test/intermediate_algebra/960.json,\frac{17}{21},\frac{2}{15},0,eos,14259,1

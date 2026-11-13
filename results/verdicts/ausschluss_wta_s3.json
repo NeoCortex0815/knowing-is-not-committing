@@ -5,10 +5,10 @@
   "MIT": 0
  },
  "paare": {
-  "beide": 54,
-  "nur_WT-A": 7,
-  "nur_MIT": 26,
-  "keiner": 53
+  "beide": 57,
+  "nur_WT-A": 6,
+  "nur_MIT": 25,
+  "keiner": 52
  },
  "kontext_kurve": {
   "WT-A": {
@@ -31,29 +31,28 @@
  "trichter_WT-A": {
   "richtiger Wert im Denken": 85,
   "am richtigen Wert geschlossen (G1)": 55,
-  "davon richtig abgegeben": 48,
+  "davon richtig abgegeben": 50,
   "Wert da, dort nicht geschlossen (G2)": 30,
   "davon trotzdem richtig": 6,
   "ohne richtigen Wert": 55
  },
  "abgabe_verluste_WT-A": {
   "geschlossen, keine Antwort (limit)": 1,
-  "geschlossen, falsche Antwort": 3,
+  "geschlossen, falsche Antwort": 1,
   "geschlossen, keine Antwort (loop_abbruch)": 1,
   "geschlossen, keine Antwort (eos)": 2
  },
  "trichter_MIT": {
   "richtiger Wert im Denken": 102,
   "am richtigen Wert geschlossen (G1)": 37,
-  "davon richtig abgegeben": 33,
+  "davon richtig abgegeben": 34,
   "Wert da, dort nicht geschlossen (G2)": 65,
   "davon trotzdem richtig": 3,
   "ohne richtigen Wert": 38
  },
  "abgabe_verluste_MIT": {
   "geschlossen, keine Antwort (limit)": 1,
-  "geschlossen, keine Antwort (loop_abbruch)": 2,
-  "geschlossen, falsche Antwort": 1
+  "geschlossen, keine Antwort (loop_abbruch)": 2
  },
  "ausschluss": {
   "t1 (Median Tokens)": [
@@ -150,13 +149,13 @@
  "horizont_nur_mit": {
   "Wert da, WT-A schloss woanders": 6,
   "Wert da, WT-A schloss nie": 4,
-  "WT-A schloss am richtigen Wert, Abgabe misslang": 5,
+  "WT-A schloss am richtigen Wert, Abgabe misslang": 4,
   "Wert bei WT-A nie da (ohne früheren Abschluss)": 11
  },
  "nachsicht": {
   "WT-A 1×": {
    "n": 12,
-   "richtig": 11,
+   "richtig": 12,
    "zweites_zu": 12,
    "antwort_tokens_median": 2127.0
   },
@@ -168,7 +167,7 @@
   },
   "WT-A 3–5×": {
    "n": 15,
-   "richtig": 13,
+   "richtig": 14,
    "zweites_zu": 15,
    "antwort_tokens_median": 1759.0
   },
@@ -180,7 +179,7 @@
   },
   "MIT 3–5×": {
    "n": 1,
-   "richtig": 0,
+   "richtig": 1,
    "zweites_zu": 0,
    "antwort_tokens_median": 563.0
   },

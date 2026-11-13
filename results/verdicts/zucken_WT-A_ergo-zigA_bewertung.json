@@ -35,18 +35,18 @@
   "Tor offen an einem richtigen Wert (W)": 77,
   "Zucken S≥0.5 an einem richtigen Wert": 32,
   "danach ≤ 64 Tokens geschlossen (T)": 31,
-  "richtig abgegeben": 27
+  "richtig abgegeben": 29
  },
  "trichter_nur MIT richtig": {
-  "richtiger Wert im Denken": 15,
-  "Tor offen an einem richtigen Wert (W)": 13,
-  "Zucken S≥0.5 an einem richtigen Wert": 3,
-  "danach ≤ 64 Tokens geschlossen (T)": 3,
+  "richtiger Wert im Denken": 14,
+  "Tor offen an einem richtigen Wert (W)": 12,
+  "Zucken S≥0.5 an einem richtigen Wert": 2,
+  "danach ≤ 64 Tokens geschlossen (T)": 2,
   "richtig abgegeben": 0
  },
  "trichter_nur WT-A richtig": {
-  "richtiger Wert im Denken": 6,
-  "Tor offen an einem richtigen Wert (W)": 6,
+  "richtiger Wert im Denken": 5,
+  "Tor offen an einem richtigen Wert (W)": 5,
   "Zucken S≥0.5 an einem richtigen Wert": 4,
   "danach ≤ 64 Tokens geschlossen (T)": 4,
   "richtig abgegeben": 4
@@ -57,7 +57,7 @@
    "am richtigen Wert": 46,
    "am falschen Wert": 18,
    "woanders": 5,
-   "richtig": 51
+   "richtig": 53
   },
   "natürlich": {
    "n": 25,
@@ -136,25 +136,25 @@
    "kein Zucker": 137,
    "erster Zucker falsch": 1,
    "erster Zucker richtig": 2,
-   "grobe_schaetzung_richtig": 59.94
+   "grobe_schaetzung_richtig": 61.94
   },
   "-2.0": {
    "kein Zucker": 131,
    "erster Zucker richtig": 6,
    "erster Zucker falsch": 3,
-   "grobe_schaetzung_richtig": 57.82000000000001
+   "grobe_schaetzung_richtig": 59.82000000000001
   },
   "-1.0": {
    "kein Zucker": 118,
    "erster Zucker richtig": 17,
    "erster Zucker falsch": 5,
-   "grobe_schaetzung_richtig": 57.93000000000001
+   "grobe_schaetzung_richtig": 58.93000000000001
   },
   "-0.5": {
    "kein Zucker": 109,
    "erster Zucker richtig": 20,
    "erster Zucker falsch": 11,
-   "grobe_schaetzung_richtig": 54.559999999999995
+   "grobe_schaetzung_richtig": 55.559999999999995
   },
   "0.0": {
    "kein Zucker": 95,

@@ -4,15 +4,15 @@
  "stufen": {
   "einstimmig": {
    "aufgaben": 47,
-   "B+H_richtig": 40,
-   "INT_s0_richtig": 40,
+   "B+H_richtig": 41,
+   "INT_s0_richtig": 41,
    "MIT_richtig": 37,
    "WT-A_richtig": 31
   },
   "zwei gegen eine": {
    "aufgaben": 54,
-   "B+H_richtig": 27,
-   "INT_s0_richtig": 21,
+   "B+H_richtig": 29,
+   "INT_s0_richtig": 23,
    "MIT_richtig": 22,
    "WT-A_richtig": 21
   },

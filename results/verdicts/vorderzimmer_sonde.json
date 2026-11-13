@@ -44,9 +44,9 @@
  "schicht": 13,
  "lambda": 100.0,
  "cv_auc": 0.8052248214035579,
- "test_auc": 0.7626046131863645,
- "grundlinie_auc": 0.7225964482547459,
- "kombiniert_auc": 0.7634211063482343,
+ "test_auc": 0.7541118421052632,
+ "grundlinie_auc": 0.7232730263157895,
+ "kombiniert_auc": 0.7576069078947368,
  "urteil": "offen",
  "n_train": 239,
  "n_test": 140

@@ -2,7 +2,7 @@ id,gold,pred,correct,end,tokens,think_closed
 test/number_theory/466.json,1,1,1,eos,1664,1
 test/prealgebra/1742.json,\dfrac{33}{100},\frac{33}{100},1,eos,2069,1
 test/algebra/2551.json,10,10,1,eos,3989,1
-test/precalculus/580.json,120^\circ,120,0,eos,4761,1
+test/precalculus/580.json,120^\circ,120,1,eos,4761,1
 test/prealgebra/1317.json,4,4,1,eos,5515,1
 test/algebra/346.json,7,7,1,eos,3428,1
 test/counting_and_probability/913.json,6,6,1,eos,12904,1
@@ -10,7 +10,7 @@ test/prealgebra/993.json,1250,1250,1,eos,13727,1
 test/prealgebra/1834.json,\sqrt{53},\sqrt{53},1,eos,7953,1
 test/algebra/524.json,4005,4005,1,eos,17795,1
 test/geometry/226.json,180^\circ,,0,loop_abbruch,18944,1
-test/geometry/347.json,76^\circ,76,0,eos,20267,1
+test/geometry/347.json,76^\circ,76,1,eos,20267,1
 test/geometry/483.json,15,,0,eos,21408,1
 test/geometry/686.json,18+2\pi,18,0,eos,20315,1
 test/geometry/826.json,1\frac{4}{5},5,0,eos,29484,1

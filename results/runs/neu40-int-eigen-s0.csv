@@ -1,7 +1,7 @@
 id,gold,pred,correct,end,tokens,think_closed
 math_train_prealgebra_595,2,2,1,eos,331,0
 math_train_prealgebra_160,10,10,1,eos,507,0
-math_train_algebra_12,2 \text{ euros},2,0,eos,577,0
+math_train_algebra_12,2 \text{ euros},2,1,eos,577,0
 math_train_algebra_1599,3,\frac{3 + \sqrt{197}}{7},0,eos,1282,0
 math_train_precalculus_162,"\left( -\frac{31}{12}, \frac{41}{12} \right)","\left(-\frac{31}{12}, \frac{41}{12}\right)",1,eos,1851,0
 math_train_counting_and_probability_151,42,43,0,eos,5334,0
@@ -18,13 +18,13 @@ math_train_intermediate_algebra_314,\sqrt{2},\sqrt{17},0,eos,20694,1
 math_train_prealgebra_1110,5,6,0,eos,398,0
 math_train_prealgebra_873,44,44,1,eos,221,0
 math_train_algebra_2,4,4,1,eos,470,0
-math_train_algebra_1702,13a^2(a+7),a^2(13a + 91),0,eos,578,0
+math_train_algebra_1702,13a^2(a+7),a^2(13a + 91),1,eos,578,0
 math_train_prealgebra_268,36,54,0,eos,579,0
 math_train_algebra_100,16,8,0,eos,9032,0
 math_train_number_theory_472,6,165,0,eos,11895,1
-math_train_prealgebra_64,37^\circ,37,0,eos,15831,1
+math_train_prealgebra_64,37^\circ,37,1,eos,15831,1
 math_train_intermediate_algebra_719,32,32,1,eos,697,0
-math_train_prealgebra_409,140\text{ degrees},140^\circ,0,eos,2308,0
+math_train_prealgebra_409,140\text{ degrees},140^\circ,1,eos,2308,0
 math_train_precalculus_195,\sqrt{3} - 1,1,0,eos,18044,1
 math_train_number_theory_470,2,2,1,eos,639,0
 math_train_algebra_1257,-\frac{1}{7},-\frac{1}{7},1,eos,270,0

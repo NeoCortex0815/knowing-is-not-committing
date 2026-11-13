@@ -1,7 +1,7 @@
 id,gold,pred,correct,end,tokens,think_closed
 math_train_algebra_44,"(4,4)","(4, 4)",1,eos,1070,1
-math_train_prealgebra_894,18 \text{ degrees},18,0,eos,2210,1
-math_train_algebra_310,\frac{2}{x} + 4x^2,4x^2 + \frac{2}{x},0,eos,3091,1
+math_train_prealgebra_894,18 \text{ degrees},18,1,eos,2210,1
+math_train_algebra_310,\frac{2}{x} + 4x^2,4x^2 + \frac{2}{x},1,eos,3091,1
 math_train_algebra_482,150,150,1,eos,11990,1
 math_train_counting_and_probability_58,-110,-110,1,eos,17936,1
 math_train_prealgebra_551,72,72,1,eos,18512,1
@@ -28,4 +28,4 @@ math_train_number_theory_582,417,,0,limit,32768,1
 math_train_precalculus_650,"\left( 6, \frac{3 \pi}{2}, \frac{\pi}{3} \right)",,0,limit,32768,0
 math_train_counting_and_probability_223,14,,0,limit,32768,0
 math_train_geometry_490,47,47,1,eos,29244,1
-math_train_number_theory_295,1011_2,1011,0,eos,25510,1
+math_train_number_theory_295,1011_2,1011,1,eos,25510,1

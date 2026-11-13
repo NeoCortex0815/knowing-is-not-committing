@@ -1,29 +1,29 @@
 {
- "mit_ohne_denken": 59,
+ "mit_ohne_denken": 63,
  "MIT mit Denken": {
   "n": 140,
-  "vgl": 80,
-  "nur_ohne": 6,
-  "nur_vgl": 27,
-  "p": 0.0003240634687244892
+  "vgl": 82,
+  "nur_ohne": 7,
+  "nur_vgl": 26,
+  "p": 0.0013187271542847157
  },
  "urteil_N13": {
-  "ohne": 59,
-  "mit": 80,
+  "ohne": 63,
+  "mit": 82,
   "urteil": "Das Hinterzimmer lohnt sich bei MIT"
  },
  "INT (eigen ohne Denken)": {
   "n": 140,
-  "vgl": 71,
-  "nur_ohne": 14,
-  "nur_vgl": 26,
-  "p": 0.0806904677519924
+  "vgl": 76,
+  "nur_ohne": 15,
+  "nur_vgl": 28,
+  "p": 0.0659940344557981
  },
  "WT-A mit Denken": {
   "n": 140,
-  "vgl": 61,
-  "nur_ohne": 19,
-  "nur_vgl": 21,
-  "p": 0.8746293123804207
+  "vgl": 63,
+  "nur_ohne": 20,
+  "nur_vgl": 20,
+  "p": 1.0
  }
 }

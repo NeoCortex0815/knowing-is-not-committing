@@ -1,11 +1,11 @@
 id,gold,pred,correct,end,tokens,think_closed
 math_train_algebra_44,"(4,4)","(4,4)",1,eos,1086,1
-math_train_prealgebra_894,18 \text{ degrees},18,0,eos,2471,1
+math_train_prealgebra_894,18 \text{ degrees},18,1,eos,2471,1
 math_train_algebra_310,\frac{2}{x} + 4x^2,\frac{2}{x} + 4x^2,1,eos,6882,1
 math_train_algebra_482,150,150,1,eos,11424,1
 math_train_algebra_672,6,6,1,eos,10886,1
 math_train_counting_and_probability_58,-110,,0,loop_abbruch,24320,0
-math_train_number_theory_101,\frac{1}{5},1/5,0,eos,30237,1
+math_train_number_theory_101,\frac{1}{5},1/5,1,eos,30237,1
 math_train_algebra_670,\frac{24}{125},,0,limit,32768,0
 math_train_precalculus_640,\frac{25}{49},,0,limit,32768,0
 math_train_prealgebra_551,72,,0,limit,32768,0
@@ -27,5 +27,5 @@ math_train_geometry_478,17,,0,limit,32768,0
 math_train_number_theory_582,417,,0,limit,32768,0
 math_train_precalculus_650,"\left( 6, \frac{3 \pi}{2}, \frac{\pi}{3} \right)",,0,limit,32768,0
 math_train_counting_and_probability_223,14,,0,limit,32768,1
-math_train_number_theory_295,1011_2,1011,0,eos,23826,1
+math_train_number_theory_295,1011_2,1011,1,eos,23826,1
 math_train_geometry_490,47,,0,limit,32768,0

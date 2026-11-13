@@ -1,6 +1,6 @@
 id,gold,pred,correct,end,tokens,think_closed
 math_train_algebra_44,"(4,4)","(4, 4)",1,eos,1657,1
-math_train_prealgebra_894,18 \text{ degrees},18,0,eos,1714,1
+math_train_prealgebra_894,18 \text{ degrees},18,1,eos,1714,1
 math_train_algebra_310,\frac{2}{x} + 4x^2,\frac{2}{x} + 4x^2,1,eos,2563,1
 math_train_algebra_670,\frac{24}{125},\frac{24}{125},1,eos,4552,1
 math_train_algebra_672,6,6,1,eos,2050,1
@@ -22,7 +22,7 @@ math_train_precalculus_502,\frac{1}{(a + b)^3},,0,limit,32768,0
 math_train_number_theory_228,925,,0,limit,32768,0
 math_train_precalculus_640,\frac{25}{49},,0,limit,32768,0
 math_train_number_theory_692,20,,0,limit,32768,1
-math_train_number_theory_295,1011_2,1011,0,eos,8112,1
+math_train_number_theory_295,1011_2,1011,1,eos,8112,1
 math_train_intermediate_algebra_986,-2 \text{ or } -12,,0,limit,32768,1
 math_train_geometry_478,17,,0,limit,32768,0
 math_train_number_theory_582,417,,0,limit,32768,1

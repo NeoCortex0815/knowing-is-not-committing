@@ -1,13 +1,13 @@
 id,gold,pred,correct,end,tokens,think_closed
 math_train_algebra_44,"(4,4)","(4, 4)",1,eos,1212,1
 math_train_algebra_310,\frac{2}{x} + 4x^2,\frac{2}{x} + 4x^2,1,eos,2930,1
-math_train_prealgebra_894,18 \text{ degrees},18,0,eos,3228,1
+math_train_prealgebra_894,18 \text{ degrees},18,1,eos,3228,1
 math_train_counting_and_probability_58,-110,-110,1,eos,3378,1
 math_train_geometry_158,23,23,1,eos,3855,1
 math_train_algebra_482,150,150,1,eos,3943,1
 math_train_algebra_670,\frac{24}{125},\frac{24}{125},1,eos,7373,1
 math_train_precalculus_271,4,4,1,eos,5755,1
-math_train_number_theory_101,\frac{1}{5},1/5,0,eos,10493,1
+math_train_number_theory_101,\frac{1}{5},1/5,1,eos,10493,1
 math_train_number_theory_693,2,2,1,eos,7187,1
 math_train_algebra_982,10x,10x,1,eos,2537,1
 math_train_prealgebra_551,72,72,1,eos,12302,1

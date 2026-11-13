@@ -3,7 +3,7 @@ test/prealgebra/1742.json,\dfrac{33}{100},\frac{33}{100},1,eos,3789,1
 test/prealgebra/1317.json,4,4,1,eos,5000,1
 test/number_theory/466.json,1,1,1,eos,9697,1
 test/geometry/483.json,15,15,1,eos,10836,1
-test/geometry/347.json,76^\circ,76,0,eos,13905,1
+test/geometry/347.json,76^\circ,76,1,eos,13905,1
 test/algebra/524.json,4005,4005,1,eos,15680,1
 test/number_theory/634.json,333,333,1,eos,19720,1
 test/counting_and_probability/913.json,6,1,0,eos,19798,1
@@ -11,7 +11,7 @@ test/algebra/346.json,7,7,1,eos,10159,1
 test/algebra/2551.json,10,10,1,eos,22115,1
 test/prealgebra/1834.json,\sqrt{53},\sqrt{53},1,eos,7478,1
 test/geometry/826.json,1\frac{4}{5},5,0,eos,24684,1
-test/precalculus/580.json,120^\circ,120,0,eos,28912,1
+test/precalculus/580.json,120^\circ,120,1,eos,28912,1
 test/geometry/226.json,180^\circ,,0,limit,32768,0
 test/prealgebra/1787.json,1,1,1,eos,10550,1
 test/number_theory/533.json,1030,,0,limit,32768,1

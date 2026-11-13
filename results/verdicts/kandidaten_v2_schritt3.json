@@ -1,9 +1,9 @@
 {
  "WT-A": {
   "laeufe": 140,
-  "richtig": 61,
+  "richtig": 63,
   "abdeckung_alt": 10,
-  "abdeckung_v2": 55,
+  "abdeckung_v2": 57,
   "gelegenheiten_v2": 85,
   "zuendungen_v2": 55,
   "schnell_v2": 90,
@@ -27,7 +27,7 @@
    },
    "s3-wta-261-300": {
     "laeufe": 40,
-    "richtig": 17,
+    "richtig": 19,
     "gelegenheiten_v2": 23,
     "zuendungen_v2": 17,
     "schnell_v2": 25,
@@ -41,9 +41,9 @@
  },
  "MIT": {
   "laeufe": 140,
-  "richtig": 80,
-  "abdeckung_alt": 51,
-  "abdeckung_v2": 77,
+  "richtig": 82,
+  "abdeckung_alt": 52,
+  "abdeckung_v2": 79,
   "gelegenheiten_v2": 102,
   "zuendungen_v2": 37,
   "schnell_v2": 85,
@@ -59,23 +59,23 @@
    },
    "s3-mit-261-300": {
     "laeufe": 40,
-    "richtig": 22,
+    "richtig": 24,
     "gelegenheiten_v2": 28,
     "zuendungen_v2": 12,
     "schnell_v2": 22,
     "schnell_richtig_v2": 12
    }
   },
-  "vorsprung_median": 5557.0,
-  "vorsprung_n": 51,
+  "vorsprung_median": 5358.5,
+  "vorsprung_n": 52,
   "zuend_quote_v2": 0.3627450980392157,
   "praezision_v2": 0.43529411764705883
  },
  "ERGORE": {
   "laeufe": 140,
-  "richtig": 65,
-  "abdeckung_alt": 31,
-  "abdeckung_v2": 60,
+  "richtig": 66,
+  "abdeckung_alt": 32,
+  "abdeckung_v2": 61,
   "gelegenheiten_v2": 83,
   "zuendungen_v2": 19,
   "schnell_v2": 81,
@@ -91,15 +91,15 @@
    },
    "s3-ergore-261-300": {
     "laeufe": 40,
-    "richtig": 14,
+    "richtig": 15,
     "gelegenheiten_v2": 22,
     "zuendungen_v2": 4,
     "schnell_v2": 22,
     "schnell_richtig_v2": 4
    }
   },
-  "vorsprung_median": 4816.0,
-  "vorsprung_n": 31,
+  "vorsprung_median": 5144.0,
+  "vorsprung_n": 32,
   "zuend_quote_v2": 0.2289156626506024,
   "praezision_v2": 0.2345679012345679
  },

@@ -8,12 +8,12 @@ test/geometry/483.json,15,15,1,eos,673,0
 test/algebra/346.json,7,7,1,eos,271,0
 test/prealgebra/993.json,1250,1250,1,eos,535,0
 test/prealgebra/1834.json,\sqrt{53},\sqrt{53},1,eos,321,0
-test/geometry/347.json,76^\circ,76,0,eos,1031,0
+test/geometry/347.json,76^\circ,76,1,eos,1031,0
 test/number_theory/691.json,255,256,0,eos,398,0
 test/precalculus/580.json,120^\circ,0,0,eos,1315,0
 test/algebra/2551.json,10,10,1,eos,1892,0
 test/prealgebra/1787.json,1,1,1,eos,599,0
-test/geometry/226.json,180^\circ,180,0,eos,2042,0
+test/geometry/226.json,180^\circ,180,1,eos,2042,0
 test/prealgebra/1512.json,7\pi,-3\pi,0,eos,2205,0
 test/prealgebra/260.json,36^\circ,72,0,eos,6918,0
 test/geometry/686.json,18+2\pi,20 + 2\pi,0,eos,7746,1

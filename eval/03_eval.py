@@ -4,13 +4,19 @@
       --daten daten/math500.jsonl --n 40 --aus ergebnisse/basis
 
 Misst je Aufgabe: Ende (eos / limit / loop_abbruch), Tokens, Tail-Duplikat-Anteil (8-Gramme),
-ob </think> geschlossen wurde, Korrektheit (letztes \\boxed{}, math-verify falls installiert).
+ob </think> geschlossen wurde, Korrektheit (letztes \\boxed{}, math-verify; ohne das Paket bricht das Programm ab).
 Speichert Prompt- und Antwort-Token für den Teacher-Forcing-Schritt (04_richtung.py).
 Fortsetzbar: bereits bewertete Aufgaben im Ausgabeordner werden übersprungen.
 
 --loop-abbruch (Standard an) bricht eine Generierung ab, sobald sie eindeutig im Kreis läuft
 (Tail-Duplikat-Anteil > Schwelle nach mindestens --abbruch-ab Tokens). Spart viel Zeit; für das
 exakte MIT-Protokoll --kein-abbruch setzen.
+
+Fassung 0.4 (12.11.2026, Berichtigung des Bewertungsfehlers): Bewertet wird nur noch im Haupt-Thread. Unter Linux setzt math-verify
+seine Zeitgrenze mit signal.alarm, das in Arbeits-Threads scheitert; die Fassungen davor fingen den Fehler still ab und verglichen
+nur Text. Jetzt: (1) Generierung in Threads, Bewertung und Schreiben im Haupt-Thread; (2) korrekt() verweigert mit Zeitgrenze
+außerhalb des Haupt-Threads (RuntimeError); (3) scheitert math-verify an einer Antwort, steht das laut im Log und im Datensatz
+("bewertung": "text-rueckfall") und als Zähler in der Zusammenfassung; (4) ohne math-verify kein Lauf.
 """
 import argparse
 import json
@@ -82,20 +88,35 @@ import sys as _sys
 # LAPTOP-ÄNDERUNG (einzige gegenüber dem MiniPC-Original): unter Windows scheitert die Zeitbegrenzung von
 # math-verify (Unterprozesse, "Zugriff verweigert") und liefert dann stillschweigend False -> abgeschaltet.
 # Bewertungslogik unverändert; geprüft mit logs/test_mathverify.py (Laptop ohne Zeitbegrenzung = MiniPC: 0 Abweichungen).
+# Nachtrag Fassung 0.4: Diese Prüfung lief im Haupt-Thread. Dass die Zeitgrenze unter Linux in Arbeits-Threads scheitert (und
+# der Rückfall dort still nur Text verglich), hat sie nicht erfasst. Deshalb bewertet main() jetzt im Haupt-Thread.
 _MV = {"parsing_timeout": None} if _sys.platform == "win32" else {}
 _MV_V = {"timeout_seconds": None} if _sys.platform == "win32" else {}
 
 
-def korrekt(pred, gold):
+RUECKFAELLE = []  # (pred, gold, Fehler): jeder frühere stille Rückfall ist jetzt sichtbar
+
+
+def korrekt_mit_status(pred, gold):
+    """(richtig, Status). Status "math-verify" oder "text-rueckfall"."""
     if pred is None:
-        return False
-    if mv_parse is not None:
-        try:
-            return bool(mv_verify(mv_parse("\\boxed{" + gold + "}", **_MV), mv_parse("\\boxed{" + pred + "}", **_MV),
-                                  **_MV_V))
-        except Exception:
-            pass
-    return _norm(pred) == _norm(gold)
+        return False, "math-verify"
+    if mv_parse is None:
+        raise RuntimeError("math-verify fehlt – ohne das Paket misst die Bewertung etwas anderes")
+    if _MV == {} and threading.current_thread() is not threading.main_thread():
+        raise RuntimeError("math-verify mit Zeitgrenze nur im Haupt-Thread aufrufen (signal.alarm)")
+    try:
+        return bool(mv_verify(mv_parse("\\boxed{" + gold + "}", **_MV), mv_parse("\\boxed{" + pred + "}", **_MV),
+                              **_MV_V)), "math-verify"
+    except Exception as e:  # laut, nicht still
+        RUECKFAELLE.append((pred, gold, repr(e)[:200]))
+        print(f"WARNUNG Bewertung: math-verify scheitert ({repr(e)[:120]}); Text-Vergleich für pred={pred[:60]!r}",
+              file=_sys.stderr, flush=True)
+        return _norm(pred) == _norm(gold), "text-rueckfall"
+
+
+def korrekt(pred, gold):
+    return korrekt_mit_status(pred, gold)[0]
 
 
 def generiere(server, ids, max_tokens, seed, abbruch, schwelle, abbruch_ab, timeout):
@@ -149,6 +170,8 @@ def main():
     ap.add_argument("--temperatur", type=float, default=None,
                     help="Empfindlichkeitstest (Nutzer 06.11.): Temperatur statt 0,6 (z. B. 1,0 = Empfehlung Qwen3.6 Denkmodus)")
     a = ap.parse_args()
+    if mv_parse is None:
+        _sys.exit("math-verify fehlt – bitte installieren (ohne das Paket misst die Bewertung etwas anderes)")
     if a.vllm_stil:
         EXTRA.update(VLLM_STIL)
     if a.temperatur is not None:
@@ -180,13 +203,10 @@ def main():
             g["gen_ids"] = tok(g["text"], add_special_tokens=False)["input_ids"]
             g["gen_ids_quelle"] = "neu_tokenisiert"
         pred = letztes_boxed(g["text"])
-        rec = {"id": pid, "gold": row["answer"], "pred": pred, "korrekt": korrekt(pred, row["answer"]),
+        rec = {"id": pid, "gold": row["answer"], "pred": pred, "korrekt": None,  # wird im Haupt-Thread gesetzt
                "ende": g["ende"], "tokens": g["tokens"], "sekunden": g["sekunden"],
                "tail_dup8": round(tail_dup8(g["text"]), 3), "think_zu": "</think>" in g["text"],
                "prompt_ids": ids, "gen_ids": g["gen_ids"], "text": g["text"]}
-        with lock:
-            with open(pfad, "a", encoding="utf-8") as f:
-                f.write(json.dumps(rec, ensure_ascii=False) + "\n")
         return rec
 
     with ThreadPoolExecutor(a.parallel) as ex:
@@ -194,6 +214,12 @@ def main():
         for k, fu in enumerate(as_completed(futs), 1):
             r = fu.result()
             if r:
+                r["korrekt"], status = korrekt_mit_status(r["pred"], r["gold"])  # Haupt-Thread
+                if status != "math-verify":
+                    r["bewertung"] = status
+                with lock:
+                    with open(pfad, "a", encoding="utf-8") as f:
+                        f.write(json.dumps(r, ensure_ascii=False) + "\n")
                 print(f"[{k}/{len(futs)}] {r['id']}: {r['ende']:12s} {r['tokens']:6d} tok  "
                       f"dup8 {r['tail_dup8']:.2f}  {'OK' if r['korrekt'] else '--'}  ({r['sekunden']} s)",
                       flush=True)
@@ -209,7 +235,8 @@ def main():
           "mittel_tail_dup8": round(sum(r["tail_dup8"] for r in alle) / n, 3),
           "protokoll": dict(THINK35, **EXTRA, max_tokens=a.max_tokens, loop_abbruch=not a.kein_abbruch,
                             schwelle=a.schwelle, abbruch_ab=a.abbruch_ab, seed=a.seed),
-          "math_verify": mv_parse is not None}
+          "math_verify": mv_parse is not None, "bewertung": "Haupt-Thread (Fassung 0.4)",
+          "bewertung_rueckfaelle": sum(1 for r in alle if r.get("bewertung") == "text-rueckfall")}
     json.dump(zs, open(os.path.join(a.aus, "zusammenfassung.json"), "w"), indent=1)
     print(json.dumps(zs, indent=1))
 

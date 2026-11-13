@@ -6,14 +6,14 @@ test/number_theory/89.json,900,3600,0,eos,1103,0
 test/prealgebra/1436.json,6,6,1,eos,2936,0
 test/prealgebra/378.json,10,12,0,eos,12217,1
 test/prealgebra/1961.json,\frac{16}{27},0,0,eos,12565,1
-test/precalculus/819.json,\text{(C)},C,0,eos,630,0
+test/precalculus/819.json,\text{(C)},C,1,eos,630,0
 test/prealgebra/2057.json,90,90,1,eos,2362,0
 test/counting_and_probability/282.json,\frac{1}{2},1/4,0,eos,15797,1
 test/counting_and_probability/71.json,3,3,1,eos,12862,1
 test/counting_and_probability/765.json,110,45,0,eos,15921,0
-test/precalculus/441.json,30^\circ,30,0,eos,433,0
+test/precalculus/441.json,30^\circ,30,1,eos,433,0
 test/algebra/1578.json,10,10,1,eos,950,0
-test/prealgebra/153.json,\frac 59,\frac{5}{9},0,eos,431,0
+test/prealgebra/153.json,\frac 59,\frac{5}{9},1,eos,431,0
 test/number_theory/417.json,"11,\! 111,\! 111,\! 100",None,0,eos,17819,1
 test/algebra/2159.json,11,9,0,eos,17314,1
 test/intermediate_algebra/337.json,22,22,1,eos,1478,0
@@ -43,7 +43,7 @@ test/number_theory/1065.json,17,17,1,eos,10728,1
 test/prealgebra/1995.json,\frac{8}{21},\frac{8}{21},1,eos,1626,0
 test/intermediate_algebra/1210.json,-13x+3,-13x + 3,1,eos,14645,1
 test/prealgebra/874.json,116,2x,0,eos,19589,1
-test/precalculus/452.json,\text{(E)},E,0,eos,9488,0
+test/precalculus/452.json,\text{(E)},E,1,eos,9488,0
 test/counting_and_probability/1009.json,28,3,0,eos,12287,1
 test/precalculus/1056.json,288 \pi,\frac{7696\pi}{1225},0,limit,32768,1
 test/precalculus/920.json,\begin{pmatrix} -1 & 0 \\ 0 & -1 \end{pmatrix},\begin{pmatrix} -1 & 0 \\ 0 & -1 \end{pmatrix},1,eos,20900,1

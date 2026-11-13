@@ -2,11 +2,11 @@ id,gold,pred,correct,end,tokens,think_closed
 math_train_algebra_44,"(4,4)","(4, 4)",1,eos,1012,1
 math_train_algebra_482,150,150,1,eos,3445,1
 math_train_algebra_310,\frac{2}{x} + 4x^2,\frac{2}{x} + 4x^2,1,eos,5429,1
-math_train_prealgebra_894,18 \text{ degrees},18,0,eos,12586,1
+math_train_prealgebra_894,18 \text{ degrees},18,1,eos,12586,1
 math_train_counting_and_probability_58,-110,-110,1,eos,22629,1
 math_train_algebra_672,6,6,1,eos,17894,1
 math_train_algebra_670,\frac{24}{125},\frac{24}{125},1,eos,24481,1
-math_train_number_theory_101,\frac{1}{5},1/5,0,eos,25413,1
+math_train_number_theory_101,\frac{1}{5},1/5,1,eos,25413,1
 math_train_algebra_982,10x,10x,1,eos,4113,1
 math_train_precalculus_271,4,,0,loop_abbruch,28160,0
 math_train_precalculus_640,\frac{25}{49},,0,limit,32768,0
@@ -16,11 +16,11 @@ math_train_number_theory_228,925,0,0,limit,32768,1
 math_train_prealgebra_551,72,,0,limit,32768,0
 math_train_number_theory_692,20,62,0,limit,32768,1
 math_train_geometry_84,\frac{\sqrt{3}}{3},\frac{\sqrt{3}}{3},1,eos,3160,1
-math_train_intermediate_algebra_986,-2 \text{ or } -12,"-2, -12",0,eos,25864,1
+math_train_intermediate_algebra_986,-2 \text{ or } -12,"-2, -12",1,eos,25864,1
 math_train_number_theory_693,2,,0,loop_abbruch,17664,0
 math_train_prealgebra_579,9,9,1,eos,11499,1
 math_train_algebra_622,4,4,1,eos,11341,1
-math_train_number_theory_295,1011_2,1011,0,eos,10136,1
+math_train_number_theory_295,1011_2,1011,1,eos,10136,1
 math_train_algebra_332,\frac{3}{2},\frac{3}{2},1,eos,13153,1
 math_train_algebra_1495,2,,0,limit,32768,0
 math_train_number_theory_763,38,,0,limit,32768,0

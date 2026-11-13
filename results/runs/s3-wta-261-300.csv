@@ -2,8 +2,8 @@ id,gold,pred,correct,end,tokens,think_closed
 test/prealgebra/1317.json,4,4,1,eos,1501,1
 test/prealgebra/1742.json,\dfrac{33}{100},\frac{33}{100},1,eos,2543,1
 test/number_theory/466.json,1,1,1,eos,2836,1
-test/precalculus/580.json,120^\circ,120,0,eos,3026,1
-test/geometry/347.json,76^\circ,76,0,eos,3214,1
+test/precalculus/580.json,120^\circ,120,1,eos,3026,1
+test/geometry/347.json,76^\circ,76,1,eos,3214,1
 test/algebra/524.json,4005,4005,1,eos,3313,1
 test/geometry/483.json,15,15,1,eos,3393,1
 test/prealgebra/1834.json,\sqrt{53},\sqrt{53},1,eos,1254,1

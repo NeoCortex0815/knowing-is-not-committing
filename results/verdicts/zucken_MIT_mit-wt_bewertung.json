@@ -35,20 +35,20 @@
   "Tor offen an einem richtigen Wert (W)": 94,
   "Zucken S≥0.5 an einem richtigen Wert": 76,
   "danach ≤ 64 Tokens geschlossen (T)": 24,
-  "richtig abgegeben": 23
+  "richtig abgegeben": 24
  },
  "trichter_nur MIT richtig": {
-  "richtiger Wert im Denken": 23,
-  "Tor offen an einem richtigen Wert (W)": 22,
-  "Zucken S≥0.5 an einem richtigen Wert": 20,
-  "danach ≤ 64 Tokens geschlossen (T)": 10,
-  "richtig abgegeben": 10
+  "richtiger Wert im Denken": 22,
+  "Tor offen an einem richtigen Wert (W)": 21,
+  "Zucken S≥0.5 an einem richtigen Wert": 19,
+  "danach ≤ 64 Tokens geschlossen (T)": 9,
+  "richtig abgegeben": 9
  },
  "trichter_nur WT-A richtig": {
-  "richtiger Wert im Denken": 6,
+  "richtiger Wert im Denken": 5,
   "Tor offen an einem richtigen Wert (W)": 5,
   "Zucken S≥0.5 an einem richtigen Wert": 3,
-  "danach ≤ 64 Tokens geschlossen (T)": 1,
+  "danach ≤ 64 Tokens geschlossen (T)": 0,
   "richtig abgegeben": 0
  },
  "abschluesse": {
@@ -61,7 +61,7 @@
    "am richtigen Wert": 36,
    "am falschen Wert": 48,
    "woanders": 33,
-   "richtig": 80
+   "richtig": 82
   },
   "unklar": {
    "n": 1,
@@ -128,16 +128,16 @@
  },
  "schaetzung_mit_wt": {
   "n": 140,
-  "unten": 67.55235984276307,
-  "oben": 69.32013222754662,
-  "neutral": 67.8746357901374,
-  "mit_tatsaechlich": 80,
-  "pi_r": 0.8918918918918919,
-  "pi_f": 0.16216216216216217
+  "unten": 70.52131964688688,
+  "oben": 72.28909203167046,
+  "neutral": 71.12437633067793,
+  "mit_tatsaechlich": 82,
+  "pi_r": 0.918918918918919,
+  "pi_f": 0.1891891891891892
  },
  "schaetzung_je_aufgabe": {
   "test/algebra/1282.json": {
-   "erwartet_richtig": 0.8918918918918919,
+   "erwartet_richtig": 0.918918918918919,
    "unklar": 0.0,
    "p_frueh_zu": 1.0,
    "mit": true,
@@ -145,7 +145,7 @@
    "gruppe": "nur MIT richtig"
   },
   "test/algebra/1578.json": {
-   "erwartet_richtig": 0.8918918918918919,
+   "erwartet_richtig": 0.918918918918919,
    "unklar": 0.0,
    "p_frueh_zu": 1.0,
    "mit": true,
@@ -153,7 +153,7 @@
    "gruppe": "nur MIT richtig"
   },
   "test/algebra/686.json": {
-   "erwartet_richtig": 0.8918918918918919,
+   "erwartet_richtig": 0.918918918918919,
    "unklar": 0.0,
    "p_frueh_zu": 1.0,
    "mit": true,
@@ -161,7 +161,7 @@
    "gruppe": "nur MIT richtig"
   },
   "test/counting_and_probability/913.json": {
-   "erwartet_richtig": 0.8918918918918919,
+   "erwartet_richtig": 0.9189189189189191,
    "unklar": 0.0,
    "p_frueh_zu": 1.0,
    "mit": true,
@@ -169,7 +169,7 @@
    "gruppe": "nur MIT richtig"
   },
   "test/geometry/221.json": {
-   "erwartet_richtig": 0.8918918918918919,
+   "erwartet_richtig": 0.918918918918919,
    "unklar": 0.0,
    "p_frueh_zu": 1.0,
    "mit": true,
@@ -177,15 +177,15 @@
    "gruppe": "nur MIT richtig"
   },
   "test/geometry/347.json": {
-   "erwartet_richtig": 0.8918918918918919,
+   "erwartet_richtig": 0.9189189189189191,
    "unklar": 0.0,
    "p_frueh_zu": 1.0,
    "mit": true,
-   "wta": false,
-   "gruppe": "nur MIT richtig"
+   "wta": true,
+   "gruppe": "gleich"
   },
   "test/intermediate_algebra/1300.json": {
-   "erwartet_richtig": 0.8918918918918919,
+   "erwartet_richtig": 0.918918918918919,
    "unklar": 0.0,
    "p_frueh_zu": 1.0,
    "mit": true,
@@ -193,7 +193,7 @@
    "gruppe": "nur MIT richtig"
   },
   "test/intermediate_algebra/1555.json": {
-   "erwartet_richtig": 0.8918918918918919,
+   "erwartet_richtig": 0.918918918918919,
    "unklar": 0.0,
    "p_frueh_zu": 1.0,
    "mit": true,
@@ -209,7 +209,7 @@
    "gruppe": "nur MIT richtig"
   },
   "test/number_theory/1201.json": {
-   "erwartet_richtig": 0.2056520837837838,
+   "erwartet_richtig": 0.2326791108108108,
    "unklar": 0.0,
    "p_frueh_zu": 1.0,
    "mit": true,
@@ -217,7 +217,7 @@
    "gruppe": "nur MIT richtig"
   },
   "test/number_theory/149.json": {
-   "erwartet_richtig": 0.8918918918918919,
+   "erwartet_richtig": 0.918918918918919,
    "unklar": 0.0,
    "p_frueh_zu": 1.0,
    "mit": true,
@@ -233,7 +233,7 @@
    "gruppe": "nur MIT richtig"
   },
   "test/number_theory/488.json": {
-   "erwartet_richtig": 0.16216216216216217,
+   "erwartet_richtig": 0.1891891891891892,
    "unklar": 0.0,
    "p_frueh_zu": 1.0,
    "mit": true,
@@ -241,7 +241,7 @@
    "gruppe": "nur MIT richtig"
   },
   "test/number_theory/521.json": {
-   "erwartet_richtig": 0.5775939706767731,
+   "erwartet_richtig": 0.6046209977038001,
    "unklar": 0.0,
    "p_frueh_zu": 1.0,
    "mit": true,
@@ -249,7 +249,7 @@
    "gruppe": "nur MIT richtig"
   },
   "test/number_theory/634.json": {
-   "erwartet_richtig": 0.8918918918918919,
+   "erwartet_richtig": 0.918918918918919,
    "unklar": 0.0,
    "p_frueh_zu": 1.0,
    "mit": true,
@@ -265,7 +265,7 @@
    "gruppe": "nur MIT richtig"
   },
   "test/number_theory/978.json": {
-   "erwartet_richtig": 0.8918918918918919,
+   "erwartet_richtig": 0.918918918918919,
    "unklar": 0.0,
    "p_frueh_zu": 1.0,
    "mit": true,
@@ -273,7 +273,7 @@
    "gruppe": "nur MIT richtig"
   },
   "test/prealgebra/1356.json": {
-   "erwartet_richtig": 0.8918918918918919,
+   "erwartet_richtig": 0.9189189189189189,
    "unklar": 0.0,
    "p_frueh_zu": 1.0,
    "mit": true,
@@ -289,7 +289,7 @@
    "gruppe": "nur MIT richtig"
   },
   "test/prealgebra/153.json": {
-   "erwartet_richtig": 0.8918918918918919,
+   "erwartet_richtig": 0.918918918918919,
    "unklar": 0.0,
    "p_frueh_zu": 1.0,
    "mit": true,
@@ -297,7 +297,7 @@
    "gruppe": "nur MIT richtig"
   },
   "test/prealgebra/2057.json": {
-   "erwartet_richtig": 0.8918918918918919,
+   "erwartet_richtig": 0.918918918918919,
    "unklar": 0.0,
    "p_frueh_zu": 1.0,
    "mit": true,
@@ -313,7 +313,7 @@
    "gruppe": "nur MIT richtig"
   },
   "test/prealgebra/378.json": {
-   "erwartet_richtig": 0.8918918918918919,
+   "erwartet_richtig": 0.918918918918919,
    "unklar": 0.0,
    "p_frueh_zu": 1.0,
    "mit": true,
@@ -321,7 +321,7 @@
    "gruppe": "nur MIT richtig"
   },
   "test/prealgebra/993.json": {
-   "erwartet_richtig": 0.8918918918918919,
+   "erwartet_richtig": 0.918918918918919,
    "unklar": 0.0,
    "p_frueh_zu": 1.0,
    "mit": true,
@@ -329,7 +329,7 @@
    "gruppe": "nur MIT richtig"
   },
   "test/precalculus/263.json": {
-   "erwartet_richtig": 0.16216216216216217,
+   "erwartet_richtig": 0.1891891891891892,
    "unklar": 0.0,
    "p_frueh_zu": 1.0,
    "mit": true,
@@ -337,7 +337,7 @@
    "gruppe": "nur MIT richtig"
   },
   "test/precalculus/441.json": {
-   "erwartet_richtig": 0.8918918918918919,
+   "erwartet_richtig": 0.918918918918919,
    "unklar": 0.0,
    "p_frueh_zu": 1.0,
    "mit": true,
@@ -345,7 +345,7 @@
    "gruppe": "nur MIT richtig"
   },
   "test/algebra/2159.json": {
-   "erwartet_richtig": 0.16216216216216217,
+   "erwartet_richtig": 0.1891891891891892,
    "unklar": 0.0,
    "p_frueh_zu": 1.0,
    "mit": false,
@@ -353,7 +353,7 @@
    "gruppe": "nur WT-A richtig"
   },
   "test/number_theory/1287.json": {
-   "erwartet_richtig": 0.8918918918918919,
+   "erwartet_richtig": 0.918918918918919,
    "unklar": 0.0,
    "p_frueh_zu": 1.0,
    "mit": false,
@@ -361,7 +361,7 @@
    "gruppe": "nur WT-A richtig"
   },
   "test/number_theory/533.json": {
-   "erwartet_richtig": 0.8918918918918919,
+   "erwartet_richtig": 0.918918918918919,
    "unklar": 0.0,
    "p_frueh_zu": 1.0,
    "mit": false,
@@ -377,23 +377,23 @@
    "gruppe": "nur WT-A richtig"
   },
   "test/prealgebra/1742.json": {
-   "erwartet_richtig": 0.8918918918918919,
+   "erwartet_richtig": 0.918918918918919,
    "unklar": 0.0,
    "p_frueh_zu": 1.0,
-   "mit": false,
+   "mit": true,
    "wta": true,
-   "gruppe": "nur WT-A richtig"
+   "gruppe": "gleich"
   },
   "test/precalculus/768.json": {
-   "erwartet_richtig": 0.049118918918918925,
+   "erwartet_richtig": 0.47362466898870137,
    "unklar": 0.2807807364167041,
    "p_frueh_zu": 0.30289999999999995,
-   "mit": false,
+   "mit": true,
    "wta": true,
-   "gruppe": "nur WT-A richtig"
+   "gruppe": "gleich"
   },
   "test/precalculus/881.json": {
-   "erwartet_richtig": 0.16216216216216217,
+   "erwartet_richtig": 0.1891891891891892,
    "unklar": 0.0,
    "p_frueh_zu": 1.0,
    "mit": false,
@@ -401,7 +401,7 @@
    "gruppe": "nur WT-A richtig"
   },
   "test/algebra/1082.json": {
-   "erwartet_richtig": 0.8918918918918919,
+   "erwartet_richtig": 0.918918918918919,
    "unklar": 0.0,
    "p_frueh_zu": 1.0,
    "mit": true,
@@ -409,7 +409,7 @@
    "gruppe": "gleich"
   },
   "test/algebra/109.json": {
-   "erwartet_richtig": 0.8918918918918919,
+   "erwartet_richtig": 0.9189189189189191,
    "unklar": 0.0,
    "p_frueh_zu": 1.0,
    "mit": true,
@@ -417,7 +417,7 @@
    "gruppe": "gleich"
   },
   "test/algebra/1143.json": {
-   "erwartet_richtig": 0.8918918918918919,
+   "erwartet_richtig": 0.9189189189189191,
    "unklar": 0.0,
    "p_frueh_zu": 1.0,
    "mit": true,
@@ -433,7 +433,7 @@
    "gruppe": "gleich"
   },
   "test/algebra/1214.json": {
-   "erwartet_richtig": 0.8918918918918919,
+   "erwartet_richtig": 0.918918918918919,
    "unklar": 0.0,
    "p_frueh_zu": 1.0,
    "mit": true,
@@ -441,7 +441,7 @@
    "gruppe": "gleich"
   },
   "test/algebra/1255.json": {
-   "erwartet_richtig": 0.16216216216216217,
+   "erwartet_richtig": 0.1891891891891892,
    "unklar": 0.0,
    "p_frueh_zu": 1.0,
    "mit": true,
@@ -457,7 +457,7 @@
    "gruppe": "gleich"
   },
   "test/algebra/1787.json": {
-   "erwartet_richtig": 0.16216216216216217,
+   "erwartet_richtig": 0.1891891891891892,
    "unklar": 0.0,
    "p_frueh_zu": 1.0,
    "mit": false,
@@ -465,7 +465,7 @@
    "gruppe": "gleich"
   },
   "test/algebra/1934.json": {
-   "erwartet_richtig": 0.8918918918918919,
+   "erwartet_richtig": 0.918918918918919,
    "unklar": 0.0,
    "p_frueh_zu": 1.0,
    "mit": true,
@@ -473,7 +473,7 @@
    "gruppe": "gleich"
   },
   "test/algebra/1937.json": {
-   "erwartet_richtig": 0.16216216216216217,
+   "erwartet_richtig": 0.1891891891891892,
    "unklar": 0.0,
    "p_frueh_zu": 1.0,
    "mit": true,
@@ -481,7 +481,7 @@
    "gruppe": "gleich"
   },
   "test/algebra/2064.json": {
-   "erwartet_richtig": 0.16216216216216217,
+   "erwartet_richtig": 0.18918918918918923,
    "unklar": 0.0,
    "p_frueh_zu": 1.0,
    "mit": true,
@@ -489,7 +489,7 @@
    "gruppe": "gleich"
   },
   "test/algebra/2102.json": {
-   "erwartet_richtig": 0.8918918918918919,
+   "erwartet_richtig": 0.918918918918919,
    "unklar": 0.0,
    "p_frueh_zu": 1.0,
    "mit": true,
@@ -497,7 +497,7 @@
    "gruppe": "gleich"
   },
   "test/algebra/2199.json": {
-   "erwartet_richtig": 0.8918918918918919,
+   "erwartet_richtig": 0.918918918918919,
    "unklar": 0.0,
    "p_frueh_zu": 1.0,
    "mit": true,
@@ -505,7 +505,7 @@
    "gruppe": "gleich"
   },
   "test/algebra/2486.json": {
-   "erwartet_richtig": 0.16216216216216217,
+   "erwartet_richtig": 0.1891891891891892,
    "unklar": 0.0,
    "p_frueh_zu": 1.0,
    "mit": true,
@@ -513,7 +513,7 @@
    "gruppe": "gleich"
   },
   "test/algebra/2517.json": {
-   "erwartet_richtig": 0.8918918918918919,
+   "erwartet_richtig": 0.918918918918919,
    "unklar": 0.0,
    "p_frueh_zu": 1.0,
    "mit": true,
@@ -521,7 +521,7 @@
    "gruppe": "gleich"
   },
   "test/algebra/2551.json": {
-   "erwartet_richtig": 0.8248881081081081,
+   "erwartet_richtig": 0.8519151351351352,
    "unklar": 0.0,
    "p_frueh_zu": 1.0,
    "mit": true,
@@ -529,7 +529,7 @@
    "gruppe": "gleich"
   },
   "test/algebra/2626.json": {
-   "erwartet_richtig": 0.16216216216216217,
+   "erwartet_richtig": 0.1891891891891892,
    "unklar": 0.0,
    "p_frueh_zu": 1.0,
    "mit": false,
@@ -537,7 +537,7 @@
    "gruppe": "gleich"
   },
   "test/algebra/291.json": {
-   "erwartet_richtig": 0.16216216216216217,
+   "erwartet_richtig": 0.1891891891891892,
    "unklar": 0.0,
    "p_frueh_zu": 1.0,
    "mit": false,
@@ -545,7 +545,7 @@
    "gruppe": "gleich"
   },
   "test/algebra/297.json": {
-   "erwartet_richtig": 0.017951351351351355,
+   "erwartet_richtig": 0.020943243243243245,
    "unklar": 0.0,
    "p_frueh_zu": 0.11070000000000002,
    "mit": false,
@@ -553,7 +553,7 @@
    "gruppe": "gleich"
   },
   "test/algebra/346.json": {
-   "erwartet_richtig": 0.8918918918918919,
+   "erwartet_richtig": 0.918918918918919,
    "unklar": 0.0,
    "p_frueh_zu": 1.0,
    "mit": true,
@@ -561,7 +561,7 @@
    "gruppe": "gleich"
   },
   "test/algebra/351.json": {
-   "erwartet_richtig": 0.8918918918918919,
+   "erwartet_richtig": 0.918918918918919,
    "unklar": 0.0,
    "p_frueh_zu": 1.0,
    "mit": true,
@@ -569,7 +569,7 @@
    "gruppe": "gleich"
   },
   "test/algebra/478.json": {
-   "erwartet_richtig": 0.8918918918918919,
+   "erwartet_richtig": 0.918918918918919,
    "unklar": 0.0,
    "p_frueh_zu": 1.0,
    "mit": true,
@@ -577,7 +577,7 @@
    "gruppe": "gleich"
   },
   "test/algebra/524.json": {
-   "erwartet_richtig": 0.8918918918918919,
+   "erwartet_richtig": 0.918918918918919,
    "unklar": 0.0,
    "p_frueh_zu": 1.0,
    "mit": true,
@@ -585,7 +585,7 @@
    "gruppe": "gleich"
   },
   "test/algebra/634.json": {
-   "erwartet_richtig": 0.8918918918918919,
+   "erwartet_richtig": 0.918918918918919,
    "unklar": 0.0,
    "p_frueh_zu": 1.0,
    "mit": true,
@@ -593,7 +593,7 @@
    "gruppe": "gleich"
   },
   "test/algebra/694.json": {
-   "erwartet_richtig": 0.8918918918918919,
+   "erwartet_richtig": 0.918918918918919,
    "unklar": 0.0,
    "p_frueh_zu": 1.0,
    "mit": true,
@@ -601,7 +601,7 @@
    "gruppe": "gleich"
   },
   "test/algebra/733.json": {
-   "erwartet_richtig": 0.16216216216216217,
+   "erwartet_richtig": 0.1891891891891892,
    "unklar": 0.0,
    "p_frueh_zu": 1.0,
    "mit": false,
@@ -609,7 +609,7 @@
    "gruppe": "gleich"
   },
   "test/algebra/841.json": {
-   "erwartet_richtig": 0.8918918918918919,
+   "erwartet_richtig": 0.918918918918919,
    "unklar": 0.0,
    "p_frueh_zu": 1.0,
    "mit": true,
@@ -617,7 +617,7 @@
    "gruppe": "gleich"
   },
   "test/algebra/864.json": {
-   "erwartet_richtig": 0.16216216216216217,
+   "erwartet_richtig": 0.1891891891891892,
    "unklar": 0.0,
    "p_frueh_zu": 1.0,
    "mit": true,
@@ -625,7 +625,7 @@
    "gruppe": "gleich"
   },
   "test/algebra/907.json": {
-   "erwartet_richtig": 0.8918918918918919,
+   "erwartet_richtig": 0.918918918918919,
    "unklar": 0.0,
    "p_frueh_zu": 1.0,
    "mit": true,
@@ -641,7 +641,7 @@
    "gruppe": "gleich"
   },
   "test/counting_and_probability/1009.json": {
-   "erwartet_richtig": 0.16216216216216217,
+   "erwartet_richtig": 0.1891891891891892,
    "unklar": 0.0,
    "p_frueh_zu": 1.0,
    "mit": false,
@@ -657,7 +657,7 @@
    "gruppe": "gleich"
   },
   "test/counting_and_probability/25149.json": {
-   "erwartet_richtig": 0.7832227005405406,
+   "erwartet_richtig": 0.8102497275675676,
    "unklar": 0.0,
    "p_frueh_zu": 1.0,
    "mit": true,
@@ -673,7 +673,7 @@
    "gruppe": "gleich"
   },
   "test/counting_and_probability/389.json": {
-   "erwartet_richtig": 0.8918918918918919,
+   "erwartet_richtig": 0.918918918918919,
    "unklar": 0.0,
    "p_frueh_zu": 1.0,
    "mit": true,
@@ -689,7 +689,7 @@
    "gruppe": "gleich"
   },
   "test/counting_and_probability/51.json": {
-   "erwartet_richtig": 0.16216216216216217,
+   "erwartet_richtig": 0.18918918918918923,
    "unklar": 0.0,
    "p_frueh_zu": 1.0,
    "mit": false,
@@ -729,7 +729,7 @@
    "gruppe": "gleich"
   },
   "test/geometry/226.json": {
-   "erwartet_richtig": 0.29521621621621624,
+   "erwartet_richtig": 0.3041621621621622,
    "unklar": 0.24313944636678206,
    "p_frueh_zu": 0.33099999999999996,
    "mit": false,
@@ -745,7 +745,7 @@
    "gruppe": "gleich"
   },
   "test/geometry/254.json": {
-   "erwartet_richtig": 0.8918918918918919,
+   "erwartet_richtig": 0.918918918918919,
    "unklar": 0.0,
    "p_frueh_zu": 1.0,
    "mit": true,
@@ -753,7 +753,7 @@
    "gruppe": "gleich"
   },
   "test/geometry/473.json": {
-   "erwartet_richtig": 0.8918918918918919,
+   "erwartet_richtig": 0.9189189189189191,
    "unklar": 0.0,
    "p_frueh_zu": 1.0,
    "mit": true,
@@ -761,7 +761,7 @@
    "gruppe": "gleich"
   },
   "test/geometry/483.json": {
-   "erwartet_richtig": 0.8918918918918919,
+   "erwartet_richtig": 0.918918918918919,
    "unklar": 0.0,
    "p_frueh_zu": 1.0,
    "mit": true,
@@ -769,7 +769,7 @@
    "gruppe": "gleich"
   },
   "test/geometry/547.json": {
-   "erwartet_richtig": 0.16216216216216217,
+   "erwartet_richtig": 0.1891891891891892,
    "unklar": 0.0,
    "p_frueh_zu": 1.0,
    "mit": false,
@@ -785,7 +785,7 @@
    "gruppe": "gleich"
   },
   "test/geometry/686.json": {
-   "erwartet_richtig": 0.16216216216216217,
+   "erwartet_richtig": 0.1891891891891892,
    "unklar": 0.0,
    "p_frueh_zu": 1.0,
    "mit": false,
@@ -801,7 +801,7 @@
    "gruppe": "gleich"
   },
   "test/geometry/802.json": {
-   "erwartet_richtig": 0.8918918918918919,
+   "erwartet_richtig": 0.9189189189189189,
    "unklar": 0.0,
    "p_frueh_zu": 1.0,
    "mit": true,
@@ -809,7 +809,7 @@
    "gruppe": "gleich"
   },
   "test/geometry/826.json": {
-   "erwartet_richtig": 0.16216216216216217,
+   "erwartet_richtig": 0.1891891891891892,
    "unklar": 0.0,
    "p_frueh_zu": 1.0,
    "mit": false,
@@ -825,7 +825,7 @@
    "gruppe": "gleich"
   },
   "test/intermediate_algebra/1123.json": {
-   "erwartet_richtig": 0.8918918918918919,
+   "erwartet_richtig": 0.918918918918919,
    "unklar": 0.0,
    "p_frueh_zu": 1.0,
    "mit": true,
@@ -841,7 +841,7 @@
    "gruppe": "gleich"
   },
   "test/intermediate_algebra/1354.json": {
-   "erwartet_richtig": 0.017951351351351355,
+   "erwartet_richtig": 0.020943243243243245,
    "unklar": 0.14910819548872184,
    "p_frueh_zu": 0.11070000000000002,
    "mit": false,
@@ -849,7 +849,7 @@
    "gruppe": "gleich"
   },
   "test/intermediate_algebra/1411.json": {
-   "erwartet_richtig": 0.049118918918918925,
+   "erwartet_richtig": 0.05730540540540541,
    "unklar": 0.0,
    "p_frueh_zu": 0.30289999999999995,
    "mit": false,
@@ -865,7 +865,7 @@
    "gruppe": "gleich"
   },
   "test/intermediate_algebra/149.json": {
-   "erwartet_richtig": 0.8918918918918919,
+   "erwartet_richtig": 0.918918918918919,
    "unklar": 0.0,
    "p_frueh_zu": 1.0,
    "mit": true,
@@ -889,7 +889,7 @@
    "gruppe": "gleich"
   },
   "test/intermediate_algebra/1837.json": {
-   "erwartet_richtig": 0.8918918918918919,
+   "erwartet_richtig": 0.918918918918919,
    "unklar": 0.0,
    "p_frueh_zu": 1.0,
    "mit": true,
@@ -905,7 +905,7 @@
    "gruppe": "gleich"
   },
   "test/intermediate_algebra/337.json": {
-   "erwartet_richtig": 0.8918918918918919,
+   "erwartet_richtig": 0.9189189189189191,
    "unklar": 0.0,
    "p_frueh_zu": 1.0,
    "mit": true,
@@ -913,7 +913,7 @@
    "gruppe": "gleich"
   },
   "test/intermediate_algebra/591.json": {
-   "erwartet_richtig": 0.8918918918918919,
+   "erwartet_richtig": 0.9189189189189191,
    "unklar": 0.0,
    "p_frueh_zu": 1.0,
    "mit": true,
@@ -937,7 +937,7 @@
    "gruppe": "gleich"
   },
   "test/intermediate_algebra/960.json": {
-   "erwartet_richtig": 0.04694594594594594,
+   "erwartet_richtig": 0.05477027027027027,
    "unklar": 0.0,
    "p_frueh_zu": 0.2895,
    "mit": false,
@@ -953,7 +953,7 @@
    "gruppe": "gleich"
   },
   "test/intermediate_algebra/991.json": {
-   "erwartet_richtig": 0.8918918918918919,
+   "erwartet_richtig": 0.918918918918919,
    "unklar": 0.0,
    "p_frueh_zu": 1.0,
    "mit": false,
@@ -961,7 +961,7 @@
    "gruppe": "gleich"
   },
   "test/number_theory/1172.json": {
-   "erwartet_richtig": 0.8918918918918919,
+   "erwartet_richtig": 0.918918918918919,
    "unklar": 0.0,
    "p_frueh_zu": 1.0,
    "mit": true,
@@ -969,7 +969,7 @@
    "gruppe": "gleich"
   },
   "test/number_theory/234.json": {
-   "erwartet_richtig": 0.8918918918918919,
+   "erwartet_richtig": 0.918918918918919,
    "unklar": 0.0,
    "p_frueh_zu": 1.0,
    "mit": true,
@@ -985,7 +985,7 @@
    "gruppe": "gleich"
   },
   "test/number_theory/466.json": {
-   "erwartet_richtig": 0.5649000000000001,
+   "erwartet_richtig": 0.5919270270270272,
    "unklar": 0.0,
    "p_frueh_zu": 1.0,
    "mit": true,
@@ -993,7 +993,7 @@
    "gruppe": "gleich"
   },
   "test/number_theory/598.json": {
-   "erwartet_richtig": 0.8918918918918919,
+   "erwartet_richtig": 0.918918918918919,
    "unklar": 0.0,
    "p_frueh_zu": 1.0,
    "mit": true,
@@ -1025,7 +1025,7 @@
    "gruppe": "gleich"
   },
   "test/prealgebra/1113.json": {
-   "erwartet_richtig": 0.8918918918918919,
+   "erwartet_richtig": 0.9189189189189189,
    "unklar": 0.0,
    "p_frueh_zu": 1.0,
    "mit": true,
@@ -1041,7 +1041,7 @@
    "gruppe": "gleich"
   },
   "test/prealgebra/1272.json": {
-   "erwartet_richtig": 0.16216216216216217,
+   "erwartet_richtig": 0.1891891891891892,
    "unklar": 0.0,
    "p_frueh_zu": 1.0,
    "mit": true,
@@ -1049,7 +1049,7 @@
    "gruppe": "gleich"
   },
   "test/prealgebra/1317.json": {
-   "erwartet_richtig": 0.8918918918918919,
+   "erwartet_richtig": 0.918918918918919,
    "unklar": 0.0,
    "p_frueh_zu": 1.0,
    "mit": true,
@@ -1057,7 +1057,7 @@
    "gruppe": "gleich"
   },
   "test/prealgebra/1436.json": {
-   "erwartet_richtig": 0.16216216216216217,
+   "erwartet_richtig": 0.1891891891891892,
    "unklar": 0.0,
    "p_frueh_zu": 1.0,
    "mit": true,
@@ -1065,7 +1065,7 @@
    "gruppe": "gleich"
   },
   "test/prealgebra/1458.json": {
-   "erwartet_richtig": 0.16216216216216217,
+   "erwartet_richtig": 0.1891891891891892,
    "unklar": 0.0,
    "p_frueh_zu": 1.0,
    "mit": true,
@@ -1073,7 +1073,7 @@
    "gruppe": "gleich"
   },
   "test/prealgebra/1555.json": {
-   "erwartet_richtig": 0.8918918918918919,
+   "erwartet_richtig": 0.918918918918919,
    "unklar": 0.0,
    "p_frueh_zu": 1.0,
    "mit": true,
@@ -1089,7 +1089,7 @@
    "gruppe": "gleich"
   },
   "test/prealgebra/1787.json": {
-   "erwartet_richtig": 0.8918918918918919,
+   "erwartet_richtig": 0.918918918918919,
    "unklar": 0.0,
    "p_frueh_zu": 1.0,
    "mit": true,
@@ -1097,7 +1097,7 @@
    "gruppe": "gleich"
   },
   "test/prealgebra/1834.json": {
-   "erwartet_richtig": 0.8918918918918919,
+   "erwartet_richtig": 0.918918918918919,
    "unklar": 0.0,
    "p_frueh_zu": 1.0,
    "mit": true,
@@ -1105,7 +1105,7 @@
    "gruppe": "gleich"
   },
   "test/prealgebra/1907.json": {
-   "erwartet_richtig": 0.8918918918918919,
+   "erwartet_richtig": 0.9189189189189191,
    "unklar": 0.0,
    "p_frueh_zu": 1.0,
    "mit": true,
@@ -1113,7 +1113,7 @@
    "gruppe": "gleich"
   },
   "test/prealgebra/1908.json": {
-   "erwartet_richtig": 0.16216216216216217,
+   "erwartet_richtig": 0.1891891891891892,
    "unklar": 0.0,
    "p_frueh_zu": 1.0,
    "mit": false,
@@ -1121,7 +1121,7 @@
    "gruppe": "gleich"
   },
   "test/prealgebra/1922.json": {
-   "erwartet_richtig": 0.6844297297297297,
+   "erwartet_richtig": 0.7114567567567568,
    "unklar": 0.0,
    "p_frueh_zu": 1.0,
    "mit": true,
@@ -1137,7 +1137,7 @@
    "gruppe": "gleich"
   },
   "test/prealgebra/1995.json": {
-   "erwartet_richtig": 0.16216216216216217,
+   "erwartet_richtig": 0.1891891891891892,
    "unklar": 0.0,
    "p_frueh_zu": 1.0,
    "mit": true,
@@ -1145,7 +1145,7 @@
    "gruppe": "gleich"
   },
   "test/prealgebra/2086.json": {
-   "erwartet_richtig": 0.16216216216216217,
+   "erwartet_richtig": 0.1891891891891892,
    "unklar": 0.0,
    "p_frueh_zu": 1.0,
    "mit": false,
@@ -1161,7 +1161,7 @@
    "gruppe": "gleich"
   },
   "test/precalculus/1056.json": {
-   "erwartet_richtig": 0.20527886351351354,
+   "erwartet_richtig": 0.23230589054054057,
    "unklar": 0.0,
    "p_frueh_zu": 1.0,
    "mit": false,
@@ -1193,7 +1193,7 @@
    "gruppe": "gleich"
   },
   "test/precalculus/452.json": {
-   "erwartet_richtig": 0.16216216216216217,
+   "erwartet_richtig": 0.18918918918918923,
    "unklar": 0.0,
    "p_frueh_zu": 1.0,
    "mit": true,
@@ -1201,7 +1201,7 @@
    "gruppe": "gleich"
   },
   "test/precalculus/541.json": {
-   "erwartet_richtig": 0.17398925270383783,
+   "erwartet_richtig": 0.20101627973086483,
    "unklar": 0.0,
    "p_frueh_zu": 1.0,
    "mit": true,
@@ -1209,15 +1209,15 @@
    "gruppe": "gleich"
   },
   "test/precalculus/580.json": {
-   "erwartet_richtig": 0.16216216216216217,
+   "erwartet_richtig": 0.1891891891891892,
    "unklar": 0.0,
    "p_frueh_zu": 1.0,
    "mit": false,
-   "wta": false,
-   "gruppe": "gleich"
+   "wta": true,
+   "gruppe": "nur WT-A richtig"
   },
   "test/precalculus/659.json": {
-   "erwartet_richtig": 0.16216216216216217,
+   "erwartet_richtig": 0.1891891891891892,
    "unklar": 0.0,
    "p_frueh_zu": 1.0,
    "mit": false,
@@ -1225,7 +1225,7 @@
    "gruppe": "gleich"
   },
   "test/precalculus/697.json": {
-   "erwartet_richtig": 0.8918918918918919,
+   "erwartet_richtig": 0.918918918918919,
    "unklar": 0.0,
    "p_frueh_zu": 1.0,
    "mit": false,
@@ -1233,7 +1233,7 @@
    "gruppe": "gleich"
   },
   "test/precalculus/819.json": {
-   "erwartet_richtig": 0.16216216216216217,
+   "erwartet_richtig": 0.1891891891891892,
    "unklar": 0.0,
    "p_frueh_zu": 1.0,
    "mit": true,
@@ -1262,43 +1262,43 @@
    "kein Zucker": 91,
    "erster Zucker richtig": 35,
    "erster Zucker falsch": 14,
-   "grobe_schaetzung_richtig": 69.38999999999997
+   "grobe_schaetzung_richtig": 71.38999999999997
   },
   "-2.0": {
    "erster Zucker richtig": 43,
    "kein Zucker": 75,
    "erster Zucker falsch": 22,
-   "grobe_schaetzung_richtig": 65.78999999999998
+   "grobe_schaetzung_richtig": 66.78999999999996
   },
   "-1.0": {
    "erster Zucker richtig": 55,
    "erster Zucker falsch": 26,
    "kein Zucker": 59,
-   "grobe_schaetzung_richtig": 67.10999999999997
+   "grobe_schaetzung_richtig": 68.10999999999997
   },
   "-0.5": {
    "erster Zucker richtig": 61,
    "erster Zucker falsch": 24,
    "kein Zucker": 55,
-   "grobe_schaetzung_richtig": 70.12999999999997
+   "grobe_schaetzung_richtig": 71.12999999999997
   },
   "0.0": {
    "erster Zucker richtig": 62,
    "erster Zucker falsch": 30,
    "kein Zucker": 48,
-   "grobe_schaetzung_richtig": 69.97999999999996
+   "grobe_schaetzung_richtig": 70.97999999999995
   },
   "0.5": {
    "erster Zucker richtig": 62,
    "erster Zucker falsch": 33,
    "kein Zucker": 45,
-   "grobe_schaetzung_richtig": 70.45999999999995
+   "grobe_schaetzung_richtig": 71.45999999999995
   },
   "1.0": {
    "erster Zucker richtig": 59,
    "erster Zucker falsch": 45,
    "kein Zucker": 36,
-   "grobe_schaetzung_richtig": 67.70999999999994
+   "grobe_schaetzung_richtig": 68.70999999999994
   },
   "2.0": {
    "erster Zucker falsch": 60,
@@ -1318,73 +1318,73 @@
    "Feuer richtig": 55,
    "Feuer falsch": 26,
    "kein Feuer": 59,
-   "grob": 67.10999999999997
+   "grob": 68.10999999999997
   },
   "d-1.0_k2": {
    "Feuer richtig": 57,
    "kein Feuer": 65,
    "Feuer falsch": 18,
-   "grob": 71.60999999999999
+   "grob": 72.60999999999999
   },
   "d-1.0_k3": {
    "Feuer richtig": 51,
    "kein Feuer": 75,
    "Feuer falsch": 14,
-   "grob": 72.63
+   "grob": 74.62999999999998
   },
   "d-1.0_k5": {
    "Feuer richtig": 41,
    "kein Feuer": 90,
    "Feuer falsch": 9,
-   "grob": 74.93
+   "grob": 76.93
   },
   "d0.0_k1": {
    "Feuer richtig": 62,
    "Feuer falsch": 30,
    "kein Feuer": 48,
-   "grob": 69.97999999999996
+   "grob": 70.97999999999995
   },
   "d0.0_k2": {
    "Feuer richtig": 64,
    "kein Feuer": 58,
    "Feuer falsch": 18,
-   "grob": 72.83999999999999
+   "grob": 73.83999999999999
   },
   "d0.0_k3": {
    "Feuer richtig": 61,
    "kein Feuer": 65,
    "Feuer falsch": 14,
-   "grob": 74.52999999999999
+   "grob": 76.53
   },
   "d0.0_k5": {
    "Feuer richtig": 54,
    "kein Feuer": 75,
    "Feuer falsch": 11,
-   "grob": 75.82
+   "grob": 77.82
   },
   "d0.5_k1": {
    "Feuer richtig": 62,
    "Feuer falsch": 33,
    "kein Feuer": 45,
-   "grob": 70.45999999999995
+   "grob": 71.45999999999995
   },
   "d0.5_k2": {
    "Feuer richtig": 65,
    "kein Feuer": 54,
    "Feuer falsch": 21,
-   "grob": 72.20999999999998
+   "grob": 73.20999999999998
   },
   "d0.5_k3": {
    "Feuer richtig": 64,
    "kein Feuer": 60,
    "Feuer falsch": 16,
-   "grob": 73.51999999999998
+   "grob": 75.51999999999998
   },
   "d0.5_k5": {
    "Feuer richtig": 54,
    "kein Feuer": 73,
    "Feuer falsch": 13,
-   "grob": 75.14
+   "grob": 77.14
   }
  }
 }

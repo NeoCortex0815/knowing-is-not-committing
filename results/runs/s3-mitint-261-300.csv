@@ -2,7 +2,7 @@ id,gold,pred,correct,end,tokens,think_closed
 test/prealgebra/1317.json,4,4,1,eos,338,0
 test/algebra/524.json,4005,4005,1,eos,339,0
 test/geometry/483.json,15,30,0,eos,502,0
-test/geometry/347.json,76^\circ,76,0,eos,534,0
+test/geometry/347.json,76^\circ,76,1,eos,534,0
 test/algebra/346.json,7,7,1,eos,258,0
 test/algebra/2551.json,10,19,0,eos,1114,0
 test/prealgebra/993.json,1250,1250,1,eos,800,0
@@ -12,13 +12,13 @@ test/prealgebra/1834.json,\sqrt{53},\sqrt{53},1,eos,441,0
 test/number_theory/1287.json,8,9,0,eos,564,0
 test/number_theory/691.json,255,255,1,eos,757,0
 test/prealgebra/1512.json,7\pi,33\pi,0,eos,735,0
-test/precalculus/580.json,120^\circ,120,0,eos,2363,0
+test/precalculus/580.json,120^\circ,120,1,eos,2363,0
 test/prealgebra/1787.json,1,1,1,eos,638,0
 test/prealgebra/1742.json,\dfrac{33}{100},\frac{33}{100},1,eos,2821,0
 test/algebra/1282.json,11,11,1,eos,3701,0
 test/precalculus/1172.json,7,\sqrt{138},0,eos,2419,0
 test/counting_and_probability/913.json,6,6,1,eos,8882,0
-test/geometry/226.json,180^\circ,180,0,eos,9854,0
+test/geometry/226.json,180^\circ,180,1,eos,9854,0
 test/algebra/634.json,4,\text{No Real Solution},0,eos,1243,0
 test/counting_and_probability/25149.json,63,54,0,eos,549,0
 test/algebra/2486.json,"\left(\frac{3}{5},\frac{8}{3}\right]","\left(1, 2\right]",0,eos,603,0
@@ -33,7 +33,7 @@ test/number_theory/634.json,333,999,0,eos,17327,1
 test/number_theory/488.json,58,64,0,eos,7205,1
 test/precalculus/881.json,\begin{pmatrix} -18 \\ -49 \\ 96 \end{pmatrix},\begin{pmatrix} -18 \\ -49 \\ 6 \end{pmatrix},0,eos,3177,0
 test/geometry/826.json,1\frac{4}{5},5,0,eos,21840,1
-test/precalculus/768.json,3 \pm 2 \sqrt{2},"3 - 2\sqrt{2}, 3 + 2\sqrt{2}",0,eos,22681,1
+test/precalculus/768.json,3 \pm 2 \sqrt{2},"3 - 2\sqrt{2}, 3 + 2\sqrt{2}",1,eos,22681,1
 test/intermediate_algebra/754.json,\text{(B)},A,0,eos,11059,0
 test/intermediate_algebra/1300.json,16,16,1,loop_abbruch,18688,0
 test/intermediate_algebra/90.json,898,5,0,eos,17342,1

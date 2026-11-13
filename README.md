@@ -8,17 +8,23 @@ Independent replication and extension of MIT CSAIL's *Sparks of Weight-Space Pro
 - writing a truth-gated reflex into 16 MLP neurons;
 - a series of pre-registered tests on how the model *finds*, *recognises* and *commits to* answers.
 
-- **Report, version 0.3:** [`report/Knowing_Is_Not_Committing_v0.3.md`](report/Knowing_Is_Not_Committing_v0.3.md) or as
-  [PDF](report/Knowing_Is_Not_Committing_v0.3.pdf). Not peer-reviewed. Version 0.3 concludes the report; further follow-up tests
-  on the question in its title remain reserved.
-- **German translation:** [`report/Wissen_ist_nicht_Festlegen_v0.3.md`](report/Wissen_ist_nicht_Festlegen_v0.3.md) or as
-  [PDF](report/Wissen_ist_nicht_Festlegen_v0.3.pdf). The English version is authoritative.
+- **Report, version 0.4 (corrected):** [`report/Knowing_Is_Not_Committing_v0.4.md`](report/Knowing_Is_Not_Committing_v0.4.md) or
+  as [PDF](report/Knowing_Is_Not_Committing_v0.4.pdf). Not peer-reviewed. Version 0.4 corrects a grading error of versions 0.2
+  and 0.3 (erratum at the top of the report) and adds no new tests. Further follow-up tests on the question in its title remain
+  reserved.
+- **German translation:** [`report/Wissen_ist_nicht_Festlegen_v0.4.md`](report/Wissen_ist_nicht_Festlegen_v0.4.md) or as
+  [PDF](report/Wissen_ist_nicht_Festlegen_v0.4.pdf). The English version is authoritative.
+- **Correction in version 0.4:** on the second evaluation machine, the grading tool silently fell back to a plain text
+  comparison, so 65 correct answers in 23 run tables were counted as wrong (never the other way round). All affected numbers are
+  recomputed with the unchanged, frozen scripts. Five pre-registered verdicts change, all in favour of our method; this reflects
+  which runs ran on that machine, not a property of the methods. One significance statement becomes weaker. The corrected run
+  tables and verdict files replace the old ones, which stay in the history.
 - **New in version 0.3:**
   - the result of N30, the test pre-registered publicly in v0.2 (Section 3.11);
   - N31, a check of the title question on internal signals (Section 3.12);
   - the consequences of both, listed at the top of the report.
-- **Earlier version:** the interim report v0.2 stays in `report/` (`INTERIM_REPORT_v0.2.md`, `INTERIM_REPORT_v0.2_de.md` and both
-  PDFs).
+- **Earlier versions:** version 0.3 (`Knowing_Is_Not_Committing_v0.3.*`, `Wissen_ist_nicht_Festlegen_v0.3.*`) and the interim
+  report v0.2 (`INTERIM_REPORT_v0.2.md`, `INTERIM_REPORT_v0.2_de.md` and both PDFs) stay in `report/`.
 - **Author:** Dave Uhlemann (NeoCortex), independent researcher, ORCID
   [0009-0000-6926-7000](https://orcid.org/0009-0000-6926-7000). AI assistance is disclosed in Section 8 of the report.
 - **Questions and corrections:** please open an [issue](https://github.com/NeoCortex0815/knowing-is-not-committing/issues).
@@ -33,11 +39,11 @@ Independent replication and extension of MIT CSAIL's *Sparks of Weight-Space Pro
 
 | folder | contents |
 |---|---|
-| `report/` | the report (version 0.3, and the interim report v0.2) in English and a German translation, each as Markdown and PDF |
+| `report/` | the report (version 0.4, and the earlier versions 0.3 and 0.2) in English and a German translation, each as Markdown and PDF |
 | `eval/` | evaluation client for a local `llama-server` (MIT's "think35" protocol, vLLM-style sampling), answer-mode and presence-penalty variants |
 | `paket/` | every edit builder and every test or analysis script, numbered in the order they were written; each docstring names its question and its pre-registered reading |
-| `prereg/` | the dated pre-registration and analysis log (German) up to 8 Nov 2026, 19:42, and an excerpt of the later entries on N30, N31 and version 0.3 (`ANNAHMEN_excerpt_v0.3_de.md`; passages on later work are cut and marked "[…]"). Machine names, paths and details of the author's private systems are redacted |
-| `results/runs/` | one CSV per evaluation run: problem id, gold answer, extracted answer, correct, end reason, tokens, thinking closed |
+| `prereg/` | the dated pre-registration and analysis log (German) up to 8 Nov 2026, 19:42, and excerpts of later entries: on N30, N31 and version 0.3 (`ANNAHMEN_excerpt_v0.3_de.md`) and on the grading error and version 0.4 (`ANNAHMEN_excerpt_v0.4_de.md`); passages on other work are cut and marked "[…]". Machine names, paths and details of the author's private systems are redacted |
+| `results/runs/` | one CSV per evaluation run: problem id, gold answer, extracted answer, correct, end reason, tokens, thinking closed (column `correct` corrected in v0.4) |
 | `results/long-horizon-16k/` | per-item rows of the long-horizon 16K cross-check from the Hugging Face discussion #2 on the released edit: six cells on MATH-500 rows 0–49, loop shares counted over model tokens and over words |
 | `results/verdicts/` | the JSON outputs of the verdict and analysis scripts |
 | `data/` | id lists of the MATH training problems we used (Set B, 40 new problems, practice set, the 150 problems of N30). The problems themselves are not redistributed |
@@ -115,6 +121,7 @@ top-k → top-p → min-p.
 | 3.10 Answer mode ("front room") | `89_int_kaskade.py`, `91_`/`92_morgengrauen…`, `94_int_frisch.py`, `95_`/`97_…` (state doors), `96_durchstreichen.py`, `98_`/`99_schilder…`, `100_schild_reflex.py`, `101_replay.py`, `102_mit_int.py`, `103_vorderzimmer_sonde.py`, `104_zweifach_intuition.py`, `105_schild_replay.py`, `107_halbtest.py`, `108_drei_intuitionen.py` |
 | 3.11 N30: a council with our own back room (v0.3) | `109_nacht150.py` (verdicts), `114_n30_leiter.py` (breakdown by agreement) |
 | 3.12 N31: does committing track knowing? (v0.3) | `111_kopplung.py`, on the trigger-audit data of `82_zucken.py` |
+| Erratum (v0.4): re-grading | `133_spiegel_neubewertung.py`, `134_zwischendateien_nachziehen.py`, `135_intervalle_v04.py`, `136_v04_tabellen.py`, `137_bewertung_eichen.py`; corrected `eval/03_eval.py` |
 
 ## Problem sets
 
@@ -137,12 +144,12 @@ GitHub's "Cite this repository" button reads `CITATION.cff`. In BibTeX:
   publisher = {Zenodo},
   doi       = {10.5281/zenodo.24058693},
   url       = {https://doi.org/10.5281/zenodo.24058693},
-  note      = {Report, version 0.3. Not peer-reviewed}
+  note      = {Report, version 0.4. Not peer-reviewed}
 }
 ```
 
-The DOI above covers all versions. To cite version 0.3 exactly, use
-[10.5281/zenodo.24082318](https://doi.org/10.5281/zenodo.24082318).
+The DOI above covers all versions. To cite a version exactly, use its version DOI: version 0.3
+[10.5281/zenodo.24082318](https://doi.org/10.5281/zenodo.24082318); the DOI of version 0.4 is added after archiving.
 
 ## License
 

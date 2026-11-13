@@ -20,102 +20,102 @@
  },
  "ERGORE gegen MIT · MiniPC 261–300": {
   "n": 40,
-  "ERGORE": 14,
-  "MIT": 22,
+  "ERGORE": 15,
+  "MIT": 24,
   "nur_ERGORE": 3,
-  "nur_MIT": 11,
-  "p": 0.057373046875,
+  "nur_MIT": 12,
+  "p": 0.03515625,
   "tokens_alle": [
    19755.275,
    22312.625
   ],
   "tokens_gemeinsam": [
-   9786.545454545454,
-   11838.09090909091
+   9524.416666666666,
+   11023.5
   ],
   "tokens_weniger": 5,
-  "tokens_mehr": 6,
-  "p_tokens_einseitig": 0.7255859375
+  "tokens_mehr": 7,
+  "p_tokens_einseitig": 0.80615234375
  },
  "ERGORE gegen MIT · 161–300": {
   "n": 140,
-  "ERGORE": 65,
-  "MIT": 80,
+  "ERGORE": 66,
+  "MIT": 82,
   "nur_ERGORE": 7,
-  "nur_MIT": 22,
-  "p": 0.008130058646202087,
+  "nur_MIT": 23,
+  "p": 0.005222879350185394,
   "tokens_alle": [
    18629.128571428573,
    21525.47857142857
   ],
   "tokens_gemeinsam": [
-   13067.103448275862,
-   12898.689655172413
+   12958.186440677966,
+   12715.033898305084
   ],
   "tokens_weniger": 28,
-  "tokens_mehr": 30,
-  "p_tokens_einseitig": 0.6529979529619342,
+  "tokens_mehr": 31,
+  "p_tokens_einseitig": 0.6985383993714249,
   "urteil": "NICHT ERREICHT"
  },
  "ERGORE gegen MIT · 1–300": {
   "n": 300,
-  "ERGORE": 144,
-  "MIT": 157,
+  "ERGORE": 145,
+  "MIT": 159,
   "nur_ERGORE": 21,
-  "nur_MIT": 34,
-  "p": 0.10478948242660335,
+  "nur_MIT": 35,
+  "p": 0.08142681460950621,
   "tokens_alle": [
    18572.45,
    21444.766666666666
   ],
   "tokens_gemeinsam": [
-   12983.80487804878,
-   12599.113821138211
+   12932.65322580645,
+   12514.145161290322
   ],
   "tokens_weniger": 56,
-  "tokens_mehr": 67,
-  "p_tokens_einseitig": 0.8604007225119602,
+  "tokens_mehr": 68,
+  "p_tokens_einseitig": 0.8785385840097443,
   "urteil": "NICHT ERREICHT"
  },
  "WT-A gegen ERGORE · 161–300": {
   "n": 140,
-  "WT-A": 61,
-  "ERGORE": 65,
-  "nur_WT-A": 12,
+  "WT-A": 63,
+  "ERGORE": 66,
+  "nur_WT-A": 13,
   "nur_ERGORE": 16,
-  "p": 0.5715881884098053,
+  "p": 0.711071103811264,
   "tokens_alle": [
    19063.8,
    18629.128571428573
   ],
   "tokens_gemeinsam": [
-   6402.755102040816,
-   12045.42857142857
+   6335.22,
+   12389.22
   ],
-  "tokens_weniger": 42,
+  "tokens_weniger": 43,
   "tokens_mehr": 6,
-  "p_tokens_einseitig": 5.043741069243879e-08,
-  "K1": false,
+  "p_tokens_einseitig": 2.8638826421456542e-08,
+  "K1": true,
   "K3": true
  },
  "WT-A gegen MIT · 161–300": {
   "n": 140,
-  "WT-A": 61,
-  "MIT": 80,
-  "nur_WT-A": 7,
-  "nur_MIT": 26,
-  "p": 0.0013187271542847157,
+  "WT-A": 63,
+  "MIT": 82,
+  "nur_WT-A": 6,
+  "nur_MIT": 25,
+  "p": 0.0008779102936387062,
   "tokens_alle": [
    19063.8,
    21525.47857142857
   ],
   "tokens_gemeinsam": [
-   7146.314814814815,
-   13232.648148148148
+   7446.070175438596,
+   13367.491228070176
   ],
-  "tokens_weniger": 44,
-  "tokens_mehr": 9,
-  "p_tokens_einseitig": 6.104255088068555e-07,
+  "tokens_weniger": 45,
+  "tokens_mehr": 11,
+  "p_tokens_einseitig": 2.68915905507483e-06,
   "K1": false,
   "K3": true
  },
