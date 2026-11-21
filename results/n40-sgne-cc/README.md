@@ -1,6 +1,6 @@
 # Per-item rows: SGNE-CC under our protocol (Qwen3.5-0.8B)
 
-Cross-stack check of the SGNE-CC weight edit by Nondual-Observer, announced in the Hugging Face discussion
+Cross-stack check of the SGNE-CC weight edit by Igor M. Zhuk (Nondual-Observer on Hugging Face), announced in the Hugging Face discussion
 "Independent evaluation: weight edits and sensitivity to decoding settings (MATH-500 @ 32K)"
 (RikiyaT/Qwen3.5-0.8B-weight-space-programming, #5). One CSV, 50 rows.
 
