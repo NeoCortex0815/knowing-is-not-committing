@@ -116,7 +116,7 @@ Report, version 0.5 · 21 November 2026 · not peer-reviewed · DOI <a href="htt
     <tr><td>pre-trained base</td><td>27</td><td>33</td><td>82 %</td><td>20 %</td></tr>
     <tr><td>MIT's edit</td><td>20</td><td>29</td><td>69 %</td><td>46 %</td></tr>
     <tr><td>WT-A (our truth-gated reflex)</td><td>19</td><td>26</td><td>65 %</td><td>50 %</td></tr>
-    <tr><td><a href="https://huggingface.co/Nondual-Observer/Qwen3.5-0.8B-SGNE-CC">SGNE-CC</a> (Igor M. Zhuk)</td><td>22</td><td>20</td><td>80 %</td><td>4 %</td></tr>
+    <tr><td>SGNE-CC (Igor M. Zhuk)</td><td>22</td><td>20</td><td>80 %</td><td>4 %</td></tr>
   </tbody>
 </table></div>
 <p class="note" style="margin-top:.4rem">"Correct" can exceed "value in thinking": the counter reads only the thinking block, and some runs finish
@@ -157,7 +157,7 @@ ones.</p>
   <li><strong>A council of answer-mode runs.</strong> Our rule B+H lets several runs without thinking answer first and calls a thinking
   run only when they disagree. In a test fixed publicly in advance it solved 77 of 150 fresh problems, against 67 for MIT's edit
   with thinking.</li>
-  <li><strong>New in version 0.5.</strong> An independent check of <a href="https://huggingface.co/Nondual-Observer/Qwen3.5-0.8B-SGNE-CC">SGNE-CC</a>, a weight edit by Igor M. Zhuk, with ablations built from its
+  <li><strong>New in version 0.5.</strong> An independent check of SGNE-CC, a weight edit by Igor M. Zhuk, with ablations built from its
   released tensors: its GatedDeltaNet part carries most of the effect. With SGNE-CC as the thinking back room, the council in its
   lean form beats MIT's edit on 100 fresh problems (59 vs 49) at about 70 % of its tokens per correct answer. At this size the better
   intervention is his, not ours.</li>
