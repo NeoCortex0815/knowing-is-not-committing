@@ -83,6 +83,7 @@ th { color: var(--muted); font-weight: 600; }
 .tablewrap { overflow-x: auto; }
 .bh th:nth-child(2), .bh td:nth-child(2) { text-align: left; }
 .note { font: .9rem/1.5 "Segoe UI", system-ui, sans-serif; color: var(--muted); margin: .8rem 0 0; }
+.motto { font-style: italic; border-left: 3px solid var(--accent); padding: .2rem 0 .2rem 1rem; margin: 0 0 1rem; }
 button.copy { font: .85rem "Segoe UI", system-ui, sans-serif; padding: .35rem .7rem; border: 1px solid var(--line); border-radius: 6px; background: var(--box); color: var(--text); cursor: pointer; }
 @media (max-width: 34rem) { .bar { grid-template-columns: 7.5rem 1fr 3rem; } table { font-size: .78rem; } th, td { padding: .3rem .25rem; } h1 { font-size: 1.8rem; } }
 footer { margin-top: 3rem; padding-top: 1rem; border-top: 1px solid var(--line); font: .9rem/1.5 "Segoe UI", system-ui, sans-serif; color: var(--muted); }
@@ -138,6 +139,13 @@ one-sided p = 0.026; N45 with two runs: 59 vs 49, p = 0.038; unadjusted); on the
 token cost depends on the back room. Practical note for llama.cpp users: sampling settings alone move MIT's edit from 25 % to 55 %; the settings are in Section 2 of
 the report, the comparison in Section 3.1.</p>
 </section>
+
+<h2>The idea behind this work</h2>
+<p class="motto">We study reasoning loops, committing and edits to the weights, so that trust and truth count from within, and the
+model can reveal its honest strength.</p>
+<p>Concretely: we measure what a model knows inside its reasoning, not only what it delivers; we look for edits that let it commit
+to what it already knows, instead of pushing it from outside; and we test whether its inner signal can support an honest
+&ldquo;I don't know&rdquo; when that signal stays low.</p>
 
 <h2>Abstract</h2>
 <p>MIT's weight-space edit reduces reasoning loops in Qwen3.5-0.8B. We rebuilt that edit independently, wrote a truth-gated reflex

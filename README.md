@@ -8,6 +8,14 @@ Independent replication and extension of MIT CSAIL's *Sparks of Weight-Space Pro
 - writing a truth-gated reflex into 16 MLP neurons;
 - a series of pre-registered tests on how the model *finds*, *recognises* and *commits to* answers.
 
+**The idea behind this work**
+
+> *We study reasoning loops, committing and edits to the weights, so that trust and truth count from within, and the model can reveal its honest strength.*
+
+Concretely: we measure what a model knows inside its reasoning, not only what it delivers; we look for edits that let it commit
+to what it already knows, instead of pushing it from outside; and we test whether its inner signal can support an honest
+"I don't know" when that signal stays low.
+
 - **Report, version 0.5:** [`report/Knowing_Is_Not_Committing_v0.5.md`](report/Knowing_Is_Not_Committing_v0.5.md) or as
   [PDF](report/Knowing_Is_Not_Committing_v0.5.pdf). Not peer-reviewed.
 - **German translation:** [`report/Wissen_ist_nicht_Festlegen_v0.5.md`](report/Wissen_ist_nicht_Festlegen_v0.5.md) or as
