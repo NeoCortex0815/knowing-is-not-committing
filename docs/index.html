@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Knowing Is Not Committing – report v0.5</title>
+<meta name="description" content="A 0.8B reasoning model often finds the correct answer in its thinking and does not deliver it. Independent replication and extension of MIT's weight-space edit on Qwen3.5-0.8B, with pre-registered tests. Report v0.5, code and data.">
+<link rel="canonical" href="https://neocortex0815.github.io/knowing-is-not-committing/">
+
+<!-- Google Scholar (Highwire Press tags) -->
+<meta name="citation_title" content="Knowing Is Not Committing: Replicating MIT's weight-space edit and programming a truth-gated reflex into a 0.8B reasoning model">
+<meta name="citation_author" content="Uhlemann, Dave">
+<meta name="citation_author_orcid" content="0009-0000-6926-7000">
+<meta name="citation_publication_date" content="2026/11/21">
+<meta name="citation_online_date" content="2026/11/21">
+<meta name="citation_doi" content="10.5281/zenodo.24420522">
+<meta name="citation_pdf_url" content="https://neocortex0815.github.io/knowing-is-not-committing/Knowing_Is_Not_Committing_v0.5.pdf">
+<meta name="citation_abstract_html_url" content="https://neocortex0815.github.io/knowing-is-not-committing/">
+<meta name="citation_language" content="en">
+<meta name="citation_keywords" content="reasoning models; overthinking; reasoning loops; weight-space programming; model editing; interpretability; linear probe; pre-registration; replication; Qwen3.5">
+
+<!-- Link previews -->
+<meta property="og:type" content="article">
+<meta property="og:title" content="Knowing Is Not Committing – report v0.5">
+<meta property="og:description" content="A 0.8B reasoning model often finds the correct answer in its thinking and does not deliver it. Pre-registered tests, code and data.">
+<meta property="og:url" content="https://neocortex0815.github.io/knowing-is-not-committing/">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Report",
+  "name": "Knowing Is Not Committing: Replicating MIT's weight-space edit and programming a truth-gated reflex into a 0.8B reasoning model",
+  "author": {"@type": "Person", "name": "Dave Uhlemann", "alternateName": "NeoCortex", "identifier": "https://orcid.org/0009-0000-6926-7000"},
+  "datePublished": "2026-11-21",
+  "version": "0.5",
+  "inLanguage": "en",
+  "identifier": "https://doi.org/10.5281/zenodo.24420522",
+  "url": "https://neocortex0815.github.io/knowing-is-not-committing/",
+  "encoding": {"@type": "MediaObject", "contentUrl": "https://neocortex0815.github.io/knowing-is-not-committing/Knowing_Is_Not_Committing_v0.5.pdf", "encodingFormat": "application/pdf"},
+  "license": "https://www.apache.org/licenses/LICENSE-2.0",
+  "keywords": "reasoning models, overthinking, reasoning loops, weight-space programming, model editing, interpretability, linear probe, pre-registration, replication, Qwen3.5"
+}
+</script>
+
+<style>
+:root { --bg: #fbfbf8; --text: #1c1f24; --muted: #5b6472; --accent: #134074; --line: #d9dde3; --box: #f1f4f8; }
+@media (prefers-color-scheme: dark) {
+  :root { --bg: #14171c; --text: #e6e8eb; --muted: #a3abb7; --accent: #8db8e8; --line: #2c323b; --box: #1c2129; }
+}
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--bg); color: var(--text); font: 17px/1.6 Georgia, Cambria, "Times New Roman", serif; }
+main { max-width: 46rem; margin: 0 auto; padding: 2.5rem 1rem 4rem; }
+h1 { font: 700 2.1rem/1.2 "Segoe UI", system-ui, sans-serif; margin: 0 0 .4rem; }
+h2 { font: 600 1.2rem/1.3 "Segoe UI", system-ui, sans-serif; margin: 2.2rem 0 .6rem; color: var(--accent); }
+.sub { font-size: 1.1rem; color: var(--muted); margin: 0 0 1.2rem; }
+.meta { font: .95rem/1.5 "Segoe UI", system-ui, sans-serif; color: var(--muted); }
+a { color: var(--accent); }
+.links { display: flex; flex-wrap: wrap; gap: .5rem; margin: 1.4rem 0; padding: 0; list-style: none; font: .95rem "Segoe UI", system-ui, sans-serif; }
+.links a { display: inline-block; padding: .45rem .8rem; border: 1px solid var(--line); border-radius: 6px; text-decoration: none; background: var(--box); }
+ul.findings li { margin: .45rem 0; }
+pre { background: var(--box); border: 1px solid var(--line); border-radius: 6px; padding: .8rem; overflow-x: auto; font-size: .82rem; line-height: 1.45; }
+footer { margin-top: 3rem; padding-top: 1rem; border-top: 1px solid var(--line); font: .9rem/1.5 "Segoe UI", system-ui, sans-serif; color: var(--muted); }
+</style>
+</head>
+<body>
+<main>
+<h1>Knowing Is Not Committing</h1>
+<p class="sub">Replicating MIT's weight-space edit and programming a truth-gated reflex into a 0.8B reasoning model</p>
+<p class="meta">Dave Uhlemann (NeoCortex), independent researcher · ORCID <a href="https://orcid.org/0009-0000-6926-7000">0009-0000-6926-7000</a><br>
+Report, version 0.5 · 21 November 2026 · not peer-reviewed · DOI <a href="https://doi.org/10.5281/zenodo.24420522">10.5281/zenodo.24420522</a></p>
+
+<ul class="links">
+  <li><a href="Knowing_Is_Not_Committing_v0.5.pdf">Report (PDF, English)</a></li>
+  <li><a href="Wissen_ist_nicht_Festlegen_v0.5.pdf">Bericht (PDF, Deutsch)</a></li>
+  <li><a href="https://github.com/NeoCortex0815/knowing-is-not-committing">Code, data, pre-registration log</a></li>
+  <li><a href="https://doi.org/10.5281/zenodo.24058693">Zenodo (all versions)</a></li>
+</ul>
+
+<h2>Abstract</h2>
+<p>MIT's weight-space edit reduces reasoning loops in Qwen3.5-0.8B. We rebuilt that edit independently, wrote a truth-gated reflex
+into 16 MLP neurons, and ran a series of pre-registered tests on fresh MATH problems. The model often <em>knows</em> a correct answer
+long before it <em>commits</em> to it: a linear probe reads the truth inside the reasoning, yet the post-trained model delivers only a
+small part of the correct values that appear in its thinking. Without its thinking block (answer mode), the same model is strong,
+and when two independent answer-mode runs agree, most of their answers are right. Sampling settings alone move MIT's own edit
+from 25 % to 55 %. Every reading was fixed in a dated log before the run, and refuted readings are reported alongside the confirmed
+ones.</p>
+
+<h2>Findings</h2>
+<ul class="findings">
+  <li><strong>Overthinking.</strong> With thinking on, 90 % of the post-trained model's runs on 50 fresh MATH problems end in a loop
+  stop or at the 32K-token cap, and it solves 5 of 50. The pre-trained base loops in 20 % and solves 27.</li>
+  <li><strong>The model knows more than it shows.</strong> In 24 of those 50 runs the correct value appears in the thinking, but the
+  model delivers it only 5 times. An independent count on all 500 MATH-500 problems found the same gap.</li>
+  <li><strong>A council of answer-mode runs.</strong> Our rule B+H lets several runs without thinking answer first and calls a thinking
+  run only when they disagree. In a test fixed publicly in advance it solved 77 of 150 fresh problems, against 67 for MIT's edit
+  with thinking.</li>
+  <li><strong>New in version 0.5.</strong> An independent check of SGNE-CC, a weight edit by Igor M. Zhuk, with ablations built from its
+  released tensors: its GatedDeltaNet part carries most of the effect. With SGNE-CC as the thinking back room, the council in its
+  lean form beats MIT's edit on 100 fresh problems (59 vs 49) at about 70 % of its tokens per correct answer. At this size the better
+  intervention is his, not ours.</li>
+</ul>
+
+<h2>How to cite</h2>
+<pre>@misc{uhlemann2026knowing,
+  author    = {Uhlemann, Dave},
+  title     = {{Knowing Is Not Committing}: Replicating {MIT}'s weight-space edit and
+               programming a truth-gated reflex into a 0.8{B} reasoning model},
+  year      = {2026},
+  publisher = {Zenodo},
+  doi       = {10.5281/zenodo.24420522},
+  url       = {https://doi.org/10.5281/zenodo.24420522},
+  note      = {Report, version 0.5. Not peer-reviewed}
+}</pre>
+<p class="meta">Earlier versions: v0.4 <a href="https://doi.org/10.5281/zenodo.24185608">10.5281/zenodo.24185608</a> ·
+v0.3 <a href="https://doi.org/10.5281/zenodo.24082318">10.5281/zenodo.24082318</a> ·
+v0.2 <a href="https://doi.org/10.5281/zenodo.24058694">10.5281/zenodo.24058694</a></p>
+
+<footer>
+Questions and corrections are welcome as <a href="https://github.com/NeoCortex0815/knowing-is-not-committing/issues">GitHub issues</a>.
+The work was done with AI assistance, disclosed in Section 8 of the report. Original edit: MIT CSAIL,
+<a href="https://rikiyat.github.io/blog/weight-space-programming/">Sparks of Weight-Space Programming</a>. Code under the Apache License 2.0.
+</footer>
+</main>
+</body>
+</html>
