@@ -20,6 +20,8 @@ to what it already knows, instead of pushing it from outside; and we test whethe
   [PDF](report/Knowing_Is_Not_Committing_v0.5.pdf). Not peer-reviewed.
 - **German translation:** [`report/Wissen_ist_nicht_Festlegen_v0.5.md`](report/Wissen_ist_nicht_Festlegen_v0.5.md) or as
   [PDF](report/Wissen_ist_nicht_Festlegen_v0.5.pdf). The English version is authoritative.
+- **Model on Hugging Face:** [NeoCortex0815/Qwen3.5-0.8B-WT-A](https://huggingface.co/NeoCortex0815/Qwen3.5-0.8B-WT-A): WT-A, the truth-gated reflex of Section 3.6, as edited
+  weights and as the q8_0 file used for all measurements of the report.
 - **New in version 0.5** (everything else as in v0.4):
   - Section 3.13: an independent check of SGNE-CC, a weight edit by Igor M. Zhuk (Nondual-Observer on Hugging Face), under our
     protocol, and ablations built only from its released tensors (N40, N41, with a second seed). The method is his; the
@@ -66,7 +68,7 @@ to what it already knows, instead of pushing it from outside; and we test whethe
 | `data/` | id lists of the MATH training problems we used (Set B, 40 new problems, practice set, the 150 problems of N30, the 50 problems of Sections 3.13 and 3.14, the 100 fresh problems of N45). The problems themselves are not redistributed |
 
 Not included:
-- model weights (rebuild them with the code);
+- model weights (WT-A is on [Hugging Face](https://huggingface.co/NeoCortex0815/Qwen3.5-0.8B-WT-A); the other edits can be rebuilt with the code);
 - the datasets (MATH, MATH-500, IFEval; please obtain them from their sources);
 - the IFEval instruction checks (google-research `instruction_following_eval`, see `NOTICE`);
 - the full transcripts of our runs (large; can be provided later);
@@ -176,5 +178,5 @@ The DOI above covers all versions. To cite a version exactly, use its version DO
 
 ## License
 
-Apache License 2.0 for our code; see `LICENSE` and `NOTICE`. No model weights are distributed. MIT's published logs, the IFEval
+Apache License 2.0 for our code; see `LICENSE` and `NOTICE`. This repository contains no model weights; WT-A is published separately on Hugging Face under the Apache License 2.0. MIT's published logs, the IFEval
 checks and the datasets are only cited and linked; they stay under their own licenses.
