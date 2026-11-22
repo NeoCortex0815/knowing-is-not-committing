@@ -103,6 +103,13 @@ Report, version 0.5 · 21 November 2026 · not peer-reviewed · DOI <a href="htt
   <li><a href="https://doi.org/10.5281/zenodo.24058693">Zenodo (all versions)</a></li>
 </ul>
 
+<h2>The idea behind this work</h2>
+<p class="motto">We study reasoning loops, committing and edits to the weights, so that trust and truth count from within, and the
+model can reveal its honest strength.</p>
+<p>Concretely: we measure what a model knows inside its reasoning, not only what it delivers; we look for edits that let it commit
+to what it already knows, instead of pushing it from outside; and we test whether its inner signal can support an honest
+&ldquo;I don't know&rdquo; when that signal stays low.</p>
+
 <section class="glance" aria-labelledby="glance">
 <h2 id="glance">At a glance</h2>
 <p class="meta">Post-trained Qwen3.5-0.8B with thinking on, 50 fresh MATH problems (T = 0.6, presence penalty 1.5, 32K tokens)</p>
@@ -139,13 +146,6 @@ one-sided p = 0.026; N45 with two runs: 59 vs 49, p = 0.038; unadjusted); on the
 token cost depends on the back room. Practical note for llama.cpp users: sampling settings alone move MIT's edit from 25 % to 55 %; the settings are in Section 2 of
 the report, the comparison in Section 3.1.</p>
 </section>
-
-<h2>The idea behind this work</h2>
-<p class="motto">We study reasoning loops, committing and edits to the weights, so that trust and truth count from within, and the
-model can reveal its honest strength.</p>
-<p>Concretely: we measure what a model knows inside its reasoning, not only what it delivers; we look for edits that let it commit
-to what it already knows, instead of pushing it from outside; and we test whether its inner signal can support an honest
-&ldquo;I don't know&rdquo; when that signal stays low.</p>
 
 <h2>Abstract</h2>
 <p>MIT's weight-space edit reduces reasoning loops in Qwen3.5-0.8B. We rebuilt that edit independently, wrote a truth-gated reflex
@@ -191,7 +191,9 @@ v0.2 <a href="https://doi.org/10.5281/zenodo.24058694">10.5281/zenodo.24058694</
 Questions and corrections are welcome as <a href="https://github.com/NeoCortex0815/knowing-is-not-committing/issues">GitHub issues</a>.
 The work was done with AI assistance, disclosed in Section 8 of the report. Original edit: MIT CSAIL,
 <a href="https://rikiyat.github.io/blog/weight-space-programming/">Sparks of Weight-Space Programming</a>. SGNE-CC: Igor M. Zhuk,
-<a href="https://huggingface.co/Nondual-Observer/Qwen3.5-0.8B-SGNE-CC">model on Hugging Face</a> and <a href="https://doi.org/10.5281/zenodo.24235218">study on Zenodo</a>. Code under the Apache License 2.0.
+<a href="https://huggingface.co/Nondual-Observer/Qwen3.5-0.8B-SGNE-CC">model on Hugging Face</a> and <a href="https://doi.org/10.5281/zenodo.24235218">study on Zenodo</a>. This work: Dave Uhlemann (NeoCortex),
+<a href="https://github.com/NeoCortex0815/knowing-is-not-committing">code, data and pre-registration log on GitHub</a>,
+<a href="https://doi.org/10.5281/zenodo.24058693">all versions on Zenodo</a>. Code under the Apache License 2.0.
 </footer>
 </main>
 <script>
