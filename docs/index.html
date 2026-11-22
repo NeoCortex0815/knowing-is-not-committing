@@ -116,9 +116,12 @@ Report, version 0.5 · 21 November 2026 · not peer-reviewed · DOI <a href="htt
     <tr><td>pre-trained base</td><td>27</td><td>33</td><td>82 %</td><td>20 %</td></tr>
     <tr><td>MIT's edit</td><td>20</td><td>29</td><td>69 %</td><td>46 %</td></tr>
     <tr><td>WT-A (our truth-gated reflex)</td><td>19</td><td>26</td><td>65 %</td><td>50 %</td></tr>
-    <tr><td>SGNE-CC (Igor M. Zhuk)</td><td>22</td><td>20</td><td>80 %</td><td>4 %</td></tr>
+    <tr><td><a href="https://huggingface.co/Nondual-Observer/Qwen3.5-0.8B-SGNE-CC">SGNE-CC</a> (Igor M. Zhuk)</td><td>22</td><td>20</td><td>80 %</td><td>4 %</td></tr>
   </tbody>
 </table></div>
+<p class="note" style="margin-top:.4rem">"Correct" can exceed "value in thinking": the counter reads only the thinking block, and some runs finish
+the computation in the answer part (SGNE-CC: 6 of its 22 correct answers, WT-A: 2 of 19). "Committed" is the share of runs with a found
+value whose final answer is correct.</p>
 <h3 style="font: 600 1rem/1.3 'Segoe UI', system-ui, sans-serif; margin: 1.3rem 0 .3rem;">Our council rule B+H against MIT's edit with thinking</h3>
 <p class="meta" style="margin:0 0 .4rem">Answer-mode runs answer first; if two agree, that answer is delivered, otherwise one thinking run (the back room) decides.
 Readings fixed in advance.</p>
@@ -154,7 +157,7 @@ ones.</p>
   <li><strong>A council of answer-mode runs.</strong> Our rule B+H lets several runs without thinking answer first and calls a thinking
   run only when they disagree. In a test fixed publicly in advance it solved 77 of 150 fresh problems, against 67 for MIT's edit
   with thinking.</li>
-  <li><strong>New in version 0.5.</strong> An independent check of SGNE-CC, a weight edit by Igor M. Zhuk, with ablations built from its
+  <li><strong>New in version 0.5.</strong> An independent check of <a href="https://huggingface.co/Nondual-Observer/Qwen3.5-0.8B-SGNE-CC">SGNE-CC</a>, a weight edit by Igor M. Zhuk, with ablations built from its
   released tensors: its GatedDeltaNet part carries most of the effect. With SGNE-CC as the thinking back room, the council in its
   lean form beats MIT's edit on 100 fresh problems (59 vs 49) at about 70 % of its tokens per correct answer. At this size the better
   intervention is his, not ours.</li>
@@ -179,7 +182,8 @@ v0.2 <a href="https://doi.org/10.5281/zenodo.24058694">10.5281/zenodo.24058694</
 <footer>
 Questions and corrections are welcome as <a href="https://github.com/NeoCortex0815/knowing-is-not-committing/issues">GitHub issues</a>.
 The work was done with AI assistance, disclosed in Section 8 of the report. Original edit: MIT CSAIL,
-<a href="https://rikiyat.github.io/blog/weight-space-programming/">Sparks of Weight-Space Programming</a>. Code under the Apache License 2.0.
+<a href="https://rikiyat.github.io/blog/weight-space-programming/">Sparks of Weight-Space Programming</a>. SGNE-CC: Igor M. Zhuk,
+<a href="https://huggingface.co/Nondual-Observer/Qwen3.5-0.8B-SGNE-CC">model on Hugging Face</a> and <a href="https://doi.org/10.5281/zenodo.24235218">study on Zenodo</a>. Code under the Apache License 2.0.
 </footer>
 </main>
 <script>
