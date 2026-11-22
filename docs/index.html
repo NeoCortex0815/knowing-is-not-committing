@@ -81,6 +81,7 @@ th, td { text-align: right; padding: .3rem .4rem; border-bottom: 1px solid var(-
 th:first-child, td:first-child { text-align: left; }
 th { color: var(--muted); font-weight: 600; }
 .tablewrap { overflow-x: auto; }
+.bh th:nth-child(2), .bh td:nth-child(2) { text-align: left; }
 .note { font: .9rem/1.5 "Segoe UI", system-ui, sans-serif; color: var(--muted); margin: .8rem 0 0; }
 button.copy { font: .85rem "Segoe UI", system-ui, sans-serif; padding: .35rem .7rem; border: 1px solid var(--line); border-radius: 6px; background: var(--box); color: var(--text); cursor: pointer; }
 @media (max-width: 34rem) { .bar { grid-template-columns: 7.5rem 1fr 3rem; } table { font-size: .78rem; } th, td { padding: .3rem .25rem; } h1 { font-size: 1.8rem; } }
@@ -114,11 +115,24 @@ Report, version 0.5 · 21 November 2026 · not peer-reviewed · DOI <a href="htt
     <tr><td>post-trained (unedited)</td><td>5</td><td>24</td><td>21 %</td><td>90 %</td></tr>
     <tr><td>pre-trained base</td><td>27</td><td>33</td><td>82 %</td><td>20 %</td></tr>
     <tr><td>MIT's edit</td><td>20</td><td>29</td><td>69 %</td><td>46 %</td></tr>
+    <tr><td>WT-A (our truth-gated reflex)</td><td>19</td><td>26</td><td>65 %</td><td>50 %</td></tr>
     <tr><td>SGNE-CC (Igor M. Zhuk)</td><td>22</td><td>20</td><td>80 %</td><td>4 %</td></tr>
   </tbody>
 </table></div>
-<p class="note">On 100 further fresh problems: MIT's edit 49, SGNE-CC 52, our lean council (B+H) with SGNE-CC 59 at about 70 % of MIT's tokens
-per correct answer. Practical note for llama.cpp users: sampling settings alone move MIT's edit from 25 % to 55 %; the settings are in Section 2 of
+<h3 style="font: 600 1rem/1.3 'Segoe UI', system-ui, sans-serif; margin: 1.3rem 0 .3rem;">Our council rule B+H against MIT's edit with thinking</h3>
+<p class="meta" style="margin:0 0 .4rem">Answer-mode runs answer first; if two agree, that answer is delivered, otherwise one thinking run (the back room) decides.
+Readings fixed in advance.</p>
+<div class="tablewrap"><table class="bh">
+  <thead><tr><th>problems</th><th>back room</th><th>B+H</th><th>MIT's edit</th><th>B+H tokens per correct answer, vs MIT</th></tr></thead>
+  <tbody>
+    <tr><td>150 fresh (N30, fixed publicly)</td><td>WT-A (ours)</td><td>77</td><td>67</td><td>141 %</td></tr>
+    <tr><td>same 150 (N44)</td><td>SGNE-CC</td><td>78 / 70</td><td>67</td><td>117 % / 97 %</td></tr>
+    <tr><td>100 fresh (N45)</td><td>SGNE-CC</td><td>61 / 59</td><td>49</td><td>85 % / 70 %</td></tr>
+  </tbody>
+</table></div>
+<p class="note">With SGNE-CC: three / two answer-mode runs in front. B+H beats MIT's edit on fresh problems in the tests fixed in advance (N30: 77 vs 67,
+one-sided p = 0.026; N45 with two runs: 59 vs 49, p = 0.038; unadjusted); on the reused 150 problems the two-run form is level. Its
+token cost depends on the back room. Practical note for llama.cpp users: sampling settings alone move MIT's edit from 25 % to 55 %; the settings are in Section 2 of
 the report, the comparison in Section 3.1.</p>
 </section>
 
