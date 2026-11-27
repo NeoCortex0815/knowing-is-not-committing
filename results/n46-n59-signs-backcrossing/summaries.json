@@ -1,0 +1,370 @@
+{
+ "note": "Probe and weight measures of report v0.6, Section 3.16. They come from replaying the existing runs with teacher forcing (N46, N34, N52, inner sign knowledge) or from the weights (N35). They cannot be recomputed from the CSV rows. Values as written by the analysis scripts; keys translated.",
+ "N46_coupling": {
+  "pre-trained base": {
+   "status": "pre-registered (H46a)",
+   "runs": 50,
+   "capped_runs": 0,
+   "value_statements": 13375,
+   "correct_value_statements": 225,
+   "AUC_K": 0.828,
+   "AUC_K_ci95": [
+    0.752,
+    0.935
+   ],
+   "AUC_F": 0.781,
+   "AUC_F_ci95": [
+    0.679,
+    0.921
+   ],
+   "AUC_F_at_signposts": 0.915,
+   "value_statements_at_signposts": 593,
+   "verdict": "couples committing to truth"
+  },
+  "S-GDN": {
+   "status": "pre-registered (H46b)",
+   "runs": 50,
+   "capped_runs": 0,
+   "value_statements": 18547,
+   "correct_value_statements": 722,
+   "AUC_K": 0.855,
+   "AUC_K_ci95": [
+    0.789,
+    0.912
+   ],
+   "AUC_F": 0.764,
+   "AUC_F_ci95": [
+    0.694,
+    0.826
+   ],
+   "AUC_F_at_signposts": 0.667,
+   "value_statements_at_signposts": 630,
+   "verdict": "couples committing to truth"
+  },
+  "SGNE-CC": {
+   "status": "pre-registered (H46c)",
+   "runs": 50,
+   "capped_runs": 0,
+   "value_statements": 2451,
+   "correct_value_statements": 108,
+   "AUC_K": 0.844,
+   "AUC_K_ci95": [
+    0.794,
+    0.903
+   ],
+   "AUC_F": 0.778,
+   "AUC_F_ci95": [
+    0.69,
+    0.848
+   ],
+   "AUC_F_at_signposts": 0.939,
+   "value_statements_at_signposts": 28,
+   "verdict": "couples committing to truth"
+  },
+  "unedited": {
+   "status": "descriptive",
+   "runs": 50,
+   "capped_runs": 0,
+   "value_statements": 13875,
+   "correct_value_statements": 1233,
+   "AUC_K": 0.727,
+   "AUC_K_ci95": [
+    0.668,
+    0.885
+   ],
+   "AUC_F": 0.617,
+   "AUC_F_ci95": [
+    0.527,
+    0.716
+   ],
+   "AUC_F_at_signposts": 0.411,
+   "value_statements_at_signposts": 626,
+   "verdict": "open"
+  },
+  "MIT's edit": {
+   "status": "descriptive",
+   "runs": 50,
+   "capped_runs": 0,
+   "value_statements": 23012,
+   "correct_value_statements": 1180,
+   "AUC_K": 0.801,
+   "AUC_K_ci95": [
+    0.7,
+    0.893
+   ],
+   "AUC_F": 0.682,
+   "AUC_F_ci95": [
+    0.612,
+    0.761
+   ],
+   "AUC_F_at_signposts": 0.671,
+   "value_statements_at_signposts": 385,
+   "verdict": "open"
+  },
+  "WT-A, trigger silenced": {
+   "status": "descriptive",
+   "runs": 50,
+   "capped_runs": 0,
+   "value_statements": 15093,
+   "correct_value_statements": 418,
+   "AUC_K": 0.536,
+   "AUC_K_ci95": [
+    0.425,
+    0.847
+   ],
+   "AUC_F": 0.614,
+   "AUC_F_ci95": [
+    0.467,
+    0.703
+   ],
+   "AUC_F_at_signposts": 0.245,
+   "value_statements_at_signposts": 294,
+   "verdict": "probe not transferable (F descriptive only)"
+  }
+ },
+ "N34_door_direction": {
+  "status": "pre-registered (verdict at layer 15); other values descriptive",
+  "build": {
+   "positive": 19,
+   "negative": 392
+  },
+  "test": {
+   "positive": 28,
+   "negative": 97
+  },
+  "test_AUC": {
+   "layer_13": 0.938,
+   "layer_15": 0.906,
+   "layer_19": 0.903
+  },
+  "verdict": "door direction found",
+  "cosine_of_d_layer_15": {
+   "closing gradient g_hat (Section 3.6)": 0.089,
+   "own loop direction": -0.233,
+   "MIT's direction": -0.274
+  },
+  "other_arms_correct_vs_wrong_signposts_projected_on_d": {
+   "S-GDN": {
+    "AUC": 0.829,
+    "correct": 96,
+    "wrong": 534
+   },
+   "SGNE-CC": {
+    "AUC": 0.864,
+    "correct": 6,
+    "wrong": 22
+   },
+   "unedited": {
+    "AUC": 0.801,
+    "correct": 85,
+    "wrong": 541
+   },
+   "MIT's edit": {
+    "AUC": 0.651,
+    "correct": 97,
+    "wrong": 288
+   },
+   "WT-A, trigger silenced": {
+    "AUC": 0.66,
+    "correct": 19,
+    "wrong": 275
+   }
+  }
+ },
+ "N35_writers": {
+  "status": "descriptive; weights only, direct logit attribution",
+  "door token": {
+   "writing_strength_base": 9.127,
+   "writing_strength_unedited": 9.184,
+   "ratio_unedited_to_base": 1.006,
+   "top100_base": {
+    "by_type": {
+     "GDN": 44,
+     "ATT": 52,
+     "MLP": 4
+    },
+    "median_layer": 19.0
+   },
+   "top100_unedited": {
+    "by_type": {
+     "GDN": 44,
+     "ATT": 50,
+     "MLP": 6
+    },
+    "median_layer": 19.0
+   },
+   "overlap_top100_jaccard": 0.869,
+   "correlation_base_vs_unedited": 0.996,
+   "largest_change": [
+    "layer 21 MLP",
+    "layer 22 MLP",
+    "layer 20 MLP",
+    "layer 19 MLP",
+    "layer 12 MLP"
+   ]
+  },
+  "signpost words": {
+   "writing_strength_base": 7.085,
+   "writing_strength_unedited": 7.104,
+   "ratio_unedited_to_base": 1.003,
+   "top100_base": {
+    "by_type": {
+     "GDN": 49,
+     "MLP": 27,
+     "ATT": 24
+    },
+    "median_layer": 17.5
+   },
+   "top100_unedited": {
+    "by_type": {
+     "GDN": 48,
+     "MLP": 27,
+     "ATT": 25
+    },
+    "median_layer": 18.0
+   },
+   "overlap_top100_jaccard": 0.942,
+   "correlation_base_vs_unedited": 0.996,
+   "largest_change": [
+    "layer 21 MLP",
+    "layer 20 MLP",
+    "layer 22 MLP",
+    "layer 13 MLP",
+    "layer 18 MLP"
+   ]
+  },
+  "counter-words": {
+   "writing_strength_base": 5.775,
+   "writing_strength_unedited": 5.731,
+   "ratio_unedited_to_base": 0.992,
+   "top100_base": {
+    "by_type": {
+     "GDN": 42,
+     "MLP": 17,
+     "ATT": 41
+    },
+    "median_layer": 19.0
+   },
+   "top100_unedited": {
+    "by_type": {
+     "GDN": 45,
+     "MLP": 17,
+     "ATT": 38
+    },
+    "median_layer": 18.0
+   },
+   "overlap_top100_jaccard": 0.754,
+   "correlation_base_vs_unedited": 0.994,
+   "largest_change": [
+    "layer 22 MLP",
+    "layer 23 MLP",
+    "layer 21 MLP",
+    "layer 20 MLP",
+    "layer 19 MLP"
+   ]
+  }
+ },
+ "N52_split_before_door": {
+  "status": "descriptive; split fixed beforehand: 'by itself' = own p(</think>) above 0.1 somewhere in the 50 tokens before the last token before the door, otherwise 'pushed'; only runs with at least 400 thinking tokens before the door",
+  "pre-trained base": {
+   "runs": 28,
+   "by_itself": 0,
+   "pushed": 28
+  },
+  "S-GDN": {
+   "runs": 35,
+   "by_itself": 5,
+   "pushed": 30
+  },
+  "SGNE-CC": {
+   "runs": 47,
+   "by_itself": 1,
+   "pushed": 46
+  },
+  "unedited": {
+   "runs": 6,
+   "by_itself": 1,
+   "pushed": 5
+  },
+  "MIT's edit": {
+   "runs": 34,
+   "by_itself": 2,
+   "pushed": 32
+  },
+  "WT-A, trigger silenced": {
+   "runs": 37,
+   "by_itself": 0,
+   "pushed": 37
+  }
+ },
+ "inner_sign_knowledge": {
+  "probe": "logistic probe on the residual stream at value ends; 5 folds by problem; signpost value ends against other value ends (1 : 6); seed 0; states from each model's own runs",
+  "N54 (the 50, pre-registered)": {
+   "R-GDN": {
+    "AUC_layer_13": 0.963,
+    "AUC_layer_15": 0.973,
+    "AUC_layer_19": 0.96,
+    "signpost_value_ends": 63,
+    "verdict": "back"
+   },
+   "R-GDN-out": {
+    "AUC_layer_13": 0.868,
+    "AUC_layer_15": 0.835,
+    "AUC_layer_19": 0.815,
+    "signpost_value_ends": 1066,
+    "verdict": "back"
+   },
+   "R-MLP": {
+    "AUC_layer_13": 0.907,
+    "AUC_layer_15": 0.909,
+    "AUC_layer_19": 0.881,
+    "signpost_value_ends": 473,
+    "verdict": "back"
+   },
+   "R-ATT": {
+    "AUC_layer_13": 0.589,
+    "AUC_layer_15": 0.642,
+    "AUC_layer_19": 0.629,
+    "signpost_value_ends": 690,
+    "verdict": "not back"
+   }
+  },
+  "N57 H57b (Set B, pre-registered)": {
+   "pre-trained base": {
+    "AUC_layer_13": 0.913,
+    "AUC_layer_15": 0.924,
+    "AUC_layer_19": 0.91,
+    "signpost_value_ends": 417
+   },
+   "unedited": {
+    "AUC_layer_13": 0.801,
+    "AUC_layer_15": 0.839,
+    "AUC_layer_19": 0.845,
+    "signpost_value_ends": 294
+   },
+   "verdict": "open"
+  },
+  "N58 (the 50, descriptive)": {
+   "R-MLP-early": {
+    "AUC_layer_13": 0.675,
+    "AUC_layer_15": 0.626,
+    "AUC_layer_19": 0.913,
+    "signpost_value_ends": 710
+   },
+   "R-MLP-late": {
+    "AUC_layer_13": 0.841,
+    "AUC_layer_15": 0.721,
+    "AUC_layer_19": 0.703,
+    "signpost_value_ends": 2111
+   }
+  },
+  "N59 (Set B, descriptive)": {
+   "R-MLP": {
+    "AUC_layer_13": 0.861,
+    "AUC_layer_15": 0.855,
+    "AUC_layer_19": 0.854,
+    "signpost_value_ends": 872
+   }
+  }
+ }
+}

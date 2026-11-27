@@ -1,8 +1,8 @@
 cff-version: 1.2.0
 message: "If you use this work, please cite it as below."
 title: "Knowing Is Not Committing: Replicating MIT's weight-space edit and programming a truth-gated reflex into a 0.8B reasoning model (report)"
-version: "0.5"
-date-released: "2026-11-21"
+version: "0.6"
+date-released: "2026-11-27"
 doi: "10.5281/zenodo.24058693"
 identifiers:
   - type: doi
@@ -24,7 +24,15 @@ abstract: >-
   Programming on Qwen3.5-0.8B. We rebuild the loop-reversal edit, add
   conditioned closing pushes and write a truth-gated reflex into 16 MLP
   neurons. A series of pre-registered tests asks how the model finds,
-  recognises and commits to answers. Version 0.5 adds an independent check of
+  recognises and commits to answers. Version 0.6 finds that the pre-trained
+  base closes its thinking at its own correct sign and that the unedited model
+  regains this when all MLP blocks of the base are copied in (R-MLP, no
+  training). With R-MLP as thinking back room our council beats MIT's edit on
+  two sets; a fixed deadline with an honest "I don't know" cuts the council's
+  wrong answers on fresh problems without a net loss of correct ones, and the
+  model's own readiness to close guides this abstention as well as an external
+  probe (pre-registered, on 100 untouched problems: wrong 41 to 24, correct 59
+  to 59). Version 0.5 adds an independent check of
   SGNE-CC, a weight edit by Igor M. Zhuk, under our protocol, with ablations
   built from its released tensors, and couples it with our council rule: on
   100 fresh MATH training problems, a lean council of two answer-mode runs with
@@ -57,5 +65,7 @@ keywords:
   - truth probe
   - knowing vs. committing
   - pre-registration
+  - abstention
+  - early exit
   - replication
   - Qwen3.5

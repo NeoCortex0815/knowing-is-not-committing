@@ -16,13 +16,27 @@ Concretely: we measure what a model knows inside its reasoning, not only what it
 to what it already knows, instead of pushing it from outside; and we test whether its inner signal can support an honest
 "I don't know" when that signal stays low.
 
-- **Report, version 0.5:** [`report/Knowing_Is_Not_Committing_v0.5.md`](report/Knowing_Is_Not_Committing_v0.5.md) or as
-  [PDF](report/Knowing_Is_Not_Committing_v0.5.pdf). Not peer-reviewed.
-- **German translation:** [`report/Wissen_ist_nicht_Festlegen_v0.5.md`](report/Wissen_ist_nicht_Festlegen_v0.5.md) or as
-  [PDF](report/Wissen_ist_nicht_Festlegen_v0.5.pdf). The English version is authoritative.
+- **Report, version 0.6:** [`report/Knowing_Is_Not_Committing_v0.6.md`](report/Knowing_Is_Not_Committing_v0.6.md) or as
+  [PDF](report/Knowing_Is_Not_Committing_v0.6.pdf). Not peer-reviewed.
+- **German translation:** [`report/Wissen_ist_nicht_Festlegen_v0.6.md`](report/Wissen_ist_nicht_Festlegen_v0.6.md) or as
+  [PDF](report/Wissen_ist_nicht_Festlegen_v0.6.pdf). The English version is authoritative.
 - **Model on Hugging Face:** [NeoCortex0815/Qwen3.5-0.8B-WT-A](https://huggingface.co/NeoCortex0815/Qwen3.5-0.8B-WT-A): WT-A, the truth-gated reflex of Section 3.6, as edited
   weights and as the q8_0 file used for all measurements of the report.
-- **New in version 0.5** (everything else as in v0.4):
+- **New in version 0.6** (everything else as in v0.5):
+  - Sections 3.15–3.18: the pre-trained Qwen3.5-0.8B-Base closes its thinking right after its own "the answer is …", mostly at a
+    correct value; the unedited model recognises such signs but does not act on them. With all MLP blocks of the base copied in,
+    without any training (R-MLP), the unedited model closes at its correct sign again, also on new problems, but loses instruction
+    following. Building the door ourselves did not work yet.
+  - Section 3.19: with R-MLP as the thinking back room, our council beats MIT's edit on both sets (83 vs 67 of 150, 59 vs 49 of
+    100, pre-registered).
+  - Section 3.20: a fixed deadline for the back room keeps its answers at a third of its tokens. If the back room may then say
+    "I don't know", the council gives clearly fewer wrong answers on fresh problems without a net loss of correct ones
+    (pre-registered; 76 → 42 wrong over 200 problems with a second seed).
+  - Section 3.21: from within. The model's own readiness to close guides this abstention as well as our probe, also on 100
+    untouched problems (wrong 41 → 24, correct 59 → 59, pre-registered). Asked for its answer at the deadline, R-MLP gains answers
+    and loses none (17 : 0 over 300 problems). Asked to say "I don't know", it almost never does.
+  - Section 9: related work, with the date our search closed.
+- **New in version 0.5:**
   - Section 3.13: an independent check of SGNE-CC, a weight edit by Igor M. Zhuk (Nondual-Observer on Hugging Face), under our
     protocol, and ablations built only from its released tensors (N40, N41, with a second seed). The method is his; the
     measurements and ablations are ours.
@@ -38,8 +52,8 @@ to what it already knows, instead of pushing it from outside; and we test whethe
   - the result of N30, the test pre-registered publicly in v0.2 (Section 3.11);
   - N31, a check of the title question on internal signals (Section 3.12);
   - the consequences of both, listed at the top of the report.
-- **Earlier versions:** versions 0.4 and 0.3 (`Knowing_Is_Not_Committing_v0.4.*`, `…_v0.3.*`, `Wissen_ist_nicht_Festlegen_v0.4.*`,
-  `…_v0.3.*`) and the interim report v0.2 (`INTERIM_REPORT_v0.2.md`, `INTERIM_REPORT_v0.2_de.md` and both PDFs) stay in `report/`.
+- **Earlier versions:** versions 0.5, 0.4 and 0.3 (`Knowing_Is_Not_Committing_v0.5.*`, `…_v0.4.*`, `…_v0.3.*`,
+  `Wissen_ist_nicht_Festlegen_v0.5.*`, `…_v0.4.*`, `…_v0.3.*`) and the interim report v0.2 (`INTERIM_REPORT_v0.2.md`, `INTERIM_REPORT_v0.2_de.md` and both PDFs) stay in `report/`.
 - **Author:** Dave Uhlemann (NeoCortex), independent researcher, ORCID
   [0009-0000-6926-7000](https://orcid.org/0009-0000-6926-7000). AI assistance is disclosed in Section 8 of the report.
 - **Questions and corrections:** please open an [issue](https://github.com/NeoCortex0815/knowing-is-not-committing/issues).
@@ -56,16 +70,18 @@ to what it already knows, instead of pushing it from outside; and we test whethe
 
 | folder | contents |
 |---|---|
-| `report/` | the report (version 0.5, and the earlier versions 0.4, 0.3 and 0.2) in English and a German translation, each as Markdown and PDF |
+| `report/` | the report (version 0.6, and the earlier versions 0.5, 0.4, 0.3 and 0.2) in English and a German translation, each as Markdown and PDF; `report/figures/` holds the figure of version 0.6 |
 | `eval/` | evaluation client for a local `llama-server` (MIT's "think35" protocol, vLLM-style sampling), answer-mode and presence-penalty variants |
 | `paket/` | every edit builder and every test or analysis script, numbered in the order they were written; each docstring names its question and its pre-registered reading |
-| `prereg/` | the dated pre-registration and analysis log (German) up to 8 Nov 2026, 19:42, and excerpts of later entries: on N30, N31 and version 0.3 (`ANNAHMEN_excerpt_v0.3_de.md`) on the grading error and version 0.4 (`ANNAHMEN_excerpt_v0.4_de.md`) and on SGNE-CC, N40–N45 and version 0.5 (`ANNAHMEN_excerpt_v0.5_de.md`); passages on other work are cut and marked "[…]". Machine names, paths and details of the author's private systems are redacted |
+| `prereg/` | the dated pre-registration and analysis log (German) up to 8 Nov 2026, 19:42, and excerpts of later entries: on N30, N31 and version 0.3 (`ANNAHMEN_excerpt_v0.3_de.md`) on the grading error and version 0.4 (`ANNAHMEN_excerpt_v0.4_de.md`) on SGNE-CC, N40–N45 and version 0.5 (`ANNAHMEN_excerpt_v0.5_de.md`) and on N46–N66 and version 0.6 (`ANNAHMEN_excerpt_v0.6_de.md`); passages on other work are cut and marked "[…]". Machine names, paths and details of the author's private systems are redacted |
 | `results/runs/` | one CSV per evaluation run: problem id, gold answer, extracted answer, correct, end reason, tokens, thinking closed (column `correct` corrected in v0.4) |
 | `results/long-horizon-16k/` | per-item rows of the long-horizon 16K cross-check from the Hugging Face discussion #2 on the released edit: six cells on MATH-500 rows 0–49, loop shares counted over model tokens and over words |
 | `results/verdicts/` | the JSON outputs of the verdict and analysis scripts |
 | `results/n40-sgne-cc/`, `results/n41-ablations/` | per-item rows of Section 3.13: SGNE-CC under our protocol and its ablations (v0.5) |
 | `results/n42-n45-council/` | per-item rows of Section 3.14: the council (B+H) with SGNE-CC as back room on 50, 150 and 100 problems (v0.5) |
-| `data/` | id lists of the MATH training problems we used (Set B, 40 new problems, practice set, the 150 problems of N30, the 50 problems of Sections 3.13 and 3.14, the 100 fresh problems of N45). The problems themselves are not redistributed |
+| `results/n46-n59-signs-backcrossing/` | per-item rows of Sections 3.15–3.17: signs before the door, the back-crossed arms (R-MLP and others) and IFEval (v0.6) |
+| `results/n60-n66-council-bell/` | per-item rows of Sections 3.19–3.21: R-MLP as back room, the bell with and without truth, abstention, answers and abstention from within; the truth probe and the closing threshold as small files (v0.6) |
+| `data/` | id lists of the MATH training problems we used (Set B, 40 new problems, practice set, the 150 problems of N30, the 50 problems of Sections 3.13 and 3.14, the 100 fresh problems of N45, the three fresh sets F2, F3 and F4 of version 0.6). The problems themselves are not redistributed |
 
 Not included:
 - model weights (WT-A is on [Hugging Face](https://huggingface.co/NeoCortex0815/Qwen3.5-0.8B-WT-A); the other edits can be rebuilt with the code);
@@ -143,6 +159,7 @@ top-k → top-p → min-p.
 | 3.11 N30: a council with our own back room (v0.3) | `109_nacht150.py` (verdicts), `114_n30_leiter.py` (breakdown by agreement) |
 | 3.12 N31: does committing track knowing? (v0.3) | `111_kopplung.py`, on the trigger-audit data of `82_zucken.py` |
 | 3.13 SGNE-CC ablations (v0.5): arm builders (they only copy released tensors) | `152_n41_arm_s1519.py`, `157_n41_arme_mlp_gdn.py` |
+| 3.17 back-crossing (v0.6): arm builders (R-GDN, R-GDN-out, R-ATT, R-MLP copy tensors of the pre-trained base; R-MLP-early/-late and the λ dial in the MLP blocks) | `167_n49_rueckkreuzung_arme.py`, `176_mlp_arme.py` |
 | Erratum (v0.4): re-grading | `133_spiegel_neubewertung.py`, `134_zwischendateien_nachziehen.py`, `135_intervalle_v04.py`, `136_v04_tabellen.py`, `137_bewertung_eichen.py`; corrected `eval/03_eval.py` |
 
 ## Problem sets
@@ -152,7 +169,8 @@ top-k → top-p → min-p.
 - MATH-500 problems 301–370: second, late confirmation.
 - MATH-500 problems 371–500: untouched.
 - MATH training problems: practice and development sets, the 150 never-used problems of N30 (reused in v0.5 for N44), 50 fresh
-  problems for Sections 3.13 and 3.14, and 100 fresh problems for N45 (ids in `data/`).
+  problems for Sections 3.13 and 3.14, 100 fresh problems for N45, and three fresh sets of 100 (F2, F3, F4) for Sections 3.20
+  and 3.21 (ids in `data/`).
 - IFEval: 120 prompts, strict prompt-level scoring.
 
 ## How to cite
@@ -167,7 +185,7 @@ GitHub's "Cite this repository" button reads `CITATION.cff`. In BibTeX:
   publisher = {Zenodo},
   doi       = {10.5281/zenodo.24058693},
   url       = {https://doi.org/10.5281/zenodo.24058693},
-  note      = {Report, version 0.5. Not peer-reviewed}
+  note      = {Report, version 0.6. Not peer-reviewed}
 }
 ```
 

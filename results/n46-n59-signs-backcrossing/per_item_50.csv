@@ -1,0 +1,951 @@
+arm,seed,machine,id,gold,pred,correct,end,tokens,door,signposts,signpost_before_door,reopened,signposts_correct_value,signposts_correct_value_door,signposts_wrong_value,signposts_wrong_value_door,signposts_no_value,signposts_no_value_door,door_at,has_correct_value_signpost
+unedited,0,first,math_train_algebra_1051,21,,0,limit,32768,0,0,,,0,0,0,0,0,0,,0
+unedited,0,first,math_train_algebra_106,-3,,0,loop_abbruch,6144,0,1,,,1,0,0,0,0,0,,1
+unedited,0,first,math_train_algebra_1142,t^7,t^7,1,eos,4589,1,9,0,0,3,0,5,0,1,0,no_signpost,1
+unedited,0,first,math_train_algebra_1167,"(-\infty,\infty)",,0,loop_abbruch,7424,0,4,,,0,0,3,0,1,0,,0
+unedited,0,first,math_train_algebra_1258,\frac{3}{5},,0,loop_abbruch,18432,0,0,,,0,0,0,0,0,0,,0
+unedited,0,first,math_train_algebra_1541,3,3,1,eos,4012,1,5,0,0,1,0,3,0,1,0,no_signpost,1
+unedited,0,first,math_train_algebra_276,6,,0,loop_abbruch,4096,0,0,,,0,0,0,0,0,0,,0
+unedited,0,first,math_train_algebra_277,100,,0,loop_abbruch,7680,0,15,,,5,0,7,0,3,0,,1
+unedited,0,first,math_train_algebra_567,17,17,1,eos,3684,1,6,0,0,1,0,3,0,2,0,no_signpost,1
+unedited,0,first,math_train_algebra_664,3,a+b,0,loop_abbruch,6912,0,0,,,0,0,0,0,0,0,,0
+unedited,0,first,math_train_algebra_685,28.2,,0,loop_abbruch,11008,0,0,,,0,0,0,0,0,0,,0
+unedited,0,first,math_train_algebra_705,18,,0,loop_abbruch,8192,0,0,,,0,0,0,0,0,0,,0
+unedited,0,first,math_train_counting_and_probability_25,372,,0,loop_abbruch,6912,0,0,,,0,0,0,0,0,0,,0
+unedited,0,first,math_train_counting_and_probability_280,30,,0,limit,32768,0,279,,,0,0,278,0,1,0,,0
+unedited,0,first,math_train_counting_and_probability_629,14,,0,limit,32768,0,0,,,0,0,0,0,0,0,,0
+unedited,0,first,math_train_geometry_159,18,,0,limit,32768,0,0,,,0,0,0,0,0,0,,0
+unedited,0,first,math_train_geometry_184,4\sqrt{65},,0,loop_abbruch,6400,0,3,,,0,0,0,0,3,0,,0
+unedited,0,first,math_train_geometry_674,1,,0,loop_abbruch,7424,0,0,,,0,0,0,0,0,0,,0
+unedited,0,first,math_train_geometry_688,\frac{50}3,,0,limit,32768,0,0,,,0,0,0,0,0,0,,0
+unedited,0,first,math_train_geometry_718,192,,0,loop_abbruch,5120,0,1,,,0,0,1,0,0,0,,0
+unedited,0,first,math_train_geometry_733,1728,,0,limit,32768,0,0,,,0,0,0,0,0,0,,0
+unedited,0,first,math_train_geometry_74,8,,0,loop_abbruch,4352,0,0,,,0,0,0,0,0,0,,0
+unedited,0,first,math_train_geometry_765,540,,0,loop_abbruch,6912,0,0,,,0,0,0,0,0,0,,0
+unedited,0,first,math_train_intermediate_algebra_101,23,,0,limit,32768,1,49,1,0,47,2,2,0,0,0,correct_value,1
+unedited,0,first,math_train_intermediate_algebra_1145,63,,0,loop_abbruch,13312,0,0,,,0,0,0,0,0,0,,0
+unedited,0,first,math_train_intermediate_algebra_132,52 + 3036 \sqrt{7},,0,loop_abbruch,8704,0,0,,,0,0,0,0,0,0,,0
+unedited,0,first,math_train_intermediate_algebra_166,\frac{1}{108},,0,loop_abbruch,22016,0,0,,,0,0,0,0,0,0,,0
+unedited,0,first,math_train_intermediate_algebra_246,\frac{349}{500},,0,limit,32768,0,0,,,0,0,0,0,0,0,,0
+unedited,0,first,math_train_intermediate_algebra_383,5,,0,loop_abbruch,8960,0,0,,,0,0,0,0,0,0,,0
+unedited,0,first,math_train_intermediate_algebra_434,\frac{1}{1624},,0,loop_abbruch,13312,0,0,,,0,0,0,0,0,0,,0
+unedited,0,first,math_train_intermediate_algebra_457,-8,,0,loop_abbruch,6400,0,0,,,0,0,0,0,0,0,,0
+unedited,0,first,math_train_intermediate_algebra_489,19,,0,limit,32768,0,0,,,0,0,0,0,0,0,,0
+unedited,0,first,math_train_intermediate_algebra_869,671,,0,loop_abbruch,8448,0,0,,,0,0,0,0,0,0,,0
+unedited,0,first,math_train_intermediate_algebra_880,1,,0,loop_abbruch,7168,0,16,,,15,0,0,0,1,0,,1
+unedited,0,first,math_train_intermediate_algebra_939,\frac{1}{3},,0,loop_abbruch,9984,0,1,,,0,0,0,0,1,0,,0
+unedited,0,first,math_train_intermediate_algebra_98,x^2 + 4x + 9,,0,limit,32768,0,3,,,0,0,1,0,2,0,,0
+unedited,0,first,math_train_number_theory_130,10,,0,loop_abbruch,5376,0,1,,,0,0,1,0,0,0,,0
+unedited,0,first,math_train_number_theory_556,981,,0,loop_abbruch,4096,0,0,,,0,0,0,0,0,0,,0
+unedited,0,first,math_train_number_theory_684,57,,0,limit,32768,0,0,,,0,0,0,0,0,0,,0
+unedited,0,first,math_train_number_theory_818,22_6,,0,loop_abbruch,6656,0,3,,,0,0,3,0,0,0,,0
+unedited,0,first,math_train_prealgebra_1123,7,,0,limit,32768,0,4,,,1,0,3,0,0,0,,1
+unedited,0,first,math_train_prealgebra_1173,\frac{1}{16},\frac{1}{16},1,eos,5757,1,12,1,0,4,1,3,0,5,1,no_value,1
+unedited,0,first,math_train_prealgebra_484,-4,,0,loop_abbruch,6656,0,3,,,1,0,1,0,1,0,,1
+unedited,0,first,math_train_prealgebra_53,\frac{9}{49},\frac{9}{49},1,eos,4809,1,3,0,0,0,0,1,0,2,0,no_signpost,0
+unedited,0,first,math_train_prealgebra_613,49,,0,limit,32768,0,3,,,1,0,1,0,1,0,,1
+unedited,0,first,math_train_precalculus_11,\frac{124}{13},,0,loop_abbruch,12032,0,0,,,0,0,0,0,0,0,,0
+unedited,0,first,math_train_precalculus_128,44,,0,loop_abbruch,9984,0,0,,,0,0,0,0,0,0,,0
+unedited,0,first,math_train_precalculus_339,66^\circ,,0,loop_abbruch,4864,0,0,,,0,0,0,0,0,0,,0
+unedited,0,first,math_train_precalculus_477,100,,0,loop_abbruch,7680,0,0,,,0,0,0,0,0,0,,0
+unedited,0,first,math_train_precalculus_6,"[0,\pi]",,0,loop_abbruch,13056,0,0,,,0,0,0,0,0,0,,0
+pre-trained base,0,first,math_train_algebra_1051,21,0,0,eos,3657,1,5,0,0,0,0,4,0,1,0,no_signpost,0
+pre-trained base,0,first,math_train_algebra_106,-3,-3,1,eos,539,1,3,1,0,2,2,0,0,1,1,no_value,1
+pre-trained base,0,first,math_train_algebra_1142,t^7,t^7,1,eos,231,1,3,1,0,2,2,1,1,0,0,correct_value,1
+pre-trained base,0,first,math_train_algebra_1167,"(-\infty,\infty)","(-\infty, \infty)",1,eos,542,1,0,0,0,0,0,0,0,0,0,no_signpost,0
+pre-trained base,0,first,math_train_algebra_1258,\frac{3}{5},\dfrac{3}{5},1,eos,3205,1,4,1,0,3,2,0,0,1,1,no_value,1
+pre-trained base,0,first,math_train_algebra_1541,3,3,1,eos,349,1,1,1,0,1,1,0,0,0,0,correct_value,1
+pre-trained base,0,first,math_train_algebra_276,6,\text{No such digit},0,eos,19813,1,54,1,0,0,0,52,0,2,1,no_value,0
+pre-trained base,0,first,math_train_algebra_277,100,100,1,eos,354,1,3,1,0,3,3,0,0,0,0,correct_value,1
+pre-trained base,0,first,math_train_algebra_567,17,17,1,eos,261,1,0,0,0,0,0,0,0,0,0,no_signpost,0
+pre-trained base,0,first,math_train_algebra_664,3,3,1,eos,682,1,3,1,0,3,3,0,0,0,0,correct_value,1
+pre-trained base,0,first,math_train_algebra_685,28.2,28.2,1,eos,1259,1,2,1,0,0,0,1,1,1,1,no_value,0
+pre-trained base,0,first,math_train_algebra_705,18,,0,limit,32768,0,19,,,0,0,19,0,0,0,,0
+pre-trained base,0,first,math_train_counting_and_probability_25,372,\frac{1}{100},0,eos,22928,1,9,1,0,0,0,8,2,1,0,wrong_value,0
+pre-trained base,0,first,math_train_counting_and_probability_280,30,19,0,eos,1540,1,3,1,0,0,0,2,2,1,1,wrong_value,0
+pre-trained base,0,first,math_train_counting_and_probability_629,14,,0,limit,32768,0,180,,,0,0,86,0,94,0,,0
+pre-trained base,0,first,math_train_geometry_159,18,,0,limit,32768,0,3,,,0,0,3,0,0,0,,0
+pre-trained base,0,first,math_train_geometry_184,4\sqrt{65},4\sqrt{65},1,eos,3649,1,4,1,0,1,1,3,1,0,0,correct_value,1
+pre-trained base,0,first,math_train_geometry_674,1,1,1,eos,23517,1,8,1,0,6,3,1,0,1,0,correct_value,1
+pre-trained base,0,first,math_train_geometry_688,\frac{50}3,\dfrac{33\sqrt{13}}{100},0,eos,21008,1,12,1,0,0,0,11,2,1,0,wrong_value,0
+pre-trained base,0,first,math_train_geometry_718,192,,0,loop_abbruch,4096,0,0,,,0,0,0,0,0,0,,0
+pre-trained base,0,first,math_train_geometry_733,1728,1728,1,eos,1888,1,3,1,0,3,1,0,0,0,0,correct_value,1
+pre-trained base,0,first,math_train_geometry_74,8,7,0,eos,12950,1,7,0,0,0,0,6,0,1,0,no_signpost,0
+pre-trained base,0,first,math_train_geometry_765,540,252,0,limit,32768,1,6,1,0,0,0,5,1,1,0,wrong_value,0
+pre-trained base,0,first,math_train_intermediate_algebra_101,23,,0,limit,32768,0,0,,,0,0,0,0,0,0,,0
+pre-trained base,0,first,math_train_intermediate_algebra_1145,63,,0,limit,32768,0,0,,,0,0,0,0,0,0,,0
+pre-trained base,0,first,math_train_intermediate_algebra_132,52 + 3036 \sqrt{7},,0,limit,32768,0,8,,,0,0,7,0,1,0,,0
+pre-trained base,0,first,math_train_intermediate_algebra_166,\frac{1}{108},\frac{1}{108},1,eos,4386,1,3,1,0,3,1,0,0,0,0,correct_value,1
+pre-trained base,0,first,math_train_intermediate_algebra_246,\frac{349}{500},\frac{\sqrt{15}}{5},0,eos,23148,1,16,0,0,0,0,16,0,0,0,no_signpost,0
+pre-trained base,0,first,math_train_intermediate_algebra_383,5,5,1,eos,1397,1,2,1,0,2,2,0,0,0,0,correct_value,1
+pre-trained base,0,first,math_train_intermediate_algebra_434,\frac{1}{1624},\frac{1}{2048},0,eos,23980,1,6,1,0,0,0,5,0,1,1,no_value,0
+pre-trained base,0,first,math_train_intermediate_algebra_457,-8,-8,1,eos,1768,1,3,1,0,3,2,0,0,0,0,correct_value,1
+pre-trained base,0,first,math_train_intermediate_algebra_489,19,19,1,eos,1402,1,2,1,0,2,2,0,0,0,0,correct_value,1
+pre-trained base,0,first,math_train_intermediate_algebra_869,671,719,0,eos,9308,1,4,1,0,0,0,4,2,0,0,wrong_value,0
+pre-trained base,0,first,math_train_intermediate_algebra_880,1,1,1,eos,670,1,3,1,0,3,3,0,0,0,0,correct_value,1
+pre-trained base,0,first,math_train_intermediate_algebra_939,\frac{1}{3},\dfrac{1}{3},1,eos,488,1,1,1,0,1,1,0,0,0,0,correct_value,1
+pre-trained base,0,first,math_train_intermediate_algebra_98,x^2 + 4x + 9,x^{2}+4x+9,1,eos,729,1,0,0,0,0,0,0,0,0,0,no_signpost,0
+pre-trained base,0,first,math_train_number_theory_130,10,10,1,eos,8151,1,5,1,0,3,1,1,0,1,0,correct_value,1
+pre-trained base,0,first,math_train_number_theory_556,981,100,0,eos,13423,1,4,1,0,0,0,4,2,0,0,wrong_value,0
+pre-trained base,0,first,math_train_number_theory_684,57,57,1,eos,515,1,0,0,0,0,0,0,0,0,0,no_signpost,0
+pre-trained base,0,first,math_train_number_theory_818,22_6,44_6,0,eos,5755,1,23,1,0,0,0,22,1,1,0,wrong_value,0
+pre-trained base,0,first,math_train_prealgebra_1123,7,7,1,eos,381,1,3,1,0,2,2,1,1,0,0,correct_value,1
+pre-trained base,0,first,math_train_prealgebra_1173,\frac{1}{16},\frac{1}{16},1,eos,361,1,3,1,0,3,3,0,0,0,0,correct_value,1
+pre-trained base,0,first,math_train_prealgebra_484,-4,-4,1,eos,645,1,1,1,0,1,1,0,0,0,0,correct_value,1
+pre-trained base,0,first,math_train_prealgebra_53,\frac{9}{49},\dfrac{9}{49},1,eos,336,1,2,1,0,2,2,0,0,0,0,correct_value,1
+pre-trained base,0,first,math_train_prealgebra_613,49,49,1,eos,255,1,0,0,0,0,0,0,0,0,0,no_signpost,0
+pre-trained base,0,first,math_train_precalculus_11,\frac{124}{13},2,0,eos,25656,1,27,1,0,0,0,27,6,0,0,wrong_value,0
+pre-trained base,0,first,math_train_precalculus_128,44,44,1,eos,368,1,1,1,0,1,1,0,0,0,0,correct_value,1
+pre-trained base,0,first,math_train_precalculus_339,66^\circ,,0,limit,32768,0,0,,,0,0,0,0,0,0,,0
+pre-trained base,0,first,math_train_precalculus_477,100,,0,limit,32768,0,0,,,0,0,0,0,0,0,,0
+pre-trained base,0,first,math_train_precalculus_6,"[0,\pi]","0,\pi",0,eos,6645,1,11,1,0,0,0,9,2,2,1,no_value,0
+MIT's edit,0,first,math_train_algebra_1051,21,,0,limit,32768,1,0,0,0,0,0,0,0,0,0,no_signpost,0
+MIT's edit,0,first,math_train_algebra_106,-3,-3,1,eos,14388,1,24,1,0,8,0,14,1,2,0,wrong_value,1
+MIT's edit,0,first,math_train_algebra_1142,t^7,t^7,1,eos,5274,1,9,0,0,0,0,8,0,1,0,no_signpost,0
+MIT's edit,0,first,math_train_algebra_1167,"(-\infty,\infty)",\mathbb{R},1,eos,17450,1,16,0,0,8,0,4,0,4,0,no_signpost,1
+MIT's edit,0,first,math_train_algebra_1258,\frac{3}{5},,0,limit,32768,1,0,0,0,0,0,0,0,0,0,no_signpost,0
+MIT's edit,0,first,math_train_algebra_1541,3,3,1,eos,4938,1,0,0,0,0,0,0,0,0,0,no_signpost,0
+MIT's edit,0,first,math_train_algebra_276,6,,0,limit,32768,0,1,,,0,0,1,0,0,0,,0
+MIT's edit,0,first,math_train_algebra_277,100,400,0,eos,3369,1,4,1,0,0,0,4,1,0,0,wrong_value,0
+MIT's edit,0,first,math_train_algebra_567,17,17,1,eos,2333,1,4,0,0,0,0,3,0,1,0,no_signpost,0
+MIT's edit,0,first,math_train_algebra_664,3,3,1,eos,13444,1,5,1,0,3,0,0,0,2,1,no_value,1
+MIT's edit,0,first,math_train_algebra_685,28.2,28.2,1,eos,15578,1,5,0,0,0,0,3,0,2,0,no_signpost,0
+MIT's edit,0,first,math_train_algebra_705,18,10,0,eos,15077,1,11,1,0,0,0,11,1,0,0,wrong_value,0
+MIT's edit,0,first,math_train_counting_and_probability_25,372,1,0,loop_abbruch,19200,1,0,0,0,0,0,0,0,0,0,no_signpost,0
+MIT's edit,0,first,math_train_counting_and_probability_280,30,,0,limit,32768,0,0,,,0,0,0,0,0,0,,0
+MIT's edit,0,first,math_train_counting_and_probability_629,14,,0,limit,32768,0,0,,,0,0,0,0,0,0,,0
+MIT's edit,0,first,math_train_geometry_159,18,,0,limit,32768,0,0,,,0,0,0,0,0,0,,0
+MIT's edit,0,first,math_train_geometry_184,4\sqrt{65},4\sqrt{65},1,eos,20714,1,9,0,0,3,0,4,0,2,0,no_signpost,1
+MIT's edit,0,first,math_train_geometry_674,1,,0,limit,32768,0,0,,,0,0,0,0,0,0,,0
+MIT's edit,0,first,math_train_geometry_688,\frac{50}3,16.5,0,eos,18865,1,1,0,1,0,0,1,0,0,0,no_signpost,0
+MIT's edit,0,first,math_train_geometry_718,192,192,1,eos,26477,1,6,1,1,4,0,0,0,2,1,no_value,1
+MIT's edit,0,first,math_train_geometry_733,1728,,0,loop_abbruch,29952,1,0,0,0,0,0,0,0,0,0,no_signpost,0
+MIT's edit,0,first,math_train_geometry_74,8,3,0,eos,13895,1,16,1,0,0,0,13,0,3,1,no_value,0
+MIT's edit,0,first,math_train_geometry_765,540,,0,limit,32768,1,0,0,0,0,0,0,0,0,0,no_signpost,0
+MIT's edit,0,first,math_train_intermediate_algebra_101,23,,0,limit,32768,0,2,,,1,0,1,0,0,0,,1
+MIT's edit,0,first,math_train_intermediate_algebra_1145,63,36/7,0,eos,28933,1,3,0,1,0,0,3,0,0,0,no_signpost,0
+MIT's edit,0,first,math_train_intermediate_algebra_132,52 + 3036 \sqrt{7},4032,0,eos,32424,1,0,0,1,0,0,0,0,0,0,no_signpost,0
+MIT's edit,0,first,math_train_intermediate_algebra_166,\frac{1}{108},,0,loop_abbruch,29440,0,0,,,0,0,0,0,0,0,,0
+MIT's edit,0,first,math_train_intermediate_algebra_246,\frac{349}{500},,0,limit,32768,0,54,,,0,0,53,0,1,0,,0
+MIT's edit,0,first,math_train_intermediate_algebra_383,5,,0,limit,32768,1,0,0,0,0,0,0,0,0,0,no_signpost,0
+MIT's edit,0,first,math_train_intermediate_algebra_434,\frac{1}{1624},1,0,limit,32768,1,0,0,0,0,0,0,0,0,0,no_signpost,0
+MIT's edit,0,first,math_train_intermediate_algebra_457,-8,-8,1,eos,27012,1,0,0,1,0,0,0,0,0,0,no_signpost,0
+MIT's edit,0,first,math_train_intermediate_algebra_489,19,19,1,eos,30588,1,0,0,0,0,0,0,0,0,0,no_signpost,0
+MIT's edit,0,first,math_train_intermediate_algebra_869,671,,0,limit,32768,0,0,,,0,0,0,0,0,0,,0
+MIT's edit,0,first,math_train_intermediate_algebra_880,1,1,1,eos,3564,1,2,0,0,0,0,0,0,2,0,no_signpost,0
+MIT's edit,0,first,math_train_intermediate_algebra_939,\frac{1}{3},,0,loop_abbruch,15872,0,1,,,1,0,0,0,0,0,,1
+MIT's edit,0,first,math_train_intermediate_algebra_98,x^2 + 4x + 9,x^2 + 4x + 9,1,eos,31472,1,6,1,0,5,1,1,0,0,0,correct_value,1
+MIT's edit,0,first,math_train_number_theory_130,10,,0,limit,32768,0,1,,,0,0,1,0,0,0,,0
+MIT's edit,0,first,math_train_number_theory_556,981,,0,limit,32768,0,0,,,0,0,0,0,0,0,,0
+MIT's edit,0,first,math_train_number_theory_684,57,,0,limit,32768,0,1,,,0,0,0,0,1,0,,0
+MIT's edit,0,first,math_train_number_theory_818,22_6,22,1,eos,28655,1,8,1,1,3,0,5,1,0,0,wrong_value,1
+MIT's edit,0,first,math_train_prealgebra_1123,7,7,1,eos,4390,1,1,0,0,1,0,0,0,0,0,no_signpost,1
+MIT's edit,0,first,math_train_prealgebra_1173,\frac{1}{16},\frac{1}{16},1,eos,1278,1,1,1,0,0,0,0,0,1,1,no_value,0
+MIT's edit,0,first,math_train_prealgebra_484,-4,-4,1,eos,19510,1,22,1,0,17,4,2,0,3,0,correct_value,1
+MIT's edit,0,first,math_train_prealgebra_53,\frac{9}{49},\frac{9}{49},1,eos,15611,1,18,1,0,12,1,2,0,4,0,correct_value,1
+MIT's edit,0,first,math_train_prealgebra_613,49,49,1,eos,2053,1,2,0,0,0,0,2,0,0,0,no_signpost,0
+MIT's edit,0,first,math_train_precalculus_11,\frac{124}{13},,0,limit,32768,0,0,,,0,0,0,0,0,0,,0
+MIT's edit,0,first,math_train_precalculus_128,44,44,1,eos,5732,1,5,1,0,1,1,1,0,3,0,correct_value,1
+MIT's edit,0,first,math_train_precalculus_339,66^\circ,,0,limit,32768,0,1,,,1,0,0,0,0,0,,1
+MIT's edit,0,first,math_train_precalculus_477,100,286 - 30 \sqrt{29},0,eos,24837,1,0,0,1,0,0,0,0,0,0,no_signpost,0
+MIT's edit,0,first,math_train_precalculus_6,"[0,\pi]",,0,limit,32768,0,14,,,1,0,11,0,2,0,,1
+WT-A,0,first,math_train_algebra_1051,21,,0,limit,32768,0,0,,,0,0,0,0,0,0,,0
+WT-A,0,first,math_train_algebra_106,-3,-3,1,eos,3278,1,0,0,1,0,0,0,0,0,0,no_signpost,0
+WT-A,0,first,math_train_algebra_1142,t^7,t^7,1,eos,1095,1,3,1,1,1,0,1,1,1,0,wrong_value,1
+WT-A,0,first,math_train_algebra_1167,"(-\infty,\infty)","(-\infty, \infty)",1,eos,2968,1,0,0,1,0,0,0,0,0,0,no_signpost,0
+WT-A,0,first,math_train_algebra_1258,\frac{3}{5},,0,limit,32768,1,0,0,0,0,0,0,0,0,0,no_signpost,0
+WT-A,0,first,math_train_algebra_1541,3,3,1,eos,5827,1,0,0,1,0,0,0,0,0,0,no_signpost,0
+WT-A,0,first,math_train_algebra_276,6,,0,loop_abbruch,23552,1,0,0,0,0,0,0,0,0,0,no_signpost,0
+WT-A,0,first,math_train_algebra_277,100,100,1,eos,3261,1,1,1,1,0,0,1,1,0,0,wrong_value,0
+WT-A,0,first,math_train_algebra_567,17,17,1,eos,1912,1,2,1,1,0,0,1,0,1,1,no_value,0
+WT-A,0,first,math_train_algebra_664,3,,0,limit,32768,1,0,0,1,0,0,0,0,0,0,no_signpost,0
+WT-A,0,first,math_train_algebra_685,28.2,28.2,1,eos,1604,1,0,0,1,0,0,0,0,0,0,no_signpost,0
+WT-A,0,first,math_train_algebra_705,18,,0,eos,26875,1,0,0,1,0,0,0,0,0,0,no_signpost,0
+WT-A,0,first,math_train_counting_and_probability_25,372,,0,limit,32768,0,0,,,0,0,0,0,0,0,,0
+WT-A,0,first,math_train_counting_and_probability_280,30,,0,limit,32768,0,1,,,0,0,0,0,1,0,,0
+WT-A,0,first,math_train_counting_and_probability_629,14,10,0,eos,31848,1,11,1,1,0,0,10,1,1,0,wrong_value,0
+WT-A,0,first,math_train_geometry_159,18,,0,limit,32768,1,0,0,1,0,0,0,0,0,0,no_signpost,0
+WT-A,0,first,math_train_geometry_184,4\sqrt{65},4\sqrt{65},1,eos,3072,1,1,1,1,1,1,0,0,0,0,correct_value,1
+WT-A,0,first,math_train_geometry_674,1,1,1,eos,20694,1,1,1,1,1,1,0,0,0,0,correct_value,1
+WT-A,0,first,math_train_geometry_688,\frac{50}3,,0,limit,32768,1,1,0,0,0,0,1,0,0,0,no_signpost,0
+WT-A,0,first,math_train_geometry_718,192,192,1,eos,5521,1,1,0,1,0,0,1,0,0,0,no_signpost,0
+WT-A,0,first,math_train_geometry_733,1728,1000,0,eos,19784,1,0,0,1,0,0,0,0,0,0,no_signpost,0
+WT-A,0,first,math_train_geometry_74,8,,0,limit,32768,1,191,1,0,0,0,191,2,0,0,wrong_value,0
+WT-A,0,first,math_train_geometry_765,540,,0,limit,32768,0,0,,,0,0,0,0,0,0,,0
+WT-A,0,first,math_train_intermediate_algebra_101,23,8,0,eos,24326,1,1,0,1,0,0,1,0,0,0,no_signpost,0
+WT-A,0,first,math_train_intermediate_algebra_1145,63,,0,loop_abbruch,19968,0,0,,,0,0,0,0,0,0,,0
+WT-A,0,first,math_train_intermediate_algebra_132,52 + 3036 \sqrt{7},,0,limit,32768,0,3,,,0,0,3,0,0,0,,0
+WT-A,0,first,math_train_intermediate_algebra_166,\frac{1}{108},,0,limit,32768,0,0,,,0,0,0,0,0,0,,0
+WT-A,0,first,math_train_intermediate_algebra_246,\frac{349}{500},,0,limit,32768,1,0,0,0,0,0,0,0,0,0,no_signpost,0
+WT-A,0,first,math_train_intermediate_algebra_383,5,,0,limit,32768,1,0,0,1,0,0,0,0,0,0,no_signpost,0
+WT-A,0,first,math_train_intermediate_algebra_434,\frac{1}{1624},,0,limit,32768,0,0,,,0,0,0,0,0,0,,0
+WT-A,0,first,math_train_intermediate_algebra_457,-8,,0,eos,23129,1,0,0,1,0,0,0,0,0,0,no_signpost,0
+WT-A,0,first,math_train_intermediate_algebra_489,19,,0,limit,32768,1,0,0,1,0,0,0,0,0,0,no_signpost,0
+WT-A,0,first,math_train_intermediate_algebra_869,671,,0,limit,32768,0,0,,,0,0,0,0,0,0,,0
+WT-A,0,first,math_train_intermediate_algebra_880,1,,0,eos,3133,1,0,0,1,0,0,0,0,0,0,no_signpost,0
+WT-A,0,first,math_train_intermediate_algebra_939,\frac{1}{3},\frac{1}{3},1,eos,15850,1,0,0,1,0,0,0,0,0,0,no_signpost,0
+WT-A,0,first,math_train_intermediate_algebra_98,x^2 + 4x + 9,,0,limit,32768,1,0,0,0,0,0,0,0,0,0,no_signpost,0
+WT-A,0,first,math_train_number_theory_130,10,,0,limit,32768,1,0,0,0,0,0,0,0,0,0,no_signpost,0
+WT-A,0,first,math_train_number_theory_556,981,,0,limit,32768,1,0,0,0,0,0,0,0,0,0,no_signpost,0
+WT-A,0,first,math_train_number_theory_684,57,57,1,eos,31958,1,4,1,1,3,2,0,0,1,0,correct_value,1
+WT-A,0,first,math_train_number_theory_818,22_6,22_6,1,eos,3020,1,1,1,1,1,1,0,0,0,0,correct_value,1
+WT-A,0,first,math_train_prealgebra_1123,7,7,1,eos,907,1,0,0,1,0,0,0,0,0,0,no_signpost,0
+WT-A,0,first,math_train_prealgebra_1173,\frac{1}{16},\frac{1}{16},1,eos,2948,1,1,0,1,0,0,1,0,0,0,no_signpost,0
+WT-A,0,first,math_train_prealgebra_484,-4,-4,1,eos,28385,1,15,0,1,8,0,5,0,2,0,no_signpost,1
+WT-A,0,first,math_train_prealgebra_53,\frac{9}{49},\frac{9}{49},1,eos,2810,1,1,0,1,0,0,0,0,1,0,no_signpost,0
+WT-A,0,first,math_train_prealgebra_613,49,49,1,eos,3015,1,1,0,1,0,0,1,0,0,0,no_signpost,0
+WT-A,0,first,math_train_precalculus_11,\frac{124}{13},,0,limit,32768,0,0,,,0,0,0,0,0,0,,0
+WT-A,0,first,math_train_precalculus_128,44,44,1,eos,9527,1,1,1,1,0,0,0,0,1,1,no_value,0
+WT-A,0,first,math_train_precalculus_339,66^\circ,,0,limit,32768,1,2,0,0,0,0,2,0,0,0,no_signpost,0
+WT-A,0,first,math_train_precalculus_477,100,,0,limit,32768,0,0,,,0,0,0,0,0,0,,0
+WT-A,0,first,math_train_precalculus_6,"[0,\pi]",,0,limit,32768,0,0,,,0,0,0,0,0,0,,0
+SGNE-CC,0,first,math_train_algebra_1051,21,,0,eos,5089,1,1,0,0,0,0,0,0,1,0,no_signpost,0
+SGNE-CC,0,first,math_train_algebra_106,-3,-3,1,eos,1205,1,2,1,0,0,0,1,1,1,1,no_value,0
+SGNE-CC,0,first,math_train_algebra_1142,t^7,t^7,1,eos,605,1,2,1,0,0,0,0,0,2,2,no_value,0
+SGNE-CC,0,first,math_train_algebra_1167,"(-\infty,\infty)","(-\infty, \infty)",1,eos,867,1,0,0,0,0,0,0,0,0,0,no_signpost,0
+SGNE-CC,0,first,math_train_algebra_1258,\frac{3}{5},\frac{19}{25},0,eos,11348,1,0,0,1,0,0,0,0,0,0,no_signpost,0
+SGNE-CC,0,first,math_train_algebra_1541,3,3,1,eos,1432,1,1,1,0,0,0,0,0,1,1,no_value,0
+SGNE-CC,0,first,math_train_algebra_276,6,8,0,eos,4892,1,0,0,1,0,0,0,0,0,0,no_signpost,0
+SGNE-CC,0,first,math_train_algebra_277,100,100,1,eos,2003,1,3,1,0,0,0,0,0,3,1,no_value,0
+SGNE-CC,0,first,math_train_algebra_567,17,17,1,eos,1116,1,4,1,0,1,1,3,1,0,0,wrong_value,1
+SGNE-CC,0,first,math_train_algebra_664,3,3,1,eos,1259,1,1,1,0,0,0,0,0,1,1,no_value,0
+SGNE-CC,0,first,math_train_algebra_685,28.2,28.2,1,eos,1451,1,1,1,0,1,1,0,0,0,0,correct_value,1
+SGNE-CC,0,first,math_train_algebra_705,18,4,0,eos,4186,1,1,1,0,0,0,1,1,0,0,wrong_value,0
+SGNE-CC,0,first,math_train_counting_and_probability_25,372,120,0,eos,6194,1,0,0,0,0,0,0,0,0,0,no_signpost,0
+SGNE-CC,0,first,math_train_counting_and_probability_280,30,,0,eos,4949,1,4,1,0,0,0,3,1,1,0,wrong_value,0
+SGNE-CC,0,first,math_train_counting_and_probability_629,14,3,0,eos,4296,1,0,0,1,0,0,0,0,0,0,no_signpost,0
+SGNE-CC,0,first,math_train_geometry_159,18,\frac{1}{\sqrt{3}},0,eos,12086,1,0,0,1,0,0,0,0,0,0,no_signpost,0
+SGNE-CC,0,first,math_train_geometry_184,4\sqrt{65},4\sqrt{65},1,eos,2159,1,2,0,0,1,0,1,0,0,0,no_signpost,1
+SGNE-CC,0,first,math_train_geometry_674,1,1.5,0,eos,12288,1,1,0,1,0,0,1,0,0,0,no_signpost,0
+SGNE-CC,0,first,math_train_geometry_688,\frac{50}3,24,0,eos,15143,1,0,0,1,0,0,0,0,0,0,no_signpost,0
+SGNE-CC,0,first,math_train_geometry_718,192,36824,0,eos,2022,1,0,0,0,0,0,0,0,0,0,no_signpost,0
+SGNE-CC,0,first,math_train_geometry_733,1728,1200,0,eos,6609,1,2,1,0,0,0,0,0,2,1,no_value,0
+SGNE-CC,0,first,math_train_geometry_74,8,4,0,eos,8159,1,3,0,0,0,0,1,0,2,0,no_signpost,0
+SGNE-CC,0,first,math_train_geometry_765,540,360^\circ,0,eos,5173,1,0,0,0,0,0,0,0,0,0,no_signpost,0
+SGNE-CC,0,first,math_train_intermediate_algebra_101,23,20,0,eos,17837,1,0,0,1,0,0,0,0,0,0,no_signpost,0
+SGNE-CC,0,first,math_train_intermediate_algebra_1145,63,76,0,eos,13335,1,0,0,1,0,0,0,0,0,0,no_signpost,0
+SGNE-CC,0,first,math_train_intermediate_algebra_132,52 + 3036 \sqrt{7},,0,limit,32768,1,0,0,0,0,0,0,0,0,0,no_signpost,0
+SGNE-CC,0,first,math_train_intermediate_algebra_166,\frac{1}{108},18700,0,eos,17361,1,0,0,1,0,0,0,0,0,0,no_signpost,0
+SGNE-CC,0,first,math_train_intermediate_algebra_246,\frac{349}{500},,0,limit,32768,1,0,0,1,0,0,0,0,0,0,no_signpost,0
+SGNE-CC,0,first,math_train_intermediate_algebra_383,5,-9,0,eos,2707,1,0,0,0,0,0,0,0,0,0,no_signpost,0
+SGNE-CC,0,first,math_train_intermediate_algebra_434,\frac{1}{1624},\frac{1}{2250},0,eos,7032,1,0,0,1,0,0,0,0,0,0,no_signpost,0
+SGNE-CC,0,first,math_train_intermediate_algebra_457,-8,-8,1,eos,2543,1,0,0,0,0,0,0,0,0,0,no_signpost,0
+SGNE-CC,0,first,math_train_intermediate_algebra_489,19,19,1,eos,3492,1,0,0,1,0,0,0,0,0,0,no_signpost,0
+SGNE-CC,0,first,math_train_intermediate_algebra_869,671,55,0,eos,5482,1,0,0,1,0,0,0,0,0,0,no_signpost,0
+SGNE-CC,0,first,math_train_intermediate_algebra_880,1,1,1,eos,1375,1,1,1,0,0,0,0,0,1,1,no_value,0
+SGNE-CC,0,first,math_train_intermediate_algebra_939,\frac{1}{3},\frac{2}{5},0,eos,684,1,1,1,1,0,0,0,0,1,1,no_value,0
+SGNE-CC,0,first,math_train_intermediate_algebra_98,x^2 + 4x + 9,x^2 + 4x + 9,1,eos,2911,1,1,1,1,1,1,0,0,0,0,correct_value,1
+SGNE-CC,0,first,math_train_number_theory_130,10,10,1,eos,6805,1,0,0,1,0,0,0,0,0,0,no_signpost,0
+SGNE-CC,0,first,math_train_number_theory_556,981,100,0,eos,3311,1,0,0,1,0,0,0,0,0,0,no_signpost,0
+SGNE-CC,0,first,math_train_number_theory_684,57,63,0,eos,1774,1,0,0,0,0,0,0,0,0,0,no_signpost,0
+SGNE-CC,0,first,math_train_number_theory_818,22_6,22_6,1,eos,1063,1,0,0,0,0,0,0,0,0,0,no_signpost,0
+SGNE-CC,0,first,math_train_prealgebra_1123,7,7,1,eos,902,1,1,1,0,0,0,0,0,1,1,no_value,0
+SGNE-CC,0,first,math_train_prealgebra_1173,\frac{1}{16},\frac{1}{16},1,eos,1045,1,2,1,0,1,1,1,0,0,0,correct_value,1
+SGNE-CC,0,first,math_train_prealgebra_484,-4,-4,1,eos,1251,1,0,0,0,0,0,0,0,0,0,no_signpost,0
+SGNE-CC,0,first,math_train_prealgebra_53,\frac{9}{49},\frac{9}{49},1,eos,1664,1,2,0,0,0,0,0,0,2,0,no_signpost,0
+SGNE-CC,0,first,math_train_prealgebra_613,49,49,1,eos,963,1,0,0,0,0,0,0,0,0,0,no_signpost,0
+SGNE-CC,0,first,math_train_precalculus_11,\frac{124}{13},2,0,eos,3238,1,0,0,0,0,0,0,0,0,0,no_signpost,0
+SGNE-CC,0,first,math_train_precalculus_128,44,44,1,eos,1760,1,1,0,0,0,0,0,0,1,0,no_signpost,0
+SGNE-CC,0,first,math_train_precalculus_339,66^\circ,66,1,eos,11536,1,0,0,1,0,0,0,0,0,0,no_signpost,0
+SGNE-CC,0,first,math_train_precalculus_477,100,254 + \sqrt{29},0,eos,24047,1,0,0,0,0,0,0,0,0,0,no_signpost,0
+SGNE-CC,0,first,math_train_precalculus_6,"[0,\pi]","[0, \pi/2]",0,eos,14949,1,0,0,0,0,0,0,0,0,0,no_signpost,0
+SGNE-CC,1,first,math_train_algebra_1051,21,110,0,eos,4324,1,0,0,0,0,0,0,0,0,0,no_signpost,0
+SGNE-CC,1,first,math_train_algebra_106,-3,-2,0,eos,1277,1,1,1,0,0,0,0,0,1,1,no_value,0
+SGNE-CC,1,first,math_train_algebra_1142,t^7,t^7,1,eos,532,1,1,1,0,0,0,1,1,0,0,wrong_value,0
+SGNE-CC,1,first,math_train_algebra_1167,"(-\infty,\infty)","(-\infty, \infty)",1,eos,1251,1,0,0,0,0,0,0,0,0,0,no_signpost,0
+SGNE-CC,1,first,math_train_algebra_1258,\frac{3}{5},\frac{6}{25},0,eos,6514,1,0,0,1,0,0,0,0,0,0,no_signpost,0
+SGNE-CC,1,first,math_train_algebra_1541,3,3,1,eos,824,1,0,0,0,0,0,0,0,0,0,no_signpost,0
+SGNE-CC,1,first,math_train_algebra_276,6,7,0,eos,8456,1,0,0,1,0,0,0,0,0,0,no_signpost,0
+SGNE-CC,1,first,math_train_algebra_277,100,100,1,eos,2049,1,2,1,0,2,2,0,0,0,0,correct_value,1
+SGNE-CC,1,first,math_train_algebra_567,17,17,1,eos,726,1,1,1,0,0,0,0,0,1,1,no_value,0
+SGNE-CC,1,first,math_train_algebra_664,3,3,1,eos,2851,1,2,1,0,0,0,1,1,1,0,wrong_value,0
+SGNE-CC,1,first,math_train_algebra_685,28.2,28,0,eos,1048,1,0,0,0,0,0,0,0,0,0,no_signpost,0
+SGNE-CC,1,first,math_train_algebra_705,18,,0,eos,11595,1,1,0,1,0,0,1,0,0,0,no_signpost,0
+SGNE-CC,1,first,math_train_counting_and_probability_25,372,\frac{N}{10},0,eos,5706,1,0,0,0,0,0,0,0,0,0,no_signpost,0
+SGNE-CC,1,first,math_train_counting_and_probability_280,30,4,0,eos,3378,1,3,1,0,0,0,2,1,1,0,wrong_value,0
+SGNE-CC,1,first,math_train_counting_and_probability_629,14,4,0,eos,3633,1,0,0,1,0,0,0,0,0,0,no_signpost,0
+SGNE-CC,1,first,math_train_geometry_159,18,,0,eos,14004,1,2,0,1,0,0,1,0,1,0,no_signpost,0
+SGNE-CC,1,first,math_train_geometry_184,4\sqrt{65},4\sqrt{65},1,eos,2740,1,2,0,0,0,0,1,0,1,0,no_signpost,0
+SGNE-CC,1,first,math_train_geometry_674,1,0.75,0,eos,16984,1,0,0,1,0,0,0,0,0,0,no_signpost,0
+SGNE-CC,1,first,math_train_geometry_688,\frac{50}3,,0,limit,32768,1,0,0,0,0,0,0,0,0,0,no_signpost,0
+SGNE-CC,1,first,math_train_geometry_718,192,96,0,eos,4267,1,0,0,1,0,0,0,0,0,0,no_signpost,0
+SGNE-CC,1,first,math_train_geometry_733,1728,1200,0,eos,3216,1,1,0,0,0,0,1,0,0,0,no_signpost,0
+SGNE-CC,1,first,math_train_geometry_74,8,14,0,eos,4287,1,4,1,0,0,0,3,0,1,1,no_value,0
+SGNE-CC,1,first,math_train_geometry_765,540,360/7,0,eos,10415,1,0,0,1,0,0,0,0,0,0,no_signpost,0
+SGNE-CC,1,first,math_train_intermediate_algebra_101,23,17,0,eos,15405,1,0,0,1,0,0,0,0,0,0,no_signpost,0
+SGNE-CC,1,first,math_train_intermediate_algebra_1145,63,78,0,eos,12993,1,0,0,0,0,0,0,0,0,0,no_signpost,0
+SGNE-CC,1,first,math_train_intermediate_algebra_132,52 + 3036 \sqrt{7},2016 \times 2016,0,eos,17309,1,3,0,1,0,0,3,0,0,0,no_signpost,0
+SGNE-CC,1,first,math_train_intermediate_algebra_166,\frac{1}{108},,0,loop_abbruch,16128,1,0,0,1,0,0,0,0,0,0,no_signpost,0
+SGNE-CC,1,first,math_train_intermediate_algebra_246,\frac{349}{500},,0,limit,32768,1,0,0,0,0,0,0,0,0,0,no_signpost,0
+SGNE-CC,1,first,math_train_intermediate_algebra_383,5,5,1,eos,8719,1,1,0,1,0,0,1,0,0,0,no_signpost,0
+SGNE-CC,1,first,math_train_intermediate_algebra_434,\frac{1}{1624},1,0,eos,10666,1,0,0,1,0,0,0,0,0,0,no_signpost,0
+SGNE-CC,1,first,math_train_intermediate_algebra_457,-8,-8,1,eos,3401,1,0,0,0,0,0,0,0,0,0,no_signpost,0
+SGNE-CC,1,first,math_train_intermediate_algebra_489,19,19,1,eos,1370,1,0,0,0,0,0,0,0,0,0,no_signpost,0
+SGNE-CC,1,first,math_train_intermediate_algebra_869,671,0,0,eos,6349,1,0,0,1,0,0,0,0,0,0,no_signpost,0
+SGNE-CC,1,first,math_train_intermediate_algebra_880,1,1,1,eos,1377,1,1,1,0,0,0,1,1,0,0,wrong_value,0
+SGNE-CC,1,first,math_train_intermediate_algebra_939,\frac{1}{3},\frac{1}{3},1,eos,1080,1,0,0,1,0,0,0,0,0,0,no_signpost,0
+SGNE-CC,1,first,math_train_intermediate_algebra_98,x^2 + 4x + 9,x^2 + 4x + 9,1,eos,2946,1,1,0,0,0,0,0,0,1,0,no_signpost,0
+SGNE-CC,1,first,math_train_number_theory_130,10,10,1,eos,4756,1,0,0,1,0,0,0,0,0,0,no_signpost,0
+SGNE-CC,1,first,math_train_number_theory_556,981,1001,0,eos,14067,1,0,0,1,0,0,0,0,0,0,no_signpost,0
+SGNE-CC,1,first,math_train_number_theory_684,57,30,0,eos,937,1,0,0,1,0,0,0,0,0,0,no_signpost,0
+SGNE-CC,1,first,math_train_number_theory_818,22_6,12_6,0,eos,948,1,0,0,0,0,0,0,0,0,0,no_signpost,0
+SGNE-CC,1,first,math_train_prealgebra_1123,7,7,1,eos,594,1,0,0,0,0,0,0,0,0,0,no_signpost,0
+SGNE-CC,1,first,math_train_prealgebra_1173,\frac{1}{16},\frac{1}{16},1,eos,1517,1,1,1,0,0,0,0,0,1,1,no_value,0
+SGNE-CC,1,first,math_train_prealgebra_484,-4,-4,1,eos,1053,1,0,0,0,0,0,0,0,0,0,no_signpost,0
+SGNE-CC,1,first,math_train_prealgebra_53,\frac{9}{49},,0,eos,1075,1,0,0,0,0,0,0,0,0,0,no_signpost,0
+SGNE-CC,1,first,math_train_prealgebra_613,49,49,1,eos,522,1,0,0,0,0,0,0,0,0,0,no_signpost,0
+SGNE-CC,1,first,math_train_precalculus_11,\frac{124}{13},,0,loop_abbruch,4608,1,0,0,1,0,0,0,0,0,0,no_signpost,0
+SGNE-CC,1,first,math_train_precalculus_128,44,44,1,eos,1281,1,0,0,0,0,0,0,0,0,0,no_signpost,0
+SGNE-CC,1,first,math_train_precalculus_339,66^\circ,,0,eos,19848,1,0,0,1,0,0,0,0,0,0,no_signpost,0
+SGNE-CC,1,first,math_train_precalculus_477,100,\sqrt{389 - 4\sqrt{29}},0,eos,14875,1,1,1,1,0,0,0,0,1,1,no_value,0
+SGNE-CC,1,first,math_train_precalculus_6,"[0,\pi]","[0, \pi]",1,eos,8030,1,0,0,0,0,0,0,0,0,0,no_signpost,0
+S-GDN,0,first,math_train_algebra_1051,21,11,0,eos,27698,1,46,1,0,0,0,44,3,2,0,wrong_value,0
+S-GDN,0,first,math_train_algebra_106,-3,-3,1,eos,9947,1,20,1,0,10,0,9,0,1,1,no_value,1
+S-GDN,0,first,math_train_algebra_1142,t^7,t^7,1,eos,971,1,2,0,0,0,0,0,0,2,0,no_signpost,0
+S-GDN,0,first,math_train_algebra_1167,"(-\infty,\infty)","(-\infty, \infty)",1,eos,1850,1,3,1,0,0,0,2,0,1,1,no_value,0
+S-GDN,0,first,math_train_algebra_1258,\frac{3}{5},,0,limit,32768,1,5,1,0,2,1,1,0,2,0,correct_value,1
+S-GDN,0,first,math_train_algebra_1541,3,3,1,eos,2758,1,2,0,0,0,0,1,0,1,0,no_signpost,0
+S-GDN,0,first,math_train_algebra_276,6,,0,limit,32768,0,29,,,0,0,27,0,2,0,,0
+S-GDN,0,first,math_train_algebra_277,100,100,1,eos,4591,1,2,0,0,1,0,0,0,1,0,no_signpost,1
+S-GDN,0,first,math_train_algebra_567,17,17,1,eos,4366,1,11,1,0,5,1,6,0,0,0,correct_value,1
+S-GDN,0,first,math_train_algebra_664,3,3,1,eos,6872,1,2,1,0,0,0,1,0,1,1,no_value,0
+S-GDN,0,first,math_train_algebra_685,28.2,28.2,1,eos,5528,1,3,0,0,1,0,1,0,1,0,no_signpost,1
+S-GDN,0,first,math_train_algebra_705,18,10,0,eos,22515,1,17,1,0,0,0,16,0,1,1,no_value,0
+S-GDN,0,first,math_train_counting_and_probability_25,372,9,0,eos,23129,1,15,1,0,0,0,13,1,2,0,wrong_value,0
+S-GDN,0,first,math_train_counting_and_probability_280,30,30,1,eos,19488,1,17,1,0,9,1,4,0,4,0,correct_value,1
+S-GDN,0,first,math_train_counting_and_probability_629,14,3,0,eos,25995,1,72,1,0,1,0,57,2,14,1,no_value,1
+S-GDN,0,first,math_train_geometry_159,18,,0,limit,32768,0,7,,,0,0,5,0,2,0,,0
+S-GDN,0,first,math_train_geometry_184,4\sqrt{65},4\sqrt{65},1,eos,5321,1,7,1,0,0,0,3,0,4,2,no_value,0
+S-GDN,0,first,math_train_geometry_674,1,,0,limit,32768,0,0,,,0,0,0,0,0,0,,0
+S-GDN,0,first,math_train_geometry_688,\frac{50}3,16.5,0,eos,18774,1,6,1,0,0,0,4,1,2,0,wrong_value,0
+S-GDN,0,first,math_train_geometry_718,192,192,1,eos,15769,1,1,0,0,0,0,1,0,0,0,no_signpost,0
+S-GDN,0,first,math_train_geometry_733,1728,1728,1,eos,10242,1,7,1,0,2,0,3,0,2,1,no_value,1
+S-GDN,0,first,math_train_geometry_74,8,8,1,eos,8138,1,23,0,0,2,0,18,0,3,0,no_signpost,1
+S-GDN,0,first,math_train_geometry_765,540,,0,loop_abbruch,30976,0,3,,,0,0,3,0,0,0,,0
+S-GDN,0,first,math_train_intermediate_algebra_101,23,,0,limit,32768,0,19,,,9,0,8,0,2,0,,1
+S-GDN,0,first,math_train_intermediate_algebra_1145,63,63,1,eos,26166,1,1,1,0,0,0,0,0,1,1,no_value,0
+S-GDN,0,first,math_train_intermediate_algebra_132,52 + 3036 \sqrt{7},,0,limit,32768,0,1,,,0,0,1,0,0,0,,0
+S-GDN,0,first,math_train_intermediate_algebra_166,\frac{1}{108},,0,limit,32768,0,0,,,0,0,0,0,0,0,,0
+S-GDN,0,first,math_train_intermediate_algebra_246,\frac{349}{500},,0,limit,32768,0,2,,,0,0,1,0,1,0,,0
+S-GDN,0,first,math_train_intermediate_algebra_383,5,,0,limit,32768,0,3,,,0,0,3,0,0,0,,0
+S-GDN,0,first,math_train_intermediate_algebra_434,\frac{1}{1624},\frac{1}{30},0,eos,28669,1,24,0,0,0,0,21,0,3,0,no_signpost,0
+S-GDN,0,first,math_train_intermediate_algebra_457,-8,-8,1,eos,22983,1,6,1,0,3,1,1,0,2,0,correct_value,1
+S-GDN,0,first,math_train_intermediate_algebra_489,19,19,1,eos,14198,1,1,1,0,0,0,0,0,1,1,no_value,0
+S-GDN,0,first,math_train_intermediate_algebra_869,671,,0,limit,32768,0,0,,,0,0,0,0,0,0,,0
+S-GDN,0,first,math_train_intermediate_algebra_880,1,1,1,eos,5943,1,3,0,0,2,0,1,0,0,0,no_signpost,1
+S-GDN,0,first,math_train_intermediate_algebra_939,\frac{1}{3},\frac{2}{5},0,eos,4167,1,6,0,0,0,0,3,0,3,0,no_signpost,0
+S-GDN,0,first,math_train_intermediate_algebra_98,x^2 + 4x + 9,x^2 + 4x + 9,1,eos,13184,1,2,1,0,0,0,0,0,2,1,no_value,0
+S-GDN,0,first,math_train_number_theory_130,10,,0,limit,32768,0,1,,,0,0,1,0,0,0,,0
+S-GDN,0,first,math_train_number_theory_556,981,,0,loop_abbruch,24064,1,0,0,0,0,0,0,0,0,0,no_signpost,0
+S-GDN,0,first,math_train_number_theory_684,57,,0,limit,32768,0,1,,,0,0,1,0,0,0,,0
+S-GDN,0,first,math_train_number_theory_818,22_6,22_6,1,eos,8186,1,4,0,0,2,0,2,0,0,0,no_signpost,1
+S-GDN,0,first,math_train_prealgebra_1123,7,7,1,eos,2488,1,3,1,0,1,0,2,1,0,0,wrong_value,1
+S-GDN,0,first,math_train_prealgebra_1173,\frac{1}{16},\frac{1}{16},1,eos,3778,1,4,1,0,1,0,1,1,2,0,wrong_value,1
+S-GDN,0,first,math_train_prealgebra_484,-4,-4,1,eos,3889,1,9,1,0,2,1,2,0,5,0,correct_value,1
+S-GDN,0,first,math_train_prealgebra_53,\frac{9}{49},\frac{9}{49},1,eos,3450,1,7,1,0,1,1,3,0,3,1,correct_value,1
+S-GDN,0,first,math_train_prealgebra_613,49,49,1,eos,4316,1,6,1,0,2,0,2,0,2,1,no_value,1
+S-GDN,0,first,math_train_precalculus_11,\frac{124}{13},,0,limit,32768,0,2,,,0,0,2,0,0,0,,0
+S-GDN,0,first,math_train_precalculus_128,44,44,1,eos,5993,1,6,1,0,3,1,3,1,0,0,wrong_value,1
+S-GDN,0,first,math_train_precalculus_339,66^\circ,,0,limit,32768,0,1,,,0,0,1,0,0,0,,0
+S-GDN,0,first,math_train_precalculus_477,100,,0,limit,32768,0,1,,,0,0,0,0,1,0,,0
+S-GDN,0,first,math_train_precalculus_6,"[0,\pi]","[0, \pi]",1,eos,19947,1,52,1,0,1,0,41,1,10,1,no_value,1
+S-GDN,1,first,math_train_algebra_1051,21,21,1,eos,10534,1,10,1,0,9,1,0,0,1,0,correct_value,1
+S-GDN,1,first,math_train_algebra_106,-3,-3,1,eos,1963,1,2,1,0,1,1,1,0,0,0,correct_value,1
+S-GDN,1,first,math_train_algebra_1142,t^7,t^7,1,eos,2691,1,10,1,0,4,0,3,1,3,2,no_value,1
+S-GDN,1,first,math_train_algebra_1167,"(-\infty,\infty)","(-\infty, \infty)",1,eos,8279,1,14,0,0,4,0,4,0,6,0,no_signpost,1
+S-GDN,1,first,math_train_algebra_1258,\frac{3}{5},\frac{3}{5},1,eos,18918,1,2,1,0,0,0,0,0,2,1,no_value,0
+S-GDN,1,first,math_train_algebra_1541,3,3,1,eos,2972,1,1,0,0,0,0,1,0,0,0,no_signpost,0
+S-GDN,1,first,math_train_algebra_276,6,,0,limit,32768,0,27,,,0,0,26,0,1,0,,0
+S-GDN,1,first,math_train_algebra_277,100,100,1,eos,13167,1,35,1,0,20,1,14,0,1,0,correct_value,1
+S-GDN,1,first,math_train_algebra_567,17,17,1,eos,1832,1,4,1,0,1,0,2,1,1,0,wrong_value,1
+S-GDN,1,first,math_train_algebra_664,3,3,1,eos,8031,1,10,1,0,6,1,4,0,0,0,correct_value,1
+S-GDN,1,first,math_train_algebra_685,28.2,28.2,1,eos,4853,1,2,1,0,0,0,2,1,0,0,wrong_value,0
+S-GDN,1,first,math_train_algebra_705,18,5,0,eos,7779,1,11,1,0,0,0,10,0,1,1,no_value,0
+S-GDN,1,first,math_train_counting_and_probability_25,372,2016,0,eos,31292,1,80,1,1,0,0,78,2,2,0,wrong_value,0
+S-GDN,1,first,math_train_counting_and_probability_280,30,30,1,eos,10520,1,13,1,0,5,0,3,0,5,1,no_value,1
+S-GDN,1,first,math_train_counting_and_probability_629,14,,0,limit,32768,1,37,1,0,0,0,34,1,3,0,wrong_value,0
+S-GDN,1,first,math_train_geometry_159,18,18,1,eos,24523,1,7,0,0,0,0,1,0,6,0,no_signpost,0
+S-GDN,1,first,math_train_geometry_184,4\sqrt{65},4\sqrt{65},1,eos,11702,1,4,1,0,0,0,4,2,0,0,wrong_value,0
+S-GDN,1,first,math_train_geometry_674,1,,0,limit,32768,0,1,,,0,0,1,0,0,0,,0
+S-GDN,1,first,math_train_geometry_688,\frac{50}3,,0,limit,32768,0,30,,,2,0,27,0,1,0,,1
+S-GDN,1,first,math_train_geometry_718,192,192,1,eos,9909,1,1,0,0,1,0,0,0,0,0,no_signpost,1
+S-GDN,1,first,math_train_geometry_733,1728,1728,1,eos,10817,1,4,1,0,1,0,1,0,2,1,no_value,1
+S-GDN,1,first,math_train_geometry_74,8,3,0,eos,11666,1,15,1,0,0,0,11,1,4,1,no_value,0
+S-GDN,1,first,math_train_geometry_765,540,,0,limit,32768,0,18,,,0,0,17,0,1,0,,0
+S-GDN,1,first,math_train_intermediate_algebra_101,23,23,1,eos,12916,1,1,1,0,0,0,0,0,1,1,no_value,0
+S-GDN,1,first,math_train_intermediate_algebra_1145,63,,0,loop_abbruch,17408,0,0,,,0,0,0,0,0,0,,0
+S-GDN,1,first,math_train_intermediate_algebra_132,52 + 3036 \sqrt{7},,0,limit,32768,0,2,,,0,0,2,0,0,0,,0
+S-GDN,1,first,math_train_intermediate_algebra_166,\frac{1}{108},,0,limit,32768,0,0,,,0,0,0,0,0,0,,0
+S-GDN,1,first,math_train_intermediate_algebra_246,\frac{349}{500},2/3,0,eos,28718,1,4,0,0,0,0,3,0,1,0,no_signpost,0
+S-GDN,1,first,math_train_intermediate_algebra_383,5,5,1,eos,8916,1,2,1,0,1,1,1,0,0,0,correct_value,1
+S-GDN,1,first,math_train_intermediate_algebra_434,\frac{1}{1624},\frac{9}{16},0,eos,28608,1,3,1,0,0,0,2,1,1,0,wrong_value,0
+S-GDN,1,first,math_train_intermediate_algebra_457,-8,-8,1,eos,18772,1,0,0,0,0,0,0,0,0,0,no_signpost,0
+S-GDN,1,first,math_train_intermediate_algebra_489,19,19,1,eos,12804,1,1,0,0,0,0,1,0,0,0,no_signpost,0
+S-GDN,1,first,math_train_intermediate_algebra_869,671,,0,limit,32768,1,3,0,1,2,0,1,0,0,0,no_signpost,1
+S-GDN,1,first,math_train_intermediate_algebra_880,1,1,1,eos,5615,1,11,1,0,4,0,4,2,3,0,wrong_value,1
+S-GDN,1,first,math_train_intermediate_algebra_939,\frac{1}{3},\frac{2}{5},0,eos,4598,1,7,1,0,0,0,6,2,1,0,wrong_value,0
+S-GDN,1,first,math_train_intermediate_algebra_98,x^2 + 4x + 9,x^2 + 4x + 9,1,eos,8147,1,2,1,0,1,1,0,0,1,0,correct_value,1
+S-GDN,1,first,math_train_number_theory_130,10,,0,limit,32768,0,7,,,2,0,5,0,0,0,,1
+S-GDN,1,first,math_train_number_theory_556,981,,0,limit,32768,0,1,,,0,0,1,0,0,0,,0
+S-GDN,1,first,math_train_number_theory_684,57,,0,limit,32768,0,1,,,0,0,1,0,0,0,,0
+S-GDN,1,first,math_train_number_theory_818,22_6,22_6,1,eos,14928,1,11,1,0,5,0,4,0,2,1,no_value,1
+S-GDN,1,first,math_train_prealgebra_1123,7,7,1,eos,2112,1,5,1,0,1,0,2,0,2,1,no_value,1
+S-GDN,1,first,math_train_prealgebra_1173,\frac{1}{16},\frac{1}{16},1,eos,1981,1,4,1,0,0,0,4,1,0,0,wrong_value,0
+S-GDN,1,first,math_train_prealgebra_484,-4,-4,1,eos,4265,1,2,1,0,0,0,1,0,1,1,no_value,0
+S-GDN,1,first,math_train_prealgebra_53,\frac{9}{49},\frac{9}{49},1,eos,6141,1,12,1,0,4,1,2,0,6,0,correct_value,1
+S-GDN,1,first,math_train_prealgebra_613,49,49,1,eos,805,1,2,1,0,2,2,0,0,0,0,correct_value,1
+S-GDN,1,first,math_train_precalculus_11,\frac{124}{13},,0,limit,32768,0,0,,,0,0,0,0,0,0,,0
+S-GDN,1,first,math_train_precalculus_128,44,44,1,eos,6407,1,10,1,0,6,0,1,0,3,1,no_value,1
+S-GDN,1,first,math_train_precalculus_339,66^\circ,,0,limit,32768,0,2,,,0,0,1,0,1,0,,0
+S-GDN,1,first,math_train_precalculus_477,100,,0,limit,32768,0,16,,,0,0,15,0,1,0,,0
+S-GDN,1,first,math_train_precalculus_6,"[0,\pi]","[0, \pi]",1,eos,21815,1,14,0,0,0,0,9,0,5,0,no_signpost,0
+S-MLP,0,first,math_train_algebra_1051,21,,0,limit,32768,1,1,1,0,0,0,0,0,1,1,no_value,0
+S-MLP,0,first,math_train_algebra_106,-3,-2,0,eos,1867,1,1,0,0,0,0,1,0,0,0,no_signpost,0
+S-MLP,0,first,math_train_algebra_1142,t^7,t^7,1,eos,473,1,0,0,0,0,0,0,0,0,0,no_signpost,0
+S-MLP,0,first,math_train_algebra_1167,"(-\infty,\infty)","(-\infty, \infty)",1,eos,1609,1,0,0,0,0,0,0,0,0,0,no_signpost,0
+S-MLP,0,first,math_train_algebra_1258,\frac{3}{5},\frac{1}{10},0,eos,7033,1,0,0,1,0,0,0,0,0,0,no_signpost,0
+S-MLP,0,first,math_train_algebra_1541,3,3,1,eos,1601,1,0,0,0,0,0,0,0,0,0,no_signpost,0
+S-MLP,0,first,math_train_algebra_276,6,8,0,eos,3170,1,0,0,1,0,0,0,0,0,0,no_signpost,0
+S-MLP,0,first,math_train_algebra_277,100,100,1,eos,1935,1,1,1,0,0,0,1,1,0,0,wrong_value,0
+S-MLP,0,first,math_train_algebra_567,17,17,1,eos,1589,1,2,1,0,0,0,2,1,0,0,wrong_value,0
+S-MLP,0,first,math_train_algebra_664,3,1.23,0,eos,3609,1,0,0,1,0,0,0,0,0,0,no_signpost,0
+S-MLP,0,first,math_train_algebra_685,28.2,28.2,1,eos,1085,1,0,0,0,0,0,0,0,0,0,no_signpost,0
+S-MLP,0,first,math_train_algebra_705,18,10,0,eos,3409,1,0,0,0,0,0,0,0,0,0,no_signpost,0
+S-MLP,0,first,math_train_counting_and_probability_25,372,57.6,0,eos,922,1,0,0,0,0,0,0,0,0,0,no_signpost,0
+S-MLP,0,first,math_train_counting_and_probability_280,30,,0,limit,32768,0,0,,,0,0,0,0,0,0,,0
+S-MLP,0,first,math_train_counting_and_probability_629,14,15,0,eos,2877,1,0,0,0,0,0,0,0,0,0,no_signpost,0
+S-MLP,0,first,math_train_geometry_159,18,1,0,eos,7879,1,0,0,0,0,0,0,0,0,0,no_signpost,0
+S-MLP,0,first,math_train_geometry_184,4\sqrt{65},32,0,eos,1749,1,1,0,0,0,0,1,0,0,0,no_signpost,0
+S-MLP,0,first,math_train_geometry_674,1,1.5,0,eos,8413,1,0,0,0,0,0,0,0,0,0,no_signpost,0
+S-MLP,0,first,math_train_geometry_688,\frac{50}3,,0,loop_abbruch,9472,1,0,0,1,0,0,0,0,0,0,no_signpost,0
+S-MLP,0,first,math_train_geometry_718,192,36864,0,eos,2677,1,0,0,0,0,0,0,0,0,0,no_signpost,0
+S-MLP,0,first,math_train_geometry_733,1728,1200,0,eos,5416,1,6,1,0,0,0,5,0,1,1,no_value,0
+S-MLP,0,first,math_train_geometry_74,8,7.33,0,eos,6477,1,3,0,0,0,0,3,0,0,0,no_signpost,0
+S-MLP,0,first,math_train_geometry_765,540,360,0,eos,2286,1,0,0,0,0,0,0,0,0,0,no_signpost,0
+S-MLP,0,first,math_train_intermediate_algebra_101,23,7,0,eos,1833,1,0,0,1,0,0,0,0,0,0,no_signpost,0
+S-MLP,0,first,math_train_intermediate_algebra_1145,63,,0,loop_abbruch,7168,1,0,0,1,0,0,0,0,0,0,no_signpost,0
+S-MLP,0,first,math_train_intermediate_algebra_132,52 + 3036 \sqrt{7},2016,0,eos,3321,1,0,0,0,0,0,0,0,0,0,no_signpost,0
+S-MLP,0,first,math_train_intermediate_algebra_166,\frac{1}{108},,0,loop_abbruch,7680,1,0,0,0,0,0,0,0,0,0,no_signpost,0
+S-MLP,0,first,math_train_intermediate_algebra_246,\frac{349}{500},,0,loop_abbruch,4096,1,0,0,0,0,0,0,0,0,0,no_signpost,0
+S-MLP,0,first,math_train_intermediate_algebra_383,5,-6,0,eos,12016,1,0,0,1,0,0,0,0,0,0,no_signpost,0
+S-MLP,0,first,math_train_intermediate_algebra_434,\frac{1}{1624},\frac{1}{2^a 3^b 5^{2c-1}},0,eos,9097,1,0,0,1,0,0,0,0,0,0,no_signpost,0
+S-MLP,0,first,math_train_intermediate_algebra_457,-8,-8,1,eos,1809,1,0,0,0,0,0,0,0,0,0,no_signpost,0
+S-MLP,0,first,math_train_intermediate_algebra_489,19,19,1,eos,2234,1,0,0,1,0,0,0,0,0,0,no_signpost,0
+S-MLP,0,first,math_train_intermediate_algebra_869,671,,0,loop_abbruch,4864,1,0,0,1,0,0,0,0,0,0,no_signpost,0
+S-MLP,0,first,math_train_intermediate_algebra_880,1,1,1,eos,1217,1,0,0,0,0,0,0,0,0,0,no_signpost,0
+S-MLP,0,first,math_train_intermediate_algebra_939,\frac{1}{3},\frac{2}{5},0,eos,651,1,1,1,0,0,0,1,1,0,0,wrong_value,0
+S-MLP,0,first,math_train_intermediate_algebra_98,x^2 + 4x + 9,x^2 + 4x - 1,0,eos,3002,1,0,0,1,0,0,0,0,0,0,no_signpost,0
+S-MLP,0,first,math_train_number_theory_130,10,129,0,eos,1220,1,0,0,1,0,0,0,0,0,0,no_signpost,0
+S-MLP,0,first,math_train_number_theory_556,981,100,0,eos,1797,1,0,0,1,0,0,0,0,0,0,no_signpost,0
+S-MLP,0,first,math_train_number_theory_684,57,30,0,eos,2719,1,0,0,0,0,0,0,0,0,0,no_signpost,0
+S-MLP,0,first,math_train_number_theory_818,22_6,4_6,0,eos,7542,1,5,0,0,0,0,5,0,0,0,no_signpost,0
+S-MLP,0,first,math_train_prealgebra_1123,7,7,1,eos,781,1,0,0,0,0,0,0,0,0,0,no_signpost,0
+S-MLP,0,first,math_train_prealgebra_1173,\frac{1}{16},1/16,1,eos,1245,1,1,1,0,0,0,0,0,1,1,no_value,0
+S-MLP,0,first,math_train_prealgebra_484,-4,-3,0,eos,948,1,0,0,0,0,0,0,0,0,0,no_signpost,0
+S-MLP,0,first,math_train_prealgebra_53,\frac{9}{49},\frac{18}{49},0,eos,1423,1,1,0,1,0,0,0,0,1,0,no_signpost,0
+S-MLP,0,first,math_train_prealgebra_613,49,49,1,eos,1001,1,1,1,0,0,0,0,0,1,1,no_value,0
+S-MLP,0,first,math_train_precalculus_11,\frac{124}{13},,0,loop_abbruch,4096,1,0,0,1,0,0,0,0,0,0,no_signpost,0
+S-MLP,0,first,math_train_precalculus_128,44,44,1,eos,1314,1,2,1,0,0,0,0,0,2,2,no_value,0
+S-MLP,0,first,math_train_precalculus_339,66^\circ,,0,loop_abbruch,10496,1,0,0,1,0,0,0,0,0,0,no_signpost,0
+S-MLP,0,first,math_train_precalculus_477,100,,0,loop_abbruch,6400,1,0,0,1,0,0,0,0,0,0,no_signpost,0
+S-MLP,0,first,math_train_precalculus_6,"[0,\pi]",\emptyset,0,eos,7218,1,0,0,0,0,0,0,0,0,0,no_signpost,0
+R-GDN,0,second,math_train_algebra_1051,21,,0,loop_abbruch,8448,0,4,,,1,0,2,0,1,0,,1
+R-GDN,0,second,math_train_algebra_106,-3,,0,loop_abbruch,8704,0,0,,,0,0,0,0,0,0,,0
+R-GDN,0,second,math_train_algebra_1142,t^7,t^7,1,eos,699,1,2,1,0,1,1,1,1,0,0,correct_value,1
+R-GDN,0,second,math_train_algebra_1167,"(-\infty,\infty)","(-\infty, \infty)",1,eos,4845,1,6,1,0,2,1,1,0,3,1,no_value,1
+R-GDN,0,second,math_train_algebra_1258,\frac{3}{5},,0,loop_abbruch,14592,0,0,,,0,0,0,0,0,0,,0
+R-GDN,0,second,math_train_algebra_1541,3,3,1,eos,1758,1,1,1,0,0,0,0,0,1,1,no_value,0
+R-GDN,0,second,math_train_algebra_276,6,,0,loop_abbruch,8448,0,0,,,0,0,0,0,0,0,,0
+R-GDN,0,second,math_train_algebra_277,100,100,1,eos,1433,1,2,1,0,1,1,0,0,1,1,correct_value,1
+R-GDN,0,second,math_train_algebra_567,17,17,1,eos,938,1,2,1,0,1,0,0,0,1,1,no_value,1
+R-GDN,0,second,math_train_algebra_664,3,3,1,eos,5115,1,7,1,0,4,1,2,0,1,0,correct_value,1
+R-GDN,0,second,math_train_algebra_685,28.2,28.2,1,eos,1355,1,2,1,0,0,0,1,1,1,1,no_value,0
+R-GDN,0,second,math_train_algebra_705,18,,0,limit,32768,0,0,,,0,0,0,0,0,0,,0
+R-GDN,0,second,math_train_counting_and_probability_25,372,,0,loop_abbruch,8960,0,0,,,0,0,0,0,0,0,,0
+R-GDN,0,second,math_train_counting_and_probability_280,30,,0,loop_abbruch,4352,0,1,,,0,0,1,0,0,0,,0
+R-GDN,0,second,math_train_counting_and_probability_629,14,,0,loop_abbruch,10496,0,1,,,0,0,1,0,0,0,,0
+R-GDN,0,second,math_train_geometry_159,18,,0,limit,32768,0,5,,,0,0,4,0,1,0,,0
+R-GDN,0,second,math_train_geometry_184,4\sqrt{65},,0,loop_abbruch,15872,0,0,,,0,0,0,0,0,0,,0
+R-GDN,0,second,math_train_geometry_674,1,,0,loop_abbruch,16128,0,0,,,0,0,0,0,0,0,,0
+R-GDN,0,second,math_train_geometry_688,\frac{50}3,,0,loop_abbruch,14848,0,2,,,0,0,2,0,0,0,,0
+R-GDN,0,second,math_train_geometry_718,192,,0,loop_abbruch,10752,0,0,,,0,0,0,0,0,0,,0
+R-GDN,0,second,math_train_geometry_733,1728,,0,loop_abbruch,10240,0,1,,,0,0,1,0,0,0,,0
+R-GDN,0,second,math_train_geometry_74,8,,0,loop_abbruch,5120,0,0,,,0,0,0,0,0,0,,0
+R-GDN,0,second,math_train_geometry_765,540,,0,loop_abbruch,12544,0,0,,,0,0,0,0,0,0,,0
+R-GDN,0,second,math_train_intermediate_algebra_101,23,,0,loop_abbruch,16896,0,0,,,0,0,0,0,0,0,,0
+R-GDN,0,second,math_train_intermediate_algebra_1145,63,,0,loop_abbruch,13312,0,0,,,0,0,0,0,0,0,,0
+R-GDN,0,second,math_train_intermediate_algebra_132,52 + 3036 \sqrt{7},,0,loop_abbruch,10240,0,0,,,0,0,0,0,0,0,,0
+R-GDN,0,second,math_train_intermediate_algebra_166,\frac{1}{108},,0,loop_abbruch,9728,0,0,,,0,0,0,0,0,0,,0
+R-GDN,0,second,math_train_intermediate_algebra_246,\frac{349}{500},,0,loop_abbruch,7424,0,0,,,0,0,0,0,0,0,,0
+R-GDN,0,second,math_train_intermediate_algebra_383,5,,0,loop_abbruch,17920,0,1,,,0,0,1,0,0,0,,0
+R-GDN,0,second,math_train_intermediate_algebra_434,\frac{1}{1624},,0,limit,32768,0,0,,,0,0,0,0,0,0,,0
+R-GDN,0,second,math_train_intermediate_algebra_457,-8,,0,loop_abbruch,7168,0,0,,,0,0,0,0,0,0,,0
+R-GDN,0,second,math_train_intermediate_algebra_489,19,,0,loop_abbruch,16384,0,0,,,0,0,0,0,0,0,,0
+R-GDN,0,second,math_train_intermediate_algebra_869,671,,0,limit,32768,0,0,,,0,0,0,0,0,0,,0
+R-GDN,0,second,math_train_intermediate_algebra_880,1,1,1,eos,2585,1,1,1,0,0,0,0,0,1,1,no_value,0
+R-GDN,0,second,math_train_intermediate_algebra_939,\frac{1}{3},\frac{1}{3},1,eos,2226,1,2,0,0,0,0,0,0,2,0,no_signpost,0
+R-GDN,0,second,math_train_intermediate_algebra_98,x^2 + 4x + 9,x^2 + 4x + 9,1,eos,2220,1,1,1,0,0,0,0,0,1,1,no_value,0
+R-GDN,0,second,math_train_number_theory_130,10,,0,limit,32768,0,0,,,0,0,0,0,0,0,,0
+R-GDN,0,second,math_train_number_theory_556,981,,0,limit,32768,0,0,,,0,0,0,0,0,0,,0
+R-GDN,0,second,math_train_number_theory_684,57,,0,loop_abbruch,20736,0,0,,,0,0,0,0,0,0,,0
+R-GDN,0,second,math_train_number_theory_818,22_6,,0,loop_abbruch,5376,0,1,,,0,0,0,0,1,0,,0
+R-GDN,0,second,math_train_prealgebra_1123,7,7,1,eos,1090,1,5,1,0,1,1,3,2,1,0,wrong_value,1
+R-GDN,0,second,math_train_prealgebra_1173,\frac{1}{16},\frac{1}{16},1,eos,1910,1,3,1,0,0,0,1,1,2,0,wrong_value,0
+R-GDN,0,second,math_train_prealgebra_484,-4,-4,1,eos,2609,1,5,1,0,3,0,1,0,1,1,no_value,1
+R-GDN,0,second,math_train_prealgebra_53,\frac{9}{49},\frac{9}{49},1,eos,2105,1,2,1,0,0,0,0,0,2,1,no_value,0
+R-GDN,0,second,math_train_prealgebra_613,49,49,1,eos,1433,1,3,1,0,1,0,0,0,2,1,no_value,1
+R-GDN,0,second,math_train_precalculus_11,\frac{124}{13},,0,loop_abbruch,25856,0,0,,,0,0,0,0,0,0,,0
+R-GDN,0,second,math_train_precalculus_128,44,44,1,eos,2258,1,2,0,0,0,0,2,0,0,0,no_signpost,0
+R-GDN,0,second,math_train_precalculus_339,66^\circ,,0,loop_abbruch,15872,0,0,,,0,0,0,0,0,0,,0
+R-GDN,0,second,math_train_precalculus_477,100,,0,loop_abbruch,16128,0,0,,,0,0,0,0,0,0,,0
+R-GDN,0,second,math_train_precalculus_6,"[0,\pi]",,0,loop_abbruch,12544,0,0,,,0,0,0,0,0,0,,0
+R-GDN-out,0,second,math_train_algebra_1051,21,,0,limit,32768,0,1,,,0,0,0,0,1,0,,0
+R-GDN-out,0,second,math_train_algebra_106,-3,,0,loop_abbruch,10240,0,0,,,0,0,0,0,0,0,,0
+R-GDN-out,0,second,math_train_algebra_1142,t^7,t^7,1,eos,806,1,2,0,0,0,0,0,0,2,0,no_signpost,0
+R-GDN-out,0,second,math_train_algebra_1167,"(-\infty,\infty)",,0,limit,32768,0,193,,,187,0,6,0,0,0,,1
+R-GDN-out,0,second,math_train_algebra_1258,\frac{3}{5},,0,limit,32768,0,0,,,0,0,0,0,0,0,,0
+R-GDN-out,0,second,math_train_algebra_1541,3,3,1,eos,1721,1,1,0,0,0,0,0,0,1,0,no_signpost,0
+R-GDN-out,0,second,math_train_algebra_276,6,,0,loop_abbruch,15360,0,0,,,0,0,0,0,0,0,,0
+R-GDN-out,0,second,math_train_algebra_277,100,100,1,eos,12660,1,13,1,0,9,1,3,0,1,0,correct_value,1
+R-GDN-out,0,second,math_train_algebra_567,17,,0,limit,32768,0,488,,,3,0,478,0,7,0,,1
+R-GDN-out,0,second,math_train_algebra_664,3,,0,limit,32768,0,2,,,1,0,1,0,0,0,,1
+R-GDN-out,0,second,math_train_algebra_685,28.2,28.2,1,eos,10459,1,4,0,0,0,0,4,0,0,0,no_signpost,0
+R-GDN-out,0,second,math_train_algebra_705,18,,0,loop_abbruch,9472,0,0,,,0,0,0,0,0,0,,0
+R-GDN-out,0,second,math_train_counting_and_probability_25,372,,0,limit,32768,0,2,,,0,0,2,0,0,0,,0
+R-GDN-out,0,second,math_train_counting_and_probability_280,30,,0,limit,32768,0,2,,,0,0,2,0,0,0,,0
+R-GDN-out,0,second,math_train_counting_and_probability_629,14,,0,loop_abbruch,7424,0,0,,,0,0,0,0,0,0,,0
+R-GDN-out,0,second,math_train_geometry_159,18,,0,loop_abbruch,4096,0,0,,,0,0,0,0,0,0,,0
+R-GDN-out,0,second,math_train_geometry_184,4\sqrt{65},4\sqrt{65},1,eos,26275,1,3,1,0,2,1,1,0,0,0,correct_value,1
+R-GDN-out,0,second,math_train_geometry_674,1,,0,limit,32768,0,0,,,0,0,0,0,0,0,,0
+R-GDN-out,0,second,math_train_geometry_688,\frac{50}3,,0,loop_abbruch,13824,0,0,,,0,0,0,0,0,0,,0
+R-GDN-out,0,second,math_train_geometry_718,192,192,1,eos,15149,1,6,1,0,2,1,2,0,2,0,correct_value,1
+R-GDN-out,0,second,math_train_geometry_733,1728,,0,loop_abbruch,5120,0,0,,,0,0,0,0,0,0,,0
+R-GDN-out,0,second,math_train_geometry_74,8,,0,limit,32768,0,0,,,0,0,0,0,0,0,,0
+R-GDN-out,0,second,math_train_geometry_765,540,,0,loop_abbruch,7936,0,0,,,0,0,0,0,0,0,,0
+R-GDN-out,0,second,math_train_intermediate_algebra_101,23,,0,loop_abbruch,22528,0,1,,,0,0,0,0,1,0,,0
+R-GDN-out,0,second,math_train_intermediate_algebra_1145,63,,0,loop_abbruch,16896,0,0,,,0,0,0,0,0,0,,0
+R-GDN-out,0,second,math_train_intermediate_algebra_132,52 + 3036 \sqrt{7},,0,loop_abbruch,12032,0,0,,,0,0,0,0,0,0,,0
+R-GDN-out,0,second,math_train_intermediate_algebra_166,\frac{1}{108},,0,loop_abbruch,26368,0,0,,,0,0,0,0,0,0,,0
+R-GDN-out,0,second,math_train_intermediate_algebra_246,\frac{349}{500},,0,loop_abbruch,7168,0,0,,,0,0,0,0,0,0,,0
+R-GDN-out,0,second,math_train_intermediate_algebra_383,5,,0,loop_abbruch,9984,0,0,,,0,0,0,0,0,0,,0
+R-GDN-out,0,second,math_train_intermediate_algebra_434,\frac{1}{1624},,0,loop_abbruch,16128,0,0,,,0,0,0,0,0,0,,0
+R-GDN-out,0,second,math_train_intermediate_algebra_457,-8,,0,loop_abbruch,5376,0,0,,,0,0,0,0,0,0,,0
+R-GDN-out,0,second,math_train_intermediate_algebra_489,19,,0,loop_abbruch,15104,0,0,,,0,0,0,0,0,0,,0
+R-GDN-out,0,second,math_train_intermediate_algebra_869,671,,0,loop_abbruch,21760,0,0,,,0,0,0,0,0,0,,0
+R-GDN-out,0,second,math_train_intermediate_algebra_880,1,,0,loop_abbruch,8192,0,24,,,21,0,2,0,1,0,,1
+R-GDN-out,0,second,math_train_intermediate_algebra_939,\frac{1}{3},,0,loop_abbruch,18432,0,16,,,6,0,8,0,2,0,,1
+R-GDN-out,0,second,math_train_intermediate_algebra_98,x^2 + 4x + 9,,0,loop_abbruch,14336,0,0,,,0,0,0,0,0,0,,0
+R-GDN-out,0,second,math_train_number_theory_130,10,,0,loop_abbruch,13312,0,0,,,0,0,0,0,0,0,,0
+R-GDN-out,0,second,math_train_number_theory_556,981,,0,loop_abbruch,5632,0,0,,,0,0,0,0,0,0,,0
+R-GDN-out,0,second,math_train_number_theory_684,57,,0,limit,32768,0,0,,,0,0,0,0,0,0,,0
+R-GDN-out,0,second,math_train_number_theory_818,22_6,,0,loop_abbruch,7168,0,5,,,2,0,3,0,0,0,,1
+R-GDN-out,0,second,math_train_prealgebra_1123,7,7,1,eos,1594,1,4,1,0,2,1,0,0,2,1,correct_value,1
+R-GDN-out,0,second,math_train_prealgebra_1173,\frac{1}{16},\frac{1}{16},1,eos,1714,1,3,0,0,0,0,2,0,1,0,no_signpost,0
+R-GDN-out,0,second,math_train_prealgebra_484,-4,-4,1,eos,13239,1,11,0,0,9,0,2,0,0,0,no_signpost,1
+R-GDN-out,0,second,math_train_prealgebra_53,\frac{9}{49},\frac{9}{49},1,eos,2005,1,1,0,0,0,0,0,0,1,0,no_signpost,0
+R-GDN-out,0,second,math_train_prealgebra_613,49,49,1,eos,705,1,1,1,0,0,0,0,0,1,1,no_value,0
+R-GDN-out,0,second,math_train_precalculus_11,\frac{124}{13},,0,loop_abbruch,19200,0,0,,,0,0,0,0,0,0,,0
+R-GDN-out,0,second,math_train_precalculus_128,44,,0,loop_abbruch,12288,0,1,,,1,0,0,0,0,0,,1
+R-GDN-out,0,second,math_train_precalculus_339,66^\circ,,0,loop_abbruch,22528,0,0,,,0,0,0,0,0,0,,0
+R-GDN-out,0,second,math_train_precalculus_477,100,,0,loop_abbruch,7168,0,0,,,0,0,0,0,0,0,,0
+R-GDN-out,0,second,math_train_precalculus_6,"[0,\pi]",,0,loop_abbruch,8192,0,0,,,0,0,0,0,0,0,,0
+R-ATT,0,second,math_train_algebra_1051,21,,0,limit,32768,0,0,,,0,0,0,0,0,0,,0
+R-ATT,0,second,math_train_algebra_106,-3,-3,1,eos,7948,1,25,1,0,12,1,10,0,3,2,correct_value,1
+R-ATT,0,second,math_train_algebra_1142,t^7,t^7,1,eos,1075,1,1,0,0,0,0,0,0,1,0,no_signpost,0
+R-ATT,0,second,math_train_algebra_1167,"(-\infty,\infty)",,0,loop_abbruch,13568,0,12,,,4,0,5,0,3,0,,1
+R-ATT,0,second,math_train_algebra_1258,\frac{3}{5},,0,loop_abbruch,8960,0,0,,,0,0,0,0,0,0,,0
+R-ATT,0,second,math_train_algebra_1541,3,3,1,eos,6558,1,2,1,0,0,0,1,0,1,1,no_value,0
+R-ATT,0,second,math_train_algebra_276,6,6,1,eos,9297,1,8,1,0,5,0,1,0,2,1,no_value,1
+R-ATT,0,second,math_train_algebra_277,100,100,1,eos,5880,1,3,0,0,1,0,1,0,1,0,no_signpost,1
+R-ATT,0,second,math_train_algebra_567,17,17,1,eos,4986,1,9,1,0,4,1,4,0,1,1,no_value,1
+R-ATT,0,second,math_train_algebra_664,3,,0,limit,32768,0,2,,,2,0,0,0,0,0,,1
+R-ATT,0,second,math_train_algebra_685,28.2,,0,loop_abbruch,13312,0,7,,,0,0,7,0,0,0,,0
+R-ATT,0,second,math_train_algebra_705,18,,0,loop_abbruch,10496,0,0,,,0,0,0,0,0,0,,0
+R-ATT,0,second,math_train_counting_and_probability_25,372,,0,loop_abbruch,7680,0,0,,,0,0,0,0,0,0,,0
+R-ATT,0,second,math_train_counting_and_probability_280,30,,0,limit,32768,0,272,,,0,0,271,0,1,0,,0
+R-ATT,0,second,math_train_counting_and_probability_629,14,,0,limit,32768,0,3,,,0,0,2,0,1,0,,0
+R-ATT,0,second,math_train_geometry_159,18,,0,loop_abbruch,6144,0,0,,,0,0,0,0,0,0,,0
+R-ATT,0,second,math_train_geometry_184,4\sqrt{65},4\sqrt{65},1,eos,10888,1,3,0,0,1,0,1,0,1,0,no_signpost,1
+R-ATT,0,second,math_train_geometry_674,1,,0,loop_abbruch,4864,0,0,,,0,0,0,0,0,0,,0
+R-ATT,0,second,math_train_geometry_688,\frac{50}3,,0,limit,32768,0,0,,,0,0,0,0,0,0,,0
+R-ATT,0,second,math_train_geometry_718,192,,0,loop_abbruch,4352,0,0,,,0,0,0,0,0,0,,0
+R-ATT,0,second,math_train_geometry_733,1728,,0,loop_abbruch,8448,0,0,,,0,0,0,0,0,0,,0
+R-ATT,0,second,math_train_geometry_74,8,,0,limit,32768,0,0,,,0,0,0,0,0,0,,0
+R-ATT,0,second,math_train_geometry_765,540,,0,loop_abbruch,12032,0,0,,,0,0,0,0,0,0,,0
+R-ATT,0,second,math_train_intermediate_algebra_101,23,,0,limit,32768,0,0,,,0,0,0,0,0,0,,0
+R-ATT,0,second,math_train_intermediate_algebra_1145,63,,0,loop_abbruch,16640,0,0,,,0,0,0,0,0,0,,0
+R-ATT,0,second,math_train_intermediate_algebra_132,52 + 3036 \sqrt{7},,0,loop_abbruch,11520,0,0,,,0,0,0,0,0,0,,0
+R-ATT,0,second,math_train_intermediate_algebra_166,\frac{1}{108},,0,loop_abbruch,25088,0,0,,,0,0,0,0,0,0,,0
+R-ATT,0,second,math_train_intermediate_algebra_246,\frac{349}{500},,0,limit,32768,0,0,,,0,0,0,0,0,0,,0
+R-ATT,0,second,math_train_intermediate_algebra_383,5,,0,loop_abbruch,8960,0,0,,,0,0,0,0,0,0,,0
+R-ATT,0,second,math_train_intermediate_algebra_434,\frac{1}{1624},,0,loop_abbruch,20480,0,0,,,0,0,0,0,0,0,,0
+R-ATT,0,second,math_train_intermediate_algebra_457,-8,,0,limit,32768,0,0,,,0,0,0,0,0,0,,0
+R-ATT,0,second,math_train_intermediate_algebra_489,19,,0,loop_abbruch,17152,0,1,,,1,0,0,0,0,0,,1
+R-ATT,0,second,math_train_intermediate_algebra_869,671,,0,loop_abbruch,12288,0,0,,,0,0,0,0,0,0,,0
+R-ATT,0,second,math_train_intermediate_algebra_880,1,1,1,eos,6591,1,9,1,0,6,2,2,0,1,0,correct_value,1
+R-ATT,0,second,math_train_intermediate_algebra_939,\frac{1}{3},\frac{1}{3},1,eos,6556,1,1,1,0,1,1,0,0,0,0,correct_value,1
+R-ATT,0,second,math_train_intermediate_algebra_98,x^2 + 4x + 9,,0,loop_abbruch,18432,0,2,,,2,0,0,0,0,0,,1
+R-ATT,0,second,math_train_number_theory_130,10,,0,loop_abbruch,12288,0,0,,,0,0,0,0,0,0,,0
+R-ATT,0,second,math_train_number_theory_556,981,,0,loop_abbruch,5120,0,0,,,0,0,0,0,0,0,,0
+R-ATT,0,second,math_train_number_theory_684,57,,0,limit,32768,0,1,,,0,0,1,0,0,0,,0
+R-ATT,0,second,math_train_number_theory_818,22_6,,0,loop_abbruch,4096,0,0,,,0,0,0,0,0,0,,0
+R-ATT,0,second,math_train_prealgebra_1123,7,7,1,eos,1084,1,1,1,0,0,0,1,1,0,0,wrong_value,0
+R-ATT,0,second,math_train_prealgebra_1173,\frac{1}{16},\frac{1}{16},1,eos,3811,1,3,1,0,1,0,2,1,0,0,wrong_value,1
+R-ATT,0,second,math_train_prealgebra_484,-4,,0,loop_abbruch,7168,0,3,,,2,0,1,0,0,0,,1
+R-ATT,0,second,math_train_prealgebra_53,\frac{9}{49},,0,loop_abbruch,8192,0,3,,,0,0,0,0,3,0,,0
+R-ATT,0,second,math_train_prealgebra_613,49,49,1,eos,2792,1,12,1,0,5,0,5,3,2,0,wrong_value,1
+R-ATT,0,second,math_train_precalculus_11,\frac{124}{13},,0,loop_abbruch,8192,0,0,,,0,0,0,0,0,0,,0
+R-ATT,0,second,math_train_precalculus_128,44,44,1,eos,14718,1,1,0,0,1,0,0,0,0,0,no_signpost,1
+R-ATT,0,second,math_train_precalculus_339,66^\circ,,0,limit,32768,0,2,,,1,0,1,0,0,0,,1
+R-ATT,0,second,math_train_precalculus_477,100,,0,limit,32768,0,0,,,0,0,0,0,0,0,,0
+R-ATT,0,second,math_train_precalculus_6,"[0,\pi]",,0,loop_abbruch,13568,0,0,,,0,0,0,0,0,0,,0
+R-MLP,0,second,math_train_algebra_1051,21,21,1,eos,11528,1,5,1,0,4,1,1,0,0,0,correct_value,1
+R-MLP,0,second,math_train_algebra_106,-3,-3,1,eos,1114,1,3,1,0,2,1,0,0,1,0,correct_value,1
+R-MLP,0,second,math_train_algebra_1142,t^7,t^7,1,eos,232,1,2,1,0,2,2,0,0,0,0,correct_value,1
+R-MLP,0,second,math_train_algebra_1167,"(-\infty,\infty)","(-\infty, \infty)",1,eos,428,1,1,1,0,1,1,0,0,0,0,correct_value,1
+R-MLP,0,second,math_train_algebra_1258,\frac{3}{5},,0,limit,32768,0,2,,,0,0,2,0,0,0,,0
+R-MLP,0,second,math_train_algebra_1541,3,3,1,eos,706,1,2,1,0,2,2,0,0,0,0,correct_value,1
+R-MLP,0,second,math_train_algebra_276,6,,0,limit,32768,0,23,,,0,0,23,0,0,0,,0
+R-MLP,0,second,math_train_algebra_277,100,100,1,eos,2617,1,11,1,0,6,1,5,2,0,0,wrong_value,1
+R-MLP,0,second,math_train_algebra_567,17,17,1,eos,581,1,1,1,0,1,1,0,0,0,0,correct_value,1
+R-MLP,0,second,math_train_algebra_664,3,3,1,eos,2547,1,3,1,0,1,1,1,0,1,1,correct_value,1
+R-MLP,0,second,math_train_algebra_685,28.2,28.2,1,eos,946,1,2,1,0,1,1,1,1,0,0,correct_value,1
+R-MLP,0,second,math_train_algebra_705,18,,0,limit,32768,0,1,,,0,0,1,0,0,0,,0
+R-MLP,0,second,math_train_counting_and_probability_25,372,,0,limit,32768,0,0,,,0,0,0,0,0,0,,0
+R-MLP,0,second,math_train_counting_and_probability_280,30,,0,loop_abbruch,4096,0,0,,,0,0,0,0,0,0,,0
+R-MLP,0,second,math_train_counting_and_probability_629,14,4,0,eos,19105,1,28,1,0,0,0,23,3,5,0,wrong_value,0
+R-MLP,0,second,math_train_geometry_159,18,,0,limit,32768,0,3,,,0,0,1,0,2,0,,0
+R-MLP,0,second,math_train_geometry_184,4\sqrt{65},4\sqrt{65},1,eos,1766,1,3,1,0,1,1,2,0,0,0,correct_value,1
+R-MLP,0,second,math_train_geometry_674,1,,0,limit,32768,0,0,,,0,0,0,0,0,0,,0
+R-MLP,0,second,math_train_geometry_688,\frac{50}3,16.5,0,eos,21689,1,24,1,0,0,0,24,2,0,0,wrong_value,0
+R-MLP,0,second,math_train_geometry_718,192,,0,loop_abbruch,6144,0,3,,,0,0,3,0,0,0,,0
+R-MLP,0,second,math_train_geometry_733,1728,,0,limit,32768,0,0,,,0,0,0,0,0,0,,0
+R-MLP,0,second,math_train_geometry_74,8,10,0,eos,9815,1,9,1,0,0,0,9,2,0,0,wrong_value,0
+R-MLP,0,second,math_train_geometry_765,540,,0,limit,32768,0,3,,,0,0,1,0,2,0,,0
+R-MLP,0,second,math_train_intermediate_algebra_101,23,23,1,eos,13814,1,7,1,0,7,2,0,0,0,0,correct_value,1
+R-MLP,0,second,math_train_intermediate_algebra_1145,63,,0,loop_abbruch,17693,0,0,,,0,0,0,0,0,0,,0
+R-MLP,0,second,math_train_intermediate_algebra_132,52 + 3036 \sqrt{7},,0,limit,32768,0,1,,,0,0,1,0,0,0,,0
+R-MLP,0,second,math_train_intermediate_algebra_166,\frac{1}{108},\frac{1}{108},1,limit,32768,0,12,,,10,0,1,0,1,0,,1
+R-MLP,0,second,math_train_intermediate_algebra_246,\frac{349}{500},,0,limit,32768,0,0,,,0,0,0,0,0,0,,0
+R-MLP,0,second,math_train_intermediate_algebra_383,5,-9,0,eos,2220,1,2,1,0,0,0,2,2,0,0,wrong_value,0
+R-MLP,0,second,math_train_intermediate_algebra_434,\frac{1}{1624},,0,limit,32768,0,1,,,0,0,1,0,0,0,,0
+R-MLP,0,second,math_train_intermediate_algebra_457,-8,,0,limit,32768,0,27,,,0,0,27,0,0,0,,0
+R-MLP,0,second,math_train_intermediate_algebra_489,19,19,1,eos,2571,1,2,1,0,2,2,0,0,0,0,correct_value,1
+R-MLP,0,second,math_train_intermediate_algebra_869,671,,0,loop_abbruch,4096,0,0,,,0,0,0,0,0,0,,0
+R-MLP,0,second,math_train_intermediate_algebra_880,1,1,1,eos,1956,1,6,1,0,4,3,1,1,1,0,correct_value,1
+R-MLP,0,second,math_train_intermediate_algebra_939,\frac{1}{3},\frac{1}{3},1,eos,563,1,2,1,0,2,2,0,0,0,0,correct_value,1
+R-MLP,0,second,math_train_intermediate_algebra_98,x^2 + 4x + 9,x^2 + 4x + 9,1,eos,1444,1,3,1,0,3,2,0,0,0,0,correct_value,1
+R-MLP,0,second,math_train_number_theory_130,10,10,1,eos,2683,1,3,1,0,3,2,0,0,0,0,correct_value,1
+R-MLP,0,second,math_train_number_theory_556,981,,0,loop_abbruch,10240,0,0,,,0,0,0,0,0,0,,0
+R-MLP,0,second,math_train_number_theory_684,57,57,1,eos,2654,1,4,1,0,3,1,0,0,1,0,correct_value,1
+R-MLP,0,second,math_train_number_theory_818,22_6,3_6,0,eos,3151,1,3,1,0,0,0,3,1,0,0,wrong_value,0
+R-MLP,0,second,math_train_prealgebra_1123,7,7,1,eos,319,1,3,1,0,3,3,0,0,0,0,correct_value,1
+R-MLP,0,second,math_train_prealgebra_1173,\frac{1}{16},\frac{1}{16},1,eos,298,1,1,1,0,1,1,0,0,0,0,correct_value,1
+R-MLP,0,second,math_train_prealgebra_484,-4,,0,limit,32768,0,0,,,0,0,0,0,0,0,,0
+R-MLP,0,second,math_train_prealgebra_53,\frac{9}{49},\frac{9}{49},1,eos,440,1,2,1,0,2,2,0,0,0,0,correct_value,1
+R-MLP,0,second,math_train_prealgebra_613,49,49,1,eos,475,1,2,1,0,2,2,0,0,0,0,correct_value,1
+R-MLP,0,second,math_train_precalculus_11,\frac{124}{13},,0,limit,32768,0,0,,,0,0,0,0,0,0,,0
+R-MLP,0,second,math_train_precalculus_128,44,,0,limit,32768,0,0,,,0,0,0,0,0,0,,0
+R-MLP,0,second,math_train_precalculus_339,66^\circ,,0,loop_abbruch,22302,0,1,,,1,0,0,0,0,0,,1
+R-MLP,0,second,math_train_precalculus_477,100,,0,limit,32768,0,3,,,0,0,3,0,0,0,,0
+R-MLP,0,second,math_train_precalculus_6,"[0,\pi]","[0,\pi]",1,eos,21228,1,33,1,0,24,3,8,0,1,0,correct_value,1
+R-MLP-early,0,second,math_train_algebra_1051,21,,0,loop_abbruch,8448,0,2,,,1,0,1,0,0,0,,1
+R-MLP-early,0,second,math_train_algebra_106,-3,,0,loop_abbruch,7680,0,40,,,3,0,37,0,0,0,,1
+R-MLP-early,0,second,math_train_algebra_1142,t^7,t^7,1,eos,659,1,2,1,0,0,0,2,2,0,0,wrong_value,0
+R-MLP-early,0,second,math_train_algebra_1167,"(-\infty,\infty)","(-\infty, \infty)",1,eos,1002,1,3,1,0,1,1,1,1,1,1,no_value,1
+R-MLP-early,0,second,math_train_algebra_1258,\frac{3}{5},,0,limit,32768,0,0,,,0,0,0,0,0,0,,0
+R-MLP-early,0,second,math_train_algebra_1541,3,3,1,eos,1600,1,3,1,0,0,0,0,0,3,3,no_value,0
+R-MLP-early,0,second,math_train_algebra_276,6,,0,limit,32768,0,1,,,0,0,1,0,0,0,,0
+R-MLP-early,0,second,math_train_algebra_277,100,,0,loop_abbruch,8192,0,7,,,4,0,3,0,0,0,,1
+R-MLP-early,0,second,math_train_algebra_567,17,17,1,eos,453,1,1,1,0,1,1,0,0,0,0,correct_value,1
+R-MLP-early,0,second,math_train_algebra_664,3,,0,limit,32768,0,437,,,217,0,220,0,0,0,,1
+R-MLP-early,0,second,math_train_algebra_685,28.2,,0,loop_abbruch,12288,0,0,,,0,0,0,0,0,0,,0
+R-MLP-early,0,second,math_train_algebra_705,18,,0,limit,32768,0,0,,,0,0,0,0,0,0,,0
+R-MLP-early,0,second,math_train_counting_and_probability_25,372,,0,limit,32768,0,2,,,0,0,2,0,0,0,,0
+R-MLP-early,0,second,math_train_counting_and_probability_280,30,,0,loop_abbruch,14336,0,38,,,15,0,22,0,1,0,,1
+R-MLP-early,0,second,math_train_counting_and_probability_629,14,,0,loop_abbruch,9728,0,0,,,0,0,0,0,0,0,,0
+R-MLP-early,0,second,math_train_geometry_159,18,,0,loop_abbruch,20480,0,0,,,0,0,0,0,0,0,,0
+R-MLP-early,0,second,math_train_geometry_184,4\sqrt{65},,0,limit,32768,0,7,,,1,0,4,0,2,0,,1
+R-MLP-early,0,second,math_train_geometry_674,1,,0,loop_abbruch,16128,0,0,,,0,0,0,0,0,0,,0
+R-MLP-early,0,second,math_train_geometry_688,\frac{50}3,,0,limit,32768,0,1,,,0,0,1,0,0,0,,0
+R-MLP-early,0,second,math_train_geometry_718,192,,0,limit,32768,0,0,,,0,0,0,0,0,0,,0
+R-MLP-early,0,second,math_train_geometry_733,1728,,0,loop_abbruch,6912,0,23,,,0,0,22,0,1,0,,0
+R-MLP-early,0,second,math_train_geometry_74,8,,0,limit,32768,0,4,,,1,0,2,0,1,0,,1
+R-MLP-early,0,second,math_train_geometry_765,540,,0,limit,32768,0,0,,,0,0,0,0,0,0,,0
+R-MLP-early,0,second,math_train_intermediate_algebra_101,23,,0,limit,32768,0,0,,,0,0,0,0,0,0,,0
+R-MLP-early,0,second,math_train_intermediate_algebra_1145,63,,0,loop_abbruch,19456,0,0,,,0,0,0,0,0,0,,0
+R-MLP-early,0,second,math_train_intermediate_algebra_132,52 + 3036 \sqrt{7},,0,limit,32768,0,0,,,0,0,0,0,0,0,,0
+R-MLP-early,0,second,math_train_intermediate_algebra_166,\frac{1}{108},,0,loop_abbruch,13568,0,0,,,0,0,0,0,0,0,,0
+R-MLP-early,0,second,math_train_intermediate_algebra_246,\frac{349}{500},,0,limit,32768,0,0,,,0,0,0,0,0,0,,0
+R-MLP-early,0,second,math_train_intermediate_algebra_383,5,,0,loop_abbruch,8192,0,0,,,0,0,0,0,0,0,,0
+R-MLP-early,0,second,math_train_intermediate_algebra_434,\frac{1}{1624},,0,limit,32768,0,0,,,0,0,0,0,0,0,,0
+R-MLP-early,0,second,math_train_intermediate_algebra_457,-8,-8,1,eos,5084,1,2,0,0,0,0,1,0,1,0,no_signpost,0
+R-MLP-early,0,second,math_train_intermediate_algebra_489,19,,0,loop_abbruch,7424,0,1,,,0,0,1,0,0,0,,0
+R-MLP-early,0,second,math_train_intermediate_algebra_869,671,,0,loop_abbruch,7680,0,0,,,0,0,0,0,0,0,,0
+R-MLP-early,0,second,math_train_intermediate_algebra_880,1,1,1,eos,3278,1,3,0,0,1,0,1,0,1,0,no_signpost,1
+R-MLP-early,0,second,math_train_intermediate_algebra_939,\frac{1}{3},\frac{1}{3},1,eos,1529,1,3,1,0,3,2,0,0,0,0,correct_value,1
+R-MLP-early,0,second,math_train_intermediate_algebra_98,x^2 + 4x + 9,,0,limit,32768,0,0,,,0,0,0,0,0,0,,0
+R-MLP-early,0,second,math_train_number_theory_130,10,,0,loop_abbruch,13312,0,0,,,0,0,0,0,0,0,,0
+R-MLP-early,0,second,math_train_number_theory_556,981,,0,limit,32768,0,0,,,0,0,0,0,0,0,,0
+R-MLP-early,0,second,math_train_number_theory_684,57,,0,limit,32768,0,0,,,0,0,0,0,0,0,,0
+R-MLP-early,0,second,math_train_number_theory_818,22_6,54_6,0,eos,1668,1,1,1,0,0,0,0,0,1,1,no_value,0
+R-MLP-early,0,second,math_train_prealgebra_1123,7,7,1,eos,986,1,1,1,0,0,0,0,0,1,1,no_value,0
+R-MLP-early,0,second,math_train_prealgebra_1173,\frac{1}{16},\frac{1}{16},1,eos,623,1,1,1,0,0,0,1,1,0,0,wrong_value,0
+R-MLP-early,0,second,math_train_prealgebra_484,-4,,0,loop_abbruch,5376,0,1,,,0,0,1,0,0,0,,0
+R-MLP-early,0,second,math_train_prealgebra_53,\frac{9}{49},,0,loop_abbruch,6400,0,10,,,0,0,7,0,3,0,,0
+R-MLP-early,0,second,math_train_prealgebra_613,49,49,1,eos,3512,1,4,0,0,1,0,2,0,1,0,no_signpost,1
+R-MLP-early,0,second,math_train_precalculus_11,\frac{124}{13},,0,loop_abbruch,7424,0,0,,,0,0,0,0,0,0,,0
+R-MLP-early,0,second,math_train_precalculus_128,44,44,1,eos,2385,1,1,1,0,0,0,0,0,1,1,no_value,0
+R-MLP-early,0,second,math_train_precalculus_339,66^\circ,,0,loop_abbruch,19968,0,6,,,4,0,2,0,0,0,,1
+R-MLP-early,0,second,math_train_precalculus_477,100,,0,limit,32768,0,0,,,0,0,0,0,0,0,,0
+R-MLP-early,0,second,math_train_precalculus_6,"[0,\pi]",,0,limit,32768,0,0,,,0,0,0,0,0,0,,0
+R-MLP-late,0,second,math_train_algebra_1051,21,,0,limit,32768,0,161,,,159,0,1,0,1,0,,1
+R-MLP-late,0,second,math_train_algebra_106,-3,,0,loop_abbruch,8960,0,0,,,0,0,0,0,0,0,,0
+R-MLP-late,0,second,math_train_algebra_1142,t^7,t^7,1,eos,467,1,1,1,0,0,0,0,0,1,1,no_value,0
+R-MLP-late,0,second,math_train_algebra_1167,"(-\infty,\infty)","(-\infty,\infty)",1,eos,1446,1,5,1,0,1,1,0,0,4,3,no_value,1
+R-MLP-late,0,second,math_train_algebra_1258,\frac{3}{5},,0,limit,32768,0,11,,,4,0,4,0,3,0,,1
+R-MLP-late,0,second,math_train_algebra_1541,3,3,1,eos,540,1,2,1,0,2,2,0,0,0,0,correct_value,1
+R-MLP-late,0,second,math_train_algebra_276,6,,0,loop_abbruch,7424,0,0,,,0,0,0,0,0,0,,0
+R-MLP-late,0,second,math_train_algebra_277,100,,0,loop_abbruch,5888,0,5,,,5,0,0,0,0,0,,1
+R-MLP-late,0,second,math_train_algebra_567,17,17,1,eos,500,1,0,0,0,0,0,0,0,0,0,no_signpost,0
+R-MLP-late,0,second,math_train_algebra_664,3,,0,loop_abbruch,4096,0,0,,,0,0,0,0,0,0,,0
+R-MLP-late,0,second,math_train_algebra_685,28.2,28.2,1,eos,4183,1,11,1,0,5,1,6,2,0,0,correct_value,1
+R-MLP-late,0,second,math_train_algebra_705,18,,0,limit,32768,0,1,,,0,0,1,0,0,0,,0
+R-MLP-late,0,second,math_train_counting_and_probability_25,372,,0,loop_abbruch,4096,0,0,,,0,0,0,0,0,0,,0
+R-MLP-late,0,second,math_train_counting_and_probability_280,30,,0,limit,32768,0,173,,,0,0,171,0,2,0,,0
+R-MLP-late,0,second,math_train_counting_and_probability_629,14,,0,limit,32768,0,11,,,0,0,8,0,3,0,,0
+R-MLP-late,0,second,math_train_geometry_159,18,,0,limit,32768,0,0,,,0,0,0,0,0,0,,0
+R-MLP-late,0,second,math_train_geometry_184,4\sqrt{65},4\sqrt{65},1,eos,968,1,2,1,0,0,0,1,1,1,1,no_value,0
+R-MLP-late,0,second,math_train_geometry_674,1,,0,limit,32768,0,0,,,0,0,0,0,0,0,,0
+R-MLP-late,0,second,math_train_geometry_688,\frac{50}3,,0,limit,32768,0,1,,,0,0,1,0,0,0,,0
+R-MLP-late,0,second,math_train_geometry_718,192,,0,limit,32768,0,3,,,0,0,3,0,0,0,,0
+R-MLP-late,0,second,math_train_geometry_733,1728,,0,loop_abbruch,6912,0,1,,,0,0,1,0,0,0,,0
+R-MLP-late,0,second,math_train_geometry_74,8,,0,limit,32768,0,0,,,0,0,0,0,0,0,,0
+R-MLP-late,0,second,math_train_geometry_765,540,,0,limit,32768,0,78,,,0,0,78,0,0,0,,0
+R-MLP-late,0,second,math_train_intermediate_algebra_101,23,23,1,eos,13826,1,22,1,0,17,1,0,0,5,1,no_value,1
+R-MLP-late,0,second,math_train_intermediate_algebra_1145,63,,0,limit,32768,0,0,,,0,0,0,0,0,0,,0
+R-MLP-late,0,second,math_train_intermediate_algebra_132,52 + 3036 \sqrt{7},,0,loop_abbruch,18201,0,1,,,0,0,1,0,0,0,,0
+R-MLP-late,0,second,math_train_intermediate_algebra_166,\frac{1}{108},,0,limit,32768,0,0,,,0,0,0,0,0,0,,0
+R-MLP-late,0,second,math_train_intermediate_algebra_246,\frac{349}{500},,0,limit,32768,0,0,,,0,0,0,0,0,0,,0
+R-MLP-late,0,second,math_train_intermediate_algebra_383,5,16,0,loop_abbruch,11520,0,7,,,0,0,6,0,1,0,,0
+R-MLP-late,0,second,math_train_intermediate_algebra_434,\frac{1}{1624},,0,loop_abbruch,4096,0,0,,,0,0,0,0,0,0,,0
+R-MLP-late,0,second,math_train_intermediate_algebra_457,-8,,0,loop_abbruch,24076,0,5,,,0,0,5,0,0,0,,0
+R-MLP-late,0,second,math_train_intermediate_algebra_489,19,,0,limit,32768,0,0,,,0,0,0,0,0,0,,0
+R-MLP-late,0,second,math_train_intermediate_algebra_869,671,,0,loop_abbruch,6912,0,0,,,0,0,0,0,0,0,,0
+R-MLP-late,0,second,math_train_intermediate_algebra_880,1,,0,loop_abbruch,4096,0,3,,,2,0,0,0,1,0,,1
+R-MLP-late,0,second,math_train_intermediate_algebra_939,\frac{1}{3},\frac{1}{3},1,eos,12714,1,4,0,0,3,0,0,0,1,0,no_signpost,1
+R-MLP-late,0,second,math_train_intermediate_algebra_98,x^2 + 4x + 9,,0,loop_abbruch,17152,0,4,,,3,0,1,0,0,0,,1
+R-MLP-late,0,second,math_train_number_theory_130,10,,0,loop_abbruch,11604,0,0,,,0,0,0,0,0,0,,0
+R-MLP-late,0,second,math_train_number_theory_556,981,,0,loop_abbruch,7429,0,0,,,0,0,0,0,0,0,,0
+R-MLP-late,0,second,math_train_number_theory_684,57,,0,limit,32768,0,372,,,281,0,91,0,0,0,,1
+R-MLP-late,0,second,math_train_number_theory_818,22_6,,0,loop_abbruch,4352,0,4,,,1,0,3,0,0,0,,1
+R-MLP-late,0,second,math_train_prealgebra_1123,7,7,1,eos,653,1,4,1,0,2,1,1,1,1,1,no_value,1
+R-MLP-late,0,second,math_train_prealgebra_1173,\frac{1}{16},,0,limit,32768,0,12,,,6,0,3,0,3,0,,1
+R-MLP-late,0,second,math_train_prealgebra_484,-4,-4,1,eos,3444,1,7,1,0,2,1,3,1,2,0,wrong_value,1
+R-MLP-late,0,second,math_train_prealgebra_53,\frac{9}{49},\frac{9}{49},1,eos,7434,1,7,1,0,5,0,0,0,2,1,no_value,1
+R-MLP-late,0,second,math_train_prealgebra_613,49,49,1,eos,968,1,2,1,0,1,1,0,0,1,1,no_value,1
+R-MLP-late,0,second,math_train_precalculus_11,\frac{124}{13},,0,limit,32768,0,1,,,0,0,1,0,0,0,,0
+R-MLP-late,0,second,math_train_precalculus_128,44,44,1,eos,964,1,2,1,0,1,1,0,0,1,1,correct_value,1
+R-MLP-late,0,second,math_train_precalculus_339,66^\circ,,0,loop_abbruch,13824,0,0,,,0,0,0,0,0,0,,0
+R-MLP-late,0,second,math_train_precalculus_477,100,,0,limit,32768,0,0,,,0,0,0,0,0,0,,0
+R-MLP-late,0,second,math_train_precalculus_6,"[0,\pi]",,0,loop_abbruch,13056,0,0,,,0,0,0,0,0,0,,0
+base + unedited MLP λ = 1,0,first,math_train_algebra_1051,21,,0,limit,32768,0,4,,,0,0,3,0,1,0,,0
+base + unedited MLP λ = 1,0,first,math_train_algebra_106,-3,-3,1,eos,1683,1,2,1,0,1,1,1,1,0,0,wrong_value,1
+base + unedited MLP λ = 1,0,first,math_train_algebra_1142,t^7,t^7,1,eos,598,1,3,1,0,1,1,2,2,0,0,correct_value,1
+base + unedited MLP λ = 1,0,first,math_train_algebra_1167,"(-\infty,\infty)","(-\infty, \infty)",1,eos,2147,1,2,0,0,0,0,0,0,2,0,no_signpost,0
+base + unedited MLP λ = 1,0,first,math_train_algebra_1258,\frac{3}{5},\frac{9}{25},0,eos,4221,1,9,1,0,0,0,7,1,2,1,wrong_value,0
+base + unedited MLP λ = 1,0,first,math_train_algebra_1541,3,3,1,eos,5415,1,8,1,0,2,0,4,1,2,1,no_value,1
+base + unedited MLP λ = 1,0,first,math_train_algebra_276,6,,0,limit,32768,0,0,,,0,0,0,0,0,0,,0
+base + unedited MLP λ = 1,0,first,math_train_algebra_277,100,100,1,eos,2501,1,3,0,0,2,0,1,0,0,0,no_signpost,1
+base + unedited MLP λ = 1,0,first,math_train_algebra_567,17,17,1,eos,1856,1,3,1,0,2,1,1,0,0,0,correct_value,1
+base + unedited MLP λ = 1,0,first,math_train_algebra_664,3,3,1,eos,3204,1,4,0,0,2,0,0,0,2,0,no_signpost,1
+base + unedited MLP λ = 1,0,first,math_train_algebra_685,28.2,28.2,1,eos,4221,1,5,0,0,0,0,3,0,2,0,no_signpost,0
+base + unedited MLP λ = 1,0,first,math_train_algebra_705,18,,0,limit,32768,0,0,,,0,0,0,0,0,0,,0
+base + unedited MLP λ = 1,0,first,math_train_counting_and_probability_25,372,,0,limit,32768,0,1,,,0,0,1,0,0,0,,0
+base + unedited MLP λ = 1,0,first,math_train_counting_and_probability_280,30,30,1,eos,7371,1,10,1,0,5,1,2,0,3,1,no_value,1
+base + unedited MLP λ = 1,0,first,math_train_counting_and_probability_629,14,15,0,limit,32768,0,7,,,0,0,6,0,1,0,,0
+base + unedited MLP λ = 1,0,first,math_train_geometry_159,18,\pi\sqrt{3},0,eos,11348,1,18,1,0,0,0,13,3,5,0,wrong_value,0
+base + unedited MLP λ = 1,0,first,math_train_geometry_184,4\sqrt{65},4\sqrt{65},1,eos,6552,1,4,1,0,0,0,1,0,3,1,no_value,0
+base + unedited MLP λ = 1,0,first,math_train_geometry_674,1,,0,loop_abbruch,8455,0,0,,,0,0,0,0,0,0,,0
+base + unedited MLP λ = 1,0,first,math_train_geometry_688,\frac{50}3,,0,loop_abbruch,16896,0,0,,,0,0,0,0,0,0,,0
+base + unedited MLP λ = 1,0,first,math_train_geometry_718,192,192,1,eos,8229,1,2,1,0,0,0,0,0,2,2,no_value,0
+base + unedited MLP λ = 1,0,first,math_train_geometry_733,1728,1200,0,eos,2259,1,1,1,0,0,0,0,0,1,1,no_value,0
+base + unedited MLP λ = 1,0,first,math_train_geometry_74,8,,0,loop_abbruch,4608,0,0,,,0,0,0,0,0,0,,0
+base + unedited MLP λ = 1,0,first,math_train_geometry_765,540,,0,limit,32768,0,0,,,0,0,0,0,0,0,,0
+base + unedited MLP λ = 1,0,first,math_train_intermediate_algebra_101,23,,0,limit,32768,0,0,,,0,0,0,0,0,0,,0
+base + unedited MLP λ = 1,0,first,math_train_intermediate_algebra_1145,63,78,0,eos,5591,1,7,1,0,0,0,6,0,1,1,no_value,0
+base + unedited MLP λ = 1,0,first,math_train_intermediate_algebra_132,52 + 3036 \sqrt{7},,0,limit,32768,0,0,,,0,0,0,0,0,0,,0
+base + unedited MLP λ = 1,0,first,math_train_intermediate_algebra_166,\frac{1}{108},,0,limit,32768,0,0,,,0,0,0,0,0,0,,0
+base + unedited MLP λ = 1,0,first,math_train_intermediate_algebra_246,\frac{349}{500},,0,limit,32768,0,4,,,0,0,4,0,0,0,,0
+base + unedited MLP λ = 1,0,first,math_train_intermediate_algebra_383,5,,0,loop_abbruch,15120,0,17,,,0,0,16,0,1,0,,0
+base + unedited MLP λ = 1,0,first,math_train_intermediate_algebra_434,\frac{1}{1624},,0,loop_abbruch,15104,0,0,,,0,0,0,0,0,0,,0
+base + unedited MLP λ = 1,0,first,math_train_intermediate_algebra_457,-8,,0,limit,32768,0,5,,,0,0,5,0,0,0,,0
+base + unedited MLP λ = 1,0,first,math_train_intermediate_algebra_489,19,19,1,limit,32768,0,4,,,2,0,1,0,1,0,,1
+base + unedited MLP λ = 1,0,first,math_train_intermediate_algebra_869,671,,0,limit,32768,0,0,,,0,0,0,0,0,0,,0
+base + unedited MLP λ = 1,0,first,math_train_intermediate_algebra_880,1,,0,loop_abbruch,7680,0,0,,,0,0,0,0,0,0,,0
+base + unedited MLP λ = 1,0,first,math_train_intermediate_algebra_939,\frac{1}{3},\frac{1}{3},1,eos,1750,1,3,1,0,1,1,0,0,2,2,no_value,1
+base + unedited MLP λ = 1,0,first,math_train_intermediate_algebra_98,x^2 + 4x + 9,x^2 + 4x - 1,0,eos,7145,1,3,1,0,1,1,2,1,0,0,wrong_value,1
+base + unedited MLP λ = 1,0,first,math_train_number_theory_130,10,,0,loop_abbruch,8960,0,0,,,0,0,0,0,0,0,,0
+base + unedited MLP λ = 1,0,first,math_train_number_theory_556,981,,0,loop_abbruch,15189,0,0,,,0,0,0,0,0,0,,0
+base + unedited MLP λ = 1,0,first,math_train_number_theory_684,57,,0,limit,32768,0,1,,,1,0,0,0,0,0,,1
+base + unedited MLP λ = 1,0,first,math_train_number_theory_818,22_6,,0,limit,32768,0,0,,,0,0,0,0,0,0,,0
+base + unedited MLP λ = 1,0,first,math_train_prealgebra_1123,7,7,1,eos,687,1,2,1,0,1,1,1,1,0,0,correct_value,1
+base + unedited MLP λ = 1,0,first,math_train_prealgebra_1173,\frac{1}{16},\frac{1}{16},1,eos,1375,1,2,1,0,1,1,0,0,1,1,correct_value,1
+base + unedited MLP λ = 1,0,first,math_train_prealgebra_484,-4,-4,1,eos,5455,1,10,1,0,2,0,4,0,4,1,no_value,1
+base + unedited MLP λ = 1,0,first,math_train_prealgebra_53,\frac{9}{49},\frac{9}{49},1,eos,3089,1,1,1,0,1,1,0,0,0,0,correct_value,1
+base + unedited MLP λ = 1,0,first,math_train_prealgebra_613,49,49,1,eos,739,1,1,1,0,0,0,0,0,1,1,no_value,0
+base + unedited MLP λ = 1,0,first,math_train_precalculus_11,\frac{124}{13},2,0,eos,22040,1,8,1,0,0,0,7,3,1,1,no_value,0
+base + unedited MLP λ = 1,0,first,math_train_precalculus_128,44,44,1,eos,12026,1,3,1,0,0,0,2,0,1,1,no_value,0
+base + unedited MLP λ = 1,0,first,math_train_precalculus_339,66^\circ,,0,loop_abbruch,26787,0,0,,,0,0,0,0,0,0,,0
+base + unedited MLP λ = 1,0,first,math_train_precalculus_477,100,,0,limit,32768,0,0,,,0,0,0,0,0,0,,0
+base + unedited MLP λ = 1,0,first,math_train_precalculus_6,"[0,\pi]","[0,\pi]",1,eos,7170,1,12,1,0,0,0,11,1,1,0,wrong_value,0
+base + unedited MLP λ = 0.75,0,first,math_train_algebra_1051,21,,0,limit,32768,0,34,,,0,0,33,0,1,0,,0
+base + unedited MLP λ = 0.75,0,first,math_train_algebra_106,-3,-3,1,eos,521,1,2,1,0,2,2,0,0,0,0,correct_value,1
+base + unedited MLP λ = 0.75,0,first,math_train_algebra_1142,t^7,t^7,1,eos,1042,1,4,1,0,1,0,3,2,0,0,wrong_value,1
+base + unedited MLP λ = 0.75,0,first,math_train_algebra_1167,"(-\infty,\infty)","(-\infty,\infty)",1,eos,760,1,4,1,0,1,0,2,1,1,1,wrong_value,1
+base + unedited MLP λ = 0.75,0,first,math_train_algebra_1258,\frac{3}{5},\dfrac{3}{5},1,eos,10560,1,4,1,0,2,0,0,0,2,2,no_value,1
+base + unedited MLP λ = 0.75,0,first,math_train_algebra_1541,3,3,1,eos,525,1,1,1,0,1,1,0,0,0,0,correct_value,1
+base + unedited MLP λ = 0.75,0,first,math_train_algebra_276,6,,0,loop_abbruch,8452,0,0,,,0,0,0,0,0,0,,0
+base + unedited MLP λ = 0.75,0,first,math_train_algebra_277,100,100,1,eos,342,1,1,1,0,1,1,0,0,0,0,correct_value,1
+base + unedited MLP λ = 0.75,0,first,math_train_algebra_567,17,17,1,eos,339,1,2,1,0,2,2,0,0,0,0,correct_value,1
+base + unedited MLP λ = 0.75,0,first,math_train_algebra_664,3,3,1,eos,2399,1,4,1,0,3,2,0,0,1,0,correct_value,1
+base + unedited MLP λ = 0.75,0,first,math_train_algebra_685,28.2,28.2,1,eos,1710,1,3,1,0,0,0,1,1,2,2,no_value,0
+base + unedited MLP λ = 0.75,0,first,math_train_algebra_705,18,,0,limit,32768,0,0,,,0,0,0,0,0,0,,0
+base + unedited MLP λ = 0.75,0,first,math_train_counting_and_probability_25,372,,0,loop_abbruch,9222,0,1,,,0,0,0,0,1,0,,0
+base + unedited MLP λ = 0.75,0,first,math_train_counting_and_probability_280,30,,0,loop_abbruch,9728,0,2,,,0,0,1,0,1,0,,0
+base + unedited MLP λ = 0.75,0,first,math_train_counting_and_probability_629,14,15,0,loop_abbruch,14592,0,13,,,0,0,11,0,2,0,,0
+base + unedited MLP λ = 0.75,0,first,math_train_geometry_159,18,,0,limit,32768,0,110,,,0,0,110,0,0,0,,0
+base + unedited MLP λ = 0.75,0,first,math_train_geometry_184,4\sqrt{65},,0,loop_abbruch,9472,0,0,,,0,0,0,0,0,0,,0
+base + unedited MLP λ = 0.75,0,first,math_train_geometry_674,1,1,1,limit,32768,0,6,,,3,0,1,0,2,0,,1
+base + unedited MLP λ = 0.75,0,first,math_train_geometry_688,\frac{50}3,,0,loop_abbruch,11034,0,2,,,0,0,2,0,0,0,,0
+base + unedited MLP λ = 0.75,0,first,math_train_geometry_718,192,192,1,eos,4346,1,2,1,0,2,2,0,0,0,0,correct_value,1
+base + unedited MLP λ = 0.75,0,first,math_train_geometry_733,1728,,0,limit,32768,0,0,,,0,0,0,0,0,0,,0
+base + unedited MLP λ = 0.75,0,first,math_train_geometry_74,8,1,0,eos,29824,1,11,1,0,0,0,9,1,2,0,wrong_value,0
+base + unedited MLP λ = 0.75,0,first,math_train_geometry_765,540,360,0,eos,20886,1,7,1,0,0,0,6,1,1,0,wrong_value,0
+base + unedited MLP λ = 0.75,0,first,math_train_intermediate_algebra_101,23,,0,limit,32768,0,1,,,0,0,1,0,0,0,,0
+base + unedited MLP λ = 0.75,0,first,math_train_intermediate_algebra_1145,63,\frac{468}{7},0,limit,32768,0,9,,,0,0,9,0,0,0,,0
+base + unedited MLP λ = 0.75,0,first,math_train_intermediate_algebra_132,52 + 3036 \sqrt{7},,0,limit,32768,0,1,,,0,0,1,0,0,0,,0
+base + unedited MLP λ = 0.75,0,first,math_train_intermediate_algebra_166,\frac{1}{108},\dfrac{1}{108},1,eos,26852,1,8,1,0,6,2,1,0,1,0,correct_value,1
+base + unedited MLP λ = 0.75,0,first,math_train_intermediate_algebra_246,\frac{349}{500},,0,loop_abbruch,4096,0,0,,,0,0,0,0,0,0,,0
+base + unedited MLP λ = 0.75,0,first,math_train_intermediate_algebra_383,5,5,1,eos,2506,1,3,1,0,2,2,1,0,0,0,correct_value,1
+base + unedited MLP λ = 0.75,0,first,math_train_intermediate_algebra_434,\frac{1}{1624},,0,limit,32768,0,0,,,0,0,0,0,0,0,,0
+base + unedited MLP λ = 0.75,0,first,math_train_intermediate_algebra_457,-8,-8,1,eos,2144,1,2,1,0,0,0,0,0,2,2,no_value,0
+base + unedited MLP λ = 0.75,0,first,math_train_intermediate_algebra_489,19,19,1,eos,3396,1,4,1,0,2,2,1,1,1,1,no_value,1
+base + unedited MLP λ = 0.75,0,first,math_train_intermediate_algebra_869,671,671,1,eos,10834,1,12,1,0,10,1,1,0,1,0,correct_value,1
+base + unedited MLP λ = 0.75,0,first,math_train_intermediate_algebra_880,1,,0,limit,32768,0,0,,,0,0,0,0,0,0,,0
+base + unedited MLP λ = 0.75,0,first,math_train_intermediate_algebra_939,\frac{1}{3},\frac{1}{3},1,eos,600,1,1,1,0,1,1,0,0,0,0,correct_value,1
+base + unedited MLP λ = 0.75,0,first,math_train_intermediate_algebra_98,x^2 + 4x + 9,x^2 + 4x + 9,1,eos,1010,1,1,1,0,1,1,0,0,0,0,correct_value,1
+base + unedited MLP λ = 0.75,0,first,math_train_number_theory_130,10,10,1,eos,6256,1,4,1,0,3,3,1,0,0,0,correct_value,1
+base + unedited MLP λ = 0.75,0,first,math_train_number_theory_556,981,,0,loop_abbruch,9015,0,0,,,0,0,0,0,0,0,,0
+base + unedited MLP λ = 0.75,0,first,math_train_number_theory_684,57,,0,limit,32768,0,0,,,0,0,0,0,0,0,,0
+base + unedited MLP λ = 0.75,0,first,math_train_number_theory_818,22_6,,0,limit,32768,0,0,,,0,0,0,0,0,0,,0
+base + unedited MLP λ = 0.75,0,first,math_train_prealgebra_1123,7,7,1,eos,586,1,2,1,0,2,2,0,0,0,0,correct_value,1
+base + unedited MLP λ = 0.75,0,first,math_train_prealgebra_1173,\frac{1}{16},\frac{1}{16},1,eos,570,1,1,1,0,1,1,0,0,0,0,correct_value,1
+base + unedited MLP λ = 0.75,0,first,math_train_prealgebra_484,-4,-4,1,eos,1085,1,3,1,0,2,1,0,0,1,1,correct_value,1
+base + unedited MLP λ = 0.75,0,first,math_train_prealgebra_53,\frac{9}{49},\frac{9}{49},1,eos,1026,1,2,1,0,0,0,1,0,1,1,no_value,0
+base + unedited MLP λ = 0.75,0,first,math_train_prealgebra_613,49,49,1,eos,737,1,1,1,0,1,1,0,0,0,0,correct_value,1
+base + unedited MLP λ = 0.75,0,first,math_train_precalculus_11,\frac{124}{13},,0,limit,32768,0,1,,,0,0,1,0,0,0,,0
+base + unedited MLP λ = 0.75,0,first,math_train_precalculus_128,44,44,1,eos,745,1,1,1,0,0,0,0,0,1,1,no_value,0
+base + unedited MLP λ = 0.75,0,first,math_train_precalculus_339,66^\circ,,0,limit,32768,0,5,,,0,0,5,0,0,0,,0
+base + unedited MLP λ = 0.75,0,first,math_train_precalculus_477,100,,0,limit,32768,0,0,,,0,0,0,0,0,0,,0
+base + unedited MLP λ = 0.75,0,first,math_train_precalculus_6,"[0,\pi]",,0,limit,32768,0,2,,,0,0,2,0,0,0,,0
+base + unedited MLP λ = 0.5,0,first,math_train_algebra_1051,21,21,1,eos,2702,1,2,0,0,2,0,0,0,0,0,no_signpost,1
+base + unedited MLP λ = 0.5,0,first,math_train_algebra_106,-3,-3,1,eos,694,1,2,1,0,2,2,0,0,0,0,correct_value,1
+base + unedited MLP λ = 0.5,0,first,math_train_algebra_1142,t^7,t^7,1,eos,255,1,2,1,0,2,2,0,0,0,0,correct_value,1
+base + unedited MLP λ = 0.5,0,first,math_train_algebra_1167,"(-\infty,\infty)","(-\infty,\infty)",1,eos,557,1,1,1,0,0,0,0,0,1,1,no_value,0
+base + unedited MLP λ = 0.5,0,first,math_train_algebra_1258,\frac{3}{5},\dfrac{3}{5},1,eos,18200,1,5,1,1,0,0,4,1,1,0,wrong_value,0
+base + unedited MLP λ = 0.5,0,first,math_train_algebra_1541,3,3,1,eos,494,1,1,1,0,0,0,1,1,0,0,wrong_value,0
+base + unedited MLP λ = 0.5,0,first,math_train_algebra_276,6,,0,limit,32768,0,2,,,0,0,2,0,0,0,,0
+base + unedited MLP λ = 0.5,0,first,math_train_algebra_277,100,400,0,eos,546,1,3,1,0,0,0,3,3,0,0,wrong_value,0
+base + unedited MLP λ = 0.5,0,first,math_train_algebra_567,17,17,1,eos,302,1,0,0,0,0,0,0,0,0,0,no_signpost,0
+base + unedited MLP λ = 0.5,0,first,math_train_algebra_664,3,3,1,eos,838,1,1,1,0,1,1,0,0,0,0,correct_value,1
+base + unedited MLP λ = 0.5,0,first,math_train_algebra_685,28.2,28.2,1,eos,2136,1,4,1,0,0,0,4,2,0,0,wrong_value,0
+base + unedited MLP λ = 0.5,0,first,math_train_algebra_705,18,,0,limit,32768,0,0,,,0,0,0,0,0,0,,0
+base + unedited MLP λ = 0.5,0,first,math_train_counting_and_probability_25,372,,0,loop_abbruch,26017,0,4,,,0,0,3,0,1,0,,0
+base + unedited MLP λ = 0.5,0,first,math_train_counting_and_probability_280,30,20,0,eos,10273,1,12,0,0,4,0,7,0,1,0,no_signpost,1
+base + unedited MLP λ = 0.5,0,first,math_train_counting_and_probability_629,14,,0,limit,32768,0,0,,,0,0,0,0,0,0,,0
+base + unedited MLP λ = 0.5,0,first,math_train_geometry_159,18,36,0,eos,11843,1,4,1,0,0,0,4,1,0,0,wrong_value,0
+base + unedited MLP λ = 0.5,0,first,math_train_geometry_184,4\sqrt{65},4\sqrt{65},1,eos,5220,1,8,1,0,4,1,4,0,0,0,correct_value,1
+base + unedited MLP λ = 0.5,0,first,math_train_geometry_674,1,\frac32,0,eos,11423,1,9,1,0,2,0,6,2,1,0,wrong_value,1
+base + unedited MLP λ = 0.5,0,first,math_train_geometry_688,\frac{50}3,16.5,0,eos,10563,1,10,1,0,0,0,10,1,0,0,wrong_value,0
+base + unedited MLP λ = 0.5,0,first,math_train_geometry_718,192,192,1,eos,1268,1,2,1,0,2,2,0,0,0,0,correct_value,1
+base + unedited MLP λ = 0.5,0,first,math_train_geometry_733,1728,1344\sqrt{21},0,eos,2922,1,2,1,0,0,0,1,1,1,1,no_value,0
+base + unedited MLP λ = 0.5,0,first,math_train_geometry_74,8,,0,loop_abbruch,4096,0,0,,,0,0,0,0,0,0,,0
+base + unedited MLP λ = 0.5,0,first,math_train_geometry_765,540,,0,limit,32768,0,6,,,0,0,6,0,0,0,,0
+base + unedited MLP λ = 0.5,0,first,math_train_intermediate_algebra_101,23,,0,limit,32768,0,4,,,0,0,4,0,0,0,,0
+base + unedited MLP λ = 0.5,0,first,math_train_intermediate_algebra_1145,63,63,1,eos,13428,1,22,1,0,15,1,5,0,2,1,no_value,1
+base + unedited MLP λ = 0.5,0,first,math_train_intermediate_algebra_132,52 + 3036 \sqrt{7},,0,loop_abbruch,12333,0,0,,,0,0,0,0,0,0,,0
+base + unedited MLP λ = 0.5,0,first,math_train_intermediate_algebra_166,\frac{1}{108},\dfrac{1}{108},1,eos,26017,1,10,1,0,3,1,7,0,0,0,correct_value,1
+base + unedited MLP λ = 0.5,0,first,math_train_intermediate_algebra_246,\frac{349}{500},6,0,eos,27614,1,7,1,0,0,0,3,0,4,1,no_value,0
+base + unedited MLP λ = 0.5,0,first,math_train_intermediate_algebra_383,5,5,1,eos,2036,1,4,1,0,1,0,0,0,3,3,no_value,1
+base + unedited MLP λ = 0.5,0,first,math_train_intermediate_algebra_434,\frac{1}{1624},,0,limit,32768,0,0,,,0,0,0,0,0,0,,0
+base + unedited MLP λ = 0.5,0,first,math_train_intermediate_algebra_457,-8,0,0,eos,5678,1,5,1,0,0,0,4,2,1,0,wrong_value,0
+base + unedited MLP λ = 0.5,0,first,math_train_intermediate_algebra_489,19,19,1,eos,4935,1,3,0,0,3,0,0,0,0,0,no_signpost,1
+base + unedited MLP λ = 0.5,0,first,math_train_intermediate_algebra_869,671,,0,loop_abbruch,19200,0,0,,,0,0,0,0,0,0,,0
+base + unedited MLP λ = 0.5,0,first,math_train_intermediate_algebra_880,1,1,1,eos,942,1,5,1,0,5,2,0,0,0,0,correct_value,1
+base + unedited MLP λ = 0.5,0,first,math_train_intermediate_algebra_939,\frac{1}{3},\frac{1}{3},1,eos,2736,1,8,1,0,7,1,0,0,1,1,no_value,1
+base + unedited MLP λ = 0.5,0,first,math_train_intermediate_algebra_98,x^2 + 4x + 9,x^{2}+4x+9,1,eos,888,1,2,1,0,1,1,1,1,0,0,wrong_value,1
+base + unedited MLP λ = 0.5,0,first,math_train_number_theory_130,10,,0,loop_abbruch,21494,0,1,,,0,0,1,0,0,0,,0
+base + unedited MLP λ = 0.5,0,first,math_train_number_theory_556,981,,0,loop_abbruch,7234,0,0,,,0,0,0,0,0,0,,0
+base + unedited MLP λ = 0.5,0,first,math_train_number_theory_684,57,39,0,eos,1875,1,4,1,0,0,0,4,1,0,0,wrong_value,0
+base + unedited MLP λ = 0.5,0,first,math_train_number_theory_818,22_6,,0,loop_abbruch,4096,0,0,,,0,0,0,0,0,0,,0
+base + unedited MLP λ = 0.5,0,first,math_train_prealgebra_1123,7,7,1,eos,461,1,3,1,0,3,3,0,0,0,0,correct_value,1
+base + unedited MLP λ = 0.5,0,first,math_train_prealgebra_1173,\frac{1}{16},\dfrac{1}{16},1,eos,279,1,1,1,0,0,0,0,0,1,1,no_value,0
+base + unedited MLP λ = 0.5,0,first,math_train_prealgebra_484,-4,-4,1,eos,532,1,1,1,0,1,1,0,0,0,0,correct_value,1
+base + unedited MLP λ = 0.5,0,first,math_train_prealgebra_53,\frac{9}{49},\frac{9}{49},1,eos,418,1,1,1,0,1,1,0,0,0,0,correct_value,1
+base + unedited MLP λ = 0.5,0,first,math_train_prealgebra_613,49,49,1,eos,1675,1,6,1,0,5,1,1,0,0,0,correct_value,1
+base + unedited MLP λ = 0.5,0,first,math_train_precalculus_11,\frac{124}{13},,0,limit,32768,0,0,,,0,0,0,0,0,0,,0
+base + unedited MLP λ = 0.5,0,first,math_train_precalculus_128,44,44,1,eos,457,1,0,0,0,0,0,0,0,0,0,no_signpost,0
+base + unedited MLP λ = 0.5,0,first,math_train_precalculus_339,66^\circ,,0,limit,32768,0,9,,,1,0,8,0,0,0,,1
+base + unedited MLP λ = 0.5,0,first,math_train_precalculus_477,100,,0,limit,32768,0,1,,,0,0,1,0,0,0,,0
+base + unedited MLP λ = 0.5,0,first,math_train_precalculus_6,"[0,\pi]","[0,\pi]",1,eos,3516,1,6,1,0,1,1,3,0,2,0,correct_value,1
+base + unedited MLP λ = 0.25,0,first,math_train_algebra_1051,21,21,1,eos,12126,1,23,1,0,14,1,5,0,4,0,correct_value,1
+base + unedited MLP λ = 0.25,0,first,math_train_algebra_106,-3,-3,1,eos,869,1,2,1,0,1,1,1,1,0,0,correct_value,1
+base + unedited MLP λ = 0.25,0,first,math_train_algebra_1142,t^7,t^7,1,eos,197,1,3,1,0,2,2,1,1,0,0,correct_value,1
+base + unedited MLP λ = 0.25,0,first,math_train_algebra_1167,"(-\infty,\infty)","(-\infty,\infty)",1,eos,394,1,1,1,0,1,1,0,0,0,0,correct_value,1
+base + unedited MLP λ = 0.25,0,first,math_train_algebra_1258,\frac{3}{5},\frac{3}{5},1,eos,3442,1,3,1,0,3,3,0,0,0,0,correct_value,1
+base + unedited MLP λ = 0.25,0,first,math_train_algebra_1541,3,3,1,eos,480,1,2,1,0,2,2,0,0,0,0,correct_value,1
+base + unedited MLP λ = 0.25,0,first,math_train_algebra_276,6,,0,loop_abbruch,7957,0,0,,,0,0,0,0,0,0,,0
+base + unedited MLP λ = 0.25,0,first,math_train_algebra_277,100,100,1,eos,729,1,2,1,0,2,2,0,0,0,0,correct_value,1
+base + unedited MLP λ = 0.25,0,first,math_train_algebra_567,17,17,1,eos,288,1,2,1,0,2,2,0,0,0,0,correct_value,1
+base + unedited MLP λ = 0.25,0,first,math_train_algebra_664,3,3,1,eos,902,1,1,1,0,1,1,0,0,0,0,correct_value,1
+base + unedited MLP λ = 0.25,0,first,math_train_algebra_685,28.2,28.2,1,eos,1060,1,0,0,0,0,0,0,0,0,0,no_signpost,0
+base + unedited MLP λ = 0.25,0,first,math_train_algebra_705,18,7,0,eos,9604,1,0,0,0,0,0,0,0,0,0,no_signpost,0
+base + unedited MLP λ = 0.25,0,first,math_train_counting_and_probability_25,372,,0,limit,32768,0,0,,,0,0,0,0,0,0,,0
+base + unedited MLP λ = 0.25,0,first,math_train_counting_and_probability_280,30,7,0,eos,2787,1,4,1,0,0,0,4,2,0,0,wrong_value,0
+base + unedited MLP λ = 0.25,0,first,math_train_counting_and_probability_629,14,15,0,eos,1524,1,2,1,0,0,0,2,1,0,0,wrong_value,0
+base + unedited MLP λ = 0.25,0,first,math_train_geometry_159,18,54,0,eos,4356,1,5,1,0,0,0,3,1,2,2,no_value,0
+base + unedited MLP λ = 0.25,0,first,math_train_geometry_184,4\sqrt{65},4\sqrt{65},1,eos,801,1,1,1,0,0,0,0,0,1,1,no_value,0
+base + unedited MLP λ = 0.25,0,first,math_train_geometry_674,1,,0,limit,32768,0,0,,,0,0,0,0,0,0,,0
+base + unedited MLP λ = 0.25,0,first,math_train_geometry_688,\frac{50}3,33.5,0,eos,11778,1,21,0,0,0,0,21,0,0,0,no_signpost,0
+base + unedited MLP λ = 0.25,0,first,math_train_geometry_718,192,192,1,eos,9214,1,4,0,0,3,0,1,0,0,0,no_signpost,1
+base + unedited MLP λ = 0.25,0,first,math_train_geometry_733,1728,\dfrac{912673}{1728},0,eos,21266,1,6,1,0,0,0,5,2,1,0,wrong_value,0
+base + unedited MLP λ = 0.25,0,first,math_train_geometry_74,8,88,0,eos,14701,1,22,1,0,0,0,12,1,10,0,wrong_value,0
+base + unedited MLP λ = 0.25,0,first,math_train_geometry_765,540,900,0,eos,1227,1,4,1,0,0,0,4,3,0,0,wrong_value,0
+base + unedited MLP λ = 0.25,0,first,math_train_intermediate_algebra_101,23,,0,limit,32768,0,0,,,0,0,0,0,0,0,,0
+base + unedited MLP λ = 0.25,0,first,math_train_intermediate_algebra_1145,63,24,0,eos,20892,1,14,0,0,1,0,12,0,1,0,no_signpost,1
+base + unedited MLP λ = 0.25,0,first,math_train_intermediate_algebra_132,52 + 3036 \sqrt{7},,0,limit,32768,0,0,,,0,0,0,0,0,0,,0
+base + unedited MLP λ = 0.25,0,first,math_train_intermediate_algebra_166,\frac{1}{108},\dfrac{15-4\sqrt{14}}{2},0,eos,21751,1,6,1,0,0,0,5,2,1,0,wrong_value,0
+base + unedited MLP λ = 0.25,0,first,math_train_intermediate_algebra_246,\frac{349}{500},,0,limit,32768,0,0,,,0,0,0,0,0,0,,0
+base + unedited MLP λ = 0.25,0,first,math_train_intermediate_algebra_383,5,5,1,eos,2665,1,5,1,0,2,1,2,1,1,1,no_value,1
+base + unedited MLP λ = 0.25,0,first,math_train_intermediate_algebra_434,\frac{1}{1624},,0,loop_abbruch,27919,0,3,,,0,0,3,0,0,0,,0
+base + unedited MLP λ = 0.25,0,first,math_train_intermediate_algebra_457,-8,12,0,eos,6768,1,2,1,0,0,0,2,1,0,0,wrong_value,0
+base + unedited MLP λ = 0.25,0,first,math_train_intermediate_algebra_489,19,19,1,eos,4686,1,4,0,0,3,0,1,0,0,0,no_signpost,1
+base + unedited MLP λ = 0.25,0,first,math_train_intermediate_algebra_869,671,,0,limit,32768,0,0,,,0,0,0,0,0,0,,0
+base + unedited MLP λ = 0.25,0,first,math_train_intermediate_algebra_880,1,1,1,eos,558,1,3,1,0,2,2,0,0,1,1,correct_value,1
+base + unedited MLP λ = 0.25,0,first,math_train_intermediate_algebra_939,\frac{1}{3},\frac{1}{3},1,eos,460,1,2,1,0,2,2,0,0,0,0,correct_value,1
+base + unedited MLP λ = 0.25,0,first,math_train_intermediate_algebra_98,x^2 + 4x + 9,x^{2} + 4x + 9,1,eos,592,1,1,1,0,0,0,0,0,1,1,no_value,0
+base + unedited MLP λ = 0.25,0,first,math_train_number_theory_130,10,10,1,eos,6510,1,4,1,0,3,1,0,0,1,0,correct_value,1
+base + unedited MLP λ = 0.25,0,first,math_train_number_theory_556,981,,0,limit,32768,0,0,,,0,0,0,0,0,0,,0
+base + unedited MLP λ = 0.25,0,first,math_train_number_theory_684,57,57,1,eos,769,1,1,1,0,1,1,0,0,0,0,correct_value,1
+base + unedited MLP λ = 0.25,0,first,math_train_number_theory_818,22_6,22_6,1,eos,921,1,2,1,0,1,1,0,0,1,1,correct_value,1
+base + unedited MLP λ = 0.25,0,first,math_train_prealgebra_1123,7,7,1,eos,433,1,2,1,0,2,2,0,0,0,0,correct_value,1
+base + unedited MLP λ = 0.25,0,first,math_train_prealgebra_1173,\frac{1}{16},\frac{1}{16},1,eos,246,1,1,1,0,0,0,0,0,1,1,no_value,0
+base + unedited MLP λ = 0.25,0,first,math_train_prealgebra_484,-4,-4,1,eos,570,1,0,0,0,0,0,0,0,0,0,no_signpost,0
+base + unedited MLP λ = 0.25,0,first,math_train_prealgebra_53,\frac{9}{49},\frac{9}{49},1,eos,491,1,3,1,0,2,2,1,1,0,0,wrong_value,1
+base + unedited MLP λ = 0.25,0,first,math_train_prealgebra_613,49,49,1,eos,428,1,2,1,0,2,2,0,0,0,0,correct_value,1
+base + unedited MLP λ = 0.25,0,first,math_train_precalculus_11,\frac{124}{13},,0,limit,32768,0,9,,,0,0,7,0,2,0,,0
+base + unedited MLP λ = 0.25,0,first,math_train_precalculus_128,44,44,1,eos,449,1,2,1,0,1,1,1,1,0,0,correct_value,1
+base + unedited MLP λ = 0.25,0,first,math_train_precalculus_339,66^\circ,,0,limit,32768,0,1,,,0,0,0,0,1,0,,0
+base + unedited MLP λ = 0.25,0,first,math_train_precalculus_477,100,359 - 46\sqrt{35},0,loop_abbruch,25166,0,6,,,0,0,6,0,0,0,,0
+base + unedited MLP λ = 0.25,0,first,math_train_precalculus_6,"[0,\pi]","[0,\pi]",1,eos,3043,1,9,1,0,3,1,5,2,1,0,wrong_value,1

@@ -1,0 +1,1801 @@
+arm,machine,id,instructions,correct,instructions_met,instructions_total,end,tokens,think_closed
+unedited,first,ifeval_1000,punctuation:no_comma;detectable_format:number_highlighted_sections;length_constraints:number_words,0,1,3,eos,7897,1
+unedited,first,ifeval_1001,punctuation:no_comma,0,0,1,limit,32768,0
+unedited,first,ifeval_1005,detectable_content:number_placeholders,0,0,1,limit,32768,0
+unedited,first,ifeval_1012,combination:repeat_prompt;detectable_format:title,0,0,2,loop_abbruch,4096,0
+unedited,first,ifeval_1019,change_case:english_lowercase,0,0,1,loop_abbruch,4096,0
+unedited,first,ifeval_102,detectable_format:number_bullet_lists,0,0,1,limit,32768,0
+unedited,first,ifeval_1021,change_case:english_capital;detectable_format:multiple_sections,0,0,2,loop_abbruch,4096,0
+unedited,first,ifeval_1040,change_case:capital_word_frequency;change_case:capital_word_frequency;startend:quotation,0,0,3,limit,32768,0
+unedited,first,ifeval_1051,change_case:english_lowercase,1,1,1,eos,3079,1
+unedited,first,ifeval_1069,keywords:existence;length_constraints:number_words;punctuation:no_comma,0,0,3,limit,32768,0
+unedited,first,ifeval_1072,length_constraints:number_words,1,1,1,eos,1802,1
+unedited,first,ifeval_1075,detectable_format:json_format,0,0,1,loop_abbruch,4096,0
+unedited,first,ifeval_1082,length_constraints:number_paragraphs,1,1,1,eos,3396,1
+unedited,first,ifeval_1087,change_case:english_lowercase,0,0,1,loop_abbruch,4096,0
+unedited,first,ifeval_1092,length_constraints:number_words,1,1,1,eos,3509,1
+unedited,first,ifeval_1094,detectable_format:json_format,0,0,1,loop_abbruch,4096,0
+unedited,first,ifeval_1098,combination:two_responses,0,0,1,loop_abbruch,4096,0
+unedited,first,ifeval_1107,punctuation:no_comma;combination:two_responses,0,0,2,limit,32768,0
+unedited,first,ifeval_1108,language:response_language,0,0,1,loop_abbruch,4097,0
+unedited,first,ifeval_1122,change_case:english_lowercase;keywords:letter_frequency,0,0,2,loop_abbruch,4096,0
+unedited,first,ifeval_1127,detectable_format:multiple_sections;startend:end_checker,0,0,2,loop_abbruch,6400,0
+unedited,first,ifeval_1128,startend:end_checker,0,0,1,loop_abbruch,4096,0
+unedited,first,ifeval_1129,keywords:letter_frequency;combination:repeat_prompt,0,0,2,limit,32768,0
+unedited,first,ifeval_1130,keywords:letter_frequency,0,0,1,loop_abbruch,4096,0
+unedited,first,ifeval_1131,detectable_format:multiple_sections,0,0,1,loop_abbruch,4096,0
+unedited,first,ifeval_1132,change_case:english_capital;keywords:forbidden_words,0,0,2,loop_abbruch,4096,0
+unedited,first,ifeval_1137,detectable_format:json_format;keywords:forbidden_words,0,0,2,loop_abbruch,4096,0
+unedited,first,ifeval_1139,combination:repeat_prompt;keywords:existence,0,0,2,loop_abbruch,4608,0
+unedited,first,ifeval_1147,keywords:forbidden_words,0,0,1,loop_abbruch,4096,0
+unedited,first,ifeval_1148,detectable_format:json_format,1,1,1,eos,2417,1
+unedited,first,ifeval_1153,change_case:english_lowercase;keywords:frequency,0,0,2,limit,32768,0
+unedited,first,ifeval_1154,language:response_language,0,0,1,loop_abbruch,5060,0
+unedited,first,ifeval_1162,punctuation:no_comma,0,0,1,loop_abbruch,4096,0
+unedited,first,ifeval_1174,keywords:letter_frequency;length_constraints:number_sentences;detectable_format:number_highlighted_sections,0,0,3,limit,32768,0
+unedited,first,ifeval_1180,combination:two_responses;detectable_format:title,0,0,2,limit,32768,0
+unedited,first,ifeval_1187,punctuation:no_comma,1,1,1,eos,20532,1
+unedited,first,ifeval_1203,keywords:frequency;keywords:frequency,0,1,2,loop_abbruch,19712,1
+unedited,first,ifeval_1216,startend:quotation;length_constraints:number_words,0,1,2,eos,4676,1
+unedited,first,ifeval_1217,length_constraints:number_words,1,1,1,eos,6457,1
+unedited,first,ifeval_1219,change_case:english_capital;detectable_content:postscript;keywords:frequency,0,0,3,loop_abbruch,4096,0
+unedited,first,ifeval_122,startend:quotation,0,0,1,loop_abbruch,4096,0
+unedited,first,ifeval_1220,startend:end_checker,0,0,1,loop_abbruch,4096,0
+unedited,first,ifeval_1233,startend:end_checker;keywords:frequency,0,0,2,loop_abbruch,6656,0
+unedited,first,ifeval_1236,length_constraints:number_paragraphs,1,1,1,eos,1943,1
+unedited,first,ifeval_1237,detectable_format:number_highlighted_sections;keywords:existence,1,2,2,eos,2925,1
+unedited,first,ifeval_1242,detectable_format:json_format;keywords:forbidden_words,0,0,2,loop_abbruch,4096,0
+unedited,first,ifeval_1246,detectable_content:postscript,1,1,1,eos,1803,1
+unedited,first,ifeval_1248,length_constraints:number_paragraphs,0,0,1,loop_abbruch,4096,0
+unedited,first,ifeval_1251,length_constraints:number_words,1,1,1,loop_abbruch,4096,1
+unedited,first,ifeval_1258,length_constraints:number_words,0,0,1,loop_abbruch,4096,0
+unedited,first,ifeval_1259,language:response_language,0,0,1,limit,32768,0
+unedited,first,ifeval_1262,detectable_format:title;length_constraints:number_sentences,0,0,2,loop_abbruch,4096,0
+unedited,first,ifeval_1265,keywords:existence;length_constraints:number_sentences,0,0,2,limit,32768,0
+unedited,first,ifeval_1268,length_constraints:number_sentences,1,1,1,eos,2779,1
+unedited,first,ifeval_127,keywords:forbidden_words;keywords:frequency,0,0,2,limit,32768,0
+unedited,first,ifeval_1281,combination:repeat_prompt;keywords:existence,0,0,2,limit,32768,0
+unedited,first,ifeval_1286,detectable_format:number_bullet_lists,0,0,1,limit,32768,0
+unedited,first,ifeval_1287,detectable_format:number_bullet_lists;change_case:english_lowercase,0,0,2,loop_abbruch,4096,0
+unedited,first,ifeval_13,detectable_format:json_format,0,0,1,loop_abbruch,4096,0
+unedited,first,ifeval_1300,punctuation:no_comma;keywords:letter_frequency;length_constraints:number_words,0,0,3,limit,32768,0
+unedited,first,ifeval_1305,detectable_content:postscript;detectable_format:number_bullet_lists,0,0,2,limit,32768,0
+unedited,first,ifeval_1307,detectable_format:number_highlighted_sections,0,0,1,eos,2779,1
+unedited,first,ifeval_1314,change_case:capital_word_frequency;change_case:capital_word_frequency,0,0,2,loop_abbruch,4096,0
+unedited,first,ifeval_1322,detectable_format:title,1,1,1,eos,1731,1
+unedited,first,ifeval_1325,startend:quotation;detectable_format:number_bullet_lists,0,1,2,eos,3839,1
+unedited,first,ifeval_1332,combination:two_responses,0,0,1,loop_abbruch,4352,0
+unedited,first,ifeval_1342,keywords:frequency;detectable_format:number_highlighted_sections;length_constraints:number_paragraphs,0,0,3,loop_abbruch,4096,0
+unedited,first,ifeval_1348,punctuation:no_comma;detectable_format:number_highlighted_sections;keywords:existence,0,0,3,limit,32768,0
+unedited,first,ifeval_136,detectable_format:number_bullet_lists;length_constraints:number_words,0,0,2,loop_abbruch,4096,0
+unedited,first,ifeval_1361,change_case:english_lowercase,0,0,1,loop_abbruch,5376,0
+unedited,first,ifeval_1367,detectable_content:postscript,0,0,1,loop_abbruch,4096,0
+unedited,first,ifeval_1372,detectable_content:number_placeholders,0,0,1,loop_abbruch,4096,0
+unedited,first,ifeval_1375,length_constraints:number_paragraphs;keywords:existence,0,0,2,limit,32768,0
+unedited,first,ifeval_1377,length_constraints:number_paragraphs,1,1,1,eos,2670,1
+unedited,first,ifeval_1379,detectable_format:number_highlighted_sections;keywords:frequency;keywords:existence,0,0,3,loop_abbruch,4096,0
+unedited,first,ifeval_1381,length_constraints:number_sentences,0,0,1,eos,2863,1
+unedited,first,ifeval_1389,change_case:english_capital;keywords:letter_frequency,0,0,2,loop_abbruch,4096,0
+unedited,first,ifeval_1392,detectable_format:title;length_constraints:number_sentences;length_constraints:number_words,0,0,3,loop_abbruch,4864,0
+unedited,first,ifeval_1393,keywords:frequency,0,0,1,loop_abbruch,4096,0
+unedited,first,ifeval_1402,keywords:letter_frequency;keywords:forbidden_words,0,0,2,loop_abbruch,4096,0
+unedited,first,ifeval_1418,punctuation:no_comma;length_constraints:number_sentences;length_constraints:number_sentences,0,0,3,loop_abbruch,4096,0
+unedited,first,ifeval_142,startend:quotation;keywords:frequency;keywords:existence,0,0,3,limit,32768,0
+unedited,first,ifeval_143,length_constraints:number_paragraphs;detectable_content:postscript,0,0,2,loop_abbruch,4096,0
+unedited,first,ifeval_1436,change_case:english_lowercase;keywords:forbidden_words,1,2,2,eos,4258,1
+unedited,first,ifeval_1446,startend:end_checker,1,1,1,eos,3172,1
+unedited,first,ifeval_1466,startend:quotation;keywords:forbidden_words,0,0,2,loop_abbruch,4096,0
+unedited,first,ifeval_1476,keywords:forbidden_words;length_constraints:number_sentences,0,0,2,limit,32768,0
+unedited,first,ifeval_1477,language:response_language,0,0,1,loop_abbruch,4096,0
+unedited,first,ifeval_1480,combination:repeat_prompt,0,0,1,loop_abbruch,4096,0
+unedited,first,ifeval_1481,detectable_format:multiple_sections;detectable_format:number_bullet_lists,0,0,2,loop_abbruch,4096,0
+unedited,first,ifeval_1498,keywords:frequency,0,0,1,limit,32768,0
+unedited,first,ifeval_1508,keywords:existence;punctuation:no_comma,0,0,2,limit,32768,0
+unedited,first,ifeval_1512,detectable_content:number_placeholders;punctuation:no_comma,0,0,2,limit,32768,0
+unedited,first,ifeval_1516,change_case:english_lowercase;keywords:existence,0,0,2,loop_abbruch,4352,0
+unedited,first,ifeval_1518,combination:repeat_prompt,0,0,1,loop_abbruch,4096,0
+unedited,first,ifeval_152,change_case:english_lowercase;length_constraints:number_words,0,1,2,eos,2612,1
+unedited,first,ifeval_1531,keywords:existence,0,0,1,loop_abbruch,4096,0
+unedited,first,ifeval_1535,change_case:english_lowercase;length_constraints:number_sentences,0,0,2,limit,32768,0
+unedited,first,ifeval_1537,detectable_content:postscript,0,0,1,limit,32768,0
+unedited,first,ifeval_1546,combination:repeat_prompt;punctuation:no_comma,0,0,2,loop_abbruch,4096,0
+unedited,first,ifeval_1548,detectable_format:multiple_sections,0,0,1,loop_abbruch,4096,0
+unedited,first,ifeval_1551,detectable_format:title,1,1,1,eos,2886,1
+unedited,first,ifeval_1561,combination:repeat_prompt;detectable_format:title,0,0,2,loop_abbruch,4096,0
+unedited,first,ifeval_1566,change_case:english_capital,0,0,1,limit,32768,0
+unedited,first,ifeval_1571,keywords:frequency;change_case:english_lowercase;keywords:existence,0,0,3,loop_abbruch,4608,0
+unedited,first,ifeval_1580,keywords:forbidden_words,0,0,1,loop_abbruch,4096,0
+unedited,first,ifeval_1582,combination:two_responses;language:response_language;punctuation:no_comma,0,0,3,loop_abbruch,4096,0
+unedited,first,ifeval_1591,combination:two_responses,0,0,1,limit,32768,0
+unedited,first,ifeval_1592,change_case:capital_word_frequency,0,0,1,loop_abbruch,4096,0
+unedited,first,ifeval_1593,change_case:english_lowercase,0,0,1,loop_abbruch,4096,0
+unedited,first,ifeval_16,detectable_format:title;combination:repeat_prompt,0,0,2,loop_abbruch,4096,0
+unedited,first,ifeval_1601,detectable_format:number_highlighted_sections;length_constraints:number_words,0,0,2,limit,32768,0
+unedited,first,ifeval_1609,length_constraints:nth_paragraph_first_word;startend:quotation,0,0,2,limit,32768,0
+unedited,first,ifeval_1619,detectable_content:postscript;detectable_content:number_placeholders,0,0,2,limit,32768,0
+unedited,first,ifeval_1620,detectable_content:postscript,0,0,1,loop_abbruch,4096,0
+unedited,first,ifeval_1627,combination:repeat_prompt;detectable_format:title;punctuation:no_comma,0,0,3,loop_abbruch,5888,0
+unedited,first,ifeval_1629,keywords:forbidden_words,0,0,1,loop_abbruch,4096,0
+unedited,first,ifeval_163,startend:quotation;keywords:letter_frequency,0,0,2,limit,32768,0
+unedited,first,ifeval_1634,detectable_format:number_bullet_lists,1,1,1,eos,2055,1
+unedited,first,ifeval_164,length_constraints:number_words,0,0,1,loop_abbruch,4096,0
+pre-trained base,first,ifeval_1000,punctuation:no_comma;detectable_format:number_highlighted_sections;length_constraints:number_words,0,0,3,eos,384,1
+pre-trained base,first,ifeval_1001,punctuation:no_comma,0,0,1,eos,648,1
+pre-trained base,first,ifeval_1005,detectable_content:number_placeholders,1,1,1,eos,929,1
+pre-trained base,first,ifeval_1012,combination:repeat_prompt;detectable_format:title,0,1,2,eos,163,1
+pre-trained base,first,ifeval_1019,change_case:english_lowercase,1,1,1,eos,474,1
+pre-trained base,first,ifeval_102,detectable_format:number_bullet_lists,0,0,1,eos,400,1
+pre-trained base,first,ifeval_1021,change_case:english_capital;detectable_format:multiple_sections,0,0,2,eos,1068,1
+pre-trained base,first,ifeval_1040,change_case:capital_word_frequency;change_case:capital_word_frequency;startend:quotation,0,1,3,eos,2548,1
+pre-trained base,first,ifeval_1051,change_case:english_lowercase,1,1,1,eos,181,1
+pre-trained base,first,ifeval_1069,keywords:existence;length_constraints:number_words;punctuation:no_comma,0,0,3,eos,1383,1
+pre-trained base,first,ifeval_1072,length_constraints:number_words,1,1,1,eos,807,1
+pre-trained base,first,ifeval_1075,detectable_format:json_format,0,0,1,eos,883,1
+pre-trained base,first,ifeval_1082,length_constraints:number_paragraphs,0,0,1,eos,372,1
+pre-trained base,first,ifeval_1087,change_case:english_lowercase,1,1,1,eos,555,1
+pre-trained base,first,ifeval_1092,length_constraints:number_words,1,1,1,eos,419,1
+pre-trained base,first,ifeval_1094,detectable_format:json_format,1,1,1,eos,503,1
+pre-trained base,first,ifeval_1098,combination:two_responses,0,0,1,eos,411,1
+pre-trained base,first,ifeval_1107,punctuation:no_comma;combination:two_responses,0,1,2,eos,1188,1
+pre-trained base,first,ifeval_1108,language:response_language,1,1,1,eos,867,1
+pre-trained base,first,ifeval_1122,change_case:english_lowercase;keywords:letter_frequency,0,1,2,eos,145,1
+pre-trained base,first,ifeval_1127,detectable_format:multiple_sections;startend:end_checker,0,0,2,eos,578,1
+pre-trained base,first,ifeval_1128,startend:end_checker,0,0,1,eos,200,1
+pre-trained base,first,ifeval_1129,keywords:letter_frequency;combination:repeat_prompt,0,0,2,eos,1091,1
+pre-trained base,first,ifeval_1130,keywords:letter_frequency,0,0,1,limit,32768,0
+pre-trained base,first,ifeval_1131,detectable_format:multiple_sections,0,0,1,eos,761,1
+pre-trained base,first,ifeval_1132,change_case:english_capital;keywords:forbidden_words,1,2,2,eos,952,1
+pre-trained base,first,ifeval_1137,detectable_format:json_format;keywords:forbidden_words,0,1,2,eos,1262,1
+pre-trained base,first,ifeval_1139,combination:repeat_prompt;keywords:existence,1,2,2,eos,1077,1
+pre-trained base,first,ifeval_1147,keywords:forbidden_words,1,1,1,eos,226,1
+pre-trained base,first,ifeval_1148,detectable_format:json_format,1,1,1,eos,399,1
+pre-trained base,first,ifeval_1153,change_case:english_lowercase;keywords:frequency,0,1,2,eos,476,1
+pre-trained base,first,ifeval_1154,language:response_language,1,1,1,eos,2250,1
+pre-trained base,first,ifeval_1162,punctuation:no_comma,1,1,1,eos,954,1
+pre-trained base,first,ifeval_1174,keywords:letter_frequency;length_constraints:number_sentences;detectable_format:number_highlighted_sections,0,0,3,limit,32768,0
+pre-trained base,first,ifeval_1180,combination:two_responses;detectable_format:title,0,1,2,eos,567,1
+pre-trained base,first,ifeval_1187,punctuation:no_comma,1,1,1,eos,417,1
+pre-trained base,first,ifeval_1203,keywords:frequency;keywords:frequency,0,1,2,eos,1878,1
+pre-trained base,first,ifeval_1216,startend:quotation;length_constraints:number_words,0,0,2,eos,1101,1
+pre-trained base,first,ifeval_1217,length_constraints:number_words,1,1,1,eos,202,1
+pre-trained base,first,ifeval_1219,change_case:english_capital;detectable_content:postscript;keywords:frequency,0,1,3,eos,1291,1
+pre-trained base,first,ifeval_122,startend:quotation,0,0,1,eos,1026,1
+pre-trained base,first,ifeval_1220,startend:end_checker,1,1,1,eos,437,1
+pre-trained base,first,ifeval_1233,startend:end_checker;keywords:frequency,0,1,2,eos,2021,1
+pre-trained base,first,ifeval_1236,length_constraints:number_paragraphs,1,1,1,eos,639,1
+pre-trained base,first,ifeval_1237,detectable_format:number_highlighted_sections;keywords:existence,1,2,2,eos,701,1
+pre-trained base,first,ifeval_1242,detectable_format:json_format;keywords:forbidden_words,0,1,2,eos,969,1
+pre-trained base,first,ifeval_1246,detectable_content:postscript,1,1,1,eos,309,1
+pre-trained base,first,ifeval_1248,length_constraints:number_paragraphs,0,0,1,eos,904,1
+pre-trained base,first,ifeval_1251,length_constraints:number_words,1,1,1,eos,737,1
+pre-trained base,first,ifeval_1258,length_constraints:number_words,0,0,1,eos,806,1
+pre-trained base,first,ifeval_1259,language:response_language,0,0,1,limit,32768,0
+pre-trained base,first,ifeval_1262,detectable_format:title;length_constraints:number_sentences,0,1,2,eos,535,1
+pre-trained base,first,ifeval_1265,keywords:existence;length_constraints:number_sentences,0,1,2,eos,809,1
+pre-trained base,first,ifeval_1268,length_constraints:number_sentences,1,1,1,eos,150,1
+pre-trained base,first,ifeval_127,keywords:forbidden_words;keywords:frequency,1,2,2,eos,717,1
+pre-trained base,first,ifeval_1281,combination:repeat_prompt;keywords:existence,0,1,2,eos,237,1
+pre-trained base,first,ifeval_1286,detectable_format:number_bullet_lists,0,0,1,eos,369,1
+pre-trained base,first,ifeval_1287,detectable_format:number_bullet_lists;change_case:english_lowercase,1,2,2,eos,436,1
+pre-trained base,first,ifeval_13,detectable_format:json_format,1,1,1,eos,607,1
+pre-trained base,first,ifeval_1300,punctuation:no_comma;keywords:letter_frequency;length_constraints:number_words,0,0,3,eos,1306,1
+pre-trained base,first,ifeval_1305,detectable_content:postscript;detectable_format:number_bullet_lists,0,1,2,eos,633,1
+pre-trained base,first,ifeval_1307,detectable_format:number_highlighted_sections,1,1,1,eos,928,1
+pre-trained base,first,ifeval_1314,change_case:capital_word_frequency;change_case:capital_word_frequency,0,1,2,eos,1533,1
+pre-trained base,first,ifeval_1322,detectable_format:title,1,1,1,eos,616,1
+pre-trained base,first,ifeval_1325,startend:quotation;detectable_format:number_bullet_lists,0,0,2,eos,572,1
+pre-trained base,first,ifeval_1332,combination:two_responses,0,0,1,eos,3024,1
+pre-trained base,first,ifeval_1342,keywords:frequency;detectable_format:number_highlighted_sections;length_constraints:number_paragraphs,0,1,3,eos,677,1
+pre-trained base,first,ifeval_1348,punctuation:no_comma;detectable_format:number_highlighted_sections;keywords:existence,0,1,3,eos,702,1
+pre-trained base,first,ifeval_136,detectable_format:number_bullet_lists;length_constraints:number_words,0,1,2,eos,251,1
+pre-trained base,first,ifeval_1361,change_case:english_lowercase,0,0,1,eos,549,1
+pre-trained base,first,ifeval_1367,detectable_content:postscript,1,1,1,eos,1419,1
+pre-trained base,first,ifeval_1372,detectable_content:number_placeholders,0,0,1,eos,903,1
+pre-trained base,first,ifeval_1375,length_constraints:number_paragraphs;keywords:existence,0,1,2,eos,769,1
+pre-trained base,first,ifeval_1377,length_constraints:number_paragraphs,0,0,1,eos,1201,1
+pre-trained base,first,ifeval_1379,detectable_format:number_highlighted_sections;keywords:frequency;keywords:existence,0,2,3,eos,488,1
+pre-trained base,first,ifeval_1381,length_constraints:number_sentences,0,0,1,eos,318,1
+pre-trained base,first,ifeval_1389,change_case:english_capital;keywords:letter_frequency,0,1,2,eos,2616,1
+pre-trained base,first,ifeval_1392,detectable_format:title;length_constraints:number_sentences;length_constraints:number_words,0,2,3,eos,567,1
+pre-trained base,first,ifeval_1393,keywords:frequency,1,1,1,eos,1346,1
+pre-trained base,first,ifeval_1402,keywords:letter_frequency;keywords:forbidden_words,1,2,2,eos,798,1
+pre-trained base,first,ifeval_1418,punctuation:no_comma;length_constraints:number_sentences;length_constraints:number_sentences,0,1,3,eos,1434,1
+pre-trained base,first,ifeval_142,startend:quotation;keywords:frequency;keywords:existence,0,2,3,eos,239,1
+pre-trained base,first,ifeval_143,length_constraints:number_paragraphs;detectable_content:postscript,0,1,2,eos,860,1
+pre-trained base,first,ifeval_1436,change_case:english_lowercase;keywords:forbidden_words,0,0,2,eos,962,1
+pre-trained base,first,ifeval_1446,startend:end_checker,0,0,1,eos,587,1
+pre-trained base,first,ifeval_1466,startend:quotation;keywords:forbidden_words,0,0,2,eos,696,1
+pre-trained base,first,ifeval_1476,keywords:forbidden_words;length_constraints:number_sentences,1,2,2,eos,224,1
+pre-trained base,first,ifeval_1477,language:response_language,1,1,1,eos,592,1
+pre-trained base,first,ifeval_1480,combination:repeat_prompt,1,1,1,eos,144,1
+pre-trained base,first,ifeval_1481,detectable_format:multiple_sections;detectable_format:number_bullet_lists,0,0,2,eos,426,1
+pre-trained base,first,ifeval_1498,keywords:frequency,0,0,1,eos,746,1
+pre-trained base,first,ifeval_1508,keywords:existence;punctuation:no_comma,0,0,2,loop_abbruch,5376,0
+pre-trained base,first,ifeval_1512,detectable_content:number_placeholders;punctuation:no_comma,1,2,2,loop_abbruch,4096,1
+pre-trained base,first,ifeval_1516,change_case:english_lowercase;keywords:existence,0,1,2,eos,1262,1
+pre-trained base,first,ifeval_1518,combination:repeat_prompt,0,0,1,eos,201,1
+pre-trained base,first,ifeval_152,change_case:english_lowercase;length_constraints:number_words,0,0,2,eos,1273,1
+pre-trained base,first,ifeval_1531,keywords:existence,1,1,1,eos,921,1
+pre-trained base,first,ifeval_1535,change_case:english_lowercase;length_constraints:number_sentences,0,1,2,eos,720,1
+pre-trained base,first,ifeval_1537,detectable_content:postscript,1,1,1,eos,365,1
+pre-trained base,first,ifeval_1546,combination:repeat_prompt;punctuation:no_comma,0,0,2,eos,1461,1
+pre-trained base,first,ifeval_1548,detectable_format:multiple_sections,1,1,1,eos,1131,1
+pre-trained base,first,ifeval_1551,detectable_format:title,1,1,1,eos,810,1
+pre-trained base,first,ifeval_1561,combination:repeat_prompt;detectable_format:title,0,1,2,eos,581,1
+pre-trained base,first,ifeval_1566,change_case:english_capital,0,0,1,eos,1473,1
+pre-trained base,first,ifeval_1571,keywords:frequency;change_case:english_lowercase;keywords:existence,0,1,3,eos,404,1
+pre-trained base,first,ifeval_1580,keywords:forbidden_words,0,0,1,eos,821,1
+pre-trained base,first,ifeval_1582,combination:two_responses;language:response_language;punctuation:no_comma,0,1,3,eos,643,1
+pre-trained base,first,ifeval_1591,combination:two_responses,0,0,1,eos,310,1
+pre-trained base,first,ifeval_1592,change_case:capital_word_frequency,1,1,1,eos,267,1
+pre-trained base,first,ifeval_1593,change_case:english_lowercase,1,1,1,eos,323,1
+pre-trained base,first,ifeval_16,detectable_format:title;combination:repeat_prompt,0,1,2,eos,916,1
+pre-trained base,first,ifeval_1601,detectable_format:number_highlighted_sections;length_constraints:number_words,0,1,2,eos,236,1
+pre-trained base,first,ifeval_1609,length_constraints:nth_paragraph_first_word;startend:quotation,0,1,2,eos,726,1
+pre-trained base,first,ifeval_1619,detectable_content:postscript;detectable_content:number_placeholders,1,2,2,eos,485,1
+pre-trained base,first,ifeval_1620,detectable_content:postscript,1,1,1,eos,389,1
+pre-trained base,first,ifeval_1627,combination:repeat_prompt;detectable_format:title;punctuation:no_comma,0,1,3,eos,430,1
+pre-trained base,first,ifeval_1629,keywords:forbidden_words,0,0,1,eos,428,1
+pre-trained base,first,ifeval_163,startend:quotation;keywords:letter_frequency,0,1,2,eos,1192,1
+pre-trained base,first,ifeval_1634,detectable_format:number_bullet_lists,1,1,1,eos,356,1
+pre-trained base,first,ifeval_164,length_constraints:number_words,1,1,1,eos,925,1
+MIT's edit,first,ifeval_1000,punctuation:no_comma;detectable_format:number_highlighted_sections;length_constraints:number_words,0,1,3,eos,7381,1
+MIT's edit,first,ifeval_1001,punctuation:no_comma,1,1,1,eos,2223,1
+MIT's edit,first,ifeval_1005,detectable_content:number_placeholders,1,1,1,eos,3549,1
+MIT's edit,first,ifeval_1012,combination:repeat_prompt;detectable_format:title,1,2,2,eos,2508,1
+MIT's edit,first,ifeval_1019,change_case:english_lowercase,1,1,1,eos,3984,1
+MIT's edit,first,ifeval_102,detectable_format:number_bullet_lists,1,1,1,eos,3008,1
+MIT's edit,first,ifeval_1021,change_case:english_capital;detectable_format:multiple_sections,0,1,2,eos,5189,1
+MIT's edit,first,ifeval_1040,change_case:capital_word_frequency;change_case:capital_word_frequency;startend:quotation,1,3,3,eos,5591,1
+MIT's edit,first,ifeval_1051,change_case:english_lowercase,1,1,1,eos,1330,1
+MIT's edit,first,ifeval_1069,keywords:existence;length_constraints:number_words;punctuation:no_comma,0,0,3,eos,5327,1
+MIT's edit,first,ifeval_1072,length_constraints:number_words,0,0,1,eos,2228,1
+MIT's edit,first,ifeval_1075,detectable_format:json_format,1,1,1,eos,2113,1
+MIT's edit,first,ifeval_1082,length_constraints:number_paragraphs,1,1,1,eos,3082,1
+MIT's edit,first,ifeval_1087,change_case:english_lowercase,1,1,1,loop_abbruch,8960,1
+MIT's edit,first,ifeval_1092,length_constraints:number_words,1,1,1,eos,3125,1
+MIT's edit,first,ifeval_1094,detectable_format:json_format,1,1,1,eos,3028,1
+MIT's edit,first,ifeval_1098,combination:two_responses,1,1,1,eos,1216,1
+MIT's edit,first,ifeval_1107,punctuation:no_comma;combination:two_responses,1,2,2,eos,2292,1
+MIT's edit,first,ifeval_1108,language:response_language,1,1,1,eos,3490,1
+MIT's edit,first,ifeval_1122,change_case:english_lowercase;keywords:letter_frequency,0,0,2,limit,32768,0
+MIT's edit,first,ifeval_1127,detectable_format:multiple_sections;startend:end_checker,0,1,2,eos,2769,1
+MIT's edit,first,ifeval_1128,startend:end_checker,1,1,1,eos,2329,1
+MIT's edit,first,ifeval_1129,keywords:letter_frequency;combination:repeat_prompt,1,2,2,eos,3593,1
+MIT's edit,first,ifeval_1130,keywords:letter_frequency,1,1,1,eos,6612,1
+MIT's edit,first,ifeval_1131,detectable_format:multiple_sections,1,1,1,eos,2622,1
+MIT's edit,first,ifeval_1132,change_case:english_capital;keywords:forbidden_words,1,2,2,eos,3034,1
+MIT's edit,first,ifeval_1137,detectable_format:json_format;keywords:forbidden_words,1,2,2,eos,3334,1
+MIT's edit,first,ifeval_1139,combination:repeat_prompt;keywords:existence,1,2,2,eos,3005,1
+MIT's edit,first,ifeval_1147,keywords:forbidden_words,1,1,1,eos,3543,1
+MIT's edit,first,ifeval_1148,detectable_format:json_format,1,1,1,eos,642,1
+MIT's edit,first,ifeval_1153,change_case:english_lowercase;keywords:frequency,1,2,2,eos,5050,1
+MIT's edit,first,ifeval_1154,language:response_language,1,1,1,eos,3919,1
+MIT's edit,first,ifeval_1162,punctuation:no_comma,1,1,1,eos,2944,1
+MIT's edit,first,ifeval_1174,keywords:letter_frequency;length_constraints:number_sentences;detectable_format:number_highlighted_sections,0,2,3,eos,6787,1
+MIT's edit,first,ifeval_1180,combination:two_responses;detectable_format:title,1,2,2,eos,1881,1
+MIT's edit,first,ifeval_1187,punctuation:no_comma,1,1,1,eos,3591,1
+MIT's edit,first,ifeval_1203,keywords:frequency;keywords:frequency,0,0,2,eos,5589,1
+MIT's edit,first,ifeval_1216,startend:quotation;length_constraints:number_words,0,1,2,eos,3212,1
+MIT's edit,first,ifeval_1217,length_constraints:number_words,1,1,1,eos,4005,1
+MIT's edit,first,ifeval_1219,change_case:english_capital;detectable_content:postscript;keywords:frequency,0,1,3,eos,5073,1
+MIT's edit,first,ifeval_122,startend:quotation,1,1,1,eos,1659,1
+MIT's edit,first,ifeval_1220,startend:end_checker,1,1,1,eos,2419,1
+MIT's edit,first,ifeval_1233,startend:end_checker;keywords:frequency,0,1,2,eos,9618,1
+MIT's edit,first,ifeval_1236,length_constraints:number_paragraphs,1,1,1,eos,4804,1
+MIT's edit,first,ifeval_1237,detectable_format:number_highlighted_sections;keywords:existence,1,2,2,eos,2278,1
+MIT's edit,first,ifeval_1242,detectable_format:json_format;keywords:forbidden_words,1,2,2,eos,2553,1
+MIT's edit,first,ifeval_1246,detectable_content:postscript,1,1,1,eos,1750,1
+MIT's edit,first,ifeval_1248,length_constraints:number_paragraphs,0,0,1,eos,2918,1
+MIT's edit,first,ifeval_1251,length_constraints:number_words,1,1,1,eos,1864,1
+MIT's edit,first,ifeval_1258,length_constraints:number_words,1,1,1,eos,2376,1
+MIT's edit,first,ifeval_1259,language:response_language,0,0,1,eos,3832,1
+MIT's edit,first,ifeval_1262,detectable_format:title;length_constraints:number_sentences,1,2,2,eos,1407,1
+MIT's edit,first,ifeval_1265,keywords:existence;length_constraints:number_sentences,1,2,2,eos,3874,1
+MIT's edit,first,ifeval_1268,length_constraints:number_sentences,1,1,1,eos,2417,1
+MIT's edit,first,ifeval_127,keywords:forbidden_words;keywords:frequency,0,1,2,eos,5375,1
+MIT's edit,first,ifeval_1281,combination:repeat_prompt;keywords:existence,0,1,2,eos,4296,1
+MIT's edit,first,ifeval_1286,detectable_format:number_bullet_lists,1,1,1,eos,2691,1
+MIT's edit,first,ifeval_1287,detectable_format:number_bullet_lists;change_case:english_lowercase,1,2,2,eos,3271,1
+MIT's edit,first,ifeval_13,detectable_format:json_format,1,1,1,eos,1487,1
+MIT's edit,first,ifeval_1300,punctuation:no_comma;keywords:letter_frequency;length_constraints:number_words,0,1,3,eos,8707,1
+MIT's edit,first,ifeval_1305,detectable_content:postscript;detectable_format:number_bullet_lists,1,2,2,eos,4212,1
+MIT's edit,first,ifeval_1307,detectable_format:number_highlighted_sections,1,1,1,eos,4051,1
+MIT's edit,first,ifeval_1314,change_case:capital_word_frequency;change_case:capital_word_frequency,0,1,2,eos,4244,1
+MIT's edit,first,ifeval_1322,detectable_format:title,1,1,1,eos,1583,1
+MIT's edit,first,ifeval_1325,startend:quotation;detectable_format:number_bullet_lists,0,0,2,eos,2572,1
+MIT's edit,first,ifeval_1332,combination:two_responses,0,0,1,eos,2635,1
+MIT's edit,first,ifeval_1342,keywords:frequency;detectable_format:number_highlighted_sections;length_constraints:number_paragraphs,0,2,3,eos,2114,1
+MIT's edit,first,ifeval_1348,punctuation:no_comma;detectable_format:number_highlighted_sections;keywords:existence,1,3,3,eos,2766,1
+MIT's edit,first,ifeval_136,detectable_format:number_bullet_lists;length_constraints:number_words,1,2,2,eos,6456,1
+MIT's edit,first,ifeval_1361,change_case:english_lowercase,1,1,1,eos,2304,1
+MIT's edit,first,ifeval_1367,detectable_content:postscript,1,1,1,eos,1609,1
+MIT's edit,first,ifeval_1372,detectable_content:number_placeholders,0,0,1,eos,1884,1
+MIT's edit,first,ifeval_1375,length_constraints:number_paragraphs;keywords:existence,1,2,2,eos,1991,1
+MIT's edit,first,ifeval_1377,length_constraints:number_paragraphs,0,0,1,eos,1834,1
+MIT's edit,first,ifeval_1379,detectable_format:number_highlighted_sections;keywords:frequency;keywords:existence,0,2,3,eos,4012,1
+MIT's edit,first,ifeval_1381,length_constraints:number_sentences,1,1,1,eos,3570,1
+MIT's edit,first,ifeval_1389,change_case:english_capital;keywords:letter_frequency,1,2,2,loop_abbruch,4352,1
+MIT's edit,first,ifeval_1392,detectable_format:title;length_constraints:number_sentences;length_constraints:number_words,0,1,3,eos,6854,1
+MIT's edit,first,ifeval_1393,keywords:frequency,1,1,1,eos,2329,1
+MIT's edit,first,ifeval_1402,keywords:letter_frequency;keywords:forbidden_words,1,2,2,eos,10995,1
+MIT's edit,first,ifeval_1418,punctuation:no_comma;length_constraints:number_sentences;length_constraints:number_sentences,1,3,3,eos,3981,1
+MIT's edit,first,ifeval_142,startend:quotation;keywords:frequency;keywords:existence,1,3,3,eos,4159,1
+MIT's edit,first,ifeval_143,length_constraints:number_paragraphs;detectable_content:postscript,1,2,2,eos,4092,1
+MIT's edit,first,ifeval_1436,change_case:english_lowercase;keywords:forbidden_words,1,2,2,eos,2172,1
+MIT's edit,first,ifeval_1446,startend:end_checker,1,1,1,eos,2586,1
+MIT's edit,first,ifeval_1466,startend:quotation;keywords:forbidden_words,1,2,2,eos,2504,1
+MIT's edit,first,ifeval_1476,keywords:forbidden_words;length_constraints:number_sentences,1,2,2,eos,3608,1
+MIT's edit,first,ifeval_1477,language:response_language,1,1,1,eos,3039,1
+MIT's edit,first,ifeval_1480,combination:repeat_prompt,1,1,1,eos,3887,1
+MIT's edit,first,ifeval_1481,detectable_format:multiple_sections;detectable_format:number_bullet_lists,1,2,2,eos,3476,1
+MIT's edit,first,ifeval_1498,keywords:frequency,1,1,1,eos,5093,1
+MIT's edit,first,ifeval_1508,keywords:existence;punctuation:no_comma,1,2,2,eos,7611,1
+MIT's edit,first,ifeval_1512,detectable_content:number_placeholders;punctuation:no_comma,1,2,2,eos,4386,1
+MIT's edit,first,ifeval_1516,change_case:english_lowercase;keywords:existence,0,1,2,eos,6199,1
+MIT's edit,first,ifeval_1518,combination:repeat_prompt,1,1,1,eos,1876,1
+MIT's edit,first,ifeval_152,change_case:english_lowercase;length_constraints:number_words,0,1,2,eos,2921,1
+MIT's edit,first,ifeval_1531,keywords:existence,1,1,1,eos,2842,1
+MIT's edit,first,ifeval_1535,change_case:english_lowercase;length_constraints:number_sentences,1,2,2,eos,1877,1
+MIT's edit,first,ifeval_1537,detectable_content:postscript,1,1,1,eos,1647,1
+MIT's edit,first,ifeval_1546,combination:repeat_prompt;punctuation:no_comma,0,0,2,eos,2941,1
+MIT's edit,first,ifeval_1548,detectable_format:multiple_sections,1,1,1,eos,2269,1
+MIT's edit,first,ifeval_1551,detectable_format:title,1,1,1,eos,1943,1
+MIT's edit,first,ifeval_1561,combination:repeat_prompt;detectable_format:title,0,1,2,eos,1721,1
+MIT's edit,first,ifeval_1566,change_case:english_capital,0,0,1,eos,1782,1
+MIT's edit,first,ifeval_1571,keywords:frequency;change_case:english_lowercase;keywords:existence,1,3,3,eos,5482,1
+MIT's edit,first,ifeval_1580,keywords:forbidden_words,1,1,1,eos,3089,1
+MIT's edit,first,ifeval_1582,combination:two_responses;language:response_language;punctuation:no_comma,1,3,3,eos,3812,1
+MIT's edit,first,ifeval_1591,combination:two_responses,1,1,1,eos,4107,1
+MIT's edit,first,ifeval_1592,change_case:capital_word_frequency,1,1,1,eos,5169,1
+MIT's edit,first,ifeval_1593,change_case:english_lowercase,1,1,1,eos,1719,1
+MIT's edit,first,ifeval_16,detectable_format:title;combination:repeat_prompt,0,1,2,eos,1707,1
+MIT's edit,first,ifeval_1601,detectable_format:number_highlighted_sections;length_constraints:number_words,0,1,2,eos,3783,1
+MIT's edit,first,ifeval_1609,length_constraints:nth_paragraph_first_word;startend:quotation,0,1,2,eos,3527,1
+MIT's edit,first,ifeval_1619,detectable_content:postscript;detectable_content:number_placeholders,1,2,2,eos,3070,1
+MIT's edit,first,ifeval_1620,detectable_content:postscript,1,1,1,eos,1983,1
+MIT's edit,first,ifeval_1627,combination:repeat_prompt;detectable_format:title;punctuation:no_comma,0,1,3,eos,3024,1
+MIT's edit,first,ifeval_1629,keywords:forbidden_words,1,1,1,eos,3930,1
+MIT's edit,first,ifeval_163,startend:quotation;keywords:letter_frequency,1,2,2,eos,5696,1
+MIT's edit,first,ifeval_1634,detectable_format:number_bullet_lists,1,1,1,eos,1672,1
+MIT's edit,first,ifeval_164,length_constraints:number_words,1,1,1,eos,2045,1
+WT-A,first,ifeval_1000,punctuation:no_comma;detectable_format:number_highlighted_sections;length_constraints:number_words,0,1,3,eos,3747,1
+WT-A,first,ifeval_1001,punctuation:no_comma,1,1,1,eos,3969,1
+WT-A,first,ifeval_1005,detectable_content:number_placeholders,0,0,1,eos,3954,1
+WT-A,first,ifeval_1012,combination:repeat_prompt;detectable_format:title,1,2,2,eos,2970,1
+WT-A,first,ifeval_1019,change_case:english_lowercase,1,1,1,eos,3061,1
+WT-A,first,ifeval_102,detectable_format:number_bullet_lists,0,0,1,eos,10668,1
+WT-A,first,ifeval_1021,change_case:english_capital;detectable_format:multiple_sections,0,1,2,eos,4393,1
+WT-A,first,ifeval_1040,change_case:capital_word_frequency;change_case:capital_word_frequency;startend:quotation,0,2,3,eos,4101,1
+WT-A,first,ifeval_1051,change_case:english_lowercase,1,1,1,eos,4557,1
+WT-A,first,ifeval_1069,keywords:existence;length_constraints:number_words;punctuation:no_comma,0,0,3,eos,5897,1
+WT-A,first,ifeval_1072,length_constraints:number_words,1,1,1,eos,2144,1
+WT-A,first,ifeval_1075,detectable_format:json_format,1,1,1,eos,2341,1
+WT-A,first,ifeval_1082,length_constraints:number_paragraphs,1,1,1,eos,2399,1
+WT-A,first,ifeval_1087,change_case:english_lowercase,1,1,1,eos,5516,1
+WT-A,first,ifeval_1092,length_constraints:number_words,1,1,1,eos,1718,1
+WT-A,first,ifeval_1094,detectable_format:json_format,1,1,1,eos,3342,1
+WT-A,first,ifeval_1098,combination:two_responses,1,1,1,eos,1736,1
+WT-A,first,ifeval_1107,punctuation:no_comma;combination:two_responses,0,1,2,eos,3157,1
+WT-A,first,ifeval_1108,language:response_language,0,0,1,eos,2344,1
+WT-A,first,ifeval_1122,change_case:english_lowercase;keywords:letter_frequency,1,2,2,eos,6476,1
+WT-A,first,ifeval_1127,detectable_format:multiple_sections;startend:end_checker,1,2,2,eos,2975,1
+WT-A,first,ifeval_1128,startend:end_checker,1,1,1,eos,3533,1
+WT-A,first,ifeval_1129,keywords:letter_frequency;combination:repeat_prompt,0,0,2,loop_abbruch,6144,1
+WT-A,first,ifeval_1130,keywords:letter_frequency,0,0,1,eos,14309,1
+WT-A,first,ifeval_1131,detectable_format:multiple_sections,1,1,1,eos,2191,1
+WT-A,first,ifeval_1132,change_case:english_capital;keywords:forbidden_words,0,1,2,loop_abbruch,4096,1
+WT-A,first,ifeval_1137,detectable_format:json_format;keywords:forbidden_words,1,2,2,eos,4227,1
+WT-A,first,ifeval_1139,combination:repeat_prompt;keywords:existence,1,2,2,eos,3152,1
+WT-A,first,ifeval_1147,keywords:forbidden_words,1,1,1,eos,4866,1
+WT-A,first,ifeval_1148,detectable_format:json_format,1,1,1,eos,1151,1
+WT-A,first,ifeval_1153,change_case:english_lowercase;keywords:frequency,1,2,2,eos,5987,1
+WT-A,first,ifeval_1154,language:response_language,0,0,1,eos,4093,1
+WT-A,first,ifeval_1162,punctuation:no_comma,1,1,1,eos,2944,1
+WT-A,first,ifeval_1174,keywords:letter_frequency;length_constraints:number_sentences;detectable_format:number_highlighted_sections,0,1,3,eos,9487,1
+WT-A,first,ifeval_1180,combination:two_responses;detectable_format:title,1,2,2,eos,3392,1
+WT-A,first,ifeval_1187,punctuation:no_comma,1,1,1,eos,4680,1
+WT-A,first,ifeval_1203,keywords:frequency;keywords:frequency,0,1,2,eos,15379,1
+WT-A,first,ifeval_1216,startend:quotation;length_constraints:number_words,0,1,2,eos,3143,1
+WT-A,first,ifeval_1217,length_constraints:number_words,1,1,1,eos,2916,1
+WT-A,first,ifeval_1219,change_case:english_capital;detectable_content:postscript;keywords:frequency,0,2,3,eos,7910,1
+WT-A,first,ifeval_122,startend:quotation,0,0,1,eos,2808,1
+WT-A,first,ifeval_1220,startend:end_checker,1,1,1,eos,1648,1
+WT-A,first,ifeval_1233,startend:end_checker;keywords:frequency,0,1,2,eos,11308,1
+WT-A,first,ifeval_1236,length_constraints:number_paragraphs,0,0,1,eos,3098,1
+WT-A,first,ifeval_1237,detectable_format:number_highlighted_sections;keywords:existence,1,2,2,eos,2507,1
+WT-A,first,ifeval_1242,detectable_format:json_format;keywords:forbidden_words,1,2,2,eos,2487,1
+WT-A,first,ifeval_1246,detectable_content:postscript,1,1,1,eos,3421,1
+WT-A,first,ifeval_1248,length_constraints:number_paragraphs,0,0,1,eos,4162,1
+WT-A,first,ifeval_1251,length_constraints:number_words,1,1,1,eos,3558,1
+WT-A,first,ifeval_1258,length_constraints:number_words,1,1,1,eos,3094,1
+WT-A,first,ifeval_1259,language:response_language,0,0,1,eos,2194,1
+WT-A,first,ifeval_1262,detectable_format:title;length_constraints:number_sentences,1,2,2,eos,7379,1
+WT-A,first,ifeval_1265,keywords:existence;length_constraints:number_sentences,1,2,2,eos,10245,1
+WT-A,first,ifeval_1268,length_constraints:number_sentences,1,1,1,eos,2664,1
+WT-A,first,ifeval_127,keywords:forbidden_words;keywords:frequency,1,2,2,eos,7191,1
+WT-A,first,ifeval_1281,combination:repeat_prompt;keywords:existence,1,2,2,eos,3425,1
+WT-A,first,ifeval_1286,detectable_format:number_bullet_lists,1,1,1,eos,3170,1
+WT-A,first,ifeval_1287,detectable_format:number_bullet_lists;change_case:english_lowercase,1,2,2,eos,3114,1
+WT-A,first,ifeval_13,detectable_format:json_format,1,1,1,eos,2463,1
+WT-A,first,ifeval_1300,punctuation:no_comma;keywords:letter_frequency;length_constraints:number_words,0,1,3,eos,12314,1
+WT-A,first,ifeval_1305,detectable_content:postscript;detectable_format:number_bullet_lists,1,2,2,eos,3056,1
+WT-A,first,ifeval_1307,detectable_format:number_highlighted_sections,0,0,1,eos,4066,1
+WT-A,first,ifeval_1314,change_case:capital_word_frequency;change_case:capital_word_frequency,0,0,2,loop_abbruch,5120,0
+WT-A,first,ifeval_1322,detectable_format:title,1,1,1,eos,2067,1
+WT-A,first,ifeval_1325,startend:quotation;detectable_format:number_bullet_lists,0,1,2,eos,3650,1
+WT-A,first,ifeval_1332,combination:two_responses,0,0,1,eos,2720,1
+WT-A,first,ifeval_1342,keywords:frequency;detectable_format:number_highlighted_sections;length_constraints:number_paragraphs,0,1,3,eos,3488,1
+WT-A,first,ifeval_1348,punctuation:no_comma;detectable_format:number_highlighted_sections;keywords:existence,1,3,3,eos,3077,1
+WT-A,first,ifeval_136,detectable_format:number_bullet_lists;length_constraints:number_words,1,2,2,eos,3660,1
+WT-A,first,ifeval_1361,change_case:english_lowercase,1,1,1,eos,3744,1
+WT-A,first,ifeval_1367,detectable_content:postscript,1,1,1,eos,2589,1
+WT-A,first,ifeval_1372,detectable_content:number_placeholders,1,1,1,eos,2148,1
+WT-A,first,ifeval_1375,length_constraints:number_paragraphs;keywords:existence,1,2,2,eos,4708,1
+WT-A,first,ifeval_1377,length_constraints:number_paragraphs,1,1,1,eos,1957,1
+WT-A,first,ifeval_1379,detectable_format:number_highlighted_sections;keywords:frequency;keywords:existence,0,2,3,eos,3583,1
+WT-A,first,ifeval_1381,length_constraints:number_sentences,0,0,1,eos,3916,1
+WT-A,first,ifeval_1389,change_case:english_capital;keywords:letter_frequency,0,0,2,limit,32768,0
+WT-A,first,ifeval_1392,detectable_format:title;length_constraints:number_sentences;length_constraints:number_words,0,1,3,eos,13766,1
+WT-A,first,ifeval_1393,keywords:frequency,1,1,1,eos,3565,1
+WT-A,first,ifeval_1402,keywords:letter_frequency;keywords:forbidden_words,0,1,2,eos,12961,1
+WT-A,first,ifeval_1418,punctuation:no_comma;length_constraints:number_sentences;length_constraints:number_sentences,1,3,3,eos,3843,1
+WT-A,first,ifeval_142,startend:quotation;keywords:frequency;keywords:existence,1,3,3,eos,5063,1
+WT-A,first,ifeval_143,length_constraints:number_paragraphs;detectable_content:postscript,0,1,2,eos,1938,1
+WT-A,first,ifeval_1436,change_case:english_lowercase;keywords:forbidden_words,1,2,2,eos,3147,1
+WT-A,first,ifeval_1446,startend:end_checker,1,1,1,eos,2053,1
+WT-A,first,ifeval_1466,startend:quotation;keywords:forbidden_words,0,1,2,eos,4779,1
+WT-A,first,ifeval_1476,keywords:forbidden_words;length_constraints:number_sentences,1,2,2,eos,3875,1
+WT-A,first,ifeval_1477,language:response_language,1,1,1,eos,3312,1
+WT-A,first,ifeval_1480,combination:repeat_prompt,1,1,1,eos,3735,1
+WT-A,first,ifeval_1481,detectable_format:multiple_sections;detectable_format:number_bullet_lists,0,1,2,eos,3512,1
+WT-A,first,ifeval_1498,keywords:frequency,0,0,1,eos,6328,1
+WT-A,first,ifeval_1508,keywords:existence;punctuation:no_comma,0,1,2,eos,3711,1
+WT-A,first,ifeval_1512,detectable_content:number_placeholders;punctuation:no_comma,1,2,2,eos,5265,1
+WT-A,first,ifeval_1516,change_case:english_lowercase;keywords:existence,1,2,2,eos,6539,1
+WT-A,first,ifeval_1518,combination:repeat_prompt,1,1,1,eos,2050,1
+WT-A,first,ifeval_152,change_case:english_lowercase;length_constraints:number_words,0,1,2,eos,2820,1
+WT-A,first,ifeval_1531,keywords:existence,0,0,1,eos,2340,1
+WT-A,first,ifeval_1535,change_case:english_lowercase;length_constraints:number_sentences,1,2,2,eos,4038,1
+WT-A,first,ifeval_1537,detectable_content:postscript,1,1,1,eos,3472,1
+WT-A,first,ifeval_1546,combination:repeat_prompt;punctuation:no_comma,0,0,2,eos,3073,1
+WT-A,first,ifeval_1548,detectable_format:multiple_sections,1,1,1,eos,1516,1
+WT-A,first,ifeval_1551,detectable_format:title,1,1,1,eos,1878,1
+WT-A,first,ifeval_1561,combination:repeat_prompt;detectable_format:title,0,1,2,eos,2586,1
+WT-A,first,ifeval_1566,change_case:english_capital,0,0,1,eos,3604,1
+WT-A,first,ifeval_1571,keywords:frequency;change_case:english_lowercase;keywords:existence,0,0,3,loop_abbruch,5120,0
+WT-A,first,ifeval_1580,keywords:forbidden_words,1,1,1,eos,3486,1
+WT-A,first,ifeval_1582,combination:two_responses;language:response_language;punctuation:no_comma,1,3,3,eos,3496,1
+WT-A,first,ifeval_1591,combination:two_responses,0,0,1,limit,32768,0
+WT-A,first,ifeval_1592,change_case:capital_word_frequency,0,0,1,limit,32768,0
+WT-A,first,ifeval_1593,change_case:english_lowercase,1,1,1,eos,1735,1
+WT-A,first,ifeval_16,detectable_format:title;combination:repeat_prompt,0,1,2,eos,3247,1
+WT-A,first,ifeval_1601,detectable_format:number_highlighted_sections;length_constraints:number_words,0,1,2,eos,10049,1
+WT-A,first,ifeval_1609,length_constraints:nth_paragraph_first_word;startend:quotation,0,0,2,eos,16780,1
+WT-A,first,ifeval_1619,detectable_content:postscript;detectable_content:number_placeholders,1,2,2,eos,3552,1
+WT-A,first,ifeval_1620,detectable_content:postscript,1,1,1,eos,1634,1
+WT-A,first,ifeval_1627,combination:repeat_prompt;detectable_format:title;punctuation:no_comma,0,1,3,eos,3316,1
+WT-A,first,ifeval_1629,keywords:forbidden_words,1,1,1,eos,3848,1
+WT-A,first,ifeval_163,startend:quotation;keywords:letter_frequency,0,0,2,loop_abbruch,29696,0
+WT-A,first,ifeval_1634,detectable_format:number_bullet_lists,1,1,1,eos,1371,1
+WT-A,first,ifeval_164,length_constraints:number_words,1,1,1,eos,2180,1
+our own loop direction,first,ifeval_1000,punctuation:no_comma;detectable_format:number_highlighted_sections;length_constraints:number_words,0,1,3,eos,5774,1
+our own loop direction,first,ifeval_1001,punctuation:no_comma,1,1,1,eos,3180,1
+our own loop direction,first,ifeval_1005,detectable_content:number_placeholders,1,1,1,eos,2009,1
+our own loop direction,first,ifeval_1012,combination:repeat_prompt;detectable_format:title,0,1,2,eos,2319,1
+our own loop direction,first,ifeval_1019,change_case:english_lowercase,1,1,1,eos,3998,1
+our own loop direction,first,ifeval_102,detectable_format:number_bullet_lists,1,1,1,eos,4756,1
+our own loop direction,first,ifeval_1021,change_case:english_capital;detectable_format:multiple_sections,0,1,2,eos,4764,1
+our own loop direction,first,ifeval_1040,change_case:capital_word_frequency;change_case:capital_word_frequency;startend:quotation,0,0,3,limit,32768,0
+our own loop direction,first,ifeval_1051,change_case:english_lowercase,1,1,1,eos,2248,1
+our own loop direction,first,ifeval_1069,keywords:existence;length_constraints:number_words;punctuation:no_comma,0,0,3,eos,7543,1
+our own loop direction,first,ifeval_1072,length_constraints:number_words,1,1,1,eos,1662,1
+our own loop direction,first,ifeval_1075,detectable_format:json_format,1,1,1,eos,1994,1
+our own loop direction,first,ifeval_1082,length_constraints:number_paragraphs,1,1,1,eos,1962,1
+our own loop direction,first,ifeval_1087,change_case:english_lowercase,1,1,1,eos,5096,1
+our own loop direction,first,ifeval_1092,length_constraints:number_words,1,1,1,eos,4668,1
+our own loop direction,first,ifeval_1094,detectable_format:json_format,1,1,1,eos,2538,1
+our own loop direction,first,ifeval_1098,combination:two_responses,1,1,1,eos,1842,1
+our own loop direction,first,ifeval_1107,punctuation:no_comma;combination:two_responses,0,1,2,eos,2010,1
+our own loop direction,first,ifeval_1108,language:response_language,0,0,1,eos,3326,1
+our own loop direction,first,ifeval_1122,change_case:english_lowercase;keywords:letter_frequency,0,0,2,eos,14797,1
+our own loop direction,first,ifeval_1127,detectable_format:multiple_sections;startend:end_checker,1,2,2,eos,2491,1
+our own loop direction,first,ifeval_1128,startend:end_checker,1,1,1,eos,2437,1
+our own loop direction,first,ifeval_1129,keywords:letter_frequency;combination:repeat_prompt,0,1,2,loop_abbruch,6144,1
+our own loop direction,first,ifeval_1130,keywords:letter_frequency,0,0,1,eos,9631,1
+our own loop direction,first,ifeval_1131,detectable_format:multiple_sections,1,1,1,eos,2323,1
+our own loop direction,first,ifeval_1132,change_case:english_capital;keywords:forbidden_words,1,2,2,eos,2418,1
+our own loop direction,first,ifeval_1137,detectable_format:json_format;keywords:forbidden_words,1,2,2,eos,2855,1
+our own loop direction,first,ifeval_1139,combination:repeat_prompt;keywords:existence,1,2,2,eos,3832,1
+our own loop direction,first,ifeval_1147,keywords:forbidden_words,1,1,1,eos,3900,1
+our own loop direction,first,ifeval_1148,detectable_format:json_format,1,1,1,eos,3137,1
+our own loop direction,first,ifeval_1153,change_case:english_lowercase;keywords:frequency,1,2,2,eos,4751,1
+our own loop direction,first,ifeval_1154,language:response_language,0,0,1,eos,3216,1
+our own loop direction,first,ifeval_1162,punctuation:no_comma,1,1,1,eos,4307,1
+our own loop direction,first,ifeval_1174,keywords:letter_frequency;length_constraints:number_sentences;detectable_format:number_highlighted_sections,0,1,3,loop_abbruch,13568,1
+our own loop direction,first,ifeval_1180,combination:two_responses;detectable_format:title,0,1,2,eos,2441,1
+our own loop direction,first,ifeval_1187,punctuation:no_comma,0,0,1,eos,8019,1
+our own loop direction,first,ifeval_1203,keywords:frequency;keywords:frequency,0,0,2,eos,15949,1
+our own loop direction,first,ifeval_1216,startend:quotation;length_constraints:number_words,0,1,2,eos,4248,1
+our own loop direction,first,ifeval_1217,length_constraints:number_words,1,1,1,eos,4666,1
+our own loop direction,first,ifeval_1219,change_case:english_capital;detectable_content:postscript;keywords:frequency,0,2,3,eos,11251,1
+our own loop direction,first,ifeval_122,startend:quotation,1,1,1,eos,2706,1
+our own loop direction,first,ifeval_1220,startend:end_checker,1,1,1,eos,2781,1
+our own loop direction,first,ifeval_1233,startend:end_checker;keywords:frequency,0,1,2,eos,14336,1
+our own loop direction,first,ifeval_1236,length_constraints:number_paragraphs,0,0,1,eos,3763,1
+our own loop direction,first,ifeval_1237,detectable_format:number_highlighted_sections;keywords:existence,1,2,2,eos,3168,1
+our own loop direction,first,ifeval_1242,detectable_format:json_format;keywords:forbidden_words,1,2,2,eos,4269,1
+our own loop direction,first,ifeval_1246,detectable_content:postscript,1,1,1,eos,3006,1
+our own loop direction,first,ifeval_1248,length_constraints:number_paragraphs,1,1,1,eos,3033,1
+our own loop direction,first,ifeval_1251,length_constraints:number_words,1,1,1,eos,2270,1
+our own loop direction,first,ifeval_1258,length_constraints:number_words,1,1,1,eos,2331,1
+our own loop direction,first,ifeval_1259,language:response_language,0,0,1,eos,3959,1
+our own loop direction,first,ifeval_1262,detectable_format:title;length_constraints:number_sentences,1,2,2,eos,2811,1
+our own loop direction,first,ifeval_1265,keywords:existence;length_constraints:number_sentences,1,2,2,eos,12315,1
+our own loop direction,first,ifeval_1268,length_constraints:number_sentences,1,1,1,eos,3568,1
+our own loop direction,first,ifeval_127,keywords:forbidden_words;keywords:frequency,0,1,2,eos,8306,1
+our own loop direction,first,ifeval_1281,combination:repeat_prompt;keywords:existence,1,2,2,eos,3014,1
+our own loop direction,first,ifeval_1286,detectable_format:number_bullet_lists,1,1,1,eos,2627,1
+our own loop direction,first,ifeval_1287,detectable_format:number_bullet_lists;change_case:english_lowercase,1,2,2,eos,3531,1
+our own loop direction,first,ifeval_13,detectable_format:json_format,1,1,1,eos,3180,1
+our own loop direction,first,ifeval_1300,punctuation:no_comma;keywords:letter_frequency;length_constraints:number_words,0,1,3,eos,10727,1
+our own loop direction,first,ifeval_1305,detectable_content:postscript;detectable_format:number_bullet_lists,0,0,2,loop_abbruch,6656,0
+our own loop direction,first,ifeval_1307,detectable_format:number_highlighted_sections,0,0,1,eos,4181,1
+our own loop direction,first,ifeval_1314,change_case:capital_word_frequency;change_case:capital_word_frequency,0,1,2,eos,6876,1
+our own loop direction,first,ifeval_1322,detectable_format:title,1,1,1,eos,3672,1
+our own loop direction,first,ifeval_1325,startend:quotation;detectable_format:number_bullet_lists,0,1,2,eos,2992,1
+our own loop direction,first,ifeval_1332,combination:two_responses,1,1,1,eos,2454,1
+our own loop direction,first,ifeval_1342,keywords:frequency;detectable_format:number_highlighted_sections;length_constraints:number_paragraphs,0,1,3,eos,3306,1
+our own loop direction,first,ifeval_1348,punctuation:no_comma;detectable_format:number_highlighted_sections;keywords:existence,1,3,3,eos,3871,1
+our own loop direction,first,ifeval_136,detectable_format:number_bullet_lists;length_constraints:number_words,1,2,2,eos,6274,1
+our own loop direction,first,ifeval_1361,change_case:english_lowercase,1,1,1,eos,5844,1
+our own loop direction,first,ifeval_1367,detectable_content:postscript,1,1,1,eos,1902,1
+our own loop direction,first,ifeval_1372,detectable_content:number_placeholders,1,1,1,eos,2269,1
+our own loop direction,first,ifeval_1375,length_constraints:number_paragraphs;keywords:existence,1,2,2,eos,2686,1
+our own loop direction,first,ifeval_1377,length_constraints:number_paragraphs,1,1,1,eos,2029,1
+our own loop direction,first,ifeval_1379,detectable_format:number_highlighted_sections;keywords:frequency;keywords:existence,0,2,3,eos,5012,1
+our own loop direction,first,ifeval_1381,length_constraints:number_sentences,1,1,1,eos,2590,1
+our own loop direction,first,ifeval_1389,change_case:english_capital;keywords:letter_frequency,0,1,2,loop_abbruch,11776,1
+our own loop direction,first,ifeval_1392,detectable_format:title;length_constraints:number_sentences;length_constraints:number_words,0,2,3,eos,9778,1
+our own loop direction,first,ifeval_1393,keywords:frequency,0,0,1,eos,3193,1
+our own loop direction,first,ifeval_1402,keywords:letter_frequency;keywords:forbidden_words,1,2,2,eos,21705,1
+our own loop direction,first,ifeval_1418,punctuation:no_comma;length_constraints:number_sentences;length_constraints:number_sentences,0,2,3,eos,6028,1
+our own loop direction,first,ifeval_142,startend:quotation;keywords:frequency;keywords:existence,1,3,3,eos,6610,1
+our own loop direction,first,ifeval_143,length_constraints:number_paragraphs;detectable_content:postscript,0,1,2,eos,5321,1
+our own loop direction,first,ifeval_1436,change_case:english_lowercase;keywords:forbidden_words,1,2,2,loop_abbruch,9728,1
+our own loop direction,first,ifeval_1446,startend:end_checker,1,1,1,eos,3979,1
+our own loop direction,first,ifeval_1466,startend:quotation;keywords:forbidden_words,1,2,2,eos,3613,1
+our own loop direction,first,ifeval_1476,keywords:forbidden_words;length_constraints:number_sentences,1,2,2,eos,4041,1
+our own loop direction,first,ifeval_1477,language:response_language,1,1,1,eos,3619,1
+our own loop direction,first,ifeval_1480,combination:repeat_prompt,1,1,1,eos,4733,1
+our own loop direction,first,ifeval_1481,detectable_format:multiple_sections;detectable_format:number_bullet_lists,0,1,2,eos,2099,1
+our own loop direction,first,ifeval_1498,keywords:frequency,1,1,1,eos,4971,1
+our own loop direction,first,ifeval_1508,keywords:existence;punctuation:no_comma,1,2,2,eos,4969,1
+our own loop direction,first,ifeval_1512,detectable_content:number_placeholders;punctuation:no_comma,0,1,2,eos,4372,1
+our own loop direction,first,ifeval_1516,change_case:english_lowercase;keywords:existence,0,1,2,eos,9985,1
+our own loop direction,first,ifeval_1518,combination:repeat_prompt,1,1,1,eos,2874,1
+our own loop direction,first,ifeval_152,change_case:english_lowercase;length_constraints:number_words,0,1,2,eos,3036,1
+our own loop direction,first,ifeval_1531,keywords:existence,1,1,1,eos,3997,1
+our own loop direction,first,ifeval_1535,change_case:english_lowercase;length_constraints:number_sentences,1,2,2,eos,2463,1
+our own loop direction,first,ifeval_1537,detectable_content:postscript,1,1,1,eos,1922,1
+our own loop direction,first,ifeval_1546,combination:repeat_prompt;punctuation:no_comma,0,0,2,eos,3594,1
+our own loop direction,first,ifeval_1548,detectable_format:multiple_sections,1,1,1,eos,3310,1
+our own loop direction,first,ifeval_1551,detectable_format:title,1,1,1,eos,2454,1
+our own loop direction,first,ifeval_1561,combination:repeat_prompt;detectable_format:title,0,1,2,eos,1659,1
+our own loop direction,first,ifeval_1566,change_case:english_capital,0,0,1,eos,4157,1
+our own loop direction,first,ifeval_1571,keywords:frequency;change_case:english_lowercase;keywords:existence,1,3,3,eos,4965,1
+our own loop direction,first,ifeval_1580,keywords:forbidden_words,1,1,1,eos,3187,1
+our own loop direction,first,ifeval_1582,combination:two_responses;language:response_language;punctuation:no_comma,1,3,3,eos,3671,1
+our own loop direction,first,ifeval_1591,combination:two_responses,0,0,1,limit,32768,1
+our own loop direction,first,ifeval_1592,change_case:capital_word_frequency,1,1,1,eos,4826,1
+our own loop direction,first,ifeval_1593,change_case:english_lowercase,1,1,1,eos,2900,1
+our own loop direction,first,ifeval_16,detectable_format:title;combination:repeat_prompt,0,1,2,eos,2937,1
+our own loop direction,first,ifeval_1601,detectable_format:number_highlighted_sections;length_constraints:number_words,0,1,2,eos,3493,1
+our own loop direction,first,ifeval_1609,length_constraints:nth_paragraph_first_word;startend:quotation,0,1,2,eos,10090,1
+our own loop direction,first,ifeval_1619,detectable_content:postscript;detectable_content:number_placeholders,1,2,2,eos,3782,1
+our own loop direction,first,ifeval_1620,detectable_content:postscript,1,1,1,eos,1999,1
+our own loop direction,first,ifeval_1627,combination:repeat_prompt;detectable_format:title;punctuation:no_comma,0,2,3,eos,4882,1
+our own loop direction,first,ifeval_1629,keywords:forbidden_words,1,1,1,eos,3847,1
+our own loop direction,first,ifeval_163,startend:quotation;keywords:letter_frequency,0,0,2,loop_abbruch,25088,0
+our own loop direction,first,ifeval_1634,detectable_format:number_bullet_lists,1,1,1,eos,1764,1
+our own loop direction,first,ifeval_164,length_constraints:number_words,1,1,1,eos,2382,1
+R-GDN,second,ifeval_1000,punctuation:no_comma;detectable_format:number_highlighted_sections;length_constraints:number_words,0,1,3,eos,1917,1
+R-GDN,second,ifeval_1001,punctuation:no_comma,0,0,1,eos,6042,1
+R-GDN,second,ifeval_1005,detectable_content:number_placeholders,1,1,1,eos,1195,1
+R-GDN,second,ifeval_1012,combination:repeat_prompt;detectable_format:title,0,0,2,loop_abbruch,4096,0
+R-GDN,second,ifeval_1019,change_case:english_lowercase,1,1,1,eos,1760,1
+R-GDN,second,ifeval_102,detectable_format:number_bullet_lists,1,1,1,eos,1394,1
+R-GDN,second,ifeval_1021,change_case:english_capital;detectable_format:multiple_sections,0,1,2,eos,2832,1
+R-GDN,second,ifeval_1040,change_case:capital_word_frequency;change_case:capital_word_frequency;startend:quotation,0,0,3,loop_abbruch,4096,0
+R-GDN,second,ifeval_1051,change_case:english_lowercase,1,1,1,eos,1755,1
+R-GDN,second,ifeval_1069,keywords:existence;length_constraints:number_words;punctuation:no_comma,0,0,3,eos,2716,1
+R-GDN,second,ifeval_1072,length_constraints:number_words,1,1,1,eos,1667,1
+R-GDN,second,ifeval_1075,detectable_format:json_format,1,1,1,eos,930,1
+R-GDN,second,ifeval_1082,length_constraints:number_paragraphs,1,1,1,eos,1587,1
+R-GDN,second,ifeval_1087,change_case:english_lowercase,0,0,1,loop_abbruch,4096,0
+R-GDN,second,ifeval_1092,length_constraints:number_words,1,1,1,eos,914,1
+R-GDN,second,ifeval_1094,detectable_format:json_format,0,0,1,loop_abbruch,4096,0
+R-GDN,second,ifeval_1098,combination:two_responses,0,0,1,loop_abbruch,4864,0
+R-GDN,second,ifeval_1107,punctuation:no_comma;combination:two_responses,0,1,2,eos,2196,1
+R-GDN,second,ifeval_1108,language:response_language,0,0,1,eos,2533,1
+R-GDN,second,ifeval_1122,change_case:english_lowercase;keywords:letter_frequency,1,2,2,eos,559,1
+R-GDN,second,ifeval_1127,detectable_format:multiple_sections;startend:end_checker,1,2,2,eos,1163,1
+R-GDN,second,ifeval_1128,startend:end_checker,1,1,1,eos,2364,1
+R-GDN,second,ifeval_1129,keywords:letter_frequency;combination:repeat_prompt,0,0,2,limit,32768,0
+R-GDN,second,ifeval_1130,keywords:letter_frequency,0,0,1,eos,1914,1
+R-GDN,second,ifeval_1131,detectable_format:multiple_sections,1,1,1,eos,2345,1
+R-GDN,second,ifeval_1132,change_case:english_capital;keywords:forbidden_words,0,1,2,eos,1618,1
+R-GDN,second,ifeval_1137,detectable_format:json_format;keywords:forbidden_words,0,0,2,loop_abbruch,4096,0
+R-GDN,second,ifeval_1139,combination:repeat_prompt;keywords:existence,0,0,2,eos,3297,1
+R-GDN,second,ifeval_1147,keywords:forbidden_words,1,1,1,eos,1999,1
+R-GDN,second,ifeval_1148,detectable_format:json_format,1,1,1,eos,1435,1
+R-GDN,second,ifeval_1153,change_case:english_lowercase;keywords:frequency,1,2,2,eos,7337,1
+R-GDN,second,ifeval_1154,language:response_language,0,0,1,eos,2743,1
+R-GDN,second,ifeval_1162,punctuation:no_comma,1,1,1,eos,2479,1
+R-GDN,second,ifeval_1174,keywords:letter_frequency;length_constraints:number_sentences;detectable_format:number_highlighted_sections,0,0,3,limit,32768,0
+R-GDN,second,ifeval_1180,combination:two_responses;detectable_format:title,1,2,2,eos,953,1
+R-GDN,second,ifeval_1187,punctuation:no_comma,1,1,1,eos,1898,1
+R-GDN,second,ifeval_1203,keywords:frequency;keywords:frequency,0,0,2,loop_abbruch,9472,0
+R-GDN,second,ifeval_1216,startend:quotation;length_constraints:number_words,1,2,2,eos,3377,1
+R-GDN,second,ifeval_1217,length_constraints:number_words,1,1,1,eos,2421,1
+R-GDN,second,ifeval_1219,change_case:english_capital;detectable_content:postscript;keywords:frequency,0,0,3,loop_abbruch,4096,0
+R-GDN,second,ifeval_122,startend:quotation,0,0,1,loop_abbruch,4096,0
+R-GDN,second,ifeval_1220,startend:end_checker,1,1,1,eos,1534,1
+R-GDN,second,ifeval_1233,startend:end_checker;keywords:frequency,0,1,2,eos,5930,1
+R-GDN,second,ifeval_1236,length_constraints:number_paragraphs,1,1,1,eos,2252,1
+R-GDN,second,ifeval_1237,detectable_format:number_highlighted_sections;keywords:existence,1,2,2,eos,2525,1
+R-GDN,second,ifeval_1242,detectable_format:json_format;keywords:forbidden_words,0,1,2,eos,959,1
+R-GDN,second,ifeval_1246,detectable_content:postscript,1,1,1,eos,756,1
+R-GDN,second,ifeval_1248,length_constraints:number_paragraphs,1,1,1,eos,2304,1
+R-GDN,second,ifeval_1251,length_constraints:number_words,1,1,1,eos,1434,1
+R-GDN,second,ifeval_1258,length_constraints:number_words,0,0,1,eos,2121,1
+R-GDN,second,ifeval_1259,language:response_language,0,0,1,limit,32768,0
+R-GDN,second,ifeval_1262,detectable_format:title;length_constraints:number_sentences,1,2,2,eos,784,1
+R-GDN,second,ifeval_1265,keywords:existence;length_constraints:number_sentences,0,1,2,eos,3311,1
+R-GDN,second,ifeval_1268,length_constraints:number_sentences,0,0,1,limit,32768,0
+R-GDN,second,ifeval_127,keywords:forbidden_words;keywords:frequency,0,1,2,eos,1396,1
+R-GDN,second,ifeval_1281,combination:repeat_prompt;keywords:existence,1,2,2,eos,1504,1
+R-GDN,second,ifeval_1286,detectable_format:number_bullet_lists,1,1,1,eos,703,1
+R-GDN,second,ifeval_1287,detectable_format:number_bullet_lists;change_case:english_lowercase,0,0,2,loop_abbruch,4608,0
+R-GDN,second,ifeval_13,detectable_format:json_format,1,1,1,eos,602,1
+R-GDN,second,ifeval_1300,punctuation:no_comma;keywords:letter_frequency;length_constraints:number_words,0,0,3,limit,32768,0
+R-GDN,second,ifeval_1305,detectable_content:postscript;detectable_format:number_bullet_lists,0,0,2,loop_abbruch,4096,0
+R-GDN,second,ifeval_1307,detectable_format:number_highlighted_sections,0,0,1,eos,3947,1
+R-GDN,second,ifeval_1314,change_case:capital_word_frequency;change_case:capital_word_frequency,0,1,2,eos,2650,1
+R-GDN,second,ifeval_1322,detectable_format:title,1,1,1,eos,1798,1
+R-GDN,second,ifeval_1325,startend:quotation;detectable_format:number_bullet_lists,0,1,2,eos,1211,1
+R-GDN,second,ifeval_1332,combination:two_responses,0,0,1,limit,32768,1
+R-GDN,second,ifeval_1342,keywords:frequency;detectable_format:number_highlighted_sections;length_constraints:number_paragraphs,0,2,3,eos,1811,1
+R-GDN,second,ifeval_1348,punctuation:no_comma;detectable_format:number_highlighted_sections;keywords:existence,0,1,3,eos,1697,1
+R-GDN,second,ifeval_136,detectable_format:number_bullet_lists;length_constraints:number_words,1,2,2,eos,5289,1
+R-GDN,second,ifeval_1361,change_case:english_lowercase,1,1,1,eos,1243,1
+R-GDN,second,ifeval_1367,detectable_content:postscript,1,1,1,eos,2348,1
+R-GDN,second,ifeval_1372,detectable_content:number_placeholders,0,0,1,eos,1236,1
+R-GDN,second,ifeval_1375,length_constraints:number_paragraphs;keywords:existence,0,1,2,eos,775,1
+R-GDN,second,ifeval_1377,length_constraints:number_paragraphs,0,0,1,eos,1377,1
+R-GDN,second,ifeval_1379,detectable_format:number_highlighted_sections;keywords:frequency;keywords:existence,0,0,3,limit,32768,0
+R-GDN,second,ifeval_1381,length_constraints:number_sentences,1,1,1,eos,2148,1
+R-GDN,second,ifeval_1389,change_case:english_capital;keywords:letter_frequency,0,0,2,limit,32768,0
+R-GDN,second,ifeval_1392,detectable_format:title;length_constraints:number_sentences;length_constraints:number_words,0,2,3,eos,1373,1
+R-GDN,second,ifeval_1393,keywords:frequency,0,0,1,eos,831,1
+R-GDN,second,ifeval_1402,keywords:letter_frequency;keywords:forbidden_words,0,0,2,loop_abbruch,8448,0
+R-GDN,second,ifeval_1418,punctuation:no_comma;length_constraints:number_sentences;length_constraints:number_sentences,1,3,3,eos,3120,1
+R-GDN,second,ifeval_142,startend:quotation;keywords:frequency;keywords:existence,0,0,3,limit,32768,0
+R-GDN,second,ifeval_143,length_constraints:number_paragraphs;detectable_content:postscript,1,2,2,eos,2703,1
+R-GDN,second,ifeval_1436,change_case:english_lowercase;keywords:forbidden_words,0,0,2,limit,32768,0
+R-GDN,second,ifeval_1446,startend:end_checker,1,1,1,eos,1571,1
+R-GDN,second,ifeval_1466,startend:quotation;keywords:forbidden_words,1,2,2,eos,3814,1
+R-GDN,second,ifeval_1476,keywords:forbidden_words;length_constraints:number_sentences,0,0,2,limit,32768,0
+R-GDN,second,ifeval_1477,language:response_language,1,1,1,eos,2286,1
+R-GDN,second,ifeval_1480,combination:repeat_prompt,1,1,1,eos,1649,1
+R-GDN,second,ifeval_1481,detectable_format:multiple_sections;detectable_format:number_bullet_lists,0,0,2,loop_abbruch,4096,0
+R-GDN,second,ifeval_1498,keywords:frequency,0,0,1,limit,32768,0
+R-GDN,second,ifeval_1508,keywords:existence;punctuation:no_comma,1,2,2,eos,2761,1
+R-GDN,second,ifeval_1512,detectable_content:number_placeholders;punctuation:no_comma,1,2,2,eos,2648,1
+R-GDN,second,ifeval_1516,change_case:english_lowercase;keywords:existence,0,1,2,eos,4736,1
+R-GDN,second,ifeval_1518,combination:repeat_prompt,1,1,1,eos,1890,1
+R-GDN,second,ifeval_152,change_case:english_lowercase;length_constraints:number_words,0,1,2,eos,2865,1
+R-GDN,second,ifeval_1531,keywords:existence,1,1,1,eos,1585,1
+R-GDN,second,ifeval_1535,change_case:english_lowercase;length_constraints:number_sentences,1,2,2,eos,5480,1
+R-GDN,second,ifeval_1537,detectable_content:postscript,1,1,1,eos,1744,1
+R-GDN,second,ifeval_1546,combination:repeat_prompt;punctuation:no_comma,0,0,2,loop_abbruch,5120,0
+R-GDN,second,ifeval_1548,detectable_format:multiple_sections,1,1,1,eos,964,1
+R-GDN,second,ifeval_1551,detectable_format:title,1,1,1,eos,2376,1
+R-GDN,second,ifeval_1561,combination:repeat_prompt;detectable_format:title,0,0,2,loop_abbruch,4096,0
+R-GDN,second,ifeval_1566,change_case:english_capital,0,0,1,eos,2974,1
+R-GDN,second,ifeval_1571,keywords:frequency;change_case:english_lowercase;keywords:existence,0,2,3,eos,5371,1
+R-GDN,second,ifeval_1580,keywords:forbidden_words,0,0,1,loop_abbruch,4096,0
+R-GDN,second,ifeval_1582,combination:two_responses;language:response_language;punctuation:no_comma,0,0,3,limit,32768,0
+R-GDN,second,ifeval_1591,combination:two_responses,0,0,1,loop_abbruch,5632,0
+R-GDN,second,ifeval_1592,change_case:capital_word_frequency,1,1,1,eos,2392,1
+R-GDN,second,ifeval_1593,change_case:english_lowercase,0,0,1,eos,698,1
+R-GDN,second,ifeval_16,detectable_format:title;combination:repeat_prompt,1,2,2,eos,2494,1
+R-GDN,second,ifeval_1601,detectable_format:number_highlighted_sections;length_constraints:number_words,0,1,2,eos,1482,1
+R-GDN,second,ifeval_1609,length_constraints:nth_paragraph_first_word;startend:quotation,1,2,2,eos,1338,1
+R-GDN,second,ifeval_1619,detectable_content:postscript;detectable_content:number_placeholders,1,2,2,eos,3296,1
+R-GDN,second,ifeval_1620,detectable_content:postscript,1,1,1,eos,840,1
+R-GDN,second,ifeval_1627,combination:repeat_prompt;detectable_format:title;punctuation:no_comma,0,1,3,eos,3775,1
+R-GDN,second,ifeval_1629,keywords:forbidden_words,0,0,1,eos,2817,1
+R-GDN,second,ifeval_163,startend:quotation;keywords:letter_frequency,0,0,2,limit,32768,0
+R-GDN,second,ifeval_1634,detectable_format:number_bullet_lists,1,1,1,eos,2049,1
+R-GDN,second,ifeval_164,length_constraints:number_words,1,1,1,eos,1146,1
+R-GDN-out,second,ifeval_1000,punctuation:no_comma;detectable_format:number_highlighted_sections;length_constraints:number_words,0,0,3,loop_abbruch,8704,0
+R-GDN-out,second,ifeval_1001,punctuation:no_comma,1,1,1,eos,2769,1
+R-GDN-out,second,ifeval_1005,detectable_content:number_placeholders,1,1,1,eos,4233,1
+R-GDN-out,second,ifeval_1012,combination:repeat_prompt;detectable_format:title,0,0,2,limit,32768,0
+R-GDN-out,second,ifeval_1019,change_case:english_lowercase,0,0,1,limit,32768,0
+R-GDN-out,second,ifeval_102,detectable_format:number_bullet_lists,0,0,1,limit,32768,0
+R-GDN-out,second,ifeval_1021,change_case:english_capital;detectable_format:multiple_sections,0,0,2,loop_abbruch,4096,0
+R-GDN-out,second,ifeval_1040,change_case:capital_word_frequency;change_case:capital_word_frequency;startend:quotation,0,0,3,loop_abbruch,4096,0
+R-GDN-out,second,ifeval_1051,change_case:english_lowercase,0,0,1,loop_abbruch,4096,0
+R-GDN-out,second,ifeval_1069,keywords:existence;length_constraints:number_words;punctuation:no_comma,0,0,3,eos,4866,1
+R-GDN-out,second,ifeval_1072,length_constraints:number_words,1,1,1,eos,1643,1
+R-GDN-out,second,ifeval_1075,detectable_format:json_format,1,1,1,eos,1857,1
+R-GDN-out,second,ifeval_1082,length_constraints:number_paragraphs,1,1,1,eos,4391,1
+R-GDN-out,second,ifeval_1087,change_case:english_lowercase,0,0,1,limit,32768,0
+R-GDN-out,second,ifeval_1092,length_constraints:number_words,0,0,1,eos,1917,1
+R-GDN-out,second,ifeval_1094,detectable_format:json_format,1,1,1,eos,3435,1
+R-GDN-out,second,ifeval_1098,combination:two_responses,1,1,1,eos,1535,1
+R-GDN-out,second,ifeval_1107,punctuation:no_comma;combination:two_responses,0,0,2,loop_abbruch,4352,0
+R-GDN-out,second,ifeval_1108,language:response_language,0,0,1,eos,2159,1
+R-GDN-out,second,ifeval_1122,change_case:english_lowercase;keywords:letter_frequency,0,0,2,loop_abbruch,4096,0
+R-GDN-out,second,ifeval_1127,detectable_format:multiple_sections;startend:end_checker,0,1,2,eos,2640,1
+R-GDN-out,second,ifeval_1128,startend:end_checker,1,1,1,eos,2294,1
+R-GDN-out,second,ifeval_1129,keywords:letter_frequency;combination:repeat_prompt,1,2,2,eos,5035,1
+R-GDN-out,second,ifeval_1130,keywords:letter_frequency,0,0,1,loop_abbruch,4096,0
+R-GDN-out,second,ifeval_1131,detectable_format:multiple_sections,1,1,1,eos,2703,1
+R-GDN-out,second,ifeval_1132,change_case:english_capital;keywords:forbidden_words,0,0,2,loop_abbruch,5120,0
+R-GDN-out,second,ifeval_1137,detectable_format:json_format;keywords:forbidden_words,1,2,2,eos,4955,1
+R-GDN-out,second,ifeval_1139,combination:repeat_prompt;keywords:existence,1,2,2,eos,2958,1
+R-GDN-out,second,ifeval_1147,keywords:forbidden_words,0,0,1,loop_abbruch,6144,0
+R-GDN-out,second,ifeval_1148,detectable_format:json_format,1,1,1,eos,1462,1
+R-GDN-out,second,ifeval_1153,change_case:english_lowercase;keywords:frequency,0,0,2,limit,32768,0
+R-GDN-out,second,ifeval_1154,language:response_language,1,1,1,eos,5805,1
+R-GDN-out,second,ifeval_1162,punctuation:no_comma,1,1,1,eos,2711,1
+R-GDN-out,second,ifeval_1174,keywords:letter_frequency;length_constraints:number_sentences;detectable_format:number_highlighted_sections,0,0,3,loop_abbruch,4096,0
+R-GDN-out,second,ifeval_1180,combination:two_responses;detectable_format:title,1,2,2,eos,1769,1
+R-GDN-out,second,ifeval_1187,punctuation:no_comma,1,1,1,eos,2265,1
+R-GDN-out,second,ifeval_1203,keywords:frequency;keywords:frequency,0,0,2,eos,15618,1
+R-GDN-out,second,ifeval_1216,startend:quotation;length_constraints:number_words,1,2,2,eos,3809,1
+R-GDN-out,second,ifeval_1217,length_constraints:number_words,1,1,1,eos,2335,1
+R-GDN-out,second,ifeval_1219,change_case:english_capital;detectable_content:postscript;keywords:frequency,0,0,3,loop_abbruch,4096,0
+R-GDN-out,second,ifeval_122,startend:quotation,1,1,1,eos,2475,1
+R-GDN-out,second,ifeval_1220,startend:end_checker,1,1,1,eos,2016,1
+R-GDN-out,second,ifeval_1233,startend:end_checker;keywords:frequency,0,0,2,limit,32768,0
+R-GDN-out,second,ifeval_1236,length_constraints:number_paragraphs,0,0,1,eos,2071,1
+R-GDN-out,second,ifeval_1237,detectable_format:number_highlighted_sections;keywords:existence,1,2,2,eos,2509,1
+R-GDN-out,second,ifeval_1242,detectable_format:json_format;keywords:forbidden_words,0,1,2,eos,2915,1
+R-GDN-out,second,ifeval_1246,detectable_content:postscript,1,1,1,eos,1859,1
+R-GDN-out,second,ifeval_1248,length_constraints:number_paragraphs,1,1,1,eos,3258,1
+R-GDN-out,second,ifeval_1251,length_constraints:number_words,1,1,1,eos,1610,1
+R-GDN-out,second,ifeval_1258,length_constraints:number_words,1,1,1,eos,2280,1
+R-GDN-out,second,ifeval_1259,language:response_language,0,0,1,loop_abbruch,4098,0
+R-GDN-out,second,ifeval_1262,detectable_format:title;length_constraints:number_sentences,1,2,2,eos,2728,1
+R-GDN-out,second,ifeval_1265,keywords:existence;length_constraints:number_sentences,1,2,2,eos,4759,1
+R-GDN-out,second,ifeval_1268,length_constraints:number_sentences,0,0,1,limit,32768,0
+R-GDN-out,second,ifeval_127,keywords:forbidden_words;keywords:frequency,0,1,2,eos,5780,1
+R-GDN-out,second,ifeval_1281,combination:repeat_prompt;keywords:existence,0,0,2,loop_abbruch,4864,0
+R-GDN-out,second,ifeval_1286,detectable_format:number_bullet_lists,1,1,1,eos,3827,1
+R-GDN-out,second,ifeval_1287,detectable_format:number_bullet_lists;change_case:english_lowercase,1,2,2,eos,2111,1
+R-GDN-out,second,ifeval_13,detectable_format:json_format,1,1,1,eos,2618,1
+R-GDN-out,second,ifeval_1300,punctuation:no_comma;keywords:letter_frequency;length_constraints:number_words,0,0,3,limit,32768,0
+R-GDN-out,second,ifeval_1305,detectable_content:postscript;detectable_format:number_bullet_lists,0,0,2,loop_abbruch,4352,0
+R-GDN-out,second,ifeval_1307,detectable_format:number_highlighted_sections,0,0,1,eos,2906,1
+R-GDN-out,second,ifeval_1314,change_case:capital_word_frequency;change_case:capital_word_frequency,0,0,2,limit,32768,0
+R-GDN-out,second,ifeval_1322,detectable_format:title,1,1,1,eos,1604,1
+R-GDN-out,second,ifeval_1325,startend:quotation;detectable_format:number_bullet_lists,1,2,2,eos,2796,1
+R-GDN-out,second,ifeval_1332,combination:two_responses,0,0,1,eos,2832,1
+R-GDN-out,second,ifeval_1342,keywords:frequency;detectable_format:number_highlighted_sections;length_constraints:number_paragraphs,0,2,3,eos,2949,1
+R-GDN-out,second,ifeval_1348,punctuation:no_comma;detectable_format:number_highlighted_sections;keywords:existence,0,0,3,loop_abbruch,4096,0
+R-GDN-out,second,ifeval_136,detectable_format:number_bullet_lists;length_constraints:number_words,1,2,2,eos,4670,1
+R-GDN-out,second,ifeval_1361,change_case:english_lowercase,0,0,1,loop_abbruch,4096,0
+R-GDN-out,second,ifeval_1367,detectable_content:postscript,1,1,1,eos,2235,1
+R-GDN-out,second,ifeval_1372,detectable_content:number_placeholders,1,1,1,eos,2508,1
+R-GDN-out,second,ifeval_1375,length_constraints:number_paragraphs;keywords:existence,0,1,2,eos,906,1
+R-GDN-out,second,ifeval_1377,length_constraints:number_paragraphs,1,1,1,eos,2864,1
+R-GDN-out,second,ifeval_1379,detectable_format:number_highlighted_sections;keywords:frequency;keywords:existence,0,2,3,eos,3163,1
+R-GDN-out,second,ifeval_1381,length_constraints:number_sentences,1,1,1,eos,3062,1
+R-GDN-out,second,ifeval_1389,change_case:english_capital;keywords:letter_frequency,0,0,2,limit,32768,0
+R-GDN-out,second,ifeval_1392,detectable_format:title;length_constraints:number_sentences;length_constraints:number_words,0,2,3,eos,10641,1
+R-GDN-out,second,ifeval_1393,keywords:frequency,0,0,1,loop_abbruch,6912,0
+R-GDN-out,second,ifeval_1402,keywords:letter_frequency;keywords:forbidden_words,0,0,2,limit,32768,0
+R-GDN-out,second,ifeval_1418,punctuation:no_comma;length_constraints:number_sentences;length_constraints:number_sentences,1,3,3,eos,3097,1
+R-GDN-out,second,ifeval_142,startend:quotation;keywords:frequency;keywords:existence,1,3,3,eos,4144,1
+R-GDN-out,second,ifeval_143,length_constraints:number_paragraphs;detectable_content:postscript,1,2,2,eos,4004,1
+R-GDN-out,second,ifeval_1436,change_case:english_lowercase;keywords:forbidden_words,0,0,2,loop_abbruch,4096,0
+R-GDN-out,second,ifeval_1446,startend:end_checker,0,0,1,loop_abbruch,4096,0
+R-GDN-out,second,ifeval_1466,startend:quotation;keywords:forbidden_words,1,2,2,eos,2560,1
+R-GDN-out,second,ifeval_1476,keywords:forbidden_words;length_constraints:number_sentences,1,2,2,eos,2669,1
+R-GDN-out,second,ifeval_1477,language:response_language,1,1,1,loop_abbruch,4096,1
+R-GDN-out,second,ifeval_1480,combination:repeat_prompt,1,1,1,eos,2185,1
+R-GDN-out,second,ifeval_1481,detectable_format:multiple_sections;detectable_format:number_bullet_lists,0,1,2,eos,5371,1
+R-GDN-out,second,ifeval_1498,keywords:frequency,0,0,1,eos,3708,1
+R-GDN-out,second,ifeval_1508,keywords:existence;punctuation:no_comma,0,0,2,loop_abbruch,4096,0
+R-GDN-out,second,ifeval_1512,detectable_content:number_placeholders;punctuation:no_comma,1,2,2,eos,5578,1
+R-GDN-out,second,ifeval_1516,change_case:english_lowercase;keywords:existence,0,1,2,eos,6490,1
+R-GDN-out,second,ifeval_1518,combination:repeat_prompt,1,1,1,eos,2170,1
+R-GDN-out,second,ifeval_152,change_case:english_lowercase;length_constraints:number_words,0,0,2,eos,1886,1
+R-GDN-out,second,ifeval_1531,keywords:existence,1,1,1,eos,4698,1
+R-GDN-out,second,ifeval_1535,change_case:english_lowercase;length_constraints:number_sentences,0,0,2,loop_abbruch,4864,0
+R-GDN-out,second,ifeval_1537,detectable_content:postscript,1,1,1,eos,3327,1
+R-GDN-out,second,ifeval_1546,combination:repeat_prompt;punctuation:no_comma,1,2,2,eos,2058,1
+R-GDN-out,second,ifeval_1548,detectable_format:multiple_sections,1,1,1,eos,1895,1
+R-GDN-out,second,ifeval_1551,detectable_format:title,0,0,1,eos,1664,1
+R-GDN-out,second,ifeval_1561,combination:repeat_prompt;detectable_format:title,0,0,2,limit,32768,0
+R-GDN-out,second,ifeval_1566,change_case:english_capital,0,0,1,eos,2828,1
+R-GDN-out,second,ifeval_1571,keywords:frequency;change_case:english_lowercase;keywords:existence,1,3,3,eos,3035,1
+R-GDN-out,second,ifeval_1580,keywords:forbidden_words,0,0,1,loop_abbruch,5376,0
+R-GDN-out,second,ifeval_1582,combination:two_responses;language:response_language;punctuation:no_comma,0,0,3,loop_abbruch,4352,0
+R-GDN-out,second,ifeval_1591,combination:two_responses,1,1,1,eos,4657,1
+R-GDN-out,second,ifeval_1592,change_case:capital_word_frequency,0,0,1,limit,32768,0
+R-GDN-out,second,ifeval_1593,change_case:english_lowercase,1,1,1,eos,1959,1
+R-GDN-out,second,ifeval_16,detectable_format:title;combination:repeat_prompt,0,1,2,eos,2720,1
+R-GDN-out,second,ifeval_1601,detectable_format:number_highlighted_sections;length_constraints:number_words,1,2,2,eos,5470,1
+R-GDN-out,second,ifeval_1609,length_constraints:nth_paragraph_first_word;startend:quotation,0,0,2,loop_abbruch,6912,0
+R-GDN-out,second,ifeval_1619,detectable_content:postscript;detectable_content:number_placeholders,0,1,2,loop_abbruch,4096,1
+R-GDN-out,second,ifeval_1620,detectable_content:postscript,1,1,1,eos,3254,1
+R-GDN-out,second,ifeval_1627,combination:repeat_prompt;detectable_format:title;punctuation:no_comma,0,1,3,eos,5451,1
+R-GDN-out,second,ifeval_1629,keywords:forbidden_words,1,1,1,eos,4105,1
+R-GDN-out,second,ifeval_163,startend:quotation;keywords:letter_frequency,0,0,2,limit,32768,0
+R-GDN-out,second,ifeval_1634,detectable_format:number_bullet_lists,1,1,1,eos,2091,1
+R-GDN-out,second,ifeval_164,length_constraints:number_words,0,0,1,loop_abbruch,4096,0
+R-ATT,second,ifeval_1000,punctuation:no_comma;detectable_format:number_highlighted_sections;length_constraints:number_words,0,0,3,loop_abbruch,4096,0
+R-ATT,second,ifeval_1001,punctuation:no_comma,0,0,1,loop_abbruch,4096,0
+R-ATT,second,ifeval_1005,detectable_content:number_placeholders,1,1,1,eos,1983,1
+R-ATT,second,ifeval_1012,combination:repeat_prompt;detectable_format:title,1,2,2,eos,3692,1
+R-ATT,second,ifeval_1019,change_case:english_lowercase,0,0,1,loop_abbruch,4352,0
+R-ATT,second,ifeval_102,detectable_format:number_bullet_lists,0,0,1,loop_abbruch,6400,0
+R-ATT,second,ifeval_1021,change_case:english_capital;detectable_format:multiple_sections,1,2,2,eos,4387,1
+R-ATT,second,ifeval_1040,change_case:capital_word_frequency;change_case:capital_word_frequency;startend:quotation,0,0,3,loop_abbruch,4864,0
+R-ATT,second,ifeval_1051,change_case:english_lowercase,1,1,1,eos,3707,1
+R-ATT,second,ifeval_1069,keywords:existence;length_constraints:number_words;punctuation:no_comma,0,0,3,eos,8112,1
+R-ATT,second,ifeval_1072,length_constraints:number_words,1,1,1,eos,1687,1
+R-ATT,second,ifeval_1075,detectable_format:json_format,1,1,1,eos,2235,1
+R-ATT,second,ifeval_1082,length_constraints:number_paragraphs,1,1,1,eos,1975,1
+R-ATT,second,ifeval_1087,change_case:english_lowercase,0,0,1,loop_abbruch,4096,0
+R-ATT,second,ifeval_1092,length_constraints:number_words,1,1,1,eos,2485,1
+R-ATT,second,ifeval_1094,detectable_format:json_format,0,0,1,loop_abbruch,5376,0
+R-ATT,second,ifeval_1098,combination:two_responses,1,1,1,eos,2432,1
+R-ATT,second,ifeval_1107,punctuation:no_comma;combination:two_responses,0,0,2,loop_abbruch,4352,0
+R-ATT,second,ifeval_1108,language:response_language,0,0,1,eos,3388,1
+R-ATT,second,ifeval_1122,change_case:english_lowercase;keywords:letter_frequency,0,0,2,limit,32768,0
+R-ATT,second,ifeval_1127,detectable_format:multiple_sections;startend:end_checker,1,2,2,eos,3697,1
+R-ATT,second,ifeval_1128,startend:end_checker,1,1,1,eos,1106,1
+R-ATT,second,ifeval_1129,keywords:letter_frequency;combination:repeat_prompt,0,0,2,loop_abbruch,4096,0
+R-ATT,second,ifeval_1130,keywords:letter_frequency,0,0,1,loop_abbruch,4096,0
+R-ATT,second,ifeval_1131,detectable_format:multiple_sections,0,0,1,loop_abbruch,4096,0
+R-ATT,second,ifeval_1132,change_case:english_capital;keywords:forbidden_words,0,0,2,loop_abbruch,4864,0
+R-ATT,second,ifeval_1137,detectable_format:json_format;keywords:forbidden_words,1,2,2,eos,3455,1
+R-ATT,second,ifeval_1139,combination:repeat_prompt;keywords:existence,1,2,2,eos,3062,1
+R-ATT,second,ifeval_1147,keywords:forbidden_words,0,0,1,loop_abbruch,5376,0
+R-ATT,second,ifeval_1148,detectable_format:json_format,1,1,1,eos,2650,1
+R-ATT,second,ifeval_1153,change_case:english_lowercase;keywords:frequency,0,0,2,loop_abbruch,4096,0
+R-ATT,second,ifeval_1154,language:response_language,1,1,1,eos,4267,1
+R-ATT,second,ifeval_1162,punctuation:no_comma,0,0,1,limit,32768,0
+R-ATT,second,ifeval_1174,keywords:letter_frequency;length_constraints:number_sentences;detectable_format:number_highlighted_sections,0,0,3,limit,32768,0
+R-ATT,second,ifeval_1180,combination:two_responses;detectable_format:title,1,2,2,eos,2175,1
+R-ATT,second,ifeval_1187,punctuation:no_comma,1,1,1,eos,2755,1
+R-ATT,second,ifeval_1203,keywords:frequency;keywords:frequency,0,0,2,loop_abbruch,4096,0
+R-ATT,second,ifeval_1216,startend:quotation;length_constraints:number_words,0,1,2,limit,32768,1
+R-ATT,second,ifeval_1217,length_constraints:number_words,1,1,1,eos,5663,1
+R-ATT,second,ifeval_1219,change_case:english_capital;detectable_content:postscript;keywords:frequency,0,0,3,loop_abbruch,4096,0
+R-ATT,second,ifeval_122,startend:quotation,1,1,1,eos,3171,1
+R-ATT,second,ifeval_1220,startend:end_checker,1,1,1,eos,3430,1
+R-ATT,second,ifeval_1233,startend:end_checker;keywords:frequency,1,2,2,eos,8170,1
+R-ATT,second,ifeval_1236,length_constraints:number_paragraphs,0,0,1,limit,32768,0
+R-ATT,second,ifeval_1237,detectable_format:number_highlighted_sections;keywords:existence,1,2,2,eos,2541,1
+R-ATT,second,ifeval_1242,detectable_format:json_format;keywords:forbidden_words,0,0,2,loop_abbruch,4096,0
+R-ATT,second,ifeval_1246,detectable_content:postscript,1,1,1,eos,2841,1
+R-ATT,second,ifeval_1248,length_constraints:number_paragraphs,1,1,1,eos,2418,1
+R-ATT,second,ifeval_1251,length_constraints:number_words,1,1,1,eos,2491,1
+R-ATT,second,ifeval_1258,length_constraints:number_words,1,1,1,eos,2289,1
+R-ATT,second,ifeval_1259,language:response_language,0,0,1,limit,32768,0
+R-ATT,second,ifeval_1262,detectable_format:title;length_constraints:number_sentences,1,2,2,eos,2738,1
+R-ATT,second,ifeval_1265,keywords:existence;length_constraints:number_sentences,0,0,2,limit,32768,0
+R-ATT,second,ifeval_1268,length_constraints:number_sentences,1,1,1,eos,5214,1
+R-ATT,second,ifeval_127,keywords:forbidden_words;keywords:frequency,1,2,2,eos,5117,1
+R-ATT,second,ifeval_1281,combination:repeat_prompt;keywords:existence,0,0,2,limit,32768,0
+R-ATT,second,ifeval_1286,detectable_format:number_bullet_lists,1,1,1,eos,4427,1
+R-ATT,second,ifeval_1287,detectable_format:number_bullet_lists;change_case:english_lowercase,0,0,2,loop_abbruch,4608,0
+R-ATT,second,ifeval_13,detectable_format:json_format,1,1,1,eos,3454,1
+R-ATT,second,ifeval_1300,punctuation:no_comma;keywords:letter_frequency;length_constraints:number_words,0,0,3,loop_abbruch,4096,0
+R-ATT,second,ifeval_1305,detectable_content:postscript;detectable_format:number_bullet_lists,1,2,2,eos,5465,1
+R-ATT,second,ifeval_1307,detectable_format:number_highlighted_sections,1,1,1,eos,3777,1
+R-ATT,second,ifeval_1314,change_case:capital_word_frequency;change_case:capital_word_frequency,0,0,2,loop_abbruch,4096,0
+R-ATT,second,ifeval_1322,detectable_format:title,1,1,1,eos,1771,1
+R-ATT,second,ifeval_1325,startend:quotation;detectable_format:number_bullet_lists,0,0,2,limit,32768,1
+R-ATT,second,ifeval_1332,combination:two_responses,1,1,1,eos,2267,1
+R-ATT,second,ifeval_1342,keywords:frequency;detectable_format:number_highlighted_sections;length_constraints:number_paragraphs,0,2,3,eos,2956,1
+R-ATT,second,ifeval_1348,punctuation:no_comma;detectable_format:number_highlighted_sections;keywords:existence,0,0,3,loop_abbruch,4096,0
+R-ATT,second,ifeval_136,detectable_format:number_bullet_lists;length_constraints:number_words,0,0,2,loop_abbruch,7680,0
+R-ATT,second,ifeval_1361,change_case:english_lowercase,0,0,1,loop_abbruch,4096,0
+R-ATT,second,ifeval_1367,detectable_content:postscript,1,1,1,eos,3180,1
+R-ATT,second,ifeval_1372,detectable_content:number_placeholders,0,0,1,eos,2354,1
+R-ATT,second,ifeval_1375,length_constraints:number_paragraphs;keywords:existence,1,2,2,eos,620,1
+R-ATT,second,ifeval_1377,length_constraints:number_paragraphs,1,1,1,eos,2323,1
+R-ATT,second,ifeval_1379,detectable_format:number_highlighted_sections;keywords:frequency;keywords:existence,0,0,3,limit,32768,0
+R-ATT,second,ifeval_1381,length_constraints:number_sentences,0,0,1,eos,5054,1
+R-ATT,second,ifeval_1389,change_case:english_capital;keywords:letter_frequency,0,0,2,limit,32768,0
+R-ATT,second,ifeval_1392,detectable_format:title;length_constraints:number_sentences;length_constraints:number_words,0,0,3,loop_abbruch,14336,0
+R-ATT,second,ifeval_1393,keywords:frequency,0,0,1,eos,4566,1
+R-ATT,second,ifeval_1402,keywords:letter_frequency;keywords:forbidden_words,0,0,2,limit,32768,0
+R-ATT,second,ifeval_1418,punctuation:no_comma;length_constraints:number_sentences;length_constraints:number_sentences,0,0,3,limit,32768,0
+R-ATT,second,ifeval_142,startend:quotation;keywords:frequency;keywords:existence,0,0,3,loop_abbruch,6144,0
+R-ATT,second,ifeval_143,length_constraints:number_paragraphs;detectable_content:postscript,1,2,2,eos,2710,1
+R-ATT,second,ifeval_1436,change_case:english_lowercase;keywords:forbidden_words,0,0,2,loop_abbruch,4352,0
+R-ATT,second,ifeval_1446,startend:end_checker,1,1,1,eos,4139,1
+R-ATT,second,ifeval_1466,startend:quotation;keywords:forbidden_words,1,2,2,eos,3532,1
+R-ATT,second,ifeval_1476,keywords:forbidden_words;length_constraints:number_sentences,0,0,2,loop_abbruch,5376,0
+R-ATT,second,ifeval_1477,language:response_language,1,1,1,loop_abbruch,4096,1
+R-ATT,second,ifeval_1480,combination:repeat_prompt,0,0,1,limit,32768,0
+R-ATT,second,ifeval_1481,detectable_format:multiple_sections;detectable_format:number_bullet_lists,0,0,2,limit,32768,0
+R-ATT,second,ifeval_1498,keywords:frequency,1,1,1,loop_abbruch,5632,1
+R-ATT,second,ifeval_1508,keywords:existence;punctuation:no_comma,1,2,2,eos,7190,1
+R-ATT,second,ifeval_1512,detectable_content:number_placeholders;punctuation:no_comma,1,2,2,eos,3741,1
+R-ATT,second,ifeval_1516,change_case:english_lowercase;keywords:existence,0,0,2,limit,32768,0
+R-ATT,second,ifeval_1518,combination:repeat_prompt,0,0,1,loop_abbruch,4096,0
+R-ATT,second,ifeval_152,change_case:english_lowercase;length_constraints:number_words,0,0,2,loop_abbruch,4352,0
+R-ATT,second,ifeval_1531,keywords:existence,1,1,1,eos,2183,1
+R-ATT,second,ifeval_1535,change_case:english_lowercase;length_constraints:number_sentences,0,0,2,limit,32768,0
+R-ATT,second,ifeval_1537,detectable_content:postscript,0,0,1,loop_abbruch,4096,0
+R-ATT,second,ifeval_1546,combination:repeat_prompt;punctuation:no_comma,0,0,2,limit,32768,0
+R-ATT,second,ifeval_1548,detectable_format:multiple_sections,1,1,1,eos,1946,1
+R-ATT,second,ifeval_1551,detectable_format:title,1,1,1,eos,2105,1
+R-ATT,second,ifeval_1561,combination:repeat_prompt;detectable_format:title,0,0,2,limit,32768,0
+R-ATT,second,ifeval_1566,change_case:english_capital,0,0,1,loop_abbruch,4096,1
+R-ATT,second,ifeval_1571,keywords:frequency;change_case:english_lowercase;keywords:existence,0,0,3,loop_abbruch,4352,0
+R-ATT,second,ifeval_1580,keywords:forbidden_words,0,0,1,loop_abbruch,4608,0
+R-ATT,second,ifeval_1582,combination:two_responses;language:response_language;punctuation:no_comma,1,3,3,eos,2951,1
+R-ATT,second,ifeval_1591,combination:two_responses,1,1,1,eos,4019,1
+R-ATT,second,ifeval_1592,change_case:capital_word_frequency,1,1,1,eos,6705,1
+R-ATT,second,ifeval_1593,change_case:english_lowercase,0,0,1,loop_abbruch,4352,0
+R-ATT,second,ifeval_16,detectable_format:title;combination:repeat_prompt,0,1,2,loop_abbruch,4096,1
+R-ATT,second,ifeval_1601,detectable_format:number_highlighted_sections;length_constraints:number_words,0,1,2,eos,3692,1
+R-ATT,second,ifeval_1609,length_constraints:nth_paragraph_first_word;startend:quotation,0,0,2,limit,32768,0
+R-ATT,second,ifeval_1619,detectable_content:postscript;detectable_content:number_placeholders,0,1,2,eos,1930,1
+R-ATT,second,ifeval_1620,detectable_content:postscript,1,1,1,eos,1782,1
+R-ATT,second,ifeval_1627,combination:repeat_prompt;detectable_format:title;punctuation:no_comma,0,0,3,loop_abbruch,4352,0
+R-ATT,second,ifeval_1629,keywords:forbidden_words,0,0,1,limit,32768,0
+R-ATT,second,ifeval_163,startend:quotation;keywords:letter_frequency,0,0,2,loop_abbruch,9472,0
+R-ATT,second,ifeval_1634,detectable_format:number_bullet_lists,1,1,1,eos,1479,1
+R-ATT,second,ifeval_164,length_constraints:number_words,1,1,1,eos,2546,1
+R-MLP,second,ifeval_1000,punctuation:no_comma;detectable_format:number_highlighted_sections;length_constraints:number_words,0,0,3,limit,32768,0
+R-MLP,second,ifeval_1001,punctuation:no_comma,0,0,1,eos,1323,1
+R-MLP,second,ifeval_1005,detectable_content:number_placeholders,1,1,1,eos,810,1
+R-MLP,second,ifeval_1012,combination:repeat_prompt;detectable_format:title,0,1,2,eos,260,1
+R-MLP,second,ifeval_1019,change_case:english_lowercase,1,1,1,eos,913,1
+R-MLP,second,ifeval_102,detectable_format:number_bullet_lists,1,1,1,eos,1849,1
+R-MLP,second,ifeval_1021,change_case:english_capital;detectable_format:multiple_sections,0,0,2,eos,1090,1
+R-MLP,second,ifeval_1040,change_case:capital_word_frequency;change_case:capital_word_frequency;startend:quotation,0,2,3,eos,4374,1
+R-MLP,second,ifeval_1051,change_case:english_lowercase,1,1,1,eos,170,1
+R-MLP,second,ifeval_1069,keywords:existence;length_constraints:number_words;punctuation:no_comma,0,0,3,limit,32768,0
+R-MLP,second,ifeval_1072,length_constraints:number_words,1,1,1,eos,845,1
+R-MLP,second,ifeval_1075,detectable_format:json_format,1,1,1,eos,1423,1
+R-MLP,second,ifeval_1082,length_constraints:number_paragraphs,0,0,1,eos,301,1
+R-MLP,second,ifeval_1087,change_case:english_lowercase,0,0,1,eos,1030,1
+R-MLP,second,ifeval_1092,length_constraints:number_words,1,1,1,eos,405,1
+R-MLP,second,ifeval_1094,detectable_format:json_format,0,0,1,limit,32768,0
+R-MLP,second,ifeval_1098,combination:two_responses,0,0,1,eos,1014,1
+R-MLP,second,ifeval_1107,punctuation:no_comma;combination:two_responses,0,1,2,eos,2138,1
+R-MLP,second,ifeval_1108,language:response_language,0,0,1,eos,657,1
+R-MLP,second,ifeval_1122,change_case:english_lowercase;keywords:letter_frequency,0,1,2,eos,237,1
+R-MLP,second,ifeval_1127,detectable_format:multiple_sections;startend:end_checker,0,1,2,eos,445,1
+R-MLP,second,ifeval_1128,startend:end_checker,0,0,1,eos,224,1
+R-MLP,second,ifeval_1129,keywords:letter_frequency;combination:repeat_prompt,0,1,2,eos,21416,1
+R-MLP,second,ifeval_1130,keywords:letter_frequency,0,0,1,loop_abbruch,4096,0
+R-MLP,second,ifeval_1131,detectable_format:multiple_sections,0,0,1,eos,1006,1
+R-MLP,second,ifeval_1132,change_case:english_capital;keywords:forbidden_words,1,2,2,eos,845,1
+R-MLP,second,ifeval_1137,detectable_format:json_format;keywords:forbidden_words,1,2,2,eos,1596,1
+R-MLP,second,ifeval_1139,combination:repeat_prompt;keywords:existence,0,0,2,limit,32768,0
+R-MLP,second,ifeval_1147,keywords:forbidden_words,0,0,1,eos,393,1
+R-MLP,second,ifeval_1148,detectable_format:json_format,1,1,1,eos,2040,1
+R-MLP,second,ifeval_1153,change_case:english_lowercase;keywords:frequency,1,2,2,eos,340,1
+R-MLP,second,ifeval_1154,language:response_language,0,0,1,eos,3070,1
+R-MLP,second,ifeval_1162,punctuation:no_comma,0,0,1,eos,2637,1
+R-MLP,second,ifeval_1174,keywords:letter_frequency;length_constraints:number_sentences;detectable_format:number_highlighted_sections,0,0,3,limit,32768,0
+R-MLP,second,ifeval_1180,combination:two_responses;detectable_format:title,1,2,2,eos,1288,1
+R-MLP,second,ifeval_1187,punctuation:no_comma,0,0,1,eos,276,1
+R-MLP,second,ifeval_1203,keywords:frequency;keywords:frequency,0,0,2,limit,32768,0
+R-MLP,second,ifeval_1216,startend:quotation;length_constraints:number_words,0,1,2,eos,1335,1
+R-MLP,second,ifeval_1217,length_constraints:number_words,1,1,1,eos,204,1
+R-MLP,second,ifeval_1219,change_case:english_capital;detectable_content:postscript;keywords:frequency,0,1,3,eos,3019,1
+R-MLP,second,ifeval_122,startend:quotation,0,0,1,eos,638,1
+R-MLP,second,ifeval_1220,startend:end_checker,1,1,1,eos,345,1
+R-MLP,second,ifeval_1233,startend:end_checker;keywords:frequency,0,0,2,limit,32768,0
+R-MLP,second,ifeval_1236,length_constraints:number_paragraphs,1,1,1,eos,436,1
+R-MLP,second,ifeval_1237,detectable_format:number_highlighted_sections;keywords:existence,1,2,2,eos,485,1
+R-MLP,second,ifeval_1242,detectable_format:json_format;keywords:forbidden_words,1,2,2,eos,819,1
+R-MLP,second,ifeval_1246,detectable_content:postscript,0,0,1,eos,742,1
+R-MLP,second,ifeval_1248,length_constraints:number_paragraphs,1,1,1,loop_abbruch,4096,1
+R-MLP,second,ifeval_1251,length_constraints:number_words,1,1,1,eos,682,1
+R-MLP,second,ifeval_1258,length_constraints:number_words,1,1,1,eos,1279,1
+R-MLP,second,ifeval_1259,language:response_language,0,0,1,loop_abbruch,4096,0
+R-MLP,second,ifeval_1262,detectable_format:title;length_constraints:number_sentences,1,2,2,eos,1122,1
+R-MLP,second,ifeval_1265,keywords:existence;length_constraints:number_sentences,0,0,2,limit,32768,0
+R-MLP,second,ifeval_1268,length_constraints:number_sentences,1,1,1,eos,7199,1
+R-MLP,second,ifeval_127,keywords:forbidden_words;keywords:frequency,0,1,2,eos,483,1
+R-MLP,second,ifeval_1281,combination:repeat_prompt;keywords:existence,0,1,2,eos,7220,1
+R-MLP,second,ifeval_1286,detectable_format:number_bullet_lists,1,1,1,eos,3622,1
+R-MLP,second,ifeval_1287,detectable_format:number_bullet_lists;change_case:english_lowercase,0,1,2,eos,711,1
+R-MLP,second,ifeval_13,detectable_format:json_format,0,0,1,limit,32768,0
+R-MLP,second,ifeval_1300,punctuation:no_comma;keywords:letter_frequency;length_constraints:number_words,0,0,3,limit,32768,0
+R-MLP,second,ifeval_1305,detectable_content:postscript;detectable_format:number_bullet_lists,0,1,2,eos,2172,1
+R-MLP,second,ifeval_1307,detectable_format:number_highlighted_sections,1,1,1,eos,1633,1
+R-MLP,second,ifeval_1314,change_case:capital_word_frequency;change_case:capital_word_frequency,1,2,2,eos,5528,1
+R-MLP,second,ifeval_1322,detectable_format:title,1,1,1,eos,1387,1
+R-MLP,second,ifeval_1325,startend:quotation;detectable_format:number_bullet_lists,0,0,2,eos,1691,1
+R-MLP,second,ifeval_1332,combination:two_responses,1,1,1,eos,3758,1
+R-MLP,second,ifeval_1342,keywords:frequency;detectable_format:number_highlighted_sections;length_constraints:number_paragraphs,0,2,3,eos,367,1
+R-MLP,second,ifeval_1348,punctuation:no_comma;detectable_format:number_highlighted_sections;keywords:existence,0,1,3,eos,1536,1
+R-MLP,second,ifeval_136,detectable_format:number_bullet_lists;length_constraints:number_words,1,2,2,eos,3521,1
+R-MLP,second,ifeval_1361,change_case:english_lowercase,0,0,1,limit,32768,0
+R-MLP,second,ifeval_1367,detectable_content:postscript,1,1,1,eos,1212,1
+R-MLP,second,ifeval_1372,detectable_content:number_placeholders,0,0,1,eos,863,1
+R-MLP,second,ifeval_1375,length_constraints:number_paragraphs;keywords:existence,1,2,2,eos,4833,1
+R-MLP,second,ifeval_1377,length_constraints:number_paragraphs,0,0,1,eos,1340,1
+R-MLP,second,ifeval_1379,detectable_format:number_highlighted_sections;keywords:frequency;keywords:existence,1,3,3,eos,233,1
+R-MLP,second,ifeval_1381,length_constraints:number_sentences,0,0,1,eos,332,1
+R-MLP,second,ifeval_1389,change_case:english_capital;keywords:letter_frequency,0,0,2,loop_abbruch,4096,0
+R-MLP,second,ifeval_1392,detectable_format:title;length_constraints:number_sentences;length_constraints:number_words,0,0,3,limit,32768,0
+R-MLP,second,ifeval_1393,keywords:frequency,0,0,1,eos,2762,1
+R-MLP,second,ifeval_1402,keywords:letter_frequency;keywords:forbidden_words,0,0,2,limit,32768,0
+R-MLP,second,ifeval_1418,punctuation:no_comma;length_constraints:number_sentences;length_constraints:number_sentences,0,1,3,eos,2742,1
+R-MLP,second,ifeval_142,startend:quotation;keywords:frequency;keywords:existence,1,3,3,eos,1865,1
+R-MLP,second,ifeval_143,length_constraints:number_paragraphs;detectable_content:postscript,1,2,2,eos,1409,1
+R-MLP,second,ifeval_1436,change_case:english_lowercase;keywords:forbidden_words,0,0,2,eos,1605,1
+R-MLP,second,ifeval_1446,startend:end_checker,0,0,1,eos,450,1
+R-MLP,second,ifeval_1466,startend:quotation;keywords:forbidden_words,0,0,2,eos,2501,1
+R-MLP,second,ifeval_1476,keywords:forbidden_words;length_constraints:number_sentences,0,1,2,eos,293,1
+R-MLP,second,ifeval_1477,language:response_language,1,1,1,limit,32768,1
+R-MLP,second,ifeval_1480,combination:repeat_prompt,1,1,1,eos,2482,1
+R-MLP,second,ifeval_1481,detectable_format:multiple_sections;detectable_format:number_bullet_lists,0,1,2,eos,476,1
+R-MLP,second,ifeval_1498,keywords:frequency,0,0,1,eos,555,1
+R-MLP,second,ifeval_1508,keywords:existence;punctuation:no_comma,0,0,2,limit,32768,0
+R-MLP,second,ifeval_1512,detectable_content:number_placeholders;punctuation:no_comma,1,2,2,eos,1579,1
+R-MLP,second,ifeval_1516,change_case:english_lowercase;keywords:existence,0,0,2,limit,32768,0
+R-MLP,second,ifeval_1518,combination:repeat_prompt,0,0,1,eos,260,1
+R-MLP,second,ifeval_152,change_case:english_lowercase;length_constraints:number_words,0,0,2,eos,1125,1
+R-MLP,second,ifeval_1531,keywords:existence,0,0,1,eos,8865,1
+R-MLP,second,ifeval_1535,change_case:english_lowercase;length_constraints:number_sentences,1,2,2,eos,1411,1
+R-MLP,second,ifeval_1537,detectable_content:postscript,1,1,1,eos,418,1
+R-MLP,second,ifeval_1546,combination:repeat_prompt;punctuation:no_comma,0,1,2,eos,508,1
+R-MLP,second,ifeval_1548,detectable_format:multiple_sections,1,1,1,eos,749,1
+R-MLP,second,ifeval_1551,detectable_format:title,0,0,1,eos,985,1
+R-MLP,second,ifeval_1561,combination:repeat_prompt;detectable_format:title,0,1,2,eos,1497,1
+R-MLP,second,ifeval_1566,change_case:english_capital,0,0,1,eos,1517,1
+R-MLP,second,ifeval_1571,keywords:frequency;change_case:english_lowercase;keywords:existence,0,2,3,eos,340,1
+R-MLP,second,ifeval_1580,keywords:forbidden_words,0,0,1,eos,612,1
+R-MLP,second,ifeval_1582,combination:two_responses;language:response_language;punctuation:no_comma,0,2,3,eos,1770,1
+R-MLP,second,ifeval_1591,combination:two_responses,0,0,1,eos,348,1
+R-MLP,second,ifeval_1592,change_case:capital_word_frequency,1,1,1,eos,263,1
+R-MLP,second,ifeval_1593,change_case:english_lowercase,0,0,1,eos,348,1
+R-MLP,second,ifeval_16,detectable_format:title;combination:repeat_prompt,0,1,2,eos,1406,1
+R-MLP,second,ifeval_1601,detectable_format:number_highlighted_sections;length_constraints:number_words,1,2,2,eos,1393,1
+R-MLP,second,ifeval_1609,length_constraints:nth_paragraph_first_word;startend:quotation,0,0,2,eos,1954,1
+R-MLP,second,ifeval_1619,detectable_content:postscript;detectable_content:number_placeholders,1,2,2,eos,3607,1
+R-MLP,second,ifeval_1620,detectable_content:postscript,0,0,1,eos,390,1
+R-MLP,second,ifeval_1627,combination:repeat_prompt;detectable_format:title;punctuation:no_comma,0,1,3,eos,2450,1
+R-MLP,second,ifeval_1629,keywords:forbidden_words,0,0,1,eos,328,1
+R-MLP,second,ifeval_163,startend:quotation;keywords:letter_frequency,0,1,2,eos,6014,1
+R-MLP,second,ifeval_1634,detectable_format:number_bullet_lists,1,1,1,eos,273,1
+R-MLP,second,ifeval_164,length_constraints:number_words,1,1,1,eos,1171,1
+R-MLP-early,second,ifeval_1000,punctuation:no_comma;detectable_format:number_highlighted_sections;length_constraints:number_words,0,0,3,loop_abbruch,4096,0
+R-MLP-early,second,ifeval_1001,punctuation:no_comma,0,0,1,limit,32768,0
+R-MLP-early,second,ifeval_1005,detectable_content:number_placeholders,1,1,1,eos,3376,1
+R-MLP-early,second,ifeval_1012,combination:repeat_prompt;detectable_format:title,0,0,2,limit,32768,0
+R-MLP-early,second,ifeval_1019,change_case:english_lowercase,0,0,1,loop_abbruch,4352,0
+R-MLP-early,second,ifeval_102,detectable_format:number_bullet_lists,0,0,1,limit,32768,0
+R-MLP-early,second,ifeval_1021,change_case:english_capital;detectable_format:multiple_sections,0,0,2,loop_abbruch,4096,0
+R-MLP-early,second,ifeval_1040,change_case:capital_word_frequency;change_case:capital_word_frequency;startend:quotation,0,0,3,loop_abbruch,4096,0
+R-MLP-early,second,ifeval_1051,change_case:english_lowercase,0,0,1,loop_abbruch,5888,0
+R-MLP-early,second,ifeval_1069,keywords:existence;length_constraints:number_words;punctuation:no_comma,0,0,3,limit,32768,0
+R-MLP-early,second,ifeval_1072,length_constraints:number_words,1,1,1,eos,1760,1
+R-MLP-early,second,ifeval_1075,detectable_format:json_format,1,1,1,eos,2413,1
+R-MLP-early,second,ifeval_1082,length_constraints:number_paragraphs,0,0,1,loop_abbruch,4096,0
+R-MLP-early,second,ifeval_1087,change_case:english_lowercase,0,0,1,limit,32768,0
+R-MLP-early,second,ifeval_1092,length_constraints:number_words,0,0,1,loop_abbruch,4608,0
+R-MLP-early,second,ifeval_1094,detectable_format:json_format,0,0,1,limit,32768,0
+R-MLP-early,second,ifeval_1098,combination:two_responses,1,1,1,eos,2551,1
+R-MLP-early,second,ifeval_1107,punctuation:no_comma;combination:two_responses,0,0,2,loop_abbruch,4096,0
+R-MLP-early,second,ifeval_1108,language:response_language,0,0,1,loop_abbruch,4097,0
+R-MLP-early,second,ifeval_1122,change_case:english_lowercase;keywords:letter_frequency,0,0,2,limit,32768,0
+R-MLP-early,second,ifeval_1127,detectable_format:multiple_sections;startend:end_checker,0,0,2,loop_abbruch,4096,0
+R-MLP-early,second,ifeval_1128,startend:end_checker,1,1,1,eos,1265,1
+R-MLP-early,second,ifeval_1129,keywords:letter_frequency;combination:repeat_prompt,0,0,2,loop_abbruch,4864,0
+R-MLP-early,second,ifeval_1130,keywords:letter_frequency,0,0,1,loop_abbruch,4096,0
+R-MLP-early,second,ifeval_1131,detectable_format:multiple_sections,1,1,1,eos,1802,1
+R-MLP-early,second,ifeval_1132,change_case:english_capital;keywords:forbidden_words,0,0,2,limit,32768,0
+R-MLP-early,second,ifeval_1137,detectable_format:json_format;keywords:forbidden_words,0,0,2,loop_abbruch,4096,0
+R-MLP-early,second,ifeval_1139,combination:repeat_prompt;keywords:existence,0,0,2,loop_abbruch,4096,0
+R-MLP-early,second,ifeval_1147,keywords:forbidden_words,1,1,1,eos,2204,1
+R-MLP-early,second,ifeval_1148,detectable_format:json_format,0,0,1,loop_abbruch,4096,0
+R-MLP-early,second,ifeval_1153,change_case:english_lowercase;keywords:frequency,1,2,2,eos,2370,1
+R-MLP-early,second,ifeval_1154,language:response_language,0,0,1,loop_abbruch,5893,0
+R-MLP-early,second,ifeval_1162,punctuation:no_comma,1,1,1,eos,3769,1
+R-MLP-early,second,ifeval_1174,keywords:letter_frequency;length_constraints:number_sentences;detectable_format:number_highlighted_sections,0,0,3,loop_abbruch,5888,0
+R-MLP-early,second,ifeval_1180,combination:two_responses;detectable_format:title,1,2,2,eos,3104,1
+R-MLP-early,second,ifeval_1187,punctuation:no_comma,1,1,1,eos,2302,1
+R-MLP-early,second,ifeval_1203,keywords:frequency;keywords:frequency,0,0,2,eos,2740,1
+R-MLP-early,second,ifeval_1216,startend:quotation;length_constraints:number_words,1,2,2,eos,6270,1
+R-MLP-early,second,ifeval_1217,length_constraints:number_words,0,0,1,limit,32768,0
+R-MLP-early,second,ifeval_1219,change_case:english_capital;detectable_content:postscript;keywords:frequency,0,0,3,loop_abbruch,4096,0
+R-MLP-early,second,ifeval_122,startend:quotation,1,1,1,eos,2469,1
+R-MLP-early,second,ifeval_1220,startend:end_checker,1,1,1,eos,2672,1
+R-MLP-early,second,ifeval_1233,startend:end_checker;keywords:frequency,0,0,2,loop_abbruch,5632,0
+R-MLP-early,second,ifeval_1236,length_constraints:number_paragraphs,1,1,1,eos,1945,1
+R-MLP-early,second,ifeval_1237,detectable_format:number_highlighted_sections;keywords:existence,0,0,2,loop_abbruch,4096,0
+R-MLP-early,second,ifeval_1242,detectable_format:json_format;keywords:forbidden_words,0,0,2,loop_abbruch,4096,0
+R-MLP-early,second,ifeval_1246,detectable_content:postscript,1,1,1,eos,1288,1
+R-MLP-early,second,ifeval_1248,length_constraints:number_paragraphs,1,1,1,eos,1957,1
+R-MLP-early,second,ifeval_1251,length_constraints:number_words,1,1,1,eos,1704,1
+R-MLP-early,second,ifeval_1258,length_constraints:number_words,0,0,1,loop_abbruch,4096,0
+R-MLP-early,second,ifeval_1259,language:response_language,0,0,1,limit,32768,0
+R-MLP-early,second,ifeval_1262,detectable_format:title;length_constraints:number_sentences,0,0,2,limit,32768,0
+R-MLP-early,second,ifeval_1265,keywords:existence;length_constraints:number_sentences,0,1,2,eos,4019,1
+R-MLP-early,second,ifeval_1268,length_constraints:number_sentences,0,0,1,loop_abbruch,4096,0
+R-MLP-early,second,ifeval_127,keywords:forbidden_words;keywords:frequency,0,0,2,limit,32768,0
+R-MLP-early,second,ifeval_1281,combination:repeat_prompt;keywords:existence,0,0,2,loop_abbruch,6400,0
+R-MLP-early,second,ifeval_1286,detectable_format:number_bullet_lists,0,0,1,eos,4192,1
+R-MLP-early,second,ifeval_1287,detectable_format:number_bullet_lists;change_case:english_lowercase,0,0,2,limit,32768,0
+R-MLP-early,second,ifeval_13,detectable_format:json_format,0,0,1,loop_abbruch,4096,0
+R-MLP-early,second,ifeval_1300,punctuation:no_comma;keywords:letter_frequency;length_constraints:number_words,0,0,3,loop_abbruch,4352,0
+R-MLP-early,second,ifeval_1305,detectable_content:postscript;detectable_format:number_bullet_lists,0,0,2,loop_abbruch,4096,0
+R-MLP-early,second,ifeval_1307,detectable_format:number_highlighted_sections,0,0,1,eos,4300,1
+R-MLP-early,second,ifeval_1314,change_case:capital_word_frequency;change_case:capital_word_frequency,0,0,2,limit,32768,0
+R-MLP-early,second,ifeval_1322,detectable_format:title,1,1,1,eos,1743,1
+R-MLP-early,second,ifeval_1325,startend:quotation;detectable_format:number_bullet_lists,0,0,2,limit,32768,0
+R-MLP-early,second,ifeval_1332,combination:two_responses,1,1,1,eos,1992,1
+R-MLP-early,second,ifeval_1342,keywords:frequency;detectable_format:number_highlighted_sections;length_constraints:number_paragraphs,0,0,3,limit,32768,0
+R-MLP-early,second,ifeval_1348,punctuation:no_comma;detectable_format:number_highlighted_sections;keywords:existence,0,0,3,limit,32768,0
+R-MLP-early,second,ifeval_136,detectable_format:number_bullet_lists;length_constraints:number_words,0,0,2,limit,32768,0
+R-MLP-early,second,ifeval_1361,change_case:english_lowercase,1,1,1,eos,2059,1
+R-MLP-early,second,ifeval_1367,detectable_content:postscript,1,1,1,eos,2339,1
+R-MLP-early,second,ifeval_1372,detectable_content:number_placeholders,0,0,1,loop_abbruch,4096,0
+R-MLP-early,second,ifeval_1375,length_constraints:number_paragraphs;keywords:existence,0,0,2,loop_abbruch,4352,0
+R-MLP-early,second,ifeval_1377,length_constraints:number_paragraphs,0,0,1,eos,3178,1
+R-MLP-early,second,ifeval_1379,detectable_format:number_highlighted_sections;keywords:frequency;keywords:existence,0,0,3,limit,32768,0
+R-MLP-early,second,ifeval_1381,length_constraints:number_sentences,1,1,1,eos,1788,1
+R-MLP-early,second,ifeval_1389,change_case:english_capital;keywords:letter_frequency,0,0,2,limit,32768,0
+R-MLP-early,second,ifeval_1392,detectable_format:title;length_constraints:number_sentences;length_constraints:number_words,0,0,3,loop_abbruch,4096,0
+R-MLP-early,second,ifeval_1393,keywords:frequency,0,0,1,loop_abbruch,5632,0
+R-MLP-early,second,ifeval_1402,keywords:letter_frequency;keywords:forbidden_words,0,0,2,limit,32768,0
+R-MLP-early,second,ifeval_1418,punctuation:no_comma;length_constraints:number_sentences;length_constraints:number_sentences,0,0,3,limit,32768,0
+R-MLP-early,second,ifeval_142,startend:quotation;keywords:frequency;keywords:existence,0,0,3,loop_abbruch,4096,0
+R-MLP-early,second,ifeval_143,length_constraints:number_paragraphs;detectable_content:postscript,0,1,2,eos,2836,1
+R-MLP-early,second,ifeval_1436,change_case:english_lowercase;keywords:forbidden_words,0,0,2,loop_abbruch,4096,0
+R-MLP-early,second,ifeval_1446,startend:end_checker,0,0,1,loop_abbruch,4096,0
+R-MLP-early,second,ifeval_1466,startend:quotation;keywords:forbidden_words,0,0,2,loop_abbruch,4096,0
+R-MLP-early,second,ifeval_1476,keywords:forbidden_words;length_constraints:number_sentences,1,2,2,eos,3100,1
+R-MLP-early,second,ifeval_1477,language:response_language,1,1,1,eos,5482,1
+R-MLP-early,second,ifeval_1480,combination:repeat_prompt,0,0,1,limit,32768,0
+R-MLP-early,second,ifeval_1481,detectable_format:multiple_sections;detectable_format:number_bullet_lists,0,0,2,loop_abbruch,4352,0
+R-MLP-early,second,ifeval_1498,keywords:frequency,0,0,1,eos,6035,1
+R-MLP-early,second,ifeval_1508,keywords:existence;punctuation:no_comma,0,0,2,loop_abbruch,4096,0
+R-MLP-early,second,ifeval_1512,detectable_content:number_placeholders;punctuation:no_comma,0,0,2,loop_abbruch,4096,0
+R-MLP-early,second,ifeval_1516,change_case:english_lowercase;keywords:existence,0,0,2,limit,32768,0
+R-MLP-early,second,ifeval_1518,combination:repeat_prompt,1,1,1,eos,2290,1
+R-MLP-early,second,ifeval_152,change_case:english_lowercase;length_constraints:number_words,0,0,2,loop_abbruch,4096,0
+R-MLP-early,second,ifeval_1531,keywords:existence,1,1,1,eos,2776,1
+R-MLP-early,second,ifeval_1535,change_case:english_lowercase;length_constraints:number_sentences,0,0,2,limit,32768,0
+R-MLP-early,second,ifeval_1537,detectable_content:postscript,0,0,1,loop_abbruch,4608,0
+R-MLP-early,second,ifeval_1546,combination:repeat_prompt;punctuation:no_comma,0,0,2,loop_abbruch,4096,0
+R-MLP-early,second,ifeval_1548,detectable_format:multiple_sections,1,1,1,eos,1093,1
+R-MLP-early,second,ifeval_1551,detectable_format:title,1,1,1,eos,3000,1
+R-MLP-early,second,ifeval_1561,combination:repeat_prompt;detectable_format:title,0,0,2,loop_abbruch,6912,0
+R-MLP-early,second,ifeval_1566,change_case:english_capital,0,0,1,loop_abbruch,5376,0
+R-MLP-early,second,ifeval_1571,keywords:frequency;change_case:english_lowercase;keywords:existence,0,1,3,eos,1796,1
+R-MLP-early,second,ifeval_1580,keywords:forbidden_words,0,0,1,loop_abbruch,4096,0
+R-MLP-early,second,ifeval_1582,combination:two_responses;language:response_language;punctuation:no_comma,0,0,3,limit,32768,0
+R-MLP-early,second,ifeval_1591,combination:two_responses,0,0,1,loop_abbruch,4608,0
+R-MLP-early,second,ifeval_1592,change_case:capital_word_frequency,1,1,1,eos,6032,1
+R-MLP-early,second,ifeval_1593,change_case:english_lowercase,1,1,1,eos,953,1
+R-MLP-early,second,ifeval_16,detectable_format:title;combination:repeat_prompt,0,0,2,loop_abbruch,4096,0
+R-MLP-early,second,ifeval_1601,detectable_format:number_highlighted_sections;length_constraints:number_words,0,0,2,limit,32768,0
+R-MLP-early,second,ifeval_1609,length_constraints:nth_paragraph_first_word;startend:quotation,0,0,2,loop_abbruch,4096,0
+R-MLP-early,second,ifeval_1619,detectable_content:postscript;detectable_content:number_placeholders,0,0,2,loop_abbruch,5632,0
+R-MLP-early,second,ifeval_1620,detectable_content:postscript,1,1,1,eos,859,1
+R-MLP-early,second,ifeval_1627,combination:repeat_prompt;detectable_format:title;punctuation:no_comma,0,0,3,limit,32768,0
+R-MLP-early,second,ifeval_1629,keywords:forbidden_words,0,0,1,eos,4814,1
+R-MLP-early,second,ifeval_163,startend:quotation;keywords:letter_frequency,0,0,2,loop_abbruch,4096,0
+R-MLP-early,second,ifeval_1634,detectable_format:number_bullet_lists,1,1,1,eos,2149,1
+R-MLP-early,second,ifeval_164,length_constraints:number_words,1,1,1,eos,1095,1
+R-MLP-late,second,ifeval_1000,punctuation:no_comma;detectable_format:number_highlighted_sections;length_constraints:number_words,0,0,3,eos,465,1
+R-MLP-late,second,ifeval_1001,punctuation:no_comma,1,1,1,eos,2285,1
+R-MLP-late,second,ifeval_1005,detectable_content:number_placeholders,1,1,1,eos,1326,1
+R-MLP-late,second,ifeval_1012,combination:repeat_prompt;detectable_format:title,0,1,2,eos,2421,1
+R-MLP-late,second,ifeval_1019,change_case:english_lowercase,0,0,1,loop_abbruch,4096,0
+R-MLP-late,second,ifeval_102,detectable_format:number_bullet_lists,1,1,1,eos,693,1
+R-MLP-late,second,ifeval_1021,change_case:english_capital;detectable_format:multiple_sections,0,0,2,eos,2427,1
+R-MLP-late,second,ifeval_1040,change_case:capital_word_frequency;change_case:capital_word_frequency;startend:quotation,0,0,3,loop_abbruch,4096,0
+R-MLP-late,second,ifeval_1051,change_case:english_lowercase,1,1,1,eos,582,1
+R-MLP-late,second,ifeval_1069,keywords:existence;length_constraints:number_words;punctuation:no_comma,0,0,3,eos,750,1
+R-MLP-late,second,ifeval_1072,length_constraints:number_words,1,1,1,eos,895,1
+R-MLP-late,second,ifeval_1075,detectable_format:json_format,1,1,1,eos,2818,1
+R-MLP-late,second,ifeval_1082,length_constraints:number_paragraphs,1,1,1,eos,2146,1
+R-MLP-late,second,ifeval_1087,change_case:english_lowercase,1,1,1,eos,532,1
+R-MLP-late,second,ifeval_1092,length_constraints:number_words,1,1,1,eos,701,1
+R-MLP-late,second,ifeval_1094,detectable_format:json_format,0,0,1,limit,32768,0
+R-MLP-late,second,ifeval_1098,combination:two_responses,1,1,1,eos,981,1
+R-MLP-late,second,ifeval_1107,punctuation:no_comma;combination:two_responses,1,2,2,eos,3417,1
+R-MLP-late,second,ifeval_1108,language:response_language,0,0,1,eos,2152,1
+R-MLP-late,second,ifeval_1122,change_case:english_lowercase;keywords:letter_frequency,0,0,2,eos,2501,1
+R-MLP-late,second,ifeval_1127,detectable_format:multiple_sections;startend:end_checker,0,0,2,limit,32768,0
+R-MLP-late,second,ifeval_1128,startend:end_checker,1,1,1,eos,276,1
+R-MLP-late,second,ifeval_1129,keywords:letter_frequency;combination:repeat_prompt,0,0,2,limit,32768,0
+R-MLP-late,second,ifeval_1130,keywords:letter_frequency,0,0,1,loop_abbruch,7168,0
+R-MLP-late,second,ifeval_1131,detectable_format:multiple_sections,1,1,1,eos,4488,1
+R-MLP-late,second,ifeval_1132,change_case:english_capital;keywords:forbidden_words,0,0,2,limit,32768,0
+R-MLP-late,second,ifeval_1137,detectable_format:json_format;keywords:forbidden_words,0,1,2,eos,565,1
+R-MLP-late,second,ifeval_1139,combination:repeat_prompt;keywords:existence,1,2,2,eos,794,1
+R-MLP-late,second,ifeval_1147,keywords:forbidden_words,0,0,1,limit,32768,0
+R-MLP-late,second,ifeval_1148,detectable_format:json_format,1,1,1,eos,314,1
+R-MLP-late,second,ifeval_1153,change_case:english_lowercase;keywords:frequency,0,0,2,limit,32768,0
+R-MLP-late,second,ifeval_1154,language:response_language,0,0,1,eos,3623,1
+R-MLP-late,second,ifeval_1162,punctuation:no_comma,0,0,1,limit,32768,0
+R-MLP-late,second,ifeval_1174,keywords:letter_frequency;length_constraints:number_sentences;detectable_format:number_highlighted_sections,0,0,3,loop_abbruch,4096,0
+R-MLP-late,second,ifeval_1180,combination:two_responses;detectable_format:title,1,2,2,eos,3355,1
+R-MLP-late,second,ifeval_1187,punctuation:no_comma,1,1,1,eos,716,1
+R-MLP-late,second,ifeval_1203,keywords:frequency;keywords:frequency,0,0,2,eos,779,1
+R-MLP-late,second,ifeval_1216,startend:quotation;length_constraints:number_words,0,0,2,eos,1203,1
+R-MLP-late,second,ifeval_1217,length_constraints:number_words,1,1,1,eos,3993,1
+R-MLP-late,second,ifeval_1219,change_case:english_capital;detectable_content:postscript;keywords:frequency,0,2,3,eos,425,1
+R-MLP-late,second,ifeval_122,startend:quotation,1,1,1,eos,661,1
+R-MLP-late,second,ifeval_1220,startend:end_checker,1,1,1,eos,3577,1
+R-MLP-late,second,ifeval_1233,startend:end_checker;keywords:frequency,0,0,2,limit,32768,0
+R-MLP-late,second,ifeval_1236,length_constraints:number_paragraphs,0,0,1,eos,2751,1
+R-MLP-late,second,ifeval_1237,detectable_format:number_highlighted_sections;keywords:existence,1,2,2,eos,554,1
+R-MLP-late,second,ifeval_1242,detectable_format:json_format;keywords:forbidden_words,0,1,2,eos,490,1
+R-MLP-late,second,ifeval_1246,detectable_content:postscript,1,1,1,eos,432,1
+R-MLP-late,second,ifeval_1248,length_constraints:number_paragraphs,0,0,1,eos,722,1
+R-MLP-late,second,ifeval_1251,length_constraints:number_words,1,1,1,eos,989,1
+R-MLP-late,second,ifeval_1258,length_constraints:number_words,1,1,1,eos,1356,1
+R-MLP-late,second,ifeval_1259,language:response_language,0,0,1,eos,2339,1
+R-MLP-late,second,ifeval_1262,detectable_format:title;length_constraints:number_sentences,1,2,2,eos,932,1
+R-MLP-late,second,ifeval_1265,keywords:existence;length_constraints:number_sentences,1,2,2,eos,6800,1
+R-MLP-late,second,ifeval_1268,length_constraints:number_sentences,1,1,1,eos,1138,1
+R-MLP-late,second,ifeval_127,keywords:forbidden_words;keywords:frequency,1,2,2,eos,860,1
+R-MLP-late,second,ifeval_1281,combination:repeat_prompt;keywords:existence,1,2,2,limit,32768,1
+R-MLP-late,second,ifeval_1286,detectable_format:number_bullet_lists,1,1,1,eos,1808,1
+R-MLP-late,second,ifeval_1287,detectable_format:number_bullet_lists;change_case:english_lowercase,0,1,2,eos,1767,1
+R-MLP-late,second,ifeval_13,detectable_format:json_format,1,1,1,eos,1009,1
+R-MLP-late,second,ifeval_1300,punctuation:no_comma;keywords:letter_frequency;length_constraints:number_words,0,0,3,loop_abbruch,4096,0
+R-MLP-late,second,ifeval_1305,detectable_content:postscript;detectable_format:number_bullet_lists,1,2,2,eos,776,1
+R-MLP-late,second,ifeval_1307,detectable_format:number_highlighted_sections,1,1,1,eos,745,1
+R-MLP-late,second,ifeval_1314,change_case:capital_word_frequency;change_case:capital_word_frequency,0,0,2,limit,32768,0
+R-MLP-late,second,ifeval_1322,detectable_format:title,1,1,1,eos,479,1
+R-MLP-late,second,ifeval_1325,startend:quotation;detectable_format:number_bullet_lists,0,0,2,eos,990,1
+R-MLP-late,second,ifeval_1332,combination:two_responses,0,0,1,limit,32768,0
+R-MLP-late,second,ifeval_1342,keywords:frequency;detectable_format:number_highlighted_sections;length_constraints:number_paragraphs,0,2,3,eos,1156,1
+R-MLP-late,second,ifeval_1348,punctuation:no_comma;detectable_format:number_highlighted_sections;keywords:existence,0,2,3,eos,1335,1
+R-MLP-late,second,ifeval_136,detectable_format:number_bullet_lists;length_constraints:number_words,1,2,2,eos,2277,1
+R-MLP-late,second,ifeval_1361,change_case:english_lowercase,0,0,1,limit,32768,0
+R-MLP-late,second,ifeval_1367,detectable_content:postscript,1,1,1,eos,646,1
+R-MLP-late,second,ifeval_1372,detectable_content:number_placeholders,1,1,1,eos,866,1
+R-MLP-late,second,ifeval_1375,length_constraints:number_paragraphs;keywords:existence,0,0,2,limit,32768,0
+R-MLP-late,second,ifeval_1377,length_constraints:number_paragraphs,0,0,1,eos,703,1
+R-MLP-late,second,ifeval_1379,detectable_format:number_highlighted_sections;keywords:frequency;keywords:existence,0,0,3,limit,32768,0
+R-MLP-late,second,ifeval_1381,length_constraints:number_sentences,0,0,1,eos,470,1
+R-MLP-late,second,ifeval_1389,change_case:english_capital;keywords:letter_frequency,0,0,2,eos,732,1
+R-MLP-late,second,ifeval_1392,detectable_format:title;length_constraints:number_sentences;length_constraints:number_words,0,0,3,limit,32768,0
+R-MLP-late,second,ifeval_1393,keywords:frequency,0,0,1,eos,761,1
+R-MLP-late,second,ifeval_1402,keywords:letter_frequency;keywords:forbidden_words,0,0,2,loop_abbruch,4352,0
+R-MLP-late,second,ifeval_1418,punctuation:no_comma;length_constraints:number_sentences;length_constraints:number_sentences,1,3,3,eos,3279,1
+R-MLP-late,second,ifeval_142,startend:quotation;keywords:frequency;keywords:existence,1,3,3,eos,1803,1
+R-MLP-late,second,ifeval_143,length_constraints:number_paragraphs;detectable_content:postscript,0,0,2,limit,32768,0
+R-MLP-late,second,ifeval_1436,change_case:english_lowercase;keywords:forbidden_words,0,0,2,limit,32768,0
+R-MLP-late,second,ifeval_1446,startend:end_checker,1,1,1,eos,550,1
+R-MLP-late,second,ifeval_1466,startend:quotation;keywords:forbidden_words,0,0,2,loop_abbruch,4096,0
+R-MLP-late,second,ifeval_1476,keywords:forbidden_words;length_constraints:number_sentences,1,2,2,eos,1016,1
+R-MLP-late,second,ifeval_1477,language:response_language,0,0,1,loop_abbruch,4096,0
+R-MLP-late,second,ifeval_1480,combination:repeat_prompt,0,0,1,limit,32768,0
+R-MLP-late,second,ifeval_1481,detectable_format:multiple_sections;detectable_format:number_bullet_lists,1,2,2,eos,2786,1
+R-MLP-late,second,ifeval_1498,keywords:frequency,0,0,1,eos,652,1
+R-MLP-late,second,ifeval_1508,keywords:existence;punctuation:no_comma,0,0,2,eos,934,1
+R-MLP-late,second,ifeval_1512,detectable_content:number_placeholders;punctuation:no_comma,1,2,2,eos,465,1
+R-MLP-late,second,ifeval_1516,change_case:english_lowercase;keywords:existence,0,0,2,loop_abbruch,4096,0
+R-MLP-late,second,ifeval_1518,combination:repeat_prompt,0,0,1,eos,533,1
+R-MLP-late,second,ifeval_152,change_case:english_lowercase;length_constraints:number_words,0,0,2,loop_abbruch,4096,0
+R-MLP-late,second,ifeval_1531,keywords:existence,0,0,1,eos,1086,1
+R-MLP-late,second,ifeval_1535,change_case:english_lowercase;length_constraints:number_sentences,0,1,2,eos,910,1
+R-MLP-late,second,ifeval_1537,detectable_content:postscript,0,0,1,loop_abbruch,21248,0
+R-MLP-late,second,ifeval_1546,combination:repeat_prompt;punctuation:no_comma,1,2,2,eos,5753,1
+R-MLP-late,second,ifeval_1548,detectable_format:multiple_sections,1,1,1,eos,1202,1
+R-MLP-late,second,ifeval_1551,detectable_format:title,1,1,1,eos,4532,1
+R-MLP-late,second,ifeval_1561,combination:repeat_prompt;detectable_format:title,0,0,2,loop_abbruch,4096,0
+R-MLP-late,second,ifeval_1566,change_case:english_capital,0,0,1,loop_abbruch,4096,0
+R-MLP-late,second,ifeval_1571,keywords:frequency;change_case:english_lowercase;keywords:existence,0,0,3,limit,32768,0
+R-MLP-late,second,ifeval_1580,keywords:forbidden_words,1,1,1,eos,2307,1
+R-MLP-late,second,ifeval_1582,combination:two_responses;language:response_language;punctuation:no_comma,0,0,3,limit,32768,0
+R-MLP-late,second,ifeval_1591,combination:two_responses,0,0,1,limit,32768,0
+R-MLP-late,second,ifeval_1592,change_case:capital_word_frequency,0,0,1,loop_abbruch,4096,0
+R-MLP-late,second,ifeval_1593,change_case:english_lowercase,0,0,1,loop_abbruch,4608,0
+R-MLP-late,second,ifeval_16,detectable_format:title;combination:repeat_prompt,0,0,2,limit,32768,0
+R-MLP-late,second,ifeval_1601,detectable_format:number_highlighted_sections;length_constraints:number_words,1,2,2,eos,1700,1
+R-MLP-late,second,ifeval_1609,length_constraints:nth_paragraph_first_word;startend:quotation,1,2,2,eos,4266,1
+R-MLP-late,second,ifeval_1619,detectable_content:postscript;detectable_content:number_placeholders,1,2,2,eos,803,1
+R-MLP-late,second,ifeval_1620,detectable_content:postscript,1,1,1,eos,610,1
+R-MLP-late,second,ifeval_1627,combination:repeat_prompt;detectable_format:title;punctuation:no_comma,0,2,3,eos,3161,1
+R-MLP-late,second,ifeval_1629,keywords:forbidden_words,0,0,1,eos,719,1
+R-MLP-late,second,ifeval_163,startend:quotation;keywords:letter_frequency,0,0,2,limit,32768,0
+R-MLP-late,second,ifeval_1634,detectable_format:number_bullet_lists,1,1,1,eos,1074,1
+R-MLP-late,second,ifeval_164,length_constraints:number_words,1,1,1,eos,405,1
+base + unedited MLP λ = 1,first,ifeval_1000,punctuation:no_comma;detectable_format:number_highlighted_sections;length_constraints:number_words,0,2,3,eos,3135,1
+base + unedited MLP λ = 1,first,ifeval_1001,punctuation:no_comma,0,0,1,eos,5849,1
+base + unedited MLP λ = 1,first,ifeval_1005,detectable_content:number_placeholders,1,1,1,eos,1613,1
+base + unedited MLP λ = 1,first,ifeval_1012,combination:repeat_prompt;detectable_format:title,0,1,2,eos,1629,1
+base + unedited MLP λ = 1,first,ifeval_1019,change_case:english_lowercase,1,1,1,eos,366,1
+base + unedited MLP λ = 1,first,ifeval_102,detectable_format:number_bullet_lists,1,1,1,eos,1576,1
+base + unedited MLP λ = 1,first,ifeval_1021,change_case:english_capital;detectable_format:multiple_sections,0,0,2,eos,1959,1
+base + unedited MLP λ = 1,first,ifeval_1040,change_case:capital_word_frequency;change_case:capital_word_frequency;startend:quotation,0,0,3,loop_abbruch,4096,0
+base + unedited MLP λ = 1,first,ifeval_1051,change_case:english_lowercase,1,1,1,eos,1011,1
+base + unedited MLP λ = 1,first,ifeval_1069,keywords:existence;length_constraints:number_words;punctuation:no_comma,0,0,3,eos,3755,1
+base + unedited MLP λ = 1,first,ifeval_1072,length_constraints:number_words,1,1,1,eos,1530,1
+base + unedited MLP λ = 1,first,ifeval_1075,detectable_format:json_format,0,0,1,eos,507,1
+base + unedited MLP λ = 1,first,ifeval_1082,length_constraints:number_paragraphs,0,0,1,eos,921,1
+base + unedited MLP λ = 1,first,ifeval_1087,change_case:english_lowercase,0,0,1,loop_abbruch,4096,0
+base + unedited MLP λ = 1,first,ifeval_1092,length_constraints:number_words,1,1,1,eos,1025,1
+base + unedited MLP λ = 1,first,ifeval_1094,detectable_format:json_format,0,0,1,loop_abbruch,4096,0
+base + unedited MLP λ = 1,first,ifeval_1098,combination:two_responses,0,0,1,eos,1116,1
+base + unedited MLP λ = 1,first,ifeval_1107,punctuation:no_comma;combination:two_responses,0,1,2,eos,1024,1
+base + unedited MLP λ = 1,first,ifeval_1108,language:response_language,1,1,1,eos,687,1
+base + unedited MLP λ = 1,first,ifeval_1122,change_case:english_lowercase;keywords:letter_frequency,0,0,2,loop_abbruch,4096,0
+base + unedited MLP λ = 1,first,ifeval_1127,detectable_format:multiple_sections;startend:end_checker,0,0,2,loop_abbruch,7424,0
+base + unedited MLP λ = 1,first,ifeval_1128,startend:end_checker,1,1,1,eos,1040,1
+base + unedited MLP λ = 1,first,ifeval_1129,keywords:letter_frequency;combination:repeat_prompt,0,1,2,eos,4431,1
+base + unedited MLP λ = 1,first,ifeval_1130,keywords:letter_frequency,0,0,1,limit,32768,0
+base + unedited MLP λ = 1,first,ifeval_1131,detectable_format:multiple_sections,0,0,1,eos,884,1
+base + unedited MLP λ = 1,first,ifeval_1132,change_case:english_capital;keywords:forbidden_words,1,2,2,eos,1220,1
+base + unedited MLP λ = 1,first,ifeval_1137,detectable_format:json_format;keywords:forbidden_words,0,1,2,eos,1281,1
+base + unedited MLP λ = 1,first,ifeval_1139,combination:repeat_prompt;keywords:existence,0,0,2,loop_abbruch,4096,0
+base + unedited MLP λ = 1,first,ifeval_1147,keywords:forbidden_words,1,1,1,eos,2250,1
+base + unedited MLP λ = 1,first,ifeval_1148,detectable_format:json_format,1,1,1,eos,534,1
+base + unedited MLP λ = 1,first,ifeval_1153,change_case:english_lowercase;keywords:frequency,1,2,2,eos,1651,1
+base + unedited MLP λ = 1,first,ifeval_1154,language:response_language,0,0,1,eos,2811,1
+base + unedited MLP λ = 1,first,ifeval_1162,punctuation:no_comma,1,1,1,eos,4169,1
+base + unedited MLP λ = 1,first,ifeval_1174,keywords:letter_frequency;length_constraints:number_sentences;detectable_format:number_highlighted_sections,0,1,3,eos,4478,1
+base + unedited MLP λ = 1,first,ifeval_1180,combination:two_responses;detectable_format:title,1,2,2,eos,1461,1
+base + unedited MLP λ = 1,first,ifeval_1187,punctuation:no_comma,0,0,1,loop_abbruch,4096,0
+base + unedited MLP λ = 1,first,ifeval_1203,keywords:frequency;keywords:frequency,0,0,2,eos,337,1
+base + unedited MLP λ = 1,first,ifeval_1216,startend:quotation;length_constraints:number_words,0,1,2,eos,1436,1
+base + unedited MLP λ = 1,first,ifeval_1217,length_constraints:number_words,1,1,1,eos,1329,1
+base + unedited MLP λ = 1,first,ifeval_1219,change_case:english_capital;detectable_content:postscript;keywords:frequency,0,0,3,loop_abbruch,4096,0
+base + unedited MLP λ = 1,first,ifeval_122,startend:quotation,0,0,1,eos,1407,1
+base + unedited MLP λ = 1,first,ifeval_1220,startend:end_checker,1,1,1,eos,1215,1
+base + unedited MLP λ = 1,first,ifeval_1233,startend:end_checker;keywords:frequency,0,1,2,eos,1260,1
+base + unedited MLP λ = 1,first,ifeval_1236,length_constraints:number_paragraphs,1,1,1,eos,831,1
+base + unedited MLP λ = 1,first,ifeval_1237,detectable_format:number_highlighted_sections;keywords:existence,0,1,2,eos,1823,1
+base + unedited MLP λ = 1,first,ifeval_1242,detectable_format:json_format;keywords:forbidden_words,1,2,2,eos,1277,1
+base + unedited MLP λ = 1,first,ifeval_1246,detectable_content:postscript,1,1,1,eos,775,1
+base + unedited MLP λ = 1,first,ifeval_1248,length_constraints:number_paragraphs,1,1,1,eos,1071,1
+base + unedited MLP λ = 1,first,ifeval_1251,length_constraints:number_words,1,1,1,eos,1273,1
+base + unedited MLP λ = 1,first,ifeval_1258,length_constraints:number_words,1,1,1,eos,977,1
+base + unedited MLP λ = 1,first,ifeval_1259,language:response_language,1,1,1,eos,1382,1
+base + unedited MLP λ = 1,first,ifeval_1262,detectable_format:title;length_constraints:number_sentences,1,2,2,eos,673,1
+base + unedited MLP λ = 1,first,ifeval_1265,keywords:existence;length_constraints:number_sentences,0,1,2,eos,4460,1
+base + unedited MLP λ = 1,first,ifeval_1268,length_constraints:number_sentences,0,0,1,eos,687,1
+base + unedited MLP λ = 1,first,ifeval_127,keywords:forbidden_words;keywords:frequency,0,0,2,eos,3037,1
+base + unedited MLP λ = 1,first,ifeval_1281,combination:repeat_prompt;keywords:existence,0,0,2,limit,32768,0
+base + unedited MLP λ = 1,first,ifeval_1286,detectable_format:number_bullet_lists,1,1,1,eos,2031,1
+base + unedited MLP λ = 1,first,ifeval_1287,detectable_format:number_bullet_lists;change_case:english_lowercase,1,2,2,eos,898,1
+base + unedited MLP λ = 1,first,ifeval_13,detectable_format:json_format,1,1,1,eos,754,1
+base + unedited MLP λ = 1,first,ifeval_1300,punctuation:no_comma;keywords:letter_frequency;length_constraints:number_words,0,0,3,loop_abbruch,4096,0
+base + unedited MLP λ = 1,first,ifeval_1305,detectable_content:postscript;detectable_format:number_bullet_lists,0,1,2,eos,708,1
+base + unedited MLP λ = 1,first,ifeval_1307,detectable_format:number_highlighted_sections,0,0,1,eos,1411,1
+base + unedited MLP λ = 1,first,ifeval_1314,change_case:capital_word_frequency;change_case:capital_word_frequency,0,0,2,limit,32768,0
+base + unedited MLP λ = 1,first,ifeval_1322,detectable_format:title,1,1,1,eos,497,1
+base + unedited MLP λ = 1,first,ifeval_1325,startend:quotation;detectable_format:number_bullet_lists,0,0,2,eos,1564,1
+base + unedited MLP λ = 1,first,ifeval_1332,combination:two_responses,0,0,1,eos,578,1
+base + unedited MLP λ = 1,first,ifeval_1342,keywords:frequency;detectable_format:number_highlighted_sections;length_constraints:number_paragraphs,0,1,3,eos,1936,1
+base + unedited MLP λ = 1,first,ifeval_1348,punctuation:no_comma;detectable_format:number_highlighted_sections;keywords:existence,0,1,3,eos,944,1
+base + unedited MLP λ = 1,first,ifeval_136,detectable_format:number_bullet_lists;length_constraints:number_words,1,2,2,eos,2626,1
+base + unedited MLP λ = 1,first,ifeval_1361,change_case:english_lowercase,1,1,1,eos,2560,1
+base + unedited MLP λ = 1,first,ifeval_1367,detectable_content:postscript,1,1,1,eos,2455,1
+base + unedited MLP λ = 1,first,ifeval_1372,detectable_content:number_placeholders,1,1,1,eos,1932,1
+base + unedited MLP λ = 1,first,ifeval_1375,length_constraints:number_paragraphs;keywords:existence,0,1,2,eos,948,1
+base + unedited MLP λ = 1,first,ifeval_1377,length_constraints:number_paragraphs,0,0,1,eos,1061,1
+base + unedited MLP λ = 1,first,ifeval_1379,detectable_format:number_highlighted_sections;keywords:frequency;keywords:existence,1,3,3,eos,1460,1
+base + unedited MLP λ = 1,first,ifeval_1381,length_constraints:number_sentences,0,0,1,eos,1276,1
+base + unedited MLP λ = 1,first,ifeval_1389,change_case:english_capital;keywords:letter_frequency,0,0,2,limit,32768,0
+base + unedited MLP λ = 1,first,ifeval_1392,detectable_format:title;length_constraints:number_sentences;length_constraints:number_words,0,2,3,eos,4476,1
+base + unedited MLP λ = 1,first,ifeval_1393,keywords:frequency,1,1,1,eos,1124,1
+base + unedited MLP λ = 1,first,ifeval_1402,keywords:letter_frequency;keywords:forbidden_words,1,2,2,eos,6821,1
+base + unedited MLP λ = 1,first,ifeval_1418,punctuation:no_comma;length_constraints:number_sentences;length_constraints:number_sentences,1,3,3,eos,2128,1
+base + unedited MLP λ = 1,first,ifeval_142,startend:quotation;keywords:frequency;keywords:existence,0,0,3,limit,32768,0
+base + unedited MLP λ = 1,first,ifeval_143,length_constraints:number_paragraphs;detectable_content:postscript,1,2,2,eos,1213,1
+base + unedited MLP λ = 1,first,ifeval_1436,change_case:english_lowercase;keywords:forbidden_words,0,0,2,loop_abbruch,4608,0
+base + unedited MLP λ = 1,first,ifeval_1446,startend:end_checker,1,1,1,eos,1726,1
+base + unedited MLP λ = 1,first,ifeval_1466,startend:quotation;keywords:forbidden_words,0,0,2,loop_abbruch,4608,0
+base + unedited MLP λ = 1,first,ifeval_1476,keywords:forbidden_words;length_constraints:number_sentences,1,2,2,eos,6737,1
+base + unedited MLP λ = 1,first,ifeval_1477,language:response_language,1,1,1,eos,1587,1
+base + unedited MLP λ = 1,first,ifeval_1480,combination:repeat_prompt,1,1,1,eos,4354,1
+base + unedited MLP λ = 1,first,ifeval_1481,detectable_format:multiple_sections;detectable_format:number_bullet_lists,0,1,2,eos,2676,1
+base + unedited MLP λ = 1,first,ifeval_1498,keywords:frequency,0,0,1,eos,29489,1
+base + unedited MLP λ = 1,first,ifeval_1508,keywords:existence;punctuation:no_comma,0,0,2,eos,874,1
+base + unedited MLP λ = 1,first,ifeval_1512,detectable_content:number_placeholders;punctuation:no_comma,0,0,2,eos,2876,1
+base + unedited MLP λ = 1,first,ifeval_1516,change_case:english_lowercase;keywords:existence,0,0,2,loop_abbruch,4096,0
+base + unedited MLP λ = 1,first,ifeval_1518,combination:repeat_prompt,1,1,1,eos,1656,1
+base + unedited MLP λ = 1,first,ifeval_152,change_case:english_lowercase;length_constraints:number_words,0,0,2,eos,4120,1
+base + unedited MLP λ = 1,first,ifeval_1531,keywords:existence,0,0,1,eos,1387,1
+base + unedited MLP λ = 1,first,ifeval_1535,change_case:english_lowercase;length_constraints:number_sentences,0,0,2,loop_abbruch,4096,0
+base + unedited MLP λ = 1,first,ifeval_1537,detectable_content:postscript,1,1,1,eos,1239,1
+base + unedited MLP λ = 1,first,ifeval_1546,combination:repeat_prompt;punctuation:no_comma,0,0,2,eos,2268,1
+base + unedited MLP λ = 1,first,ifeval_1548,detectable_format:multiple_sections,1,1,1,eos,1017,1
+base + unedited MLP λ = 1,first,ifeval_1551,detectable_format:title,1,1,1,eos,824,1
+base + unedited MLP λ = 1,first,ifeval_1561,combination:repeat_prompt;detectable_format:title,0,0,2,limit,32768,0
+base + unedited MLP λ = 1,first,ifeval_1566,change_case:english_capital,0,0,1,eos,1991,1
+base + unedited MLP λ = 1,first,ifeval_1571,keywords:frequency;change_case:english_lowercase;keywords:existence,0,1,3,eos,2199,1
+base + unedited MLP λ = 1,first,ifeval_1580,keywords:forbidden_words,0,0,1,loop_abbruch,4096,0
+base + unedited MLP λ = 1,first,ifeval_1582,combination:two_responses;language:response_language;punctuation:no_comma,0,2,3,eos,2147,1
+base + unedited MLP λ = 1,first,ifeval_1591,combination:two_responses,0,0,1,eos,1204,1
+base + unedited MLP λ = 1,first,ifeval_1592,change_case:capital_word_frequency,1,1,1,eos,2714,1
+base + unedited MLP λ = 1,first,ifeval_1593,change_case:english_lowercase,1,1,1,eos,1643,1
+base + unedited MLP λ = 1,first,ifeval_16,detectable_format:title;combination:repeat_prompt,1,2,2,eos,1934,1
+base + unedited MLP λ = 1,first,ifeval_1601,detectable_format:number_highlighted_sections;length_constraints:number_words,0,1,2,eos,1201,1
+base + unedited MLP λ = 1,first,ifeval_1609,length_constraints:nth_paragraph_first_word;startend:quotation,1,2,2,eos,1588,1
+base + unedited MLP λ = 1,first,ifeval_1619,detectable_content:postscript;detectable_content:number_placeholders,1,2,2,eos,4448,1
+base + unedited MLP λ = 1,first,ifeval_1620,detectable_content:postscript,1,1,1,eos,776,1
+base + unedited MLP λ = 1,first,ifeval_1627,combination:repeat_prompt;detectable_format:title;punctuation:no_comma,0,1,3,eos,1277,1
+base + unedited MLP λ = 1,first,ifeval_1629,keywords:forbidden_words,0,0,1,loop_abbruch,4096,0
+base + unedited MLP λ = 1,first,ifeval_163,startend:quotation;keywords:letter_frequency,1,2,2,eos,4464,1
+base + unedited MLP λ = 1,first,ifeval_1634,detectable_format:number_bullet_lists,1,1,1,eos,781,1
+base + unedited MLP λ = 1,first,ifeval_164,length_constraints:number_words,1,1,1,eos,1111,1
+base + unedited MLP λ = 0.75,first,ifeval_1000,punctuation:no_comma;detectable_format:number_highlighted_sections;length_constraints:number_words,0,1,3,eos,396,1
+base + unedited MLP λ = 0.75,first,ifeval_1001,punctuation:no_comma,0,0,1,eos,664,1
+base + unedited MLP λ = 0.75,first,ifeval_1005,detectable_content:number_placeholders,1,1,1,eos,540,1
+base + unedited MLP λ = 0.75,first,ifeval_1012,combination:repeat_prompt;detectable_format:title,0,1,2,eos,1266,1
+base + unedited MLP λ = 0.75,first,ifeval_1019,change_case:english_lowercase,1,1,1,eos,854,1
+base + unedited MLP λ = 0.75,first,ifeval_102,detectable_format:number_bullet_lists,1,1,1,eos,614,1
+base + unedited MLP λ = 0.75,first,ifeval_1021,change_case:english_capital;detectable_format:multiple_sections,0,0,2,eos,808,1
+base + unedited MLP λ = 0.75,first,ifeval_1040,change_case:capital_word_frequency;change_case:capital_word_frequency;startend:quotation,0,2,3,eos,2015,1
+base + unedited MLP λ = 0.75,first,ifeval_1051,change_case:english_lowercase,0,0,1,eos,240,1
+base + unedited MLP λ = 0.75,first,ifeval_1069,keywords:existence;length_constraints:number_words;punctuation:no_comma,0,0,3,eos,606,1
+base + unedited MLP λ = 0.75,first,ifeval_1072,length_constraints:number_words,1,1,1,eos,683,1
+base + unedited MLP λ = 0.75,first,ifeval_1075,detectable_format:json_format,1,1,1,eos,708,1
+base + unedited MLP λ = 0.75,first,ifeval_1082,length_constraints:number_paragraphs,1,1,1,eos,868,1
+base + unedited MLP λ = 0.75,first,ifeval_1087,change_case:english_lowercase,0,0,1,eos,490,1
+base + unedited MLP λ = 0.75,first,ifeval_1092,length_constraints:number_words,1,1,1,eos,479,1
+base + unedited MLP λ = 0.75,first,ifeval_1094,detectable_format:json_format,1,1,1,eos,655,1
+base + unedited MLP λ = 0.75,first,ifeval_1098,combination:two_responses,1,1,1,eos,408,1
+base + unedited MLP λ = 0.75,first,ifeval_1107,punctuation:no_comma;combination:two_responses,0,1,2,eos,848,1
+base + unedited MLP λ = 0.75,first,ifeval_1108,language:response_language,1,1,1,eos,216,1
+base + unedited MLP λ = 0.75,first,ifeval_1122,change_case:english_lowercase;keywords:letter_frequency,0,1,2,eos,181,1
+base + unedited MLP λ = 0.75,first,ifeval_1127,detectable_format:multiple_sections;startend:end_checker,0,0,2,eos,318,1
+base + unedited MLP λ = 0.75,first,ifeval_1128,startend:end_checker,1,1,1,eos,594,1
+base + unedited MLP λ = 0.75,first,ifeval_1129,keywords:letter_frequency;combination:repeat_prompt,0,1,2,eos,923,1
+base + unedited MLP λ = 0.75,first,ifeval_1130,keywords:letter_frequency,0,0,1,eos,2233,1
+base + unedited MLP λ = 0.75,first,ifeval_1131,detectable_format:multiple_sections,0,0,1,eos,624,1
+base + unedited MLP λ = 0.75,first,ifeval_1132,change_case:english_capital;keywords:forbidden_words,0,1,2,eos,386,1
+base + unedited MLP λ = 0.75,first,ifeval_1137,detectable_format:json_format;keywords:forbidden_words,1,2,2,eos,1313,1
+base + unedited MLP λ = 0.75,first,ifeval_1139,combination:repeat_prompt;keywords:existence,0,1,2,eos,1080,1
+base + unedited MLP λ = 0.75,first,ifeval_1147,keywords:forbidden_words,0,0,1,eos,320,1
+base + unedited MLP λ = 0.75,first,ifeval_1148,detectable_format:json_format,1,1,1,eos,374,1
+base + unedited MLP λ = 0.75,first,ifeval_1153,change_case:english_lowercase;keywords:frequency,1,2,2,eos,671,1
+base + unedited MLP λ = 0.75,first,ifeval_1154,language:response_language,0,0,1,eos,1648,1
+base + unedited MLP λ = 0.75,first,ifeval_1162,punctuation:no_comma,1,1,1,eos,1516,1
+base + unedited MLP λ = 0.75,first,ifeval_1174,keywords:letter_frequency;length_constraints:number_sentences;detectable_format:number_highlighted_sections,0,2,3,eos,244,1
+base + unedited MLP λ = 0.75,first,ifeval_1180,combination:two_responses;detectable_format:title,1,2,2,eos,466,1
+base + unedited MLP λ = 0.75,first,ifeval_1187,punctuation:no_comma,0,0,1,eos,178,1
+base + unedited MLP λ = 0.75,first,ifeval_1203,keywords:frequency;keywords:frequency,0,0,2,eos,606,1
+base + unedited MLP λ = 0.75,first,ifeval_1216,startend:quotation;length_constraints:number_words,0,0,2,eos,1151,1
+base + unedited MLP λ = 0.75,first,ifeval_1217,length_constraints:number_words,1,1,1,eos,1271,1
+base + unedited MLP λ = 0.75,first,ifeval_1219,change_case:english_capital;detectable_content:postscript;keywords:frequency,0,1,3,eos,4125,1
+base + unedited MLP λ = 0.75,first,ifeval_122,startend:quotation,0,0,1,eos,685,1
+base + unedited MLP λ = 0.75,first,ifeval_1220,startend:end_checker,1,1,1,eos,378,1
+base + unedited MLP λ = 0.75,first,ifeval_1233,startend:end_checker;keywords:frequency,0,1,2,eos,6137,1
+base + unedited MLP λ = 0.75,first,ifeval_1236,length_constraints:number_paragraphs,1,1,1,eos,522,1
+base + unedited MLP λ = 0.75,first,ifeval_1237,detectable_format:number_highlighted_sections;keywords:existence,1,2,2,eos,570,1
+base + unedited MLP λ = 0.75,first,ifeval_1242,detectable_format:json_format;keywords:forbidden_words,0,1,2,eos,835,1
+base + unedited MLP λ = 0.75,first,ifeval_1246,detectable_content:postscript,1,1,1,eos,377,1
+base + unedited MLP λ = 0.75,first,ifeval_1248,length_constraints:number_paragraphs,0,0,1,eos,544,1
+base + unedited MLP λ = 0.75,first,ifeval_1251,length_constraints:number_words,1,1,1,eos,702,1
+base + unedited MLP λ = 0.75,first,ifeval_1258,length_constraints:number_words,0,0,1,eos,884,1
+base + unedited MLP λ = 0.75,first,ifeval_1259,language:response_language,0,0,1,loop_abbruch,4412,0
+base + unedited MLP λ = 0.75,first,ifeval_1262,detectable_format:title;length_constraints:number_sentences,1,2,2,eos,829,1
+base + unedited MLP λ = 0.75,first,ifeval_1265,keywords:existence;length_constraints:number_sentences,0,1,2,eos,757,1
+base + unedited MLP λ = 0.75,first,ifeval_1268,length_constraints:number_sentences,1,1,1,eos,652,1
+base + unedited MLP λ = 0.75,first,ifeval_127,keywords:forbidden_words;keywords:frequency,0,1,2,eos,624,1
+base + unedited MLP λ = 0.75,first,ifeval_1281,combination:repeat_prompt;keywords:existence,1,2,2,eos,948,1
+base + unedited MLP λ = 0.75,first,ifeval_1286,detectable_format:number_bullet_lists,1,1,1,eos,395,1
+base + unedited MLP λ = 0.75,first,ifeval_1287,detectable_format:number_bullet_lists;change_case:english_lowercase,0,1,2,eos,3160,1
+base + unedited MLP λ = 0.75,first,ifeval_13,detectable_format:json_format,1,1,1,eos,467,1
+base + unedited MLP λ = 0.75,first,ifeval_1300,punctuation:no_comma;keywords:letter_frequency;length_constraints:number_words,0,1,3,eos,582,1
+base + unedited MLP λ = 0.75,first,ifeval_1305,detectable_content:postscript;detectable_format:number_bullet_lists,0,0,2,eos,313,1
+base + unedited MLP λ = 0.75,first,ifeval_1307,detectable_format:number_highlighted_sections,1,1,1,eos,1187,1
+base + unedited MLP λ = 0.75,first,ifeval_1314,change_case:capital_word_frequency;change_case:capital_word_frequency,0,1,2,eos,1924,1
+base + unedited MLP λ = 0.75,first,ifeval_1322,detectable_format:title,1,1,1,eos,426,1
+base + unedited MLP λ = 0.75,first,ifeval_1325,startend:quotation;detectable_format:number_bullet_lists,0,1,2,eos,844,1
+base + unedited MLP λ = 0.75,first,ifeval_1332,combination:two_responses,0,0,1,eos,519,1
+base + unedited MLP λ = 0.75,first,ifeval_1342,keywords:frequency;detectable_format:number_highlighted_sections;length_constraints:number_paragraphs,0,1,3,eos,657,1
+base + unedited MLP λ = 0.75,first,ifeval_1348,punctuation:no_comma;detectable_format:number_highlighted_sections;keywords:existence,0,1,3,eos,253,1
+base + unedited MLP λ = 0.75,first,ifeval_136,detectable_format:number_bullet_lists;length_constraints:number_words,0,1,2,eos,984,1
+base + unedited MLP λ = 0.75,first,ifeval_1361,change_case:english_lowercase,1,1,1,eos,455,1
+base + unedited MLP λ = 0.75,first,ifeval_1367,detectable_content:postscript,1,1,1,eos,992,1
+base + unedited MLP λ = 0.75,first,ifeval_1372,detectable_content:number_placeholders,0,0,1,eos,787,1
+base + unedited MLP λ = 0.75,first,ifeval_1375,length_constraints:number_paragraphs;keywords:existence,0,1,2,eos,1173,1
+base + unedited MLP λ = 0.75,first,ifeval_1377,length_constraints:number_paragraphs,0,0,1,eos,1314,1
+base + unedited MLP λ = 0.75,first,ifeval_1379,detectable_format:number_highlighted_sections;keywords:frequency;keywords:existence,0,2,3,eos,369,1
+base + unedited MLP λ = 0.75,first,ifeval_1381,length_constraints:number_sentences,0,0,1,eos,306,1
+base + unedited MLP λ = 0.75,first,ifeval_1389,change_case:english_capital;keywords:letter_frequency,0,1,2,eos,296,1
+base + unedited MLP λ = 0.75,first,ifeval_1392,detectable_format:title;length_constraints:number_sentences;length_constraints:number_words,0,1,3,eos,5950,1
+base + unedited MLP λ = 0.75,first,ifeval_1393,keywords:frequency,0,0,1,eos,747,1
+base + unedited MLP λ = 0.75,first,ifeval_1402,keywords:letter_frequency;keywords:forbidden_words,1,2,2,eos,625,1
+base + unedited MLP λ = 0.75,first,ifeval_1418,punctuation:no_comma;length_constraints:number_sentences;length_constraints:number_sentences,0,2,3,eos,2730,1
+base + unedited MLP λ = 0.75,first,ifeval_142,startend:quotation;keywords:frequency;keywords:existence,0,2,3,eos,2627,1
+base + unedited MLP λ = 0.75,first,ifeval_143,length_constraints:number_paragraphs;detectable_content:postscript,0,1,2,eos,2905,1
+base + unedited MLP λ = 0.75,first,ifeval_1436,change_case:english_lowercase;keywords:forbidden_words,0,0,2,eos,615,1
+base + unedited MLP λ = 0.75,first,ifeval_1446,startend:end_checker,1,1,1,eos,645,1
+base + unedited MLP λ = 0.75,first,ifeval_1466,startend:quotation;keywords:forbidden_words,1,2,2,eos,1060,1
+base + unedited MLP λ = 0.75,first,ifeval_1476,keywords:forbidden_words;length_constraints:number_sentences,1,2,2,eos,866,1
+base + unedited MLP λ = 0.75,first,ifeval_1477,language:response_language,1,1,1,eos,745,1
+base + unedited MLP λ = 0.75,first,ifeval_1480,combination:repeat_prompt,0,0,1,eos,434,1
+base + unedited MLP λ = 0.75,first,ifeval_1481,detectable_format:multiple_sections;detectable_format:number_bullet_lists,0,1,2,eos,290,1
+base + unedited MLP λ = 0.75,first,ifeval_1498,keywords:frequency,0,0,1,eos,1089,1
+base + unedited MLP λ = 0.75,first,ifeval_1508,keywords:existence;punctuation:no_comma,0,1,2,eos,514,1
+base + unedited MLP λ = 0.75,first,ifeval_1512,detectable_content:number_placeholders;punctuation:no_comma,1,2,2,eos,557,1
+base + unedited MLP λ = 0.75,first,ifeval_1516,change_case:english_lowercase;keywords:existence,0,0,2,eos,4727,1
+base + unedited MLP λ = 0.75,first,ifeval_1518,combination:repeat_prompt,0,0,1,eos,515,1
+base + unedited MLP λ = 0.75,first,ifeval_152,change_case:english_lowercase;length_constraints:number_words,0,1,2,eos,1527,1
+base + unedited MLP λ = 0.75,first,ifeval_1531,keywords:existence,0,0,1,eos,1418,1
+base + unedited MLP λ = 0.75,first,ifeval_1535,change_case:english_lowercase;length_constraints:number_sentences,1,2,2,eos,332,1
+base + unedited MLP λ = 0.75,first,ifeval_1537,detectable_content:postscript,1,1,1,eos,530,1
+base + unedited MLP λ = 0.75,first,ifeval_1546,combination:repeat_prompt;punctuation:no_comma,0,1,2,eos,1969,1
+base + unedited MLP λ = 0.75,first,ifeval_1548,detectable_format:multiple_sections,1,1,1,eos,891,1
+base + unedited MLP λ = 0.75,first,ifeval_1551,detectable_format:title,1,1,1,eos,893,1
+base + unedited MLP λ = 0.75,first,ifeval_1561,combination:repeat_prompt;detectable_format:title,0,0,2,eos,322,1
+base + unedited MLP λ = 0.75,first,ifeval_1566,change_case:english_capital,0,0,1,eos,855,1
+base + unedited MLP λ = 0.75,first,ifeval_1571,keywords:frequency;change_case:english_lowercase;keywords:existence,0,2,3,eos,458,1
+base + unedited MLP λ = 0.75,first,ifeval_1580,keywords:forbidden_words,0,0,1,eos,542,1
+base + unedited MLP λ = 0.75,first,ifeval_1582,combination:two_responses;language:response_language;punctuation:no_comma,0,1,3,eos,424,1
+base + unedited MLP λ = 0.75,first,ifeval_1591,combination:two_responses,1,1,1,eos,331,1
+base + unedited MLP λ = 0.75,first,ifeval_1592,change_case:capital_word_frequency,1,1,1,eos,337,1
+base + unedited MLP λ = 0.75,first,ifeval_1593,change_case:english_lowercase,1,1,1,eos,446,1
+base + unedited MLP λ = 0.75,first,ifeval_16,detectable_format:title;combination:repeat_prompt,1,2,2,eos,526,1
+base + unedited MLP λ = 0.75,first,ifeval_1601,detectable_format:number_highlighted_sections;length_constraints:number_words,0,0,2,eos,2555,1
+base + unedited MLP λ = 0.75,first,ifeval_1609,length_constraints:nth_paragraph_first_word;startend:quotation,0,0,2,limit,32768,0
+base + unedited MLP λ = 0.75,first,ifeval_1619,detectable_content:postscript;detectable_content:number_placeholders,1,2,2,eos,613,1
+base + unedited MLP λ = 0.75,first,ifeval_1620,detectable_content:postscript,1,1,1,eos,596,1
+base + unedited MLP λ = 0.75,first,ifeval_1627,combination:repeat_prompt;detectable_format:title;punctuation:no_comma,0,1,3,eos,1656,1
+base + unedited MLP λ = 0.75,first,ifeval_1629,keywords:forbidden_words,1,1,1,eos,346,1
+base + unedited MLP λ = 0.75,first,ifeval_163,startend:quotation;keywords:letter_frequency,0,1,2,eos,427,1
+base + unedited MLP λ = 0.75,first,ifeval_1634,detectable_format:number_bullet_lists,1,1,1,eos,305,1
+base + unedited MLP λ = 0.75,first,ifeval_164,length_constraints:number_words,1,1,1,eos,443,1
+base + unedited MLP λ = 0.5,first,ifeval_1000,punctuation:no_comma;detectable_format:number_highlighted_sections;length_constraints:number_words,0,0,3,eos,1346,1
+base + unedited MLP λ = 0.5,first,ifeval_1001,punctuation:no_comma,0,0,1,eos,1616,1
+base + unedited MLP λ = 0.5,first,ifeval_1005,detectable_content:number_placeholders,1,1,1,eos,678,1
+base + unedited MLP λ = 0.5,first,ifeval_1012,combination:repeat_prompt;detectable_format:title,0,1,2,eos,264,1
+base + unedited MLP λ = 0.5,first,ifeval_1019,change_case:english_lowercase,1,1,1,eos,2262,1
+base + unedited MLP λ = 0.5,first,ifeval_102,detectable_format:number_bullet_lists,1,1,1,eos,245,1
+base + unedited MLP λ = 0.5,first,ifeval_1021,change_case:english_capital;detectable_format:multiple_sections,0,0,2,eos,1208,1
+base + unedited MLP λ = 0.5,first,ifeval_1040,change_case:capital_word_frequency;change_case:capital_word_frequency;startend:quotation,0,2,3,eos,1798,1
+base + unedited MLP λ = 0.5,first,ifeval_1051,change_case:english_lowercase,1,1,1,eos,229,1
+base + unedited MLP λ = 0.5,first,ifeval_1069,keywords:existence;length_constraints:number_words;punctuation:no_comma,0,0,3,eos,685,1
+base + unedited MLP λ = 0.5,first,ifeval_1072,length_constraints:number_words,1,1,1,eos,968,1
+base + unedited MLP λ = 0.5,first,ifeval_1075,detectable_format:json_format,1,1,1,eos,635,1
+base + unedited MLP λ = 0.5,first,ifeval_1082,length_constraints:number_paragraphs,1,1,1,eos,502,1
+base + unedited MLP λ = 0.5,first,ifeval_1087,change_case:english_lowercase,1,1,1,eos,451,1
+base + unedited MLP λ = 0.5,first,ifeval_1092,length_constraints:number_words,1,1,1,eos,331,1
+base + unedited MLP λ = 0.5,first,ifeval_1094,detectable_format:json_format,1,1,1,eos,521,1
+base + unedited MLP λ = 0.5,first,ifeval_1098,combination:two_responses,1,1,1,eos,437,1
+base + unedited MLP λ = 0.5,first,ifeval_1107,punctuation:no_comma;combination:two_responses,0,1,2,eos,918,1
+base + unedited MLP λ = 0.5,first,ifeval_1108,language:response_language,1,1,1,eos,672,1
+base + unedited MLP λ = 0.5,first,ifeval_1122,change_case:english_lowercase;keywords:letter_frequency,0,0,2,eos,199,1
+base + unedited MLP λ = 0.5,first,ifeval_1127,detectable_format:multiple_sections;startend:end_checker,0,1,2,eos,406,1
+base + unedited MLP λ = 0.5,first,ifeval_1128,startend:end_checker,0,0,1,eos,241,1
+base + unedited MLP λ = 0.5,first,ifeval_1129,keywords:letter_frequency;combination:repeat_prompt,0,1,2,eos,616,1
+base + unedited MLP λ = 0.5,first,ifeval_1130,keywords:letter_frequency,0,0,1,eos,7570,1
+base + unedited MLP λ = 0.5,first,ifeval_1131,detectable_format:multiple_sections,0,0,1,eos,608,1
+base + unedited MLP λ = 0.5,first,ifeval_1132,change_case:english_capital;keywords:forbidden_words,0,1,2,eos,1241,1
+base + unedited MLP λ = 0.5,first,ifeval_1137,detectable_format:json_format;keywords:forbidden_words,0,1,2,eos,462,1
+base + unedited MLP λ = 0.5,first,ifeval_1139,combination:repeat_prompt;keywords:existence,0,0,2,eos,183,1
+base + unedited MLP λ = 0.5,first,ifeval_1147,keywords:forbidden_words,0,0,1,eos,189,1
+base + unedited MLP λ = 0.5,first,ifeval_1148,detectable_format:json_format,1,1,1,eos,472,1
+base + unedited MLP λ = 0.5,first,ifeval_1153,change_case:english_lowercase;keywords:frequency,1,2,2,eos,234,1
+base + unedited MLP λ = 0.5,first,ifeval_1154,language:response_language,0,0,1,loop_abbruch,4097,1
+base + unedited MLP λ = 0.5,first,ifeval_1162,punctuation:no_comma,0,0,1,eos,255,1
+base + unedited MLP λ = 0.5,first,ifeval_1174,keywords:letter_frequency;length_constraints:number_sentences;detectable_format:number_highlighted_sections,0,2,3,eos,210,1
+base + unedited MLP λ = 0.5,first,ifeval_1180,combination:two_responses;detectable_format:title,1,2,2,eos,958,1
+base + unedited MLP λ = 0.5,first,ifeval_1187,punctuation:no_comma,1,1,1,eos,1117,1
+base + unedited MLP λ = 0.5,first,ifeval_1203,keywords:frequency;keywords:frequency,0,0,2,eos,764,1
+base + unedited MLP λ = 0.5,first,ifeval_1216,startend:quotation;length_constraints:number_words,0,1,2,eos,1515,1
+base + unedited MLP λ = 0.5,first,ifeval_1217,length_constraints:number_words,1,1,1,eos,311,1
+base + unedited MLP λ = 0.5,first,ifeval_1219,change_case:english_capital;detectable_content:postscript;keywords:frequency,1,3,3,eos,1738,1
+base + unedited MLP λ = 0.5,first,ifeval_122,startend:quotation,1,1,1,eos,598,1
+base + unedited MLP λ = 0.5,first,ifeval_1220,startend:end_checker,1,1,1,eos,354,1
+base + unedited MLP λ = 0.5,first,ifeval_1233,startend:end_checker;keywords:frequency,0,1,2,eos,2104,1
+base + unedited MLP λ = 0.5,first,ifeval_1236,length_constraints:number_paragraphs,1,1,1,eos,571,1
+base + unedited MLP λ = 0.5,first,ifeval_1237,detectable_format:number_highlighted_sections;keywords:existence,1,2,2,eos,496,1
+base + unedited MLP λ = 0.5,first,ifeval_1242,detectable_format:json_format;keywords:forbidden_words,0,1,2,eos,588,1
+base + unedited MLP λ = 0.5,first,ifeval_1246,detectable_content:postscript,1,1,1,eos,698,1
+base + unedited MLP λ = 0.5,first,ifeval_1248,length_constraints:number_paragraphs,0,0,1,eos,762,1
+base + unedited MLP λ = 0.5,first,ifeval_1251,length_constraints:number_words,1,1,1,eos,860,1
+base + unedited MLP λ = 0.5,first,ifeval_1258,length_constraints:number_words,1,1,1,eos,1171,1
+base + unedited MLP λ = 0.5,first,ifeval_1259,language:response_language,0,0,1,eos,182,1
+base + unedited MLP λ = 0.5,first,ifeval_1262,detectable_format:title;length_constraints:number_sentences,0,1,2,eos,295,1
+base + unedited MLP λ = 0.5,first,ifeval_1265,keywords:existence;length_constraints:number_sentences,1,2,2,eos,918,1
+base + unedited MLP λ = 0.5,first,ifeval_1268,length_constraints:number_sentences,0,0,1,eos,212,1
+base + unedited MLP λ = 0.5,first,ifeval_127,keywords:forbidden_words;keywords:frequency,0,1,2,eos,629,1
+base + unedited MLP λ = 0.5,first,ifeval_1281,combination:repeat_prompt;keywords:existence,0,1,2,eos,358,1
+base + unedited MLP λ = 0.5,first,ifeval_1286,detectable_format:number_bullet_lists,0,0,1,eos,617,1
+base + unedited MLP λ = 0.5,first,ifeval_1287,detectable_format:number_bullet_lists;change_case:english_lowercase,1,2,2,eos,279,1
+base + unedited MLP λ = 0.5,first,ifeval_13,detectable_format:json_format,1,1,1,eos,1841,1
+base + unedited MLP λ = 0.5,first,ifeval_1300,punctuation:no_comma;keywords:letter_frequency;length_constraints:number_words,0,1,3,eos,2554,1
+base + unedited MLP λ = 0.5,first,ifeval_1305,detectable_content:postscript;detectable_format:number_bullet_lists,0,1,2,eos,450,1
+base + unedited MLP λ = 0.5,first,ifeval_1307,detectable_format:number_highlighted_sections,1,1,1,eos,778,1
+base + unedited MLP λ = 0.5,first,ifeval_1314,change_case:capital_word_frequency;change_case:capital_word_frequency,1,2,2,eos,1549,1
+base + unedited MLP λ = 0.5,first,ifeval_1322,detectable_format:title,1,1,1,eos,915,1
+base + unedited MLP λ = 0.5,first,ifeval_1325,startend:quotation;detectable_format:number_bullet_lists,0,1,2,eos,409,1
+base + unedited MLP λ = 0.5,first,ifeval_1332,combination:two_responses,0,0,1,limit,32768,0
+base + unedited MLP λ = 0.5,first,ifeval_1342,keywords:frequency;detectable_format:number_highlighted_sections;length_constraints:number_paragraphs,0,2,3,eos,603,1
+base + unedited MLP λ = 0.5,first,ifeval_1348,punctuation:no_comma;detectable_format:number_highlighted_sections;keywords:existence,0,1,3,eos,1276,1
+base + unedited MLP λ = 0.5,first,ifeval_136,detectable_format:number_bullet_lists;length_constraints:number_words,0,1,2,eos,340,1
+base + unedited MLP λ = 0.5,first,ifeval_1361,change_case:english_lowercase,1,1,1,eos,301,1
+base + unedited MLP λ = 0.5,first,ifeval_1367,detectable_content:postscript,1,1,1,eos,1166,1
+base + unedited MLP λ = 0.5,first,ifeval_1372,detectable_content:number_placeholders,0,0,1,eos,801,1
+base + unedited MLP λ = 0.5,first,ifeval_1375,length_constraints:number_paragraphs;keywords:existence,0,0,2,eos,953,1
+base + unedited MLP λ = 0.5,first,ifeval_1377,length_constraints:number_paragraphs,0,0,1,eos,1161,1
+base + unedited MLP λ = 0.5,first,ifeval_1379,detectable_format:number_highlighted_sections;keywords:frequency;keywords:existence,0,2,3,eos,247,1
+base + unedited MLP λ = 0.5,first,ifeval_1381,length_constraints:number_sentences,0,0,1,eos,264,1
+base + unedited MLP λ = 0.5,first,ifeval_1389,change_case:english_capital;keywords:letter_frequency,0,1,2,eos,4143,1
+base + unedited MLP λ = 0.5,first,ifeval_1392,detectable_format:title;length_constraints:number_sentences;length_constraints:number_words,0,2,3,eos,759,1
+base + unedited MLP λ = 0.5,first,ifeval_1393,keywords:frequency,0,0,1,eos,698,1
+base + unedited MLP λ = 0.5,first,ifeval_1402,keywords:letter_frequency;keywords:forbidden_words,1,2,2,eos,324,1
+base + unedited MLP λ = 0.5,first,ifeval_1418,punctuation:no_comma;length_constraints:number_sentences;length_constraints:number_sentences,0,2,3,eos,3618,1
+base + unedited MLP λ = 0.5,first,ifeval_142,startend:quotation;keywords:frequency;keywords:existence,0,2,3,eos,224,1
+base + unedited MLP λ = 0.5,first,ifeval_143,length_constraints:number_paragraphs;detectable_content:postscript,0,1,2,eos,4345,1
+base + unedited MLP λ = 0.5,first,ifeval_1436,change_case:english_lowercase;keywords:forbidden_words,0,0,2,eos,756,1
+base + unedited MLP λ = 0.5,first,ifeval_1446,startend:end_checker,1,1,1,eos,678,1
+base + unedited MLP λ = 0.5,first,ifeval_1466,startend:quotation;keywords:forbidden_words,0,1,2,eos,589,1
+base + unedited MLP λ = 0.5,first,ifeval_1476,keywords:forbidden_words;length_constraints:number_sentences,1,2,2,eos,218,1
+base + unedited MLP λ = 0.5,first,ifeval_1477,language:response_language,1,1,1,eos,700,1
+base + unedited MLP λ = 0.5,first,ifeval_1480,combination:repeat_prompt,0,0,1,eos,221,1
+base + unedited MLP λ = 0.5,first,ifeval_1481,detectable_format:multiple_sections;detectable_format:number_bullet_lists,0,0,2,eos,299,1
+base + unedited MLP λ = 0.5,first,ifeval_1498,keywords:frequency,0,0,1,eos,729,1
+base + unedited MLP λ = 0.5,first,ifeval_1508,keywords:existence;punctuation:no_comma,0,0,2,eos,206,1
+base + unedited MLP λ = 0.5,first,ifeval_1512,detectable_content:number_placeholders;punctuation:no_comma,1,2,2,eos,680,1
+base + unedited MLP λ = 0.5,first,ifeval_1516,change_case:english_lowercase;keywords:existence,0,0,2,eos,246,1
+base + unedited MLP λ = 0.5,first,ifeval_1518,combination:repeat_prompt,0,0,1,eos,1406,1
+base + unedited MLP λ = 0.5,first,ifeval_152,change_case:english_lowercase;length_constraints:number_words,0,0,2,eos,1141,1
+base + unedited MLP λ = 0.5,first,ifeval_1531,keywords:existence,1,1,1,eos,1255,1
+base + unedited MLP λ = 0.5,first,ifeval_1535,change_case:english_lowercase;length_constraints:number_sentences,1,2,2,eos,1330,1
+base + unedited MLP λ = 0.5,first,ifeval_1537,detectable_content:postscript,1,1,1,eos,379,1
+base + unedited MLP λ = 0.5,first,ifeval_1546,combination:repeat_prompt;punctuation:no_comma,0,1,2,eos,759,1
+base + unedited MLP λ = 0.5,first,ifeval_1548,detectable_format:multiple_sections,1,1,1,eos,626,1
+base + unedited MLP λ = 0.5,first,ifeval_1551,detectable_format:title,1,1,1,eos,1011,1
+base + unedited MLP λ = 0.5,first,ifeval_1561,combination:repeat_prompt;detectable_format:title,0,1,2,eos,936,1
+base + unedited MLP λ = 0.5,first,ifeval_1566,change_case:english_capital,0,0,1,eos,937,1
+base + unedited MLP λ = 0.5,first,ifeval_1571,keywords:frequency;change_case:english_lowercase;keywords:existence,1,3,3,eos,334,1
+base + unedited MLP λ = 0.5,first,ifeval_1580,keywords:forbidden_words,1,1,1,eos,622,1
+base + unedited MLP λ = 0.5,first,ifeval_1582,combination:two_responses;language:response_language;punctuation:no_comma,0,1,3,eos,1317,1
+base + unedited MLP λ = 0.5,first,ifeval_1591,combination:two_responses,1,1,1,eos,317,1
+base + unedited MLP λ = 0.5,first,ifeval_1592,change_case:capital_word_frequency,1,1,1,eos,283,1
+base + unedited MLP λ = 0.5,first,ifeval_1593,change_case:english_lowercase,1,1,1,eos,282,1
+base + unedited MLP λ = 0.5,first,ifeval_16,detectable_format:title;combination:repeat_prompt,1,2,2,eos,973,1
+base + unedited MLP λ = 0.5,first,ifeval_1601,detectable_format:number_highlighted_sections;length_constraints:number_words,0,1,2,eos,234,1
+base + unedited MLP λ = 0.5,first,ifeval_1609,length_constraints:nth_paragraph_first_word;startend:quotation,0,1,2,eos,285,1
+base + unedited MLP λ = 0.5,first,ifeval_1619,detectable_content:postscript;detectable_content:number_placeholders,0,0,2,eos,716,1
+base + unedited MLP λ = 0.5,first,ifeval_1620,detectable_content:postscript,1,1,1,eos,365,1
+base + unedited MLP λ = 0.5,first,ifeval_1627,combination:repeat_prompt;detectable_format:title;punctuation:no_comma,0,1,3,eos,348,1
+base + unedited MLP λ = 0.5,first,ifeval_1629,keywords:forbidden_words,1,1,1,eos,286,1
+base + unedited MLP λ = 0.5,first,ifeval_163,startend:quotation;keywords:letter_frequency,0,1,2,loop_abbruch,4096,1
+base + unedited MLP λ = 0.5,first,ifeval_1634,detectable_format:number_bullet_lists,1,1,1,eos,271,1
+base + unedited MLP λ = 0.5,first,ifeval_164,length_constraints:number_words,1,1,1,eos,353,1
+base + unedited MLP λ = 0.25,first,ifeval_1000,punctuation:no_comma;detectable_format:number_highlighted_sections;length_constraints:number_words,0,1,3,eos,528,1
+base + unedited MLP λ = 0.25,first,ifeval_1001,punctuation:no_comma,0,0,1,eos,1692,1
+base + unedited MLP λ = 0.25,first,ifeval_1005,detectable_content:number_placeholders,1,1,1,eos,655,1
+base + unedited MLP λ = 0.25,first,ifeval_1012,combination:repeat_prompt;detectable_format:title,0,1,2,eos,213,1
+base + unedited MLP λ = 0.25,first,ifeval_1019,change_case:english_lowercase,1,1,1,eos,408,1
+base + unedited MLP λ = 0.25,first,ifeval_102,detectable_format:number_bullet_lists,0,0,1,eos,441,1
+base + unedited MLP λ = 0.25,first,ifeval_1021,change_case:english_capital;detectable_format:multiple_sections,0,0,2,eos,1159,1
+base + unedited MLP λ = 0.25,first,ifeval_1040,change_case:capital_word_frequency;change_case:capital_word_frequency;startend:quotation,0,2,3,eos,1547,1
+base + unedited MLP λ = 0.25,first,ifeval_1051,change_case:english_lowercase,0,0,1,eos,129,1
+base + unedited MLP λ = 0.25,first,ifeval_1069,keywords:existence;length_constraints:number_words;punctuation:no_comma,0,0,3,eos,520,1
+base + unedited MLP λ = 0.25,first,ifeval_1072,length_constraints:number_words,1,1,1,eos,675,1
+base + unedited MLP λ = 0.25,first,ifeval_1075,detectable_format:json_format,0,0,1,eos,1427,1
+base + unedited MLP λ = 0.25,first,ifeval_1082,length_constraints:number_paragraphs,0,0,1,eos,335,1
+base + unedited MLP λ = 0.25,first,ifeval_1087,change_case:english_lowercase,0,0,1,eos,686,1
+base + unedited MLP λ = 0.25,first,ifeval_1092,length_constraints:number_words,1,1,1,eos,353,1
+base + unedited MLP λ = 0.25,first,ifeval_1094,detectable_format:json_format,1,1,1,eos,431,1
+base + unedited MLP λ = 0.25,first,ifeval_1098,combination:two_responses,1,1,1,eos,395,1
+base + unedited MLP λ = 0.25,first,ifeval_1107,punctuation:no_comma;combination:two_responses,0,1,2,eos,1124,1
+base + unedited MLP λ = 0.25,first,ifeval_1108,language:response_language,0,0,1,eos,491,1
+base + unedited MLP λ = 0.25,first,ifeval_1122,change_case:english_lowercase;keywords:letter_frequency,0,0,2,eos,162,1
+base + unedited MLP λ = 0.25,first,ifeval_1127,detectable_format:multiple_sections;startend:end_checker,0,0,2,eos,517,1
+base + unedited MLP λ = 0.25,first,ifeval_1128,startend:end_checker,0,0,1,eos,163,1
+base + unedited MLP λ = 0.25,first,ifeval_1129,keywords:letter_frequency;combination:repeat_prompt,0,0,2,eos,268,1
+base + unedited MLP λ = 0.25,first,ifeval_1130,keywords:letter_frequency,0,0,1,eos,2205,1
+base + unedited MLP λ = 0.25,first,ifeval_1131,detectable_format:multiple_sections,1,1,1,eos,798,1
+base + unedited MLP λ = 0.25,first,ifeval_1132,change_case:english_capital;keywords:forbidden_words,1,2,2,eos,999,1
+base + unedited MLP λ = 0.25,first,ifeval_1137,detectable_format:json_format;keywords:forbidden_words,0,1,2,eos,817,1
+base + unedited MLP λ = 0.25,first,ifeval_1139,combination:repeat_prompt;keywords:existence,0,1,2,eos,1051,1
+base + unedited MLP λ = 0.25,first,ifeval_1147,keywords:forbidden_words,0,0,1,eos,448,1
+base + unedited MLP λ = 0.25,first,ifeval_1148,detectable_format:json_format,1,1,1,eos,282,1
+base + unedited MLP λ = 0.25,first,ifeval_1153,change_case:english_lowercase;keywords:frequency,1,2,2,eos,803,1
+base + unedited MLP λ = 0.25,first,ifeval_1154,language:response_language,0,0,1,eos,5301,1
+base + unedited MLP λ = 0.25,first,ifeval_1162,punctuation:no_comma,1,1,1,eos,2282,1
+base + unedited MLP λ = 0.25,first,ifeval_1174,keywords:letter_frequency;length_constraints:number_sentences;detectable_format:number_highlighted_sections,0,2,3,eos,234,1
+base + unedited MLP λ = 0.25,first,ifeval_1180,combination:two_responses;detectable_format:title,1,2,2,eos,3961,1
+base + unedited MLP λ = 0.25,first,ifeval_1187,punctuation:no_comma,1,1,1,eos,470,1
+base + unedited MLP λ = 0.25,first,ifeval_1203,keywords:frequency;keywords:frequency,1,2,2,eos,816,1
+base + unedited MLP λ = 0.25,first,ifeval_1216,startend:quotation;length_constraints:number_words,0,1,2,eos,1234,1
+base + unedited MLP λ = 0.25,first,ifeval_1217,length_constraints:number_words,1,1,1,eos,196,1
+base + unedited MLP λ = 0.25,first,ifeval_1219,change_case:english_capital;detectable_content:postscript;keywords:frequency,0,1,3,eos,1428,1
+base + unedited MLP λ = 0.25,first,ifeval_122,startend:quotation,0,0,1,eos,706,1
+base + unedited MLP λ = 0.25,first,ifeval_1220,startend:end_checker,1,1,1,eos,331,1
+base + unedited MLP λ = 0.25,first,ifeval_1233,startend:end_checker;keywords:frequency,0,1,2,eos,1198,1
+base + unedited MLP λ = 0.25,first,ifeval_1236,length_constraints:number_paragraphs,0,0,1,eos,521,1
+base + unedited MLP λ = 0.25,first,ifeval_1237,detectable_format:number_highlighted_sections;keywords:existence,0,1,2,eos,763,1
+base + unedited MLP λ = 0.25,first,ifeval_1242,detectable_format:json_format;keywords:forbidden_words,0,1,2,eos,602,1
+base + unedited MLP λ = 0.25,first,ifeval_1246,detectable_content:postscript,1,1,1,eos,670,1
+base + unedited MLP λ = 0.25,first,ifeval_1248,length_constraints:number_paragraphs,1,1,1,eos,394,1
+base + unedited MLP λ = 0.25,first,ifeval_1251,length_constraints:number_words,1,1,1,eos,818,1
+base + unedited MLP λ = 0.25,first,ifeval_1258,length_constraints:number_words,1,1,1,eos,1037,1
+base + unedited MLP λ = 0.25,first,ifeval_1259,language:response_language,0,0,1,loop_abbruch,4608,0
+base + unedited MLP λ = 0.25,first,ifeval_1262,detectable_format:title;length_constraints:number_sentences,0,1,2,eos,960,1
+base + unedited MLP λ = 0.25,first,ifeval_1265,keywords:existence;length_constraints:number_sentences,0,1,2,eos,796,1
+base + unedited MLP λ = 0.25,first,ifeval_1268,length_constraints:number_sentences,1,1,1,eos,229,1
+base + unedited MLP λ = 0.25,first,ifeval_127,keywords:forbidden_words;keywords:frequency,1,2,2,eos,710,1
+base + unedited MLP λ = 0.25,first,ifeval_1281,combination:repeat_prompt;keywords:existence,0,1,2,eos,246,1
+base + unedited MLP λ = 0.25,first,ifeval_1286,detectable_format:number_bullet_lists,1,1,1,eos,469,1
+base + unedited MLP λ = 0.25,first,ifeval_1287,detectable_format:number_bullet_lists;change_case:english_lowercase,1,2,2,eos,548,1
+base + unedited MLP λ = 0.25,first,ifeval_13,detectable_format:json_format,1,1,1,eos,596,1
+base + unedited MLP λ = 0.25,first,ifeval_1300,punctuation:no_comma;keywords:letter_frequency;length_constraints:number_words,0,0,3,eos,3207,1
+base + unedited MLP λ = 0.25,first,ifeval_1305,detectable_content:postscript;detectable_format:number_bullet_lists,0,1,2,eos,224,1
+base + unedited MLP λ = 0.25,first,ifeval_1307,detectable_format:number_highlighted_sections,0,0,1,eos,1210,1
+base + unedited MLP λ = 0.25,first,ifeval_1314,change_case:capital_word_frequency;change_case:capital_word_frequency,1,2,2,eos,1108,1
+base + unedited MLP λ = 0.25,first,ifeval_1322,detectable_format:title,1,1,1,eos,876,1
+base + unedited MLP λ = 0.25,first,ifeval_1325,startend:quotation;detectable_format:number_bullet_lists,0,1,2,eos,598,1
+base + unedited MLP λ = 0.25,first,ifeval_1332,combination:two_responses,0,0,1,eos,583,1
+base + unedited MLP λ = 0.25,first,ifeval_1342,keywords:frequency;detectable_format:number_highlighted_sections;length_constraints:number_paragraphs,0,1,3,eos,520,1
+base + unedited MLP λ = 0.25,first,ifeval_1348,punctuation:no_comma;detectable_format:number_highlighted_sections;keywords:existence,0,1,3,eos,1032,1
+base + unedited MLP λ = 0.25,first,ifeval_136,detectable_format:number_bullet_lists;length_constraints:number_words,0,1,2,eos,884,1
+base + unedited MLP λ = 0.25,first,ifeval_1361,change_case:english_lowercase,0,0,1,eos,375,1
+base + unedited MLP λ = 0.25,first,ifeval_1367,detectable_content:postscript,1,1,1,eos,2490,1
+base + unedited MLP λ = 0.25,first,ifeval_1372,detectable_content:number_placeholders,0,0,1,eos,819,1
+base + unedited MLP λ = 0.25,first,ifeval_1375,length_constraints:number_paragraphs;keywords:existence,0,1,2,eos,3769,1
+base + unedited MLP λ = 0.25,first,ifeval_1377,length_constraints:number_paragraphs,0,0,1,eos,814,1
+base + unedited MLP λ = 0.25,first,ifeval_1379,detectable_format:number_highlighted_sections;keywords:frequency;keywords:existence,1,3,3,eos,279,1
+base + unedited MLP λ = 0.25,first,ifeval_1381,length_constraints:number_sentences,0,0,1,eos,421,1
+base + unedited MLP λ = 0.25,first,ifeval_1389,change_case:english_capital;keywords:letter_frequency,0,1,2,eos,1160,1
+base + unedited MLP λ = 0.25,first,ifeval_1392,detectable_format:title;length_constraints:number_sentences;length_constraints:number_words,0,2,3,eos,1496,1
+base + unedited MLP λ = 0.25,first,ifeval_1393,keywords:frequency,0,0,1,eos,441,1
+base + unedited MLP λ = 0.25,first,ifeval_1402,keywords:letter_frequency;keywords:forbidden_words,1,2,2,eos,682,1
+base + unedited MLP λ = 0.25,first,ifeval_1418,punctuation:no_comma;length_constraints:number_sentences;length_constraints:number_sentences,0,2,3,eos,1450,1
+base + unedited MLP λ = 0.25,first,ifeval_142,startend:quotation;keywords:frequency;keywords:existence,1,3,3,eos,217,1
+base + unedited MLP λ = 0.25,first,ifeval_143,length_constraints:number_paragraphs;detectable_content:postscript,0,1,2,eos,980,1
+base + unedited MLP λ = 0.25,first,ifeval_1436,change_case:english_lowercase;keywords:forbidden_words,0,0,2,eos,1300,1
+base + unedited MLP λ = 0.25,first,ifeval_1446,startend:end_checker,1,1,1,eos,433,1
+base + unedited MLP λ = 0.25,first,ifeval_1466,startend:quotation;keywords:forbidden_words,0,1,2,eos,410,1
+base + unedited MLP λ = 0.25,first,ifeval_1476,keywords:forbidden_words;length_constraints:number_sentences,1,2,2,eos,186,1
+base + unedited MLP λ = 0.25,first,ifeval_1477,language:response_language,1,1,1,eos,662,1
+base + unedited MLP λ = 0.25,first,ifeval_1480,combination:repeat_prompt,0,0,1,eos,239,1
+base + unedited MLP λ = 0.25,first,ifeval_1481,detectable_format:multiple_sections;detectable_format:number_bullet_lists,0,0,2,eos,358,1
+base + unedited MLP λ = 0.25,first,ifeval_1498,keywords:frequency,0,0,1,eos,823,1
+base + unedited MLP λ = 0.25,first,ifeval_1508,keywords:existence;punctuation:no_comma,0,0,2,loop_abbruch,4096,0
+base + unedited MLP λ = 0.25,first,ifeval_1512,detectable_content:number_placeholders;punctuation:no_comma,1,2,2,loop_abbruch,4096,1
+base + unedited MLP λ = 0.25,first,ifeval_1516,change_case:english_lowercase;keywords:existence,0,1,2,eos,224,1
+base + unedited MLP λ = 0.25,first,ifeval_1518,combination:repeat_prompt,0,0,1,eos,1338,1
+base + unedited MLP λ = 0.25,first,ifeval_152,change_case:english_lowercase;length_constraints:number_words,0,1,2,eos,1496,1
+base + unedited MLP λ = 0.25,first,ifeval_1531,keywords:existence,1,1,1,eos,1440,1
+base + unedited MLP λ = 0.25,first,ifeval_1535,change_case:english_lowercase;length_constraints:number_sentences,1,2,2,eos,437,1
+base + unedited MLP λ = 0.25,first,ifeval_1537,detectable_content:postscript,1,1,1,eos,350,1
+base + unedited MLP λ = 0.25,first,ifeval_1546,combination:repeat_prompt;punctuation:no_comma,0,1,2,eos,1296,1
+base + unedited MLP λ = 0.25,first,ifeval_1548,detectable_format:multiple_sections,0,0,1,eos,578,1
+base + unedited MLP λ = 0.25,first,ifeval_1551,detectable_format:title,1,1,1,eos,809,1
+base + unedited MLP λ = 0.25,first,ifeval_1561,combination:repeat_prompt;detectable_format:title,0,1,2,eos,386,1
+base + unedited MLP λ = 0.25,first,ifeval_1566,change_case:english_capital,0,0,1,eos,1010,1
+base + unedited MLP λ = 0.25,first,ifeval_1571,keywords:frequency;change_case:english_lowercase;keywords:existence,0,1,3,eos,325,1
+base + unedited MLP λ = 0.25,first,ifeval_1580,keywords:forbidden_words,0,0,1,eos,778,1
+base + unedited MLP λ = 0.25,first,ifeval_1582,combination:two_responses;language:response_language;punctuation:no_comma,0,1,3,eos,604,1
+base + unedited MLP λ = 0.25,first,ifeval_1591,combination:two_responses,1,1,1,eos,295,1
+base + unedited MLP λ = 0.25,first,ifeval_1592,change_case:capital_word_frequency,1,1,1,eos,260,1
+base + unedited MLP λ = 0.25,first,ifeval_1593,change_case:english_lowercase,1,1,1,eos,217,1
+base + unedited MLP λ = 0.25,first,ifeval_16,detectable_format:title;combination:repeat_prompt,1,2,2,eos,321,1
+base + unedited MLP λ = 0.25,first,ifeval_1601,detectable_format:number_highlighted_sections;length_constraints:number_words,0,1,2,eos,209,1
+base + unedited MLP λ = 0.25,first,ifeval_1609,length_constraints:nth_paragraph_first_word;startend:quotation,0,1,2,eos,1181,1
+base + unedited MLP λ = 0.25,first,ifeval_1619,detectable_content:postscript;detectable_content:number_placeholders,0,1,2,loop_abbruch,4096,1
+base + unedited MLP λ = 0.25,first,ifeval_1620,detectable_content:postscript,1,1,1,eos,340,1
+base + unedited MLP λ = 0.25,first,ifeval_1627,combination:repeat_prompt;detectable_format:title;punctuation:no_comma,0,1,3,eos,399,1
+base + unedited MLP λ = 0.25,first,ifeval_1629,keywords:forbidden_words,0,0,1,eos,360,1
+base + unedited MLP λ = 0.25,first,ifeval_163,startend:quotation;keywords:letter_frequency,1,2,2,eos,708,1
+base + unedited MLP λ = 0.25,first,ifeval_1634,detectable_format:number_bullet_lists,0,0,1,eos,339,1
+base + unedited MLP λ = 0.25,first,ifeval_164,length_constraints:number_words,1,1,1,eos,398,1

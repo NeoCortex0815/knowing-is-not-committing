@@ -1,0 +1,76 @@
+{
+ "name": "Threshold tau_F of R-MLP's own closing tendency",
+ "report": "v0.6, Section 3.21 (N64: arm RN and council BHN; N66: arm RK and council BHK)",
+ "tau_F": 1.0675266821635887e-06,
+ "signal_F": "At each value statement in the thinking before token 8,192: the model's own probability that the next token is </think>, read at each position from the last token of the value to 12 tokens later (13 positions, not beyond the measured thinking). F is the maximum of these probabilities.",
+ "rule": "2 % rule: tau_F is the smallest threshold such that at most 2 % of the wrong value statements of the development runs lie strictly above it.",
+ "fixed_before": "Derived only on earlier runs, before any result on the fresh sets F2, F3 and F4.",
+ "deadline_tokens": 8192,
+ "window_tokens_after_value": 12,
+ "development": {
+  "runs": 360,
+  "value_statements": 41798,
+  "correct": 1635,
+  "wrong": 40163,
+  "auc_F_correct_vs_wrong": 0.7943736993464172,
+  "above_tau_F": {
+   "correct": 610,
+   "wrong": 803
+  },
+  "per_set": [
+   {
+    "set": "the 50 problems (N49)",
+    "runs": 50,
+    "correct_without_bell": 23,
+    "bell_at_last_value_above_tau_F": {
+     "correct": 21,
+     "i_dont_know": 20
+    },
+    "bell_at_highest_value_above_tau_F": {
+     "correct": 20,
+     "i_dont_know": 20
+    }
+   },
+   {
+    "set": "Set B, 60 problems (N59)",
+    "runs": 60,
+    "correct_without_bell": 35,
+    "bell_at_last_value_above_tau_F": {
+     "correct": 35,
+     "i_dont_know": 13
+    },
+    "bell_at_highest_value_above_tau_F": {
+     "correct": 35,
+     "i_dont_know": 13
+    }
+   },
+   {
+    "set": "N44 set, 150 problems (N60)",
+    "runs": 150,
+    "correct_without_bell": 73,
+    "bell_at_last_value_above_tau_F": {
+     "correct": 72,
+     "i_dont_know": 30
+    },
+    "bell_at_highest_value_above_tau_F": {
+     "correct": 68,
+     "i_dont_know": 30
+    }
+   },
+   {
+    "set": "N45 set, 100 problems (N60)",
+    "runs": 100,
+    "correct_without_bell": 49,
+    "bell_at_last_value_above_tau_F": {
+     "correct": 47,
+     "i_dont_know": 20
+    },
+    "bell_at_highest_value_above_tau_F": {
+     "correct": 48,
+     "i_dont_know": 20
+    }
+   }
+  ],
+  "note": "'correct' with a bell counts runs that close before the deadline and are correct, plus runs cut at a value that is correct (no answer generated in this development step)."
+ }
+}
