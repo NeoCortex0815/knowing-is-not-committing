@@ -59,6 +59,7 @@ to what it already knows, instead of pushing it from outside; and we test whethe
 - **Questions and corrections:** please open an [issue](https://github.com/NeoCortex0815/knowing-is-not-committing/issues).
 - **License:** Apache License 2.0 (`LICENSE`, `NOTICE`).
 - **Archive and citation:** Zenodo, DOI [10.5281/zenodo.24058693](https://doi.org/10.5281/zenodo.24058693) for all versions;
+  [10.5281/zenodo.24601235](https://doi.org/10.5281/zenodo.24601235) for v0.6,
   [10.5281/zenodo.24420522](https://doi.org/10.5281/zenodo.24420522) for v0.5,
   [10.5281/zenodo.24185608](https://doi.org/10.5281/zenodo.24185608) for v0.4,
   [10.5281/zenodo.24082318](https://doi.org/10.5281/zenodo.24082318) for v0.3 and
@@ -189,7 +190,8 @@ GitHub's "Cite this repository" button reads `CITATION.cff`. In BibTeX:
 }
 ```
 
-The DOI above covers all versions. To cite a version exactly, use its version DOI: version 0.5
+The DOI above covers all versions. To cite a version exactly, use its version DOI: version 0.6
+[10.5281/zenodo.24601235](https://doi.org/10.5281/zenodo.24601235), version 0.5
 [10.5281/zenodo.24420522](https://doi.org/10.5281/zenodo.24420522), version 0.4
 [10.5281/zenodo.24185608](https://doi.org/10.5281/zenodo.24185608), version 0.3
 [10.5281/zenodo.24082318](https://doi.org/10.5281/zenodo.24082318).

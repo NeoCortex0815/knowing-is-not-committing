@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Knowing Is Not Committing – report v0.5</title>
+<title>Knowing Is Not Committing – report v0.6</title>
 <meta name="description" content="A 0.8B reasoning model often finds the correct answer in its thinking and does not deliver it. Independent replication and extension of MIT's weight-space edit on Qwen3.5-0.8B, with pre-registered tests. Report v0.5, code and data.">
 <link rel="canonical" href="https://neocortex0815.github.io/knowing-is-not-committing/">
 <link rel="icon" href="favicon.ico" sizes="32x32">
@@ -17,15 +17,15 @@
 <meta name="citation_author_orcid" content="0009-0000-6926-7000">
 <meta name="citation_publication_date" content="2026/11/21">
 <meta name="citation_online_date" content="2026/11/21">
-<meta name="citation_doi" content="10.5281/zenodo.24420522">
-<meta name="citation_pdf_url" content="https://neocortex0815.github.io/knowing-is-not-committing/Knowing_Is_Not_Committing_v0.5.pdf">
+<meta name="citation_doi" content="10.5281/zenodo.24601235">
+<meta name="citation_pdf_url" content="https://neocortex0815.github.io/knowing-is-not-committing/Knowing_Is_Not_Committing_v0.6.pdf">
 <meta name="citation_abstract_html_url" content="https://neocortex0815.github.io/knowing-is-not-committing/">
 <meta name="citation_language" content="en">
 <meta name="citation_keywords" content="reasoning models; overthinking; reasoning loops; weight-space programming; model editing; interpretability; linear probe; pre-registration; replication; Qwen3.5">
 
 <!-- Link previews -->
 <meta property="og:type" content="article">
-<meta property="og:title" content="Knowing Is Not Committing – report v0.5">
+<meta property="og:title" content="Knowing Is Not Committing – report v0.6">
 <meta property="og:description" content="A 0.8B reasoning model often finds the correct answer in its thinking and does not deliver it. Pre-registered tests, code and data.">
 <meta property="og:url" content="https://neocortex0815.github.io/knowing-is-not-committing/">
 <meta property="og:image" content="https://neocortex0815.github.io/knowing-is-not-committing/og-card.png">
@@ -42,11 +42,11 @@
   "name": "Knowing Is Not Committing: Replicating MIT's weight-space edit and programming a truth-gated reflex into a 0.8B reasoning model",
   "author": {"@type": "Person", "name": "Dave Uhlemann", "alternateName": "NeoCortex", "identifier": "https://orcid.org/0009-0000-6926-7000"},
   "datePublished": "2026-11-21",
-  "version": "0.5",
+  "version": "0.6",
   "inLanguage": "en",
-  "identifier": "https://doi.org/10.5281/zenodo.24420522",
+  "identifier": "https://doi.org/10.5281/zenodo.24601235",
   "url": "https://neocortex0815.github.io/knowing-is-not-committing/",
-  "encoding": {"@type": "MediaObject", "contentUrl": "https://neocortex0815.github.io/knowing-is-not-committing/Knowing_Is_Not_Committing_v0.5.pdf", "encodingFormat": "application/pdf"},
+  "encoding": {"@type": "MediaObject", "contentUrl": "https://neocortex0815.github.io/knowing-is-not-committing/Knowing_Is_Not_Committing_v0.6.pdf", "encodingFormat": "application/pdf"},
   "license": "https://www.apache.org/licenses/LICENSE-2.0",
   "keywords": "reasoning models, overthinking, reasoning loops, weight-space programming, model editing, interpretability, linear probe, pre-registration, replication, Qwen3.5"
 }
@@ -94,11 +94,11 @@ footer { margin-top: 3rem; padding-top: 1rem; border-top: 1px solid var(--line);
 <h1>Knowing Is Not Committing</h1>
 <p class="sub">Replicating MIT's weight-space edit and programming a truth-gated reflex into a 0.8B reasoning model</p>
 <p class="meta">Dave Uhlemann (NeoCortex), independent researcher · ORCID <a href="https://orcid.org/0009-0000-6926-7000">0009-0000-6926-7000</a><br>
-Report, version 0.5 · 21 November 2026 · not peer-reviewed · DOI <a href="https://doi.org/10.5281/zenodo.24420522">10.5281/zenodo.24420522</a></p>
+Report, version 0.6 · 27 November 2026 · not peer-reviewed · DOI <a href="https://doi.org/10.5281/zenodo.24601235">10.5281/zenodo.24601235</a></p>
 
 <ul class="links">
-  <li><a href="Knowing_Is_Not_Committing_v0.5.pdf">Report (PDF, English)</a></li>
-  <li><a href="Wissen_ist_nicht_Festlegen_v0.5.pdf">Bericht (PDF, Deutsch)</a></li>
+  <li><a href="Knowing_Is_Not_Committing_v0.6.pdf">Report (PDF, English)</a></li>
+  <li><a href="Wissen_ist_nicht_Festlegen_v0.6.pdf">Bericht (PDF, Deutsch)</a></li>
   <li><a href="https://github.com/NeoCortex0815/knowing-is-not-committing">Code, data, pre-registration log</a></li>
   <li><a href="https://doi.org/10.5281/zenodo.24058693">Zenodo (all versions)</a></li>
   <li><a href="https://huggingface.co/NeoCortex0815/Qwen3.5-0.8B-WT-A">Model on Hugging Face (WT-A)</a></li>
@@ -146,6 +146,20 @@ Readings fixed in advance.</p>
 one-sided p = 0.026; N45 with two runs: 59 vs 49, p = 0.038; unadjusted); on the reused 150 problems the two-run form is level. Its
 token cost depends on the back room. Practical note for llama.cpp users: sampling settings alone move MIT's edit from 25 % to 55 %; the settings are in Section 2 of
 the report, the comparison in Section 3.1.</p>
+<h3 style="font: 600 1rem/1.3 'Segoe UI', system-ui, sans-serif; margin: 1.3rem 0 .3rem;">New in v0.6: a back room that may say &ldquo;I don't know&rdquo;</h3>
+<p class="meta" style="margin:0 0 .4rem">Back room: R-MLP, the post-trained model with all MLP blocks of the pre-trained base copied in, no training.
+A deadline of 8,192 thinking tokens; if no inner signal clears its threshold before it, the back room abstains. Readings fixed in advance.</p>
+<div class="tablewrap"><table class="bh">
+  <thead><tr><th>fresh problems</th><th>abstention guided by</th><th>council without bell: correct / wrong</th><th>with bell and abstention: correct / wrong / &ldquo;I don't know&rdquo;</th></tr></thead>
+  <tbody>
+    <tr><td>200 (F2, F3)</td><td>our truth probe</td><td>121 / 79</td><td>125 / 48 / 27</td></tr>
+    <tr><td>same 200, second seed</td><td>our truth probe</td><td>124 / 76</td><td>126 / 42 / 32</td></tr>
+    <tr><td>100 untouched (F4)</td><td>the model's own readiness to close</td><td>59 / 41</td><td>59 / 24 / 17</td></tr>
+  </tbody>
+</table></div>
+<p class="note">With R-MLP as back room the council beats MIT's edit on both earlier sets (83 vs 67 of 150, 59 vs 49 of 100). Stopped at the
+deadline and asked for its answer, R-MLP gains 17 problems over 300 and loses none; asked to say &ldquo;I don't know&rdquo;, it almost never does.
+Sections 3.15&ndash;3.21 of the report.</p>
 </section>
 
 <h2>Abstract</h2>
@@ -154,8 +168,11 @@ into 16 MLP neurons, and ran a series of pre-registered tests on fresh MATH prob
 long before it <em>commits</em> to it: a linear probe reads the truth inside the reasoning, yet the post-trained model delivers only a
 small part of the correct values that appear in its thinking. Without its thinking block (answer mode), the same model is strong,
 and when two independent answer-mode runs agree, most of their answers are right. Sampling settings alone move MIT's own edit
-from 25 % to 55 %. Every reading was fixed in a dated log before the run, and refuted readings are reported alongside the confirmed
-ones.</p>
+from 25 % to 55 %. Version 0.6 finds where post-training moved the model's way out of its thinking: with all MLP blocks of the
+pre-trained base copied back in, without training, it closes at its own correct answer again. With this model as back room, a deadline
+and an honest &ldquo;I don't know&rdquo;, the council gives clearly fewer wrong answers on fresh problems without a net loss of correct ones, and the
+model's own readiness to close guides this as well as an external probe. Every reading was fixed in a dated log before the run, and
+refuted readings are reported alongside the confirmed ones.</p>
 
 <h2>Findings</h2>
 <ul class="findings">
@@ -170,6 +187,11 @@ ones.</p>
   released tensors: its GatedDeltaNet part carries most of the effect. With SGNE-CC as the thinking back room, the council in its
   lean form beats MIT's edit on 100 fresh problems (59 vs 49) at about 70 % of its tokens per correct answer. At this size the better
   intervention is his, not ours.</li>
+  <li><strong>New in version 0.6.</strong> The pre-trained base leaves its thinking right after its own &ldquo;the answer is &hellip;&rdquo;, mostly at a
+  correct value; the post-trained model recognises such signs but does not act on them. Copying all MLP blocks of the base into it
+  (R-MLP, no training) brings that back, but costs instruction following. As the council's back room, with a deadline and an honest
+  &ldquo;I don't know&rdquo;, it cuts wrong answers on fresh problems (41 &rarr; 24 on 100 untouched problems, no correct answer lost), guided
+  by the model's own readiness to close.</li>
 </ul>
 
 <h2>How to cite</h2>
@@ -179,12 +201,13 @@ ones.</p>
                programming a truth-gated reflex into a 0.8{B} reasoning model},
   year      = {2026},
   publisher = {Zenodo},
-  doi       = {10.5281/zenodo.24420522},
-  url       = {https://doi.org/10.5281/zenodo.24420522},
-  note      = {Report, version 0.5. Not peer-reviewed}
+  doi       = {10.5281/zenodo.24601235},
+  url       = {https://doi.org/10.5281/zenodo.24601235},
+  note      = {Report, version 0.6. Not peer-reviewed}
 }</pre>
 <p><button class="copy" type="button" id="copy-bib">Copy BibTeX</button></p>
-<p class="meta">Earlier versions: v0.4 <a href="https://doi.org/10.5281/zenodo.24185608">10.5281/zenodo.24185608</a> ·
+<p class="meta">Earlier versions: v0.5 <a href="https://doi.org/10.5281/zenodo.24420522">10.5281/zenodo.24420522</a> ·
+v0.4 <a href="https://doi.org/10.5281/zenodo.24185608">10.5281/zenodo.24185608</a> ·
 v0.3 <a href="https://doi.org/10.5281/zenodo.24082318">10.5281/zenodo.24082318</a> ·
 v0.2 <a href="https://doi.org/10.5281/zenodo.24058694">10.5281/zenodo.24058694</a></p>
 
