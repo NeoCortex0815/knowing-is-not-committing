@@ -86,6 +86,10 @@ th { color: var(--muted); font-weight: 600; }
 .motto { font-style: italic; border-left: 3px solid var(--accent); padding: .2rem 0 .2rem 1rem; margin: 0 0 1rem; }
 button.copy { font: .85rem "Segoe UI", system-ui, sans-serif; padding: .35rem .7rem; border: 1px solid var(--line); border-radius: 6px; background: var(--box); color: var(--text); cursor: pointer; }
 @media (max-width: 34rem) { .bar { grid-template-columns: 7.5rem 1fr 3rem; } table { font-size: .78rem; } th, td { padding: .3rem .25rem; } h1 { font-size: 1.8rem; } }
+.cmp .bar { grid-template-columns: 14.5rem 1fr 4.2rem; margin: .3rem 0; }
+.setlabel { font: 600 .85rem/1.3 'Segoe UI', system-ui, sans-serif; color: var(--muted); margin: .7rem 0 .2rem; }
+.cmpt td:first-child, .nw { white-space: nowrap; }
+@media (max-width: 34rem) { .cmp .bar { grid-template-columns: 9.5rem 1fr 3.8rem; } }
 footer { margin-top: 3rem; padding-top: 1rem; border-top: 1px solid var(--line); font: .9rem/1.5 "Segoe UI", system-ui, sans-serif; color: var(--muted); }
 </style>
 </head>
@@ -146,6 +150,37 @@ Readings fixed in advance.</p>
 one-sided p = 0.026; N45 with two runs: 59 vs 49, p = 0.038; unadjusted); on the reused 150 problems the two-run form is level. Its
 token cost depends on the back room. Practical note for llama.cpp users: sampling settings alone move MIT's edit from 25 % to 55 %; the settings are in Section 2 of
 the report, the comparison in Section 3.1.</p>
+<h3 style="font: 600 1rem/1.3 'Segoe UI', system-ui, sans-serif; margin: 1.3rem 0 .3rem;">New in v0.6: R-MLP, SGNE-CC and MIT's edit on the same problems</h3>
+<p class="meta" style="margin:0 0 .4rem">R-MLP is the post-trained model with all MLP blocks of the pre-trained base copied in, no training. Thinking on;
+in the council, answer-mode runs answer first and the thinking run (the back room) decides only when they disagree (staged form).</p>
+<div class="bars cmp" role="img" aria-label="Correct answers on the 150 problems of N30 (N44 set): MIT's edit 67, SGNE-CC 62, R-MLP 73, council with SGNE-CC 78, council with R-MLP 83. On 100 fresh problems (N45 set): MIT's edit 49, SGNE-CC 52, R-MLP 49, council with SGNE-CC 61, council with R-MLP 59.">
+  <p class="setlabel">150 problems of N30 (N44 set): correct answers</p>
+  <div class="bar" title="MIT's edit alone: 67 of 150 correct, 49,089 tokens per correct answer"><span>MIT's edit alone</span><div class="track"><div class="fill" style="width:44.7%"></div></div><strong>67 / 150</strong></div>
+  <div class="bar" title="SGNE-CC alone (Igor M. Zhuk): 62 of 150 correct, 14,882 tokens per correct answer"><span>SGNE-CC alone (Igor M. Zhuk)</span><div class="track"><div class="fill" style="width:41.3%"></div></div><strong>62 / 150</strong></div>
+  <div class="bar" title="R-MLP alone (ours, no training): 73 of 150 correct, 28,351 tokens per correct answer"><span><span class="nw">R-MLP</span> alone (ours, no training)</span><div class="track"><div class="fill" style="width:48.7%"></div></div><strong>73 / 150</strong></div>
+  <div class="bar" title="council, back room SGNE-CC: 78 of 150 correct, 52,328 tokens per correct answer"><span>council, back room SGNE-CC</span><div class="track"><div class="fill" style="width:52.0%"></div></div><strong>78 / 150</strong></div>
+  <div class="bar" title="council, back room R-MLP: 83 of 150 correct, 56,353 tokens per correct answer"><span>council, back room <span class="nw">R-MLP</span></span><div class="track"><div class="fill" style="width:55.3%"></div></div><strong>83 / 150</strong></div>
+  <p class="setlabel">100 fresh problems (N45 set): correct answers</p>
+  <div class="bar" title="MIT's edit alone: 49 of 100 correct, 44,715 tokens per correct answer"><span>MIT's edit alone</span><div class="track"><div class="fill" style="width:49.0%"></div></div><strong>49 / 100</strong></div>
+  <div class="bar" title="SGNE-CC alone (Igor M. Zhuk): 52 of 100 correct, 11,736 tokens per correct answer"><span>SGNE-CC alone (Igor M. Zhuk)</span><div class="track"><div class="fill" style="width:52.0%"></div></div><strong>52 / 100</strong></div>
+  <div class="bar" title="R-MLP alone (ours, no training): 49 of 100 correct, 27,554 tokens per correct answer"><span><span class="nw">R-MLP</span> alone (ours, no training)</span><div class="track"><div class="fill" style="width:49.0%"></div></div><strong>49 / 100</strong></div>
+  <div class="bar" title="council, back room SGNE-CC: 61 of 100 correct, 35,963 tokens per correct answer"><span>council, back room SGNE-CC</span><div class="track"><div class="fill" style="width:61.0%"></div></div><strong>61 / 100</strong></div>
+  <div class="bar" title="council, back room R-MLP: 59 of 100 correct, 45,850 tokens per correct answer"><span>council, back room <span class="nw">R-MLP</span></span><div class="track"><div class="fill" style="width:59.0%"></div></div><strong>59 / 100</strong></div>
+</div>
+<div class="tablewrap"><table class="cmpt">
+  <thead><tr><th>same problems</th><th>N44 set (150): correct</th><th>tokens per correct answer</th><th>N45 set (100): correct</th><th>tokens per correct answer</th></tr></thead>
+  <tbody>
+    <tr><td>MIT's edit alone</td><td>67</td><td>49,089</td><td>49</td><td>44,715</td></tr>
+    <tr><td>SGNE-CC alone (Igor M. Zhuk)</td><td>62</td><td>14,882</td><td>52</td><td>11,736</td></tr>
+    <tr><td><span class="nw">R-MLP</span> alone (ours, no training)</td><td>73</td><td>28,351</td><td>49</td><td>27,554</td></tr>
+    <tr><td>council, back room SGNE-CC</td><td>78</td><td>52,328</td><td>61</td><td>35,963</td></tr>
+    <tr><td>council, back room <span class="nw">R-MLP</span></td><td>83</td><td>56,353</td><td>59</td><td>45,850</td></tr>
+  </tbody>
+</table></div>
+<p class="note">Readings fixed in advance: the council with R-MLP beats MIT's edit on both sets (83 vs 67, 59 vs 49) at similar tokens per correct
+answer (115 % and 103 % of MIT's). The council's tokens include its answer-mode runs. Alone, R-MLP and SGNE-CC are close (73 vs 62, 49 vs 52), and SGNE-CC needs about half of R-MLP's tokens per correct answer. The N44
+problems were known to every arm except R-MLP; the N45 problems were fresh for all. Report, Section 3.19.</p>
+
 <h3 style="font: 600 1rem/1.3 'Segoe UI', system-ui, sans-serif; margin: 1.3rem 0 .3rem;">New in v0.6: a back room that may say &ldquo;I don't know&rdquo;</h3>
 <p class="meta" style="margin:0 0 .4rem">Back room: R-MLP, the post-trained model with all MLP blocks of the pre-trained base copied in, no training.
 A deadline of 8,192 thinking tokens; if no inner signal clears its threshold before it, the back room abstains. Readings fixed in advance.</p>
